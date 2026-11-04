@@ -26,7 +26,7 @@
 - Center for American Women and Politics (CAWP), Eagleton Institute of Politics, Rutgers University. Congressional Women Candidates Database 1990–2024, 그리고 "Women Candidates 2026" 후보 목록(2026-11-05에 받은 판). CAWP 자료는 비상업적 이용을 권장하며 출처를 밝혀야 합니다(상업적 이용은 CAWP의 서면 허락 필요).
 - 위키백과 선거 문서(1990–2000년 상원, 2024년 이후 하원 경선과 상원, 2026년 하원 본선, 루이지애나 1990–1996년 일부): 비공식 자료, CC BY-SA. FEC 2024년판이 나오면 자동으로 공식 결과로 바뀝니다.
 - congress-legislators (unitedstates 프로젝트): 의원 성별·임기
-- 선거구 경계(실제 지도): Jeffrey B. Lewis, Brandon DeVine, Lincoln Pitcher, and Kenneth C. Martis. (2013) Digital Boundary Definitions of U.S. Congressional Districts, 1789-2012 (저자들이 119대 의회까지 갱신). https://github.com/JeffreyBLewis/congressional-district-boundaries (MIT), 2026-11-05 내려받음. 2026년에 선거구를 새로 그린 주는 이 자료에 아직 없습니다
+- 선거구 경계(실제 지도): Jeffrey B. Lewis, Brandon DeVine, Lincoln Pitcher, and Kenneth C. Martis. (2013) Digital Boundary Definitions of U.S. Congressional Districts, 1789-2012 (저자들이 119대 의회까지 갱신). https://github.com/JeffreyBLewis/congressional-district-boundaries (MIT), 2026-11-05 내려받음. 2026년에 선거구를 새로 그린 10개 주는 위키미디어 공용의 지도 자료("Data:{주}'s {n}th congressional district (2027–).map", CC0, 각 주 정부·의회 원본에서 옮긴 것)를 `pipeline/fetch_maps_2026.py`로 받아 `data/static/boundaries_2026/`에 둡니다(일부만 새로 그린 노스캐롤라이나·플로리다의 나머지 선거구는 2024년 경계)
 - 지역구 특징(2008–2024): 미국 인구조사국 원본 파일과 Cook 방식으로 계산한 당파 지수([여성정책 트래커](https://github.com/jongkonlee/US_gender_policy)와 같은 값)
 
 ## 구조

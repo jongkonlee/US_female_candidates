@@ -59,6 +59,20 @@ def congress_of(year):
     return (year - 1788) // 2 + 1
 
 
+NEW_DIR = os.path.join(ROOT, "data", "static", "boundaries_2026")  # pipeline/fetch_maps_2026.py
+
+
+def load_2026():
+    """2026 shapes of the states in NEW_2026 that have them: (state, district, 120, 120, geometry)"""
+    out = []
+    for st in NEW_2026:
+        p = os.path.join(NEW_DIR, f"{st}.geojson")
+        if os.path.exists(p):
+            fs = json.load(open(p))["features"]
+            out += [(st, int(ft["properties"]["d"]), LAST + 1, LAST + 1, ft["geometry"]) for ft in fs if ft.get("geometry")]
+    return out
+
+
 def load_features(lewis_dir):
     """every district shape in use in the 102nd-119th Congresses: (state, district, first, last, geometry)"""
     out = []
@@ -136,7 +150,14 @@ def save(rel, obj):
 
 def build(lewis_dir):
     feats = load_features(lewis_dir)
-    print(len(feats), "district shapes")
+    new = load_2026()
+    have_new = sorted({x[0] for x in new})
+    # a state that redrew only some districts (North Carolina, Florida 2026): its pages keep the earlier map for the
+    # others, so those keep their 119th Congress shapes
+    new_ds = {(x[0], x[1]) for x in new}
+    fill = [(st, d, LAST + 1, LAST + 1, g) for st, d, a, b, g in feats if a <= LAST <= b and st in have_new and (st, d) not in new_ds]
+    feats += new + fill
+    print(len(feats), "district shapes; 2026 shapes for", have_new, "| kept from 2024:", sorted({f"{x[0]}-{x[1]}" for x in fill}))
     gj = lambda st, d, g: dict(type="Feature", geometry=g, properties=dict(st=st, d=d))  # noqa: E731
     with tempfile.TemporaryDirectory() as tmp:
         # one frame for every file, and one set of state outlines for every year, from the 119th Congress (Census shapes)
@@ -150,8 +171,12 @@ def build(lewis_dir):
         outlines = sorted([ft["properties"]["st"], path(ft["geometry"], frame)] for ft in base)
         total = 0
         for c in range(FIRST, LAST + 2):
-            use = min(c, LAST)
-            fs = [gj(st, -1 if (c == 120 and st in NEW_2026) else d, g) for st, d, a, b, g in feats if a <= use <= b]
+            if c <= LAST:
+                fs = [gj(st, d, g) for st, d, a, b, g in feats if a <= c <= b]
+            else:  # 2026: new shapes where they exist; the 119th Congress districts elsewhere; outline only if missing
+                fs = [gj(st, d, g) for st, d, a, b, g in feats if a == b == c]
+                fs += [gj(st, -1 if st in NEW_2026 else d, g) for st, d, a, b, g in feats
+                       if a <= LAST <= b and st not in have_new]
             dist = project(fs, tmp, f"c{c}", LIGHT)
             d = sorted([ft["properties"]["st"], ft["properties"]["d"], path(ft["geometry"], frame)] for ft in dist
                        if ft["properties"]["d"] >= 0)
@@ -176,7 +201,8 @@ def build(lewis_dir):
                 n = save(f"s/{st}-{a}-{b}.json", dict(d=sorted([ft["properties"]["d"], path(ft["geometry"], frame, fine=True)] for ft in out)))
                 total += n
                 detail[st].append([a, b])
-        save("index.json", dict(w=WIDTH, h=height, first=FIRST, last=LAST + 1, detail=detail, new_2026=NEW_2026, s=outlines,
+        save("index.json", dict(w=WIDTH, h=height, first=FIRST, last=LAST + 1, detail=detail, s=outlines,
+                                new_2026=[st for st in NEW_2026 if st not in have_new], new_2026_shapes=have_new,
                                 source="Lewis, DeVine, Pitcher and Martis, Digital Boundary Definitions of U.S. Congressional Districts (GitHub, 2026-11-05)"))
         print("total", f"{total / 1024 / 1024:.1f} MB")
 

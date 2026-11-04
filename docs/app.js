@@ -241,9 +241,9 @@ async function mapIndex() { if (!MAPS.idx) MAPS.idx = await getStatic('data/maps
 async function mapCongress(c) { if (!MAPS.c[c]) MAPS.c[c] = await getStatic(`data/maps/c${c}.json`); return MAPS.c[c]; }
 async function mapDetail(st, c) {
   const idx = await mapIndex();
-  if (c > idx.last - 1 && idx.new_2026.includes(st)) return null;
-  const cc = Math.min(c, idx.last - 1);
-  const span = (idx.detail[st] || []).find(([a, b]) => a <= cc && cc <= b);
+  const spans = idx.detail[st] || [];
+  let span = spans.find(([a, b]) => a <= c && c <= b);
+  if (!span && c === idx.last && !idx.new_2026.includes(st)) span = spans.find(([a, b]) => a <= c - 1 && c - 1 <= b);  // 2026 keeps the 119th districts
   if (!span) return null;
   const k = `${st}-${span[0]}-${span[1]}`;
   if (!MAPS.s[k]) MAPS.s[k] = await getStatic(`data/maps/s/${k}.json`);
@@ -268,6 +268,8 @@ async function viewRealMap(Y, kind, layerSel, lg) {
     const missing = R.filter(r => !r.special && !drawn.has(r.race_id) && !pending.has(r.state)).map(r => `${r.state}-${r.district === 0 ? 'AL' : r.district}`);
     if (missing.length) note += ` 경계 자료에 없어 그리지 못한 선거구: ${esc(missing.join(', '))}.`;
     if (pending.size) note += ` ${S.year}년에 선거구를 새로 그린 ${pending.size}개 주(${[...pending].map(st => STATE_KO[st]).join('·')})는 새 경계 자료가 아직 없어 빗금으로 두었습니다. 이 주들은 칸 지도에서 보세요.`;
+    const fresh = c === idx.last ? (idx.new_2026_shapes || []) : [];
+    if (fresh.length) note += ` ${S.year}년에 선거구를 새로 그린 ${fresh.length}개 주(${fresh.map(st => STATE_KO[st]).join('·')})의 새 경계는 위키미디어 공용의 지도 자료(각 주 정부·의회가 낸 원본을 옮긴 것, CC0)를 썼습니다.`;
   } else {
     for (const [st, p] of idx.s) {
       const rs = R.filter(r => r.state === st).sort((a, b) => a.special - b.special);
@@ -656,7 +658,7 @@ function viewAbout() {
   <li>1990–2000년 상원, 2024년 이후 하원 경선과 상원, 2026년 하원 본선: 위키백과 선거 문서(비공식, CC BY-SA)</li>
   <li>여성 후보: Center for American Women and Politics(CAWP), Eagleton Institute of Politics, Rutgers University, Congressional Women Candidates Database ${S.idx.years[0]}–${S.idx.cawp_last_year}${listYear() ? ` · CAWP "Women Candidates ${listYear()}" 후보 목록(Congress and Statewide, ${esc(S.idx.cawp_list.downloaded)}에 내려받은 판)` : ''}</li>
   <li>의원 성별·임기: congress-legislators(unitedstates 프로젝트) · 지역구 특징(2008–2024): 인구조사국 원본 파일과 Cook 방식으로 계산한 당파 지수(여성정책 트래커와 같은 값)</li>
-  <li>실제 지도의 선거구 경계: Jeffrey B. Lewis, Brandon DeVine, Lincoln Pitcher, Kenneth C. Martis, "Digital Boundary Definitions of U.S. Congressional Districts, 1789–2012"(저자들이 119대 의회까지 갱신, GitHub, MIT 사용 허가, 2026-11-05 내려받음)</li></ul>
+  <li>실제 지도의 선거구 경계: Jeffrey B. Lewis, Brandon DeVine, Lincoln Pitcher, Kenneth C. Martis, "Digital Boundary Definitions of U.S. Congressional Districts, 1789–2012"(저자들이 119대 의회까지 갱신, GitHub, MIT 사용 허가, 2026-11-05 내려받음). 2026년에 선거구를 새로 그린 주는 위키미디어 공용 지도 자료 "Data:…congressional district (2027–).map"(CC0)</li></ul>
   <h2>성별을 정한 방법</h2><ul>
   <li>${S.idx.cawp_last_year}년까지: CAWP 명단에 있으면 여성, 없는 민주·공화 후보는 남성(CAWP는 주요 정당 경선에 이름을 올린 여성을 모두 실음)</li>
   ${listYear() ? `<li>${listYear()}년: 같은 방식으로 CAWP ${listYear()} 후보 목록을 씁니다. 다만 이 목록은 경선 기간 내내 고쳐지는 목록이라 빠진 사람이 있을 수 있어서, 목록에 없는 민주·공화 후보라도 위키백과 본인 문서가 '그녀(she)'로 쓰거나 예전 CAWP·의원 명부에 여성으로 나오면 여성으로, 이름만 여성 이름이면 '모름'으로 둡니다. 민주·공화 밖 후보는 아래 방법으로 정합니다</li>` : ''}
