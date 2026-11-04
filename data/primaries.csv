@@ -16466,13 +16466,13 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2026-H-MN-01,2026,H,MN,1,0,party,D,contested,2,0,2,0,0,,Jake Johnson,M,81.7,0.0,,81.7,0,Wikipedia
 2026-H-MN-01,2026,H,MN,1,0,party,R,contested,3,0,3,0,1,M,Brad Finstad,M,90.1,0.0,,90.1,0,Wikipedia
 2026-H-MN-02,2026,H,MN,2,0,party,D,contested,6,1,5,0,0,,Matt Little,M,47.2,0.0,16.7,47.2,1,Wikipedia
-2026-H-MN-02,2026,H,MN,2,0,party,R,uncontested,1,0,1,0,0,,Eric Pratt,M,100.0,0.0,,100.0,0,Wikipedia
+2026-H-MN-02,2026,H,MN,2,0,party,R,uncontested,2,0,2,0,0,,Eric Pratt,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-MN-03,2026,H,MN,3,0,party,D,uncontested,1,1,0,0,1,F,Kelly Morrison,F,100.0,1.0,100.0,,0,Wikipedia
 2026-H-MN-03,2026,H,MN,3,0,party,R,contested,2,0,2,0,0,,Tyler Bass,M,55.4,0.0,,55.4,0,Wikipedia
 2026-H-MN-04,2026,H,MN,4,0,party,D,contested,2,1,1,0,1,F,Betty McCollum,F,85.8,1.0,85.8,14.2,1,Wikipedia
-2026-H-MN-04,2026,H,MN,4,0,party,R,contested,3,0,3,0,0,,Paul Wikstrom,M,72.6,0.0,,72.6,0,Wikipedia
+2026-H-MN-04,2026,H,MN,4,0,party,R,contested,4,0,4,0,0,,Paul Wikstrom,M,72.6,0.0,,72.6,0,Wikipedia
 2026-H-MN-05,2026,H,MN,5,0,party,D,contested,5,4,1,0,1,F,Ilhan Omar,F,80.7,1.0,80.7,5.3,1,Wikipedia
-2026-H-MN-05,2026,H,MN,5,0,party,R,contested,4,3,1,0,0,,John Nagel,M,52.2,0.0,26.2,52.2,1,Wikipedia
+2026-H-MN-05,2026,H,MN,5,0,party,R,contested,5,3,2,0,0,,John Nagel,M,52.2,0.0,26.2,52.2,1,Wikipedia
 2026-H-MN-06,2026,H,MN,6,0,party,D,uncontested,1,0,1,0,0,,Doug Chapin,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-MN-06,2026,H,MN,6,0,party,R,contested,3,0,3,0,1,M,Tom Emmer,M,80.9,0.0,,80.9,0,Wikipedia
 2026-H-MN-07,2026,H,MN,7,0,party,D,contested,2,0,2,0,0,,Erik Osberg,M,65.7,0.0,,65.7,0,Wikipedia
