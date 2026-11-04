@@ -1,0 +1,980 @@
+{
+ "AL-1": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://www.sos.alabama.gov/alabama-votes/state-district-maps Alabama Secretary of State], converted and simplified with [https://mapshaper.org Mapshaper]",
+  "timestamp": "2026-06-19T06:30:19Z",
+  "title": "Data:Alabama's 1st congressional district (2027–).map"
+ },
+ "AL-2": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://www.sos.alabama.gov/alabama-votes/state-district-maps Alabama Secretary of State], converted and simplified with [https://mapshaper.org Mapshaper]",
+  "timestamp": "2026-06-19T06:32:18Z",
+  "title": "Data:Alabama's 2nd congressional district (2027–).map"
+ },
+ "AL-3": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://www.sos.alabama.gov/alabama-votes/state-district-maps Alabama Secretary of State], converted and simplified with [https://mapshaper.org Mapshaper]",
+  "timestamp": "2026-06-19T06:33:06Z",
+  "title": "Data:Alabama's 3rd congressional district (2027–).map"
+ },
+ "AL-4": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://www.sos.alabama.gov/alabama-votes/state-district-maps Alabama Secretary of State], converted and simplified with [https://mapshaper.org Mapshaper]",
+  "timestamp": "2026-06-19T06:33:40Z",
+  "title": "Data:Alabama's 4th congressional district (2027–).map"
+ },
+ "AL-5": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://www.sos.alabama.gov/alabama-votes/state-district-maps Alabama Secretary of State], converted and simplified with [https://mapshaper.org Mapshaper]",
+  "timestamp": "2026-06-19T06:36:13Z",
+  "title": "Data:Alabama's 5th congressional district (2027–).map"
+ },
+ "AL-6": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://www.sos.alabama.gov/alabama-votes/state-district-maps Alabama Secretary of State], converted and simplified with [https://mapshaper.org Mapshaper]",
+  "timestamp": "2026-06-19T06:37:06Z",
+  "title": "Data:Alabama's 6th congressional district (2027–).map"
+ },
+ "AL-7": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://www.sos.alabama.gov/alabama-votes/state-district-maps Alabama Secretary of State], converted and simplified with [https://mapshaper.org Mapshaper]",
+  "timestamp": "2026-06-19T06:37:55Z",
+  "title": "Data:Alabama's 7th congressional district (2027–).map"
+ },
+ "CA-1": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-29T12:37:17Z",
+  "title": "Data:California's 1st congressional district (2027–).map"
+ },
+ "CA-10": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-29T13:02:02Z",
+  "title": "Data:California's 10th congressional district (2027–).map"
+ },
+ "CA-11": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-29T13:05:04Z",
+  "title": "Data:California's 11th congressional district (2027–).map"
+ },
+ "CA-12": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T03:53:47Z",
+  "title": "Data:California's 12th congressional district (2027–).map"
+ },
+ "CA-13": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T04:09:12Z",
+  "title": "Data:California's 13th congressional district (2027–).map"
+ },
+ "CA-14": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T04:11:06Z",
+  "title": "Data:California's 14th congressional district (2027–).map"
+ },
+ "CA-15": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T04:12:55Z",
+  "title": "Data:California's 15th congressional district (2027–).map"
+ },
+ "CA-16": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T04:14:22Z",
+  "title": "Data:California's 16th congressional district (2027–).map"
+ },
+ "CA-17": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T04:19:10Z",
+  "title": "Data:California's 17th congressional district (2027–).map"
+ },
+ "CA-18": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T04:24:47Z",
+  "title": "Data:California's 18th congressional district (2027–).map"
+ },
+ "CA-19": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T04:30:08Z",
+  "title": "Data:California's 19th congressional district (2027–).map"
+ },
+ "CA-2": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-29T12:39:24Z",
+  "title": "Data:California's 2nd congressional district (2027–).map"
+ },
+ "CA-20": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T04:30:44Z",
+  "title": "Data:California's 20th congressional district (2027–).map"
+ },
+ "CA-21": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T04:31:07Z",
+  "title": "Data:California's 21st congressional district (2027–).map"
+ },
+ "CA-22": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T04:32:53Z",
+  "title": "Data:California's 22nd congressional district (2027–).map"
+ },
+ "CA-23": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T04:33:42Z",
+  "title": "Data:California's 23rd congressional district (2027–).map"
+ },
+ "CA-24": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T04:34:11Z",
+  "title": "Data:California's 24th congressional district (2027–).map"
+ },
+ "CA-25": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T04:35:32Z",
+  "title": "Data:California's 25th congressional district (2027–).map"
+ },
+ "CA-26": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T04:38:53Z",
+  "title": "Data:California's 26th congressional district (2027–).map"
+ },
+ "CA-27": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T04:39:19Z",
+  "title": "Data:California's 27th congressional district (2027–).map"
+ },
+ "CA-28": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T04:39:47Z",
+  "title": "Data:California's 28th congressional district (2027–).map"
+ },
+ "CA-29": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T04:40:16Z",
+  "title": "Data:California's 29th congressional district (2027–).map"
+ },
+ "CA-3": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-29T12:45:28Z",
+  "title": "Data:California's 3rd congressional district (2027–).map"
+ },
+ "CA-30": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T04:43:39Z",
+  "title": "Data:California's 30th congressional district (2027–).map"
+ },
+ "CA-31": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T04:45:45Z",
+  "title": "Data:California's 31st congressional district (2027–).map"
+ },
+ "CA-32": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T04:46:13Z",
+  "title": "Data:California's 32nd congressional district (2027–).map"
+ },
+ "CA-33": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T04:47:00Z",
+  "title": "Data:California's 33rd congressional district (2027–).map"
+ },
+ "CA-34": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T04:47:32Z",
+  "title": "Data:California's 34th congressional district (2027–).map"
+ },
+ "CA-35": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T04:48:03Z",
+  "title": "Data:California's 35th congressional district (2027–).map"
+ },
+ "CA-36": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T04:58:04Z",
+  "title": "Data:California's 36th congressional district (2027–).map"
+ },
+ "CA-37": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T04:48:51Z",
+  "title": "Data:California's 37th congressional district (2027–).map"
+ },
+ "CA-38": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T04:58:13Z",
+  "title": "Data:California's 38th congressional district (2027–).map"
+ },
+ "CA-39": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T04:49:43Z",
+  "title": "Data:California's 39th congressional district (2027–).map"
+ },
+ "CA-4": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-29T12:48:29Z",
+  "title": "Data:California's 4th congressional district (2027–).map"
+ },
+ "CA-40": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T04:50:07Z",
+  "title": "Data:California's 40th congressional district (2027–).map"
+ },
+ "CA-41": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T04:50:34Z",
+  "title": "Data:California's 41st congressional district (2027–).map"
+ },
+ "CA-42": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T04:51:00Z",
+  "title": "Data:California's 42nd congressional district (2027–).map"
+ },
+ "CA-43": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T04:52:31Z",
+  "title": "Data:California's 43rd congressional district (2027–).map"
+ },
+ "CA-44": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T04:53:05Z",
+  "title": "Data:California's 44th congressional district (2027–).map"
+ },
+ "CA-45": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T04:53:46Z",
+  "title": "Data:California's 45th congressional district (2027–).map"
+ },
+ "CA-46": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T04:54:08Z",
+  "title": "Data:California's 46th congressional district (2027–).map"
+ },
+ "CA-47": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T04:54:38Z",
+  "title": "Data:California's 47th congressional district (2027–).map"
+ },
+ "CA-48": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T04:55:12Z",
+  "title": "Data:California's 48th congressional district (2027–).map"
+ },
+ "CA-49": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T04:55:39Z",
+  "title": "Data:California's 49th congressional district (2027–).map"
+ },
+ "CA-5": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-29T12:49:54Z",
+  "title": "Data:California's 5th congressional district (2027–).map"
+ },
+ "CA-50": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T04:56:08Z",
+  "title": "Data:California's 50th congressional district (2027–).map"
+ },
+ "CA-51": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T04:56:42Z",
+  "title": "Data:California's 51st congressional district (2027–).map"
+ },
+ "CA-52": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T04:57:10Z",
+  "title": "Data:California's 52nd congressional district (2027–).map"
+ },
+ "CA-6": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-30T04:58:20Z",
+  "title": "Data:California's 6th congressional district (2027–).map"
+ },
+ "CA-7": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-29T12:52:34Z",
+  "title": "Data:California's 7th congressional district (2027–).map"
+ },
+ "CA-8": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-29T12:56:55Z",
+  "title": "Data:California's 8th congressional district (2027–).map"
+ },
+ "CA-9": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://aelc.assembly.ca.gov/proposed-congressional-map the  California State Assembly Committee on Elections], simplified and formatted with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2025-12-29T13:00:30Z",
+  "title": "Data:California's 9th congressional district (2027–).map"
+ },
+ "FL-1": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://edr.state.fl.us/content/redistricting/2026redistricting/index.cfm The Office of Economic and Demographic Research]",
+  "timestamp": "2026-05-14T03:25:32Z",
+  "title": "Data:Florida's 1st congressional district (2027–).map"
+ },
+ "FL-10": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://edr.state.fl.us/content/redistricting/2026redistricting/index.cfm The Office of Economic and Demographic Research]",
+  "timestamp": "2026-05-14T03:27:03Z",
+  "title": "Data:Florida's 10th congressional district (2027–).map"
+ },
+ "FL-11": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://edr.state.fl.us/content/redistricting/2026redistricting/index.cfm The Office of Economic and Demographic Research]",
+  "timestamp": "2026-05-14T03:27:27Z",
+  "title": "Data:Florida's 11th congressional district (2027–).map"
+ },
+ "FL-12": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://edr.state.fl.us/content/redistricting/2026redistricting/index.cfm The Office of Economic and Demographic Research]",
+  "timestamp": "2026-05-14T03:29:21Z",
+  "title": "Data:Florida's 12th congressional district (2027–).map"
+ },
+ "FL-13": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://edr.state.fl.us/content/redistricting/2026redistricting/index.cfm The Office of Economic and Demographic Research]",
+  "timestamp": "2026-05-14T03:29:38Z",
+  "title": "Data:Florida's 13th congressional district (2027–).map"
+ },
+ "FL-14": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://edr.state.fl.us/content/redistricting/2026redistricting/index.cfm The Office of Economic and Demographic Research]",
+  "timestamp": "2026-05-14T03:30:09Z",
+  "title": "Data:Florida's 14th congressional district (2027–).map"
+ },
+ "FL-15": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://edr.state.fl.us/content/redistricting/2026redistricting/index.cfm The Office of Economic and Demographic Research]",
+  "timestamp": "2026-05-14T03:30:29Z",
+  "title": "Data:Florida's 15th congressional district (2027–).map"
+ },
+ "FL-16": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://edr.state.fl.us/content/redistricting/2026redistricting/index.cfm The Office of Economic and Demographic Research]",
+  "timestamp": "2026-05-14T03:30:45Z",
+  "title": "Data:Florida's 16th congressional district (2027–).map"
+ },
+ "FL-17": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://edr.state.fl.us/content/redistricting/2026redistricting/index.cfm The Office of Economic and Demographic Research]",
+  "timestamp": "2026-05-14T03:30:57Z",
+  "title": "Data:Florida's 17th congressional district (2027–).map"
+ },
+ "FL-18": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://edr.state.fl.us/content/redistricting/2026redistricting/index.cfm The Office of Economic and Demographic Research]",
+  "timestamp": "2026-05-14T03:31:15Z",
+  "title": "Data:Florida's 18th congressional district (2027–).map"
+ },
+ "FL-19": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://edr.state.fl.us/content/redistricting/2026redistricting/index.cfm The Office of Economic and Demographic Research]",
+  "timestamp": "2026-05-14T03:31:34Z",
+  "title": "Data:Florida's 19th congressional district (2027–).map"
+ },
+ "FL-20": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://edr.state.fl.us/content/redistricting/2026redistricting/index.cfm The Office of Economic and Demographic Research]",
+  "timestamp": "2026-05-14T03:31:58Z",
+  "title": "Data:Florida's 20th congressional district (2027–).map"
+ },
+ "FL-21": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://edr.state.fl.us/content/redistricting/2026redistricting/index.cfm The Office of Economic and Demographic Research]",
+  "timestamp": "2026-05-14T03:32:11Z",
+  "title": "Data:Florida's 21st congressional district (2027–).map"
+ },
+ "FL-22": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://edr.state.fl.us/content/redistricting/2026redistricting/index.cfm The Office of Economic and Demographic Research]",
+  "timestamp": "2026-10-19T05:01:42Z",
+  "title": "Data:Florida's 22nd congressional district (2027–).map"
+ },
+ "FL-23": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://edr.state.fl.us/content/redistricting/2026redistricting/index.cfm The Office of Economic and Demographic Research]",
+  "timestamp": "2026-05-14T03:45:59Z",
+  "title": "Data:Florida's 23rd congressional district (2027–).map"
+ },
+ "FL-24": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://edr.state.fl.us/content/redistricting/2026redistricting/index.cfm The Office of Economic and Demographic Research]",
+  "timestamp": "2026-05-14T03:51:06Z",
+  "title": "Data:Florida's 24th congressional district (2027–).map"
+ },
+ "FL-25": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://edr.state.fl.us/content/redistricting/2026redistricting/index.cfm The Office of Economic and Demographic Research]",
+  "timestamp": "2026-05-14T04:47:30Z",
+  "title": "Data:Florida's 25th congressional district (2027–).map"
+ },
+ "FL-26": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://edr.state.fl.us/content/redistricting/2026redistricting/index.cfm The Office of Economic and Demographic Research]",
+  "timestamp": "2026-05-14T04:52:13Z",
+  "title": "Data:Florida's 26th congressional district (2027–).map"
+ },
+ "FL-27": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://edr.state.fl.us/content/redistricting/2026redistricting/index.cfm The Office of Economic and Demographic Research]",
+  "timestamp": "2026-05-14T04:57:22Z",
+  "title": "Data:Florida's 27th congressional district (2027–).map"
+ },
+ "FL-28": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://edr.state.fl.us/content/redistricting/2026redistricting/index.cfm The Office of Economic and Demographic Research]",
+  "timestamp": "2026-05-14T05:03:12Z",
+  "title": "Data:Florida's 28th congressional district (2027–).map"
+ },
+ "FL-8": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://edr.state.fl.us/content/redistricting/2026redistricting/index.cfm The Office of Economic and Demographic Research]",
+  "timestamp": "2026-05-14T03:26:05Z",
+  "title": "Data:Florida's 8th congressional district (2027–).map"
+ },
+ "FL-9": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://edr.state.fl.us/content/redistricting/2026redistricting/index.cfm The Office of Economic and Demographic Research]",
+  "timestamp": "2026-05-14T03:26:28Z",
+  "title": "Data:Florida's 9th congressional district (2027–).map"
+ },
+ "LA-1": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20260617112125/https://redist.legis.la.gov/ the Louisiana State Legislature's redistricting website], converted and simplified with [https://mapshaper.org Mapshaper]",
+  "timestamp": "2026-06-17T12:14:29Z",
+  "title": "Data:Louisiana's 1st congressional district (2027–).map"
+ },
+ "LA-2": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20260617112125/https://redist.legis.la.gov/ the Louisiana State Legislature's redistricting website], converted and simplified with [https://mapshaper.org Mapshaper]",
+  "timestamp": "2026-06-17T12:16:28Z",
+  "title": "Data:Louisiana's 2nd congressional district (2027–).map"
+ },
+ "LA-3": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20260617112125/https://redist.legis.la.gov/ the Louisiana State Legislature's redistricting website], converted and simplified with [https://mapshaper.org Mapshaper]",
+  "timestamp": "2026-06-17T12:17:04Z",
+  "title": "Data:Louisiana's 3rd congressional district (2027–).map"
+ },
+ "LA-4": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20260617112125/https://redist.legis.la.gov/ the Louisiana State Legislature's redistricting website], converted and simplified with [https://mapshaper.org Mapshaper]",
+  "timestamp": "2026-06-17T12:18:03Z",
+  "title": "Data:Louisiana's 4th congressional district (2027–).map"
+ },
+ "LA-5": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20260617112125/https://redist.legis.la.gov/ the Louisiana State Legislature's redistricting website], converted and simplified with [https://mapshaper.org Mapshaper]",
+  "timestamp": "2026-06-17T12:19:09Z",
+  "title": "Data:Louisiana's 5th congressional district (2027–).map"
+ },
+ "LA-6": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20260617112125/https://redist.legis.la.gov/ the Louisiana State Legislature's redistricting website], converted and simplified with [https://mapshaper.org Mapshaper]",
+  "timestamp": "2026-06-17T12:19:42Z",
+  "title": "Data:Louisiana's 6th congressional district (2027–).map"
+ },
+ "MO-1": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://thearp.org/state/missouri/ the American Redistricting Project], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-02-01T12:29:39Z",
+  "title": "Data:Missouri's 1st congressional district (2027–).map"
+ },
+ "MO-2": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://thearp.org/state/missouri/ the American Redistricting Project], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-02-01T12:30:16Z",
+  "title": "Data:Missouri's 2nd congressional district (2027–).map"
+ },
+ "MO-3": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://thearp.org/state/missouri/ the American Redistricting Project], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-02-01T12:31:08Z",
+  "title": "Data:Missouri's 3rd congressional district (2027–).map"
+ },
+ "MO-4": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://thearp.org/state/missouri/ the American Redistricting Project], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-02-01T12:34:05Z",
+  "title": "Data:Missouri's 4th congressional district (2027–).map"
+ },
+ "MO-5": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://thearp.org/state/missouri/ the American Redistricting Project], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-02-01T12:34:40Z",
+  "title": "Data:Missouri's 5th congressional district (2027–).map"
+ },
+ "MO-6": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://thearp.org/state/missouri/ the American Redistricting Project], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-02-01T12:35:10Z",
+  "title": "Data:Missouri's 6th congressional district (2027–).map"
+ },
+ "MO-7": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://thearp.org/state/missouri/ the American Redistricting Project], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-02-01T12:35:50Z",
+  "title": "Data:Missouri's 7th congressional district (2027–).map"
+ },
+ "MO-8": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://thearp.org/state/missouri/ the American Redistricting Project], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-02-01T12:36:20Z",
+  "title": "Data:Missouri's 8th congressional district (2027–).map"
+ },
+ "NC-1": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://redistricting.lls.edu/state/north-carolina/?cycle=2020&level=Congress&startdate=2025-10-22 Justin Levitt's All About Redistricting], converted with [https://mapshaper.org Mapshaper]",
+  "timestamp": "2026-01-12T15:26:55Z",
+  "title": "Data:North Carolina's 1st congressional district (2027–).map"
+ },
+ "NC-3": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://redistricting.lls.edu/state/north-carolina/?cycle=2020&level=Congress&startdate=2025-10-22 Justin Levitt's All About Redistricting], converted with [https://mapshaper.org Mapshaper]",
+  "timestamp": "2026-01-12T15:28:41Z",
+  "title": "Data:North Carolina's 3rd congressional district (2027–).map"
+ },
+ "OH-1": {
+  "license": "CC0-1.0",
+  "sources": "Congressional district precinct descriptions from [https://www.redistricting.ohio.gov/maps the Ohio Redistricting Commission], converted into a shapefile with racial data using [https://davesredistricting.org Dave's Redistricting App], converted with [https://mapshaper.org Mapshaper]",
+  "timestamp": "2026-01-12T05:26:23Z",
+  "title": "Data:Ohio's 1st congressional district (2027–).map"
+ },
+ "OH-10": {
+  "license": "CC0-1.0",
+  "sources": "Congressional district precinct descriptions from [https://www.redistricting.ohio.gov/maps the Ohio Redistricting Commission], converted into a shapefile with racial data using [https://davesredistricting.org Dave's Redistricting App], converted with [https://mapshaper.org Mapshaper]",
+  "timestamp": "2026-01-12T05:58:21Z",
+  "title": "Data:Ohio's 10th congressional district (2027–).map"
+ },
+ "OH-11": {
+  "license": "CC0-1.0",
+  "sources": "Congressional district precinct descriptions from [https://www.redistricting.ohio.gov/maps the Ohio Redistricting Commission], converted into a shapefile with racial data using [https://davesredistricting.org Dave's Redistricting App], converted with [https://mapshaper.org Mapshaper]",
+  "timestamp": "2026-01-12T05:58:52Z",
+  "title": "Data:Ohio's 11th congressional district (2027–).map"
+ },
+ "OH-12": {
+  "license": "CC0-1.0",
+  "sources": "Congressional district precinct descriptions from [https://www.redistricting.ohio.gov/maps the Ohio Redistricting Commission], converted into a shapefile with racial data using [https://davesredistricting.org Dave's Redistricting App], converted with [https://mapshaper.org Mapshaper]",
+  "timestamp": "2026-01-12T05:59:23Z",
+  "title": "Data:Ohio's 12th congressional district (2027–).map"
+ },
+ "OH-13": {
+  "license": "CC0-1.0",
+  "sources": "Congressional district precinct descriptions from [https://www.redistricting.ohio.gov/maps the Ohio Redistricting Commission], converted into a shapefile with racial data using [https://davesredistricting.org Dave's Redistricting App], converted with [https://mapshaper.org Mapshaper]",
+  "timestamp": "2026-01-12T05:59:52Z",
+  "title": "Data:Ohio's 13th congressional district (2027–).map"
+ },
+ "OH-14": {
+  "license": "CC0-1.0",
+  "sources": "Congressional district precinct descriptions from [https://www.redistricting.ohio.gov/maps the Ohio Redistricting Commission], converted into a shapefile with racial data using [https://davesredistricting.org Dave's Redistricting App], converted with [https://mapshaper.org Mapshaper]",
+  "timestamp": "2026-01-12T06:00:29Z",
+  "title": "Data:Ohio's 14th congressional district (2027–).map"
+ },
+ "OH-15": {
+  "license": "CC0-1.0",
+  "sources": "Congressional district precinct descriptions from [https://www.redistricting.ohio.gov/maps the Ohio Redistricting Commission], converted into a shapefile with racial data using [https://davesredistricting.org Dave's Redistricting App], converted with [https://mapshaper.org Mapshaper]",
+  "timestamp": "2026-01-12T06:00:54Z",
+  "title": "Data:Ohio's 15th congressional district (2027–).map"
+ },
+ "OH-2": {
+  "license": "CC0-1.0",
+  "sources": "Congressional district precinct descriptions from [https://www.redistricting.ohio.gov/maps the Ohio Redistricting Commission], converted into a shapefile with racial data using [https://davesredistricting.org Dave's Redistricting App], converted with [https://mapshaper.org Mapshaper]",
+  "timestamp": "2026-01-12T05:53:16Z",
+  "title": "Data:Ohio's 2nd congressional district (2027–).map"
+ },
+ "OH-3": {
+  "license": "CC0-1.0",
+  "sources": "Congressional district precinct descriptions from [https://www.redistricting.ohio.gov/maps the Ohio Redistricting Commission], converted into a shapefile with racial data using [https://davesredistricting.org Dave's Redistricting App], converted with [https://mapshaper.org Mapshaper]",
+  "timestamp": "2026-01-12T05:53:57Z",
+  "title": "Data:Ohio's 3rd congressional district (2027–).map"
+ },
+ "OH-4": {
+  "license": "CC0-1.0",
+  "sources": "Congressional district precinct descriptions from [https://www.redistricting.ohio.gov/maps the Ohio Redistricting Commission], converted into a shapefile with racial data using [https://davesredistricting.org Dave's Redistricting App], converted with [https://mapshaper.org Mapshaper]",
+  "timestamp": "2026-01-12T05:54:51Z",
+  "title": "Data:Ohio's 4th congressional district (2027–).map"
+ },
+ "OH-5": {
+  "license": "CC0-1.0",
+  "sources": "Congressional district precinct descriptions from [https://www.redistricting.ohio.gov/maps the Ohio Redistricting Commission], converted into a shapefile with racial data using [https://davesredistricting.org Dave's Redistricting App], converted with [https://mapshaper.org Mapshaper]",
+  "timestamp": "2026-01-12T05:55:34Z",
+  "title": "Data:Ohio's 5th congressional district (2027–).map"
+ },
+ "OH-6": {
+  "license": "CC0-1.0",
+  "sources": "Congressional district precinct descriptions from [https://www.redistricting.ohio.gov/maps the Ohio Redistricting Commission], converted into a shapefile with racial data using [https://davesredistricting.org Dave's Redistricting App], converted with [https://mapshaper.org Mapshaper]",
+  "timestamp": "2026-01-12T05:56:10Z",
+  "title": "Data:Ohio's 6th congressional district (2027–).map"
+ },
+ "OH-7": {
+  "license": "CC0-1.0",
+  "sources": "Congressional district precinct descriptions from [https://www.redistricting.ohio.gov/maps the Ohio Redistricting Commission], converted into a shapefile with racial data using [https://davesredistricting.org Dave's Redistricting App], converted with [https://mapshaper.org Mapshaper]",
+  "timestamp": "2026-01-12T05:56:41Z",
+  "title": "Data:Ohio's 7th congressional district (2027–).map"
+ },
+ "OH-8": {
+  "license": "CC0-1.0",
+  "sources": "Congressional district precinct descriptions from [https://www.redistricting.ohio.gov/maps the Ohio Redistricting Commission], converted into a shapefile with racial data using [https://davesredistricting.org Dave's Redistricting App], converted with [https://mapshaper.org Mapshaper]",
+  "timestamp": "2026-01-12T05:57:18Z",
+  "title": "Data:Ohio's 8th congressional district (2027–).map"
+ },
+ "OH-9": {
+  "license": "CC0-1.0",
+  "sources": "Congressional district precinct descriptions from [https://www.redistricting.ohio.gov/maps the Ohio Redistricting Commission], converted into a shapefile with racial data using [https://davesredistricting.org Dave's Redistricting App], converted with [https://mapshaper.org Mapshaper]",
+  "timestamp": "2026-01-12T05:57:44Z",
+  "title": "Data:Ohio's 9th congressional district (2027–).map"
+ },
+ "TN-1": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://comptroller.tn.gov/maps/u-s--congress-districts.html the Tennessee Comptroller of the Treasury], converted and simplified with [https://mapshaper.org Mapshaper]",
+  "timestamp": "2026-06-15T14:16:42Z",
+  "title": "Data:Tennessee's 1st congressional district (2027–).map"
+ },
+ "TN-2": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://comptroller.tn.gov/maps/u-s--congress-districts.html the Tennessee Comptroller of the Treasury], converted and simplified with [https://mapshaper.org Mapshaper]",
+  "timestamp": "2026-06-15T14:21:43Z",
+  "title": "Data:Tennessee's 2nd congressional district (2027–).map"
+ },
+ "TN-3": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://comptroller.tn.gov/maps/u-s--congress-districts.html Tennessee Comptroller of the Treasury]",
+  "timestamp": "2026-06-15T14:37:24Z",
+  "title": "Data:Tennessee's 3rd congressional district (2027–).map"
+ },
+ "TN-4": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://comptroller.tn.gov/maps/u-s--congress-districts.html Tennessee Comptroller of the Treasury]",
+  "timestamp": "2026-06-15T14:36:37Z",
+  "title": "Data:Tennessee's 4th congressional district (2027–).map"
+ },
+ "TN-5": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://comptroller.tn.gov/maps/u-s--congress-districts.html the Tennessee Comptroller of the Treasury], converted and simplified with [https://mapshaper.org Mapshaper]",
+  "timestamp": "2026-06-15T14:24:32Z",
+  "title": "Data:Tennessee's 5th congressional district (2027–).map"
+ },
+ "TN-6": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://comptroller.tn.gov/maps/u-s--congress-districts.html the Tennessee Comptroller of the Treasury], converted and simplified with [https://mapshaper.org Mapshaper]",
+  "timestamp": "2026-06-15T14:26:38Z",
+  "title": "Data:Tennessee's 6th congressional district (2027–).map"
+ },
+ "TN-7": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://comptroller.tn.gov/maps/u-s--congress-districts.html the Tennessee Comptroller of the Treasury], converted and simplified with [https://mapshaper.org Mapshaper]",
+  "timestamp": "2026-06-15T14:28:24Z",
+  "title": "Data:Tennessee's 7th congressional district (2027–).map"
+ },
+ "TN-8": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://comptroller.tn.gov/maps/u-s--congress-districts.html the Tennessee Comptroller of the Treasury], converted and simplified with [https://mapshaper.org Mapshaper]",
+  "timestamp": "2026-06-15T14:30:37Z",
+  "title": "Data:Tennessee's 8th congressional district (2027–).map"
+ },
+ "TN-9": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://comptroller.tn.gov/maps/u-s--congress-districts.html the Tennessee Comptroller of the Treasury], converted and simplified with [https://mapshaper.org Mapshaper]",
+  "timestamp": "2026-06-15T14:32:18Z",
+  "title": "Data:Tennessee's 9th congressional district (2027–).map"
+ },
+ "TX-1": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20250904083610/https://data.capitol.texas.gov/dataset/planc2333# the Texas Legislative Council], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-21T07:50:31Z",
+  "title": "Data:Texas's 1st congressional district (2027–).map"
+ },
+ "TX-10": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20250904083610/https://data.capitol.texas.gov/dataset/planc2333# the Texas Legislative Council], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-21T07:56:43Z",
+  "title": "Data:Texas's 10th congressional district (2027–).map"
+ },
+ "TX-11": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20250904083610/https://data.capitol.texas.gov/dataset/planc2333# the Texas Legislative Council], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-21T08:07:02Z",
+  "title": "Data:Texas's 11th congressional district (2027–).map"
+ },
+ "TX-12": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20250904083610/https://data.capitol.texas.gov/dataset/planc2333# the Texas Legislative Council], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-21T08:07:34Z",
+  "title": "Data:Texas's 12th congressional district (2027–).map"
+ },
+ "TX-13": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20250904083610/https://data.capitol.texas.gov/dataset/planc2333# the Texas Legislative Council], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-21T08:08:08Z",
+  "title": "Data:Texas's 13th congressional district (2027–).map"
+ },
+ "TX-14": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20250904083610/https://data.capitol.texas.gov/dataset/planc2333# the Texas Legislative Council], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-21T08:08:34Z",
+  "title": "Data:Texas's 14th congressional district (2027–).map"
+ },
+ "TX-15": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20250904083610/https://data.capitol.texas.gov/dataset/planc2333# the Texas Legislative Council], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-21T08:09:14Z",
+  "title": "Data:Texas's 15th congressional district (2027–).map"
+ },
+ "TX-16": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20250904083610/https://data.capitol.texas.gov/dataset/planc2333# the Texas Legislative Council], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-21T08:11:03Z",
+  "title": "Data:Texas's 16th congressional district (2027–).map"
+ },
+ "TX-17": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20250904083610/https://data.capitol.texas.gov/dataset/planc2333# the Texas Legislative Council], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-21T08:11:33Z",
+  "title": "Data:Texas's 17th congressional district (2027–).map"
+ },
+ "TX-18": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20250904083610/https://data.capitol.texas.gov/dataset/planc2333# the Texas Legislative Council], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-21T08:11:59Z",
+  "title": "Data:Texas's 18th congressional district (2027–).map"
+ },
+ "TX-19": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20250904083610/https://data.capitol.texas.gov/dataset/planc2333# the Texas Legislative Council], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-21T08:26:26Z",
+  "title": "Data:Texas's 19th congressional district (2027–).map"
+ },
+ "TX-2": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20250904083610/https://data.capitol.texas.gov/dataset/planc2333# the Texas Legislative Council], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-21T07:50:56Z",
+  "title": "Data:Texas's 2nd congressional district (2027–).map"
+ },
+ "TX-20": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20250904083610/https://data.capitol.texas.gov/dataset/planc2333# the Texas Legislative Council], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-21T08:26:54Z",
+  "title": "Data:Texas's 20th congressional district (2027–).map"
+ },
+ "TX-21": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20250904083610/https://data.capitol.texas.gov/dataset/planc2333# the Texas Legislative Council], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-21T08:27:20Z",
+  "title": "Data:Texas's 21st congressional district (2027–).map"
+ },
+ "TX-22": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20250904083610/https://data.capitol.texas.gov/dataset/planc2333# the Texas Legislative Council], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-21T08:27:48Z",
+  "title": "Data:Texas's 22nd congressional district (2027–).map"
+ },
+ "TX-23": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20250904083610/https://data.capitol.texas.gov/dataset/planc2333# the Texas Legislative Council], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-21T08:28:17Z",
+  "title": "Data:Texas's 23rd congressional district (2027–).map"
+ },
+ "TX-24": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20250904083610/https://data.capitol.texas.gov/dataset/planc2333# the Texas Legislative Council], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-21T08:28:47Z",
+  "title": "Data:Texas's 24th congressional district (2027–).map"
+ },
+ "TX-25": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20250904083610/https://data.capitol.texas.gov/dataset/planc2333# the Texas Legislative Council], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-21T08:29:11Z",
+  "title": "Data:Texas's 25th congressional district (2027–).map"
+ },
+ "TX-26": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20250904083610/https://data.capitol.texas.gov/dataset/planc2333# the Texas Legislative Council], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-21T08:29:36Z",
+  "title": "Data:Texas's 26th congressional district (2027–).map"
+ },
+ "TX-27": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20250904083610/https://data.capitol.texas.gov/dataset/planc2333# the Texas Legislative Council], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-21T08:30:01Z",
+  "title": "Data:Texas's 27th congressional district (2027–).map"
+ },
+ "TX-28": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20250904083610/https://data.capitol.texas.gov/dataset/planc2333# the Texas Legislative Council], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-21T08:30:30Z",
+  "title": "Data:Texas's 28th congressional district (2027–).map"
+ },
+ "TX-29": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20250904083610/https://data.capitol.texas.gov/dataset/planc2333# the Texas Legislative Council], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-21T08:31:00Z",
+  "title": "Data:Texas's 29th congressional district (2027–).map"
+ },
+ "TX-3": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20250904083610/https://data.capitol.texas.gov/dataset/planc2333# the Texas Legislative Council], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-21T07:52:52Z",
+  "title": "Data:Texas's 3rd congressional district (2027–).map"
+ },
+ "TX-30": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20250904083610/https://data.capitol.texas.gov/dataset/planc2333# the Texas Legislative Council], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-21T08:31:25Z",
+  "title": "Data:Texas's 30th congressional district (2027–).map"
+ },
+ "TX-31": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20250904083610/https://data.capitol.texas.gov/dataset/planc2333# the Texas Legislative Council], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-21T08:31:49Z",
+  "title": "Data:Texas's 31st congressional district (2027–).map"
+ },
+ "TX-32": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20250904083610/https://data.capitol.texas.gov/dataset/planc2333# the Texas Legislative Council], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-21T08:32:15Z",
+  "title": "Data:Texas's 32nd congressional district (2027–).map"
+ },
+ "TX-33": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20250904083610/https://data.capitol.texas.gov/dataset/planc2333# the Texas Legislative Council], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-21T08:32:44Z",
+  "title": "Data:Texas's 33rd congressional district (2027–).map"
+ },
+ "TX-34": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20250904083610/https://data.capitol.texas.gov/dataset/planc2333# the Texas Legislative Council], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-21T08:33:11Z",
+  "title": "Data:Texas's 34th congressional district (2027–).map"
+ },
+ "TX-35": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20250904083610/https://data.capitol.texas.gov/dataset/planc2333# the Texas Legislative Council], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-21T08:33:39Z",
+  "title": "Data:Texas's 35th congressional district (2027–).map"
+ },
+ "TX-36": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20250904083610/https://data.capitol.texas.gov/dataset/planc2333# the Texas Legislative Council], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-21T08:34:03Z",
+  "title": "Data:Texas's 36th congressional district (2027–).map"
+ },
+ "TX-37": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20250904083610/https://data.capitol.texas.gov/dataset/planc2333# the Texas Legislative Council], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-21T08:34:29Z",
+  "title": "Data:Texas's 37th congressional district (2027–).map"
+ },
+ "TX-38": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20250904083610/https://data.capitol.texas.gov/dataset/planc2333# the Texas Legislative Council], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-21T08:34:52Z",
+  "title": "Data:Texas's 38th congressional district (2027–).map"
+ },
+ "TX-4": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20250904083610/https://data.capitol.texas.gov/dataset/planc2333# the Texas Legislative Council], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-21T07:53:24Z",
+  "title": "Data:Texas's 4th congressional district (2027–).map"
+ },
+ "TX-5": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20250904083610/https://data.capitol.texas.gov/dataset/planc2333# the Texas Legislative Council], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-21T07:54:10Z",
+  "title": "Data:Texas's 5th congressional district (2027–).map"
+ },
+ "TX-6": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20250904083610/https://data.capitol.texas.gov/dataset/planc2333# the Texas Legislative Council], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-21T07:54:38Z",
+  "title": "Data:Texas's 6th congressional district (2027–).map"
+ },
+ "TX-7": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20250904083610/https://data.capitol.texas.gov/dataset/planc2333# the Texas Legislative Council], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-21T07:55:06Z",
+  "title": "Data:Texas's 7th congressional district (2027–).map"
+ },
+ "TX-8": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20250904083610/https://data.capitol.texas.gov/dataset/planc2333# the Texas Legislative Council], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-21T07:55:29Z",
+  "title": "Data:Texas's 8th congressional district (2027–).map"
+ },
+ "TX-9": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://web.archive.org/web/20250904083610/https://data.capitol.texas.gov/dataset/planc2333# the Texas Legislative Council], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-21T07:56:07Z",
+  "title": "Data:Texas's 9th congressional district (2027–).map"
+ },
+ "UT-1": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://campaignlegal.org/document/plaintiffs-map-submission the Campaign Legal Center], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-29T14:23:41Z",
+  "title": "Data:Utah's 1st congressional district (2027–).map"
+ },
+ "UT-2": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://campaignlegal.org/document/plaintiffs-map-submission the Campaign Legal Center], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-29T14:30:06Z",
+  "title": "Data:Utah's 2nd congressional district (2027–).map"
+ },
+ "UT-3": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://campaignlegal.org/document/plaintiffs-map-submission the Campaign Legal Center], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-29T14:30:33Z",
+  "title": "Data:Utah's 3rd congressional district (2027–).map"
+ },
+ "UT-4": {
+  "license": "CC0-1.0",
+  "sources": "Shapefile from [https://campaignlegal.org/document/plaintiffs-map-submission the Campaign Legal Center], converted and simplified with [https://mapshaper.org/ Mapshaper]",
+  "timestamp": "2026-01-29T14:31:07Z",
+  "title": "Data:Utah's 4th congressional district (2027–).map"
+ }
+}
