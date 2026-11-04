@@ -29,7 +29,8 @@ const RSRC = { 'FEC': 'FEC 공식 결과', 'MEDSL': 'MEDSL(MIT 선거연구소�
 const C = { d: 'var(--d)', r: 'var(--r)', w: 'var(--w)', none: 'var(--none)', na: 'var(--na)', dl: '#b9cfe9', rl: '#f0c1bd', open: '#efe2b0', ff: 'var(--ff)', fm: 'var(--fm)', mf: 'var(--mf)', mm: 'var(--mm)' };
 
 const S = { ch: 'H', year: null, tab: 'summary', period: 'year', partyOnly: true, layer: 'gen', target: 'D', unit: 'district', crit: 'lean',
-  q: '', onlyWomen: false, open: null, idx: null, cache: {}, ds: 'candidates', dlScope: 'year' };
+  q: '', onlyWomen: false, open: null, idx: null, cache: {}, ds: 'candidates', dlScope: 'year', mapKind: 'tile', zoom: null };
+const MAPS = { idx: null, c: {}, s: {} };
 
 /* ---------- data ---------- */
 async function getJSON(u) { const r = await fetch(u, { cache: 'no-cache' }); if (!r.ok) throw new Error(u + ' ' + r.status); return r.json(); }
@@ -83,6 +84,7 @@ function writeHash() {
   p.set('c', S.ch); p.set('y', S.year); if (S.tab !== 'summary') p.set('t', S.tab); if (S.period !== 'year') p.set('p', S.period);
   if (!S.partyOnly) p.set('po', '0'); if (S.layer !== 'gen') p.set('l', S.layer); if (S.target !== 'D') p.set('tg', S.target);
   if (S.unit !== 'district') p.set('u', S.unit); if (S.crit !== 'lean') p.set('k', S.crit); if (S.open) p.set('open', S.open);
+  if (S.mapKind !== 'tile') p.set('mk', S.mapKind); if (S.zoom) p.set('z', S.zoom);
   history.replaceState(null, '', '#' + p.toString());
 }
 function readHash() {
@@ -92,6 +94,7 @@ function readHash() {
   if (p.get('t')) S.tab = p.get('t'); if (p.get('p')) S.period = p.get('p'); S.partyOnly = p.get('po') !== '0';
   if (p.get('l')) S.layer = p.get('l'); if (p.get('tg')) S.target = p.get('tg'); if (p.get('u')) S.unit = p.get('u'); if (p.get('k')) S.crit = p.get('k');
   S.open = p.get('open');
+  if (p.get('mk') === 'real') S.mapKind = 'real'; if (p.get('z') && STATE_KO[p.get('z')]) S.zoom = p.get('z');
 }
 function syncControls() {
   document.querySelectorAll('#chamberSeg button').forEach(b => b.classList.toggle('on', b.dataset.ch === S.ch));
@@ -201,6 +204,12 @@ function cellColor(r, Y) {
 }
 async function viewMap() {
   const Y = await loadYear(S.year);
+  const kind = `<div class="seg" role="group" aria-label="지도 종류"><button data-mk="tile" class="${S.mapKind === 'tile' ? 'on' : ''}">칸 지도</button><button data-mk="real" class="${S.mapKind === 'real' ? 'on' : ''}">실제 지도</button></div>`;
+  const layerSel = `<label class="fld">보기 <select data-layer>${Object.entries(LAYERS).map(([k, v]) => `<option value="${k}" ${S.layer === k ? 'selected' : ''}>${v.label}</option>`).join('')}</select></label>`;
+  const lg = `<div class="legend">${LAYERS[S.layer].legend.map(([t, c]) => `<span><i style="background:${c}"></i>${t}</span>`).join('')}</div>`;
+  return S.mapKind === 'real' ? await viewRealMap(Y, kind, layerSel, lg) : viewTileMap(Y, kind, layerSel, lg);
+}
+function viewTileMap(Y, kind, layerSel, lg) {
   const R = Y.r.filter(r => r.chamber === S.ch);
   const byState = groupBy(R, 'state');
   const sq = S.ch === 'H' ? 11 : 24, per = S.ch === 'H' ? 8 : 2, cw = per * (sq + 1) + 12;
@@ -218,12 +227,127 @@ async function viewMap() {
       g += `<rect class="d" data-open="race:${esc(r.race_id)}" x="${x}" y="${y}" width="${sq}" height="${sq}" rx="1.5" fill="${cellColor(r, Y)}"><title>${esc(tip)}</title></rect>`;
     });
   }
-  const lg = LAYERS[S.layer].legend.map(([t, c]) => `<span><i style="background:${c}"></i>${t}</span>`).join('');
-  return `<div class="btns" style="align-items:center"><label class="fld">보기 <select data-layer>${Object.entries(LAYERS).map(([k, v]) => `<option value="${k}" ${S.layer === k ? 'selected' : ''}>${v.label}</option>`).join('')}</select></label>
+  return `<div class="btns" style="align-items:center">${kind}${layerSel}
     <span class="muted">${S.year}년 ${chName(S.ch)} · 칸 하나가 ${S.ch === 'H' ? '선거구 하나(번호 순)' : '상원 선거 하나'}입니다. 누르면 후보와 결과가 열립니다.</span></div>
-  <div class="legend">${lg}</div>
+  ${lg}
   <div class="map-wrap"><svg viewBox="0 0 ${12 * cw + 8} ${rowY[7] + rowH[7] + 4}" role="img" aria-label="주별 선거구 지도">${g}</svg></div>
   <p class="note">지리 모양이 아니라 주 위치만 맞춘 칸 지도입니다. 같은 번호 선거구라도 선거구를 다시 그린 해(1992·2002·2012·2022년 등)에는 같은 지역이 아닙니다.${isCurrent(S.year) ? ' 올해 본선은 개표 중이라 당선이 확인된 곳만 칠했습니다.' : ''}</p>`;
+}
+
+/* --- real district map (boundaries: Lewis et al., docs/data/maps, built by pipeline/maps.py) --- */
+const congressOf = y => Math.floor((y - 1788) / 2) + 1;
+async function getStatic(u) { const r = await fetch(u); if (!r.ok) throw new Error(u + ' ' + r.status); return r.json(); }
+async function mapIndex() { if (!MAPS.idx) MAPS.idx = await getStatic('data/maps/index.json'); return MAPS.idx; }
+async function mapCongress(c) { if (!MAPS.c[c]) MAPS.c[c] = await getStatic(`data/maps/c${c}.json`); return MAPS.c[c]; }
+async function mapDetail(st, c) {
+  const idx = await mapIndex();
+  if (c > idx.last - 1 && idx.new_2026.includes(st)) return null;
+  const cc = Math.min(c, idx.last - 1);
+  const span = (idx.detail[st] || []).find(([a, b]) => a <= cc && cc <= b);
+  if (!span) return null;
+  const k = `${st}-${span[0]}-${span[1]}`;
+  if (!MAPS.s[k]) MAPS.s[k] = await getStatic(`data/maps/s/${k}.json`);
+  return MAPS.s[k];
+}
+const ridH = (y, st, d) => `${y}-H-${st}-${String(d).padStart(2, '0')}`;
+async function viewRealMap(Y, kind, layerSel, lg) {
+  const c = congressOf(S.year);
+  const [idx, M] = await Promise.all([mapIndex(), mapCongress(c)]);
+  if (S.zoom && !idx.s.some(([st]) => st === S.zoom)) S.zoom = null;
+  const R = Y.r.filter(r => r.chamber === S.ch);
+  const tipOf = r => `${raceLabel(r)} · 당선: ${r.winner || '아직 모름'}${r.winner_gender === 'F' ? ' (여성)' : ''}`;
+  let g = '', note = '';
+  const pending = new Set(M.pending || []);
+  if (S.ch === 'H') {
+    const drawn = new Set();
+    for (const [st, d, p] of M.d) {
+      const rid = ridH(S.year, st, d), r = Y.rIndex[rid];
+      drawn.add(rid);
+      g += `<path class="rd" d="${p}" data-st="${st}" data-d="${d}" data-rid="${r ? rid : ''}" fill="${r ? cellColor(r, Y) : C.na}"><title>${esc(r ? tipOf(r) : `${st}-${d === 0 ? 'AL' : d}`)}</title></path>`;
+    }
+    const missing = R.filter(r => !r.special && !drawn.has(r.race_id) && !pending.has(r.state)).map(r => `${r.state}-${r.district === 0 ? 'AL' : r.district}`);
+    if (missing.length) note += ` 경계 자료에 없어 그리지 못한 선거구: ${esc(missing.join(', '))}.`;
+    if (pending.size) note += ` ${S.year}년에 선거구를 새로 그린 ${pending.size}개 주(${[...pending].map(st => STATE_KO[st]).join('·')})는 새 경계 자료가 아직 없어 빗금으로 두었습니다. 이 주들은 칸 지도에서 보세요.`;
+  } else {
+    for (const [st, p] of idx.s) {
+      const rs = R.filter(r => r.state === st).sort((a, b) => a.special - b.special);
+      const r = rs[0];
+      const tip = rs.length ? rs.map(tipOf).join(' / ') : `${STATE_KO[st]}: ${S.year}년 상원 선거 없음`;
+      g += `<path class="rd" d="${p}" data-st="${st}" data-d="0" data-rid="${r ? r.race_id : ''}" data-one="1" fill="${r ? cellColor(r, Y) : 'var(--soft)'}"><title>${esc(tip)}</title></path>`;
+    }
+    note += ' 한 해에 정규·특별선거가 함께 있으면 정규 선거 색을 칠했고, 누르면 정규 선거가 열립니다(특별선거는 선거 목록에서).';
+  }
+  let out = '';
+  for (const [st, p] of idx.s) {
+    if (S.ch === 'H' && pending.has(st)) g += `<path class="pend" d="${p}" data-st="${st}"><title>${esc(`${STATE_KO[st]}: ${S.year}년 새 선거구 경계 자료가 아직 없음`)}</title></path>`;
+    out += `<path d="${p}" data-st="${st}"/>`;
+  }
+  const one = st => S.ch === 'S' || M.d.filter(x => x[0] === st).length <= 1;
+  MAPS.view = { w: idx.w, h: idx.h, one };
+  return `<div class="btns" style="align-items:center">${kind}${layerSel}
+    <button class="btn" data-zoomout ${S.zoom ? '' : 'hidden'}>전국 보기</button>
+    <span class="muted">${S.year}년 ${chName(S.ch)} · ${S.ch === 'H' ? '주를 누르면 그 주가 크게 보이고, 크게 본 상태에서 선거구를 누르면 후보와 결과가 열립니다.' : '주를 누르면 후보와 결과가 열립니다.'}</span></div>
+  ${lg}
+  <div class="rmap-wrap"><svg id="rmap" viewBox="0 0 ${idx.w} ${idx.h}" role="img" aria-label="${S.year}년 ${chName(S.ch)} 선거구 실제 지도">
+    <defs><pattern id="hatch" width="60" height="60" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="60" height="60" fill="var(--soft)"/><line x1="0" y1="0" x2="0" y2="60" stroke="var(--muted)" stroke-width="14" opacity=".35"/></pattern></defs>
+    <g class="dist">${g}</g><g class="outl">${out}</g></svg></div>
+  <p class="note">선거구 경계: Lewis, DeVine, Pitcher &amp; Martis, <i>Digital Boundary Definitions of U.S. Congressional Districts</i>(GitHub, 2026-11-05 내려받음). 알래스카·하와이는 옮겨 그렸습니다. 넓은 농촌 선거구가 넓게 보이고 도시 선거구는 작게 보여서, 전국 단위 비율은 칸 지도가 더 정확하게 보여 줍니다.${note}${isCurrent(S.year) ? ' 올해 본선은 개표 중이라 당선이 확인된 곳만 칠했습니다.' : ''}</p>`;
+}
+function setView(box, animate) {
+  const svg = $('#rmap'); if (!svg) return;
+  const cur = svg.viewBox.baseVal, from = [cur.x, cur.y, cur.width, cur.height], to = [box.x, box.y, box.width, box.height];
+  if (!animate || matchMedia('(prefers-reduced-motion: reduce)').matches) { svg.setAttribute('viewBox', to.join(' ')); return; }
+  const t0 = performance.now(), dur = 420;
+  const step = now => {
+    const t = Math.min(1, (now - t0) / dur), e = t < .5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2;
+    svg.setAttribute('viewBox', from.map((v, i) => v + (to[i] - v) * e).join(' '));
+    if (t < 1) requestAnimationFrame(step);
+  };
+  requestAnimationFrame(step);
+}
+function stateBox(st) {
+  const svg = $('#rmap'), el = svg && svg.querySelector(`.outl path[data-st="${st}"]`);
+  if (!el) return null;
+  const b = el.getBBox(), W = MAPS.view.w, H = MAPS.view.h, ar = W / H;
+  let w = b.width * 1.12, h = b.height * 1.12;
+  if (w / h > ar) h = w / ar; else w = h * ar;
+  w = Math.max(w, W / 40); h = w / ar;
+  return { x: b.x + b.width / 2 - w / 2, y: b.y + b.height / 2 - h / 2, width: w, height: h };
+}
+async function zoomTo(st, animate = true) {
+  const box = stateBox(st); if (!box) return;
+  S.zoom = st; writeHash();
+  const svg = $('#rmap');
+  svg.classList.add('zoomed');
+  svg.querySelectorAll('.dist path').forEach(p => p.classList.toggle('dim', p.dataset.st !== st));
+  const zo = $('[data-zoomout]'); if (zo) zo.hidden = false;
+  setView(box, animate);
+  if (animate) { const r = svg.getBoundingClientRect(); if (r.top < 0 || r.bottom > innerHeight) svg.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); }
+  if (S.ch !== 'H') return;
+  const det = await mapDetail(st, congressOf(S.year));
+  if (!det || S.zoom !== st || !$('#rmap')) return;
+  const byD = Object.fromEntries(det.d.map(([d, p]) => [d, p]));
+  $('#rmap').querySelectorAll(`.dist path.rd[data-st="${st}"]`).forEach(el => {
+    const p = byD[el.dataset.d];
+    if (p && !el.dataset.fine) { el.setAttribute('d', p); el.setAttribute('transform', 'scale(0.1)'); el.dataset.fine = '1'; }
+  });
+}
+function zoomOut() {
+  S.zoom = null; writeHash();
+  const svg = $('#rmap'); if (!svg) return;
+  svg.classList.remove('zoomed');
+  svg.querySelectorAll('.dist path').forEach(p => p.classList.remove('dim'));
+  const zo = $('[data-zoomout]'); if (zo) zo.hidden = true;
+  setView({ x: 0, y: 0, width: MAPS.view.w, height: MAPS.view.h }, true);
+}
+function bindRealMap() {
+  const svg = $('#rmap'); if (!svg) return;
+  svg.querySelectorAll('.dist path.rd').forEach(el => el.addEventListener('click', () => {
+    const st = el.dataset.st;
+    if (S.zoom !== st && !MAPS.view.one(st)) { zoomTo(st); return; }
+    if (el.dataset.rid) openPanel('race:' + el.dataset.rid);
+  }));
+  if (S.zoom) zoomTo(S.zoom, false);
 }
 
 /* --- comparisons --- */
@@ -531,7 +655,8 @@ function viewAbout() {
   <li>1990–2000년과 2024년 하원 본선: MIT Election Data and Science Lab(MEDSL), "U.S. House 1976–2024", Harvard Dataverse, doi:10.7910/DVN/IG0UN2(CC0). 주 정부 공식 결과를 모은 자료로, 득표수가 있습니다. 2024년은 FEC 2024년판이 나오면 FEC로 바뀝니다</li>
   <li>1990–2000년 상원, 2024년 이후 하원 경선과 상원, 2026년 하원 본선: 위키백과 선거 문서(비공식, CC BY-SA)</li>
   <li>여성 후보: Center for American Women and Politics(CAWP), Eagleton Institute of Politics, Rutgers University, Congressional Women Candidates Database ${S.idx.years[0]}–${S.idx.cawp_last_year}${listYear() ? ` · CAWP "Women Candidates ${listYear()}" 후보 목록(Congress and Statewide, ${esc(S.idx.cawp_list.downloaded)}에 내려받은 판)` : ''}</li>
-  <li>의원 성별·임기: congress-legislators(unitedstates 프로젝트) · 지역구 특징(2008–2024): 인구조사국 원본 파일과 Cook 방식으로 계산한 당파 지수(여성정책 트래커와 같은 값)</li></ul>
+  <li>의원 성별·임기: congress-legislators(unitedstates 프로젝트) · 지역구 특징(2008–2024): 인구조사국 원본 파일과 Cook 방식으로 계산한 당파 지수(여성정책 트래커와 같은 값)</li>
+  <li>실제 지도의 선거구 경계: Jeffrey B. Lewis, Brandon DeVine, Lincoln Pitcher, Kenneth C. Martis, "Digital Boundary Definitions of U.S. Congressional Districts, 1789–2012"(저자들이 119대 의회까지 갱신, GitHub, MIT 사용 허가, 2026-11-05 내려받음)</li></ul>
   <h2>성별을 정한 방법</h2><ul>
   <li>${S.idx.cawp_last_year}년까지: CAWP 명단에 있으면 여성, 없는 민주·공화 후보는 남성(CAWP는 주요 정당 경선에 이름을 올린 여성을 모두 실음)</li>
   ${listYear() ? `<li>${listYear()}년: 같은 방식으로 CAWP ${listYear()} 후보 목록을 씁니다. 다만 이 목록은 경선 기간 내내 고쳐지는 목록이라 빠진 사람이 있을 수 있어서, 목록에 없는 민주·공화 후보라도 위키백과 본인 문서가 '그녀(she)'로 쓰거나 예전 CAWP·의원 명부에 여성으로 나오면 여성으로, 이름만 여성 이름이면 '모름'으로 둡니다. 민주·공화 밖 후보는 아래 방법으로 정합니다</li>` : ''}
@@ -559,6 +684,9 @@ function bindMain() {
   m.querySelectorAll('[data-open]').forEach(el => el.addEventListener('click', e => { e.preventDefault(); openPanel(el.dataset.open); }));
   const on = (sel, ev, fn) => m.querySelectorAll(sel).forEach(el => el.addEventListener(ev, fn));
   on('[data-layer]', 'change', e => { S.layer = e.target.value; render(); });
+  on('[data-mk]', 'click', e => { S.mapKind = e.currentTarget.dataset.mk; if (S.mapKind === 'tile') S.zoom = null; render(); });
+  on('[data-zoomout]', 'click', zoomOut);
+  bindRealMap();
   on('[data-target]', 'click', e => { S.target = e.currentTarget.dataset.target; render(); });
   on('[data-unit]', 'click', e => { S.unit = e.currentTarget.dataset.unit; render(); });
   on('[data-crit]', 'change', e => { S.crit = e.target.value; render(); });

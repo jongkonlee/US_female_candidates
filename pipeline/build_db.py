@@ -437,8 +437,9 @@ def merge_people(wrows, year, chamber):
 
 # ------------------------------------------------------------------ overview table: general results (% only)
 def add_overview_generals(rows, year):
-    """fill House general results from the overview table for districts without any general result"""
-    have = {(r["state"], r["district"]) for r in rows if ok(r["g_pct"]) or ok(r["g_votes"]) or r["g_won"] is not None}
+    """fill House general results from the overview table for districts without any general result (a district whose
+    general box lists the candidates with no votes yet, as right after election day, takes the table's winner mark)"""
+    have = {(r["state"], r["district"]) for r in rows if ok(r["g_pct"]) or ok(r["g_votes"]) or r["g_won"] == 1}
     ov = pd.DataFrame(W.overview_house(year))
     if ov.empty:
         return rows, 0
