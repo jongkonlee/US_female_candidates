@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>미국 의회 여성 후보 트래커</title>
+<meta name="description" content="미국 하원·상원 선거(1990년~)에서 여성 후보가 민주·공화 경선과 본선에서 어느 지역구에서 이겼는지, 후보·지역구 특징별로 비교합니다.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <h1>미국 의회 여성 후보 트래커</h1>
+    <p class="sub">여성 후보가 민주당·공화당 경선과 본선에서 어느 지역구에서 이겼는지, 후보와 지역구 특징에 따라 무엇이 다른지 봅니다. 1990년부터, 매일 갱신.</p>
+  </div>
+</header>
+
+<div class="controls wrap" id="controls">
+  <div class="row">
+    <div class="seg" id="chamberSeg" role="group" aria-label="원">
+      <button data-ch="H" class="on">하원</button><button data-ch="S">상원</button>
+    </div>
+    <label class="fld">선거 연도 <select id="yearSel"></select></label>
+    <label class="fld">비교 기간 <select id="periodSel">
+      <option value="year">선택한 연도</option><option value="2020">2020년대</option><option value="2010">2010년대</option>
+      <option value="2000">2000년대</option><option value="1990">1990년대</option><option value="all">전체(1990~)</option></select></label>
+    <label class="chk"><input type="checkbox" id="partyOnly" checked> 정당 경선만(캘리포니아식 상위 2인 경선 등 제외)</label>
+  </div>
+</div>
+
+<nav class="tabs wrap" id="tabs" role="tablist">
+  <button data-tab="summary" class="on">요약</button>
+  <button data-tab="map">지역구 지도</button>
+  <button data-tab="where">어디서 이기나</button>
+  <button data-tab="vsmen">남성과 맞붙을 때</button>
+  <button data-tab="prior">이전 여성 의원</button>
+  <button data-tab="list">선거 목록</button>
+  <button data-tab="download">내려받기</button>
+  <button data-tab="about">설명</button>
+</nav>
+
+<main class="wrap" id="main"><p class="loading">자료를 불러오는 중…</p></main>
+
+<div class="panel" id="panel" hidden>
+  <div class="panel-in">
+    <button class="close" id="panelClose" aria-label="닫기">×</button>
+    <div id="panelBody"></div>
+  </div>
+</div>
+
+<footer class="wrap foot" id="foot"></footer>
+<script src="dta.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

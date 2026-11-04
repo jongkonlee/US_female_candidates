@@ -1,0 +1,8296 @@
+{
+ "congress": 111,
+ "built": "2026-11-04T08:38:44Z",
+ "cd": {
+  "PR-0": {
+   "rural": 6.23,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 3967288.0,
+   "white_nh": 1.0,
+   "black_nh": 0.1,
+   "asian_nh": 0.1,
+   "hisp": 98.7,
+   "med_income": 18314,
+   "ba_plus": 21.4,
+   "acs_year": 2009
+  },
+  "MA-2": {
+   "rural": 13.41,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 667672.0,
+   "white_nh": 77.9,
+   "black_nh": 5.4,
+   "asian_nh": 1.5,
+   "hisp": 13.3,
+   "med_income": 56205,
+   "ba_plus": 26.8,
+   "acs_year": 2009,
+   "pvi": 7.6,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MA-1": {
+   "rural": 31.25,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 645933.0,
+   "white_nh": 87.3,
+   "black_nh": 2.1,
+   "asian_nh": 2.6,
+   "hisp": 6.8,
+   "med_income": 51431,
+   "ba_plus": 28.5,
+   "acs_year": 2009,
+   "pvi": 12.6,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MA-5": {
+   "rural": 5.72,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 653745.0,
+   "white_nh": 74.1,
+   "black_nh": 2.3,
+   "asian_nh": 7.8,
+   "hisp": 13.7,
+   "med_income": 68244,
+   "ba_plus": 37.9,
+   "acs_year": 2009,
+   "pvi": 7.24,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MA-3": {
+   "rural": 6.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 666831.0,
+   "white_nh": 81.5,
+   "black_nh": 3.5,
+   "asian_nh": 5.2,
+   "hisp": 8.0,
+   "med_income": 63339,
+   "ba_plus": 36.7,
+   "acs_year": 2009,
+   "pvi": 7.6,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MA-7": {
+   "rural": 0.44,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 646585.0,
+   "white_nh": 76.5,
+   "black_nh": 4.5,
+   "asian_nh": 8.0,
+   "hisp": 7.5,
+   "med_income": 70861,
+   "ba_plus": 44.8,
+   "acs_year": 2009,
+   "pvi": 13.96,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MA-6": {
+   "rural": 4.77,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 660076.0,
+   "white_nh": 86.0,
+   "black_nh": 2.7,
+   "asian_nh": 2.5,
+   "hisp": 7.8,
+   "med_income": 72411,
+   "ba_plus": 40.3,
+   "acs_year": 2009,
+   "pvi": 6.13,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MA-4": {
+   "rural": 11.36,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 651112.0,
+   "white_nh": 84.8,
+   "black_nh": 2.9,
+   "asian_nh": 4.7,
+   "hisp": 4.7,
+   "med_income": 70451,
+   "ba_plus": 40.1,
+   "acs_year": 2009,
+   "pvi": 12.61,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MA-9": {
+   "rural": 0.86,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 660176.0,
+   "white_nh": 73.9,
+   "black_nh": 13.0,
+   "asian_nh": 4.9,
+   "hisp": 5.5,
+   "med_income": 71259,
+   "ba_plus": 39.1,
+   "acs_year": 2009,
+   "pvi": 8.91,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MA-10": {
+   "rural": 6.69,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 657805.0,
+   "white_nh": 90.2,
+   "black_nh": 2.2,
+   "asian_nh": 3.7,
+   "hisp": 1.9,
+   "med_income": 64421,
+   "ba_plus": 38.7,
+   "acs_year": 2009,
+   "pvi": 3.35,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MA-8": {
+   "rural": 0.04,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 683652.0,
+   "white_nh": 50.7,
+   "black_nh": 18.8,
+   "asian_nh": 8.4,
+   "hisp": 18.6,
+   "med_income": 56512,
+   "ba_plus": 48.4,
+   "acs_year": 2009,
+   "pvi": 32.2,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "RI-1": {
+   "rural": 4.3,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 516796.0,
+   "white_nh": 79.4,
+   "black_nh": 6.1,
+   "asian_nh": 2.3,
+   "hisp": 9.5,
+   "med_income": 52512,
+   "ba_plus": 31.2,
+   "acs_year": 2009,
+   "pvi": 13.11,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "RI-2": {
+   "rural": 14.1,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 536413.0,
+   "white_nh": 76.1,
+   "black_nh": 4.3,
+   "asian_nh": 3.5,
+   "hisp": 14.3,
+   "med_income": 55452,
+   "ba_plus": 29.8,
+   "acs_year": 2009,
+   "pvi": 8.77,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NH-1": {
+   "rural": 30.77,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 667005.0,
+   "white_nh": 92.1,
+   "black_nh": 1.6,
+   "asian_nh": 1.8,
+   "hisp": 3.0,
+   "med_income": 61644,
+   "ba_plus": 31.9,
+   "acs_year": 2009,
+   "pvi": -0.58,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NH-2": {
+   "rural": 48.61,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 657570.0,
+   "white_nh": 93.3,
+   "black_nh": 0.8,
+   "asian_nh": 1.9,
+   "hisp": 2.5,
+   "med_income": 59472,
+   "ba_plus": 32.1,
+   "acs_year": 2009,
+   "pvi": 3.1,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "ME-2": {
+   "rural": 69.8,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 645784.0,
+   "white_nh": 93.7,
+   "black_nh": 1.2,
+   "asian_nh": 0.7,
+   "hisp": 1.2,
+   "med_income": 39365,
+   "ba_plus": 20.8,
+   "acs_year": 2009,
+   "pvi": 2.9,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "ME-1": {
+   "rural": 52.99,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 672517.0,
+   "white_nh": 94.6,
+   "black_nh": 1.3,
+   "asian_nh": 1.1,
+   "hisp": 1.4,
+   "med_income": 52328,
+   "ba_plus": 32.8,
+   "acs_year": 2009,
+   "pvi": 7.79,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "VT-0": {
+   "rural": 61.1,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 621760.0,
+   "white_nh": 94.8,
+   "black_nh": 0.8,
+   "asian_nh": 1.0,
+   "hisp": 1.5,
+   "med_income": 51618,
+   "ba_plus": 33.1,
+   "acs_year": 2009,
+   "pvi": 14.11,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CT-5": {
+   "rural": 14.49,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 705250.0,
+   "white_nh": 74.1,
+   "black_nh": 5.5,
+   "asian_nh": 3.0,
+   "hisp": 14.9,
+   "med_income": 64701,
+   "ba_plus": 33.8,
+   "acs_year": 2009,
+   "pvi": 2.9,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CT-1": {
+   "rural": 5.71,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 697695.0,
+   "white_nh": 66.1,
+   "black_nh": 14.2,
+   "asian_nh": 4.2,
+   "hisp": 13.7,
+   "med_income": 60467,
+   "ba_plus": 31.8,
+   "acs_year": 2009,
+   "pvi": 12.7,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CT-2": {
+   "rural": 32.04,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 721446.0,
+   "white_nh": 85.9,
+   "black_nh": 3.1,
+   "asian_nh": 2.5,
+   "hisp": 5.9,
+   "med_income": 70453,
+   "ba_plus": 33.1,
+   "acs_year": 2009,
+   "pvi": 6.02,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NY-1": {
+   "rural": 5.14,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 719139.0,
+   "white_nh": 79.9,
+   "black_nh": 4.3,
+   "asian_nh": 3.4,
+   "hisp": 11.0,
+   "med_income": 80857,
+   "ba_plus": 32.0,
+   "acs_year": 2009,
+   "pvi": -0.96,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CT-3": {
+   "rural": 2.94,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 697720.0,
+   "white_nh": 70.4,
+   "black_nh": 12.0,
+   "asian_nh": 3.8,
+   "hisp": 11.5,
+   "med_income": 61902,
+   "ba_plus": 33.4,
+   "acs_year": 2009,
+   "pvi": 9.56,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CT-4": {
+   "rural": 4.29,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 696177.0,
+   "white_nh": 67.0,
+   "black_nh": 11.0,
+   "asian_nh": 4.1,
+   "hisp": 16.0,
+   "med_income": 81775,
+   "ba_plus": 46.1,
+   "acs_year": 2009,
+   "pvi": 5.81,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NJ-7": {
+   "rural": 9.29,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 670900.0,
+   "white_nh": 71.1,
+   "black_nh": 5.1,
+   "asian_nh": 11.2,
+   "hisp": 11.2,
+   "med_income": 93190,
+   "ba_plus": 45.4,
+   "acs_year": 2009,
+   "pvi": -2.07,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NJ-13": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 663174.0,
+   "white_nh": 31.3,
+   "black_nh": 10.9,
+   "asian_nh": 7.4,
+   "hisp": 48.7,
+   "med_income": 49056,
+   "ba_plus": 28.0,
+   "acs_year": 2009,
+   "pvi": 21.61,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NJ-10": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 629981.0,
+   "white_nh": 18.4,
+   "black_nh": 55.6,
+   "asian_nh": 4.0,
+   "hisp": 19.8,
+   "med_income": 46937,
+   "ba_plus": 21.4,
+   "acs_year": 2009,
+   "pvi": 33.29,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NJ-8": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 637665.0,
+   "white_nh": 47.9,
+   "black_nh": 12.9,
+   "asian_nh": 6.0,
+   "hisp": 31.6,
+   "med_income": 59512,
+   "ba_plus": 32.5,
+   "acs_year": 2009,
+   "pvi": 10.02,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NJ-11": {
+   "rural": 6.65,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 664468.0,
+   "white_nh": 76.5,
+   "black_nh": 2.6,
+   "asian_nh": 9.2,
+   "hisp": 10.3,
+   "med_income": 97730,
+   "ba_plus": 50.5,
+   "acs_year": 2009,
+   "pvi": -7.86,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NJ-9": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 651027.0,
+   "white_nh": 51.9,
+   "black_nh": 7.3,
+   "asian_nh": 13.3,
+   "hisp": 25.7,
+   "med_income": 66723,
+   "ba_plus": 36.0,
+   "acs_year": 2009,
+   "pvi": 8.51,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NJ-6": {
+   "rural": 0.2,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 659418.0,
+   "white_nh": 54.3,
+   "black_nh": 15.7,
+   "asian_nh": 11.7,
+   "hisp": 16.5,
+   "med_income": 67218,
+   "ba_plus": 34.4,
+   "acs_year": 2009,
+   "pvi": 7.25,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NJ-5": {
+   "rural": 15.66,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 665632.0,
+   "white_nh": 79.2,
+   "black_nh": 2.1,
+   "asian_nh": 10.1,
+   "hisp": 7.1,
+   "med_income": 89774,
+   "ba_plus": 42.9,
+   "acs_year": 2009,
+   "pvi": -7.61,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NJ-12": {
+   "rural": 4.63,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 699478.0,
+   "white_nh": 65.1,
+   "black_nh": 11.4,
+   "asian_nh": 14.1,
+   "hisp": 7.7,
+   "med_income": 85071,
+   "ba_plus": 46.5,
+   "acs_year": 2009,
+   "pvi": 4.98,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NJ-4": {
+   "rural": 5.92,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 707497.0,
+   "white_nh": 76.5,
+   "black_nh": 7.8,
+   "asian_nh": 3.5,
+   "hisp": 10.6,
+   "med_income": 67987,
+   "ba_plus": 29.7,
+   "acs_year": 2009,
+   "pvi": -5.85,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NJ-2": {
+   "rural": 19.79,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 696024.0,
+   "white_nh": 67.3,
+   "black_nh": 13.3,
+   "asian_nh": 3.2,
+   "hisp": 14.1,
+   "med_income": 54305,
+   "ba_plus": 22.2,
+   "acs_year": 2009,
+   "pvi": 0.83,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NJ-3": {
+   "rural": 3.87,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 691723.0,
+   "white_nh": 80.0,
+   "black_nh": 9.2,
+   "asian_nh": 3.6,
+   "hisp": 5.3,
+   "med_income": 69978,
+   "ba_plus": 32.1,
+   "acs_year": 2009,
+   "pvi": -0.81,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NJ-1": {
+   "rural": 2.39,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 670753.0,
+   "white_nh": 66.5,
+   "black_nh": 17.0,
+   "asian_nh": 3.2,
+   "hisp": 10.8,
+   "med_income": 59820,
+   "ba_plus": 25.4,
+   "acs_year": 2009,
+   "pvi": 12.04,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NY-8": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 701357.0,
+   "white_nh": 68.0,
+   "black_nh": 4.2,
+   "asian_nh": 14.8,
+   "hisp": 11.2,
+   "med_income": 66735,
+   "ba_plus": 54.2,
+   "acs_year": 2009,
+   "pvi": 21.23,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NY-12": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 694240.0,
+   "white_nh": 27.2,
+   "black_nh": 7.1,
+   "asian_nh": 17.9,
+   "hisp": 46.3,
+   "med_income": 42864,
+   "ba_plus": 27.2,
+   "acs_year": 2009,
+   "pvi": 32.9,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NY-14": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 671952.0,
+   "white_nh": 71.4,
+   "black_nh": 3.6,
+   "asian_nh": 10.2,
+   "hisp": 12.6,
+   "med_income": 77489,
+   "ba_plus": 65.6,
+   "acs_year": 2009,
+   "pvi": 25.32,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NY-15": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 667324.0,
+   "white_nh": 23.9,
+   "black_nh": 27.3,
+   "asian_nh": 3.6,
+   "hisp": 43.0,
+   "med_income": 38579,
+   "ba_plus": 38.9,
+   "acs_year": 2009,
+   "pvi": 40.73,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NY-13": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 704530.0,
+   "white_nh": 64.6,
+   "black_nh": 6.9,
+   "asian_nh": 12.5,
+   "hisp": 14.8,
+   "med_income": 59941,
+   "ba_plus": 27.9,
+   "acs_year": 2009,
+   "pvi": -4.46,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NY-16": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 690192.0,
+   "white_nh": 2.6,
+   "black_nh": 29.1,
+   "asian_nh": 1.6,
+   "hisp": 65.8,
+   "med_income": 23946,
+   "ba_plus": 11.0,
+   "acs_year": 2009,
+   "pvi": 41.27,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NY-7": {
+   "rural": 0.01,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 679200.0,
+   "white_nh": 22.4,
+   "black_nh": 16.1,
+   "asian_nh": 15.5,
+   "hisp": 43.6,
+   "med_income": 45677,
+   "ba_plus": 24.3,
+   "acs_year": 2009,
+   "pvi": 26.08,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NY-17": {
+   "rural": 0.11,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 674549.0,
+   "white_nh": 38.4,
+   "black_nh": 30.8,
+   "asian_nh": 4.8,
+   "hisp": 24.0,
+   "med_income": 53562,
+   "ba_plus": 32.6,
+   "acs_year": 2009,
+   "pvi": 18.29,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NY-19": {
+   "rural": 18.16,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 715837.0,
+   "white_nh": 77.0,
+   "black_nh": 6.0,
+   "asian_nh": 3.1,
+   "hisp": 12.3,
+   "med_income": 79818,
+   "ba_plus": 36.2,
+   "acs_year": 2009,
+   "pvi": -2.46,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NY-18": {
+   "rural": 1.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 675471.0,
+   "white_nh": 61.4,
+   "black_nh": 9.9,
+   "asian_nh": 7.2,
+   "hisp": 20.0,
+   "med_income": 84474,
+   "ba_plus": 47.0,
+   "acs_year": 2009,
+   "pvi": 8.54,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NY-22": {
+   "rural": 34.23,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 667948.0,
+   "white_nh": 75.0,
+   "black_nh": 8.5,
+   "asian_nh": 3.2,
+   "hisp": 10.8,
+   "med_income": 48797,
+   "ba_plus": 27.9,
+   "acs_year": 2009,
+   "pvi": 6.33,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NY-4": {
+   "rural": 0.03,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 663354.0,
+   "white_nh": 54.5,
+   "black_nh": 19.3,
+   "asian_nh": 7.0,
+   "hisp": 17.5,
+   "med_income": 85339,
+   "ba_plus": 35.3,
+   "acs_year": 2009,
+   "pvi": 5.37,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NY-6": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 660080.0,
+   "white_nh": 11.3,
+   "black_nh": 50.8,
+   "asian_nh": 13.0,
+   "hisp": 17.4,
+   "med_income": 59156,
+   "ba_plus": 23.3,
+   "acs_year": 2009,
+   "pvi": 35.51,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NY-5": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 705040.0,
+   "white_nh": 38.1,
+   "black_nh": 4.1,
+   "asian_nh": 31.3,
+   "hisp": 25.2,
+   "med_income": 62284,
+   "ba_plus": 35.4,
+   "acs_year": 2009,
+   "pvi": 11.18,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NY-10": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 686533.0,
+   "white_nh": 18.8,
+   "black_nh": 60.0,
+   "asian_nh": 3.0,
+   "hisp": 16.6,
+   "med_income": 39706,
+   "ba_plus": 23.9,
+   "acs_year": 2009,
+   "pvi": 37.51,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NY-11": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 674028.0,
+   "white_nh": 27.2,
+   "black_nh": 53.7,
+   "asian_nh": 4.7,
+   "hisp": 12.3,
+   "med_income": 45659,
+   "ba_plus": 35.0,
+   "acs_year": 2009,
+   "pvi": 37.51,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NY-9": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 697061.0,
+   "white_nh": 59.6,
+   "black_nh": 4.0,
+   "asian_nh": 17.4,
+   "hisp": 17.0,
+   "med_income": 59030,
+   "ba_plus": 36.5,
+   "acs_year": 2009,
+   "pvi": 3.21,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NY-3": {
+   "rural": 0.45,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 658984.0,
+   "white_nh": 83.7,
+   "black_nh": 2.3,
+   "asian_nh": 4.4,
+   "hisp": 8.4,
+   "med_income": 92072,
+   "ba_plus": 35.9,
+   "acs_year": 2009,
+   "pvi": -4.98,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NY-2": {
+   "rural": 0.3,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 693690.0,
+   "white_nh": 65.9,
+   "black_nh": 10.8,
+   "asian_nh": 4.4,
+   "hisp": 17.7,
+   "med_income": 90389,
+   "ba_plus": 33.4,
+   "acs_year": 2009,
+   "pvi": 3.49,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NY-21": {
+   "rural": 17.16,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 665672.0,
+   "white_nh": 81.0,
+   "black_nh": 8.1,
+   "asian_nh": 3.5,
+   "hisp": 4.6,
+   "med_income": 51665,
+   "ba_plus": 30.2,
+   "acs_year": 2009,
+   "pvi": 5.96,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NY-20": {
+   "rural": 50.8,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 681313.0,
+   "white_nh": 92.0,
+   "black_nh": 2.4,
+   "asian_nh": 1.2,
+   "hisp": 2.8,
+   "med_income": 57600,
+   "ba_plus": 29.6,
+   "acs_year": 2009,
+   "pvi": -2.32,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NY-23": {
+   "rural": 63.28,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 658243.0,
+   "white_nh": 91.9,
+   "black_nh": 2.3,
+   "asian_nh": 0.8,
+   "hisp": 2.5,
+   "med_income": 45333,
+   "ba_plus": 18.3,
+   "acs_year": 2009,
+   "pvi": -1.07,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NY-25": {
+   "rural": 19.44,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 652313.0,
+   "white_nh": 84.5,
+   "black_nh": 7.9,
+   "asian_nh": 2.2,
+   "hisp": 3.2,
+   "med_income": 51239,
+   "ba_plus": 31.3,
+   "acs_year": 2009,
+   "pvi": 2.72,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NY-24": {
+   "rural": 47.83,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 638833.0,
+   "white_nh": 90.4,
+   "black_nh": 3.4,
+   "asian_nh": 1.2,
+   "hisp": 3.2,
+   "med_income": 45298,
+   "ba_plus": 21.7,
+   "acs_year": 2009,
+   "pvi": -2.07,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NY-26": {
+   "rural": 28.17,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 652329.0,
+   "white_nh": 89.8,
+   "black_nh": 3.7,
+   "asian_nh": 2.2,
+   "hisp": 2.7,
+   "med_income": 53840,
+   "ba_plus": 30.0,
+   "acs_year": 2009,
+   "pvi": -6.28,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NY-27": {
+   "rural": 19.76,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 629541.0,
+   "white_nh": 85.7,
+   "black_nh": 5.8,
+   "asian_nh": 1.1,
+   "hisp": 5.4,
+   "med_income": 43284,
+   "ba_plus": 25.6,
+   "acs_year": 2009,
+   "pvi": 2.39,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NY-28": {
+   "rural": 5.82,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 610004.0,
+   "white_nh": 62.0,
+   "black_nh": 27.8,
+   "asian_nh": 1.7,
+   "hisp": 6.3,
+   "med_income": 38079,
+   "ba_plus": 24.5,
+   "acs_year": 2009,
+   "pvi": 15.73,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NY-29": {
+   "rural": 39.62,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 652696.0,
+   "white_nh": 90.1,
+   "black_nh": 3.6,
+   "asian_nh": 2.3,
+   "hisp": 1.9,
+   "med_income": 49476,
+   "ba_plus": 29.4,
+   "acs_year": 2009,
+   "pvi": -5.38,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "PA-4": {
+   "rural": 18.96,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 641526.0,
+   "white_nh": 92.9,
+   "black_nh": 3.4,
+   "asian_nh": 1.4,
+   "hisp": 1.0,
+   "med_income": 53717,
+   "ba_plus": 32.4,
+   "acs_year": 2009,
+   "pvi": -7.76,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "PA-18": {
+   "rural": 13.39,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 652685.0,
+   "white_nh": 93.5,
+   "black_nh": 2.6,
+   "asian_nh": 1.7,
+   "hisp": 1.0,
+   "med_income": 53832,
+   "ba_plus": 33.6,
+   "acs_year": 2009,
+   "pvi": -7.62,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "PA-12": {
+   "rural": 38.83,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 615749.0,
+   "white_nh": 93.6,
+   "black_nh": 3.6,
+   "asian_nh": 0.5,
+   "hisp": 0.8,
+   "med_income": 39329,
+   "ba_plus": 16.0,
+   "acs_year": 2009,
+   "pvi": -2.58,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "PA-14": {
+   "rural": 0.19,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 582604.0,
+   "white_nh": 69.9,
+   "black_nh": 23.2,
+   "asian_nh": 2.3,
+   "hisp": 2.2,
+   "med_income": 36604,
+   "ba_plus": 26.4,
+   "acs_year": 2009,
+   "pvi": 18.0,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "PA-9": {
+   "rural": 55.13,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 658307.0,
+   "white_nh": 95.1,
+   "black_nh": 2.0,
+   "asian_nh": 0.5,
+   "hisp": 1.6,
+   "med_income": 42983,
+   "ba_plus": 15.7,
+   "acs_year": 2009,
+   "pvi": -17.42,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "PA-5": {
+   "rural": 52.68,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 633794.0,
+   "white_nh": 94.1,
+   "black_nh": 1.9,
+   "asian_nh": 1.3,
+   "hisp": 1.2,
+   "med_income": 40428,
+   "ba_plus": 19.0,
+   "acs_year": 2009,
+   "pvi": -9.37,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "PA-3": {
+   "rural": 40.71,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 642981.0,
+   "white_nh": 92.5,
+   "black_nh": 3.5,
+   "asian_nh": 0.8,
+   "hisp": 1.9,
+   "med_income": 43335,
+   "ba_plus": 20.9,
+   "acs_year": 2009,
+   "pvi": -3.21,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "PA-10": {
+   "rural": 53.81,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 654139.0,
+   "white_nh": 93.3,
+   "black_nh": 2.5,
+   "asian_nh": 0.7,
+   "hisp": 2.4,
+   "med_income": 44188,
+   "ba_plus": 21.2,
+   "acs_year": 2009,
+   "pvi": -8.36,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "PA-17": {
+   "rural": 28.1,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 665342.0,
+   "white_nh": 84.4,
+   "black_nh": 7.0,
+   "asian_nh": 1.4,
+   "hisp": 5.3,
+   "med_income": 49156,
+   "ba_plus": 21.3,
+   "acs_year": 2009,
+   "pvi": -5.59,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "PA-19": {
+   "rural": 26.03,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 720218.0,
+   "white_nh": 88.2,
+   "black_nh": 4.0,
+   "asian_nh": 1.6,
+   "hisp": 4.5,
+   "med_income": 57572,
+   "ba_plus": 24.0,
+   "acs_year": 2009,
+   "pvi": -10.88,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "PA-16": {
+   "rural": 19.8,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 703601.0,
+   "white_nh": 81.7,
+   "black_nh": 4.2,
+   "asian_nh": 1.4,
+   "hisp": 11.5,
+   "med_income": 56011,
+   "ba_plus": 26.4,
+   "acs_year": 2009,
+   "pvi": -6.5,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "PA-6": {
+   "rural": 11.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 730960.0,
+   "white_nh": 80.6,
+   "black_nh": 6.8,
+   "asian_nh": 3.6,
+   "hisp": 7.1,
+   "med_income": 68863,
+   "ba_plus": 38.7,
+   "acs_year": 2009,
+   "pvi": 4.48,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "PA-11": {
+   "rural": 25.29,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 674177.0,
+   "white_nh": 86.0,
+   "black_nh": 4.3,
+   "asian_nh": 1.2,
+   "hisp": 6.8,
+   "med_income": 42724,
+   "ba_plus": 20.2,
+   "acs_year": 2009,
+   "pvi": 3.98,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "PA-15": {
+   "rural": 11.17,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 710735.0,
+   "white_nh": 79.7,
+   "black_nh": 4.1,
+   "asian_nh": 2.5,
+   "hisp": 12.4,
+   "med_income": 56938,
+   "ba_plus": 26.5,
+   "acs_year": 2009,
+   "pvi": 2.47,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "PA-8": {
+   "rural": 7.92,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 672080.0,
+   "white_nh": 87.4,
+   "black_nh": 4.0,
+   "asian_nh": 3.7,
+   "hisp": 3.8,
+   "med_income": 75412,
+   "ba_plus": 32.7,
+   "acs_year": 2009,
+   "pvi": 1.33,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "PA-13": {
+   "rural": 1.39,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 687425.0,
+   "white_nh": 76.2,
+   "black_nh": 8.5,
+   "asian_nh": 6.3,
+   "hisp": 7.4,
+   "med_income": 58341,
+   "ba_plus": 31.7,
+   "acs_year": 2009,
+   "pvi": 5.94,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "PA-7": {
+   "rural": 1.22,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 664139.0,
+   "white_nh": 82.7,
+   "black_nh": 8.5,
+   "asian_nh": 5.2,
+   "hisp": 2.5,
+   "med_income": 70774,
+   "ba_plus": 41.1,
+   "acs_year": 2009,
+   "pvi": 3.22,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "PA-2": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 642968.0,
+   "white_nh": 33.1,
+   "black_nh": 55.9,
+   "asian_nh": 4.9,
+   "hisp": 4.1,
+   "med_income": 39137,
+   "ba_plus": 31.6,
+   "acs_year": 2009,
+   "pvi": 37.01,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "PA-1": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 651337.0,
+   "white_nh": 27.6,
+   "black_nh": 47.5,
+   "asian_nh": 5.3,
+   "hisp": 18.0,
+   "med_income": 32622,
+   "ba_plus": 19.2,
+   "acs_year": 2009,
+   "pvi": 34.76,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "DE-0": {
+   "rural": 16.7,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 885122.0,
+   "white_nh": 67.4,
+   "black_nh": 20.3,
+   "asian_nh": 3.0,
+   "hisp": 7.2,
+   "med_income": 56860,
+   "ba_plus": 28.7,
+   "acs_year": 2009,
+   "pvi": 7.9,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "DC-0": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 599657.0,
+   "white_nh": 33.3,
+   "black_nh": 52.7,
+   "asian_nh": 2.9,
+   "hisp": 8.8,
+   "med_income": 59290,
+   "ba_plus": 48.5,
+   "acs_year": 2009
+  },
+  "VA-10": {
+   "rural": 14.47,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 838267.0,
+   "white_nh": 66.0,
+   "black_nh": 7.3,
+   "asian_nh": 11.2,
+   "hisp": 12.2,
+   "med_income": 94931,
+   "ba_plus": 49.4,
+   "acs_year": 2009,
+   "pvi": -1.19,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "VA-1": {
+   "rural": 29.34,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 784164.0,
+   "white_nh": 69.5,
+   "black_nh": 19.7,
+   "asian_nh": 2.7,
+   "hisp": 5.8,
+   "med_income": 66985,
+   "ba_plus": 31.2,
+   "acs_year": 2009,
+   "pvi": -6.24,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "VA-7": {
+   "rural": 28.66,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 743973.0,
+   "white_nh": 73.0,
+   "black_nh": 17.2,
+   "asian_nh": 3.4,
+   "hisp": 4.1,
+   "med_income": 63522,
+   "ba_plus": 37.9,
+   "acs_year": 2009,
+   "pvi": -8.01,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "VA-11": {
+   "rural": 3.06,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 770285.0,
+   "white_nh": 57.0,
+   "black_nh": 10.8,
+   "asian_nh": 13.3,
+   "hisp": 15.6,
+   "med_income": 101922,
+   "ba_plus": 52.6,
+   "acs_year": 2009,
+   "pvi": 3.1,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "WV-2": {
+   "rural": 49.44,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 637115.0,
+   "med_income": 41020,
+   "ba_plus": 19.8,
+   "acs_year": 2009,
+   "pvi": -8.52,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "VA-8": {
+   "rural": 0.09,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 689880.0,
+   "white_nh": 56.1,
+   "black_nh": 13.3,
+   "asian_nh": 10.0,
+   "hisp": 17.6,
+   "med_income": 88945,
+   "ba_plus": 60.4,
+   "acs_year": 2009,
+   "pvi": 15.98,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MD-5": {
+   "rural": 21.21,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 754672.0,
+   "white_nh": 50.0,
+   "black_nh": 36.8,
+   "asian_nh": 3.8,
+   "hisp": 6.8,
+   "med_income": 83698,
+   "ba_plus": 32.8,
+   "acs_year": 2009,
+   "pvi": 11.68,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MD-3": {
+   "rural": 1.72,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 717030.0,
+   "white_nh": 67.6,
+   "black_nh": 19.6,
+   "asian_nh": 4.4,
+   "hisp": 6.0,
+   "med_income": 70354,
+   "ba_plus": 41.9,
+   "acs_year": 2009,
+   "pvi": 6.33,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MD-7": {
+   "rural": 3.72,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 648838.0,
+   "white_nh": 33.4,
+   "black_nh": 55.8,
+   "asian_nh": 5.9,
+   "hisp": 2.4,
+   "med_income": 50066,
+   "ba_plus": 33.8,
+   "acs_year": 2009,
+   "pvi": 25.83,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MD-4": {
+   "rural": 2.14,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 694607.0,
+   "white_nh": 23.3,
+   "black_nh": 55.1,
+   "asian_nh": 6.9,
+   "hisp": 12.6,
+   "med_income": 71994,
+   "ba_plus": 35.3,
+   "acs_year": 2009,
+   "pvi": 31.64,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MD-8": {
+   "rural": 0.96,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 724989.0,
+   "white_nh": 49.6,
+   "black_nh": 15.8,
+   "asian_nh": 12.7,
+   "hisp": 19.4,
+   "med_income": 90480,
+   "ba_plus": 55.3,
+   "acs_year": 2009,
+   "pvi": 21.03,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MD-2": {
+   "rural": 2.01,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 702828.0,
+   "white_nh": 57.9,
+   "black_nh": 32.6,
+   "asian_nh": 2.9,
+   "hisp": 3.6,
+   "med_income": 57780,
+   "ba_plus": 24.7,
+   "acs_year": 2009,
+   "pvi": 7.1,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MD-6": {
+   "rural": 36.65,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 730053.0,
+   "white_nh": 85.8,
+   "black_nh": 6.5,
+   "asian_nh": 2.0,
+   "hisp": 3.7,
+   "med_income": 67006,
+   "ba_plus": 29.1,
+   "acs_year": 2009,
+   "pvi": -13.26,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MD-1": {
+   "rural": 31.22,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 726461.0,
+   "white_nh": 81.8,
+   "black_nh": 11.0,
+   "asian_nh": 2.1,
+   "hisp": 3.0,
+   "med_income": 67410,
+   "ba_plus": 31.6,
+   "acs_year": 2009,
+   "pvi": -12.66,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "VA-6": {
+   "rural": 33.5,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 696178.0,
+   "white_nh": 82.7,
+   "black_nh": 10.6,
+   "asian_nh": 1.2,
+   "hisp": 3.8,
+   "med_income": 44928,
+   "ba_plus": 24.0,
+   "acs_year": 2009,
+   "pvi": -11.55,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "VA-5": {
+   "rural": 61.51,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 668450.0,
+   "white_nh": 72.2,
+   "black_nh": 22.5,
+   "asian_nh": 1.2,
+   "hisp": 2.6,
+   "med_income": 42162,
+   "ba_plus": 21.3,
+   "acs_year": 2009,
+   "pvi": -5.23,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "VA-4": {
+   "rural": 26.57,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 728901.0,
+   "white_nh": 59.9,
+   "black_nh": 33.0,
+   "asian_nh": 1.7,
+   "hisp": 3.4,
+   "med_income": 56457,
+   "ba_plus": 23.1,
+   "acs_year": 2009,
+   "pvi": -3.83,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "VA-3": {
+   "rural": 7.78,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 680284.0,
+   "white_nh": 36.5,
+   "black_nh": 54.0,
+   "asian_nh": 1.9,
+   "hisp": 4.2,
+   "med_income": 40256,
+   "ba_plus": 20.2,
+   "acs_year": 2009,
+   "pvi": 21.21,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "VA-2": {
+   "rural": 8.14,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 634015.0,
+   "white_nh": 64.1,
+   "black_nh": 21.6,
+   "asian_nh": 4.5,
+   "hisp": 6.0,
+   "med_income": 55732,
+   "ba_plus": 28.6,
+   "acs_year": 2009,
+   "pvi": -3.71,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "VA-9": {
+   "rural": 62.04,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 648193.0,
+   "white_nh": 91.9,
+   "black_nh": 4.1,
+   "asian_nh": 1.0,
+   "hisp": 1.4,
+   "med_income": 36897,
+   "ba_plus": 16.9,
+   "acs_year": 2009,
+   "pvi": -12.3,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "WV-3": {
+   "rural": 59.69,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 584784.0,
+   "med_income": 32600,
+   "ba_plus": 13.0,
+   "acs_year": 2009,
+   "pvi": -8.7,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "WV-1": {
+   "rural": 45.17,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 597878.0,
+   "white_nh": 94.7,
+   "black_nh": 2.2,
+   "asian_nh": 0.7,
+   "hisp": 1.0,
+   "med_income": 37910,
+   "ba_plus": 18.8,
+   "acs_year": 2009,
+   "pvi": -10.14,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NC-5": {
+   "rural": 53.27,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 680636.0,
+   "white_nh": 83.1,
+   "black_nh": 8.4,
+   "asian_nh": 0.9,
+   "hisp": 6.1,
+   "med_income": 43697,
+   "ba_plus": 22.6,
+   "acs_year": 2009,
+   "pvi": -15.33,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NC-12": {
+   "rural": 9.54,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 702865.0,
+   "white_nh": 40.8,
+   "black_nh": 42.4,
+   "asian_nh": 3.0,
+   "hisp": 11.8,
+   "med_income": 38382,
+   "ba_plus": 23.6,
+   "acs_year": 2009,
+   "pvi": 16.32,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NC-13": {
+   "rural": 23.87,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 752710.0,
+   "white_nh": 57.3,
+   "black_nh": 27.5,
+   "asian_nh": 2.1,
+   "hisp": 11.0,
+   "med_income": 44949,
+   "ba_plus": 31.3,
+   "acs_year": 2009,
+   "pvi": 5.37,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NC-6": {
+   "rural": 38.56,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 716835.0,
+   "white_nh": 79.5,
+   "black_nh": 10.5,
+   "asian_nh": 1.6,
+   "hisp": 6.9,
+   "med_income": 46662,
+   "ba_plus": 26.0,
+   "acs_year": 2009,
+   "pvi": -17.61,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NC-2": {
+   "rural": 44.71,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 742589.0,
+   "white_nh": 57.3,
+   "black_nh": 27.6,
+   "asian_nh": 0.8,
+   "hisp": 11.2,
+   "med_income": 42169,
+   "ba_plus": 20.3,
+   "acs_year": 2009,
+   "pvi": -1.56,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NC-8": {
+   "rural": 27.98,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 702437.0,
+   "white_nh": 56.1,
+   "black_nh": 27.9,
+   "asian_nh": 1.6,
+   "hisp": 9.9,
+   "med_income": 40351,
+   "ba_plus": 19.8,
+   "acs_year": 2009,
+   "pvi": -1.34,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NC-4": {
+   "rural": 10.92,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 821062.0,
+   "white_nh": 65.7,
+   "black_nh": 17.7,
+   "asian_nh": 6.3,
+   "hisp": 7.7,
+   "med_income": 62916,
+   "ba_plus": 53.0,
+   "acs_year": 2009,
+   "pvi": 9.16,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NC-1": {
+   "rural": 54.91,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 609414.0,
+   "white_nh": 44.0,
+   "black_nh": 48.8,
+   "asian_nh": 0.4,
+   "hisp": 4.7,
+   "med_income": 31470,
+   "ba_plus": 13.2,
+   "acs_year": 2009,
+   "pvi": 8.91,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NC-3": {
+   "rural": 40.32,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 702019.0,
+   "white_nh": 74.0,
+   "black_nh": 17.2,
+   "asian_nh": 1.1,
+   "hisp": 5.2,
+   "med_income": 43112,
+   "ba_plus": 22.7,
+   "acs_year": 2009,
+   "pvi": -15.67,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NC-9": {
+   "rural": 8.62,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 863082.0,
+   "white_nh": 73.4,
+   "black_nh": 13.9,
+   "asian_nh": 3.2,
+   "hisp": 7.4,
+   "med_income": 60394,
+   "ba_plus": 39.5,
+   "acs_year": 2009,
+   "pvi": -9.61,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NC-10": {
+   "rural": 42.73,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 690470.0,
+   "white_nh": 82.1,
+   "black_nh": 8.6,
+   "asian_nh": 1.6,
+   "hisp": 6.0,
+   "med_income": 40138,
+   "ba_plus": 16.9,
+   "acs_year": 2009,
+   "pvi": -16.93,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NC-11": {
+   "rural": 51.63,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 677890.0,
+   "white_nh": 87.6,
+   "black_nh": 4.3,
+   "asian_nh": 0.7,
+   "hisp": 4.4,
+   "med_income": 38391,
+   "ba_plus": 25.1,
+   "acs_year": 2009,
+   "pvi": -6.1,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NC-7": {
+   "rural": 45.92,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 718875.0,
+   "white_nh": 63.8,
+   "black_nh": 19.9,
+   "asian_nh": 0.8,
+   "hisp": 6.0,
+   "med_income": 38887,
+   "ba_plus": 21.6,
+   "acs_year": 2009,
+   "pvi": -5.85,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "SC-6": {
+   "rural": 49.62,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 667466.0,
+   "white_nh": 41.2,
+   "black_nh": 54.3,
+   "asian_nh": 0.7,
+   "hisp": 2.9,
+   "med_income": 31987,
+   "ba_plus": 17.5,
+   "acs_year": 2009,
+   "pvi": 11.28,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "SC-2": {
+   "rural": 26.18,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 804540.0,
+   "white_nh": 64.1,
+   "black_nh": 27.2,
+   "asian_nh": 1.5,
+   "hisp": 5.6,
+   "med_income": 50850,
+   "ba_plus": 32.3,
+   "acs_year": 2009,
+   "pvi": -8.52,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "SC-3": {
+   "rural": 46.32,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 713180.0,
+   "white_nh": 74.2,
+   "black_nh": 19.7,
+   "asian_nh": 0.9,
+   "hisp": 3.5,
+   "med_income": 39808,
+   "ba_plus": 20.6,
+   "acs_year": 2009,
+   "pvi": -17.44,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "SC-5": {
+   "rural": 47.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 761736.0,
+   "white_nh": 63.0,
+   "black_nh": 30.6,
+   "asian_nh": 0.9,
+   "hisp": 3.3,
+   "med_income": 39351,
+   "ba_plus": 19.0,
+   "acs_year": 2009,
+   "pvi": -7.0,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "SC-4": {
+   "rural": 20.39,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 772239.0,
+   "white_nh": 70.7,
+   "black_nh": 18.8,
+   "asian_nh": 1.8,
+   "hisp": 6.9,
+   "med_income": 42302,
+   "ba_plus": 25.4,
+   "acs_year": 2009,
+   "pvi": -14.79,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "SC-1": {
+   "rural": 17.54,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 842081.0,
+   "white_nh": 72.3,
+   "black_nh": 19.8,
+   "asian_nh": 1.6,
+   "hisp": 4.3,
+   "med_income": 47762,
+   "ba_plus": 29.0,
+   "acs_year": 2009,
+   "pvi": -10.89,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "GA-4": {
+   "rural": 1.59,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 703108.0,
+   "white_nh": 23.1,
+   "black_nh": 53.7,
+   "asian_nh": 4.4,
+   "hisp": 16.8,
+   "med_income": 44314,
+   "ba_plus": 28.8,
+   "acs_year": 2009,
+   "pvi": 24.72,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "GA-6": {
+   "rural": 4.76,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 753606.0,
+   "white_nh": 72.7,
+   "black_nh": 8.4,
+   "asian_nh": 6.5,
+   "hisp": 10.5,
+   "med_income": 78081,
+   "ba_plus": 51.5,
+   "acs_year": 2009,
+   "pvi": -17.1,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "GA-9": {
+   "rural": 41.69,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 816948.0,
+   "white_nh": 80.2,
+   "black_nh": 3.3,
+   "asian_nh": 1.6,
+   "hisp": 13.5,
+   "med_income": 46296,
+   "ba_plus": 21.3,
+   "acs_year": 2009,
+   "pvi": -28.52,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "GA-7": {
+   "rural": 8.28,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 925209.0,
+   "white_nh": 57.6,
+   "black_nh": 20.7,
+   "asian_nh": 8.1,
+   "hisp": 11.4,
+   "med_income": 58798,
+   "ba_plus": 32.7,
+   "acs_year": 2009,
+   "pvi": -15.41,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "GA-11": {
+   "rural": 24.71,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 808541.0,
+   "white_nh": 73.4,
+   "black_nh": 15.2,
+   "asian_nh": 1.5,
+   "hisp": 7.7,
+   "med_income": 50938,
+   "ba_plus": 25.7,
+   "acs_year": 2009,
+   "pvi": -20.21,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "GA-13": {
+   "rural": 3.37,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 806485.0,
+   "white_nh": 29.9,
+   "black_nh": 52.4,
+   "asian_nh": 3.4,
+   "hisp": 12.2,
+   "med_income": 47740,
+   "ba_plus": 25.0,
+   "acs_year": 2009,
+   "pvi": 16.33,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "GA-8": {
+   "rural": 39.52,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 697746.0,
+   "white_nh": 60.1,
+   "black_nh": 33.0,
+   "asian_nh": 0.9,
+   "hisp": 4.1,
+   "med_income": 40581,
+   "ba_plus": 19.2,
+   "acs_year": 2009,
+   "pvi": -10.13,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "GA-5": {
+   "rural": 0.07,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 765031.0,
+   "white_nh": 39.6,
+   "black_nh": 47.6,
+   "asian_nh": 3.1,
+   "hisp": 8.1,
+   "med_income": 50890,
+   "ba_plus": 45.3,
+   "acs_year": 2009,
+   "pvi": 25.89,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "GA-10": {
+   "rural": 44.06,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 731165.0,
+   "white_nh": 72.3,
+   "black_nh": 19.2,
+   "asian_nh": 2.0,
+   "hisp": 5.0,
+   "med_income": 40652,
+   "ba_plus": 25.4,
+   "acs_year": 2009,
+   "pvi": -14.92,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "GA-3": {
+   "rural": 35.16,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 799234.0,
+   "white_nh": 68.3,
+   "black_nh": 24.1,
+   "asian_nh": 1.9,
+   "hisp": 3.7,
+   "med_income": 55040,
+   "ba_plus": 24.9,
+   "acs_year": 2009,
+   "pvi": -18.62,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "AL-3": {
+   "rural": 43.87,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 661131.0,
+   "white_nh": 63.7,
+   "black_nh": 31.8,
+   "asian_nh": 1.0,
+   "hisp": 1.9,
+   "med_income": 37501,
+   "ba_plus": 20.1,
+   "acs_year": 2009,
+   "pvi": -9.53,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "GA-12": {
+   "rural": 38.19,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 689865.0,
+   "white_nh": 50.0,
+   "black_nh": 43.2,
+   "asian_nh": 1.4,
+   "hisp": 3.9,
+   "med_income": 34378,
+   "ba_plus": 16.7,
+   "acs_year": 2009,
+   "pvi": 0.83,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "GA-1": {
+   "rural": 42.66,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 692986.0,
+   "white_nh": 67.8,
+   "black_nh": 24.4,
+   "asian_nh": 1.0,
+   "hisp": 5.2,
+   "med_income": 39726,
+   "ba_plus": 20.4,
+   "acs_year": 2009,
+   "pvi": -16.68,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "GA-2": {
+   "rural": 40.97,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 639287.0,
+   "white_nh": 45.6,
+   "black_nh": 48.5,
+   "asian_nh": 0.9,
+   "hisp": 3.5,
+   "med_income": 31589,
+   "ba_plus": 14.3,
+   "acs_year": 2009,
+   "pvi": 0.54,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "FL-3": {
+   "rural": 10.68,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 648459.0,
+   "white_nh": 34.3,
+   "black_nh": 51.7,
+   "asian_nh": 1.8,
+   "hisp": 9.8,
+   "med_income": 31394,
+   "ba_plus": 14.4,
+   "acs_year": 2009,
+   "pvi": 19.1,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "FL-6": {
+   "rural": 23.52,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 810331.0,
+   "white_nh": 72.2,
+   "black_nh": 13.8,
+   "asian_nh": 2.8,
+   "hisp": 9.0,
+   "med_income": 44487,
+   "ba_plus": 24.5,
+   "acs_year": 2009,
+   "pvi": -10.13,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "FL-2": {
+   "rural": 35.36,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 716707.0,
+   "white_nh": 69.2,
+   "black_nh": 22.5,
+   "asian_nh": 1.6,
+   "hisp": 4.5,
+   "med_income": 40448,
+   "ba_plus": 24.5,
+   "acs_year": 2009,
+   "pvi": -6.86,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "FL-4": {
+   "rural": 20.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 735996.0,
+   "white_nh": 73.8,
+   "black_nh": 14.4,
+   "asian_nh": 3.9,
+   "hisp": 5.7,
+   "med_income": 51209,
+   "ba_plus": 28.1,
+   "acs_year": 2009,
+   "pvi": -15.92,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "FL-7": {
+   "rural": 12.49,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 804637.0,
+   "white_nh": 74.6,
+   "black_nh": 10.1,
+   "asian_nh": 2.4,
+   "hisp": 10.8,
+   "med_income": 48109,
+   "ba_plus": 27.9,
+   "acs_year": 2009,
+   "pvi": -6.86,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "FL-8": {
+   "rural": 5.81,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 789229.0,
+   "white_nh": 61.0,
+   "black_nh": 9.2,
+   "asian_nh": 4.4,
+   "hisp": 23.6,
+   "med_income": 46857,
+   "ba_plus": 27.5,
+   "acs_year": 2009,
+   "pvi": -1.46,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "FL-24": {
+   "rural": 7.8,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 766860.0,
+   "white_nh": 71.6,
+   "black_nh": 7.4,
+   "asian_nh": 3.2,
+   "hisp": 15.9,
+   "med_income": 52187,
+   "ba_plus": 28.2,
+   "acs_year": 2009,
+   "pvi": -4.46,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "FL-5": {
+   "rural": 24.28,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 925737.0,
+   "white_nh": 79.1,
+   "black_nh": 6.8,
+   "asian_nh": 1.6,
+   "hisp": 10.5,
+   "med_income": 42760,
+   "ba_plus": 18.2,
+   "acs_year": 2009,
+   "pvi": -9.53,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "FL-1": {
+   "rural": 20.65,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 697273.0,
+   "white_nh": 75.1,
+   "black_nh": 14.0,
+   "asian_nh": 2.5,
+   "hisp": 4.3,
+   "med_income": 44520,
+   "ba_plus": 21.8,
+   "acs_year": 2009,
+   "pvi": -21.21,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "FL-15": {
+   "rural": 5.36,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 794987.0,
+   "white_nh": 68.7,
+   "black_nh": 8.1,
+   "asian_nh": 2.3,
+   "hisp": 18.7,
+   "med_income": 43720,
+   "ba_plus": 24.5,
+   "acs_year": 2009,
+   "pvi": -5.34,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "FL-18": {
+   "rural": 1.04,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 712817.0,
+   "white_nh": 27.1,
+   "black_nh": 6.0,
+   "asian_nh": 1.0,
+   "hisp": 65.2,
+   "med_income": 39936,
+   "ba_plus": 29.9,
+   "acs_year": 2009,
+   "pvi": -2.71,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "FL-20": {
+   "rural": 0.04,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 687219.0,
+   "white_nh": 54.3,
+   "black_nh": 11.7,
+   "asian_nh": 3.1,
+   "hisp": 28.6,
+   "med_income": 54194,
+   "ba_plus": 34.0,
+   "acs_year": 2009,
+   "pvi": 11.27,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "FL-22": {
+   "rural": 0.44,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 707508.0,
+   "white_nh": 73.2,
+   "black_nh": 5.6,
+   "asian_nh": 2.7,
+   "hisp": 17.1,
+   "med_income": 56035,
+   "ba_plus": 36.6,
+   "acs_year": 2009,
+   "pvi": -0.46,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "FL-17": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 650290.0,
+   "white_nh": 14.1,
+   "black_nh": 56.8,
+   "asian_nh": 1.1,
+   "hisp": 26.6,
+   "med_income": 34016,
+   "ba_plus": 16.4,
+   "acs_year": 2009,
+   "pvi": 34.2,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "FL-21": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 670644.0,
+   "white_nh": 14.3,
+   "black_nh": 6.2,
+   "asian_nh": 2.4,
+   "hisp": 76.2,
+   "med_income": 45138,
+   "ba_plus": 26.9,
+   "acs_year": 2009,
+   "pvi": -4.96,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "FL-25": {
+   "rural": 4.26,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 825898.0,
+   "white_nh": 19.6,
+   "black_nh": 9.6,
+   "asian_nh": 2.4,
+   "hisp": 67.3,
+   "med_income": 52543,
+   "ba_plus": 23.5,
+   "acs_year": 2009,
+   "pvi": -4.33,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "FL-23": {
+   "rural": 1.68,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 673329.0,
+   "white_nh": 23.0,
+   "black_nh": 55.4,
+   "asian_nh": 1.1,
+   "hisp": 18.5,
+   "med_income": 35647,
+   "ba_plus": 16.7,
+   "acs_year": 2009,
+   "pvi": 28.79,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "FL-19": {
+   "rural": 0.26,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 724277.0,
+   "white_nh": 64.8,
+   "black_nh": 10.3,
+   "asian_nh": 3.3,
+   "hisp": 19.9,
+   "med_income": 47277,
+   "ba_plus": 30.9,
+   "acs_year": 2009,
+   "pvi": 13.29,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "FL-16": {
+   "rural": 11.15,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 773133.0,
+   "white_nh": 72.1,
+   "black_nh": 8.4,
+   "asian_nh": 1.5,
+   "hisp": 15.9,
+   "med_income": 44159,
+   "ba_plus": 22.2,
+   "acs_year": 2009,
+   "pvi": -5.35,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "FL-12": {
+   "rural": 9.09,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 788591.0,
+   "white_nh": 61.2,
+   "black_nh": 14.7,
+   "asian_nh": 1.6,
+   "hisp": 20.5,
+   "med_income": 43585,
+   "ba_plus": 19.2,
+   "acs_year": 2009,
+   "pvi": -4.83,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "FL-9": {
+   "rural": 4.45,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 753593.0,
+   "white_nh": 77.3,
+   "black_nh": 5.2,
+   "asian_nh": 3.7,
+   "hisp": 12.1,
+   "med_income": 49020,
+   "ba_plus": 28.0,
+   "acs_year": 2009,
+   "pvi": -6.1,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "FL-11": {
+   "rural": 0.36,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 672093.0,
+   "white_nh": 42.3,
+   "black_nh": 27.6,
+   "asian_nh": 2.4,
+   "hisp": 26.1,
+   "med_income": 38030,
+   "ba_plus": 23.9,
+   "acs_year": 2009,
+   "pvi": 12.19,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "FL-13": {
+   "rural": 8.55,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 750218.0,
+   "white_nh": 80.3,
+   "black_nh": 5.3,
+   "asian_nh": 1.5,
+   "hisp": 11.5,
+   "med_income": 45670,
+   "ba_plus": 26.6,
+   "acs_year": 2009,
+   "pvi": -5.85,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "FL-10": {
+   "rural": 0.05,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 629407.0,
+   "white_nh": 82.6,
+   "black_nh": 5.5,
+   "asian_nh": 3.2,
+   "hisp": 7.1,
+   "med_income": 43498,
+   "ba_plus": 25.7,
+   "acs_year": 2009,
+   "pvi": -1.18,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "FL-14": {
+   "rural": 4.86,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 828736.0,
+   "white_nh": 75.0,
+   "black_nh": 6.3,
+   "asian_nh": 1.2,
+   "hisp": 16.2,
+   "med_income": 47497,
+   "ba_plus": 27.7,
+   "acs_year": 2009,
+   "pvi": -11.14,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "AL-6": {
+   "rural": 30.82,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 734845.0,
+   "white_nh": 82.3,
+   "black_nh": 11.5,
+   "asian_nh": 1.6,
+   "hisp": 3.5,
+   "med_income": 54523,
+   "ba_plus": 34.5,
+   "acs_year": 2009,
+   "pvi": -29.53,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "AL-7": {
+   "rural": 27.34,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 612478.0,
+   "white_nh": 33.6,
+   "black_nh": 62.0,
+   "asian_nh": 0.7,
+   "hisp": 2.5,
+   "med_income": 30919,
+   "ba_plus": 17.3,
+   "acs_year": 2009,
+   "pvi": 18.25,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "AL-4": {
+   "rural": 69.75,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 651726.0,
+   "white_nh": 86.8,
+   "black_nh": 5.0,
+   "asian_nh": 0.3,
+   "hisp": 5.9,
+   "med_income": 37351,
+   "ba_plus": 13.2,
+   "acs_year": 2009,
+   "pvi": -27.96,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "AL-2": {
+   "rural": 46.46,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 660638.0,
+   "white_nh": 63.6,
+   "black_nh": 31.0,
+   "asian_nh": 0.9,
+   "hisp": 2.4,
+   "med_income": 37819,
+   "ba_plus": 19.8,
+   "acs_year": 2009,
+   "pvi": -16.93,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "AL-5": {
+   "rural": 35.79,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 703396.0,
+   "white_nh": 74.6,
+   "black_nh": 17.7,
+   "asian_nh": 1.4,
+   "hisp": 3.6,
+   "med_income": 45114,
+   "ba_plus": 26.9,
+   "acs_year": 2009,
+   "pvi": -13.82,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "AL-1": {
+   "rural": 33.54,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 684494.0,
+   "white_nh": 66.7,
+   "black_nh": 27.3,
+   "asian_nh": 1.5,
+   "hisp": 2.1,
+   "med_income": 41092,
+   "ba_plus": 19.8,
+   "acs_year": 2009,
+   "pvi": -14.37,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TN-6": {
+   "rural": 40.22,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 780692.0,
+   "white_nh": 84.1,
+   "black_nh": 7.1,
+   "asian_nh": 1.3,
+   "hisp": 5.3,
+   "med_income": 45987,
+   "ba_plus": 20.9,
+   "acs_year": 2009,
+   "pvi": -14.43,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TN-7": {
+   "rural": 31.71,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 769621.0,
+   "white_nh": 78.0,
+   "black_nh": 13.4,
+   "asian_nh": 2.8,
+   "hisp": 3.8,
+   "med_income": 60504,
+   "ba_plus": 34.0,
+   "acs_year": 2009,
+   "pvi": -18.36,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TN-5": {
+   "rural": 9.7,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 712386.0,
+   "white_nh": 63.4,
+   "black_nh": 24.4,
+   "asian_nh": 2.6,
+   "hisp": 8.0,
+   "med_income": 46980,
+   "ba_plus": 32.1,
+   "acs_year": 2009,
+   "pvi": 2.97,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TN-8": {
+   "rural": 50.71,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 649186.0,
+   "white_nh": 72.1,
+   "black_nh": 22.6,
+   "asian_nh": 0.5,
+   "hisp": 3.2,
+   "med_income": 36703,
+   "ba_plus": 15.3,
+   "acs_year": 2009,
+   "pvi": -8.13,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TN-4": {
+   "rural": 64.68,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 679216.0,
+   "white_nh": 90.7,
+   "black_nh": 3.9,
+   "asian_nh": 0.5,
+   "hisp": 2.8,
+   "med_income": 36590,
+   "ba_plus": 14.6,
+   "acs_year": 2009,
+   "pvi": -16.08,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TN-3": {
+   "rural": 34.54,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 688052.0,
+   "white_nh": 83.3,
+   "black_nh": 11.4,
+   "asian_nh": 1.1,
+   "hisp": 2.9,
+   "med_income": 39147,
+   "ba_plus": 21.4,
+   "acs_year": 2009,
+   "pvi": -14.83,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TN-2": {
+   "rural": 26.28,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 727993.0,
+   "white_nh": 88.0,
+   "black_nh": 6.6,
+   "asian_nh": 1.0,
+   "hisp": 2.7,
+   "med_income": 44443,
+   "ba_plus": 27.5,
+   "acs_year": 2009,
+   "pvi": -17.6,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TN-1": {
+   "rural": 41.63,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 676457.0,
+   "white_nh": 92.9,
+   "black_nh": 2.5,
+   "asian_nh": 0.6,
+   "hisp": 2.8,
+   "med_income": 35133,
+   "ba_plus": 16.6,
+   "acs_year": 2009,
+   "pvi": -22.66,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TN-9": {
+   "rural": 0.44,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 612651.0,
+   "white_nh": 29.1,
+   "black_nh": 62.4,
+   "asian_nh": 1.6,
+   "hisp": 5.2,
+   "med_income": 34711,
+   "ba_plus": 23.0,
+   "acs_year": 2009,
+   "pvi": 23.38,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "KY-1": {
+   "rural": 63.79,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 685536.0,
+   "white_nh": 88.4,
+   "black_nh": 7.0,
+   "asian_nh": 0.4,
+   "hisp": 2.3,
+   "med_income": 36036,
+   "ba_plus": 14.6,
+   "acs_year": 2009,
+   "pvi": -15.33,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MS-1": {
+   "rural": 58.58,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 778350.0,
+   "white_nh": 68.2,
+   "black_nh": 26.4,
+   "asian_nh": 0.4,
+   "hisp": 3.1,
+   "med_income": 38440,
+   "ba_plus": 18.3,
+   "acs_year": 2009,
+   "pvi": -14.61,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MS-2": {
+   "rural": 39.88,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 669808.0,
+   "white_nh": 30.8,
+   "black_nh": 66.7,
+   "asian_nh": 0.6,
+   "hisp": 0.9,
+   "med_income": 28467,
+   "ba_plus": 18.6,
+   "acs_year": 2009,
+   "pvi": 11.94,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "AR-4": {
+   "rural": 54.9,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 655272.0,
+   "white_nh": 68.6,
+   "black_nh": 23.9,
+   "asian_nh": 0.6,
+   "hisp": 4.8,
+   "med_income": 33774,
+   "ba_plus": 14.9,
+   "acs_year": 2009,
+   "pvi": -10.18,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MS-3": {
+   "rural": 57.11,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 764040.0,
+   "white_nh": 60.8,
+   "black_nh": 34.5,
+   "asian_nh": 0.8,
+   "hisp": 2.2,
+   "med_income": 38410,
+   "ba_plus": 23.4,
+   "acs_year": 2009,
+   "pvi": -15.37,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MS-4": {
+   "rural": 45.43,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 739798.0,
+   "white_nh": 70.0,
+   "black_nh": 23.9,
+   "asian_nh": 1.3,
+   "hisp": 2.8,
+   "med_income": 40950,
+   "ba_plus": 18.0,
+   "acs_year": 2009,
+   "pvi": -20.63,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "KY-2": {
+   "rural": 49.58,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 745986.0,
+   "white_nh": 89.1,
+   "black_nh": 5.7,
+   "asian_nh": 0.7,
+   "hisp": 2.7,
+   "med_income": 42168,
+   "ba_plus": 16.6,
+   "acs_year": 2009,
+   "pvi": -15.08,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "KY-6": {
+   "rural": 26.61,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 764047.0,
+   "white_nh": 84.6,
+   "black_nh": 7.9,
+   "asian_nh": 1.5,
+   "hisp": 3.9,
+   "med_income": 42444,
+   "ba_plus": 28.9,
+   "acs_year": 2009,
+   "pvi": -9.19,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "KY-4": {
+   "rural": 36.01,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 732666.0,
+   "white_nh": 92.8,
+   "black_nh": 3.0,
+   "asian_nh": 0.9,
+   "hisp": 2.0,
+   "med_income": 47699,
+   "ba_plus": 23.6,
+   "acs_year": 2009,
+   "pvi": -14.28,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "KY-3": {
+   "rural": 1.55,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 705312.0,
+   "white_nh": 72.4,
+   "black_nh": 20.0,
+   "asian_nh": 2.1,
+   "hisp": 3.6,
+   "med_income": 44648,
+   "ba_plus": 30.2,
+   "acs_year": 2009,
+   "pvi": 2.72,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "KY-5": {
+   "rural": 76.23,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 680566.0,
+   "white_nh": 96.4,
+   "black_nh": 0.9,
+   "asian_nh": 0.2,
+   "hisp": 1.1,
+   "med_income": 27179,
+   "ba_plus": 11.2,
+   "acs_year": 2009,
+   "pvi": -18.98,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "OH-12": {
+   "rural": 9.93,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 736099.0,
+   "white_nh": 71.3,
+   "black_nh": 20.0,
+   "asian_nh": 3.5,
+   "hisp": 2.9,
+   "med_income": 56296,
+   "ba_plus": 38.8,
+   "acs_year": 2009,
+   "pvi": -0.05,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "OH-15": {
+   "rural": 8.54,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 678699.0,
+   "white_nh": 80.6,
+   "black_nh": 8.5,
+   "asian_nh": 3.7,
+   "hisp": 5.1,
+   "med_income": 48712,
+   "ba_plus": 35.7,
+   "acs_year": 2009,
+   "pvi": 0.95,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "OH-4": {
+   "rural": 41.1,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 630249.0,
+   "white_nh": 90.5,
+   "black_nh": 4.7,
+   "asian_nh": 0.6,
+   "hisp": 1.7,
+   "med_income": 42986,
+   "ba_plus": 15.9,
+   "acs_year": 2009,
+   "pvi": -14.79,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "OH-18": {
+   "rural": 57.89,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 639281.0,
+   "med_income": 38346,
+   "ba_plus": 13.2,
+   "acs_year": 2009,
+   "pvi": -6.91,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "OH-7": {
+   "rural": 27.23,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 675355.0,
+   "white_nh": 85.0,
+   "black_nh": 9.9,
+   "asian_nh": 1.0,
+   "hisp": 1.5,
+   "med_income": 46130,
+   "ba_plus": 21.2,
+   "acs_year": 2009,
+   "pvi": -7.61,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "OH-5": {
+   "rural": 50.39,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 625410.0,
+   "white_nh": 91.9,
+   "black_nh": 1.4,
+   "asian_nh": 0.6,
+   "hisp": 4.9,
+   "med_income": 45175,
+   "ba_plus": 16.9,
+   "acs_year": 2009,
+   "pvi": -8.27,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "OH-9": {
+   "rural": 12.63,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 642538.0,
+   "white_nh": 77.3,
+   "black_nh": 14.6,
+   "asian_nh": 1.2,
+   "hisp": 4.8,
+   "med_income": 42105,
+   "ba_plus": 20.6,
+   "acs_year": 2009,
+   "pvi": 9.49,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "OH-6": {
+   "rural": 49.05,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 609948.0,
+   "white_nh": 94.3,
+   "black_nh": 2.5,
+   "asian_nh": 0.5,
+   "hisp": 1.1,
+   "med_income": 38833,
+   "ba_plus": 16.5,
+   "acs_year": 2009,
+   "pvi": -3.47,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "OH-13": {
+   "rural": 5.93,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 639558.0,
+   "white_nh": 81.1,
+   "black_nh": 11.2,
+   "asian_nh": 1.5,
+   "hisp": 4.4,
+   "med_income": 48018,
+   "ba_plus": 25.9,
+   "acs_year": 2009,
+   "pvi": 4.73,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "OH-14": {
+   "rural": 23.76,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 655232.0,
+   "white_nh": 91.3,
+   "black_nh": 3.1,
+   "asian_nh": 1.7,
+   "hisp": 2.5,
+   "med_income": 56622,
+   "ba_plus": 29.8,
+   "acs_year": 2009,
+   "pvi": -3.21,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "OH-10": {
+   "rural": 0.11,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 598392.0,
+   "white_nh": 82.6,
+   "black_nh": 7.8,
+   "asian_nh": 1.7,
+   "hisp": 6.5,
+   "med_income": 43628,
+   "ba_plus": 24.9,
+   "acs_year": 2009,
+   "pvi": 7.34,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "OH-11": {
+   "rural": 0.2,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 539341.0,
+   "white_nh": 34.1,
+   "black_nh": 58.9,
+   "asian_nh": 2.5,
+   "hisp": 3.0,
+   "med_income": 32039,
+   "ba_plus": 26.5,
+   "acs_year": 2009,
+   "pvi": 32.39,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "OH-17": {
+   "rural": 15.16,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 610619.0,
+   "white_nh": 82.8,
+   "black_nh": 12.4,
+   "asian_nh": 1.0,
+   "hisp": 2.1,
+   "med_income": 39760,
+   "ba_plus": 17.7,
+   "acs_year": 2009,
+   "pvi": 10.74,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "OH-16": {
+   "rural": 27.09,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 652572.0,
+   "white_nh": 91.1,
+   "black_nh": 5.0,
+   "asian_nh": 0.9,
+   "hisp": 1.3,
+   "med_income": 47823,
+   "ba_plus": 22.6,
+   "acs_year": 2009,
+   "pvi": -4.22,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "OH-1": {
+   "rural": 3.65,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 627963.0,
+   "white_nh": 65.3,
+   "black_nh": 29.3,
+   "asian_nh": 1.2,
+   "hisp": 2.3,
+   "med_income": 41192,
+   "ba_plus": 24.4,
+   "acs_year": 2009,
+   "pvi": 1.46,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "OH-8": {
+   "rural": 21.36,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 656439.0,
+   "white_nh": 88.2,
+   "black_nh": 5.7,
+   "asian_nh": 1.7,
+   "hisp": 2.6,
+   "med_income": 49166,
+   "ba_plus": 20.5,
+   "acs_year": 2009,
+   "pvi": -14.54,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "OH-3": {
+   "rural": 14.96,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 637711.0,
+   "white_nh": 79.1,
+   "black_nh": 15.8,
+   "asian_nh": 1.6,
+   "hisp": 1.4,
+   "med_income": 46665,
+   "ba_plus": 26.0,
+   "acs_year": 2009,
+   "pvi": -4.99,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "OH-2": {
+   "rural": 25.14,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 687239.0,
+   "white_nh": 89.9,
+   "black_nh": 4.6,
+   "asian_nh": 2.0,
+   "hisp": 1.7,
+   "med_income": 56398,
+   "ba_plus": 33.3,
+   "acs_year": 2009,
+   "pvi": -13.15,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "IN-6": {
+   "rural": 39.61,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 672900.0,
+   "white_nh": 91.3,
+   "black_nh": 3.1,
+   "asian_nh": 0.8,
+   "hisp": 2.2,
+   "med_income": 41250,
+   "ba_plus": 16.5,
+   "acs_year": 2009,
+   "pvi": -8.77,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "IN-5": {
+   "rural": 19.14,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 796543.0,
+   "white_nh": 89.2,
+   "black_nh": 4.1,
+   "asian_nh": 2.2,
+   "hisp": 2.8,
+   "med_income": 58393,
+   "ba_plus": 35.6,
+   "acs_year": 2009,
+   "pvi": -15.08,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "IN-4": {
+   "rural": 26.1,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 793951.0,
+   "white_nh": 88.6,
+   "black_nh": 3.3,
+   "asian_nh": 2.2,
+   "hisp": 4.3,
+   "med_income": 52184,
+   "ba_plus": 27.0,
+   "acs_year": 2009,
+   "pvi": -12.3,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "IN-2": {
+   "rural": 27.75,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 678120.0,
+   "white_nh": 80.8,
+   "black_nh": 8.8,
+   "asian_nh": 1.0,
+   "hisp": 8.0,
+   "med_income": 42839,
+   "ba_plus": 19.8,
+   "acs_year": 2009,
+   "pvi": -0.69,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "IN-8": {
+   "rural": 41.5,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 680031.0,
+   "white_nh": 92.2,
+   "black_nh": 4.1,
+   "asian_nh": 0.9,
+   "hisp": 1.4,
+   "med_income": 42909,
+   "ba_plus": 18.1,
+   "acs_year": 2009,
+   "pvi": -6.99,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "IN-7": {
+   "rural": 0.26,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 668599.0,
+   "white_nh": 56.9,
+   "black_nh": 30.3,
+   "asian_nh": 1.5,
+   "hisp": 8.8,
+   "med_income": 35841,
+   "ba_plus": 23.6,
+   "acs_year": 2009,
+   "pvi": 15.83,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "IN-9": {
+   "rural": 47.35,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 706833.0,
+   "white_nh": 92.1,
+   "black_nh": 2.5,
+   "asian_nh": 1.2,
+   "hisp": 2.6,
+   "med_income": 42838,
+   "ba_plus": 19.1,
+   "acs_year": 2009,
+   "pvi": -5.23,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "IN-1": {
+   "rural": 13.46,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 703267.0,
+   "white_nh": 66.1,
+   "black_nh": 18.6,
+   "asian_nh": 1.2,
+   "hisp": 12.5,
+   "med_income": 49550,
+   "ba_plus": 19.1,
+   "acs_year": 2009,
+   "pvi": 8.4,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "IN-3": {
+   "rural": 33.04,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 722869.0,
+   "white_nh": 83.9,
+   "black_nh": 5.8,
+   "asian_nh": 1.3,
+   "hisp": 6.8,
+   "med_income": 45757,
+   "ba_plus": 21.3,
+   "acs_year": 2009,
+   "pvi": -12.05,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MI-10": {
+   "rural": 30.93,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 715861.0,
+   "white_nh": 90.3,
+   "black_nh": 3.5,
+   "asian_nh": 1.8,
+   "hisp": 2.8,
+   "med_income": 52541,
+   "ba_plus": 20.7,
+   "acs_year": 2009,
+   "pvi": -4.97,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MI-9": {
+   "rural": 0.53,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 654092.0,
+   "white_nh": 75.8,
+   "black_nh": 10.5,
+   "asian_nh": 7.8,
+   "hisp": 4.0,
+   "med_income": 65543,
+   "ba_plus": 47.2,
+   "acs_year": 2009,
+   "pvi": 2.22,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MI-12": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 637672.0,
+   "white_nh": 74.0,
+   "black_nh": 19.0,
+   "asian_nh": 3.0,
+   "hisp": 1.7,
+   "med_income": 44619,
+   "ba_plus": 22.0,
+   "acs_year": 2009,
+   "pvi": 12.54,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MI-14": {
+   "rural": 0.04,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 612635.0,
+   "white_nh": 33.8,
+   "black_nh": 60.1,
+   "asian_nh": 2.1,
+   "hisp": 2.1,
+   "med_income": 32364,
+   "ba_plus": 16.0,
+   "acs_year": 2009,
+   "pvi": 32.79,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MI-7": {
+   "rural": 43.46,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 680482.0,
+   "white_nh": 86.8,
+   "black_nh": 5.3,
+   "asian_nh": 1.4,
+   "hisp": 4.1,
+   "med_income": 46220,
+   "ba_plus": 22.8,
+   "acs_year": 2009,
+   "pvi": -1.3,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MI-15": {
+   "rural": 12.01,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 655788.0,
+   "white_nh": 78.3,
+   "black_nh": 11.2,
+   "asian_nh": 4.2,
+   "hisp": 3.5,
+   "med_income": 50290,
+   "ba_plus": 28.0,
+   "acs_year": 2009,
+   "pvi": 13.04,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MI-11": {
+   "rural": 3.77,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 655986.0,
+   "white_nh": 86.1,
+   "black_nh": 5.0,
+   "asian_nh": 5.1,
+   "hisp": 2.2,
+   "med_income": 61511,
+   "ba_plus": 33.4,
+   "acs_year": 2009,
+   "pvi": 0.2,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MI-8": {
+   "rural": 27.52,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 704888.0,
+   "white_nh": 86.9,
+   "black_nh": 4.5,
+   "asian_nh": 2.3,
+   "hisp": 4.1,
+   "med_income": 56251,
+   "ba_plus": 32.4,
+   "acs_year": 2009,
+   "pvi": -0.94,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MI-13": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 623657.0,
+   "white_nh": 30.5,
+   "black_nh": 55.2,
+   "asian_nh": 1.8,
+   "hisp": 10.8,
+   "med_income": 28219,
+   "ba_plus": 15.5,
+   "acs_year": 2009,
+   "pvi": 31.54,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MI-5": {
+   "rural": 23.53,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 636986.0,
+   "white_nh": 75.4,
+   "black_nh": 17.1,
+   "asian_nh": 0.9,
+   "hisp": 3.8,
+   "med_income": 39497,
+   "ba_plus": 17.3,
+   "acs_year": 2009,
+   "pvi": 10.78,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MI-4": {
+   "rural": 58.05,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 673857.0,
+   "white_nh": 91.4,
+   "black_nh": 2.4,
+   "asian_nh": 1.0,
+   "hisp": 3.1,
+   "med_income": 41063,
+   "ba_plus": 20.8,
+   "acs_year": 2009,
+   "pvi": -3.08,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MI-1": {
+   "rural": 65.98,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 646471.0,
+   "white_nh": 92.5,
+   "black_nh": 1.2,
+   "asian_nh": 0.6,
+   "hisp": 1.3,
+   "med_income": 38416,
+   "ba_plus": 17.8,
+   "acs_year": 2009,
+   "pvi": -2.57,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MI-3": {
+   "rural": 23.69,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 700784.0,
+   "white_nh": 79.7,
+   "black_nh": 7.7,
+   "asian_nh": 1.8,
+   "hisp": 8.5,
+   "med_income": 48061,
+   "ba_plus": 27.8,
+   "acs_year": 2009,
+   "pvi": -4.85,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MI-6": {
+   "rural": 40.01,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 675756.0,
+   "white_nh": 82.8,
+   "black_nh": 8.2,
+   "asian_nh": 1.3,
+   "hisp": 5.1,
+   "med_income": 42181,
+   "ba_plus": 24.1,
+   "acs_year": 2009,
+   "pvi": 0.07,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MI-2": {
+   "rural": 40.04,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 694812.0,
+   "white_nh": 86.1,
+   "black_nh": 4.2,
+   "asian_nh": 1.4,
+   "hisp": 6.3,
+   "med_income": 44095,
+   "ba_plus": 21.4,
+   "acs_year": 2009,
+   "pvi": -6.24,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "IA-4": {
+   "rural": 44.65,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 594487.0,
+   "white_nh": 92.4,
+   "black_nh": 0.9,
+   "asian_nh": 1.4,
+   "hisp": 4.0,
+   "med_income": 48280,
+   "ba_plus": 24.6,
+   "acs_year": 2009,
+   "pvi": 0.23,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "IA-5": {
+   "rural": 49.1,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 566173.0,
+   "white_nh": 90.9,
+   "black_nh": 0.8,
+   "asian_nh": 0.9,
+   "hisp": 5.8,
+   "med_income": 43966,
+   "ba_plus": 19.1,
+   "acs_year": 2009,
+   "pvi": -8.93,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "IA-3": {
+   "rural": 24.61,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 636757.0,
+   "white_nh": 86.9,
+   "black_nh": 3.6,
+   "asian_nh": 2.1,
+   "hisp": 5.2,
+   "med_income": 52273,
+   "ba_plus": 28.9,
+   "acs_year": 2009,
+   "pvi": 1.37,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "IA-2": {
+   "rural": 30.36,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 616599.0,
+   "white_nh": 89.5,
+   "black_nh": 2.6,
+   "asian_nh": 2.0,
+   "hisp": 4.0,
+   "med_income": 47032,
+   "ba_plus": 27.8,
+   "acs_year": 2009,
+   "pvi": 7.35,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "IA-1": {
+   "rural": 32.53,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 593841.0,
+   "white_nh": 90.1,
+   "black_nh": 4.3,
+   "asian_nh": 1.1,
+   "hisp": 2.7,
+   "med_income": 47929,
+   "ba_plus": 24.5,
+   "acs_year": 2009,
+   "pvi": 4.87,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "SD-0": {
+   "rural": 43.33,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 812383.0,
+   "white_nh": 85.1,
+   "black_nh": 1.0,
+   "asian_nh": 1.0,
+   "hisp": 2.5,
+   "med_income": 45043,
+   "ba_plus": 25.1,
+   "acs_year": 2009,
+   "pvi": -8.32,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MN-1": {
+   "rural": 39.11,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 635331.0,
+   "white_nh": 90.7,
+   "black_nh": 1.4,
+   "asian_nh": 2.3,
+   "hisp": 4.3,
+   "med_income": 49615,
+   "ba_plus": 25.5,
+   "acs_year": 2009,
+   "pvi": -1.44,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NE-1": {
+   "rural": 30.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 611333.0,
+   "white_nh": 87.3,
+   "black_nh": 1.9,
+   "asian_nh": 1.9,
+   "hisp": 6.3,
+   "med_income": 48089,
+   "ba_plus": 28.3,
+   "acs_year": 2009,
+   "pvi": -9.69,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MO-6": {
+   "rural": 30.59,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 697971.0,
+   "white_nh": 89.0,
+   "black_nh": 3.0,
+   "asian_nh": 1.2,
+   "hisp": 3.8,
+   "med_income": 51333,
+   "ba_plus": 25.5,
+   "acs_year": 2009,
+   "pvi": -7.76,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MO-9": {
+   "rural": 49.53,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 669688.0,
+   "white_nh": 91.1,
+   "black_nh": 4.0,
+   "asian_nh": 0.9,
+   "hisp": 1.8,
+   "med_income": 43697,
+   "ba_plus": 23.0,
+   "acs_year": 2009,
+   "pvi": -8.87,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "WI-6": {
+   "rural": 35.71,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 690812.0,
+   "white_nh": 91.6,
+   "black_nh": 1.3,
+   "asian_nh": 1.8,
+   "hisp": 3.8,
+   "med_income": 48886,
+   "ba_plus": 19.6,
+   "acs_year": 2009,
+   "pvi": -3.72,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "WI-5": {
+   "rural": 14.24,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 704076.0,
+   "white_nh": 90.7,
+   "black_nh": 2.8,
+   "asian_nh": 2.2,
+   "hisp": 3.0,
+   "med_income": 65888,
+   "ba_plus": 38.3,
+   "acs_year": 2009,
+   "pvi": -12.3,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "WI-2": {
+   "rural": 21.43,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 747732.0,
+   "white_nh": 85.7,
+   "black_nh": 3.7,
+   "asian_nh": 3.1,
+   "hisp": 5.2,
+   "med_income": 54179,
+   "ba_plus": 36.1,
+   "acs_year": 2009,
+   "pvi": 15.47,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "WI-1": {
+   "rural": 14.3,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 728362.0,
+   "white_nh": 82.9,
+   "black_nh": 5.1,
+   "asian_nh": 1.6,
+   "hisp": 8.8,
+   "med_income": 55958,
+   "ba_plus": 25.6,
+   "acs_year": 2009,
+   "pvi": -2.32,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "WI-4": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 678702.0,
+   "white_nh": 46.1,
+   "black_nh": 33.2,
+   "asian_nh": 3.1,
+   "hisp": 15.1,
+   "med_income": 36007,
+   "ba_plus": 21.5,
+   "acs_year": 2009,
+   "pvi": 21.86,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "WI-3": {
+   "rural": 54.83,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 719083.0,
+   "white_nh": 94.5,
+   "black_nh": 0.7,
+   "asian_nh": 1.5,
+   "hisp": 1.6,
+   "med_income": 48698,
+   "ba_plus": 22.4,
+   "acs_year": 2009,
+   "pvi": 4.36,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "WI-7": {
+   "rural": 56.02,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 682457.0,
+   "white_nh": 93.6,
+   "black_nh": 0.4,
+   "asian_nh": 1.9,
+   "hisp": 1.3,
+   "med_income": 44057,
+   "ba_plus": 19.6,
+   "acs_year": 2009,
+   "pvi": 2.59,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "WI-8": {
+   "rural": 41.5,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 703550.0,
+   "white_nh": 89.7,
+   "black_nh": 1.1,
+   "asian_nh": 1.8,
+   "hisp": 3.6,
+   "med_income": 49592,
+   "ba_plus": 21.3,
+   "acs_year": 2009,
+   "pvi": -0.44,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MN-2": {
+   "rural": 15.92,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 731468.0,
+   "white_nh": 86.6,
+   "black_nh": 2.8,
+   "asian_nh": 4.0,
+   "hisp": 4.0,
+   "med_income": 70928,
+   "ba_plus": 34.9,
+   "acs_year": 2009,
+   "pvi": -4.36,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MN-6": {
+   "rural": 28.15,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 749383.0,
+   "white_nh": 91.4,
+   "black_nh": 2.0,
+   "asian_nh": 2.7,
+   "hisp": 1.7,
+   "med_income": 66980,
+   "ba_plus": 28.9,
+   "acs_year": 2009,
+   "pvi": -7.41,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MN-8": {
+   "rural": 61.26,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 650720.0,
+   "white_nh": 93.2,
+   "black_nh": 0.8,
+   "asian_nh": 0.7,
+   "hisp": 1.2,
+   "med_income": 44583,
+   "ba_plus": 20.4,
+   "acs_year": 2009,
+   "pvi": 1.49,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MN-4": {
+   "rural": 0.66,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 614059.0,
+   "white_nh": 73.5,
+   "black_nh": 8.4,
+   "asian_nh": 8.7,
+   "hisp": 6.9,
+   "med_income": 49568,
+   "ba_plus": 37.2,
+   "acs_year": 2009,
+   "pvi": 12.18,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MN-5": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 618840.0,
+   "white_nh": 68.2,
+   "black_nh": 13.6,
+   "asian_nh": 5.3,
+   "hisp": 9.0,
+   "med_income": 50398,
+   "ba_plus": 41.6,
+   "acs_year": 2009,
+   "pvi": 22.11,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MN-3": {
+   "rural": 3.82,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 651676.0,
+   "white_nh": 81.5,
+   "black_nh": 6.2,
+   "asian_nh": 5.6,
+   "hisp": 3.9,
+   "med_income": 73168,
+   "ba_plus": 44.1,
+   "acs_year": 2009,
+   "pvi": -0.54,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MN-7": {
+   "rural": 64.2,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 614738.0,
+   "white_nh": 90.6,
+   "black_nh": 0.7,
+   "asian_nh": 0.5,
+   "hisp": 3.7,
+   "med_income": 45069,
+   "ba_plus": 18.9,
+   "acs_year": 2009,
+   "pvi": -5.15,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "ND-0": {
+   "rural": 40.09,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 646844.0,
+   "white_nh": 89.1,
+   "black_nh": 1.1,
+   "asian_nh": 0.8,
+   "hisp": 2.0,
+   "med_income": 47827,
+   "ba_plus": 25.8,
+   "acs_year": 2009,
+   "pvi": -8.93,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NE-3": {
+   "rural": 51.39,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 553486.0,
+   "white_nh": 87.9,
+   "black_nh": 0.7,
+   "asian_nh": 0.6,
+   "hisp": 9.2,
+   "med_income": 41472,
+   "ba_plus": 18.7,
+   "acs_year": 2009,
+   "pvi": -23.67,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "WY-0": {
+   "rural": 35.24,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 544270.0,
+   "white_nh": 86.1,
+   "black_nh": 0.9,
+   "asian_nh": 0.7,
+   "hisp": 8.1,
+   "med_income": 52664,
+   "ba_plus": 23.8,
+   "acs_year": 2009,
+   "pvi": -19.8,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MT-0": {
+   "rural": 44.12,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 974989.0,
+   "white_nh": 87.6,
+   "black_nh": 0.3,
+   "asian_nh": 0.5,
+   "hisp": 2.9,
+   "med_income": 42322,
+   "ba_plus": 27.4,
+   "acs_year": 2009,
+   "pvi": -5.79,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "ID-1": {
+   "rural": 27.93,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 824910.0,
+   "white_nh": 85.7,
+   "black_nh": 0.7,
+   "asian_nh": 0.9,
+   "hisp": 9.3,
+   "med_income": 46510,
+   "ba_plus": 23.1,
+   "acs_year": 2009,
+   "pvi": -17.33,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "IL-8": {
+   "rural": 3.47,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 734213.0,
+   "white_nh": 69.7,
+   "black_nh": 3.1,
+   "asian_nh": 7.5,
+   "hisp": 18.1,
+   "med_income": 70902,
+   "ba_plus": 35.1,
+   "acs_year": 2009,
+   "pvi": 0.97,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "IL-10": {
+   "rural": 0.18,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 666206.0,
+   "white_nh": 69.8,
+   "black_nh": 5.0,
+   "asian_nh": 8.0,
+   "hisp": 15.6,
+   "med_income": 79948,
+   "ba_plus": 50.8,
+   "acs_year": 2009,
+   "pvi": 7.01,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "IL-6": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 651054.0,
+   "white_nh": 68.0,
+   "black_nh": 3.6,
+   "asian_nh": 9.8,
+   "hisp": 17.0,
+   "med_income": 70594,
+   "ba_plus": 38.4,
+   "acs_year": 2009,
+   "pvi": 1.72,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "IL-14": {
+   "rural": 9.87,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 831345.0,
+   "white_nh": 67.4,
+   "black_nh": 5.2,
+   "asian_nh": 2.9,
+   "hisp": 22.7,
+   "med_income": 64882,
+   "ba_plus": 30.7,
+   "acs_year": 2009,
+   "pvi": 0.32,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "IL-16": {
+   "rural": 18.94,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 733324.0,
+   "white_nh": 81.1,
+   "black_nh": 5.6,
+   "asian_nh": 2.0,
+   "hisp": 9.8,
+   "med_income": 54135,
+   "ba_plus": 25.1,
+   "acs_year": 2009,
+   "pvi": -0.78,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "IL-9": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 645785.0,
+   "white_nh": 61.8,
+   "black_nh": 11.2,
+   "asian_nh": 13.4,
+   "hisp": 11.6,
+   "med_income": 52470,
+   "ba_plus": 44.1,
+   "acs_year": 2009,
+   "pvi": 19.65,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "IL-5": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 693368.0,
+   "white_nh": 60.7,
+   "black_nh": 2.5,
+   "asian_nh": 6.3,
+   "hisp": 29.0,
+   "med_income": 58872,
+   "ba_plus": 41.4,
+   "acs_year": 2009,
+   "pvi": 19.6,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "IL-7": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 630797.0,
+   "white_nh": 32.4,
+   "black_nh": 52.4,
+   "asian_nh": 5.9,
+   "hisp": 7.9,
+   "med_income": 49593,
+   "ba_plus": 40.1,
+   "acs_year": 2009,
+   "pvi": 34.29,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "IL-3": {
+   "rural": 0.01,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 667278.0,
+   "white_nh": 55.5,
+   "black_nh": 7.7,
+   "asian_nh": 3.7,
+   "hisp": 32.2,
+   "med_income": 56594,
+   "ba_plus": 24.9,
+   "acs_year": 2009,
+   "pvi": 10.78,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "IL-4": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 607208.0,
+   "white_nh": 21.9,
+   "black_nh": 4.9,
+   "asian_nh": 2.7,
+   "hisp": 69.6,
+   "med_income": 42029,
+   "ba_plus": 24.7,
+   "acs_year": 2009,
+   "pvi": 32.35,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "IL-13": {
+   "rural": 0.4,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 768519.0,
+   "white_nh": 71.5,
+   "black_nh": 6.4,
+   "asian_nh": 9.5,
+   "hisp": 11.0,
+   "med_income": 80851,
+   "ba_plus": 45.5,
+   "acs_year": 2009,
+   "pvi": -0.3,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "IL-11": {
+   "rural": 17.54,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 776903.0,
+   "white_nh": 79.2,
+   "black_nh": 7.7,
+   "asian_nh": 1.3,
+   "hisp": 9.8,
+   "med_income": 57909,
+   "ba_plus": 22.1,
+   "acs_year": 2009,
+   "pvi": -0.28,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "IL-1": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 615763.0,
+   "white_nh": 25.1,
+   "black_nh": 63.6,
+   "asian_nh": 1.5,
+   "hisp": 8.9,
+   "med_income": 39733,
+   "ba_plus": 21.1,
+   "acs_year": 2009,
+   "pvi": 33.54,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "IL-2": {
+   "rural": 0.06,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 617975.0,
+   "white_nh": 16.4,
+   "black_nh": 67.8,
+   "asian_nh": 0.3,
+   "hisp": 14.2,
+   "med_income": 42704,
+   "ba_plus": 20.2,
+   "acs_year": 2009,
+   "pvi": 36.04,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "IL-15": {
+   "rural": 32.84,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 667033.0,
+   "white_nh": 85.5,
+   "black_nh": 6.5,
+   "asian_nh": 3.1,
+   "hisp": 3.1,
+   "med_income": 43798,
+   "ba_plus": 26.8,
+   "acs_year": 2009,
+   "pvi": -5.47,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "IL-17": {
+   "rural": 30.04,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 620600.0,
+   "white_nh": 84.2,
+   "black_nh": 7.8,
+   "asian_nh": 1.1,
+   "hisp": 5.0,
+   "med_income": 40474,
+   "ba_plus": 18.1,
+   "acs_year": 2009,
+   "pvi": 3.28,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "IL-18": {
+   "rural": 32.13,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 658698.0,
+   "white_nh": 87.1,
+   "black_nh": 7.0,
+   "asian_nh": 1.5,
+   "hisp": 2.4,
+   "med_income": 50007,
+   "ba_plus": 24.5,
+   "acs_year": 2009,
+   "pvi": -5.22,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "IL-19": {
+   "rural": 46.4,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 665676.0,
+   "white_nh": 92.3,
+   "black_nh": 3.4,
+   "asian_nh": 0.8,
+   "hisp": 1.9,
+   "med_income": 47389,
+   "ba_plus": 21.2,
+   "acs_year": 2009,
+   "pvi": -9.03,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "IL-12": {
+   "rural": 23.04,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 658664.0,
+   "white_nh": 78.2,
+   "black_nh": 16.6,
+   "asian_nh": 0.9,
+   "hisp": 2.3,
+   "med_income": 40877,
+   "ba_plus": 20.7,
+   "acs_year": 2009,
+   "pvi": 1.87,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MO-2": {
+   "rural": 8.85,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 697884.0,
+   "white_nh": 90.4,
+   "black_nh": 2.9,
+   "asian_nh": 3.0,
+   "hisp": 2.3,
+   "med_income": 72298,
+   "ba_plus": 42.3,
+   "acs_year": 2009,
+   "pvi": -9.12,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MO-3": {
+   "rural": 12.17,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 654784.0,
+   "white_nh": 84.2,
+   "black_nh": 8.5,
+   "asian_nh": 2.2,
+   "hisp": 3.0,
+   "med_income": 49300,
+   "ba_plus": 28.3,
+   "acs_year": 2009,
+   "pvi": 7.25,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MO-8": {
+   "rural": 60.43,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 633939.0,
+   "white_nh": 91.2,
+   "black_nh": 4.8,
+   "asian_nh": 0.6,
+   "hisp": 1.6,
+   "med_income": 34297,
+   "ba_plus": 14.6,
+   "acs_year": 2009,
+   "pvi": -15.9,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MO-1": {
+   "rural": 0.4,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 597998.0,
+   "white_nh": 39.8,
+   "black_nh": 54.2,
+   "asian_nh": 2.0,
+   "hisp": 1.9,
+   "med_income": 39528,
+   "ba_plus": 25.5,
+   "acs_year": 2009,
+   "pvi": 26.9,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MO-4": {
+   "rural": 57.37,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 660704.0,
+   "white_nh": 90.8,
+   "black_nh": 3.4,
+   "asian_nh": 0.6,
+   "hisp": 3.0,
+   "med_income": 41287,
+   "ba_plus": 17.6,
+   "acs_year": 2009,
+   "pvi": -14.83,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MO-5": {
+   "rural": 3.89,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 666711.0,
+   "white_nh": 63.9,
+   "black_nh": 23.4,
+   "asian_nh": 1.6,
+   "hisp": 8.6,
+   "med_income": 43957,
+   "ba_plus": 26.9,
+   "acs_year": 2009,
+   "pvi": 10.93,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MO-7": {
+   "rural": 37.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 707901.0,
+   "white_nh": 90.4,
+   "black_nh": 1.4,
+   "asian_nh": 0.9,
+   "hisp": 4.2,
+   "med_income": 39535,
+   "ba_plus": 21.7,
+   "acs_year": 2009,
+   "pvi": -17.59,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "AR-3": {
+   "rural": 38.44,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 818527.0,
+   "white_nh": 80.5,
+   "black_nh": 2.8,
+   "asian_nh": 2.1,
+   "hisp": 11.1,
+   "med_income": 40324,
+   "ba_plus": 21.1,
+   "acs_year": 2009,
+   "pvi": -17.25,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "KS-2": {
+   "rural": 36.8,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 701538.0,
+   "white_nh": 85.5,
+   "black_nh": 4.6,
+   "asian_nh": 1.3,
+   "hisp": 4.8,
+   "med_income": 44122,
+   "ba_plus": 27.0,
+   "acs_year": 2009,
+   "pvi": -9.6,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "KS-3": {
+   "rural": 4.88,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 768230.0,
+   "white_nh": 75.9,
+   "black_nh": 8.2,
+   "asian_nh": 3.4,
+   "hisp": 9.5,
+   "med_income": 60915,
+   "ba_plus": 43.9,
+   "acs_year": 2009,
+   "pvi": -2.71,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "KS-1": {
+   "rural": 45.72,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 644180.0,
+   "white_nh": 80.9,
+   "black_nh": 1.9,
+   "asian_nh": 0.8,
+   "hisp": 14.0,
+   "med_income": 42680,
+   "ba_plus": 19.3,
+   "acs_year": 2009,
+   "pvi": -23.1,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "KS-4": {
+   "rural": 19.13,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 704799.0,
+   "white_nh": 77.6,
+   "black_nh": 6.7,
+   "asian_nh": 2.9,
+   "hisp": 9.2,
+   "med_income": 46590,
+   "ba_plus": 25.5,
+   "acs_year": 2009,
+   "pvi": -13.17,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "OK-3": {
+   "rural": 47.59,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 718522.0,
+   "white_nh": 77.6,
+   "black_nh": 3.8,
+   "asian_nh": 1.0,
+   "hisp": 7.8,
+   "med_income": 41404,
+   "ba_plus": 19.8,
+   "acs_year": 2009,
+   "pvi": -25.21,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NE-2": {
+   "rural": 2.27,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 631803.0,
+   "white_nh": 75.3,
+   "black_nh": 9.6,
+   "asian_nh": 2.4,
+   "hisp": 9.6,
+   "med_income": 51907,
+   "ba_plus": 34.3,
+   "acs_year": 2009,
+   "pvi": -4.88,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "LA-1": {
+   "rural": 20.11,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 685069.0,
+   "white_nh": 75.2,
+   "black_nh": 15.1,
+   "asian_nh": 1.7,
+   "hisp": 6.3,
+   "med_income": 50527,
+   "ba_plus": 29.3,
+   "acs_year": 2009,
+   "pvi": -25.69,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "LA-2": {
+   "rural": 0.76,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 511490.0,
+   "white_nh": 28.9,
+   "black_nh": 60.2,
+   "asian_nh": 3.8,
+   "hisp": 5.8,
+   "med_income": 36354,
+   "ba_plus": 22.4,
+   "acs_year": 2009,
+   "pvi": 22.54,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "LA-3": {
+   "rural": 22.94,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 630948.0,
+   "white_nh": 66.5,
+   "black_nh": 25.9,
+   "asian_nh": 1.2,
+   "hisp": 3.3,
+   "med_income": 46501,
+   "ba_plus": 13.8,
+   "acs_year": 2009,
+   "pvi": -13.79,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "LA-6": {
+   "rural": 21.99,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 710140.0,
+   "white_nh": 59.3,
+   "black_nh": 34.8,
+   "asian_nh": 1.7,
+   "hisp": 2.9,
+   "med_income": 48248,
+   "ba_plus": 27.3,
+   "acs_year": 2009,
+   "pvi": -10.98,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "LA-7": {
+   "rural": 29.07,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 664678.0,
+   "white_nh": 69.8,
+   "black_nh": 25.8,
+   "asian_nh": 0.8,
+   "hisp": 2.1,
+   "med_income": 41679,
+   "ba_plus": 20.0,
+   "acs_year": 2009,
+   "pvi": -15.82,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "LA-4": {
+   "rural": 39.66,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 652178.0,
+   "white_nh": 60.0,
+   "black_nh": 33.5,
+   "asian_nh": 0.9,
+   "hisp": 3.2,
+   "med_income": 39522,
+   "ba_plus": 18.2,
+   "acs_year": 2009,
+   "pvi": -12.05,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "LA-5": {
+   "rural": 47.51,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 637573.0,
+   "white_nh": 62.2,
+   "black_nh": 34.0,
+   "asian_nh": 0.6,
+   "hisp": 2.0,
+   "med_income": 36446,
+   "ba_plus": 17.6,
+   "acs_year": 2009,
+   "pvi": -15.08,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "AR-2": {
+   "rural": 30.85,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 737102.0,
+   "white_nh": 71.1,
+   "black_nh": 20.7,
+   "asian_nh": 1.2,
+   "hisp": 4.6,
+   "med_income": 43175,
+   "ba_plus": 24.8,
+   "acs_year": 2009,
+   "pvi": -6.66,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "AR-1": {
+   "rural": 53.97,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 678549.0,
+   "white_nh": 78.7,
+   "black_nh": 16.8,
+   "asian_nh": 0.3,
+   "hisp": 2.5,
+   "med_income": 33588,
+   "ba_plus": 13.8,
+   "acs_year": 2009,
+   "pvi": -11.21,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "OK-4": {
+   "rural": 34.16,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 750649.0,
+   "white_nh": 75.2,
+   "black_nh": 6.4,
+   "asian_nh": 1.9,
+   "hisp": 6.3,
+   "med_income": 46059,
+   "ba_plus": 23.3,
+   "acs_year": 2009,
+   "pvi": -18.71,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "OK-5": {
+   "rural": 12.24,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 744927.0,
+   "white_nh": 63.0,
+   "black_nh": 13.1,
+   "asian_nh": 2.8,
+   "hisp": 13.0,
+   "med_income": 40197,
+   "ba_plus": 27.5,
+   "acs_year": 2009,
+   "pvi": -12.71,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "OK-2": {
+   "rural": 64.76,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 720166.0,
+   "white_nh": 68.2,
+   "black_nh": 3.8,
+   "asian_nh": 0.5,
+   "hisp": 4.2,
+   "med_income": 34367,
+   "ba_plus": 14.9,
+   "acs_year": 2009,
+   "pvi": -16.71,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TX-13": {
+   "rural": 30.08,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 657065.0,
+   "white_nh": 67.7,
+   "black_nh": 5.6,
+   "asian_nh": 1.5,
+   "hisp": 22.6,
+   "med_income": 42186,
+   "ba_plus": 18.4,
+   "acs_year": 2009,
+   "pvi": -29.71,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "OK-1": {
+   "rural": 11.28,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 752786.0,
+   "white_nh": 69.6,
+   "black_nh": 8.7,
+   "asian_nh": 1.8,
+   "hisp": 9.3,
+   "med_income": 47663,
+   "ba_plus": 27.9,
+   "acs_year": 2009,
+   "pvi": -16.71,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TX-24": {
+   "rural": 0.34,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 791663.0,
+   "white_nh": 49.6,
+   "black_nh": 12.4,
+   "asian_nh": 8.7,
+   "hisp": 26.9,
+   "med_income": 61473,
+   "ba_plus": 35.7,
+   "acs_year": 2009,
+   "pvi": -10.37,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TX-32": {
+   "rural": 0.02,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 677328.0,
+   "white_nh": 44.3,
+   "black_nh": 7.2,
+   "asian_nh": 4.8,
+   "hisp": 42.6,
+   "med_income": 48676,
+   "ba_plus": 37.4,
+   "acs_year": 2009,
+   "pvi": -7.61,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TX-3": {
+   "rural": 0.52,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 872895.0,
+   "white_nh": 53.8,
+   "black_nh": 9.5,
+   "asian_nh": 11.2,
+   "hisp": 22.9,
+   "med_income": 65569,
+   "ba_plus": 42.1,
+   "acs_year": 2009,
+   "pvi": -12.39,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TX-4": {
+   "rural": 40.12,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 818462.0,
+   "white_nh": 73.1,
+   "black_nh": 10.4,
+   "asian_nh": 1.6,
+   "hisp": 12.2,
+   "med_income": 49846,
+   "ba_plus": 22.2,
+   "acs_year": 2009,
+   "pvi": -22.23,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TX-26": {
+   "rural": 6.35,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 907036.0,
+   "white_nh": 61.8,
+   "black_nh": 12.3,
+   "asian_nh": 2.9,
+   "hisp": 20.9,
+   "med_income": 60216,
+   "ba_plus": 30.5,
+   "acs_year": 2009,
+   "pvi": -12.65,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TX-5": {
+   "rural": 33.78,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 723374.0,
+   "white_nh": 61.3,
+   "black_nh": 13.3,
+   "asian_nh": 2.3,
+   "hisp": 20.9,
+   "med_income": 47178,
+   "ba_plus": 19.6,
+   "acs_year": 2009,
+   "pvi": -16.93,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TX-6": {
+   "rural": 17.28,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 805442.0,
+   "white_nh": 53.8,
+   "black_nh": 16.3,
+   "asian_nh": 4.0,
+   "hisp": 23.6,
+   "med_income": 53071,
+   "ba_plus": 24.5,
+   "acs_year": 2009,
+   "pvi": -13.96,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TX-30": {
+   "rural": 1.16,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 752686.0,
+   "white_nh": 17.8,
+   "black_nh": 37.1,
+   "asian_nh": 1.5,
+   "hisp": 42.0,
+   "med_income": 36506,
+   "ba_plus": 18.7,
+   "acs_year": 2009,
+   "pvi": 27.79,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TX-1": {
+   "rural": 44.81,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 710414.0,
+   "white_nh": 66.3,
+   "black_nh": 17.8,
+   "asian_nh": 0.6,
+   "hisp": 13.7,
+   "med_income": 41102,
+   "ba_plus": 18.7,
+   "acs_year": 2009,
+   "pvi": -21.46,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TX-8": {
+   "rural": 39.96,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 808773.0,
+   "white_nh": 74.6,
+   "black_nh": 8.3,
+   "asian_nh": 1.4,
+   "hisp": 14.0,
+   "med_income": 51313,
+   "ba_plus": 22.1,
+   "acs_year": 2009,
+   "pvi": -25.96,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TX-17": {
+   "rural": 32.58,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 749966.0,
+   "white_nh": 66.7,
+   "black_nh": 9.6,
+   "asian_nh": 1.8,
+   "hisp": 20.2,
+   "med_income": 42995,
+   "ba_plus": 21.7,
+   "acs_year": 2009,
+   "pvi": -20.71,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TX-12": {
+   "rural": 14.9,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 820289.0,
+   "white_nh": 59.8,
+   "black_nh": 7.1,
+   "asian_nh": 2.4,
+   "hisp": 28.8,
+   "med_income": 52385,
+   "ba_plus": 23.3,
+   "acs_year": 2009,
+   "pvi": -16.93,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TX-19": {
+   "rural": 25.53,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 679701.0,
+   "white_nh": 58.4,
+   "black_nh": 4.9,
+   "asian_nh": 1.1,
+   "hisp": 33.5,
+   "med_income": 39405,
+   "ba_plus": 20.6,
+   "acs_year": 2009,
+   "pvi": -26.25,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TX-31": {
+   "rural": 18.98,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 857673.0,
+   "white_nh": 61.5,
+   "black_nh": 12.0,
+   "asian_nh": 3.3,
+   "hisp": 20.3,
+   "med_income": 54273,
+   "ba_plus": 26.3,
+   "acs_year": 2009,
+   "pvi": -12.71,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TX-11": {
+   "rural": 28.65,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 693432.0,
+   "white_nh": 58.8,
+   "black_nh": 4.0,
+   "asian_nh": 0.9,
+   "hisp": 35.0,
+   "med_income": 43473,
+   "ba_plus": 17.9,
+   "acs_year": 2009,
+   "pvi": -28.96,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TX-10": {
+   "rural": 14.04,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 943301.0,
+   "white_nh": 53.4,
+   "black_nh": 10.7,
+   "asian_nh": 6.4,
+   "hisp": 27.8,
+   "med_income": 60950,
+   "ba_plus": 35.2,
+   "acs_year": 2009,
+   "pvi": -9.62,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TX-23": {
+   "rural": 17.53,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 804574.0,
+   "white_nh": 28.6,
+   "black_nh": 2.8,
+   "asian_nh": 1.8,
+   "hisp": 65.4,
+   "med_income": 44614,
+   "ba_plus": 23.5,
+   "acs_year": 2009,
+   "pvi": -3.07,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TX-7": {
+   "rural": 0.05,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 786667.0,
+   "white_nh": 57.4,
+   "black_nh": 9.0,
+   "asian_nh": 8.7,
+   "hisp": 23.3,
+   "med_income": 70160,
+   "ba_plus": 49.1,
+   "acs_year": 2009,
+   "pvi": -12.4,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TX-18": {
+   "rural": 0.06,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 740571.0,
+   "white_nh": 17.6,
+   "black_nh": 35.4,
+   "asian_nh": 3.6,
+   "hisp": 42.2,
+   "med_income": 37184,
+   "ba_plus": 17.4,
+   "acs_year": 2009,
+   "pvi": 23.88,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TX-29": {
+   "rural": 0.26,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 675095.0,
+   "white_nh": 14.0,
+   "black_nh": 9.0,
+   "asian_nh": 1.5,
+   "hisp": 74.6,
+   "med_income": 35470,
+   "ba_plus": 6.6,
+   "acs_year": 2009,
+   "pvi": 8.04,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TX-9": {
+   "rural": 0.03,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 738166.0,
+   "white_nh": 12.9,
+   "black_nh": 34.6,
+   "asian_nh": 10.2,
+   "hisp": 41.6,
+   "med_income": 37202,
+   "ba_plus": 20.2,
+   "acs_year": 2009,
+   "pvi": 22.79,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TX-2": {
+   "rural": 9.7,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 749676.0,
+   "white_nh": 53.6,
+   "black_nh": 20.3,
+   "asian_nh": 2.6,
+   "hisp": 21.6,
+   "med_income": 56593,
+   "ba_plus": 23.3,
+   "acs_year": 2009,
+   "pvi": -13.21,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TX-22": {
+   "rural": 4.16,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 895488.0,
+   "white_nh": 46.8,
+   "black_nh": 13.4,
+   "asian_nh": 11.0,
+   "hisp": 26.9,
+   "med_income": 69696,
+   "ba_plus": 34.8,
+   "acs_year": 2009,
+   "pvi": -12.4,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TX-14": {
+   "rural": 23.02,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 760299.0,
+   "white_nh": 58.2,
+   "black_nh": 8.8,
+   "asian_nh": 3.2,
+   "hisp": 28.0,
+   "med_income": 54556,
+   "ba_plus": 24.9,
+   "acs_year": 2009,
+   "pvi": -19.21,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TX-25": {
+   "rural": 22.21,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 810390.0,
+   "white_nh": 50.8,
+   "black_nh": 7.6,
+   "asian_nh": 1.7,
+   "hisp": 38.1,
+   "med_income": 47807,
+   "ba_plus": 32.7,
+   "acs_year": 2009,
+   "pvi": 5.74,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TX-15": {
+   "rural": 15.97,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 768767.0,
+   "white_nh": 16.8,
+   "black_nh": 1.5,
+   "asian_nh": 0.8,
+   "hisp": 80.1,
+   "med_income": 31823,
+   "ba_plus": 14.9,
+   "acs_year": 2009,
+   "pvi": 4.79,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TX-28": {
+   "rural": 17.18,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 817105.0,
+   "white_nh": 18.1,
+   "black_nh": 1.2,
+   "asian_nh": 0.6,
+   "hisp": 79.5,
+   "med_income": 37269,
+   "ba_plus": 16.7,
+   "acs_year": 2009,
+   "pvi": 1.04,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TX-21": {
+   "rural": 17.21,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 837900.0,
+   "white_nh": 61.0,
+   "black_nh": 6.0,
+   "asian_nh": 3.1,
+   "hisp": 27.8,
+   "med_income": 61050,
+   "ba_plus": 40.2,
+   "acs_year": 2009,
+   "pvi": -12.9,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TX-20": {
+   "rural": 0.28,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 700692.0,
+   "white_nh": 20.0,
+   "black_nh": 6.9,
+   "asian_nh": 1.3,
+   "hisp": 70.2,
+   "med_income": 35945,
+   "ba_plus": 15.1,
+   "acs_year": 2009,
+   "pvi": 9.02,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TX-27": {
+   "rural": 9.09,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 714243.0,
+   "white_nh": 23.1,
+   "black_nh": 2.2,
+   "asian_nh": 1.0,
+   "hisp": 72.9,
+   "med_income": 36318,
+   "ba_plus": 17.5,
+   "acs_year": 2009,
+   "pvi": -1.05,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TX-16": {
+   "rural": 1.68,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 713169.0,
+   "white_nh": 13.7,
+   "black_nh": 2.6,
+   "asian_nh": 1.2,
+   "hisp": 81.3,
+   "med_income": 36415,
+   "ba_plus": 21.0,
+   "acs_year": 2009,
+   "pvi": 11.15,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NM-2": {
+   "rural": 28.1,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 651297.0,
+   "white_nh": 40.5,
+   "black_nh": 1.6,
+   "asian_nh": 0.8,
+   "hisp": 50.6,
+   "med_income": 36367,
+   "ba_plus": 19.7,
+   "acs_year": 2009,
+   "pvi": -4.98,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CO-7": {
+   "rural": 2.97,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 675641.0,
+   "white_nh": 59.9,
+   "black_nh": 7.0,
+   "asian_nh": 2.5,
+   "hisp": 27.7,
+   "med_income": 50169,
+   "ba_plus": 26.8,
+   "acs_year": 2009,
+   "pvi": 5.12,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CO-2": {
+   "rural": 9.37,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 731827.0,
+   "white_nh": 74.1,
+   "black_nh": 1.0,
+   "asian_nh": 3.9,
+   "hisp": 18.6,
+   "med_income": 64394,
+   "ba_plus": 41.0,
+   "acs_year": 2009,
+   "pvi": 11.17,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CO-1": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 670617.0,
+   "white_nh": 53.1,
+   "black_nh": 8.9,
+   "asian_nh": 3.0,
+   "hisp": 32.4,
+   "med_income": 45189,
+   "ba_plus": 39.9,
+   "acs_year": 2009,
+   "pvi": 21.35,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CO-6": {
+   "rural": 12.6,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 808256.0,
+   "white_nh": 81.7,
+   "black_nh": 2.7,
+   "asian_nh": 3.8,
+   "hisp": 9.0,
+   "med_income": 85052,
+   "ba_plus": 49.6,
+   "acs_year": 2009,
+   "pvi": -7.76,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CO-5": {
+   "rural": 13.76,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 707826.0,
+   "white_nh": 73.8,
+   "black_nh": 5.3,
+   "asian_nh": 2.4,
+   "hisp": 13.7,
+   "med_income": 53706,
+   "ba_plus": 34.0,
+   "acs_year": 2009,
+   "pvi": -13.82,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CO-3": {
+   "rural": 35.96,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 699881.0,
+   "white_nh": 72.1,
+   "black_nh": 0.7,
+   "asian_nh": 0.7,
+   "hisp": 23.1,
+   "med_income": 46541,
+   "ba_plus": 26.5,
+   "acs_year": 2009,
+   "pvi": -5.0,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CO-4": {
+   "rural": 21.13,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 730700.0,
+   "white_nh": 75.3,
+   "black_nh": 0.9,
+   "asian_nh": 1.3,
+   "hisp": 20.1,
+   "med_income": 50076,
+   "ba_plus": 30.8,
+   "acs_year": 2009,
+   "pvi": -4.98,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NM-3": {
+   "rural": 32.09,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 679231.0,
+   "white_nh": 40.3,
+   "black_nh": 1.8,
+   "asian_nh": 1.0,
+   "hisp": 38.7,
+   "med_income": 48010,
+   "ba_plus": 25.0,
+   "acs_year": 2009,
+   "pvi": 7.39,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "UT-2": {
+   "rural": 13.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 898173.0,
+   "white_nh": 84.7,
+   "black_nh": 1.2,
+   "asian_nh": 2.1,
+   "hisp": 7.8,
+   "med_income": 55048,
+   "ba_plus": 33.0,
+   "acs_year": 2009,
+   "pvi": -14.0,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "UT-1": {
+   "rural": 9.28,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 897074.0,
+   "white_nh": 81.2,
+   "black_nh": 1.2,
+   "asian_nh": 1.7,
+   "hisp": 13.1,
+   "med_income": 54031,
+   "ba_plus": 27.8,
+   "acs_year": 2009,
+   "pvi": -20.56,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "ID-2": {
+   "rural": 31.15,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 720891.0,
+   "white_nh": 83.0,
+   "black_nh": 0.4,
+   "asian_nh": 1.3,
+   "hisp": 12.3,
+   "med_income": 43447,
+   "ba_plus": 24.9,
+   "acs_year": 2009,
+   "pvi": -17.04,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "UT-3": {
+   "rural": 6.24,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 989325.0,
+   "white_nh": 77.6,
+   "black_nh": 0.8,
+   "asian_nh": 2.2,
+   "hisp": 15.7,
+   "med_income": 56472,
+   "ba_plus": 24.4,
+   "acs_year": 2009,
+   "pvi": -24.64,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NV-2": {
+   "rural": 16.4,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 830749.0,
+   "white_nh": 68.7,
+   "black_nh": 2.5,
+   "asian_nh": 3.9,
+   "hisp": 20.3,
+   "med_income": 53126,
+   "ba_plus": 22.1,
+   "acs_year": 2009,
+   "pvi": -4.5,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "AZ-1": {
+   "rural": 40.34,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 758406.0,
+   "white_nh": 57.2,
+   "black_nh": 1.3,
+   "asian_nh": 0.9,
+   "hisp": 19.0,
+   "med_income": 40080,
+   "ba_plus": 17.5,
+   "acs_year": 2009,
+   "pvi": -7.28,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "AZ-4": {
+   "rural": 0.38,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 761146.0,
+   "white_nh": 20.8,
+   "black_nh": 6.8,
+   "asian_nh": 2.0,
+   "hisp": 66.6,
+   "med_income": 35095,
+   "ba_plus": 12.0,
+   "acs_year": 2009,
+   "pvi": 13.04,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "AZ-5": {
+   "rural": 2.52,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 726300.0,
+   "white_nh": 68.5,
+   "black_nh": 3.7,
+   "asian_nh": 4.2,
+   "hisp": 18.9,
+   "med_income": 60426,
+   "ba_plus": 42.4,
+   "acs_year": 2009,
+   "pvi": -5.49,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "AZ-3": {
+   "rural": 2.23,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 757962.0,
+   "white_nh": 69.2,
+   "black_nh": 2.8,
+   "asian_nh": 3.1,
+   "hisp": 22.1,
+   "med_income": 55380,
+   "ba_plus": 33.8,
+   "acs_year": 2009,
+   "pvi": -10.28,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "AZ-2": {
+   "rural": 9.66,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 956842.0,
+   "white_nh": 68.0,
+   "black_nh": 3.5,
+   "asian_nh": 2.1,
+   "hisp": 22.2,
+   "med_income": 52070,
+   "ba_plus": 21.6,
+   "acs_year": 2009,
+   "pvi": -14.07,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "AZ-7": {
+   "rural": 11.43,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 892390.0,
+   "white_nh": 32.6,
+   "black_nh": 4.3,
+   "asian_nh": 1.5,
+   "hisp": 55.6,
+   "med_income": 38819,
+   "ba_plus": 15.3,
+   "acs_year": 2009,
+   "pvi": 4.98,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "AZ-6": {
+   "rural": 1.25,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 974431.0,
+   "white_nh": 69.5,
+   "black_nh": 3.0,
+   "asian_nh": 3.2,
+   "hisp": 20.9,
+   "med_income": 58564,
+   "ba_plus": 27.7,
+   "acs_year": 2009,
+   "pvi": -14.83,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "AZ-8": {
+   "rural": 13.36,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 768301.0,
+   "white_nh": 69.6,
+   "black_nh": 3.4,
+   "asian_nh": 2.8,
+   "hisp": 21.2,
+   "med_income": 48837,
+   "ba_plus": 33.1,
+   "acs_year": 2009,
+   "pvi": -5.64,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NM-1": {
+   "rural": 7.8,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 679143.0,
+   "white_nh": 42.1,
+   "black_nh": 2.4,
+   "asian_nh": 2.1,
+   "hisp": 47.6,
+   "med_income": 44837,
+   "ba_plus": 30.8,
+   "acs_year": 2009,
+   "pvi": 5.42,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NV-3": {
+   "rural": 1.81,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 1002482.0,
+   "white_nh": 58.1,
+   "black_nh": 7.3,
+   "asian_nh": 9.5,
+   "hisp": 21.2,
+   "med_income": 59067,
+   "ba_plus": 25.5,
+   "acs_year": 2009,
+   "pvi": 2.01,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-25": {
+   "rural": 8.89,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 819196.0,
+   "white_nh": 42.4,
+   "black_nh": 10.2,
+   "asian_nh": 5.2,
+   "hisp": 38.7,
+   "med_income": 58396,
+   "ba_plus": 20.4,
+   "acs_year": 2009,
+   "pvi": -4.47,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NV-1": {
+   "rural": 0.09,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 809854.0,
+   "white_nh": 39.1,
+   "black_nh": 12.6,
+   "asian_nh": 5.5,
+   "hisp": 39.4,
+   "med_income": 46106,
+   "ba_plus": 16.5,
+   "acs_year": 2009,
+   "pvi": 10.92,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "OR-2": {
+   "rural": 33.66,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 760032.0,
+   "white_nh": 83.2,
+   "black_nh": 0.4,
+   "asian_nh": 1.0,
+   "hisp": 11.2,
+   "med_income": 44369,
+   "ba_plus": 22.3,
+   "acs_year": 2009,
+   "pvi": -9.61,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-4": {
+   "rural": 28.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 769419.0,
+   "white_nh": 78.8,
+   "black_nh": 1.6,
+   "asian_nh": 4.4,
+   "hisp": 11.5,
+   "med_income": 62514,
+   "ba_plus": 29.9,
+   "acs_year": 2009,
+   "pvi": -9.34,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-34": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 646368.0,
+   "white_nh": 7.4,
+   "black_nh": 4.3,
+   "asian_nh": 6.2,
+   "hisp": 80.8,
+   "med_income": 37884,
+   "ba_plus": 11.2,
+   "acs_year": 2009,
+   "pvi": 22.37,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-35": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 672729.0,
+   "white_nh": 10.1,
+   "black_nh": 29.0,
+   "asian_nh": 5.9,
+   "hisp": 52.6,
+   "med_income": 43993,
+   "ba_plus": 17.9,
+   "acs_year": 2009,
+   "pvi": 31.78,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-39": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 657023.0,
+   "white_nh": 15.8,
+   "black_nh": 4.7,
+   "asian_nh": 10.7,
+   "hisp": 66.6,
+   "med_income": 54875,
+   "ba_plus": 16.7,
+   "acs_year": 2009,
+   "pvi": 12.7,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-37": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 643958.0,
+   "white_nh": 13.4,
+   "black_nh": 20.7,
+   "asian_nh": 10.9,
+   "hisp": 50.8,
+   "med_income": 47611,
+   "ba_plus": 18.2,
+   "acs_year": 2009,
+   "pvi": 26.84,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-31": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 629578.0,
+   "white_nh": 11.2,
+   "black_nh": 3.3,
+   "asian_nh": 14.3,
+   "hisp": 70.0,
+   "med_income": 36105,
+   "ba_plus": 20.5,
+   "acs_year": 2009,
+   "pvi": 28.21,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-33": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 644439.0,
+   "white_nh": 22.5,
+   "black_nh": 26.2,
+   "asian_nh": 11.7,
+   "hisp": 36.6,
+   "med_income": 42661,
+   "ba_plus": 32.2,
+   "acs_year": 2009,
+   "pvi": 34.41,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-32": {
+   "rural": 0.05,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 645453.0,
+   "white_nh": 11.5,
+   "black_nh": 1.7,
+   "asian_nh": 20.8,
+   "hisp": 64.7,
+   "med_income": 51459,
+   "ba_plus": 17.5,
+   "acs_year": 2009,
+   "pvi": 15.24,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-38": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 638942.0,
+   "white_nh": 9.8,
+   "black_nh": 3.4,
+   "asian_nh": 9.8,
+   "hisp": 75.9,
+   "med_income": 53241,
+   "ba_plus": 14.4,
+   "acs_year": 2009,
+   "pvi": 18.3,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-30": {
+   "rural": 2.35,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 644199.0,
+   "white_nh": 73.0,
+   "black_nh": 3.5,
+   "asian_nh": 9.4,
+   "hisp": 10.7,
+   "med_income": 78686,
+   "ba_plus": 59.2,
+   "acs_year": 2009,
+   "pvi": 17.78,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-36": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 676624.0,
+   "white_nh": 42.0,
+   "black_nh": 4.1,
+   "asian_nh": 15.6,
+   "hisp": 34.4,
+   "med_income": 68935,
+   "ba_plus": 43.8,
+   "acs_year": 2009,
+   "pvi": 11.42,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-29": {
+   "rural": 0.03,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 658312.0,
+   "white_nh": 42.3,
+   "black_nh": 4.6,
+   "asian_nh": 25.8,
+   "hisp": 25.0,
+   "med_income": 58859,
+   "ba_plus": 38.3,
+   "acs_year": 2009,
+   "pvi": 15.15,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-28": {
+   "rural": 0.03,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 669483.0,
+   "white_nh": 29.5,
+   "black_nh": 2.8,
+   "asian_nh": 7.6,
+   "hisp": 58.2,
+   "med_income": 51625,
+   "ba_plus": 27.1,
+   "acs_year": 2009,
+   "pvi": 23.64,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-24": {
+   "rural": 5.13,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 676531.0,
+   "white_nh": 61.2,
+   "black_nh": 1.6,
+   "asian_nh": 5.6,
+   "hisp": 28.9,
+   "med_income": 76992,
+   "ba_plus": 34.8,
+   "acs_year": 2009,
+   "pvi": -2.96,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-46": {
+   "rural": 0.07,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 656052.0,
+   "white_nh": 56.9,
+   "black_nh": 1.4,
+   "asian_nh": 18.3,
+   "hisp": 20.1,
+   "med_income": 74837,
+   "ba_plus": 38.7,
+   "acs_year": 2009,
+   "pvi": -5.11,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-42": {
+   "rural": 0.98,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 667792.0,
+   "white_nh": 46.8,
+   "black_nh": 2.3,
+   "asian_nh": 18.6,
+   "hisp": 29.0,
+   "med_income": 84822,
+   "ba_plus": 37.9,
+   "acs_year": 2009,
+   "pvi": -8.67,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-40": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 675905.0,
+   "white_nh": 38.8,
+   "black_nh": 2.4,
+   "asian_nh": 20.4,
+   "hisp": 35.7,
+   "med_income": 68307,
+   "ba_plus": 30.5,
+   "acs_year": 2009,
+   "pvi": -6.64,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-47": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 639024.0,
+   "white_nh": 12.2,
+   "black_nh": 1.1,
+   "asian_nh": 13.8,
+   "hisp": 71.0,
+   "med_income": 51621,
+   "ba_plus": 12.4,
+   "acs_year": 2009,
+   "pvi": 5.84,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-26": {
+   "rural": 0.94,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 700363.0,
+   "white_nh": 44.5,
+   "black_nh": 4.6,
+   "asian_nh": 17.9,
+   "hisp": 29.9,
+   "med_income": 74182,
+   "ba_plus": 37.0,
+   "acs_year": 2009,
+   "pvi": -2.31,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-27": {
+   "rural": 0.14,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 674330.0,
+   "white_nh": 40.3,
+   "black_nh": 4.2,
+   "asian_nh": 12.4,
+   "hisp": 40.4,
+   "med_income": 57164,
+   "ba_plus": 30.3,
+   "acs_year": 2009,
+   "pvi": 13.11,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-22": {
+   "rural": 14.42,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 763083.0,
+   "white_nh": 57.2,
+   "black_nh": 5.5,
+   "asian_nh": 4.0,
+   "hisp": 29.6,
+   "med_income": 54017,
+   "ba_plus": 19.9,
+   "acs_year": 2009,
+   "pvi": -15.55,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-43": {
+   "rural": 0.47,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 720917.0,
+   "white_nh": 15.5,
+   "black_nh": 9.7,
+   "asian_nh": 3.3,
+   "hisp": 69.5,
+   "med_income": 47109,
+   "ba_plus": 10.8,
+   "acs_year": 2009,
+   "pvi": 14.23,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-44": {
+   "rural": 0.66,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 825098.0,
+   "white_nh": 40.5,
+   "black_nh": 5.8,
+   "asian_nh": 6.3,
+   "hisp": 44.5,
+   "med_income": 68637,
+   "ba_plus": 24.4,
+   "acs_year": 2009,
+   "pvi": -4.48,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-52": {
+   "rural": 5.86,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 673683.0,
+   "white_nh": 65.0,
+   "black_nh": 4.2,
+   "asian_nh": 7.2,
+   "hisp": 18.8,
+   "med_income": 67641,
+   "ba_plus": 32.5,
+   "acs_year": 2009,
+   "pvi": -8.42,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-51": {
+   "rural": 4.73,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 731685.0,
+   "white_nh": 15.3,
+   "black_nh": 7.8,
+   "asian_nh": 11.9,
+   "hisp": 62.5,
+   "med_income": 48398,
+   "ba_plus": 18.3,
+   "acs_year": 2009,
+   "pvi": 9.14,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-53": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 637903.0,
+   "white_nh": 49.4,
+   "black_nh": 6.5,
+   "asian_nh": 9.0,
+   "hisp": 32.1,
+   "med_income": 50197,
+   "ba_plus": 40.3,
+   "acs_year": 2009,
+   "pvi": 14.99,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-49": {
+   "rural": 8.27,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 777041.0,
+   "white_nh": 50.9,
+   "black_nh": 4.2,
+   "asian_nh": 5.7,
+   "hisp": 35.5,
+   "med_income": 59272,
+   "ba_plus": 23.5,
+   "acs_year": 2009,
+   "pvi": -8.93,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-50": {
+   "rural": 1.24,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 752266.0,
+   "white_nh": 60.6,
+   "black_nh": 1.5,
+   "asian_nh": 12.8,
+   "hisp": 22.0,
+   "med_income": 72411,
+   "ba_plus": 45.9,
+   "acs_year": 2009,
+   "pvi": -2.31,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-45": {
+   "rural": 7.25,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 898460.0,
+   "white_nh": 42.8,
+   "black_nh": 5.5,
+   "asian_nh": 4.5,
+   "hisp": 44.0,
+   "med_income": 51197,
+   "ba_plus": 20.1,
+   "acs_year": 2009,
+   "pvi": -2.2,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-41": {
+   "rural": 8.8,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 783014.0,
+   "white_nh": 53.2,
+   "black_nh": 6.2,
+   "asian_nh": 4.9,
+   "hisp": 31.9,
+   "med_income": 47581,
+   "ba_plus": 20.4,
+   "acs_year": 2009,
+   "pvi": -9.44,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-48": {
+   "rural": 0.12,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 724462.0,
+   "white_nh": 61.5,
+   "black_nh": 1.8,
+   "asian_nh": 17.5,
+   "hisp": 16.2,
+   "med_income": 82998,
+   "ba_plus": 51.7,
+   "acs_year": 2009,
+   "pvi": -4.75,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-23": {
+   "rural": 2.87,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 662320.0,
+   "white_nh": 44.3,
+   "black_nh": 1.7,
+   "asian_nh": 5.5,
+   "hisp": 45.8,
+   "med_income": 53801,
+   "ba_plus": 26.8,
+   "acs_year": 2009,
+   "pvi": 12.85,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-20": {
+   "rural": 9.69,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 724346.0,
+   "white_nh": 16.7,
+   "black_nh": 6.6,
+   "asian_nh": 4.9,
+   "hisp": 69.9,
+   "med_income": 34896,
+   "ba_plus": 7.2,
+   "acs_year": 2009,
+   "pvi": 5.88,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-21": {
+   "rural": 14.57,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 766916.0,
+   "white_nh": 39.2,
+   "black_nh": 2.3,
+   "asian_nh": 6.3,
+   "hisp": 49.3,
+   "med_income": 45903,
+   "ba_plus": 17.3,
+   "acs_year": 2009,
+   "pvi": -11.73,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-17": {
+   "rural": 10.3,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 653017.0,
+   "white_nh": 40.9,
+   "black_nh": 2.2,
+   "asian_nh": 4.9,
+   "hisp": 48.7,
+   "med_income": 57798,
+   "ba_plus": 25.6,
+   "acs_year": 2009,
+   "pvi": 19.31,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-19": {
+   "rural": 17.08,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 750818.0,
+   "white_nh": 51.8,
+   "black_nh": 3.7,
+   "asian_nh": 5.6,
+   "hisp": 35.3,
+   "med_income": 52768,
+   "ba_plus": 22.4,
+   "acs_year": 2009,
+   "pvi": -7.66,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-18": {
+   "rural": 8.96,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 713938.0,
+   "white_nh": 31.3,
+   "black_nh": 5.8,
+   "asian_nh": 8.6,
+   "hisp": 51.2,
+   "med_income": 39747,
+   "ba_plus": 10.3,
+   "acs_year": 2009,
+   "pvi": 5.07,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-12": {
+   "rural": 0.33,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 643962.0,
+   "white_nh": 43.7,
+   "black_nh": 1.8,
+   "asian_nh": 32.8,
+   "hisp": 17.1,
+   "med_income": 85794,
+   "ba_plus": 46.5,
+   "acs_year": 2009,
+   "pvi": 22.36,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-14": {
+   "rural": 4.57,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 655785.0,
+   "white_nh": 52.8,
+   "black_nh": 3.0,
+   "asian_nh": 20.4,
+   "hisp": 19.9,
+   "med_income": 93813,
+   "ba_plus": 56.0,
+   "acs_year": 2009,
+   "pvi": 20.76,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-15": {
+   "rural": 1.48,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 681432.0,
+   "white_nh": 38.7,
+   "black_nh": 2.6,
+   "asian_nh": 34.8,
+   "hisp": 19.6,
+   "med_income": 85928,
+   "ba_plus": 45.4,
+   "acs_year": 2009,
+   "pvi": 15.49,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-8": {
+   "rural": 0.0,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 674963.0,
+   "white_nh": 44.6,
+   "black_nh": 6.6,
+   "asian_nh": 29.2,
+   "hisp": 15.7,
+   "med_income": 67625,
+   "ba_plus": 50.9,
+   "acs_year": 2009,
+   "pvi": 34.73,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-13": {
+   "rural": 0.32,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 650307.0,
+   "white_nh": 28.3,
+   "black_nh": 7.2,
+   "asian_nh": 35.4,
+   "hisp": 24.7,
+   "med_income": 75152,
+   "ba_plus": 37.0,
+   "acs_year": 2009,
+   "pvi": 22.11,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-1": {
+   "rural": 21.18,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 695154.0,
+   "white_nh": 64.2,
+   "black_nh": 1.7,
+   "asian_nh": 5.2,
+   "hisp": 23.4,
+   "med_income": 50075,
+   "ba_plus": 28.6,
+   "acs_year": 2009,
+   "pvi": 13.36,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-11": {
+   "rural": 7.17,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 760307.0,
+   "white_nh": 53.7,
+   "black_nh": 4.2,
+   "asian_nh": 13.9,
+   "hisp": 24.4,
+   "med_income": 74524,
+   "ba_plus": 32.3,
+   "acs_year": 2009,
+   "pvi": 0.23,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-10": {
+   "rural": 1.94,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 702897.0,
+   "white_nh": 54.9,
+   "black_nh": 7.4,
+   "asian_nh": 12.7,
+   "hisp": 20.5,
+   "med_income": 78876,
+   "ba_plus": 39.7,
+   "acs_year": 2009,
+   "pvi": 12.19,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-7": {
+   "rural": 1.36,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 672404.0,
+   "white_nh": 37.4,
+   "black_nh": 13.6,
+   "asian_nh": 14.9,
+   "hisp": 28.1,
+   "med_income": 62560,
+   "ba_plus": 25.0,
+   "acs_year": 2009,
+   "pvi": 19.01,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-9": {
+   "rural": 0.12,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 648690.0,
+   "white_nh": 36.1,
+   "black_nh": 20.4,
+   "asian_nh": 16.8,
+   "hisp": 21.8,
+   "med_income": 56706,
+   "ba_plus": 42.6,
+   "acs_year": 2009,
+   "pvi": 36.61,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-3": {
+   "rural": 11.14,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 760404.0,
+   "white_nh": 64.9,
+   "black_nh": 6.5,
+   "asian_nh": 10.1,
+   "hisp": 13.9,
+   "med_income": 63420,
+   "ba_plus": 28.5,
+   "acs_year": 2009,
+   "pvi": -4.6,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-6": {
+   "rural": 9.71,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 649141.0,
+   "white_nh": 70.5,
+   "black_nh": 2.2,
+   "asian_nh": 5.3,
+   "hisp": 19.1,
+   "med_income": 69612,
+   "ba_plus": 41.3,
+   "acs_year": 2009,
+   "pvi": 23.56,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-16": {
+   "rural": 0.51,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 685587.0,
+   "white_nh": 27.2,
+   "black_nh": 2.3,
+   "asian_nh": 28.3,
+   "hisp": 39.6,
+   "med_income": 74257,
+   "ba_plus": 30.9,
+   "acs_year": 2009,
+   "pvi": 16.48,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-2": {
+   "rural": 29.88,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 712863.0,
+   "white_nh": 70.8,
+   "black_nh": 1.3,
+   "asian_nh": 4.1,
+   "hisp": 18.0,
+   "med_income": 43648,
+   "ba_plus": 20.5,
+   "acs_year": 2009,
+   "pvi": -10.2,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA-5": {
+   "rural": 0.05,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 703081.0,
+   "white_nh": 38.9,
+   "black_nh": 12.4,
+   "asian_nh": 16.0,
+   "hisp": 26.7,
+   "med_income": 43487,
+   "ba_plus": 25.2,
+   "acs_year": 2009,
+   "pvi": 16.52,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "HI-1": {
+   "rural": 0.3,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 641489.0,
+   "white_nh": 19.3,
+   "black_nh": 2.7,
+   "asian_nh": 47.8,
+   "hisp": 7.3,
+   "med_income": 66822,
+   "ba_plus": 33.1,
+   "acs_year": 2009,
+   "pvi": 14.37,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "HI-2": {
+   "rural": 15.37,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 653689.0,
+   "white_nh": 30.4,
+   "black_nh": 1.5,
+   "asian_nh": 24.6,
+   "hisp": 10.6,
+   "med_income": 62297,
+   "ba_plus": 25.9,
+   "acs_year": 2009,
+   "pvi": 17.41,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "OR-5": {
+   "rural": 17.55,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 766269.0,
+   "white_nh": 78.7,
+   "black_nh": 0.8,
+   "asian_nh": 2.3,
+   "hisp": 14.3,
+   "med_income": 50547,
+   "ba_plus": 29.2,
+   "acs_year": 2009,
+   "pvi": 1.67,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "OR-3": {
+   "rural": 4.99,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 765513.0,
+   "white_nh": 73.4,
+   "black_nh": 5.0,
+   "asian_nh": 5.9,
+   "hisp": 11.1,
+   "med_income": 50961,
+   "ba_plus": 32.5,
+   "acs_year": 2009,
+   "pvi": 19.19,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "OR-1": {
+   "rural": 11.37,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 803762.0,
+   "white_nh": 75.6,
+   "black_nh": 1.3,
+   "asian_nh": 6.4,
+   "hisp": 13.1,
+   "med_income": 57402,
+   "ba_plus": 37.9,
+   "acs_year": 2009,
+   "pvi": 8.6,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "OR-4": {
+   "rural": 27.77,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 730081.0,
+   "white_nh": 86.9,
+   "black_nh": 0.7,
+   "asian_nh": 2.0,
+   "hisp": 6.0,
+   "med_income": 40126,
+   "ba_plus": 23.2,
+   "acs_year": 2009,
+   "pvi": 1.8,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "WA-9": {
+   "rural": 4.67,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 729925.0,
+   "white_nh": 65.9,
+   "black_nh": 7.8,
+   "asian_nh": 8.8,
+   "hisp": 10.5,
+   "med_income": 55675,
+   "ba_plus": 22.8,
+   "acs_year": 2009,
+   "pvi": 5.63,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "WA-8": {
+   "rural": 9.32,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 792481.0,
+   "white_nh": 72.1,
+   "black_nh": 2.9,
+   "asian_nh": 12.3,
+   "hisp": 7.4,
+   "med_income": 82848,
+   "ba_plus": 42.3,
+   "acs_year": 2009,
+   "pvi": 3.6,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "WA-1": {
+   "rural": 4.08,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 724659.0,
+   "white_nh": 75.0,
+   "black_nh": 2.9,
+   "asian_nh": 10.3,
+   "hisp": 6.8,
+   "med_income": 72029,
+   "ba_plus": 41.1,
+   "acs_year": 2009,
+   "pvi": 9.28,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "WA-2": {
+   "rural": 27.46,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 747814.0,
+   "white_nh": 81.8,
+   "black_nh": 0.9,
+   "asian_nh": 3.7,
+   "hisp": 8.5,
+   "med_income": 55552,
+   "ba_plus": 25.0,
+   "acs_year": 2009,
+   "pvi": 3.41,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "WA-7": {
+   "rural": 1.51,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 711357.0,
+   "white_nh": 67.2,
+   "black_nh": 7.0,
+   "asian_nh": 13.7,
+   "hisp": 6.7,
+   "med_income": 60438,
+   "ba_plus": 52.0,
+   "acs_year": 2009,
+   "pvi": 31.33,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "WA-4": {
+   "rural": 23.95,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 756963.0,
+   "white_nh": 61.9,
+   "black_nh": 0.8,
+   "asian_nh": 1.4,
+   "hisp": 32.2,
+   "med_income": 47448,
+   "ba_plus": 20.3,
+   "acs_year": 2009,
+   "pvi": -12.91,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "WA-6": {
+   "rural": 19.82,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 703802.0,
+   "white_nh": 75.9,
+   "black_nh": 5.6,
+   "asian_nh": 4.2,
+   "hisp": 7.3,
+   "med_income": 48374,
+   "ba_plus": 23.1,
+   "acs_year": 2009,
+   "pvi": 4.69,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "WA-3": {
+   "rural": 25.04,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 779900.0,
+   "white_nh": 84.5,
+   "black_nh": 1.3,
+   "asian_nh": 3.0,
+   "hisp": 6.8,
+   "med_income": 52168,
+   "ba_plus": 23.3,
+   "acs_year": 2009,
+   "pvi": -0.41,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "WA-5": {
+   "rural": 26.61,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 717294.0,
+   "white_nh": 85.4,
+   "black_nh": 1.3,
+   "asian_nh": 2.0,
+   "hisp": 6.1,
+   "med_income": 43321,
+   "ba_plus": 26.0,
+   "acs_year": 2009,
+   "pvi": -6.79,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "AK-0": {
+   "rural": 33.95,
+   "ur_src": "2010 Census, ZCTA estimate",
+   "pop": 698473.0,
+   "white_nh": 65.0,
+   "black_nh": 3.8,
+   "asian_nh": 4.8,
+   "hisp": 6.2,
+   "med_income": 66953,
+   "ba_plus": 26.6,
+   "acs_year": 2009,
+   "pvi": -13.8,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  }
+ },
+ "state": {
+  "AL": {
+   "rural": 40.96,
+   "ur_src": "2010 Census",
+   "pop": 4708708.0,
+   "white_nh": 67.9,
+   "black_nh": 26.0,
+   "asian_nh": 1.1,
+   "hisp": 3.1,
+   "med_income": 40489,
+   "ba_plus": 22.0,
+   "acs_year": 2009,
+   "pvi": -13.85,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "AK": {
+   "rural": 33.98,
+   "ur_src": "2010 Census",
+   "pop": 698473.0,
+   "white_nh": 65.0,
+   "black_nh": 3.8,
+   "asian_nh": 4.8,
+   "hisp": 6.2,
+   "med_income": 66953,
+   "ba_plus": 26.6,
+   "acs_year": 2009,
+   "pvi": -14.06,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "AZ": {
+   "rural": 10.19,
+   "ur_src": "2010 Census",
+   "pop": 6595778.0,
+   "white_nh": 57.1,
+   "black_nh": 3.6,
+   "asian_nh": 2.5,
+   "hisp": 30.8,
+   "med_income": 48745,
+   "ba_plus": 25.6,
+   "acs_year": 2009,
+   "pvi": -7.01,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "AR": {
+   "rural": 43.84,
+   "ur_src": "2010 Census",
+   "pop": 2889450.0,
+   "white_nh": 75.0,
+   "black_nh": 15.4,
+   "asian_nh": 1.1,
+   "hisp": 6.0,
+   "med_income": 37823,
+   "ba_plus": 18.9,
+   "acs_year": 2009,
+   "pvi": -11.32,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CA": {
+   "rural": 5.05,
+   "ur_src": "2010 Census",
+   "pop": 36961664.0,
+   "white_nh": 41.5,
+   "black_nh": 5.8,
+   "asian_nh": 12.3,
+   "hisp": 37.0,
+   "med_income": 58931,
+   "ba_plus": 29.9,
+   "acs_year": 2009,
+   "pvi": 8.01,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CO": {
+   "rural": 13.85,
+   "ur_src": "2010 Census",
+   "pop": 5024748.0,
+   "white_nh": 70.5,
+   "black_nh": 3.7,
+   "asian_nh": 2.6,
+   "hisp": 20.3,
+   "med_income": 55430,
+   "ba_plus": 35.9,
+   "acs_year": 2009,
+   "pvi": 0.37,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "CT": {
+   "rural": 12.01,
+   "ur_src": "2010 Census",
+   "pop": 3518288.0,
+   "white_nh": 72.8,
+   "black_nh": 9.1,
+   "asian_nh": 3.5,
+   "hisp": 12.3,
+   "med_income": 67034,
+   "ba_plus": 35.6,
+   "acs_year": 2009,
+   "pvi": 7.35,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "DE": {
+   "rural": 16.7,
+   "ur_src": "2010 Census",
+   "pop": 885122.0,
+   "white_nh": 67.4,
+   "black_nh": 20.3,
+   "asian_nh": 3.0,
+   "hisp": 7.2,
+   "med_income": 56860,
+   "ba_plus": 28.7,
+   "acs_year": 2009,
+   "pvi": 7.98,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "DC": {
+   "rural": 0.0,
+   "ur_src": "2010 Census",
+   "pop": 599657.0,
+   "white_nh": 33.3,
+   "black_nh": 52.7,
+   "asian_nh": 2.9,
+   "hisp": 8.8,
+   "med_income": 59290,
+   "ba_plus": 48.5,
+   "acs_year": 2009,
+   "pvi": 40.23,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "FL": {
+   "rural": 8.84,
+   "ur_src": "2010 Census",
+   "pop": 18537969.0,
+   "white_nh": 59.3,
+   "black_nh": 15.0,
+   "asian_nh": 2.3,
+   "hisp": 21.5,
+   "med_income": 44736,
+   "ba_plus": 25.3,
+   "acs_year": 2009,
+   "pvi": -2.02,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "GA": {
+   "rural": 24.93,
+   "ur_src": "2010 Census",
+   "pop": 9829211.0,
+   "white_nh": 57.3,
+   "black_nh": 29.6,
+   "asian_nh": 2.9,
+   "hisp": 8.3,
+   "med_income": 47590,
+   "ba_plus": 27.5,
+   "acs_year": 2009,
+   "pvi": -6.52,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "HI": {
+   "rural": 8.07,
+   "ur_src": "2010 Census",
+   "pop": 1295178.0,
+   "white_nh": 24.9,
+   "black_nh": 2.1,
+   "asian_nh": 36.1,
+   "hisp": 9.0,
+   "med_income": 64098,
+   "ba_plus": 29.6,
+   "acs_year": 2009,
+   "pvi": 15.89,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "ID": {
+   "rural": 29.42,
+   "ur_src": "2010 Census",
+   "pop": 1545801.0,
+   "white_nh": 84.4,
+   "black_nh": 0.6,
+   "asian_nh": 1.1,
+   "hisp": 10.7,
+   "med_income": 44926,
+   "ba_plus": 23.9,
+   "acs_year": 2009,
+   "pvi": -17.05,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "IL": {
+   "rural": 11.51,
+   "ur_src": "2010 Census",
+   "pop": 12910409.0,
+   "white_nh": 64.4,
+   "black_nh": 14.4,
+   "asian_nh": 4.3,
+   "hisp": 15.3,
+   "med_income": 53966,
+   "ba_plus": 30.6,
+   "acs_year": 2009,
+   "pvi": 8.4,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "IN": {
+   "rural": 27.56,
+   "ur_src": "2010 Census",
+   "pop": 6423113.0,
+   "white_nh": 82.6,
+   "black_nh": 8.7,
+   "asian_nh": 1.4,
+   "hisp": 5.4,
+   "med_income": 45424,
+   "ba_plus": 22.5,
+   "acs_year": 2009,
+   "pvi": -4.67,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "IA": {
+   "rural": 35.98,
+   "ur_src": "2010 Census",
+   "pop": 3007857.0,
+   "white_nh": 89.9,
+   "black_nh": 2.5,
+   "asian_nh": 1.5,
+   "hisp": 4.3,
+   "med_income": 48044,
+   "ba_plus": 25.1,
+   "acs_year": 2009,
+   "pvi": 1.1,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "KS": {
+   "rural": 25.8,
+   "ur_src": "2010 Census",
+   "pop": 2818747.0,
+   "white_nh": 79.8,
+   "black_nh": 5.5,
+   "asian_nh": 2.2,
+   "hisp": 9.3,
+   "med_income": 47817,
+   "ba_plus": 29.5,
+   "acs_year": 2009,
+   "pvi": -11.38,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "KY": {
+   "rural": 41.62,
+   "ur_src": "2010 Census",
+   "pop": 4314113.0,
+   "white_nh": 87.2,
+   "black_nh": 7.4,
+   "asian_nh": 1.0,
+   "hisp": 2.6,
+   "med_income": 40072,
+   "ba_plus": 21.0,
+   "acs_year": 2009,
+   "pvi": -11.13,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "LA": {
+   "rural": 26.81,
+   "ur_src": "2010 Census",
+   "pop": 4492076.0,
+   "white_nh": 61.3,
+   "black_nh": 31.8,
+   "asian_nh": 1.5,
+   "hisp": 3.6,
+   "med_income": 42492,
+   "ba_plus": 21.4,
+   "acs_year": 2009,
+   "pvi": -11.38,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "ME": {
+   "rural": 61.34,
+   "ur_src": "2010 Census",
+   "pop": 1318301.0,
+   "white_nh": 94.2,
+   "black_nh": 1.3,
+   "asian_nh": 0.9,
+   "hisp": 1.3,
+   "med_income": 45734,
+   "ba_plus": 26.9,
+   "acs_year": 2009,
+   "pvi": 5.31,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MD": {
+   "rural": 12.8,
+   "ur_src": "2010 Census",
+   "pop": 5699478.0,
+   "white_nh": 56.6,
+   "black_nh": 28.7,
+   "asian_nh": 5.1,
+   "hisp": 7.2,
+   "med_income": 69272,
+   "ba_plus": 35.7,
+   "acs_year": 2009,
+   "pvi": 8.88,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MA": {
+   "rural": 8.03,
+   "ur_src": "2010 Census",
+   "pop": 6593587.0,
+   "white_nh": 78.2,
+   "black_nh": 5.8,
+   "asian_nh": 4.9,
+   "hisp": 8.8,
+   "med_income": 64081,
+   "ba_plus": 38.2,
+   "acs_year": 2009,
+   "pvi": 10.63,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MI": {
+   "rural": 25.43,
+   "ur_src": "2010 Census",
+   "pop": 9969727.0,
+   "white_nh": 77.3,
+   "black_nh": 13.8,
+   "asian_nh": 2.4,
+   "hisp": 4.2,
+   "med_income": 45255,
+   "ba_plus": 24.6,
+   "acs_year": 2009,
+   "pvi": 4.25,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MN": {
+   "rural": 26.73,
+   "ur_src": "2010 Census",
+   "pop": 5266215.0,
+   "white_nh": 84.7,
+   "black_nh": 4.4,
+   "asian_nh": 3.7,
+   "hisp": 4.3,
+   "med_income": 55616,
+   "ba_plus": 31.5,
+   "acs_year": 2009,
+   "pvi": 1.91,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MS": {
+   "rural": 50.65,
+   "ur_src": "2010 Census",
+   "pop": 2951996.0,
+   "white_nh": 58.2,
+   "black_nh": 37.0,
+   "asian_nh": 0.8,
+   "hisp": 2.3,
+   "med_income": 36646,
+   "ba_plus": 19.6,
+   "acs_year": 2009,
+   "pvi": -9.92,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MO": {
+   "rural": 29.56,
+   "ur_src": "2010 Census",
+   "pop": 5987580.0,
+   "white_nh": 81.8,
+   "black_nh": 11.1,
+   "asian_nh": 1.4,
+   "hisp": 3.4,
+   "med_income": 45229,
+   "ba_plus": 25.2,
+   "acs_year": 2009,
+   "pvi": -3.41,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "MT": {
+   "rural": 44.11,
+   "ur_src": "2010 Census",
+   "pop": 974989.0,
+   "white_nh": 87.6,
+   "black_nh": 0.3,
+   "asian_nh": 0.5,
+   "hisp": 2.9,
+   "med_income": 42322,
+   "ba_plus": 27.4,
+   "acs_year": 2009,
+   "pvi": -5.96,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NE": {
+   "rural": 26.87,
+   "ur_src": "2010 Census",
+   "pop": 1796622.0,
+   "white_nh": 83.3,
+   "black_nh": 4.2,
+   "asian_nh": 1.7,
+   "hisp": 8.3,
+   "med_income": 47357,
+   "ba_plus": 27.4,
+   "acs_year": 2009,
+   "pvi": -12.37,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NV": {
+   "rural": 5.8,
+   "ur_src": "2010 Census",
+   "pop": 2643085.0,
+   "white_nh": 55.6,
+   "black_nh": 7.4,
+   "asian_nh": 6.5,
+   "hisp": 26.5,
+   "med_income": 53341,
+   "ba_plus": 21.8,
+   "acs_year": 2009,
+   "pvi": 2.01,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NH": {
+   "rural": 39.7,
+   "ur_src": "2010 Census",
+   "pop": 1324575.0,
+   "white_nh": 92.7,
+   "black_nh": 1.2,
+   "asian_nh": 1.9,
+   "hisp": 2.8,
+   "med_income": 60567,
+   "ba_plus": 32.0,
+   "acs_year": 2009,
+   "pvi": 1.37,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NJ": {
+   "rural": 5.32,
+   "ur_src": "2010 Census",
+   "pop": 8707740.0,
+   "white_nh": 60.9,
+   "black_nh": 12.9,
+   "asian_nh": 7.7,
+   "hisp": 16.7,
+   "med_income": 68342,
+   "ba_plus": 34.5,
+   "acs_year": 2009,
+   "pvi": 4.29,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NM": {
+   "rural": 22.57,
+   "ur_src": "2010 Census",
+   "pop": 2009671.0,
+   "white_nh": 41.0,
+   "black_nh": 1.9,
+   "asian_nh": 1.3,
+   "hisp": 45.6,
+   "med_income": 43028,
+   "ba_plus": 25.3,
+   "acs_year": 2009,
+   "pvi": 3.19,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NY": {
+   "rural": 12.13,
+   "ur_src": "2010 Census",
+   "pop": 19541453.0,
+   "white_nh": 59.7,
+   "black_nh": 14.6,
+   "asian_nh": 7.0,
+   "hisp": 16.8,
+   "med_income": 54659,
+   "ba_plus": 32.4,
+   "acs_year": 2009,
+   "pvi": 10.05,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "NC": {
+   "rural": 33.91,
+   "ur_src": "2010 Census",
+   "pop": 9380884.0,
+   "white_nh": 66.7,
+   "black_nh": 20.8,
+   "asian_nh": 2.0,
+   "hisp": 7.6,
+   "med_income": 43674,
+   "ba_plus": 26.5,
+   "acs_year": 2009,
+   "pvi": -3.89,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "ND": {
+   "rural": 40.1,
+   "ur_src": "2010 Census",
+   "pop": 646844.0,
+   "white_nh": 89.1,
+   "black_nh": 1.1,
+   "asian_nh": 0.8,
+   "hisp": 2.0,
+   "med_income": 47827,
+   "ba_plus": 25.8,
+   "acs_year": 2009,
+   "pvi": -9.24,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "OH": {
+   "rural": 22.08,
+   "ur_src": "2010 Census",
+   "pop": 11542645.0,
+   "white_nh": 82.1,
+   "black_nh": 11.7,
+   "asian_nh": 1.5,
+   "hisp": 2.8,
+   "med_income": 45395,
+   "ba_plus": 24.1,
+   "acs_year": 2009,
+   "pvi": -0.97,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "OK": {
+   "rural": 33.76,
+   "ur_src": "2010 Census",
+   "pop": 3687050.0,
+   "white_nh": 70.7,
+   "black_nh": 7.2,
+   "asian_nh": 1.6,
+   "hisp": 8.2,
+   "med_income": 41664,
+   "ba_plus": 22.7,
+   "acs_year": 2009,
+   "pvi": -18.08,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "OR": {
+   "rural": 18.97,
+   "ur_src": "2010 Census",
+   "pop": 3825657.0,
+   "white_nh": 79.4,
+   "black_nh": 1.7,
+   "asian_nh": 3.6,
+   "hisp": 11.2,
+   "med_income": 48457,
+   "ba_plus": 29.2,
+   "acs_year": 2009,
+   "pvi": 4.38,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "PA": {
+   "rural": 21.34,
+   "ur_src": "2010 Census",
+   "pop": 12604767.0,
+   "white_nh": 80.7,
+   "black_nh": 10.2,
+   "asian_nh": 2.5,
+   "hisp": 5.1,
+   "med_income": 49520,
+   "ba_plus": 26.4,
+   "acs_year": 2009,
+   "pvi": 1.78,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "RI": {
+   "rural": 9.27,
+   "ur_src": "2010 Census",
+   "pop": 1053209.0,
+   "white_nh": 77.7,
+   "black_nh": 5.2,
+   "asian_nh": 2.9,
+   "hisp": 11.9,
+   "med_income": 54119,
+   "ba_plus": 30.5,
+   "acs_year": 2009,
+   "pvi": 10.84,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "SC": {
+   "rural": 33.67,
+   "ur_src": "2010 Census",
+   "pop": 4561242.0,
+   "white_nh": 64.8,
+   "black_nh": 27.8,
+   "asian_nh": 1.3,
+   "hisp": 4.5,
+   "med_income": 42442,
+   "ba_plus": 24.3,
+   "acs_year": 2009,
+   "pvi": -8.02,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "SD": {
+   "rural": 43.35,
+   "ur_src": "2010 Census",
+   "pop": 812383.0,
+   "white_nh": 85.1,
+   "black_nh": 1.0,
+   "asian_nh": 1.0,
+   "hisp": 2.5,
+   "med_income": 45043,
+   "ba_plus": 25.1,
+   "acs_year": 2009,
+   "pvi": -8.41,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TN": {
+   "rural": 33.61,
+   "ur_src": "2010 Census",
+   "pop": 6296254.0,
+   "white_nh": 76.5,
+   "black_nh": 16.4,
+   "asian_nh": 1.4,
+   "hisp": 4.1,
+   "med_income": 41725,
+   "ba_plus": 23.0,
+   "acs_year": 2009,
+   "pvi": -9.98,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "TX": {
+   "rural": 15.3,
+   "ur_src": "2010 Census",
+   "pop": 24782302.0,
+   "white_nh": 46.6,
+   "black_nh": 11.2,
+   "asian_nh": 3.5,
+   "hisp": 36.9,
+   "med_income": 48259,
+   "ba_plus": 25.5,
+   "acs_year": 2009,
+   "pvi": -9.79,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "UT": {
+   "rural": 9.42,
+   "ur_src": "2010 Census",
+   "pop": 2784572.0,
+   "white_nh": 81.1,
+   "black_nh": 1.1,
+   "asian_nh": 2.0,
+   "hisp": 12.3,
+   "med_income": 55117,
+   "ba_plus": 28.5,
+   "acs_year": 2009,
+   "pvi": -19.19,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "VT": {
+   "rural": 61.1,
+   "ur_src": "2010 Census",
+   "pop": 621760.0,
+   "white_nh": 94.8,
+   "black_nh": 0.8,
+   "asian_nh": 1.0,
+   "hisp": 1.5,
+   "med_income": 51618,
+   "ba_plus": 33.1,
+   "acs_year": 2009,
+   "pvi": 14.29,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "VA": {
+   "rural": 24.55,
+   "ur_src": "2010 Census",
+   "pop": 7882590.0,
+   "white_nh": 66.1,
+   "black_nh": 19.2,
+   "asian_nh": 4.9,
+   "hisp": 7.2,
+   "med_income": 59330,
+   "ba_plus": 34.0,
+   "acs_year": 2009,
+   "pvi": -1.1,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "WA": {
+   "rural": 15.95,
+   "ur_src": "2010 Census",
+   "pop": 6664195.0,
+   "white_nh": 74.4,
+   "black_nh": 3.3,
+   "asian_nh": 6.6,
+   "hisp": 10.3,
+   "med_income": 56548,
+   "ba_plus": 31.0,
+   "acs_year": 2009,
+   "pvi": 5.02,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "WV": {
+   "rural": 51.28,
+   "ur_src": "2010 Census",
+   "pop": 1819777.0,
+   "white_nh": 93.4,
+   "black_nh": 3.0,
+   "asian_nh": 0.6,
+   "hisp": 1.2,
+   "med_income": 37435,
+   "ba_plus": 17.3,
+   "acs_year": 2009,
+   "pvi": -9.08,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "WI": {
+   "rural": 29.85,
+   "ur_src": "2010 Census",
+   "pop": 5654774.0,
+   "white_nh": 84.5,
+   "black_nh": 5.9,
+   "asian_nh": 2.1,
+   "hisp": 5.3,
+   "med_income": 49993,
+   "ba_plus": 25.7,
+   "acs_year": 2009,
+   "pvi": 2.88,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "WY": {
+   "rural": 35.24,
+   "ur_src": "2010 Census",
+   "pop": 544270.0,
+   "white_nh": 86.1,
+   "black_nh": 0.9,
+   "asian_nh": 0.7,
+   "hisp": 8.1,
+   "med_income": 52664,
+   "ba_plus": 23.8,
+   "acs_year": 2009,
+   "pvi": -19.96,
+   "pvi_years": [
+    2008,
+    2004
+   ]
+  },
+  "PR": {
+   "rural": 6.24,
+   "ur_src": "2010 Census",
+   "pop": 3967288.0,
+   "white_nh": 1.0,
+   "black_nh": 0.1,
+   "asian_nh": 0.1,
+   "hisp": 98.7,
+   "med_income": 18314,
+   "ba_plus": 21.4,
+   "acs_year": 2009
+  }
+ },
+ "notes": [],
+ "transient": false
+}
