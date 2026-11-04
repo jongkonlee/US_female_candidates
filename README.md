@@ -20,10 +20,11 @@
 ## 자료와 출처
 
 - 연방선거관리위원회(FEC), *Federal Elections* 2002–2022 (공식 경선·결선·본선 결과)
+- MIT Election Data and Science Lab, "U.S. House 1976–2024." Harvard Dataverse, doi:10.7910/DVN/IG0UN2 (CC0): 1990–2000년과 2024년 하원 본선(주 공식 결과). 방명록 때문에 손으로 받은 사본을 `data/static/`에 둡니다
 - Pettigrew, Stephen, Karen Owen, and Emily Wanless. "U.S. House Primary Election Results (1956–2010)." Harvard Dataverse, doi:10.7910/DVN/26448 (CC0)
 - Miller, Michael G., and Nicki Camberg. "U.S. House Primary Election Results (2012–2018)." Harvard Dataverse, doi:10.7910/DVN/CXVMSY (CC0)
-- Center for American Women and Politics (CAWP), Eagleton Institute of Politics, Rutgers University. Congressional Women Candidates Database 1990–2024. CAWP 자료는 비상업적 이용을 권장하며 출처를 밝혀야 합니다(상업적 이용은 CAWP의 서면 허락 필요).
-- 위키백과 선거 문서(1990–2000년 하원 본선 득표율, 1990–2000년 상원, 2024년 이후): 비공식 자료, CC BY-SA. FEC 2024년판이 나오면 자동으로 공식 결과로 바뀝니다.
+- Center for American Women and Politics (CAWP), Eagleton Institute of Politics, Rutgers University. Congressional Women Candidates Database 1990–2024, 그리고 "Women Candidates 2026" 후보 목록(2026-11-05에 받은 판). CAWP 자료는 비상업적 이용을 권장하며 출처를 밝혀야 합니다(상업적 이용은 CAWP의 서면 허락 필요).
+- 위키백과 선거 문서(1990–2000년 상원, 2024년 이후 하원 경선과 상원, 2026년 하원 본선, 루이지애나 1990–1996년 일부): 비공식 자료, CC BY-SA. FEC 2024년판이 나오면 자동으로 공식 결과로 바뀝니다.
 - congress-legislators (unitedstates 프로젝트): 의원 성별·임기
 - 지역구 특징(2008–2024): 미국 인구조사국 원본 파일과 Cook 방식으로 계산한 당파 지수([여성정책 트래커](https://github.com/jongkonlee/US_gender_policy)와 같은 값)
 
@@ -35,7 +36,8 @@
 | `pipeline/build_db.py` | 데이터베이스 만들기. 1990–2022년은 `data/static/history_rows.json.gz`에 저장해 두고 매일은 2024년 이후만 새로 읽습니다 |
 | `pipeline/site_data.py` | 페이지용 자료(`docs/data/`) |
 | `pipeline/fec_results.py`, `wiki.py`, `names.py` | FEC 엑셀, 위키백과 결과 표, 이름 맞추기 |
-| `data/static/` | 자주 바뀌지 않는 입력: CAWP 파일, 하원 경선 자료 요약, 지역구 특징, 이름 성별표, 위키 문서 대명사 확인 결과 |
+| `pipeline/medsl.py` | MEDSL 하원 본선 결과 읽기(정당 줄 합치기, 무투표·결선 처리) |
+| `data/static/` | 자주 바뀌지 않는 입력: CAWP 파일과 2026 후보 목록, MEDSL 하원 결과, 하원 경선 자료 요약, 지역구 특징, 이름 성별표, 위키 문서 대명사 확인 결과 |
 | `docs/` | 페이지 |
 
 1990–2022년 자료를 원자료부터 다시 만들려면 Actions의 'update data and site'를 수동으로 실행하면서 `full_rebuild`를 켭니다(30분 안팎).

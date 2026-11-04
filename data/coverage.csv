@@ -1,15 +1,15 @@
 year,chamber,source,rows,races
-1990,H,Pettigrew + Wikipedia overview,1369,435
+1990,H,Pettigrew (primaries) + MEDSL (general),1367,435
 1990,S,Wikipedia,139,35
-1992,H,Pettigrew + Wikipedia overview,2183,435
+1992,H,Pettigrew (primaries) + MEDSL (general),2254,435
 1992,S,Wikipedia,268,36
-1994,H,Pettigrew + Wikipedia overview,1804,435
+1994,H,Pettigrew (primaries) + MEDSL (general),1818,435
 1994,S,Wikipedia,222,35
-1996,H,Pettigrew + Wikipedia overview,2025,435
+1996,H,Pettigrew (primaries) + MEDSL (general),2122,435
 1996,S,Wikipedia,290,35
-1998,H,Pettigrew + Wikipedia overview,1496,435
+1998,H,Pettigrew (primaries) + MEDSL (general),1604,435
 1998,S,Wikipedia,203,34
-2000,H,Pettigrew + Wikipedia overview,1543,435
+2000,H,Pettigrew (primaries) + MEDSL (general),1766,435
 2000,S,Wikipedia,235,34
 2002,H,FEC,1722,435
 2002,S,FEC,214,34
@@ -33,7 +33,7 @@ year,chamber,source,rows,races
 2020,S,FEC,355,35
 2022,H,FEC,2447,435
 2022,S,FEC,453,36
-2024,H,Wikipedia,2011,435
+2024,H,Wikipedia (primaries) + MEDSL (general),2053,435
 2024,S,Wikipedia,290,35
-2026,H,Wikipedia,2289,435
+2026,H,Wikipedia,2284,435
 2026,S,Wikipedia,348,36

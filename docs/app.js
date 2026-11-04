@@ -25,7 +25,7 @@ const RACE_ETH = { W: '백인', B: '흑인', H: '히스패닉', AP: '아시아·
 const QUAL = { 0: '선출직 경험 없음', 1: '선출직 경험 있음', 2: '현직', 3: '전직 하원의원' };
 const GSRC = { 'CAWP': 'CAWP 명단', 'not in CAWP': 'CAWP 명단에 없음(남성으로 봄)', 'first name': '이름', 'Wikipedia page (pronouns)': '위키백과 본인 문서(대명사)',
   'member or earlier candidate': '의원 명부·예전 경선 자료', 'CAWP (earlier race)': '예전 CAWP 기록', 'unknown': '모름', 'Pettigrew and first name (not in CAWP)': 'Pettigrew 외 자료·이름', 'Pettigrew': 'Pettigrew 외 자료' };
-const RSRC = { 'FEC': 'FEC 공식 결과', 'Wikipedia': '위키백과(비공식)', 'Wikipedia overview': '위키백과 전체 표(득표율만)', 'Pettigrew-Owen-Wanless': 'Pettigrew 외(하원 경선)', 'Miller-Camberg': 'Miller·Camberg(하원 경선)', 'CAWP only': 'CAWP(득표 기록 없음)' };
+const RSRC = { 'FEC': 'FEC 공식 결과', 'MEDSL': 'MEDSL(MIT 선거연구소가 모은 주 공식 결과)', 'Wikipedia': '위키백과(비공식)', 'Wikipedia overview': '위키백과 전체 표(득표율만)', 'Pettigrew-Owen-Wanless': 'Pettigrew 외(하원 경선)', 'Miller-Camberg': 'Miller·Camberg(하원 경선)', 'CAWP only': 'CAWP(득표 기록 없음)' };
 const C = { d: 'var(--d)', r: 'var(--r)', w: 'var(--w)', none: 'var(--none)', na: 'var(--na)', dl: '#b9cfe9', rl: '#f0c1bd', open: '#efe2b0', ff: 'var(--ff)', fm: 'var(--fm)', mf: 'var(--mf)', mm: 'var(--mm)' };
 
 const S = { ch: 'H', year: null, tab: 'summary', period: 'year', partyOnly: true, layer: 'gen', target: 'D', unit: 'district', crit: 'lean',
@@ -51,6 +51,17 @@ function periodYears() {
 async function loadPeriod() { const ys = periodYears(); await Promise.all(ys.map(loadYear)); return ys.map(y => S.cache[y]); }
 const periodLabel = () => S.period === 'year' ? `${S.year}년` : S.period === 'all' ? `${S.idx.years[0]}~${S.idx.years[S.idx.years.length - 1]}년` : `${S.period}년대`;
 const isCurrent = y => y === S.idx.years[S.idx.years.length - 1] && y > S.idx.cawp_last_year;
+const listYear = () => (S.idx.cawp_list || {}).year;
+function addListLabels() {
+  const y = listYear();
+  if (!y) return;
+  Object.assign(GSRC, {
+    [`CAWP ${y} list`]: `CAWP ${y} 후보 목록`, [`not in CAWP ${y} list`]: `CAWP ${y} 목록에 없음(남성으로 봄)`,
+    [`Wikipedia page (pronouns); not in CAWP ${y} list`]: `위키백과 본인 문서(대명사), CAWP ${y} 목록에는 없음`,
+    [`CAWP (earlier race); not in CAWP ${y} list`]: `예전 CAWP 기록, ${y} 목록에는 없음`,
+    [`member or earlier candidate; not in CAWP ${y} list`]: `의원 명부·예전 경선 자료, ${y} 목록에는 없음`,
+    [`not in CAWP ${y} list; woman's first name`]: `CAWP ${y} 목록에 없지만 여성 이름이라 모름으로 둠` });
+}
 const chName = ch => ch === 'H' ? '하원' : '상원';
 function raceLabel(r) {
   const sp = r.special ? ' 특별선거' : '';
@@ -141,7 +152,7 @@ async function viewSummary() {
     won: R.filter(r => r.winner_party === party && r.winner_gender === 'F').length, seats: R.filter(r => r.winner_party === party).length });
   const d = by('D'), r = by('R');
   const decided = R.filter(x => x.winner).length;
-  let h = `<p class="muted">${S.year}년 ${chName(S.ch)} 선거 ${R.length}곳${cur ? ` · <span class="prov">개표 중: 당선이 확인된 곳 ${decided}곳(위키백과 기준, 비공식)</span>` : ''}${S.year > S.idx.cawp_last_year ? ' · 성별은 CAWP 명단이 나오기 전이라 다른 방법으로 정함(설명 탭)' : ''}</p>
+  let h = `<p class="muted">${S.year}년 ${chName(S.ch)} 선거 ${R.length}곳${cur ? ` · <span class="prov">개표 중: 당선이 확인된 곳 ${decided}곳(위키백과 기준, 비공식)</span>` : ''}${S.year === listYear() ? ` · 성별: CAWP ${S.year} 후보 목록(${esc(S.idx.cawp_list.downloaded)} 내려받음) 기준(설명 탭)` : (S.year > S.idx.cawp_last_year ? ' · 성별은 CAWP 명단이 나오기 전이라 다른 방법으로 정함(설명 탭)' : '')}</p>
   <div class="cards">
     ${card('여성 후보', `<span class="pD">${d.women}</span> / <span class="pR">${r.women}</span>`, '민주 / 공화 (경선·본선에 이름을 올린 사람)')}
     ${card('여성이 이긴 경선', `<span class="pD">${d.pw}</span> / <span class="pR">${r.pw}</span>`, `민주 ${pct(d.pw, d.pn, 0)} · 공화 ${pct(r.pw, r.pn, 0)}`)}
@@ -517,22 +528,26 @@ function viewAbout() {
   <h2>자료</h2><ul>
   <li>2002–2022년: 연방선거관리위원회(FEC) <i>Federal Elections</i> 공식 결과(경선·결선·본선)</li>
   <li>1990–2000년 하원 경선: Pettigrew, Owen &amp; Wanless, "U.S. House Primary Election Results (1956–2010)", Harvard Dataverse(CC0). 후보 이전 경력 코드는 Miller &amp; Camberg(2012–2018, CC0)도 씀</li>
-  <li>1990–2000년 하원 본선(득표율만)·1990–2000년 상원·2024년 이후 전부: 위키백과 선거 문서(비공식, CC BY-SA). FEC 2024년판이 나오면 자동으로 공식 결과로 바뀝니다</li>
-  <li>여성 후보: Center for American Women and Politics(CAWP), Eagleton Institute of Politics, Rutgers University, Congressional Women Candidates Database ${S.idx.years[0]}–${S.idx.cawp_last_year}</li>
+  <li>1990–2000년과 2024년 하원 본선: MIT Election Data and Science Lab(MEDSL), "U.S. House 1976–2024", Harvard Dataverse, doi:10.7910/DVN/IG0UN2(CC0). 주 정부 공식 결과를 모은 자료로, 득표수가 있습니다. 2024년은 FEC 2024년판이 나오면 FEC로 바뀝니다</li>
+  <li>1990–2000년 상원, 2024년 이후 하원 경선과 상원, 2026년 하원 본선: 위키백과 선거 문서(비공식, CC BY-SA)</li>
+  <li>여성 후보: Center for American Women and Politics(CAWP), Eagleton Institute of Politics, Rutgers University, Congressional Women Candidates Database ${S.idx.years[0]}–${S.idx.cawp_last_year}${listYear() ? ` · CAWP "Women Candidates ${listYear()}" 후보 목록(Congress and Statewide, ${esc(S.idx.cawp_list.downloaded)}에 내려받은 판)` : ''}</li>
   <li>의원 성별·임기: congress-legislators(unitedstates 프로젝트) · 지역구 특징(2008–2024): 인구조사국 원본 파일과 Cook 방식으로 계산한 당파 지수(여성정책 트래커와 같은 값)</li></ul>
   <h2>성별을 정한 방법</h2><ul>
   <li>${S.idx.cawp_last_year}년까지: CAWP 명단에 있으면 여성, 없는 민주·공화 후보는 남성(CAWP는 주요 정당 경선에 이름을 올린 여성을 모두 실음)</li>
-  <li>그 뒤: CAWP 명단이 나오기 전이라 ① 위키백과 본인 문서의 대명사 ② 예전 CAWP 기록 ③ 의원 명부·예전 경선 자료 ④ 이름(미국 출생 기록에서 95% 이상 한쪽 성별) 순서로 정하고, 모르면 빈칸</li></ul>
+  ${listYear() ? `<li>${listYear()}년: 같은 방식으로 CAWP ${listYear()} 후보 목록을 씁니다. 다만 이 목록은 경선 기간 내내 고쳐지는 목록이라 빠진 사람이 있을 수 있어서, 목록에 없는 민주·공화 후보라도 위키백과 본인 문서가 '그녀(she)'로 쓰거나 예전 CAWP·의원 명부에 여성으로 나오면 여성으로, 이름만 여성 이름이면 '모름'으로 둡니다. 민주·공화 밖 후보는 아래 방법으로 정합니다</li>` : ''}
+  <li>CAWP 자료가 없는 해와 민주·공화 밖 후보: ① 위키백과 본인 문서의 대명사 ② 예전 CAWP 기록 ③ 의원 명부·예전 경선 자료 ④ 이름(미국 출생 기록에서 95% 이상 한쪽 성별) 순서로 정하고, 모르면 빈칸</li></ul>
   <h2>규칙</h2><ul>
   <li>경선 승리: 결선이 있으면 결선 승자, 없으면 최다 득표자. 단독 후보·전당대회·경선 기록이 없으면 본선에 나간 그 당 후보</li>
   <li>'정당 경선만'을 켜면 캘리포니아·워싱턴(상위 2인), 알래스카(상위 4인, 2022~), 루이지애나식(정당 구분 없는 1차 투표)을 뺍니다</li>
   <li>하원 특별선거(잔여 임기)는 뺐고, 상원은 본선 날 치른 특별선거를 따로 셉니다</li>
   <li>당파 성향: 2008년부터는 Cook 방식 당파 지수, 그 전 하원은 직전 대선 민주 양당 득표율에서 그해 선거구 중앙값을 뺀 값</li></ul>
-  <h2>점검</h2><ul><li>여성 당선자 수는 1990–2024년 하원·상원 모두 CAWP 집계와 같습니다</li>
+  <h2>점검</h2><ul><li>여성 당선자 수는 1990–2024년 하원·상원 모두 CAWP 집계와 같습니다(CAWP 파일의 정당 표기가 다른 2명 제외)</li>
+  <li>2024년 하원 본선 승자는 위키백과와 MEDSL이 435곳 모두 같았습니다. 1990–2000년은 MEDSL로 바꾸면서 위키백과 전체 표의 잘못 2곳(1992년 뉴욕 17구, 1996년 테네시 7구 당선자)을 바로잡았습니다</li>
   <li>위키백과 읽기 점검: 2022년 하원을 위키백과로 읽어 FEC와 대조해 승자 99%가 일치했습니다(나머지는 FEC 철자 오류). 뉴욕 경선 득표수는 위키백과가 1~10% 적었습니다</li></ul>
   <h2>주의</h2><ul>
   <li>올해 본선은 개표 중입니다. 위키백과에 득표와 함께 당선이 표시된 곳만 당선으로 셉니다. 선거 직후 위키백과에는 빈칸이나 장난 편집이 있을 수 있습니다</li>
-  <li>1990–2000년 하원 본선은 득표율만 있습니다. 남성 후보의 인종과 후보 나이는 없습니다. 지역구 특징(농촌 비율·인구 구성)은 2008–2024년만 있습니다</li>
+  <li>루이지애나 1990–1996년은 10월 1차 투표에서 과반이 나오면 11월 선거가 없었습니다. 이런 곳은 10월 1차 투표 득표율(위키백과 전체 표)을 본선으로, 11월까지 간 곳은 11월 결과(MEDSL)를 본선으로 넣었습니다. 1996년 텍사스 13개 선거구는 선거구를 다시 그려 11월 정당 구분 없는 특별선거와 12월 결선으로 치렀습니다</li>
+  <li>남성 후보의 인종과 후보 나이는 없습니다. 지역구 특징(농촌 비율·인구 구성)은 2008–2024년만 있습니다</li>
   <li>비교는 단순 비교라 원인으로 읽으면 안 됩니다</li></ul>
   <p class="muted">자료별 출처: ${esc(cov)}</p>
   <p class="muted">마지막 갱신: ${esc(gen)} · 코드와 자료: <a href="https://github.com/jongkonlee/US_female_candidates">github.com/jongkonlee/US_female_candidates</a></p></div>`;
@@ -558,6 +573,7 @@ function bindMain() {
 async function init() {
   try { S.idx = await getJSON('data/index.json'); }
   catch (e) { $('#main').innerHTML = '<p>자료를 아직 만들고 있습니다. 잠시 뒤 다시 열어 주세요.</p>'; return; }
+  addListLabels();
   S.year = S.idx.years[S.idx.years.length - 1];
   $('#yearSel').innerHTML = S.idx.years.slice().reverse().map(y => `<option value="${y}">${y}년${isCurrent(y) ? ' (개표 중)' : ''}</option>`).join('');
   readHash();
@@ -569,7 +585,7 @@ async function init() {
   $('#panelClose').addEventListener('click', closePanel);
   $('#panel').addEventListener('click', e => { if (e.target.id === 'panel') closePanel(); });
   document.addEventListener('keydown', e => { if (e.key === 'Escape' && !$('#panel').hidden) closePanel(); });
-  $('#foot').innerHTML = `마지막 갱신 ${esc((S.idx.generated || '').replace('T', ' ').replace('Z', ' UTC'))} · 자료: FEC, CAWP(Rutgers), 위키백과, Pettigrew 외(Harvard Dataverse), congress-legislators · <a href="https://github.com/jongkonlee/US_female_candidates">GitHub</a>`;
+  $('#foot').innerHTML = `마지막 갱신 ${esc((S.idx.generated || '').replace('T', ' ').replace('Z', ' UTC'))} · 자료: FEC, MEDSL(MIT), CAWP(Rutgers), 위키백과, Pettigrew 외(Harvard Dataverse), congress-legislators · <a href="https://github.com/jongkonlee/US_female_candidates">GitHub</a>`;
   await render();
   if (S.open) openPanel(S.open);
 }

@@ -287,6 +287,12 @@ def ssa_names():
     fetch("ssa/names.zip", "https://www.ssa.gov/oact/babynames/names.zip")
 
 
+def subpages(p):
+    """titles of the parts a state page is split into: {{main|<page title> (districts 1–26)}}"""
+    base = re.escape(p["title"])
+    return sorted({m.group(1).strip() for m in re.finditer(r"\{\{\s*main\s*\|\s*(" + base + r"\s*\([^)|}]+\))", p["wikitext"], re.I)})
+
+
 def wikipedia(years):
     log("Wikipedia")
     for y in years:
@@ -304,9 +310,18 @@ def wikipedia(years):
             if not p:
                 MANIFEST.append(dict(path=f"wiki/{y}/house/{slug(st)}.json", url="", bytes=0, error="page not found"))
                 continue
-            for m in DIST_LINK.finditer(p["wikitext"]):
-                if int(m.group(2)) == y:
-                    districts.add(m.group(1).strip())
+            texts = [p["wikitext"]]
+            # a state page split into parts ({{main|... in California (districts 1–26)}}): the parts hold the results
+            for i, sub in enumerate(subpages(p)):
+                q = wiki_page_checked(sub, st)
+                if q:
+                    save(f"wiki/{y}/house/{slug(st)}__part{i + 1}.json", json.dumps(q, ensure_ascii=False).encode("utf-8"),
+                         f"https://en.wikipedia.org/wiki/{urllib.parse.quote(q['title'].replace(' ', '_'))}")
+                    texts.append(q["wikitext"])
+            for txt in texts:
+                for m in DIST_LINK.finditer(txt):
+                    if int(m.group(2)) == y:
+                        districts.add(m.group(1).strip())
         log(f"  {y}: {len(districts)} district pages")
         for t in sorted(districts):
             wiki_save(f"wiki/{y}/district/{slug(t)}.json", t)

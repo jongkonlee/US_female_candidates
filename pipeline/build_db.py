@@ -11,14 +11,16 @@ Output (data/):
 
 Sources by year (official first, Wikipedia only where nothing official is compiled yet)
   House primaries  1990-2000 Pettigrew-Owen-Wanless (CC0) | 2002-2022 FEC | 2024-2026 Wikipedia
-  House generals   1990-2000 Wikipedia overview table (% only) | 2002-2022 FEC | 2024-2026 Wikipedia
-  Senate           1990-2000 Wikipedia race pages (+ MEDSL general votes) | 1996 and 2002-2022 FEC | 2024-2026 Wikipedia
-  Gender           CAWP women candidates 1990-2024; 2026: earlier CAWP/Pettigrew/members, then first names
+  House generals   1990-2000 MEDSL (state returns, CC0) | 2002-2022 FEC | 2024 MEDSL until FEC publishes | 2026 Wikipedia
+  Senate           1990-2000 Wikipedia race pages | 1996 and 2002-2022 FEC | 2024-2026 Wikipedia
+  Gender           CAWP women candidates database 1990-2024 and the CAWP 2026 candidate list; after that: earlier
+                   CAWP/Pettigrew/members, then first names
 """
 import argparse
 import collections
 import datetime as dt
 import gzip
+import io
 import json
 import os
 import re
@@ -31,6 +33,7 @@ import yaml
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import fec_results as F  # noqa: E402
+import medsl as M  # noqa: E402
 import names as N  # noqa: E402
 import wiki as W  # noqa: E402
 
@@ -483,16 +486,192 @@ def merge_general_into_primary(prim, gen):
     return out
 
 
-# ------------------------------------------------------------------ Senate general votes (MEDSL) for 1990-2024
-def medsl_senate():
-    p = os.path.join(RAW, "dataverse/medsl_senate/1976-2024-senate-state.csv")
-    d = pd.read_csv(p, low_memory=False)
-    return d
+# ------------------------------------------------------------------ House general results (MEDSL)
+def medsl_years():
+    """years whose House general results come from MEDSL: 1990-2000, and later years until the FEC workbook exists"""
+    have = set(M.years())
+    return [y for y in YEARS if y in have and (y <= 2000 or (y > LAST_HISTORY and not F.fec_file(y)))]
+
+
+def medsl_match(p, cand, used, people, sysm):
+    """index of the row in cand that is MEDSL person p, or None"""
+    names_ = [p["name"]] + ([p["alt"]] if p["alt"] else [])
+    m = re.match(r"^[A-Za-z]\.?\s+(\S.*)$", p["name"])  # 'W. GREGORY STEUBE' is also 'GREGORY STEUBE'
+    if m and len(m.group(1).split()) >= 2:
+        names_.append(m.group(1))
+    sc = []
+    for k, c in enumerate(cand):
+        if k in used:
+            continue
+        s = max(N.score(n, c["name"], strict=True) for n in names_)
+        if s < 2.5 and any(N.same_person(n, c["name"]) for n in names_):
+            s = 2.5
+        if s < 2.5:
+            continue
+        if c["party"] == p["party"]:
+            s += 0.5
+        elif "O" not in (c["party"], p["party"]):
+            s -= 1
+        if c.get("src_p"):  # the same person can also sit in a general-only row from Wikipedia: prefer the primary row
+            s += 0.75
+        sc.append((s, k))
+    if sc:
+        sc.sort(reverse=True)
+        if len(sc) == 1 or sc[0][0] > sc[1][0]:
+            return sc[0][1]
+    if p["party"] in ("D", "R"):
+        w = [k for k, c in enumerate(cand) if k not in used and c.get("p_party") == p["party"] and c.get("p_won") == 1 and c.get("src_p")]
+        same = [q for q in people if q["party"] == p["party"]]
+        if len(w) == 1:
+            s = max(N.score(n, cand[w[0]]["name"]) for n in names_)
+            if s >= 2 or (len(same) == 1 and sysm in ("party", "blanket")):
+                if s < 2:
+                    c = cand[w[0]]
+                    c["note"] = (str(c["note"] or "") + f" | general listed as {p['nice']}").strip(" |")
+                return w[0]
+    return None
+
+
+def apply_medsl(rows, year):
+    """House general results of one year from MEDSL. Replaces the Wikipedia overview shares (1990-2000) and the
+    Wikipedia general results (2024). Primary rows stay; each MEDSL candidate is matched to a row of the same race by
+    name (else the party's only primary winner); unmatched candidates become general-only rows; general-only rows
+    from Wikipedia that MEDSL does not list are dropped (other spellings, or not on the November ballot)."""
+    races_ = M.races(year)
+    if not races_:
+        return 0
+    by = collections.defaultdict(list)
+    for r in rows:
+        if r["year"] == year and r["chamber"] == "H" and not r.get("special"):
+            by[(r["state"], int(r["district"]))].append(r)
+    drop, n_races, skipped, added, kept_la = set(), 0, [], 0, []
+    for (st, d), info in sorted(races_.items()):
+        if st not in STATES50:
+            continue
+        if info["skip"]:
+            skipped.append(f"{st}-{d}")
+            continue
+        cand = by.get((st, d), [])
+        sysm = system(st, year)
+        had_g = [ok(c["g_votes"]) or ok(c["g_pct"]) or ok(c.get("g_won")) for c in cand]
+        if info["placeholder"] and st == "LA" and year <= 1996:
+            # decided in the October open primary: MEDSL has only the winner; the overview table has the October shares
+            prev = [c for c, h in zip(cand, had_g) if h and ok(c["g_pct"])]
+            prev_w = [c for c in prev if c.get("g_won") == 1]
+            mw = [p for p in info["people"] if p["won"]]
+            if len(prev) >= 2 and len(prev_w) == 1 and mw and N.score(mw[0]["name"], prev_w[0]["name"]) >= 2:
+                for c in prev:
+                    c["note"] = (str(c["note"] or "") + " | general = October open primary shares (Wikipedia overview);"
+                                 " no November vote").strip(" |")
+                kept_la.append(f"{st}-{d}")
+                continue
+        wiki_votes = [c["g_votes"] if ok(c["g_votes"]) else None for c in cand]
+        for c in cand:
+            c.update(g_votes=None, g_pct=None, g_won=None, gr_votes=None, gr_pct=None, src_g="")
+        people = [dict(p) for p in sorted(info["people"], key=lambda p: -((p["votes"] or 0) + (p["r_votes"] or 0)))]
+        used = {}
+        for p in people:
+            i = medsl_match(p, cand, used, people, sysm)
+            if i is None:
+                x = blank(year=year, chamber="H", state=st, district=d, name=p["nice"], party=p["party"])
+                x["race_id"] = race_id(year, "H", st, d)
+                rows.append(x)
+                cand.append(x)
+                had_g.append(False)
+                wiki_votes.append(None)
+                i = len(cand) - 1
+                added += 1
+            used[i] = p
+        for label, v in info["party_lines"]:
+            # a fusion line under the party's name: give it to the candidate whose Wikipedia total is higher by exactly that
+            hit = [p for i, p in used.items() if wiki_votes[i] is not None and p["votes"] is not None
+                   and abs(wiki_votes[i] - p["votes"] - v) <= max(2, 0.001 * v)]
+            if len(hit) == 1:
+                hit[0]["votes"] += v
+                hit[0]["pct"] = 100.0 * hit[0]["votes"] / info["total"] if info["total"] > 1 else None
+                hit[0].setdefault("fused", []).append(label)
+        for i, p in used.items():
+            x = cand[i]
+            notes = []
+            if info["placeholder"]:
+                x.update(g_votes=None, g_pct=100.0)
+                notes.append("unopposed in general (no vote count printed)")
+            else:
+                x.update(g_votes=p["votes"], g_pct=p["pct"])
+            x.update(gr_votes=p["r_votes"], gr_pct=p["r_pct"], g_won=p["won"], src_g="MEDSL")
+            if x["party"] == "O" and p["party"] in ("D", "R"):
+                x["party"] = p["party"]
+            elif x["party"] in ("D", "R") and p["party"] == "O" and p["labels"] and not p["writein"]:
+                # in that party's primary, but on the November ballot under another label (Sanders, Vermont)
+                notes.append(f"general ballot label: {'/'.join(sorted(p['labels']))} (primary: {x['party']})")
+                x["party"] = "O"
+            if p["writein"]:
+                notes.append("write-in")
+            if p.get("fused"):
+                notes.append("includes the " + ", ".join(p["fused"]) + " line")
+            if info["kind"] == "tx1996":
+                notes.append("Nov. 1996 open special election in a redrawn district (+ Dec. runoff)")
+            if st == "AK" and year >= 2022:
+                notes.append("first-round votes (ranked-choice count decided the winner)")
+            if info["rcv_final"]:
+                notes.append("final ranked-choice round (exhausted ballots left out)")
+            if notes:
+                x["note"] = (str(x["note"] or "") + " | " + "; ".join(notes)).strip(" |")
+        for k, c in enumerate(cand):
+            if k in used or not had_g[k] or c.get("src_p"):
+                continue
+            for j in used:  # keep what the dropped row knew about the same person
+                if N.score(c["name"], cand[j]["name"]) >= 2:
+                    cand[j]["incumbent"] = max(cand[j]["incumbent"] or 0, c["incumbent"] or 0)
+                    cand[j]["link"] = cand[j].get("link") or c.get("link", "")
+            drop.add(id(c))
+        n_races += 1
+    rows[:] = [r for r in rows if id(r) not in drop]
+    log(f"  MEDSL {year}: {n_races} House races, {added} candidates added, {len(drop)} Wikipedia general-only rows dropped,"
+        f" Wikipedia kept for {len(skipped)}{(' (' + ', '.join(skipped) + ')') if skipped else ''}"
+        f"{(', October open-primary shares kept for ' + ', '.join(kept_la)) if kept_la else ''}")
+    return n_races
 
 
 # ------------------------------------------------------------------ CAWP and gender
+# CAWP's page "Women Candidates 2026" > Candidate List > Congress and Statewide > "Export Table Data", saved by hand
+# on 2026-11-05 (the page refuses automated downloads). In that export the column "Primary Date" holds the primary
+# result (W, L, WD; a date when the primary is still to come) and "General Election Result" the general result
+# (W, L, TCTC = too close to call, RO = runoff).
+CAWP_LIST = os.path.join(STATIC, "cawp_2026_candidate_list.csv")
+CAWP_LIST_YEAR, CAWP_LIST_DATE = 2026, "2026-11-05"
+CAWP_LIST_SRC = f"CAWP {CAWP_LIST_YEAR} list"
+
+
+def load_cawp_list():
+    if not os.path.exists(CAWP_LIST):
+        return None
+    raw = open(CAWP_LIST, "rb").read()
+    try:
+        txt = raw.decode("utf-8-sig")
+    except UnicodeDecodeError:
+        txt = raw.decode("latin-1")
+    d = pd.read_csv(io.StringIO(txt), dtype=str, keep_default_na=False)
+    d.columns = [c.strip() for c in d.columns]
+    d = d.apply(lambda s: s.str.strip())
+    d = d[d.Office.isin(["U.S. Rep.", "U.S. Sen."])]
+    none = lambda s: s.where(s != "", None)  # noqa: E731
+    return pd.DataFrame(dict(
+        State=d.State, Office=d.Office.map({"U.S. Rep.": "U.S. Representative", "U.S. Sen.": "U.S. Senator"}),
+        District=none(d["Dist."]), FName=d["First Name"], MName=none(d["Middle Name"]), LName=d["Last Name"], Party=d.Party,
+        PrimarySeat=none(d["General Seat Status"]), GeneralSeat=none(d["General Seat Status"]),
+        PrimaryWin=d["Primary Date"].where(d["Primary Date"].isin(["W", "L", "WD"]), None),
+        GeneralWin=d["General Election Result"].where(~d["General Election Result"].isin(["", "NA"]), None),
+        Race=None, Year=CAWP_LIST_YEAR))
+
+
 def load_cawp():
     c = pd.read_excel(os.path.join(STATIC, "cawp_master.xlsx"))
+    c["cawp_src"] = "CAWP"
+    lst = load_cawp_list()
+    if lst is not None and int(c.Year.max()) < CAWP_LIST_YEAR:  # the database itself covers the year once CAWP adds it
+        lst["cawp_src"] = CAWP_LIST_SRC
+        c = pd.concat([c, lst], ignore_index=True)
     c["chamber"] = c.Office.map(lambda s: "S" if "Senator" in s else "H")
     c["district"] = c.District.map(lambda v: 0 if (pd.isna(v) or str(v).strip().upper() == "AL") else int(float(v)))
     c["district"] = [0 if (ch == "H" and at_large(st, int(y))) else d for ch, st, y, d in zip(c.chamber, c.State, c.Year, c.district)]
@@ -500,6 +679,10 @@ def load_cawp():
     c["name"] = (c.FName.fillna("") + " " + c.MName.fillna("") + " " + c.LName.fillna("")).str.replace(r"\s+", " ", regex=True).str.strip()
     c["name_short"] = (c.FName.fillna("") + " " + c.LName.fillna("")).str.strip()
     return c
+
+
+def is_cawp(x):
+    return x.get("gender_src") in ("CAWP", CAWP_LIST_SRC)
 
 
 def apply_cawp(rows, cawp):
@@ -510,6 +693,7 @@ def apply_cawp(rows, cawp):
     unmatched = []
     for c in cawp.to_dict("records"):
         key = (int(c["Year"]), c["chamber"], c["State"], c["district"])
+        csrc = c.get("cawp_src") or "CAWP"
         cand = idx.get(key, [])
         i, best_s = None, -1
         for k, x in enumerate(cand):
@@ -524,17 +708,17 @@ def apply_cawp(rows, cawp):
                     break
         if i is None:  # wrong district in the CAWP file: same person elsewhere in the state that year
             pool = [x for kk, xs in idx.items() if kk[0] == key[0] and kk[1] == key[1] and kk[2] == key[2] and kk != key for x in xs]
-            hits = [x for x in pool if N.same_person(c["name"], x["name"]) and x["gender_src"] != "CAWP"]
+            hits = [x for x in pool if N.same_person(c["name"], x["name"]) and not is_cawp(x)]
             if len(hits) == 1:
                 cand = cand + hits
                 i = len(cand) - 1
         if i is None:  # name changed or spelled differently: CAWP says she won, and only one candidate of her party did
             if c["PrimaryWin"] == "W":
-                hits = [k for k, x in enumerate(cand) if x["party"] == c["Party"] and x.get("p_won") == 1 and x["gender_src"] != "CAWP"]
+                hits = [k for k, x in enumerate(cand) if x["party"] == c["Party"] and x.get("p_won") == 1 and not is_cawp(x)]
                 if len(hits) == 1:
                     i = hits[0]
             if i is None and c["GeneralWin"] == "W":
-                hits = [k for k, x in enumerate(cand) if x.get("g_won") == 1 and x["gender_src"] != "CAWP"]
+                hits = [k for k, x in enumerate(cand) if x.get("g_won") == 1 and not is_cawp(x)]
                 if len(hits) == 1:
                     i = hits[0]
             if i is not None:
@@ -544,23 +728,28 @@ def apply_cawp(rows, cawp):
             hits = [k for k, x in enumerate(cand) if N.split_name(x["name"])[1] == ln and x["party"] == c["Party"]]
             if len(hits) == 1:
                 i = hits[0]
+        if i is None:  # both names spelled a little differently, same party, only one such candidate in the race
+            hits = [k for k, x in enumerate(cand) if x["party"] == c["Party"] and not is_cawp(x) and N.fuzzy_same(c["name"], x["name"])]
+            if len(hits) == 1:
+                i = hits[0]
+                cand[i]["note"] = (str(cand[i]["note"] or "") + f" | CAWP name: {c['name']}").strip(" |")
         if i is None:
             unmatched.append(dict(year=key[0], chamber=key[1], state=key[2], district=key[3], cawp_name=c["name"], party=c["Party"],
-                                  primary=c["PrimaryWin"], general=c["GeneralWin"]))
+                                  primary=c["PrimaryWin"], general=c["GeneralWin"], source=csrc))
             if c["PrimaryWin"] in ("L", "WD") and c["Party"] in ("D", "R"):  # a woman who lost the primary but is missing from the vote source
                 sp = 0
                 rid = race_id(key[0], key[1], key[2], key[3])
                 if rid in {x["race_id"] for x in rows if x["year"] == key[0] and x["state"] == key[2]}:
                     new_row = blank(year=key[0], chamber=key[1], state=key[2], district=key[3], special=sp, name=c["name"],
                                     party=c["Party"], p_party=c["Party"], p_status="lost (CAWP; no vote record)", p_won=0,
-                                    gender="F", gender_src="CAWP", race_eth=str(c["Race"]) if ok(c["Race"]) and str(c["Race"]) != "unavailable" else "",
-                                    src_p="CAWP only")
+                                    gender="F", gender_src=csrc, race_eth=str(c["Race"]) if ok(c["Race"]) and str(c["Race"]) != "unavailable" else "",
+                                    src_p="CAWP only", cawp_primary=c["PrimaryWin"], cawp_general=c["GeneralWin"], cawp_seat=c["PrimarySeat"])
                     new_row["race_id"] = rid
                     rows.append(new_row)
                     idx[key].append(new_row)
             continue
         x = cand[i]
-        x["gender"], x["gender_src"] = "F", "CAWP"
+        x["gender"], x["gender_src"] = "F", csrc
         if x["party"] == "O" and c["Party"] in ("D", "R"):
             x["party"] = c["Party"]
             x["note"] = (str(x["note"] or "") + " | party from CAWP").strip(" |")
@@ -569,14 +758,26 @@ def apply_cawp(rows, cawp):
         x["cawp_primary"], x["cawp_general"], x["cawp_seat"] = c["PrimaryWin"], c["GeneralWin"], c["PrimarySeat"]
     fn = first_name_table()
     cawp_max = int(cawp.Year.max())
+    list_years = set(cawp[cawp.cawp_src != "CAWP"].Year.astype(int))
+    women_in = collections.defaultdict(list)
     for r in rows:
-        if r["year"] <= cawp_max and r["gender_src"] != "CAWP":
+        if is_cawp(r):
+            women_in[r["race_id"]].append(r)
+    for r in rows:
+        if r["year"] <= cawp_max and not is_cawp(r) and r["party"] in ("D", "R"):
+            # the same woman listed twice in a race (e.g. write-in votes in the other party's primary, Vermont)
+            twin = [w for w in women_in.get(r["race_id"], []) if w is not r and N.same_person(w["name"], r["name"])]
+            if twin:
+                r["gender"], r["gender_src"] = "F", twin[0]["gender_src"]
+                r["note"] = (str(r["note"] or "") + " | same woman as another row of this race").strip(" |")
+                continue
+        if r["year"] <= cawp_max and not is_cawp(r):
             if r["party"] in ("D", "R"):
                 pf = fn.get(N.split_name(r["name"])[0])
                 if r["gender"] == "F" and r["gender_src"] == "Pettigrew" and pf is not None and pf >= 0.95:
                     r["gender_src"] = "Pettigrew and first name (not in CAWP)"
                 else:
-                    r["gender"], r["gender_src"] = "M", "not in CAWP"
+                    r["gender"], r["gender_src"] = "M", ("not in " + CAWP_LIST_SRC) if r["year"] in list_years else "not in CAWP"
     return pd.DataFrame(unmatched)
 
 
@@ -650,13 +851,16 @@ def pronoun_gender():
 
 
 def gender_after_cawp(rows, cawp, legis_people, pett):
-    """Years after the last CAWP file: own Wikipedia page (pronouns) -> F/M; same person in CAWP (any year, same state)
-    -> F; member of Congress or earlier Pettigrew/Miller-Camberg candidate -> their gender; first name (>=95% one sex);
-    otherwise unknown."""
-    cawp_max = int(cawp.Year.max())
+    """Years after the last CAWP database year. With a CAWP candidate list for the year (2026), the list decides for
+    Democrats and Republicans (apply_cawp); this only rechecks those it left out: a clear 'she' on their own page or
+    an earlier CAWP record -> F, a woman's first name alone -> unknown, otherwise they stay men.
+    Without a list, and for other parties: own Wikipedia page (pronouns) -> F/M; same person in an earlier CAWP year
+    (same state) -> F; member of Congress or earlier Pettigrew/Miller-Camberg candidate -> their gender; first name
+    (>=95% one sex); otherwise unknown."""
+    cawp_max = int(cawp[cawp.cawp_src == "CAWP"].Year.max())
     women = collections.defaultdict(list)
     for c in cawp.to_dict("records"):
-        women[c["State"]].append(c["name"])
+        women[c["State"]].append((int(c["Year"]), c["name"]))
     known = collections.defaultdict(list)
     for p in legis_people:
         g = p.get("bio", {}).get("gender")
@@ -666,6 +870,8 @@ def gender_after_cawp(rows, cawp, legis_people, pett):
             known[t.get("state")].append((full, g))
             if nm.get("nickname"):
                 known[t.get("state")].append((f"{nm['nickname']} {nm.get('last', '')}", g))
+            if nm.get("middle") and len(nm.get("first", "").strip(".")) <= 1:  # 'J. Luis Correa' goes by his middle name
+                known[t.get("state")].append((f"{nm['middle']} {nm.get('last', '')}", g))
     for _, r in pett.iterrows():
         known[r["st"]].append((pett_name(r["candidate"]), "F" if r["gender"] == 1 else "M"))
     fn = first_name_table()
@@ -674,17 +880,47 @@ def gender_after_cawp(rows, cawp, legis_people, pett):
                    and r["party"] in ("D", "R")})
     if want and fetch_people(want):
         pron = pronoun_gender()
-    for r in rows:
-        if r["year"] <= cawp_max or r["gender"]:
-            continue
+    def own_page(r):
         if r.get("link") and r["link"] in pron:
             g, head = pron[r["link"]]
             last = re.sub(r"[^a-z]", "", N.split_name(r["name"])[1])
             if last and last in re.sub(r"[^a-z]", "", N.fold(head)):  # the link really is this person's page
-                r["gender"], r["gender_src"] = g, "Wikipedia page (pronouns)"
+                return g
+        return ""
+
+    def earlier_cawp(r):
+        return any(y < r["year"] and N.score(r["name"], w, strict=True) >= 3 for y, w in women[r["state"]])
+
+    for r in rows:
+        if r["year"] <= cawp_max:
+            continue
+        if r["gender_src"] == "not in " + CAWP_LIST_SRC:
+            # CAWP's list is the rule, but it can miss a candidate (it is updated through the primary season): a clear
+            # 'she' on the candidate's own page or an earlier CAWP record wins; a woman's first name alone leaves it open
+            g = own_page(r)
+            if g:
+                if g == "F":
+                    r["gender"], r["gender_src"] = "F", "Wikipedia page (pronouns); not in " + CAWP_LIST_SRC
                 continue
+            hit = {gg for n, gg in known[r["state"]] if gg and N.score(r["name"], n, strict=True) >= 3}
+            if len(hit) == 1:
+                if hit == {"F"}:
+                    r["gender"], r["gender_src"] = "F", "member or earlier candidate; not in " + CAWP_LIST_SRC
+                continue
+            pf = fn.get(N.split_name(r["name"])[0])
+            if earlier_cawp(r):
+                r["gender"], r["gender_src"] = "F", "CAWP (earlier race); not in " + CAWP_LIST_SRC
+            elif pf is not None and pf >= 0.95:
+                r["gender"], r["gender_src"] = "", "not in " + CAWP_LIST_SRC + "; woman's first name"
+            continue
+        if r["gender"]:
+            continue
+        g = own_page(r)
+        if g:
+            r["gender"], r["gender_src"] = g, "Wikipedia page (pronouns)"
+            continue
         st = r["state"]
-        if any(N.score(r["name"], w, strict=True) >= 3 for w in women[st]):
+        if earlier_cawp(r):
             r["gender"], r["gender_src"] = "F", "CAWP (earlier race)"
             continue
         hit = [g for n, g in known[st] if N.score(r["name"], n, strict=True) >= 3]
@@ -804,6 +1040,13 @@ def build(rebuild_history=False):
         r, c = year_rows(y)
         allrows += r
         cov += c
+    for y in medsl_years():
+        if apply_medsl(allrows, y):
+            for c in cov:
+                if c["year"] == y and c["chamber"] == "H":
+                    c["source"] = ("Pettigrew (primaries) + MEDSL (general)" if y <= 2000
+                                   else "Wikipedia (primaries) + MEDSL (general)")
+                    c["rows"] = sum(1 for r in allrows if r["year"] == y and r["chamber"] == "H")
     one_winner(allrows)
     log("nominees without primary record:", nominated_without_primary(allrows))
     cawp = load_cawp()
@@ -993,4 +1236,6 @@ if __name__ == "__main__":
     cand, legis = build(a.rebuild_history)
     derive(cand, legis)
     import site_data
-    site_data.write()
+    lst = load_cawp_list()
+    used = lst is not None and int(pd.read_excel(os.path.join(STATIC, "cawp_master.xlsx"), usecols=["Year"]).Year.max()) < CAWP_LIST_YEAR
+    site_data.write(dict(cawp_list=dict(year=CAWP_LIST_YEAR, downloaded=CAWP_LIST_DATE, women=len(lst)) if used else None))

@@ -204,7 +204,10 @@ def election_boxes(wikitext, year, chamber, st, page, default_district=None):
                 if chamber == "H":
                     dt = heading_district(clean_name(title)[0], st)
                     if dt is not None and re.search(r"congressional district|district \d", title, re.I):
-                        dd = dt
+                        # the box title names the district, unless a state page's district heading says otherwise (a box
+                        # copied from another section keeps its old title: Florida 2026, District 12 box titled "8th")
+                        if not (default_district is None and district is not None and dt != district):
+                            dd = dt
                 box = dict(title=clean_name(title)[0], stage=stage, bp=bp, open=is_open, special=special, district=dd,
                            buf=[], n=0, rows=[])
                 continue

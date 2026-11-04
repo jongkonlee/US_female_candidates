@@ -10,7 +10,6 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 1990-H-AL-05,1990,H,AL,5,0,party,D,runoff,7,1,6,0,0,,Bud Cramer,M,44.030409999999996,0.0,15.730160000000001,44.030409999999996,1,Pettigrew-Owen-Wanless
 1990-H-AL-05,1990,H,AL,5,0,party,R,contested,3,1,2,0,0,,Albert Mcdonald,M,69.54487999999999,0.0,14.737079999999999,69.54487999999999,1,Pettigrew-Owen-Wanless
 1990-H-AL-06,1990,H,AL,6,0,party,D,uncontested,1,0,1,0,1,M,Ben Erdreich,M,,0.0,,,0,Pettigrew-Owen-Wanless
-1990-H-AL-06,1990,H,AL,6,0,party,R,uncontested,1,0,1,0,0,,David A. Alvarez,M,,0.0,,,0,
 1990-H-AL-07,1990,H,AL,7,0,party,D,uncontested,1,0,1,0,1,M,Claude Harris,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1990-H-AL-07,1990,H,AL,7,0,party,R,uncontested,1,0,1,0,0,,Michael D Barker,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1990-H-AR-01,1990,H,AR,1,0,party,D,contested,2,0,2,0,1,M,William Alexander,M,54.29437,0.0,,54.29437,0,Pettigrew-Owen-Wanless
@@ -298,7 +297,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 1990-H-KY-07,1990,H,KY,7,0,party,D,contested,2,0,2,0,1,M,Carl C Perkins,M,68.41555,0.0,,68.41555,0,Pettigrew-Owen-Wanless
 1990-H-KY-07,1990,H,KY,7,0,party,R,contested,2,0,2,0,0,,Wiliam T Scott,M,79.4661,0.0,,79.4661,0,Pettigrew-Owen-Wanless
 1990-H-LA-01,1990,H,LA,1,0,jungle,R,jungle,2,0,2,0,1,M,Bob Livingston,M,83.90012,0.0,,83.90012,0,Pettigrew-Owen-Wanless
-1990-H-LA-02,1990,H,LA,2,0,jungle,D,jungle,10,0,10,0,0,,William J Jefferson,M,25.6419,0.0,,25.6419,0,Pettigrew-Owen-Wanless
+1990-H-LA-02,1990,H,LA,2,0,jungle,D,jungle,8,0,8,0,0,,William J Jefferson,M,25.6419,0.0,,25.6419,0,Pettigrew-Owen-Wanless
 1990-H-LA-02,1990,H,LA,2,0,jungle,R,jungle,2,0,2,0,0,,Jeffrey A Barach,M,72.72727,0.0,,72.72727,0,Pettigrew-Owen-Wanless
 1990-H-LA-03,1990,H,LA,3,0,jungle,D,jungle,1,0,1,0,1,M,Wilbert Tauzin,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1990-H-LA-04,1990,H,LA,4,0,jungle,D,jungle,1,0,1,0,0,,Foster L Campbell,M,,0.0,,,0,Pettigrew-Owen-Wanless
@@ -412,7 +411,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 1990-H-MO-06,1990,H,MO,6,0,party,D,contested,2,0,2,0,0,,Bob Mcclure,M,60.941120000000005,0.0,,60.941120000000005,0,Pettigrew-Owen-Wanless
 1990-H-MO-06,1990,H,MO,6,0,party,R,contested,2,0,2,0,1,M,E Thomas Coleman,M,84.04800999999999,0.0,,84.04800999999999,0,Pettigrew-Owen-Wanless
 1990-H-MO-07,1990,H,MO,7,0,party,D,contested,2,0,2,0,0,,Thomas P Deaton,M,59.781209999999994,0.0,,59.781209999999994,0,Pettigrew-Owen-Wanless
-1990-H-MO-07,1990,H,MO,7,0,party,R,contested,4,0,4,0,1,M,Melton D Hancock,M,85.72041999999999,0.0,,85.72041999999999,0,Pettigrew-Owen-Wanless
+1990-H-MO-07,1990,H,MO,7,0,party,R,contested,3,0,3,0,1,M,Melton D Hancock,M,85.72041999999999,0.0,,85.72041999999999,0,Pettigrew-Owen-Wanless
 1990-H-MO-08,1990,H,MO,8,0,party,D,contested,3,0,3,0,0,,Russ Carnahan,M,66.47874,0.0,,66.47874,0,Pettigrew-Owen-Wanless
 1990-H-MO-08,1990,H,MO,8,0,party,R,uncontested,1,0,1,0,1,M,Bill Emerson,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1990-H-MO-09,1990,H,MO,9,0,party,D,uncontested,1,0,1,0,1,M,Harold Volkmer,M,,0.0,,,0,Pettigrew-Owen-Wanless
@@ -522,7 +521,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 1990-H-NY-12,1990,H,NY,12,0,party,D,uncontested,1,0,1,0,1,M,Major R Owens,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1990-H-NY-13,1990,H,NY,13,0,party,D,uncontested,1,0,1,0,1,M,Stephen J Solarz,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1990-H-NY-13,1990,H,NY,13,0,party,R,uncontested,1,0,1,0,0,,Edwin Ramos,M,,0.0,,,0,Pettigrew-Owen-Wanless
-1990-H-NY-14,1990,H,NY,14,0,party,D,uncontested,2,0,2,0,0,,Anthony J Pocchia,M,,0.0,,,0,Pettigrew-Owen-Wanless
+1990-H-NY-14,1990,H,NY,14,0,party,D,uncontested,1,0,1,0,0,,Anthony J Pocchia,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1990-H-NY-14,1990,H,NY,14,0,party,R,uncontested,1,1,0,0,1,F,Susan Molinari,F,,1.0,,,0,Pettigrew-Owen-Wanless
 1990-H-NY-15,1990,H,NY,15,0,party,D,uncontested,1,1,0,0,0,,Frances L Reiter,F,,1.0,,,0,Pettigrew-Owen-Wanless
 1990-H-NY-15,1990,H,NY,15,0,party,R,uncontested,1,0,1,0,1,M,S William Green,M,,0.0,,,0,Pettigrew-Owen-Wanless
@@ -530,7 +529,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 1990-H-NY-17,1990,H,NY,17,0,party,D,uncontested,1,0,1,0,1,M,Theodore S Weiss,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1990-H-NY-17,1990,H,NY,17,0,party,R,uncontested,1,0,1,0,0,,William W Koeppel,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1990-H-NY-18,1990,H,NY,18,0,party,D,contested,2,0,2,0,1,M,Jose E Serrano,M,88.53387000000001,0.0,,88.53387000000001,0,Pettigrew-Owen-Wanless
-1990-H-NY-18,1990,H,NY,18,0,party,R,uncontested,2,0,2,0,0,,Joseph Chiavaro,M,,0.0,,,0,Pettigrew-Owen-Wanless
+1990-H-NY-18,1990,H,NY,18,0,party,R,uncontested,1,0,1,0,0,,Joseph Chiavaro,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1990-H-NY-19,1990,H,NY,19,0,party,D,contested,2,0,2,0,1,M,Eliot L Engell,M,71.75769,0.0,,71.75769,0,Pettigrew-Owen-Wanless
 1990-H-NY-19,1990,H,NY,19,0,party,R,uncontested,1,0,1,0,0,,William J Gouldman,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1990-H-NY-20,1990,H,NY,20,0,party,D,uncontested,1,1,0,0,1,F,Nita M Lowey,F,,1.0,,,0,Pettigrew-Owen-Wanless
@@ -1191,7 +1190,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 1992-H-LA-02,1992,H,LA,2,0,jungle,D,jungle,2,1,1,0,0,,William J Jefferson,M,82.5991,0.0,17.4009,82.5991,1,Pettigrew-Owen-Wanless
 1992-H-LA-03,1992,H,LA,3,0,jungle,D,jungle,1,0,1,0,1,M,W J Tauzin,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1992-H-LA-03,1992,H,LA,3,0,jungle,R,jungle,1,0,1,0,0,,Paul O Boynton,M,,0.0,,,0,Pettigrew-Owen-Wanless
-1992-H-LA-04,1992,H,LA,4,0,jungle,D,jungle,6,1,5,0,0,,Cleo Fields,M,58.91302,0.0,10.58418,58.91302,1,Pettigrew-Owen-Wanless
+1992-H-LA-04,1992,H,LA,4,0,jungle,D,jungle,4,1,3,0,0,,Cleo Fields,M,58.91302,0.0,10.58418,58.91302,1,Pettigrew-Owen-Wanless
 1992-H-LA-04,1992,H,LA,4,0,jungle,R,jungle,2,0,2,0,0,,Steve Myers,M,53.357220000000005,0.0,,53.357220000000005,0,Pettigrew-Owen-Wanless
 1992-H-LA-05,1992,H,LA,5,0,jungle,D,jungle,3,0,3,0,1,M,Jerry Huckaby,M,54.532630000000005,0.0,,54.532630000000005,0,Pettigrew-Owen-Wanless
 1992-H-LA-05,1992,H,LA,5,0,jungle,R,jungle,2,0,2,0,1,M,Jim Mccrery,M,95.90105,0.0,,95.90105,0,Pettigrew-Owen-Wanless
@@ -1227,7 +1226,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 1992-H-MD-04,1992,H,MD,4,0,party,D,contested,13,3,10,0,0,,Albert R Wynn,M,27.963919999999998,0.0,12.92072,27.963919999999998,1,Pettigrew-Owen-Wanless
 1992-H-MD-04,1992,H,MD,4,0,party,R,contested,7,1,6,0,0,,Michele Dyson,F,47.52386,1.0,47.52386,13.88439,1,Pettigrew-Owen-Wanless
 1992-H-MD-05,1992,H,MD,5,0,party,D,contested,2,0,2,0,1,M,Steny H Hoyer,M,84.05492,0.0,,84.05492,0,Pettigrew-Owen-Wanless
-1992-H-MD-05,1992,H,MD,5,0,party,R,contested,6,0,6,0,0,,Lawrence J Hogan,M,48.60082,0.0,,48.60082,0,Pettigrew-Owen-Wanless
+1992-H-MD-05,1992,H,MD,5,0,party,R,contested,7,0,7,0,0,,Lawrence J Hogan,M,48.60082,0.0,,48.60082,0,Pettigrew-Owen-Wanless
 1992-H-MD-06,1992,H,MD,6,0,party,D,contested,2,1,1,0,1,F,Thomas H Hattery,M,56.11035,0.0,43.88965,56.11035,1,Pettigrew-Owen-Wanless
 1992-H-MD-06,1992,H,MD,6,0,party,R,contested,3,0,3,0,0,,Roscoe Bartlett,M,42.34912,0.0,,42.34912,0,Pettigrew-Owen-Wanless
 1992-H-MD-07,1992,H,MD,7,0,party,D,contested,2,0,2,0,1,M,Kweisi Mfume,M,84.41468,0.0,,84.41468,0,Pettigrew-Owen-Wanless
@@ -1415,7 +1414,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 1992-H-NY-15,1992,H,NY,15,0,party,D,contested,3,1,2,0,1,M,Charles B Rangel,M,81.81009999999999,0.0,9.85097,81.81009999999999,1,Pettigrew-Owen-Wanless
 1992-H-NY-16,1992,H,NY,16,0,party,D,uncontested,1,0,1,0,1,M,Jose E Serrano,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1992-H-NY-16,1992,H,NY,16,0,party,R,uncontested,1,0,1,0,0,,Michael Walters,M,,0.0,,,0,Pettigrew-Owen-Wanless
-1992-H-NY-17,1992,H,NY,17,0,party,D,contested,3,0,3,0,1,M,Eliot Engel,M,73.87668,0.0,,73.87668,0,Pettigrew-Owen-Wanless
+1992-H-NY-17,1992,H,NY,17,0,party,D,contested,2,0,2,0,1,M,Eliot Engel,M,73.87668,0.0,,73.87668,0,Pettigrew-Owen-Wanless
 1992-H-NY-17,1992,H,NY,17,0,party,R,uncontested,1,0,1,0,0,,Martin Richman,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1992-H-NY-18,1992,H,NY,18,0,party,D,uncontested,1,1,0,0,1,F,Nita Lowey,F,,1.0,,,0,Pettigrew-Owen-Wanless
 1992-H-NY-18,1992,H,NY,18,0,party,R,uncontested,1,0,1,0,0,,Joseph Dioguardi,M,,0.0,,,0,Pettigrew-Owen-Wanless
@@ -1446,7 +1445,6 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 1992-H-NY-31,1992,H,NY,31,0,party,D,uncontested,1,0,1,0,0,,Joseph P Leahey,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1992-H-NY-31,1992,H,NY,31,0,party,R,uncontested,1,0,1,0,1,M,Amory Houghton,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1992-H-OH-01,1992,H,OH,1,0,party,D,uncontested,4,3,1,0,0,,David Mann,M,,0.0,,,1,CAWP only;Pettigrew-Owen-Wanless
-1992-H-OH-01,1992,H,OH,1,0,party,R,uncontested,1,0,1,0,0,,Stephen Grote,M,,0.0,,,0,
 1992-H-OH-02,1992,H,OH,2,0,party,D,uncontested,1,0,1,0,0,,Thomas Chandler,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1992-H-OH-02,1992,H,OH,2,0,party,R,uncontested,1,0,1,0,1,M,Willis Gradison,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1992-H-OH-03,1992,H,OH,3,0,party,D,uncontested,1,0,1,0,1,M,Tony P Hall,M,,0.0,,,0,Pettigrew-Owen-Wanless
@@ -1883,7 +1881,6 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 1994-H-CA-36,1994,H,CA,36,0,party,D,uncontested,1,1,0,0,1,F,Jane Harman,F,,1.0,,,0,Pettigrew-Owen-Wanless
 1994-H-CA-36,1994,H,CA,36,0,party,R,contested,2,1,1,0,0,,Susan Brooks,F,51.41767,1.0,51.41767,48.58233,1,Pettigrew-Owen-Wanless
 1994-H-CA-37,1994,H,CA,37,0,party,D,contested,2,0,2,0,1,M,Walter R Tucker,M,84.14921,0.0,,84.14921,0,Pettigrew-Owen-Wanless
-1994-H-CA-37,1994,H,CA,37,0,party,R,uncontested,1,0,1,0,0,,Guy Wilson,M,,0.0,,,0,
 1994-H-CA-38,1994,H,CA,38,0,party,D,uncontested,1,0,1,0,0,,Peter Mathews,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1994-H-CA-38,1994,H,CA,38,0,party,R,contested,2,0,2,0,1,M,Steve Horn,M,76.11868000000001,0.0,,76.11868000000001,0,Pettigrew-Owen-Wanless
 1994-H-CA-39,1994,H,CA,39,0,party,D,uncontested,1,0,1,0,0,,Ro Davis,M,,0.0,,,0,Pettigrew-Owen-Wanless
@@ -2083,7 +2080,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 1994-H-KS-04,1994,H,KS,4,0,party,R,contested,3,0,3,0,0,,Todd Tiahrt,M,53.97002,0.0,,53.97002,0,Pettigrew-Owen-Wanless
 1994-H-KY-01,1994,H,KY,1,0,party,D,contested,3,0,3,0,1,M,Tom Barlow,M,59.611630000000005,0.0,,59.611630000000005,0,Pettigrew-Owen-Wanless
 1994-H-KY-01,1994,H,KY,1,0,party,R,contested,2,0,2,0,0,,Edward Whitfield,M,52.52525,0.0,,52.52525,0,Pettigrew-Owen-Wanless
-1994-H-KY-02,1994,H,KY,2,0,party,D,uncontested,2,0,2,0,0,,,,,,,,0,
+1994-H-KY-02,1994,H,KY,2,0,party,D,uncontested,1,0,1,0,0,,David Adkisson,M,,0.0,,,0,
 1994-H-KY-02,1994,H,KY,2,0,party,R,uncontested,1,0,1,0,1,M,Ron Lewis,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1994-H-KY-03,1994,H,KY,3,0,party,D,contested,11,2,9,0,0,,Mike Ward,M,27.23735,0.0,24.34657,27.23735,1,Pettigrew-Owen-Wanless
 1994-H-KY-03,1994,H,KY,3,0,party,R,contested,3,1,2,0,0,,Susan Stokes,F,50.183809999999994,1.0,50.183809999999994,44.37104,1,Pettigrew-Owen-Wanless
@@ -2126,7 +2123,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 1994-H-MA-10,1994,H,MA,10,0,party,R,uncontested,1,0,1,0,0,,Keith Hemeon,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1994-H-MD-01,1994,H,MD,1,0,party,D,contested,3,0,3,0,0,,Ralph Gies,M,39.0809,0.0,,39.0809,0,Pettigrew-Owen-Wanless
 1994-H-MD-01,1994,H,MD,1,0,party,R,contested,4,0,4,0,1,M,Wayne Gilchrest,M,65.07093,0.0,,65.07093,0,Pettigrew-Owen-Wanless
-1994-H-MD-02,1994,H,MD,2,0,party,D,contested,7,2,5,0,0,,Gerry Brewster,M,38.40912,0.0,35.359410000000004,38.40912,1,CAWP only;Pettigrew-Owen-Wanless
+1994-H-MD-02,1994,H,MD,2,0,party,D,contested,6,1,5,0,0,,Gerry Brewster,M,38.40912,0.0,35.359410000000004,38.40912,1,Pettigrew-Owen-Wanless
 1994-H-MD-02,1994,H,MD,2,0,party,R,contested,3,0,3,0,0,,Robert Ehrlich,M,57.16232,0.0,,57.16232,0,Pettigrew-Owen-Wanless
 1994-H-MD-03,1994,H,MD,3,0,party,D,contested,2,0,2,0,1,M,Benjamin Cardin,M,86.63571,0.0,,86.63571,0,Pettigrew-Owen-Wanless
 1994-H-MD-03,1994,H,MD,3,0,party,R,uncontested,1,0,1,0,0,,Robert Tousey,M,,0.0,,,0,Pettigrew-Owen-Wanless
@@ -2393,9 +2390,8 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 1994-H-OK-03,1994,H,OK,3,0,party,R,uncontested,1,0,1,0,0,,Darrel Tallant,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1994-H-OK-04,1994,H,OK,4,0,party,D,runoff,5,0,5,0,0,,Tully Mccoy,M,35.05329,0.0,,35.05329,0,Pettigrew-Owen-Wanless
 1994-H-OK-04,1994,H,OK,4,0,party,R,contested,5,0,5,0,0,,J C Watts,M,48.74517,0.0,,48.74517,0,Pettigrew-Owen-Wanless
-1994-H-OK-05,1994,H,OK,5,0,party,D,uncontested,1,0,1,0,0,,Tom Keith,M,,0.0,,,0,
 1994-H-OK-05,1994,H,OK,5,0,party,R,uncontested,1,0,1,0,1,M,Ernest Istook,M,,0.0,,,0,Pettigrew-Owen-Wanless
-1994-H-OK-06,1994,H,OK,6,0,party,D,contested,4,0,4,0,0,,Jeffrey Tollett,M,50.933859999999996,0.0,,50.933859999999996,0,Pettigrew-Owen-Wanless
+1994-H-OK-06,1994,H,OK,6,0,party,D,contested,3,0,3,0,0,,Jeffrey Tollett,M,50.933859999999996,0.0,,50.933859999999996,0,Pettigrew-Owen-Wanless
 1994-H-OK-06,1994,H,OK,6,0,party,R,uncontested,1,0,1,0,1,M,Frank Lucas,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1994-H-OR-01,1994,H,OR,1,0,party,D,uncontested,1,1,0,0,1,F,Elizabeth Furse,F,,1.0,,,0,Pettigrew-Owen-Wanless
 1994-H-OR-01,1994,H,OR,1,0,party,R,contested,3,0,3,0,0,,Bill Witt,M,51.085939999999994,0.0,,51.085939999999994,0,Pettigrew-Owen-Wanless
@@ -2771,7 +2767,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 1996-H-CA-30,1996,H,CA,30,0,party,D,uncontested,1,0,1,0,1,M,Xavier Becerra,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1996-H-CA-30,1996,H,CA,30,0,party,R,uncontested,1,1,0,0,0,,Patricia Jean Parker,F,,1.0,,,0,Pettigrew-Owen-Wanless
 1996-H-CA-31,1996,H,CA,31,0,party,D,uncontested,1,0,1,0,1,M,Matthew G Martinez,M,,0.0,,,0,Pettigrew-Owen-Wanless
-1996-H-CA-31,1996,H,CA,31,0,party,R,contested,3,0,3,0,0,,John V Flores,M,52.13476,0.0,,52.13476,0,Pettigrew-Owen-Wanless
+1996-H-CA-31,1996,H,CA,31,0,party,R,contested,2,0,2,0,0,,John V Flores,M,52.13476,0.0,,52.13476,0,Pettigrew-Owen-Wanless
 1996-H-CA-32,1996,H,CA,32,0,party,D,uncontested,1,0,1,0,1,M,Julian C Dixon,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1996-H-CA-32,1996,H,CA,32,0,party,R,uncontested,1,0,1,0,0,,Larry Ardito,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1996-H-CA-33,1996,H,CA,33,0,party,D,uncontested,1,1,0,0,1,F,Lucille Roybal-Allard,F,,1.0,,,0,Pettigrew-Owen-Wanless
@@ -2782,7 +2778,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 1996-H-CA-35,1996,H,CA,35,0,party,R,uncontested,1,0,1,0,0,,Eric Carlson,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1996-H-CA-36,1996,H,CA,36,0,party,D,uncontested,1,1,0,0,1,F,Jane Harman,F,,1.0,,,0,Pettigrew-Owen-Wanless
 1996-H-CA-36,1996,H,CA,36,0,party,R,contested,4,1,3,0,0,,Susan Brooks,F,42.43414,1.0,42.43414,36.661139999999996,1,Pettigrew-Owen-Wanless
-1996-H-CA-37,1996,H,CA,37,0,party,D,contested,11,4,7,0,0,,Juanita M Mcdonald,F,23.65161,1.0,23.65161,20.84018,1,Pettigrew-Owen-Wanless
+1996-H-CA-37,1996,H,CA,37,0,party,D,contested,10,4,6,0,0,,Juanita M Mcdonald,F,23.65161,1.0,23.65161,20.84018,1,Pettigrew-Owen-Wanless
 1996-H-CA-37,1996,H,CA,37,0,party,R,uncontested,1,0,1,0,0,,Michael E Voetee,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1996-H-CA-38,1996,H,CA,38,0,party,D,contested,2,0,2,0,0,,Rick Zbur,M,51.393370000000004,0.0,,51.393370000000004,0,Pettigrew-Owen-Wanless
 1996-H-CA-38,1996,H,CA,38,0,party,R,uncontested,1,0,1,0,1,M,Steve Horn,M,,0.0,,,0,Pettigrew-Owen-Wanless
@@ -2944,7 +2940,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 1996-H-IL-10,1996,H,IL,10,0,party,R,contested,2,0,2,0,1,M,John E Porter,M,68.29894,0.0,,68.29894,0,Pettigrew-Owen-Wanless
 1996-H-IL-11,1996,H,IL,11,0,party,D,contested,3,0,3,0,0,,Clem Balanoff,M,42.293710000000004,0.0,,42.293710000000004,0,Pettigrew-Owen-Wanless
 1996-H-IL-11,1996,H,IL,11,0,party,R,uncontested,1,0,1,0,1,M,Gerald C Weller,M,,0.0,,,0,Pettigrew-Owen-Wanless
-1996-H-IL-12,1996,H,IL,12,0,party,D,uncontested,2,0,2,0,1,M,Jerry F Costello,M,,0.0,,,0,Pettigrew-Owen-Wanless
+1996-H-IL-12,1996,H,IL,12,0,party,D,uncontested,1,0,1,0,1,M,Jerry F Costello,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1996-H-IL-12,1996,H,IL,12,0,party,R,contested,2,0,2,0,0,,Shapley R Hunter,M,99.98251,0.0,,99.98251,0,Pettigrew-Owen-Wanless
 1996-H-IL-13,1996,H,IL,13,0,party,D,uncontested,1,1,0,0,0,,Susan W Hynes,F,,1.0,,,0,Pettigrew-Owen-Wanless
 1996-H-IL-13,1996,H,IL,13,0,party,R,contested,2,0,2,0,1,M,Harris W Fawell,M,99.99502,0.0,,99.99502,0,Pettigrew-Owen-Wanless
@@ -3114,7 +3110,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 1996-H-MO-07,1996,H,MO,7,0,party,D,contested,6,1,5,0,0,,Ruth Bamberger,F,52.545410000000004,1.0,52.545410000000004,13.30664,1,Pettigrew-Owen-Wanless
 1996-H-MO-07,1996,H,MO,7,0,party,R,contested,2,0,2,0,0,,Roy Blunt,M,55.91808,0.0,,55.91808,0,Pettigrew-Owen-Wanless
 1996-H-MO-08,1996,H,MO,8,0,party,D,contested,3,1,2,0,0,,Emily Firebaugh,F,55.386219999999994,1.0,55.386219999999994,23.90178,1,Pettigrew-Owen-Wanless
-1996-H-MO-08,1996,H,MO,8,0,party,R,contested,3,1,2,0,0,,Richard Kline,M,51.047799999999995,0.0,,51.047799999999995,1,Pettigrew-Owen-Wanless
+1996-H-MO-08,1996,H,MO,8,0,party,R,contested,2,0,2,0,0,,Richard Kline,M,51.047799999999995,0.0,,51.047799999999995,0,Pettigrew-Owen-Wanless
 1996-H-MO-09,1996,H,MO,9,0,party,D,contested,2,0,2,0,1,M,Harold Volkmer,M,71.71441,0.0,,71.71441,0,Pettigrew-Owen-Wanless
 1996-H-MO-09,1996,H,MO,9,0,party,R,contested,2,0,2,0,0,,Kenny Hulshof,M,50.21904000000001,0.0,,50.21904000000001,0,Pettigrew-Owen-Wanless
 1996-H-MS-01,1996,H,MS,1,0,party,D,runoff,3,0,3,0,0,,Henry Jr Boyd,M,46.11209,0.0,,46.11209,0,Pettigrew-Owen-Wanless
@@ -3318,7 +3314,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 1996-H-OR-02,1996,H,OR,2,0,party,D,contested,2,0,2,0,0,,Mike Dugan,M,87.0698,0.0,,87.0698,0,Pettigrew-Owen-Wanless
 1996-H-OR-02,1996,H,OR,2,0,party,R,uncontested,1,0,1,0,1,M,Wes Cooley,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1996-H-OR-03,1996,H,OR,3,0,party,D,contested,2,1,1,0,1,M,Earl Blumenauer,M,78.60562,0.0,21.394379999999998,78.60562,1,Pettigrew-Owen-Wanless
-1996-H-OR-03,1996,H,OR,3,0,party,R,uncontested,2,0,2,0,0,,Scott Bruun,M,,0.0,,,0,Pettigrew-Owen-Wanless
+1996-H-OR-03,1996,H,OR,3,0,party,R,uncontested,1,0,1,0,0,,Scott Bruun,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1996-H-OR-04,1996,H,OR,4,0,party,D,uncontested,1,0,1,0,1,M,Peter A Defazio,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1996-H-OR-04,1996,H,OR,4,0,party,R,contested,2,1,1,0,0,,John D Newkirk,M,76.69298,0.0,23.30702,76.69298,1,Pettigrew-Owen-Wanless
 1996-H-OR-05,1996,H,OR,5,0,party,D,contested,3,2,1,0,0,,Darlene Hooley,F,51.44594,1.0,51.44594,27.44336,1,Pettigrew-Owen-Wanless
@@ -3447,8 +3443,8 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 1996-H-TX-23,1996,H,TX,23,0,party,R,uncontested,1,0,1,0,1,M,Henry Bonilla,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1996-H-TX-24,1996,H,TX,24,0,party,D,uncontested,2,0,2,0,1,M,Martin Frost,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1996-H-TX-24,1996,H,TX,24,0,party,R,contested,2,1,1,0,0,,Ed Harrison,M,75.19057000000001,0.0,24.80943,75.19057000000001,1,Pettigrew-Owen-Wanless
-1996-H-TX-25,1996,H,TX,25,0,party,D,uncontested,2,1,1,0,1,M,Ken Bentsen,M,,0.0,,,1,CAWP only;Pettigrew-Owen-Wanless
-1996-H-TX-25,1996,H,TX,25,0,party,R,contested,3,2,1,0,0,,Brent Perry,F,65.6818,1.0,65.6818,34.31819,1,CAWP only;Pettigrew-Owen-Wanless
+1996-H-TX-25,1996,H,TX,25,0,party,D,uncontested,2,1,1,0,1,M,Ken Bentsen,M,,0.0,,,1,Pettigrew-Owen-Wanless
+1996-H-TX-25,1996,H,TX,25,0,party,R,contested,9,2,7,0,0,,Brent Perry,M,65.6818,0.0,,65.6818,1,Pettigrew-Owen-Wanless
 1996-H-TX-26,1996,H,TX,26,0,party,D,uncontested,1,0,1,0,0,,Jerry Frankel,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1996-H-TX-26,1996,H,TX,26,0,party,R,uncontested,1,0,1,0,1,M,Dick Armey,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1996-H-TX-27,1996,H,TX,27,0,party,D,contested,2,1,1,0,1,M,Solomon P Ortiz,M,69.92958,0.0,30.070429999999998,69.92958,1,Pettigrew-Owen-Wanless
@@ -3468,6 +3464,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 1996-H-VA-01,1996,H,VA,1,0,party,D,uncontested,1,0,1,0,0,,Russell Axsom,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1996-H-VA-01,1996,H,VA,1,0,party,R,contested,2,0,2,0,1,M,Herbert H Bateman,M,79.67966,0.0,,79.67966,0,Pettigrew-Owen-Wanless
 1996-H-VA-02,1996,H,VA,2,0,party,D,uncontested,1,0,1,0,0,,Owen B. Pickett,M,,0.0,,,0,
+1996-H-VA-02,1996,H,VA,2,0,party,R,uncontested,1,0,1,0,0,,John Tate,M,,0.0,,,0,
 1996-H-VA-03,1996,H,VA,3,0,party,D,uncontested,1,0,1,0,0,,Bobby Scott,M,,0.0,,,0,
 1996-H-VA-03,1996,H,VA,3,0,party,R,uncontested,1,1,0,0,0,,Elsie Holland,F,,1.0,,,0,
 1996-H-VA-04,1996,H,VA,4,0,party,D,uncontested,1,0,1,0,0,,Norman Sisisky,M,,0.0,,,0,
@@ -3484,8 +3481,9 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 1996-H-VA-09,1996,H,VA,9,0,party,R,uncontested,1,0,1,0,0,,Patrick Muldoon,M,,0.0,,,0,
 1996-H-VA-10,1996,H,VA,10,0,party,D,uncontested,1,0,1,0,0,,Bob Weinberg,M,,0.0,,,0,
 1996-H-VA-10,1996,H,VA,10,0,party,R,uncontested,1,0,1,0,0,,Frank Wolf,M,,0.0,,,0,
+1996-H-VA-11,1996,H,VA,11,0,party,D,uncontested,1,0,1,0,0,,Tom Horton,M,,0.0,,,0,
 1996-H-VA-11,1996,H,VA,11,0,party,R,uncontested,1,0,1,0,0,,Tom Davis,M,,0.0,,,0,
-1996-H-VT-00,1996,H,VT,0,0,party,D,contested,3,0,3,0,1,M,Jack Long,M,68.66455,0.0,,68.66455,0,Pettigrew-Owen-Wanless
+1996-H-VT-00,1996,H,VT,0,0,party,D,contested,3,1,2,0,1,M,Jack Long,M,68.66455,0.0,1.50026,68.66455,1,Pettigrew-Owen-Wanless
 1996-H-VT-00,1996,H,VT,0,0,party,R,uncontested,1,1,0,0,0,,Susan W Sweetser,F,,1.0,,,0,Pettigrew-Owen-Wanless
 1996-H-WA-01,1996,H,WA,1,0,blanket,D,contested,2,0,2,0,0,,Jeff Coopersmith,M,52.12329,0.0,,52.12329,0,Pettigrew-Owen-Wanless
 1996-H-WA-01,1996,H,WA,1,0,blanket,R,uncontested,1,0,1,0,1,M,Rick White,M,,0.0,,,0,Pettigrew-Owen-Wanless
@@ -3716,7 +3714,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 1998-H-CA-43,1998,H,CA,43,0,blanket,D,uncontested,1,0,1,0,0,,Mike Rayburn,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1998-H-CA-43,1998,H,CA,43,0,blanket,R,contested,3,0,3,0,1,M,Ken Calvert,M,55.610400000000006,0.0,,55.610400000000006,0,Pettigrew-Owen-Wanless
 1998-H-CA-44,1998,H,CA,44,0,blanket,D,contested,2,1,1,0,0,,Ralph Waite,M,83.43875,0.0,16.56125,83.43875,1,Pettigrew-Owen-Wanless
-1998-H-CA-44,1998,H,CA,44,0,blanket,R,contested,5,1,4,0,1,F,Mary Bono,F,89.91401,1.0,89.91401,4.10064,1,Pettigrew-Owen-Wanless
+1998-H-CA-44,1998,H,CA,44,0,blanket,R,contested,4,1,3,0,1,F,Mary Bono,F,89.91401,1.0,89.91401,4.10064,1,Pettigrew-Owen-Wanless
 1998-H-CA-45,1998,H,CA,45,0,blanket,D,contested,2,1,1,0,0,,Patricia W Neal,F,77.07992,1.0,77.07992,22.920080000000002,1,Pettigrew-Owen-Wanless
 1998-H-CA-45,1998,H,CA,45,0,blanket,R,contested,3,1,2,0,1,M,Dana Rohrabacher,M,76.20913,0.0,15.346760000000002,76.20913,1,Pettigrew-Owen-Wanless
 1998-H-CA-46,1998,H,CA,46,0,blanket,D,uncontested,1,1,0,0,1,F,Loretta Sanchez,F,,1.0,,,0,Pettigrew-Owen-Wanless
@@ -4098,7 +4096,6 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 1998-H-NY-05,1998,H,NY,5,0,party,D,uncontested,1,0,1,0,1,M,Gary L Ackerman,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1998-H-NY-05,1998,H,NY,5,0,party,R,uncontested,1,0,1,0,0,,David C Pinzoon,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1998-H-NY-06,1998,H,NY,6,0,party,D,uncontested,1,0,1,0,1,M,Gregory W Meeks,M,,0.0,,,0,Pettigrew-Owen-Wanless
-1998-H-NY-06,1998,H,NY,6,0,party,R,uncontested,1,0,1,0,0,,Celestine V. Miller,M,,0.0,,,0,
 1998-H-NY-07,1998,H,NY,7,0,party,D,uncontested,1,0,1,0,0,,Joseph Crowley,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1998-H-NY-07,1998,H,NY,7,0,party,R,uncontested,1,0,1,0,0,,James J Dillon,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1998-H-NY-08,1998,H,NY,8,0,party,D,uncontested,1,0,1,0,1,M,Jerrold Nadler,M,,0.0,,,0,Pettigrew-Owen-Wanless
@@ -4285,6 +4282,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 1998-H-TX-05,1998,H,TX,5,0,party,R,uncontested,1,0,1,0,1,M,Pete Sessions,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1998-H-TX-06,1998,H,TX,6,0,party,D,uncontested,1,0,1,0,0,,Ben B Boothe,M,,0.0,,,0,Pettigrew-Owen-Wanless
 1998-H-TX-06,1998,H,TX,6,0,party,R,contested,2,0,2,0,1,M,Joe L Barton,M,72.94956,0.0,,72.94956,0,Pettigrew-Owen-Wanless
+1998-H-TX-07,1998,H,TX,7,0,party,D,uncontested,1,0,1,0,0,,Drew P. Parks,M,,0.0,,,0,
 1998-H-TX-07,1998,H,TX,7,0,party,R,contested,2,0,2,0,1,M,W R Archer,M,96.75184,0.0,,96.75184,0,Pettigrew-Owen-Wanless
 1998-H-TX-08,1998,H,TX,8,0,party,R,contested,2,0,2,0,1,M,Kevin Brady,M,88.66973999999999,0.0,,88.66973999999999,0,Pettigrew-Owen-Wanless
 1998-H-TX-09,1998,H,TX,9,0,party,D,uncontested,1,0,1,0,1,M,Nick Lampson,M,,0.0,,,0,Pettigrew-Owen-Wanless
@@ -4765,7 +4763,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2000-H-LA-03,2000,H,LA,3,0,jungle,R,jungle,1,0,1,0,0,,,,,,,,0,
 2000-H-LA-04,2000,H,LA,4,0,jungle,D,jungle,1,0,1,0,0,,,,,,,,0,
 2000-H-LA-04,2000,H,LA,4,0,jungle,R,jungle,1,0,1,0,0,,,,,,,,0,
-2000-H-LA-05,2000,H,LA,5,0,jungle,D,jungle,1,0,1,0,0,,,,,,,,0,
+2000-H-LA-05,2000,H,LA,5,0,jungle,D,jungle,2,0,2,0,0,,,,,,,,0,
 2000-H-LA-05,2000,H,LA,5,0,jungle,R,jungle,1,0,1,0,0,,,,,,,,0,
 2000-H-LA-06,2000,H,LA,6,0,jungle,D,jungle,1,1,0,0,0,,,,,,,,0,
 2000-H-LA-06,2000,H,LA,6,0,jungle,R,jungle,1,0,1,0,0,,,,,,,,0,
@@ -5183,7 +5181,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2000-H-TX-23,2000,H,TX,23,0,party,D,uncontested,2,0,2,0,0,,Isidro Garza,M,,0.0,,30.36673562001892,0,Pettigrew-Owen-Wanless
 2000-H-TX-23,2000,H,TX,23,0,party,R,uncontested,1,0,1,0,1,M,Henry Bonilla,M,100.0,0.0,,100.0,0,Pettigrew-Owen-Wanless
 2000-H-TX-24,2000,H,TX,24,0,party,D,runoff,2,0,2,0,1,M,James Wright,M,22.709979999999998,0.0,,100.0,0,Pettigrew-Owen-Wanless
-2000-H-TX-24,2000,H,TX,24,0,party,R,runoff,5,1,4,0,0,,Bryndan Wright,M,,0.0,22.714894624674404,32.86170968505802,1,Pettigrew-Owen-Wanless
+2000-H-TX-24,2000,H,TX,24,0,party,R,runoff,4,1,3,0,0,,James Wright,M,32.86170968505802,0.0,22.714894624674404,32.86170968505802,1,Pettigrew-Owen-Wanless
 2000-H-TX-25,2000,H,TX,25,0,party,D,uncontested,1,0,1,0,1,M,Ken Bentsen,M,,0.0,,,0,Pettigrew-Owen-Wanless
 2000-H-TX-25,2000,H,TX,25,0,party,R,contested,2,0,2,0,0,,Phil Sudan,M,51.31614,0.0,,51.31614,0,Pettigrew-Owen-Wanless
 2000-H-TX-26,2000,H,TX,26,0,party,D,uncontested,1,0,1,0,0,,Steve Love,M,,0.0,,,0,Pettigrew-Owen-Wanless
@@ -5793,7 +5791,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2002-H-NE-02,2002,H,NE,2,0,party,R,uncontested,1,0,1,0,1,M,Lee Terry,M,100.0,0.0,,100.0,0,FEC
 2002-H-NE-03,2002,H,NE,3,0,party,R,uncontested,1,0,1,0,1,M,Tom Osborne,M,100.0,0.0,,100.0,0,FEC
 2002-H-NH-01,2002,H,NH,1,0,party,D,uncontested,1,1,0,0,0,,Martha Fuller Clark,F,0.10762796147191454,1.0,0.10762796147191454,,0,FEC
-2002-H-NH-01,2002,H,NH,1,0,party,R,contested,10,2,8,0,0,,Jeb Bradley,M,31.35107151128731,0.0,9.385430716202777,31.35107151128731,1,CAWP only;FEC
+2002-H-NH-01,2002,H,NH,1,0,party,R,contested,9,2,7,0,0,,Jeb Bradley,M,31.35107151128731,0.0,9.385430716202777,31.35107151128731,1,FEC
 2002-H-NH-02,2002,H,NH,2,0,party,D,uncontested,1,0,1,0,0,,"Norman H. ""NH"" Jackman",M,20.91527751763751,0.0,,20.91527751763751,0,FEC
 2002-H-NH-02,2002,H,NH,2,0,party,R,contested,3,1,2,0,1,M,Charles Bass,M,86.38215951885785,0.0,0.1039851610364791,86.38215951885785,1,FEC
 2002-H-NJ-01,2002,H,NJ,1,0,party,D,uncontested,1,0,1,0,1,M,Robert E. Andrews,M,,0.0,,,0,FEC
@@ -7895,7 +7893,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2006-S-IN-00,2006,S,IN,0,0,party,R,uncontested,1,0,1,0,1,M,Richard G. Lugar,M,100.0,0.0,,100.0,0,FEC
 2006-S-MA-00,2006,S,MA,0,0,party,D,uncontested,1,0,1,0,1,M,Edward M. Kennedy,M,98.62718893635211,0.0,,98.62718893635211,0,FEC
 2006-S-MA-00,2006,S,MA,0,0,party,R,contested,2,0,2,0,0,,Kenneth G. Chase,M,50.55605266521794,0.0,,50.55605266521794,0,FEC
-2006-S-MD-00,2006,S,MD,0,0,party,D,contested,19,2,17,0,0,,Benjamin L. Cardin,M,43.67427229330417,0.0,0.8616318605380747,43.67427229330417,1,FEC
+2006-S-MD-00,2006,S,MD,0,0,party,D,contested,19,3,16,0,0,,Benjamin L. Cardin,M,43.67427229330417,0.0,0.8616318605380747,43.67427229330417,1,FEC
 2006-S-MD-00,2006,S,MD,0,0,party,R,contested,10,0,10,0,0,,Michael S. Steele,M,86.95870156743527,0.0,,86.95870156743527,0,FEC
 2006-S-ME-00,2006,S,ME,0,0,party,D,contested,2,1,1,0,0,,Jean M. Hay Bright,F,50.63115176789758,1.0,50.63115176789758,49.36884823210242,1,FEC
 2006-S-ME-00,2006,S,ME,0,0,party,R,uncontested,2,1,1,0,1,F,Olympia J. Snowe,F,98.87178971367263,1.0,98.87178971367263,,1,FEC
@@ -15163,7 +15161,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2024-H-AR-04,2024,H,AR,4,0,party,R,uncontested,1,0,1,0,1,M,Bruce Westerman,M,,0.0,,,0,
 2024-H-AZ-01,2024,H,AZ,1,0,party,D,contested,6,1,5,0,0,,Amish Shah,M,23.5,0.0,21.2,23.5,1,Wikipedia
 2024-H-AZ-01,2024,H,AZ,1,0,party,R,contested,3,1,2,0,1,M,David Schweikert,M,62.7,0.0,27.5,62.7,1,Wikipedia
-2024-H-AZ-02,2024,H,AZ,2,0,party,D,uncontested,1,0,1,0,0,,Jonathan Nez,M,100.0,0.0,,100.0,0,Wikipedia
+2024-H-AZ-02,2024,H,AZ,2,0,party,D,uncontested,2,0,2,0,0,,Jonathan Nez,M,100.0,0.0,,100.0,0,Wikipedia
 2024-H-AZ-02,2024,H,AZ,2,0,party,R,contested,2,0,2,0,1,M,Eli Crane,M,80.5,0.0,,80.5,0,Wikipedia
 2024-H-AZ-03,2024,H,AZ,3,0,party,D,contested,3,2,1,0,0,,Yassamin Ansari,F,44.6,1.0,44.6,10.9,1,Wikipedia
 2024-H-AZ-03,2024,H,AZ,3,0,party,R,contested,2,0,2,0,0,,Jeff Zink,M,65.6,0.0,,65.6,0,Wikipedia
@@ -15283,7 +15281,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2024-H-CA-51,2024,H,CA,51,0,top2,R,top2,1,0,1,0,0,,Bill Wells,M,39.1,0.0,,39.1,0,Wikipedia
 2024-H-CA-52,2024,H,CA,52,0,top2,D,top2,1,0,1,0,1,M,Juan Vargas,M,65.0,0.0,,65.0,0,Wikipedia
 2024-H-CA-52,2024,H,CA,52,0,top2,R,top2,1,0,1,0,0,,Justin Lee,M,35.0,0.0,,35.0,0,Wikipedia
-2024-H-CO-01,2024,H,CO,1,0,party,D,uncontested,1,1,0,0,1,F,Diana DeGette,F,100.0,1.0,100.0,,0,Wikipedia
+2024-H-CO-01,2024,H,CO,1,0,party,D,uncontested,2,1,1,0,1,F,Diana DeGette,F,100.0,1.0,100.0,,1,Wikipedia
 2024-H-CO-01,2024,H,CO,1,0,party,R,uncontested,1,0,1,0,0,,Valdamar Archuleta,M,100.0,0.0,,100.0,0,Wikipedia
 2024-H-CO-02,2024,H,CO,2,0,party,D,uncontested,1,0,1,0,1,M,Joe Neguse,M,100.0,0.0,,100.0,0,Wikipedia
 2024-H-CO-02,2024,H,CO,2,0,party,R,uncontested,1,0,1,0,0,,Marshall Dawson,M,100.0,0.0,,100.0,0,Wikipedia
@@ -15386,7 +15384,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2024-H-GA-09,2024,H,GA,9,0,party,R,uncontested,1,0,1,0,1,M,Andrew Clyde,M,100.0,0.0,,100.0,0,Wikipedia
 2024-H-GA-10,2024,H,GA,10,0,party,D,contested,2,2,0,0,0,,Lexy Doherty,F,59.0,1.0,59.0,,0,Wikipedia
 2024-H-GA-10,2024,H,GA,10,0,party,R,uncontested,1,0,1,0,1,M,Mike Collins,M,100.0,0.0,,100.0,0,Wikipedia
-2024-H-GA-11,2024,H,GA,11,0,party,D,contested,3,1,2,0,0,,Kate Stamper,F,56.6,1.0,56.6,43.4,1,Wikipedia
+2024-H-GA-11,2024,H,GA,11,0,party,D,contested,2,1,1,0,0,,Kate Stamper,F,56.6,1.0,56.6,43.4,1,Wikipedia
 2024-H-GA-11,2024,H,GA,11,0,party,R,contested,3,1,2,0,1,M,Barry Loudermilk,M,86.1,0.0,4.9,86.1,1,Wikipedia
 2024-H-GA-12,2024,H,GA,12,0,party,D,contested,2,1,1,0,0,,Liz Johnson,F,59.0,1.0,59.0,41.0,1,Wikipedia
 2024-H-GA-12,2024,H,GA,12,0,party,R,uncontested,1,0,1,0,1,M,Rick Allen,M,100.0,0.0,,100.0,0,Wikipedia
@@ -15905,7 +15903,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2024-H-TX-36,2024,H,TX,36,0,party,R,contested,2,0,2,0,1,M,Brian Babin,M,81.3,0.0,,81.3,0,Wikipedia
 2024-H-TX-37,2024,H,TX,37,0,party,D,contested,3,0,3,0,1,M,Lloyd Doggett,M,86.1,0.0,,86.1,0,Wikipedia
 2024-H-TX-37,2024,H,TX,37,0,party,R,uncontested,1,1,0,0,0,,Jenny Garcia Sharon,F,100.0,1.0,100.0,,0,Wikipedia
-2024-H-TX-38,2024,H,TX,38,0,party,D,contested,3,1,2,0,0,,Melissa McDonough,F,82.5,1.0,82.5,17.5,1,Wikipedia
+2024-H-TX-38,2024,H,TX,38,0,party,D,contested,2,1,1,0,0,,Melissa McDonough,F,82.5,1.0,82.5,17.5,1,Wikipedia
 2024-H-TX-38,2024,H,TX,38,0,party,R,uncontested,1,0,1,0,1,M,Wesley Hunt,M,100.0,0.0,,100.0,0,Wikipedia
 2024-H-UT-01,2024,H,UT,1,0,party,D,uncontested,1,0,1,0,0,,Bill Campbell,M,,0.0,,,0,
 2024-H-UT-01,2024,H,UT,1,0,party,R,contested,2,0,2,0,1,M,Blake Moore,M,71.0,0.0,,71.0,0,Wikipedia
@@ -16049,22 +16047,22 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2024-S-WV-00,2024,S,WV,0,0,party,R,contested,7,1,6,0,0,,Jim Justice,M,61.84,0.0,1.97,61.84,1,Wikipedia
 2024-S-WY-00,2024,S,WY,0,0,party,D,uncontested,1,0,1,0,0,,Scott Morrow,M,100.0,0.0,,100.0,0,Wikipedia
 2024-S-WY-00,2024,S,WY,0,0,party,R,contested,3,0,3,0,1,M,John Barrasso,M,67.9,0.0,,67.9,0,Wikipedia
-2026-H-AK-00,2026,H,AK,0,0,top4,D,top4,4,0,3,1,0,,Eric Hafner,M,3.8,0.0,,8.1,0,Wikipedia
-2026-H-AK-00,2026,H,AK,0,0,top4,R,top4,3,0,2,1,1,M,Nick Begich III,M,44.6,0.0,,44.6,0,Wikipedia
+2026-H-AK-00,2026,H,AK,0,0,top4,D,top4,4,1,3,0,0,,Eric Hafner,M,3.8,0.0,1.8,8.1,1,Wikipedia
+2026-H-AK-00,2026,H,AK,0,0,top4,R,top4,3,0,3,0,1,M,Nick Begich III,M,44.6,0.0,,44.6,0,Wikipedia
 2026-H-AL-01,2026,H,AL,1,0,party,D,uncontested,1,0,1,0,0,,Clyde Jones,M,,0.0,,,0,
 2026-H-AL-01,2026,H,AL,1,0,party,R,contested,7,0,7,0,0,,Jerry Carl,M,40.3,0.0,,40.3,0,Wikipedia
 2026-H-AL-02,2026,H,AL,2,0,party,D,uncontested,1,0,1,0,1,M,Shomari Figures,M,,0.0,,,0,
 2026-H-AL-02,2026,H,AL,2,0,party,R,uncontested,1,0,1,0,0,,Rhett Marques,M,,0.0,,,0,
-2026-H-AL-03,2026,H,AL,3,0,party,D,uncontested,1,0,0,1,0,,Lee McInnis,,,,,,0,
+2026-H-AL-03,2026,H,AL,3,0,party,D,uncontested,1,0,1,0,0,,Lee McInnis,M,,0.0,,,0,
 2026-H-AL-03,2026,H,AL,3,0,party,R,contested,2,1,1,0,1,M,Mike Rogers,M,83.2,0.0,16.8,83.2,1,Wikipedia
 2026-H-AL-04,2026,H,AL,4,0,party,D,contested,2,1,1,0,0,,Amanda N. Pusczek,F,62.8,1.0,62.8,37.2,1,Wikipedia
 2026-H-AL-04,2026,H,AL,4,0,party,R,contested,2,0,2,0,1,M,Robert Aderholt,M,77.6,0.0,,77.6,0,Wikipedia
 2026-H-AL-05,2026,H,AL,5,0,party,D,runoff,3,1,2,0,0,,Andrew Sneed,M,78.4,0.0,35.7,42.0,1,Wikipedia
 2026-H-AL-05,2026,H,AL,5,0,party,R,uncontested,1,0,1,0,1,M,Dale Strong,M,,0.0,,,0,
-2026-H-AL-06,2026,H,AL,6,0,party,D,uncontested,1,0,1,0,0,,Maurice Mercer,M,,0.0,,,0,
-2026-H-AL-06,2026,H,AL,6,0,party,R,contested,2,0,1,1,1,M,Gary Palmer,M,80.8,0.0,,80.8,0,Wikipedia
+2026-H-AL-06,2026,H,AL,6,0,party,D,uncontested,2,1,1,0,0,,Maurice Mercer,M,,0.0,,,1,CAWP only
+2026-H-AL-06,2026,H,AL,6,0,party,R,contested,2,0,2,0,1,M,Gary Palmer,M,80.8,0.0,,80.8,0,Wikipedia
 2026-H-AL-07,2026,H,AL,7,0,party,D,uncontested,1,1,0,0,1,F,Terri Sewell,F,,1.0,,,0,
-2026-H-AL-07,2026,H,AL,7,0,party,R,uncontested,1,0,0,1,0,,Ammie Akin,,,,,,0,
+2026-H-AL-07,2026,H,AL,7,0,party,R,uncontested,1,1,0,0,0,,Ammie Akin,F,,1.0,,,0,
 2026-H-AR-01,2026,H,AR,1,0,party,D,uncontested,1,1,0,0,0,,Terri Yarbrough,F,,1.0,,,0,
 2026-H-AR-01,2026,H,AR,1,0,party,R,uncontested,1,0,1,0,1,M,Rick Crawford,M,,0.0,,,0,
 2026-H-AR-02,2026,H,AR,2,0,party,D,contested,2,0,2,0,0,,Chris Jones,M,92.6,0.0,,92.6,0,Wikipedia
@@ -16081,7 +16079,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2026-H-AZ-03,2026,H,AZ,3,0,party,R,uncontested,2,0,2,0,0,,Nicholas Glenn,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-AZ-04,2026,H,AZ,4,0,party,D,contested,2,0,2,0,1,M,Greg Stanton,M,62.3,0.0,,62.3,0,Wikipedia
 2026-H-AZ-04,2026,H,AZ,4,0,party,R,uncontested,1,0,1,0,0,,Zuhdi Jasser,M,100.0,0.0,,100.0,0,Wikipedia
-2026-H-AZ-05,2026,H,AZ,5,0,party,D,contested,3,1,1,1,0,,Elizabeth Lee,F,66.0,1.0,66.0,13.2,1,Wikipedia
+2026-H-AZ-05,2026,H,AZ,5,0,party,D,contested,3,1,2,0,0,,Elizabeth Lee,F,66.0,1.0,66.0,20.8,1,Wikipedia
 2026-H-AZ-05,2026,H,AZ,5,0,party,R,contested,2,0,2,0,0,,Mark Lamb,M,58.7,0.0,,58.7,0,Wikipedia
 2026-H-AZ-06,2026,H,AZ,6,0,party,D,uncontested,1,1,0,0,0,,JoAnna Mendoza,F,100.0,1.0,100.0,,0,Wikipedia
 2026-H-AZ-06,2026,H,AZ,6,0,party,R,uncontested,1,0,1,0,1,M,Juan Ciscomani,M,100.0,0.0,,100.0,0,Wikipedia
@@ -16091,34 +16089,36 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2026-H-AZ-08,2026,H,AZ,8,0,party,R,uncontested,1,0,1,0,1,M,Abraham Hamadeh,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-AZ-09,2026,H,AZ,9,0,party,D,uncontested,1,1,0,0,0,,Danielle Sterbinsky,F,100.0,1.0,100.0,,0,Wikipedia
 2026-H-AZ-09,2026,H,AZ,9,0,party,R,uncontested,1,0,1,0,1,M,Paul Gosar,M,100.0,0.0,,100.0,0,Wikipedia
-2026-H-CA-01,2026,H,CA,1,0,top2,D,top2,2,1,1,0,0,,,,,,,,1,
-2026-H-CA-01,2026,H,CA,1,0,top2,R,top2,2,0,1,1,0,,,,,,,,0,
-2026-H-CA-02,2026,H,CA,2,0,top2,D,top2,1,0,1,0,0,,,,,,,,0,
-2026-H-CA-02,2026,H,CA,2,0,top2,R,top2,1,0,0,1,0,,,,,,,,0,
-2026-H-CA-03,2026,H,CA,3,0,top2,D,top2,1,0,1,0,0,,,,,,,,0,
-2026-H-CA-03,2026,H,CA,3,0,top2,R,top2,1,0,1,0,0,,,,,,,,0,
+2026-H-CA-01,2026,H,CA,1,0,top2,D,top2,3,2,1,0,0,,,,,,,,1,CAWP only
+2026-H-CA-01,2026,H,CA,1,0,top2,R,top2,2,0,2,0,0,,,,,,,,0,
+2026-H-CA-02,2026,H,CA,2,0,top2,D,top2,2,1,1,0,0,,,,,,,,1,CAWP only
+2026-H-CA-02,2026,H,CA,2,0,top2,R,top2,2,2,0,0,0,,,,,,,,0,CAWP only
+2026-H-CA-03,2026,H,CA,3,0,top2,D,top2,2,1,1,0,0,,,,,,,,1,CAWP only
+2026-H-CA-03,2026,H,CA,3,0,top2,R,top2,3,2,1,0,0,,,,,,,,1,CAWP only
 2026-H-CA-04,2026,H,CA,4,0,top2,D,top2,2,0,2,0,0,,,,,,,,0,
+2026-H-CA-04,2026,H,CA,4,0,top2,R,top2,2,2,0,0,0,,,,,,,,0,CAWP only
 2026-H-CA-05,2026,H,CA,5,0,top2,D,top2,1,0,1,0,0,,,,,,,,0,
 2026-H-CA-05,2026,H,CA,5,0,top2,R,top2,1,0,1,0,0,,,,,,,,0,
-2026-H-CA-06,2026,H,CA,6,0,top2,D,top2,1,0,1,0,0,,,,,,,,0,
+2026-H-CA-06,2026,H,CA,6,0,top2,D,top2,3,2,1,0,0,,,,,,,,1,CAWP only
 2026-H-CA-07,2026,H,CA,7,0,top2,D,top2,2,2,0,0,0,,,,,,,,0,
 2026-H-CA-08,2026,H,CA,8,0,top2,D,top2,1,0,1,0,0,,,,,,,,0,
 2026-H-CA-08,2026,H,CA,8,0,top2,R,top2,1,0,1,0,0,,,,,,,,0,
 2026-H-CA-09,2026,H,CA,9,0,top2,D,top2,1,0,1,0,0,,,,,,,,0,
 2026-H-CA-09,2026,H,CA,9,0,top2,R,top2,1,0,1,0,0,,,,,,,,0,
 2026-H-CA-10,2026,H,CA,10,0,top2,D,top2,1,0,1,0,0,,,,,,,,0,
-2026-H-CA-10,2026,H,CA,10,0,top2,R,top2,1,0,1,0,0,,,,,,,,0,
-2026-H-CA-11,2026,H,CA,11,0,top2,D,top2,2,1,1,0,0,,,,,,,,1,
-2026-H-CA-12,2026,H,CA,12,0,top2,D,top2,2,1,0,1,0,,,,,,,,0,
+2026-H-CA-10,2026,H,CA,10,0,top2,R,top2,3,2,1,0,0,,,,,,,,1,CAWP only
+2026-H-CA-11,2026,H,CA,11,0,top2,D,top2,3,2,1,0,0,,,,,,,,1,CAWP only
+2026-H-CA-12,2026,H,CA,12,0,top2,D,top2,2,2,0,0,0,,,,,,,,0,
 2026-H-CA-13,2026,H,CA,13,0,top2,D,top2,1,0,1,0,0,,,,,,,,0,
 2026-H-CA-13,2026,H,CA,13,0,top2,R,top2,1,0,1,0,0,,,,,,,,0,
-2026-H-CA-14,2026,H,CA,14,0,top2,D,top2,2,2,0,0,0,,,,,,,,0,
+2026-H-CA-14,2026,H,CA,14,0,top2,D,top2,4,4,0,0,0,,,,,,,,0,CAWP only
+2026-H-CA-14,2026,H,CA,14,0,top2,R,top2,2,2,0,0,0,,,,,,,,0,CAWP only
 2026-H-CA-15,2026,H,CA,15,0,top2,D,top2,1,0,1,0,0,,,,,,,,0,
 2026-H-CA-15,2026,H,CA,15,0,top2,R,top2,1,0,1,0,0,,,,,,,,0,
 2026-H-CA-16,2026,H,CA,16,0,top2,D,top2,1,0,1,0,0,,,,,,,,0,
 2026-H-CA-16,2026,H,CA,16,0,top2,R,top2,1,0,1,0,0,,,,,,,,0,
 2026-H-CA-17,2026,H,CA,17,0,top2,D,top2,1,0,1,0,0,,,,,,,,0,
-2026-H-CA-17,2026,H,CA,17,0,top2,R,top2,1,0,0,1,0,,,,,,,,0,
+2026-H-CA-17,2026,H,CA,17,0,top2,R,top2,2,1,1,0,0,,,,,,,,1,CAWP only
 2026-H-CA-18,2026,H,CA,18,0,top2,D,top2,1,1,0,0,0,,,,,,,,0,
 2026-H-CA-18,2026,H,CA,18,0,top2,R,top2,1,0,1,0,0,,,,,,,,0,
 2026-H-CA-19,2026,H,CA,19,0,top2,D,top2,1,0,1,0,0,,,,,,,,0,
@@ -16127,15 +16127,15 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2026-H-CA-20,2026,H,CA,20,0,top2,R,top2,1,0,1,0,0,,,,,,,,0,
 2026-H-CA-21,2026,H,CA,21,0,top2,D,top2,1,0,1,0,0,,,,,,,,0,
 2026-H-CA-21,2026,H,CA,21,0,top2,R,top2,1,0,1,0,0,,,,,,,,0,
-2026-H-CA-22,2026,H,CA,22,0,top2,D,top2,1,0,1,0,0,,,,,,,,0,
+2026-H-CA-22,2026,H,CA,22,0,top2,D,top2,2,1,1,0,0,,,,,,,,1,CAWP only
 2026-H-CA-22,2026,H,CA,22,0,top2,R,top2,1,0,1,0,0,,,,,,,,0,
 2026-H-CA-23,2026,H,CA,23,0,top2,D,top2,1,1,0,0,0,,,,,,,,0,
 2026-H-CA-23,2026,H,CA,23,0,top2,R,top2,1,0,1,0,0,,,,,,,,0,
-2026-H-CA-24,2026,H,CA,24,0,top2,D,top2,1,0,1,0,0,,,,,,,,0,
+2026-H-CA-24,2026,H,CA,24,0,top2,D,top2,2,1,1,0,0,,,,,,,,1,CAWP only
 2026-H-CA-24,2026,H,CA,24,0,top2,R,top2,1,0,1,0,0,,,,,,,,0,
 2026-H-CA-25,2026,H,CA,25,0,top2,D,top2,1,0,1,0,0,,,,,,,,0,
-2026-H-CA-25,2026,H,CA,25,0,top2,R,top2,1,0,1,0,0,,,,,,,,0,
-2026-H-CA-26,2026,H,CA,26,0,top2,D,top2,1,0,0,1,0,,,,,,,,0,
+2026-H-CA-25,2026,H,CA,25,0,top2,R,top2,2,1,1,0,0,,,,,,,,1,CAWP only
+2026-H-CA-26,2026,H,CA,26,0,top2,D,top2,2,2,0,0,0,,,,,,,,0,CAWP only
 2026-H-CA-26,2026,H,CA,26,0,top2,R,top2,1,0,1,0,0,,,,,,,,0,
 2026-H-CA-27,2026,H,CA,27,0,top2,D,top2,1,0,1,0,0,,,,,,,,0,
 2026-H-CA-27,2026,H,CA,27,0,top2,R,top2,1,0,1,0,0,,,,,,,,0,
@@ -16146,49 +16146,50 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2026-H-CA-30,2026,H,CA,30,0,top2,R,top2,1,0,1,0,0,,,,,,,,0,
 2026-H-CA-31,2026,H,CA,31,0,top2,D,top2,1,0,1,0,0,,,,,,,,0,
 2026-H-CA-31,2026,H,CA,31,0,top2,R,top2,1,0,1,0,0,,,,,,,,0,
-2026-H-CA-32,2026,H,CA,32,0,top2,D,top2,1,0,1,0,0,,,,,,,,0,
+2026-H-CA-32,2026,H,CA,32,0,top2,D,top2,3,2,1,0,0,,,,,,,,1,CAWP only
 2026-H-CA-32,2026,H,CA,32,0,top2,R,top2,1,0,1,0,0,,,,,,,,0,
 2026-H-CA-33,2026,H,CA,33,0,top2,D,top2,1,0,1,0,0,,,,,,,,0,
 2026-H-CA-33,2026,H,CA,33,0,top2,R,top2,1,1,0,0,0,,,,,,,,0,
 2026-H-CA-34,2026,H,CA,34,0,top2,D,top2,2,1,1,0,0,,,,,,,,1,
 2026-H-CA-35,2026,H,CA,35,0,top2,D,top2,1,1,0,0,0,,,,,,,,0,
 2026-H-CA-35,2026,H,CA,35,0,top2,R,top2,1,0,1,0,0,,,,,,,,0,
-2026-H-CA-36,2026,H,CA,36,0,top2,D,top2,1,0,1,0,0,,,,,,,,0,
-2026-H-CA-36,2026,H,CA,36,0,top2,R,top2,1,0,1,0,0,,,,,,,,0,
-2026-H-CA-37,2026,H,CA,37,0,top2,D,top2,2,2,0,0,0,,,,,,,,0,
-2026-H-CA-38,2026,H,CA,38,0,top2,D,top2,1,1,0,0,0,,,,,,,,0,
+2026-H-CA-36,2026,H,CA,36,0,top2,D,top2,2,1,1,0,0,,,,,,,,1,CAWP only
+2026-H-CA-36,2026,H,CA,36,0,top2,R,top2,2,1,1,0,0,,,,,,,,1,CAWP only
+2026-H-CA-37,2026,H,CA,37,0,top2,D,top2,3,3,0,0,0,,,,,,,,0,CAWP only
+2026-H-CA-38,2026,H,CA,38,0,top2,D,top2,2,2,0,0,0,,,,,,,,0,CAWP only
 2026-H-CA-38,2026,H,CA,38,0,top2,R,top2,1,0,1,0,0,,,,,,,,0,
 2026-H-CA-39,2026,H,CA,39,0,top2,D,top2,1,0,1,0,0,,,,,,,,0,
 2026-H-CA-39,2026,H,CA,39,0,top2,R,top2,1,0,1,0,0,,,,,,,,0,
+2026-H-CA-40,2026,H,CA,40,0,top2,D,top2,2,2,0,0,0,,,,,,,,0,CAWP only
 2026-H-CA-40,2026,H,CA,40,0,top2,R,top2,2,1,1,0,0,,,,,,,,1,
-2026-H-CA-41,2026,H,CA,41,0,top2,D,top2,1,1,0,0,0,,,,,,,,0,
+2026-H-CA-41,2026,H,CA,41,0,top2,D,top2,2,2,0,0,0,,,,,,,,0,CAWP only
 2026-H-CA-41,2026,H,CA,41,0,top2,R,top2,1,0,1,0,0,,,,,,,,0,
 2026-H-CA-42,2026,H,CA,42,0,top2,D,top2,1,0,1,0,0,,,,,,,,0,
 2026-H-CA-42,2026,H,CA,42,0,top2,R,top2,1,0,1,0,0,,,,,,,,0,
-2026-H-CA-43,2026,H,CA,43,0,top2,D,top2,1,1,0,0,0,,,,,,,,0,
+2026-H-CA-43,2026,H,CA,43,0,top2,D,top2,2,2,0,0,0,,,,,,,,0,CAWP only
 2026-H-CA-43,2026,H,CA,43,0,top2,R,top2,1,0,1,0,0,,,,,,,,0,
 2026-H-CA-44,2026,H,CA,44,0,top2,D,top2,1,1,0,0,0,,,,,,,,0,
 2026-H-CA-44,2026,H,CA,44,0,top2,R,top2,1,1,0,0,0,,,,,,,,0,
 2026-H-CA-45,2026,H,CA,45,0,top2,D,top2,1,0,1,0,0,,,,,,,,0,
-2026-H-CA-45,2026,H,CA,45,0,top2,R,top2,1,0,0,1,0,,,,,,,,0,
-2026-H-CA-46,2026,H,CA,46,0,top2,D,top2,1,1,0,0,0,,,,,,,,0,
+2026-H-CA-45,2026,H,CA,45,0,top2,R,top2,2,1,1,0,0,,,,,,,,1,CAWP only
+2026-H-CA-46,2026,H,CA,46,0,top2,D,top2,1,0,1,0,0,,,,,,,,0,
 2026-H-CA-46,2026,H,CA,46,0,top2,R,top2,1,0,1,0,0,,,,,,,,0,
 2026-H-CA-47,2026,H,CA,47,0,top2,D,top2,1,0,1,0,0,,,,,,,,0,
 2026-H-CA-47,2026,H,CA,47,0,top2,R,top2,1,1,0,0,0,,,,,,,,0,
-2026-H-CA-48,2026,H,CA,48,0,top2,D,top2,1,1,0,0,0,,,,,,,,0,
+2026-H-CA-48,2026,H,CA,48,0,top2,D,top2,2,2,0,0,0,,,,,,,,0,CAWP only
 2026-H-CA-48,2026,H,CA,48,0,top2,R,top2,1,0,1,0,0,,,,,,,,0,
 2026-H-CA-49,2026,H,CA,49,0,top2,D,top2,1,0,1,0,0,,,,,,,,0,
-2026-H-CA-49,2026,H,CA,49,0,top2,R,top2,1,0,0,1,0,,,,,,,,0,
-2026-H-CA-50,2026,H,CA,50,0,top2,D,top2,1,0,1,0,0,,,,,,,,0,
+2026-H-CA-49,2026,H,CA,49,0,top2,R,top2,2,1,1,0,0,,,,,,,,1,CAWP only
+2026-H-CA-50,2026,H,CA,50,0,top2,D,top2,2,1,1,0,0,,,,,,,,1,CAWP only
 2026-H-CA-50,2026,H,CA,50,0,top2,R,top2,1,0,1,0,0,,,,,,,,0,
 2026-H-CA-51,2026,H,CA,51,0,top2,D,top2,1,1,0,0,0,,,,,,,,0,
 2026-H-CA-51,2026,H,CA,51,0,top2,R,top2,1,0,1,0,0,,,,,,,,0,
-2026-H-CA-52,2026,H,CA,52,0,top2,D,top2,1,0,1,0,0,,,,,,,,0,
+2026-H-CA-52,2026,H,CA,52,0,top2,D,top2,2,1,1,0,0,,,,,,,,1,CAWP only
 2026-H-CA-52,2026,H,CA,52,0,top2,R,top2,1,0,1,0,0,,,,,,,,0,
 2026-H-CO-01,2026,H,CO,1,0,party,D,contested,3,3,0,0,1,F,Melat Kiros,F,53.2,1.0,53.2,,0,Wikipedia
 2026-H-CO-01,2026,H,CO,1,0,party,R,uncontested,1,1,0,0,0,,Christy Peterson,F,100.0,1.0,100.0,,0,Wikipedia
 2026-H-CO-02,2026,H,CO,2,0,party,D,uncontested,1,0,1,0,1,M,Joe Neguse,M,100.0,0.0,,100.0,0,Wikipedia
-2026-H-CO-02,2026,H,CO,2,0,party,R,contested,2,1,0,1,0,,Kelley Dennison,,57.9,,42.1,,0,Wikipedia
+2026-H-CO-02,2026,H,CO,2,0,party,R,contested,2,2,0,0,0,,Kelley Dennison,F,57.9,1.0,57.9,,0,Wikipedia
 2026-H-CO-03,2026,H,CO,3,0,party,D,contested,2,0,2,0,0,,Dwayne Romero,M,54.8,0.0,,54.8,0,Wikipedia
 2026-H-CO-03,2026,H,CO,3,0,party,R,contested,2,0,2,0,1,M,Jeff Hurd,M,66.4,0.0,,66.4,0,Wikipedia
 2026-H-CO-04,2026,H,CO,4,0,party,D,uncontested,1,1,0,0,0,,Eileen Laubacher,F,100.0,1.0,100.0,,0,Wikipedia
@@ -16199,76 +16200,76 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2026-H-CO-06,2026,H,CO,6,0,party,R,uncontested,1,0,1,0,0,,Jason Clark,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-CO-07,2026,H,CO,7,0,party,D,uncontested,1,1,0,0,1,F,Brittany Pettersen,F,100.0,1.0,100.0,,0,Wikipedia
 2026-H-CO-07,2026,H,CO,7,0,party,R,uncontested,1,0,1,0,0,,Tim Bennett,M,100.0,0.0,,100.0,0,Wikipedia
-2026-H-CO-08,2026,H,CO,8,0,party,D,contested,3,1,1,1,0,,Manny Rutinel,,62.8,,32.5,4.6,1,Wikipedia
+2026-H-CO-08,2026,H,CO,8,0,party,D,contested,3,1,2,0,0,,Manny Rutinel,M,62.8,0.0,32.5,62.8,1,Wikipedia
 2026-H-CO-08,2026,H,CO,8,0,party,R,uncontested,1,0,1,0,1,M,Gabe Evans,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-CT-01,2026,H,CT,1,0,party,D,contested,4,2,2,0,1,M,Luke Bronin,M,53.6,0.0,8.2,53.6,1,Wikipedia
 2026-H-CT-01,2026,H,CT,1,0,party,R,uncontested,1,1,0,0,0,,Amy Chai,F,,1.0,,,0,
 2026-H-CT-02,2026,H,CT,2,0,party,D,uncontested,1,0,1,0,0,,Joe Courtney,M,,0.0,,,0,
 2026-H-CT-02,2026,H,CT,2,0,party,R,uncontested,1,0,1,0,0,,George Austin,M,,0.0,,,0,
 2026-H-CT-03,2026,H,CT,3,0,party,D,uncontested,1,1,0,0,0,,Rosa DeLauro,F,,1.0,,,0,
-2026-H-CT-03,2026,H,CT,3,0,party,R,uncontested,1,0,0,1,0,,Chris Lancia,,,,,,0,
+2026-H-CT-03,2026,H,CT,3,0,party,R,uncontested,1,0,1,0,0,,Chris Lancia,M,,0.0,,,0,
 2026-H-CT-04,2026,H,CT,4,0,party,D,uncontested,1,0,1,0,0,,Jim Himes,M,,0.0,,,0,
 2026-H-CT-04,2026,H,CT,4,0,party,R,contested,2,0,2,0,0,,Michael Goldstein,M,74.3,0.0,,74.3,0,Wikipedia
 2026-H-CT-05,2026,H,CT,5,0,party,D,uncontested,1,1,0,0,0,,Jahana Hayes,F,,1.0,,,0,
-2026-H-CT-05,2026,H,CT,5,0,party,R,contested,2,0,1,1,0,,Chris Shea,,81.0,,,19.0,0,Wikipedia
+2026-H-CT-05,2026,H,CT,5,0,party,R,contested,2,0,2,0,0,,Chris Shea,M,81.0,0.0,,81.0,0,Wikipedia
 2026-H-DE-00,2026,H,DE,0,0,party,D,uncontested,1,1,0,0,0,,Sarah McBride,F,,1.0,,,0,
 2026-H-DE-00,2026,H,DE,0,0,party,R,contested,3,0,3,0,0,,Joseph Arminio,M,47.9,0.0,,47.9,0,Wikipedia
 2026-H-FL-01,2026,H,FL,1,0,party,D,uncontested,1,1,0,0,0,,Gay Valimont,F,,1.0,,,0,
 2026-H-FL-01,2026,H,FL,1,0,party,R,contested,3,0,3,0,1,M,Jimmy Patronis,M,71.1,0.0,,71.1,0,Wikipedia
-2026-H-FL-02,2026,H,FL,2,0,party,D,contested,4,2,2,0,0,,Amanda Green,F,33.5,1.0,33.5,27.0,1,Wikipedia
-2026-H-FL-02,2026,H,FL,2,0,party,R,contested,8,0,6,2,0,,Austin Rogers,M,30.5,0.0,,30.5,0,Wikipedia
+2026-H-FL-02,2026,H,FL,2,0,party,D,contested,4,3,1,0,0,,Amanda Green,F,33.5,1.0,33.5,11.6,1,Wikipedia
+2026-H-FL-02,2026,H,FL,2,0,party,R,contested,8,0,8,0,0,,Austin Rogers,M,30.5,0.0,,30.5,0,Wikipedia
 2026-H-FL-03,2026,H,FL,3,0,party,D,contested,4,0,4,0,0,,Seth Harp,M,45.2,0.0,,45.2,0,Wikipedia
 2026-H-FL-03,2026,H,FL,3,0,party,R,uncontested,1,1,0,0,1,F,Kat Cammack,F,,1.0,,,0,
-2026-H-FL-04,2026,H,FL,4,0,party,D,contested,3,1,1,1,0,,"LaShonda ""L.J."" Holloway",F,57.3,1.0,57.3,30.4,1,Wikipedia
+2026-H-FL-04,2026,H,FL,4,0,party,D,contested,3,2,1,0,0,,"LaShonda ""L.J."" Holloway",F,57.3,1.0,57.3,30.4,1,Wikipedia
 2026-H-FL-04,2026,H,FL,4,0,party,R,uncontested,1,0,1,0,1,M,Aaron Bean,M,,0.0,,,0,
 2026-H-FL-05,2026,H,FL,5,0,party,D,contested,3,1,2,0,0,,Rachel Grage,F,65.1,1.0,65.1,21.6,1,Wikipedia
 2026-H-FL-05,2026,H,FL,5,0,party,R,contested,2,0,2,0,1,M,John Rutherford,M,67.7,0.0,,67.7,0,Wikipedia
 2026-H-FL-06,2026,H,FL,6,0,party,D,contested,4,0,4,0,0,,Eric Yonce,M,32.1,0.0,,32.1,0,Wikipedia
 2026-H-FL-06,2026,H,FL,6,0,party,R,contested,4,0,4,0,1,M,Randy Fine,M,57.6,0.0,,57.6,0,Wikipedia
-2026-H-FL-07,2026,H,FL,7,0,party,D,contested,3,0,1,2,0,,Bale Dalton,,45.5,,,18.9,0,Wikipedia
+2026-H-FL-07,2026,H,FL,7,0,party,D,contested,3,1,2,0,0,,Bale Dalton,M,45.5,0.0,35.6,45.5,1,Wikipedia
 2026-H-FL-07,2026,H,FL,7,0,party,R,contested,4,1,3,0,1,M,Ryan Elijah,M,47.3,0.0,10.5,47.3,1,Wikipedia
-2026-H-FL-08,2026,H,FL,8,0,party,D,uncontested,2,2,0,0,0,,,,,,,,0,
-2026-H-FL-08,2026,H,FL,8,0,party,R,uncontested,2,0,2,0,1,M,,,,,,,0,
+2026-H-FL-08,2026,H,FL,8,0,party,D,uncontested,1,1,0,0,0,,Jennifer Jenkins,F,,1.0,,,0,
+2026-H-FL-08,2026,H,FL,8,0,party,R,uncontested,1,0,1,0,1,M,Mike Haridopolos,M,,0.0,,,0,
 2026-H-FL-09,2026,H,FL,9,0,party,D,uncontested,1,0,1,0,1,M,Darren Soto,M,,0.0,,,0,
 2026-H-FL-09,2026,H,FL,9,0,party,R,contested,7,0,7,0,0,,Dan Green,M,25.4,0.0,,25.4,0,Wikipedia
 2026-H-FL-10,2026,H,FL,10,0,party,D,uncontested,1,0,1,0,1,M,Maxwell Frost,M,,0.0,,,0,
 2026-H-FL-11,2026,H,FL,11,0,party,D,contested,3,0,3,0,0,,James Pericola,M,46.3,0.0,,46.3,0,Wikipedia
-2026-H-FL-11,2026,H,FL,11,0,party,R,contested,5,1,3,1,0,,Joe Strada,M,33.5,0.0,2.2,33.5,1,Wikipedia
+2026-H-FL-11,2026,H,FL,11,0,party,R,contested,5,1,4,0,0,,Joe Strada,M,33.5,0.0,2.2,33.5,1,Wikipedia
 2026-H-FL-12,2026,H,FL,12,0,party,D,contested,2,1,1,0,0,,Kimberly Overman,F,52.7,1.0,52.7,47.3,1,Wikipedia
-2026-H-FL-12,2026,H,FL,12,0,party,R,uncontested,1,0,1,0,0,,Gus Bilirakis,M,,0.0,,,0,
-2026-H-FL-13,2026,H,FL,13,0,party,D,contested,3,0,2,1,0,,Leela Gray,,65.0,,,26.4,0,Wikipedia
+2026-H-FL-12,2026,H,FL,12,0,party,R,uncontested,1,0,1,0,1,M,Gus Bilirakis,M,,0.0,,,0,
+2026-H-FL-13,2026,H,FL,13,0,party,D,contested,3,1,2,0,0,,Leela Gray,F,65.0,1.0,65.0,26.4,1,Wikipedia
 2026-H-FL-13,2026,H,FL,13,0,party,R,uncontested,1,1,0,0,1,F,Anna Paulina Luna,F,,1.0,,,0,
 2026-H-FL-14,2026,H,FL,14,0,party,D,uncontested,1,1,0,0,1,F,Kathy Castor,F,,1.0,,,0,
-2026-H-FL-14,2026,H,FL,14,0,party,R,contested,8,0,5,3,0,,Mike Beltran,M,45.6,0.0,,45.6,0,Wikipedia
-2026-H-FL-15,2026,H,FL,15,0,party,D,contested,2,0,1,1,0,,Robert People,M,53.6,0.0,,53.6,0,Wikipedia
+2026-H-FL-14,2026,H,FL,14,0,party,R,contested,8,1,7,0,0,,Mike Beltran,M,45.6,0.0,9.6,45.6,1,Wikipedia
+2026-H-FL-15,2026,H,FL,15,0,party,D,contested,2,0,2,0,0,,Robert People,M,53.6,0.0,,53.6,0,Wikipedia
 2026-H-FL-15,2026,H,FL,15,0,party,R,uncontested,1,1,0,0,1,F,Laurel Lee,F,,1.0,,,0,
-2026-H-FL-16,2026,H,FL,16,0,party,D,contested,5,2,2,1,0,,Kelly Kirschner,,43.0,,19.9,12.5,1,Wikipedia
-2026-H-FL-16,2026,H,FL,16,0,party,R,contested,3,1,1,1,0,,Sydney Gruters,F,63.4,1.0,63.4,15.3,1,Wikipedia
+2026-H-FL-16,2026,H,FL,16,0,party,D,contested,5,2,3,0,0,,Kelly Kirschner,M,43.0,0.0,19.9,43.0,1,Wikipedia
+2026-H-FL-16,2026,H,FL,16,0,party,R,contested,3,1,2,0,0,,Sydney Gruters,F,63.4,1.0,63.4,21.3,1,Wikipedia
 2026-H-FL-17,2026,H,FL,17,0,party,D,contested,2,0,2,0,0,,Matthew Montavon,M,55.4,0.0,,55.4,0,Wikipedia
 2026-H-FL-17,2026,H,FL,17,0,party,R,uncontested,1,0,1,0,1,M,Greg Steube,M,,0.0,,,0,
 2026-H-FL-18,2026,H,FL,18,0,party,D,uncontested,1,0,1,0,0,,Curtis Gibson,M,,0.0,,,0,
 2026-H-FL-18,2026,H,FL,18,0,party,R,uncontested,1,0,1,0,1,M,Scott Franklin,M,,0.0,,,0,
 2026-H-FL-19,2026,H,FL,19,0,party,D,contested,3,0,3,0,0,,Victor Arias,M,45.5,0.0,,45.5,0,Wikipedia
 2026-H-FL-19,2026,H,FL,19,0,party,R,contested,10,3,7,0,0,,Jim Schwartzel,M,29.1,0.0,22.0,29.1,1,Wikipedia
-2026-H-FL-20,2026,H,FL,20,0,party,D,contested,5,2,2,1,1,F,Debbie Wasserman Schultz,F,45.3,1.0,45.3,13.9,1,Wikipedia
+2026-H-FL-20,2026,H,FL,20,0,party,D,contested,5,2,3,0,1,F,Debbie Wasserman Schultz,F,45.3,1.0,45.3,23.1,1,Wikipedia
 2026-H-FL-20,2026,H,FL,20,0,party,R,contested,4,2,2,0,0,,Brent Andersen,M,53.8,0.0,19.5,53.8,1,Wikipedia
 2026-H-FL-21,2026,H,FL,21,0,party,D,contested,2,0,2,0,0,,James Martin,M,50.4,0.0,,50.4,0,Wikipedia
 2026-H-FL-21,2026,H,FL,21,0,party,R,uncontested,1,0,1,0,1,M,Brian Mast,M,,0.0,,,0,
-2026-H-FL-22,2026,H,FL,22,0,party,D,contested,2,0,0,2,0,,Pia Dandiya,,68.6,,,,0,Wikipedia
-2026-H-FL-22,2026,H,FL,22,0,party,R,contested,7,2,4,1,0,,Casey Askar,,30.9,,18.3,18.9,1,Wikipedia
+2026-H-FL-22,2026,H,FL,22,0,party,D,contested,2,2,0,0,0,,Pia Dandiya,F,68.6,1.0,68.6,,0,Wikipedia
+2026-H-FL-22,2026,H,FL,22,0,party,R,contested,7,2,5,0,0,,Casey Askar,M,30.9,0.0,18.3,30.9,1,Wikipedia
 2026-H-FL-23,2026,H,FL,23,0,party,D,contested,3,2,1,0,1,F,Lois Frankel,F,74.7,1.0,74.7,1.9,1,Wikipedia
 2026-H-FL-23,2026,H,FL,23,0,party,R,contested,2,2,0,0,0,,Deborah Adeimy,F,73.7,1.0,73.7,,0,Wikipedia
-2026-H-FL-24,2026,H,FL,24,0,party,D,contested,7,1,6,0,0,,Oliver Gilbert,M,34.3,0.0,5.3,34.3,1,Wikipedia
-2026-H-FL-24,2026,H,FL,24,0,party,R,uncontested,1,0,0,1,0,,Mayonna Te Brown,,,,,,0,
+2026-H-FL-24,2026,H,FL,24,0,party,D,contested,7,0,6,1,0,,Oliver Gilbert,M,34.3,0.0,,34.3,0,Wikipedia
+2026-H-FL-24,2026,H,FL,24,0,party,R,uncontested,1,1,0,0,0,,Mayonna Te Brown,F,,1.0,,,0,
 2026-H-FL-25,2026,H,FL,25,0,party,D,contested,2,0,2,0,1,M,Jared Moskowitz,M,63.5,0.0,,63.5,0,Wikipedia
 2026-H-FL-25,2026,H,FL,25,0,party,R,contested,5,1,4,0,0,,Scott Singer,M,31.4,0.0,3.1,31.4,1,Wikipedia
 2026-H-FL-26,2026,H,FL,26,0,party,D,uncontested,1,1,0,0,0,,Nicole Locklin,F,,1.0,,,0,
 2026-H-FL-26,2026,H,FL,26,0,party,R,uncontested,1,0,1,0,1,M,Mario Díaz-Balart,M,,0.0,,,0,
-2026-H-FL-27,2026,H,FL,27,0,party,D,contested,2,0,1,1,0,,Eliott Rodriguez,M,53.5,0.0,,53.5,0,Wikipedia
+2026-H-FL-27,2026,H,FL,27,0,party,D,contested,2,0,2,0,0,,Eliott Rodriguez,M,53.5,0.0,,53.5,0,Wikipedia
 2026-H-FL-27,2026,H,FL,27,0,party,R,contested,2,1,1,0,1,F,Maria Elvira Salazar,F,81.3,1.0,81.3,18.7,1,Wikipedia
 2026-H-FL-28,2026,H,FL,28,0,party,D,uncontested,1,0,1,0,0,,Phil Ehr,M,,0.0,,,0,
 2026-H-FL-28,2026,H,FL,28,0,party,R,uncontested,1,0,1,0,1,M,Carlos Giménez,M,,0.0,,,0,
-2026-H-GA-01,2026,H,GA,1,0,party,D,runoff,8,3,4,1,0,,Amanda Hollowell,F,53.0,1.0,34.5,7.0,1,Wikipedia
+2026-H-GA-01,2026,H,GA,1,0,party,D,runoff,8,3,5,0,0,,Amanda Hollowell,F,53.0,1.0,34.5,9.4,1,Wikipedia
 2026-H-GA-01,2026,H,GA,1,0,party,R,contested,6,2,4,0,0,,Jim Kingston,M,52.4,0.0,12.6,52.4,1,Wikipedia
 2026-H-GA-02,2026,H,GA,2,0,party,D,uncontested,1,0,1,0,1,M,Sanford Bishop,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-GA-02,2026,H,GA,2,0,party,R,uncontested,1,0,1,0,0,,Matt Day,M,100.0,0.0,,100.0,0,Wikipedia
@@ -16276,29 +16277,29 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2026-H-GA-03,2026,H,GA,3,0,party,R,uncontested,1,0,1,0,1,M,Brian Jack,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-GA-04,2026,H,GA,4,0,party,D,contested,3,0,3,0,1,M,Hank Johnson,M,79.3,0.0,,79.3,0,Wikipedia
 2026-H-GA-04,2026,H,GA,4,0,party,R,uncontested,2,0,2,0,0,,James Duffie,M,100.0,0.0,,100.0,0,Wikipedia
-2026-H-GA-05,2026,H,GA,5,0,party,D,contested,2,1,0,1,1,F,Nikema Williams,F,88.0,1.0,88.0,,0,Wikipedia
+2026-H-GA-05,2026,H,GA,5,0,party,D,contested,2,2,0,0,1,F,Nikema Williams,F,88.0,1.0,88.0,,0,Wikipedia
 2026-H-GA-05,2026,H,GA,5,0,party,R,uncontested,1,0,1,0,0,,John Salvesen,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-GA-06,2026,H,GA,6,0,party,D,uncontested,1,1,0,0,1,F,Lucy McBath,F,100.0,1.0,100.0,,0,Wikipedia
 2026-H-GA-06,2026,H,GA,6,0,party,R,contested,2,0,2,0,0,,Kevin Martin,M,70.1,0.0,,70.1,0,Wikipedia
-2026-H-GA-07,2026,H,GA,7,0,party,D,runoff,4,0,3,1,0,,Anthony Kozycki,M,67.7,0.0,,39.9,0,Wikipedia
+2026-H-GA-07,2026,H,GA,7,0,party,D,runoff,4,0,4,0,0,,Anthony Kozycki,M,67.7,0.0,,39.9,0,Wikipedia
 2026-H-GA-07,2026,H,GA,7,0,party,R,uncontested,1,0,1,0,1,M,Rich McCormick,M,100.0,0.0,,100.0,0,Wikipedia
-2026-H-GA-08,2026,H,GA,8,0,party,D,contested,2,0,1,1,0,,Kelly Esti,,53.5,,,46.5,0,Wikipedia
+2026-H-GA-08,2026,H,GA,8,0,party,D,contested,2,0,2,0,0,,Kelly Esti,M,53.5,0.0,,53.5,0,Wikipedia
 2026-H-GA-08,2026,H,GA,8,0,party,R,uncontested,1,0,1,0,1,M,Austin Scott,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-GA-09,2026,H,GA,9,0,party,D,contested,3,2,1,0,0,,Caitlyn Gegen,F,60.0,1.0,60.0,40.0,1,Wikipedia
 2026-H-GA-09,2026,H,GA,9,0,party,R,contested,3,0,3,0,1,M,Andrew Clyde,M,76.0,0.0,,76.0,0,Wikipedia
 2026-H-GA-10,2026,H,GA,10,0,party,D,contested,3,2,1,0,0,,Pamela DeLancy,F,54.4,1.0,54.4,6.2,1,Wikipedia
 2026-H-GA-10,2026,H,GA,10,0,party,R,contested,3,0,3,0,0,,Houston Gaines,M,66.9,0.0,,66.9,0,Wikipedia
-2026-H-GA-11,2026,H,GA,11,0,party,D,contested,2,0,1,1,0,,Chris Harden,,74.8,,,25.2,0,Wikipedia
+2026-H-GA-11,2026,H,GA,11,0,party,D,contested,2,0,2,0,0,,Chris Harden,M,74.8,0.0,,74.8,0,Wikipedia
 2026-H-GA-11,2026,H,GA,11,0,party,R,runoff,7,3,4,0,0,,John Cowan,M,65.0,0.0,19.0,42.6,1,Wikipedia
-2026-H-GA-12,2026,H,GA,12,0,party,D,runoff,5,2,0,3,0,,Ceretta Smith,,55.8,,26.7,,0,Wikipedia
+2026-H-GA-12,2026,H,GA,12,0,party,D,runoff,5,4,1,0,0,,Ceretta Smith,F,55.8,1.0,32.8,10.7,1,Wikipedia
 2026-H-GA-12,2026,H,GA,12,0,party,R,contested,2,1,1,0,1,M,Rick Allen,M,83.4,0.0,16.6,83.4,1,Wikipedia
-2026-H-GA-13,2026,H,GA,13,0,party,D,contested,6,1,4,1,0,,Jasmine Clark,F,56.1,1.0,56.1,11.6,1,Wikipedia
+2026-H-GA-13,2026,H,GA,13,0,party,D,contested,6,2,4,0,0,,Jasmine Clark,F,56.1,1.0,56.1,11.6,1,Wikipedia
 2026-H-GA-13,2026,H,GA,13,0,party,R,uncontested,1,0,1,0,0,,Jonathan Chavez,M,100.0,0.0,,100.0,0,Wikipedia
-2026-H-GA-14,2026,H,GA,14,0,party,D,uncontested,1,0,0,1,0,,Shawn Harris,,100.0,,,,0,Wikipedia
-2026-H-GA-14,2026,H,GA,14,0,party,R,contested,8,1,6,1,1,M,Clay Fuller,M,81.3,0.0,1.7,81.3,1,Wikipedia
+2026-H-GA-14,2026,H,GA,14,0,party,D,uncontested,1,0,1,0,0,,Shawn Harris,M,100.0,0.0,,100.0,0,Wikipedia
+2026-H-GA-14,2026,H,GA,14,0,party,R,contested,8,2,6,0,1,M,Clay Fuller,M,81.3,0.0,1.7,81.3,1,Wikipedia
 2026-H-HI-01,2026,H,HI,1,0,party,D,contested,5,1,4,0,1,M,Ed Case,M,58.5,0.0,2.2,58.5,1,Wikipedia
 2026-H-HI-01,2026,H,HI,1,0,party,R,uncontested,1,0,1,0,0,,Adriel Lam,M,100.0,0.0,,100.0,0,Wikipedia
-2026-H-HI-02,2026,H,HI,2,0,party,D,contested,4,1,2,1,1,F,Jill Tokuda,F,91.5,1.0,91.5,3.9,1,Wikipedia
+2026-H-HI-02,2026,H,HI,2,0,party,D,contested,4,1,3,0,1,F,Jill Tokuda,F,91.5,1.0,91.5,3.9,1,Wikipedia
 2026-H-HI-02,2026,H,HI,2,0,party,R,uncontested,1,0,1,0,0,,Brenton Awa,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-IA-01,2026,H,IA,1,0,party,D,contested,2,1,1,0,0,,Christina Bohannan,F,81.5,1.0,81.5,18.5,1,Wikipedia
 2026-H-IA-01,2026,H,IA,1,0,party,R,contested,2,1,1,0,1,F,Mariannette Miller-Meeks,F,71.5,1.0,71.5,28.4,1,Wikipedia
@@ -16307,33 +16308,33 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2026-H-IA-03,2026,H,IA,3,0,party,D,uncontested,1,1,0,0,0,,Sarah Trone Garriott,F,100.0,1.0,100.0,,0,Wikipedia
 2026-H-IA-03,2026,H,IA,3,0,party,R,uncontested,1,0,1,0,1,M,Zach Nunn,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-IA-04,2026,H,IA,4,0,party,D,contested,3,2,1,0,0,,David Dawson,M,39.1,0.0,30.6,39.1,1,Wikipedia
-2026-H-IA-04,2026,H,IA,4,0,party,R,uncontested,1,0,0,1,0,,Chris McGowan,,100.0,,,,0,Wikipedia
+2026-H-IA-04,2026,H,IA,4,0,party,R,uncontested,1,0,1,0,0,,Chris McGowan,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-ID-01,2026,H,ID,1,0,party,D,contested,2,1,1,0,0,,Kaylee Peterson,F,87.1,1.0,87.1,12.9,1,Wikipedia
 2026-H-ID-01,2026,H,ID,1,0,party,R,contested,3,0,3,0,1,M,Russ Fulcher,M,78.2,0.0,,78.2,0,Wikipedia
-2026-H-ID-02,2026,H,ID,2,0,party,D,contested,3,3,0,0,0,,Elinor Gilbreath,F,72.5,1.0,72.5,,0,Wikipedia
+2026-H-ID-02,2026,H,ID,2,0,party,D,contested,2,2,0,0,0,,Elinor Gilbreath,F,72.5,1.0,72.5,,0,Wikipedia
 2026-H-ID-02,2026,H,ID,2,0,party,R,contested,3,0,3,0,1,M,Mike Simpson,M,63.3,0.0,,63.3,0,Wikipedia
 2026-H-IL-01,2026,H,IL,1,0,party,D,uncontested,1,0,1,0,1,M,Jonathan Jackson,M,100.0,0.0,,100.0,0,Wikipedia
-2026-H-IL-01,2026,H,IL,1,0,party,R,contested,2,0,1,1,0,,Christian Maxwell,,64.5,,,35.5,0,Wikipedia
-2026-H-IL-02,2026,H,IL,2,0,party,D,contested,10,2,5,3,0,,Donna Miller,F,40.4,1.0,40.4,28.9,1,Wikipedia
+2026-H-IL-01,2026,H,IL,1,0,party,R,contested,2,0,2,0,0,,Christian Maxwell,M,64.5,0.0,,64.5,0,Wikipedia
+2026-H-IL-02,2026,H,IL,2,0,party,D,contested,10,3,7,0,0,,Donna Miller,F,40.4,1.0,40.4,28.9,1,Wikipedia
 2026-H-IL-02,2026,H,IL,2,0,party,R,uncontested,1,0,1,0,0,,Michael Noack,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-IL-03,2026,H,IL,3,0,party,D,uncontested,1,1,0,0,1,F,Delia Ramirez,F,100.0,1.0,100.0,,0,Wikipedia
-2026-H-IL-03,2026,H,IL,3,0,party,R,uncontested,1,0,0,1,0,,Angel Oakley,,100.0,,,,0,Wikipedia
+2026-H-IL-03,2026,H,IL,3,0,party,R,uncontested,1,1,0,0,0,,Angel Oakley,F,100.0,1.0,100.0,,0,Wikipedia
 2026-H-IL-04,2026,H,IL,4,0,party,D,uncontested,1,1,0,0,0,,Patty Garcia,F,100.0,1.0,100.0,,0,Wikipedia
 2026-H-IL-04,2026,H,IL,4,0,party,R,uncontested,1,1,0,0,0,,Lupe Castillo,F,100.0,1.0,100.0,,0,Wikipedia
 2026-H-IL-05,2026,H,IL,5,0,party,D,contested,4,1,3,0,1,M,Mike Quigley,M,64.8,0.0,7.3,64.8,1,Wikipedia
 2026-H-IL-05,2026,H,IL,5,0,party,R,contested,3,0,3,0,0,,Tommy Hanson,M,72.0,0.0,,72.0,0,Wikipedia
-2026-H-IL-06,2026,H,IL,6,0,party,D,contested,2,0,1,1,1,M,Sean Casten,M,75.8,0.0,,75.8,0,Wikipedia
-2026-H-IL-06,2026,H,IL,6,0,party,R,contested,2,1,0,1,0,,Niki Conforti,F,82.2,1.0,82.2,,0,Wikipedia
+2026-H-IL-06,2026,H,IL,6,0,party,D,contested,2,0,2,0,1,M,Sean Casten,M,75.8,0.0,,75.8,0,Wikipedia
+2026-H-IL-06,2026,H,IL,6,0,party,R,contested,2,1,1,0,0,,Niki Conforti,F,82.2,1.0,82.2,17.8,1,Wikipedia
 2026-H-IL-07,2026,H,IL,7,0,party,D,contested,13,4,9,0,0,,La Shawn Ford,M,23.7,0.0,20.5,23.7,1,Wikipedia
 2026-H-IL-07,2026,H,IL,7,0,party,R,contested,2,1,1,0,0,,Chad Koppie,M,65.0,0.0,35.0,65.0,1,Wikipedia
-2026-H-IL-08,2026,H,IL,8,0,party,D,contested,8,2,4,2,0,,Melissa Bean,F,31.6,1.0,31.6,12.6,1,Wikipedia
+2026-H-IL-08,2026,H,IL,8,0,party,D,contested,8,3,5,0,0,,Melissa Bean,F,31.6,1.0,31.6,26.9,1,Wikipedia
 2026-H-IL-08,2026,H,IL,8,0,party,R,contested,4,1,3,0,0,,Jennifer Davis,F,51.4,1.0,51.4,40.2,1,Wikipedia
 2026-H-IL-09,2026,H,IL,9,0,party,D,contested,15,5,10,0,0,,Daniel Biss,M,29.4,0.0,26.3,29.4,1,Wikipedia
 2026-H-IL-09,2026,H,IL,9,0,party,R,contested,4,1,3,0,0,,John Elleson,M,48.9,0.0,9.5,48.9,1,Wikipedia
-2026-H-IL-10,2026,H,IL,10,0,party,D,contested,2,0,1,1,1,M,Brad Schneider,M,78.8,0.0,,78.8,0,Wikipedia
+2026-H-IL-10,2026,H,IL,10,0,party,D,contested,2,0,2,0,1,M,Brad Schneider,M,78.8,0.0,,78.8,0,Wikipedia
 2026-H-IL-10,2026,H,IL,10,0,party,R,uncontested,1,0,1,0,0,,Carl Lambrecht,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-IL-11,2026,H,IL,11,0,party,D,uncontested,1,0,1,0,1,M,Bill Foster,M,100.0,0.0,,100.0,0,Wikipedia
-2026-H-IL-11,2026,H,IL,11,0,party,R,contested,4,0,3,1,0,,Jeff Walter,M,42.6,0.0,,42.6,0,Wikipedia
+2026-H-IL-11,2026,H,IL,11,0,party,R,contested,4,1,3,0,0,,Jeff Walter,M,42.6,0.0,5.7,42.6,1,Wikipedia
 2026-H-IL-12,2026,H,IL,12,0,party,D,uncontested,1,1,0,0,0,,Julie Fortier,F,100.0,1.0,100.0,,0,Wikipedia
 2026-H-IL-12,2026,H,IL,12,0,party,R,uncontested,1,0,1,0,1,M,Mike Bost,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-IL-13,2026,H,IL,13,0,party,D,contested,2,1,1,0,1,F,Nikki Budzinski,F,75.1,1.0,75.1,24.9,1,Wikipedia
@@ -16346,23 +16347,23 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2026-H-IL-16,2026,H,IL,16,0,party,R,uncontested,1,0,1,0,1,M,Darin LaHood,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-IL-17,2026,H,IL,17,0,party,D,uncontested,1,0,1,0,1,M,Eric Sorensen,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-IL-17,2026,H,IL,17,0,party,R,contested,2,1,1,0,0,,Dillan Vancil,M,58.4,0.0,41.6,58.4,1,Wikipedia
-2026-H-IN-01,2026,H,IN,1,0,party,D,contested,2,0,1,1,1,M,Frank Mrvan,M,80.2,0.0,,80.2,0,Wikipedia
+2026-H-IN-01,2026,H,IN,1,0,party,D,contested,2,1,1,0,1,M,Frank Mrvan,M,80.2,0.0,19.8,80.2,1,Wikipedia
 2026-H-IN-01,2026,H,IN,1,0,party,R,contested,3,1,2,0,0,,Barb Regnitz,F,45.8,1.0,45.8,30.1,1,Wikipedia
-2026-H-IN-02,2026,H,IN,2,0,party,D,contested,2,0,1,1,0,,Jamee Decio,,72.1,,,27.9,0,Wikipedia
+2026-H-IN-02,2026,H,IN,2,0,party,D,contested,2,1,1,0,0,,Jamee Decio,F,72.1,1.0,72.1,27.9,1,Wikipedia
 2026-H-IN-02,2026,H,IN,2,0,party,R,uncontested,1,0,1,0,1,M,Rudy Yakym,M,100.0,0.0,,100.0,0,Wikipedia
-2026-H-IN-03,2026,H,IN,3,0,party,D,uncontested,1,0,0,1,0,,Kelly Thompson,,100.0,,,,0,Wikipedia
+2026-H-IN-03,2026,H,IN,3,0,party,D,uncontested,1,1,0,0,0,,Kelly Thompson,F,100.0,1.0,100.0,,0,Wikipedia
 2026-H-IN-03,2026,H,IN,3,0,party,R,contested,2,0,2,0,1,M,Marlin Stutzman,M,68.2,0.0,,68.2,0,Wikipedia
-2026-H-IN-04,2026,H,IN,4,0,party,D,contested,8,0,7,1,0,,Drew Cox,M,30.4,0.0,,30.4,0,Wikipedia
+2026-H-IN-04,2026,H,IN,4,0,party,D,contested,8,0,8,0,0,,Drew Cox,M,30.4,0.0,,30.4,0,Wikipedia
 2026-H-IN-04,2026,H,IN,4,0,party,R,contested,3,0,3,0,1,M,Jim Baird,M,60.5,0.0,,60.5,0,Wikipedia
 2026-H-IN-05,2026,H,IN,5,0,party,D,contested,7,2,5,0,0,,J.D. Ford,M,42.5,0.0,14.1,42.5,1,Wikipedia
 2026-H-IN-05,2026,H,IN,5,0,party,R,contested,2,1,1,0,1,F,Victoria Spartz,F,59.9,1.0,59.9,40.1,1,Wikipedia
-2026-H-IN-06,2026,H,IN,6,0,party,D,contested,5,2,3,0,0,,Cinde Wirth,F,58.7,1.0,58.7,15.7,1,Wikipedia
+2026-H-IN-06,2026,H,IN,6,0,party,D,contested,4,1,3,0,0,,Cinde Wirth,F,58.7,1.0,58.7,15.7,1,Wikipedia
 2026-H-IN-06,2026,H,IN,6,0,party,R,contested,2,1,1,0,1,M,Jefferson Shreve,M,53.1,0.0,46.9,53.1,1,Wikipedia
 2026-H-IN-07,2026,H,IN,7,0,party,D,contested,4,2,2,0,1,M,André Carson,M,62.4,0.0,23.4,62.4,1,Wikipedia
 2026-H-IN-07,2026,H,IN,7,0,party,R,contested,2,0,2,0,0,,Patrick McAuley,M,84.4,0.0,,84.4,0,Wikipedia
 2026-H-IN-08,2026,H,IN,8,0,party,D,contested,4,2,2,0,0,,Mary Allen,F,66.7,1.0,66.7,11.8,1,Wikipedia
 2026-H-IN-08,2026,H,IN,8,0,party,R,uncontested,1,0,1,0,1,M,Mark Messmer,M,100.0,0.0,,100.0,0,Wikipedia
-2026-H-IN-09,2026,H,IN,9,0,party,D,contested,4,0,3,1,0,,Brad Meyer,M,37.9,0.0,,37.9,0,Wikipedia
+2026-H-IN-09,2026,H,IN,9,0,party,D,contested,4,0,4,0,0,,Brad Meyer,M,37.9,0.0,,37.9,0,Wikipedia
 2026-H-IN-09,2026,H,IN,9,0,party,R,uncontested,1,1,0,0,1,F,Erin Houchin,F,100.0,1.0,100.0,,0,Wikipedia
 2026-H-KS-01,2026,H,KS,1,0,party,D,contested,2,1,1,0,0,,Lauren Reinhold,F,64.1,1.0,64.1,35.9,1,Wikipedia
 2026-H-KS-01,2026,H,KS,1,0,party,R,contested,2,0,2,0,1,M,Tracey Mann,M,81.0,0.0,,81.0,0,Wikipedia
@@ -16370,12 +16371,12 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2026-H-KS-02,2026,H,KS,2,0,party,R,contested,2,0,2,0,1,M,Derek Schmidt,M,79.9,0.0,,79.9,0,Wikipedia
 2026-H-KS-03,2026,H,KS,3,0,party,D,contested,2,2,0,0,1,F,Sharice Davids,F,83.4,1.0,83.4,,0,Wikipedia
 2026-H-KS-03,2026,H,KS,3,0,party,R,contested,2,0,2,0,0,,Eric Jenkins,M,78.7,0.0,,78.7,0,Wikipedia
-2026-H-KS-04,2026,H,KS,4,0,party,D,contested,4,1,2,1,0,,Katy Tyndell,F,66.1,1.0,66.1,7.7,1,Wikipedia
+2026-H-KS-04,2026,H,KS,4,0,party,D,contested,4,1,3,0,0,,Katy Tyndell,F,66.1,1.0,66.1,21.9,1,Wikipedia
 2026-H-KS-04,2026,H,KS,4,0,party,R,contested,2,0,2,0,1,M,Ron Estes,M,80.9,0.0,,80.9,0,Wikipedia
 2026-H-KY-01,2026,H,KY,1,0,party,D,uncontested,1,0,1,0,0,,"John ""Drew"" Williams",M,,0.0,,,0,
 2026-H-KY-01,2026,H,KY,1,0,party,R,contested,4,1,3,0,1,M,James R. Comer,M,88.1,0.0,3.0,88.1,1,Wikipedia
 2026-H-KY-02,2026,H,KY,2,0,party,D,contested,4,1,3,0,0,,Megan Wingfield,F,40.7,1.0,40.7,20.9,1,Wikipedia
-2026-H-KY-02,2026,H,KY,2,0,party,R,contested,3,0,2,1,1,M,S. Brett Guthrie,M,85.4,0.0,,85.4,0,Wikipedia
+2026-H-KY-02,2026,H,KY,2,0,party,R,contested,3,1,2,0,1,M,S. Brett Guthrie,M,85.4,0.0,5.2,85.4,1,Wikipedia
 2026-H-KY-03,2026,H,KY,3,0,party,D,uncontested,1,0,1,0,1,M,Morgan McGarvey,M,,0.0,,,0,
 2026-H-KY-03,2026,H,KY,3,0,party,R,contested,4,1,3,0,0,,Maria Teresa Rodriguez,F,48.2,1.0,48.2,20.7,1,Wikipedia
 2026-H-KY-04,2026,H,KY,4,0,party,D,contested,2,1,1,0,0,,Melissa Claire Strange,F,72.4,1.0,72.4,27.6,1,Wikipedia
@@ -16386,7 +16387,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2026-H-KY-06,2026,H,KY,6,0,party,R,contested,5,0,5,0,0,,Ralph Alvarado,M,56.5,0.0,,56.5,0,Wikipedia
 2026-H-LA-01,2026,H,LA,1,0,party,D,uncontested,1,1,0,0,0,,Lauren Jewett,F,,1.0,,,0,
 2026-H-LA-01,2026,H,LA,1,0,party,R,uncontested,2,0,2,0,1,M,,,,,,,0,
-2026-H-LA-02,2026,H,LA,2,0,party,D,uncontested,2,1,1,0,1,M,,,,,,,1,
+2026-H-LA-02,2026,H,LA,2,0,party,D,uncontested,2,0,1,1,1,M,,,,,,,0,
 2026-H-LA-02,2026,H,LA,2,0,party,R,uncontested,1,0,1,0,0,,Peter Williams,M,,0.0,,,0,
 2026-H-LA-03,2026,H,LA,3,0,party,D,uncontested,3,1,2,0,0,,,,,,,,1,
 2026-H-LA-03,2026,H,LA,3,0,party,R,uncontested,2,1,1,0,1,M,,,,,,,1,
@@ -16394,51 +16395,51 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2026-H-LA-04,2026,H,LA,4,0,party,R,uncontested,3,0,3,0,1,M,,,,,,,0,
 2026-H-LA-05,2026,H,LA,5,0,party,D,uncontested,3,1,2,0,0,,,,,,,,1,
 2026-H-LA-05,2026,H,LA,5,0,party,R,uncontested,6,1,5,0,0,,,,,,,,1,
-2026-H-LA-06,2026,H,LA,6,0,party,D,uncontested,3,1,0,2,0,,,,,,,,0,
+2026-H-LA-06,2026,H,LA,6,0,party,D,uncontested,3,2,1,0,0,,,,,,,,1,
 2026-H-LA-06,2026,H,LA,6,0,party,R,uncontested,6,1,5,0,0,,,,,,,,1,
-2026-H-MA-01,2026,H,MA,1,0,party,D,contested,2,0,1,1,1,M,Richard Neal,M,54.0,0.0,,54.0,0,Wikipedia
+2026-H-MA-01,2026,H,MA,1,0,party,D,contested,2,0,2,0,1,M,Richard Neal,M,54.0,0.0,,54.0,0,Wikipedia
 2026-H-MA-02,2026,H,MA,2,0,party,D,uncontested,1,0,1,0,1,M,Jim McGovern,M,99.6,0.0,,99.6,0,Wikipedia
 2026-H-MA-03,2026,H,MA,3,0,party,D,uncontested,1,1,0,0,1,F,Lori Trahan,F,99.2,1.0,99.2,,0,Wikipedia
 2026-H-MA-03,2026,H,MA,3,0,party,R,uncontested,1,0,1,0,0,,Gary Grossi,M,99.0,0.0,,99.0,0,Wikipedia
 2026-H-MA-04,2026,H,MA,4,0,party,D,contested,2,0,2,0,1,M,Jake Auchincloss,M,73.1,0.0,,73.1,0,Wikipedia
 2026-H-MA-04,2026,H,MA,4,0,party,R,uncontested,1,0,1,0,0,,Tom Stalcup,M,99.4,0.0,,99.4,0,Wikipedia
 2026-H-MA-05,2026,H,MA,5,0,party,D,contested,3,1,2,0,1,F,Katherine Clark,F,73.6,1.0,73.6,19.7,1,Wikipedia
-2026-H-MA-06,2026,H,MA,6,0,party,D,contested,6,4,2,0,0,,Dan Koh,M,40.9,0.0,29.4,40.9,1,Wikipedia
-2026-H-MA-06,2026,H,MA,6,0,party,R,uncontested,1,0,0,1,0,,Micah Jones,,99.2,,,,0,Wikipedia
+2026-H-MA-06,2026,H,MA,6,0,party,D,contested,6,2,2,2,0,,Dan Koh,M,40.9,0.0,29.4,40.9,1,Wikipedia
+2026-H-MA-06,2026,H,MA,6,0,party,R,uncontested,1,0,1,0,0,,Micah Jones,M,99.2,0.0,,99.2,0,Wikipedia
 2026-H-MA-07,2026,H,MA,7,0,party,D,uncontested,1,1,0,0,1,F,Ayanna Pressley,F,98.4,1.0,98.4,,0,Wikipedia
 2026-H-MA-08,2026,H,MA,8,0,party,D,contested,2,0,2,0,1,M,Stephen Lynch,M,55.6,0.0,,55.6,0,Wikipedia
 2026-H-MA-08,2026,H,MA,8,0,party,R,uncontested,1,0,1,0,0,,Robert Burke,M,99.0,0.0,,99.0,0,Wikipedia
 2026-H-MA-09,2026,H,MA,9,0,party,D,contested,2,0,2,0,1,M,Bill Keating,M,77.5,0.0,,77.5,0,Wikipedia
 2026-H-MA-09,2026,H,MA,9,0,party,R,uncontested,1,0,1,0,0,,Tyler MacAllister,M,99.3,0.0,,99.3,0,Wikipedia
 2026-H-MD-01,2026,H,MD,1,0,party,D,contested,4,1,3,0,0,,Dan Schwartz,M,46.3,0.0,36.7,46.3,1,Wikipedia
-2026-H-MD-01,2026,H,MD,1,0,party,R,contested,2,0,1,1,1,M,Andy Harris,M,79.7,0.0,,79.7,0,Wikipedia
-2026-H-MD-02,2026,H,MD,2,0,party,D,contested,2,0,1,1,1,M,Johnny Olszewski,M,84.5,0.0,,84.5,0,Wikipedia
-2026-H-MD-02,2026,H,MD,2,0,party,R,contested,2,0,1,1,0,,Dave Wallace,M,88.9,0.0,,88.9,0,Wikipedia
+2026-H-MD-01,2026,H,MD,1,0,party,R,contested,2,0,2,0,1,M,Andy Harris,M,79.7,0.0,,79.7,0,Wikipedia
+2026-H-MD-02,2026,H,MD,2,0,party,D,contested,2,0,2,0,1,M,Johnny Olszewski,M,84.5,0.0,,84.5,0,Wikipedia
+2026-H-MD-02,2026,H,MD,2,0,party,R,contested,2,0,2,0,0,,Dave Wallace,M,88.9,0.0,,88.9,0,Wikipedia
 2026-H-MD-03,2026,H,MD,3,0,party,D,contested,5,2,3,0,1,F,Sarah Elfreth,F,74.7,1.0,74.7,10.7,1,Wikipedia
-2026-H-MD-03,2026,H,MD,3,0,party,R,contested,4,0,3,1,0,,Berney Flowers,,48.9,,,25.8,0,Wikipedia
-2026-H-MD-04,2026,H,MD,4,0,party,D,contested,5,1,3,1,1,M,Glenn Ivey,M,79.2,0.0,4.9,79.2,1,Wikipedia
+2026-H-MD-03,2026,H,MD,3,0,party,R,contested,4,0,4,0,0,,Berney Flowers,M,48.9,0.0,,48.9,0,Wikipedia
+2026-H-MD-04,2026,H,MD,4,0,party,D,contested,5,2,3,0,1,M,Glenn Ivey,M,79.2,0.0,11.2,79.2,1,Wikipedia
 2026-H-MD-04,2026,H,MD,4,0,party,R,uncontested,1,0,1,0,0,,George McDermott,M,100.0,0.0,,100.0,0,Wikipedia
-2026-H-MD-05,2026,H,MD,5,0,party,D,contested,23,3,12,8,0,,Adrian Boafo,M,32.7,0.0,17.3,32.7,1,Wikipedia
+2026-H-MD-05,2026,H,MD,5,0,party,D,contested,23,8,15,0,0,,Adrian Boafo,M,32.7,0.0,17.3,32.7,1,Wikipedia
 2026-H-MD-05,2026,H,MD,5,0,party,R,contested,3,1,2,0,0,,Chris Chaffee,M,51.2,0.0,34.9,51.2,1,Wikipedia
-2026-H-MD-06,2026,H,MD,6,0,party,D,contested,8,2,4,2,1,F,April McClain Delaney,F,44.0,1.0,44.0,37.0,1,Wikipedia
-2026-H-MD-06,2026,H,MD,6,0,party,R,contested,3,1,1,1,0,,Robin Ficker,M,41.8,0.0,20.8,41.8,1,Wikipedia
-2026-H-MD-07,2026,H,MD,7,0,party,D,contested,4,0,2,2,1,M,Kweisi Mfume,M,70.1,0.0,,70.1,0,Wikipedia
+2026-H-MD-06,2026,H,MD,6,0,party,D,contested,8,2,6,0,1,F,April McClain Delaney,F,44.0,1.0,44.0,37.0,1,Wikipedia
+2026-H-MD-06,2026,H,MD,6,0,party,R,contested,3,1,2,0,0,,Robin Ficker,M,41.8,0.0,20.8,41.8,1,Wikipedia
+2026-H-MD-07,2026,H,MD,7,0,party,D,contested,4,0,4,0,1,M,Kweisi Mfume,M,70.1,0.0,,70.1,0,Wikipedia
 2026-H-MD-07,2026,H,MD,7,0,party,R,uncontested,1,0,1,0,0,,Scott Collier,M,100.0,0.0,,100.0,0,Wikipedia
-2026-H-MD-08,2026,H,MD,8,0,party,D,contested,4,0,3,1,1,M,Jamie Raskin,M,92.7,0.0,,92.7,0,Wikipedia
+2026-H-MD-08,2026,H,MD,8,0,party,D,contested,4,0,4,0,1,M,Jamie Raskin,M,92.7,0.0,,92.7,0,Wikipedia
 2026-H-MD-08,2026,H,MD,8,0,party,R,contested,4,2,2,0,0,,Cheryl Riley,F,43.3,1.0,43.3,17.0,1,Wikipedia
 2026-H-ME-01,2026,H,ME,1,0,party,D,uncontested,1,1,0,0,1,F,Chellie Pingree,F,100.0,1.0,100.0,,0,Wikipedia
 2026-H-ME-01,2026,H,ME,1,0,party,R,contested,2,0,2,0,0,,Ronald Russell,M,53.5,0.0,,53.5,0,Wikipedia
-2026-H-ME-02,2026,H,ME,2,0,party,D,uncontested,1,0,1,0,0,,Matthew Dunlap,M,,0.0,,,0,
+2026-H-ME-02,2026,H,ME,2,0,party,D,uncontested,2,1,1,0,0,,Matthew Dunlap,M,,0.0,,,1,CAWP only
 2026-H-ME-02,2026,H,ME,2,0,party,R,uncontested,1,0,1,0,0,,Paul LePage,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-MI-01,2026,H,MI,1,0,party,D,contested,3,1,2,0,0,,Callie Barr,F,58.49,1.0,58.49,35.67,1,Wikipedia
 2026-H-MI-01,2026,H,MI,1,0,party,R,contested,3,0,3,0,1,M,Jack Bergman,M,74.33,0.0,,74.33,0,Wikipedia
-2026-H-MI-02,2026,H,MI,2,0,party,D,contested,3,0,2,1,0,,Benjamin Ambrose,M,44.32,0.0,,44.32,0,Wikipedia
+2026-H-MI-02,2026,H,MI,2,0,party,D,contested,3,0,3,0,0,,Benjamin Ambrose,M,44.32,0.0,,44.32,0,Wikipedia
 2026-H-MI-02,2026,H,MI,2,0,party,R,uncontested,1,0,1,0,1,M,John Moolenaar,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-MI-03,2026,H,MI,3,0,party,D,uncontested,1,1,0,0,1,F,Hillary Scholten,F,100.0,1.0,100.0,,0,Wikipedia
 2026-H-MI-03,2026,H,MI,3,0,party,R,contested,2,1,1,0,0,,Terri DeBoer,F,78.56,1.0,78.56,21.44,1,Wikipedia
-2026-H-MI-04,2026,H,MI,4,0,party,D,contested,2,0,1,1,0,,Sean McCann,M,65.67,0.0,,65.67,0,Wikipedia
+2026-H-MI-04,2026,H,MI,4,0,party,D,contested,2,0,2,0,0,,Sean McCann,M,65.67,0.0,,65.67,0,Wikipedia
 2026-H-MI-04,2026,H,MI,4,0,party,R,contested,2,0,2,0,1,M,Bill Huizenga,M,85.13,0.0,,85.13,0,Wikipedia
-2026-H-MI-05,2026,H,MI,5,0,party,D,uncontested,1,0,0,1,0,,Christian Vukasovich,,100.0,,,,0,Wikipedia
+2026-H-MI-05,2026,H,MI,5,0,party,D,uncontested,1,0,1,0,0,,Christian Vukasovich,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-MI-05,2026,H,MI,5,0,party,R,uncontested,1,0,1,0,1,M,Tim Walberg,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-MI-06,2026,H,MI,6,0,party,D,uncontested,1,1,0,0,1,F,Debbie Dingell,F,100.0,1.0,100.0,,0,Wikipedia
 2026-H-MI-06,2026,H,MI,6,0,party,R,uncontested,1,1,0,0,0,,Heather Smiley,F,100.0,1.0,100.0,,0,Wikipedia
@@ -16449,25 +16450,25 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2026-H-MI-09,2026,H,MI,9,0,party,D,uncontested,1,0,1,0,0,,Ray Pooley,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-MI-09,2026,H,MI,9,0,party,R,uncontested,1,1,0,0,1,F,Lisa McClain,F,100.0,1.0,100.0,,0,Wikipedia
 2026-H-MI-10,2026,H,MI,10,0,party,D,contested,3,1,2,0,0,,Christina Hines,F,47.01,1.0,47.01,29.67,1,Wikipedia
-2026-H-MI-10,2026,H,MI,10,0,party,R,contested,4,0,3,1,0,,Michael Bouchard Jr.,M,72.21,0.0,,72.21,0,Wikipedia
+2026-H-MI-10,2026,H,MI,10,0,party,R,contested,4,0,4,0,0,,Michael Bouchard Jr.,M,72.21,0.0,,72.21,0,Wikipedia
 2026-H-MI-11,2026,H,MI,11,0,party,D,contested,4,1,3,0,0,,Jeremy Moss,M,49.85,0.0,31.54,49.85,1,Wikipedia
 2026-H-MI-11,2026,H,MI,11,0,party,R,uncontested,1,0,1,0,0,,Ethan Baker,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-MI-12,2026,H,MI,12,0,party,D,contested,3,2,1,0,1,F,Rashida Tlaib,F,73.92,1.0,73.92,9.23,1,Wikipedia
 2026-H-MI-12,2026,H,MI,12,0,party,R,uncontested,1,0,1,0,0,,James D. Hooper,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-MI-13,2026,H,MI,13,0,party,D,contested,2,0,2,0,1,M,Donavan McKinney,M,51.7,0.0,,51.7,0,Wikipedia
-2026-H-MI-13,2026,H,MI,13,0,party,R,uncontested,1,0,0,1,0,,T.P. Nykoriak,,99.48,,,,0,Wikipedia
+2026-H-MI-13,2026,H,MI,13,0,party,R,uncontested,1,0,1,0,0,,T.P. Nykoriak,M,99.48,0.0,,99.48,0,Wikipedia
 2026-H-MN-01,2026,H,MN,1,0,party,D,contested,2,0,2,0,0,,Jake Johnson,M,81.7,0.0,,81.7,0,Wikipedia
 2026-H-MN-01,2026,H,MN,1,0,party,R,contested,3,0,3,0,1,M,Brad Finstad,M,90.1,0.0,,90.1,0,Wikipedia
-2026-H-MN-02,2026,H,MN,2,0,party,D,contested,6,1,4,1,0,,Matt Little,M,47.2,0.0,16.7,47.2,1,Wikipedia
+2026-H-MN-02,2026,H,MN,2,0,party,D,contested,6,1,5,0,0,,Matt Little,M,47.2,0.0,16.7,47.2,1,Wikipedia
 2026-H-MN-02,2026,H,MN,2,0,party,R,uncontested,1,0,1,0,0,,Eric Pratt,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-MN-03,2026,H,MN,3,0,party,D,uncontested,1,1,0,0,1,F,Kelly Morrison,F,100.0,1.0,100.0,,0,Wikipedia
 2026-H-MN-03,2026,H,MN,3,0,party,R,contested,2,0,2,0,0,,Tyler Bass,M,55.4,0.0,,55.4,0,Wikipedia
-2026-H-MN-04,2026,H,MN,4,0,party,D,contested,2,1,0,1,1,F,Betty McCollum,F,85.8,1.0,85.8,,0,Wikipedia
+2026-H-MN-04,2026,H,MN,4,0,party,D,contested,2,1,1,0,1,F,Betty McCollum,F,85.8,1.0,85.8,14.2,1,Wikipedia
 2026-H-MN-04,2026,H,MN,4,0,party,R,contested,3,0,3,0,0,,Paul Wikstrom,M,72.6,0.0,,72.6,0,Wikipedia
-2026-H-MN-05,2026,H,MN,5,0,party,D,contested,5,4,0,1,1,F,Ilhan Omar,F,80.7,1.0,80.7,,0,Wikipedia
+2026-H-MN-05,2026,H,MN,5,0,party,D,contested,5,4,1,0,1,F,Ilhan Omar,F,80.7,1.0,80.7,5.3,1,Wikipedia
 2026-H-MN-05,2026,H,MN,5,0,party,R,contested,4,3,1,0,0,,John Nagel,M,52.2,0.0,26.2,52.2,1,Wikipedia
 2026-H-MN-06,2026,H,MN,6,0,party,D,uncontested,1,0,1,0,0,,Doug Chapin,M,100.0,0.0,,100.0,0,Wikipedia
-2026-H-MN-06,2026,H,MN,6,0,party,R,contested,3,0,2,1,1,M,Tom Emmer,M,80.9,0.0,,80.9,0,Wikipedia
+2026-H-MN-06,2026,H,MN,6,0,party,R,contested,3,0,3,0,1,M,Tom Emmer,M,80.9,0.0,,80.9,0,Wikipedia
 2026-H-MN-07,2026,H,MN,7,0,party,D,contested,2,0,2,0,0,,Erik Osberg,M,65.7,0.0,,65.7,0,Wikipedia
 2026-H-MN-07,2026,H,MN,7,0,party,R,uncontested,1,1,0,0,1,F,Michelle Fischbach,F,100.0,1.0,100.0,,0,Wikipedia
 2026-H-MN-08,2026,H,MN,8,0,party,D,contested,3,1,2,0,0,,Trina Swanson,F,77.2,1.0,77.2,16.9,1,Wikipedia
@@ -16478,10 +16479,10 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2026-H-MO-02,2026,H,MO,2,0,party,R,contested,5,2,3,0,1,F,Ann Wagner,F,73.8,1.0,73.8,8.0,1,Wikipedia
 2026-H-MO-03,2026,H,MO,3,0,party,D,contested,3,1,2,0,0,,Bethany Mann,F,69.1,1.0,69.1,17.7,1,Wikipedia
 2026-H-MO-03,2026,H,MO,3,0,party,R,contested,2,0,2,0,1,M,Bob Onder,M,66.3,0.0,,66.3,0,Wikipedia
-2026-H-MO-04,2026,H,MO,4,0,party,D,contested,7,2,2,3,0,,Jordan Herrera,,30.5,,14.7,7.5,1,Wikipedia
+2026-H-MO-04,2026,H,MO,4,0,party,D,contested,7,2,5,0,0,,Jordan Herrera,M,30.5,0.0,14.7,30.5,1,Wikipedia
 2026-H-MO-04,2026,H,MO,4,0,party,R,contested,3,1,2,0,1,M,Mark Alford,M,77.7,0.0,17.1,77.7,1,Wikipedia
 2026-H-MO-05,2026,H,MO,5,0,party,D,uncontested,1,0,1,0,1,M,Emanuel Cleaver,M,100.0,0.0,,100.0,0,Wikipedia
-2026-H-MO-05,2026,H,MO,5,0,party,R,contested,6,0,4,2,0,,Rick Brattin,M,45.0,0.0,,45.0,0,Wikipedia
+2026-H-MO-05,2026,H,MO,5,0,party,R,contested,6,0,6,0,0,,Rick Brattin,M,45.0,0.0,,45.0,0,Wikipedia
 2026-H-MO-06,2026,H,MO,6,0,party,D,contested,3,0,3,0,0,,Josh Smead,M,47.7,0.0,,47.7,0,Wikipedia
 2026-H-MO-06,2026,H,MO,6,0,party,R,contested,5,0,5,0,0,,Chris Stigall,M,44.1,0.0,,44.1,0,Wikipedia
 2026-H-MO-07,2026,H,MO,7,0,party,D,uncontested,1,1,0,0,0,,Missi Hesketh,F,100.0,1.0,100.0,,0,Wikipedia
@@ -16490,7 +16491,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2026-H-MO-08,2026,H,MO,8,0,party,R,contested,2,0,2,0,1,M,Jason Smith,M,86.0,0.0,,86.0,0,Wikipedia
 2026-H-MS-01,2026,H,MS,1,0,party,D,contested,2,0,2,0,0,,Cliff Johnson,M,63.4,0.0,,63.4,0,Wikipedia
 2026-H-MS-01,2026,H,MS,1,0,party,R,uncontested,1,0,1,0,1,M,Trent Kelly,M,100.0,0.0,,100.0,0,Wikipedia
-2026-H-MS-02,2026,H,MS,2,0,party,D,contested,3,0,2,1,1,M,Bennie Thompson,M,86.4,0.0,,86.4,0,Wikipedia
+2026-H-MS-02,2026,H,MS,2,0,party,D,contested,3,0,3,0,1,M,Bennie Thompson,M,86.4,0.0,,86.4,0,Wikipedia
 2026-H-MS-02,2026,H,MS,2,0,party,R,contested,2,0,2,0,0,,Ron Eller,M,51.1,0.0,,51.1,0,Wikipedia
 2026-H-MS-03,2026,H,MS,3,0,party,D,uncontested,1,0,1,0,0,,Michael Chiaradio,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-MS-03,2026,H,MS,3,0,party,R,uncontested,1,0,1,0,1,M,Michael Guest,M,100.0,0.0,,100.0,0,Wikipedia
@@ -16501,83 +16502,83 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2026-H-MT-02,2026,H,MT,2,0,party,D,contested,3,0,3,0,0,,Brian Miller,M,55.7,0.0,,55.7,0,Wikipedia
 2026-H-MT-02,2026,H,MT,2,0,party,R,uncontested,1,0,1,0,1,M,Troy Downing,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-NC-01,2026,H,NC,1,0,party,D,uncontested,1,0,1,0,1,M,Don Davis,M,,0.0,,,0,
-2026-H-NC-01,2026,H,NC,1,0,party,R,contested,5,1,3,1,0,,Laurie Buckhout,F,39.5,1.0,39.5,34.5,1,Wikipedia
+2026-H-NC-01,2026,H,NC,1,0,party,R,contested,5,2,3,0,0,,Laurie Buckhout,F,39.5,1.0,39.5,34.5,1,Wikipedia
 2026-H-NC-02,2026,H,NC,2,0,party,D,uncontested,1,1,0,0,1,F,Deborah Ross,F,,1.0,,,0,
 2026-H-NC-02,2026,H,NC,2,0,party,R,uncontested,1,0,1,0,0,,Eugene Douglass,M,,0.0,,,0,
 2026-H-NC-03,2026,H,NC,3,0,party,D,contested,2,1,1,0,0,,Raymond Smith Jr.,M,56.7,0.0,43.3,56.7,1,Wikipedia
 2026-H-NC-03,2026,H,NC,3,0,party,R,uncontested,1,0,1,0,1,M,Greg Murphy,M,,0.0,,,0,
 2026-H-NC-04,2026,H,NC,4,0,party,D,contested,3,3,0,0,1,F,Valerie Foushee,F,49.2,1.0,49.2,,0,Wikipedia
 2026-H-NC-04,2026,H,NC,4,0,party,R,uncontested,1,0,1,0,0,,Max Ganorkar,M,,0.0,,,0,
-2026-H-NC-05,2026,H,NC,5,0,party,D,contested,2,0,1,1,0,,Chuck Hubbard,M,56.7,0.0,,56.7,0,Wikipedia
-2026-H-NC-05,2026,H,NC,5,0,party,R,contested,4,1,2,1,1,F,Virginia Foxx,F,74.5,1.0,74.5,8.9,1,Wikipedia
+2026-H-NC-05,2026,H,NC,5,0,party,D,contested,2,0,2,0,0,,Chuck Hubbard,M,56.7,0.0,,56.7,0,Wikipedia
+2026-H-NC-05,2026,H,NC,5,0,party,R,contested,4,1,3,0,1,F,Virginia Foxx,F,74.5,1.0,74.5,11.0,1,Wikipedia
 2026-H-NC-06,2026,H,NC,6,0,party,D,contested,4,1,3,0,0,,Cyril Jefferson,M,39.2,0.0,34.1,39.2,1,Wikipedia
 2026-H-NC-06,2026,H,NC,6,0,party,R,uncontested,1,0,1,0,1,M,Addison McDowell,M,,0.0,,,0,
 2026-H-NC-07,2026,H,NC,7,0,party,D,uncontested,1,1,0,0,0,,Kimberly Hardy,F,,1.0,,,0,
 2026-H-NC-07,2026,H,NC,7,0,party,R,contested,2,0,2,0,1,M,David Rouzer,M,80.5,0.0,,80.5,0,Wikipedia
 2026-H-NC-08,2026,H,NC,8,0,party,D,contested,3,0,3,0,0,,Colby Watson,M,47.9,0.0,,47.9,0,Wikipedia
 2026-H-NC-08,2026,H,NC,8,0,party,R,uncontested,1,0,1,0,1,M,Mark Harris,M,,0.0,,,0,
-2026-H-NC-09,2026,H,NC,9,0,party,D,contested,4,0,2,2,0,,Richard Ojeda,M,41.8,0.0,,41.8,0,Wikipedia
+2026-H-NC-09,2026,H,NC,9,0,party,D,contested,4,0,4,0,0,,Richard Ojeda,M,41.8,0.0,,41.8,0,Wikipedia
 2026-H-NC-09,2026,H,NC,9,0,party,R,uncontested,1,0,1,0,1,M,Richard Hudson,M,,0.0,,,0,
-2026-H-NC-10,2026,H,NC,10,0,party,D,contested,6,1,3,2,0,,Ashley Bell,F,47.3,1.0,47.3,11.4,1,Wikipedia
+2026-H-NC-10,2026,H,NC,10,0,party,D,contested,6,1,5,0,0,,Ashley Bell,F,47.3,1.0,47.3,15.6,1,Wikipedia
 2026-H-NC-10,2026,H,NC,10,0,party,R,contested,2,0,2,0,1,M,Pat Harrigan,M,87.7,0.0,,87.7,0,Wikipedia
-2026-H-NC-11,2026,H,NC,11,0,party,D,contested,5,1,3,1,0,,Jamie Ager,M,64.7,0.0,13.0,64.7,1,Wikipedia
+2026-H-NC-11,2026,H,NC,11,0,party,D,contested,5,1,4,0,0,,Jamie Ager,M,64.7,0.0,13.0,64.7,1,Wikipedia
 2026-H-NC-11,2026,H,NC,11,0,party,R,contested,3,1,2,0,1,M,Chuck Edwards,M,70.1,0.0,,70.1,1,Wikipedia
-2026-H-NC-12,2026,H,NC,12,0,party,D,contested,2,1,0,1,1,F,Alma Adams,F,78.9,1.0,78.9,,0,Wikipedia
-2026-H-NC-12,2026,H,NC,12,0,party,R,contested,2,0,1,1,0,,Jack Codiga,M,67.4,0.0,,67.4,0,Wikipedia
+2026-H-NC-12,2026,H,NC,12,0,party,D,contested,2,2,0,0,1,F,Alma Adams,F,78.9,1.0,78.9,,0,Wikipedia
+2026-H-NC-12,2026,H,NC,12,0,party,R,contested,2,0,2,0,0,,Jack Codiga,M,67.4,0.0,,67.4,0,Wikipedia
 2026-H-NC-13,2026,H,NC,13,0,party,D,contested,3,0,3,0,0,,Paul Barringer,M,59.1,0.0,,59.1,0,Wikipedia
 2026-H-NC-13,2026,H,NC,13,0,party,R,contested,2,0,2,0,1,M,Brad Knott,M,89.9,0.0,,89.9,0,Wikipedia
-2026-H-NC-14,2026,H,NC,14,0,party,D,contested,3,1,1,1,0,,LaKesha Womack,F,52.2,1.0,52.2,41.8,1,Wikipedia
+2026-H-NC-14,2026,H,NC,14,0,party,D,contested,3,1,2,0,0,,LaKesha Womack,F,52.2,1.0,52.2,41.8,1,Wikipedia
 2026-H-NC-14,2026,H,NC,14,0,party,R,contested,2,1,1,0,1,M,Tim Moore,M,83.0,0.0,17.0,83.0,1,Wikipedia
-2026-H-ND-00,2026,H,ND,0,0,party,D,uncontested,1,0,0,1,0,,Trygve Hammer,,100.0,,,,0,Wikipedia
+2026-H-ND-00,2026,H,ND,0,0,party,D,uncontested,1,0,1,0,0,,Trygve Hammer,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-ND-00,2026,H,ND,0,0,party,R,contested,2,1,1,0,1,F,Julie Fedorchak,F,72.9,1.0,72.9,27.1,1,Wikipedia
-2026-H-NE-01,2026,H,NE,1,0,party,D,contested,2,0,1,1,0,,Chris Backemeyer,,57.6,,,42.4,0,Wikipedia
+2026-H-NE-01,2026,H,NE,1,0,party,D,contested,2,0,2,0,0,,Chris Backemeyer,M,57.6,0.0,,57.6,0,Wikipedia
 2026-H-NE-01,2026,H,NE,1,0,party,R,uncontested,1,0,1,0,1,M,Mike Flood,M,100.0,0.0,,100.0,0,Wikipedia
-2026-H-NE-02,2026,H,NE,2,0,party,D,contested,7,3,3,1,0,,Denise Powell,F,38.8,1.0,38.8,36.4,1,Wikipedia
-2026-H-NE-02,2026,H,NE,2,0,party,R,uncontested,1,0,0,1,0,,Brinker Harding,,100.0,,,,0,Wikipedia
+2026-H-NE-02,2026,H,NE,2,0,party,D,contested,7,4,3,0,0,,Denise Powell,F,38.8,1.0,38.8,36.4,1,Wikipedia
+2026-H-NE-02,2026,H,NE,2,0,party,R,uncontested,1,0,1,0,0,,Brinker Harding,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-NE-03,2026,H,NE,3,0,party,D,uncontested,1,1,0,0,0,,Becky Stille,F,100.0,1.0,100.0,,0,Wikipedia
 2026-H-NE-03,2026,H,NE,3,0,party,R,contested,2,0,2,0,1,M,Adrian Smith,M,64.7,0.0,,64.7,0,Wikipedia
-2026-H-NH-01,2026,H,NH,1,0,party,D,contested,9,4,3,2,0,,Stefany Shaheen,F,36.9,1.0,36.9,1.1,1,Wikipedia
-2026-H-NH-01,2026,H,NH,1,0,party,R,contested,5,3,2,0,0,,Anthony DiLorenzo,M,51.5,0.0,26.2,51.5,1,Wikipedia
+2026-H-NH-01,2026,H,NH,1,0,party,D,contested,9,5,4,0,0,,Stefany Shaheen,F,36.9,1.0,36.9,1.5,1,Wikipedia
+2026-H-NH-01,2026,H,NH,1,0,party,R,contested,5,2,2,1,0,,Anthony DiLorenzo,M,51.5,0.0,26.2,51.5,1,Wikipedia
 2026-H-NH-02,2026,H,NH,2,0,party,D,contested,2,2,0,0,1,F,Maggie Goodlander,F,81.8,1.0,81.8,,0,Wikipedia
 2026-H-NH-02,2026,H,NH,2,0,party,R,contested,4,1,3,0,0,,Lily Tang Williams,F,64.9,1.0,64.9,13.4,1,Wikipedia
 2026-H-NJ-01,2026,H,NJ,1,0,party,D,uncontested,1,0,1,0,1,M,Donald Norcross,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-NJ-01,2026,H,NJ,1,0,party,R,uncontested,1,0,1,0,0,,Damon Galdo,M,100.0,0.0,,100.0,0,Wikipedia
-2026-H-NJ-02,2026,H,NJ,2,0,party,D,contested,5,1,3,1,0,,Zack Mullock,M,39.8,0.0,10.6,39.8,1,Wikipedia
+2026-H-NJ-02,2026,H,NJ,2,0,party,D,contested,5,1,4,0,0,,Zack Mullock,M,39.8,0.0,10.6,39.8,1,Wikipedia
 2026-H-NJ-02,2026,H,NJ,2,0,party,R,uncontested,1,0,1,0,1,M,Jeff Van Drew,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-NJ-03,2026,H,NJ,3,0,party,D,uncontested,1,0,1,0,1,M,Herb Conaway,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-NJ-03,2026,H,NJ,3,0,party,R,contested,3,0,3,0,0,,Michael McGuire,M,57.9,0.0,,57.9,0,Wikipedia
-2026-H-NJ-04,2026,H,NJ,4,0,party,D,contested,4,2,2,0,0,,Rachel Peace,F,72.8,1.0,72.8,27.2,1,Wikipedia
+2026-H-NJ-04,2026,H,NJ,4,0,party,D,contested,4,1,2,1,0,,Rachel Peace,F,72.8,1.0,72.8,27.2,1,Wikipedia
 2026-H-NJ-04,2026,H,NJ,4,0,party,R,uncontested,1,0,1,0,1,M,Chris Smith,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-NJ-05,2026,H,NJ,5,0,party,D,uncontested,1,0,1,0,1,M,Josh Gottheimer,M,100.0,0.0,,100.0,0,Wikipedia
-2026-H-NJ-05,2026,H,NJ,5,0,party,R,convention,2,0,1,1,0,,Sean Kirrane,M,100.0,0.0,,100.0,0,Wikipedia
+2026-H-NJ-05,2026,H,NJ,5,0,party,R,convention,2,0,2,0,0,,Sean Kirrane,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-NJ-06,2026,H,NJ,6,0,party,D,contested,3,1,2,0,1,M,Frank Pallone,M,65.7,0.0,7.7,65.7,1,Wikipedia
 2026-H-NJ-06,2026,H,NJ,6,0,party,R,uncontested,1,1,0,0,0,,Hillary Herzig,F,100.0,1.0,100.0,,0,Wikipedia
-2026-H-NJ-07,2026,H,NJ,7,0,party,D,contested,5,3,2,0,0,,Rebecca Bennett,F,45.3,1.0,45.3,19.1,1,Wikipedia
+2026-H-NJ-07,2026,H,NJ,7,0,party,D,contested,5,2,2,1,0,,Rebecca Bennett,F,45.3,1.0,45.3,19.1,1,Wikipedia
 2026-H-NJ-07,2026,H,NJ,7,0,party,R,uncontested,1,0,1,0,1,M,Thomas Kean Jr.,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-NJ-08,2026,H,NJ,8,0,party,D,contested,2,0,2,0,1,M,Rob Menendez,M,68.8,0.0,,68.8,0,Wikipedia
 2026-H-NJ-09,2026,H,NJ,9,0,party,D,uncontested,1,1,0,0,1,F,Nellie Pou,F,100.0,1.0,100.0,,0,Wikipedia
 2026-H-NJ-09,2026,H,NJ,9,0,party,R,contested,2,2,0,0,0,,Rosie Pino,F,51.3,1.0,51.3,,0,Wikipedia
 2026-H-NJ-10,2026,H,NJ,10,0,party,D,contested,2,1,1,0,1,F,LaMonica McIver,F,84.8,1.0,84.8,15.2,1,Wikipedia
-2026-H-NJ-10,2026,H,NJ,10,0,party,R,uncontested,1,0,0,1,0,,Carmen Bucco,,100.0,,,,0,Wikipedia
+2026-H-NJ-10,2026,H,NJ,10,0,party,R,uncontested,1,0,1,0,0,,Carmen Bucco,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-NJ-11,2026,H,NJ,11,0,party,D,contested,4,1,3,0,1,F,Analilia Mejia,F,81.7,1.0,81.7,6.9,1,Wikipedia
 2026-H-NJ-11,2026,H,NJ,11,0,party,R,uncontested,1,0,1,0,0,,Joe Hathaway,M,100.0,0.0,,100.0,0,Wikipedia
-2026-H-NJ-12,2026,H,NJ,12,0,party,D,contested,13,2,7,4,0,,Adam Hamawy,M,28.6,0.0,8.8,28.6,1,Wikipedia
+2026-H-NJ-12,2026,H,NJ,12,0,party,D,contested,13,3,10,0,0,,Adam Hamawy,M,28.6,0.0,8.9,28.6,1,Wikipedia
 2026-H-NJ-12,2026,H,NJ,12,0,party,R,convention,2,0,2,0,0,,Gregg Mele,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-NM-01,2026,H,NM,1,0,party,D,uncontested,1,1,0,0,1,F,Melanie Stansbury,F,100.0,1.0,100.0,,0,Wikipedia
-2026-H-NM-01,2026,H,NM,1,0,party,R,uncontested,2,0,0,2,0,,Didi Okpareke,,100.0,,,,0,Wikipedia
+2026-H-NM-01,2026,H,NM,1,0,party,R,uncontested,2,2,0,0,0,,Didi Okpareke,F,100.0,1.0,100.0,,0,Wikipedia
 2026-H-NM-02,2026,H,NM,2,0,party,D,uncontested,1,0,1,0,1,M,Gabe Vasquez,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-NM-02,2026,H,NM,2,0,party,R,contested,2,0,2,0,0,,Greg Cunningham,M,84.5,0.0,,84.5,0,Wikipedia
 2026-H-NM-03,2026,H,NM,3,0,party,D,uncontested,1,1,0,0,1,F,Teresa Leger Fernández,F,100.0,1.0,100.0,,0,Wikipedia
 2026-H-NM-03,2026,H,NM,3,0,party,R,uncontested,1,0,1,0,0,,Martin Zamora,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-NV-01,2026,H,NV,1,0,party,D,contested,4,2,2,0,1,F,Dina Titus,F,75.9,1.0,75.9,8.8,1,Wikipedia
 2026-H-NV-01,2026,H,NV,1,0,party,R,contested,5,2,3,0,0,,Carrie Buck,F,77.7,1.0,77.7,11.2,1,Wikipedia
-2026-H-NV-02,2026,H,NV,2,0,party,D,contested,11,2,7,2,0,,Teresa Benitez-Thompson,F,45.6,1.0,45.6,22.5,1,Wikipedia
+2026-H-NV-02,2026,H,NV,2,0,party,D,contested,11,3,8,0,0,,Teresa Benitez-Thompson,F,45.6,1.0,45.6,22.5,1,Wikipedia
 2026-H-NV-02,2026,H,NV,2,0,party,R,contested,13,2,11,0,0,,David Flippo,M,46.9,0.0,1.8,46.9,1,Wikipedia
 2026-H-NV-03,2026,H,NV,3,0,party,D,contested,4,1,3,0,1,F,Susie Lee,F,69.2,1.0,69.2,20.4,1,Wikipedia
-2026-H-NV-03,2026,H,NV,3,0,party,R,contested,4,1,2,1,0,,Martin O'Donnell,M,42.3,0.0,24.1,42.3,1,Wikipedia
+2026-H-NV-03,2026,H,NV,3,0,party,R,contested,4,1,3,0,0,,Martin O'Donnell,M,42.3,0.0,24.1,42.3,1,Wikipedia
 2026-H-NV-04,2026,H,NV,4,0,party,D,uncontested,1,0,1,0,1,M,Steven Horsford,M,,0.0,,,0,
 2026-H-NV-04,2026,H,NV,4,0,party,R,contested,3,1,2,0,0,,Cody Whipple,M,61.8,0.0,22.5,61.8,1,Wikipedia
-2026-H-NY-01,2026,H,NY,1,0,party,D,contested,2,0,1,1,0,,Chris Gallant,,62.9,,,37.0,0,Wikipedia
+2026-H-NY-01,2026,H,NY,1,0,party,D,contested,2,0,2,0,0,,Chris Gallant,M,62.9,0.0,,62.9,0,Wikipedia
 2026-H-NY-01,2026,H,NY,1,0,party,R,uncontested,1,0,1,0,1,M,Nick LaLota,M,,0.0,,,0,
 2026-H-NY-02,2026,H,NY,2,0,party,D,uncontested,1,0,1,0,0,,Patrick Halpin,M,,0.0,,,0,
 2026-H-NY-02,2026,H,NY,2,0,party,R,uncontested,1,0,1,0,1,M,Andrew Garbarino,M,,0.0,,,0,
@@ -16589,7 +16590,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2026-H-NY-05,2026,H,NY,5,0,party,R,uncontested,1,0,1,0,0,,George Marsh,M,,0.0,,,0,
 2026-H-NY-06,2026,H,NY,6,0,party,D,contested,2,1,1,0,1,F,Grace Meng,F,56.8,1.0,56.8,42.9,1,Wikipedia
 2026-H-NY-06,2026,H,NY,6,0,party,R,uncontested,1,0,1,0,0,,Joseph Chou,M,,0.0,,,0,
-2026-H-NY-07,2026,H,NY,7,0,party,D,contested,4,2,1,1,0,,Claire Valdez,F,56.2,1.0,56.2,35.6,1,Wikipedia
+2026-H-NY-07,2026,H,NY,7,0,party,D,contested,4,2,2,0,0,,Claire Valdez,F,56.2,1.0,56.2,35.6,1,Wikipedia
 2026-H-NY-07,2026,H,NY,7,0,party,R,uncontested,1,0,1,0,0,,Melvin Rivera,M,,0.0,,,0,
 2026-H-NY-08,2026,H,NY,8,0,party,D,uncontested,1,0,1,0,1,M,Hakeem Jeffries,M,,0.0,,,0,
 2026-H-NY-08,2026,H,NY,8,0,party,R,uncontested,1,0,1,0,0,,Lewis Mizrahi,M,,0.0,,,0,
@@ -16599,14 +16600,14 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2026-H-NY-10,2026,H,NY,10,0,party,R,uncontested,1,1,0,0,0,,Jennifer Moore,F,,1.0,,,0,
 2026-H-NY-11,2026,H,NY,11,0,party,D,contested,2,1,1,0,0,,Michael DeCillis,M,61.4,0.0,37.1,61.4,1,Wikipedia
 2026-H-NY-11,2026,H,NY,11,0,party,R,uncontested,1,1,0,0,1,F,Nicole Malliotakis,F,,1.0,,,0,
-2026-H-NY-12,2026,H,NY,12,0,party,D,contested,8,2,5,1,0,,Micah Lasher,M,38.9,0.0,7.2,38.9,1,Wikipedia
+2026-H-NY-12,2026,H,NY,12,0,party,D,contested,8,2,6,0,0,,Micah Lasher,M,38.9,0.0,7.2,38.9,1,Wikipedia
 2026-H-NY-12,2026,H,NY,12,0,party,R,uncontested,1,1,0,0,0,,Caroline Shinkle,F,,1.0,,,0,
-2026-H-NY-13,2026,H,NY,13,0,party,D,contested,4,1,2,1,1,M,Darializa Avila Chevalier,F,49.5,1.0,49.5,45.7,1,Wikipedia
-2026-H-NY-13,2026,H,NY,13,0,party,R,uncontested,1,0,0,1,0,,Jomo Williams,,,,,,0,
-2026-H-NY-14,2026,H,NY,14,0,party,D,contested,3,1,1,1,1,F,Alexandria Ocasio-Cortez,F,86.9,1.0,86.9,6.8,1,Wikipedia
-2026-H-NY-14,2026,H,NY,14,0,party,R,uncontested,1,0,0,1,0,,Diamant Hysenaj,,,,,,0,
+2026-H-NY-13,2026,H,NY,13,0,party,D,contested,4,1,3,0,1,M,Darializa Avila Chevalier,F,49.5,1.0,49.5,45.7,1,Wikipedia
+2026-H-NY-13,2026,H,NY,13,0,party,R,uncontested,1,0,1,0,0,,Jomo Williams,M,,0.0,,,0,
+2026-H-NY-14,2026,H,NY,14,0,party,D,contested,3,1,2,0,1,F,Alexandria Ocasio-Cortez,F,86.9,1.0,86.9,6.8,1,Wikipedia
+2026-H-NY-14,2026,H,NY,14,0,party,R,uncontested,1,0,1,0,0,,Diamant Hysenaj,M,,0.0,,,0,
 2026-H-NY-15,2026,H,NY,15,0,party,D,contested,3,0,3,0,1,M,Ritchie Torres,M,71.8,0.0,,71.8,0,Wikipedia
-2026-H-NY-15,2026,H,NY,15,0,party,R,uncontested,1,0,0,1,0,,Stylo Sapaskis,,,,,,0,
+2026-H-NY-15,2026,H,NY,15,0,party,R,uncontested,1,0,1,0,0,,Stylo Sapaskis,M,,0.0,,,0,
 2026-H-NY-16,2026,H,NY,16,0,party,D,uncontested,1,0,1,0,1,M,George Latimer,M,,0.0,,,0,
 2026-H-NY-16,2026,H,NY,16,0,party,R,uncontested,1,0,1,0,0,,Joseph Cinquemani,M,,0.0,,,0,
 2026-H-NY-17,2026,H,NY,17,0,party,D,contested,5,3,2,0,0,,Cait Conley,F,49.6,1.0,49.6,1.6,1,Wikipedia
@@ -16634,36 +16635,36 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2026-H-OH-02,2026,H,OH,2,0,party,D,contested,2,1,1,0,0,,Jennifer Mazzuckelli,F,53.3,1.0,53.3,46.7,1,Wikipedia
 2026-H-OH-02,2026,H,OH,2,0,party,R,contested,2,0,2,0,1,M,David Taylor,M,75.0,0.0,,75.0,0,Wikipedia
 2026-H-OH-03,2026,H,OH,3,0,party,D,contested,2,1,1,0,1,F,Joyce Beatty,F,79.3,1.0,79.3,20.7,1,Wikipedia
-2026-H-OH-03,2026,H,OH,3,0,party,R,uncontested,1,0,0,1,0,,Cleophus Dulaney,,100.0,,,,0,Wikipedia
+2026-H-OH-03,2026,H,OH,3,0,party,R,uncontested,1,0,1,0,0,,Cleophus Dulaney,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-OH-04,2026,H,OH,4,0,party,D,uncontested,1,0,1,0,0,,Joshua Kolasinski,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-OH-04,2026,H,OH,4,0,party,R,uncontested,1,0,1,0,1,M,Jim Jordan,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-OH-05,2026,H,OH,5,0,party,D,contested,4,0,4,0,0,,Brian Shaver,M,28.7,0.0,,28.7,0,Wikipedia
 2026-H-OH-05,2026,H,OH,5,0,party,R,uncontested,1,0,1,0,1,M,Bob Latta,M,100.0,0.0,,100.0,0,Wikipedia
-2026-H-OH-06,2026,H,OH,6,0,party,D,contested,7,1,5,1,0,,Elizabeth Kirtley,F,31.5,1.0,31.5,20.6,1,Wikipedia
-2026-H-OH-06,2026,H,OH,6,0,party,R,contested,2,0,1,1,1,M,Michael Rulli,M,76.2,0.0,,76.2,0,Wikipedia
+2026-H-OH-06,2026,H,OH,6,0,party,D,contested,7,1,6,0,0,,Elizabeth Kirtley,F,31.5,1.0,31.5,22.0,1,Wikipedia
+2026-H-OH-06,2026,H,OH,6,0,party,R,contested,2,1,1,0,1,M,Michael Rulli,M,76.2,0.0,23.8,76.2,1,Wikipedia
 2026-H-OH-07,2026,H,OH,7,0,party,D,contested,8,2,6,0,0,,Brian Poindexter,M,37.0,0.0,12.3,37.0,1,Wikipedia
 2026-H-OH-07,2026,H,OH,7,0,party,R,uncontested,1,0,1,0,1,M,Max Miller,M,100.0,0.0,,100.0,0,Wikipedia
-2026-H-OH-08,2026,H,OH,8,0,party,D,contested,2,1,0,1,0,,Vanessa Enoch,F,74.5,1.0,74.5,,0,Wikipedia
+2026-H-OH-08,2026,H,OH,8,0,party,D,contested,2,1,1,0,0,,Vanessa Enoch,F,74.5,1.0,74.5,25.5,1,Wikipedia
 2026-H-OH-08,2026,H,OH,8,0,party,R,uncontested,1,0,1,0,1,M,Warren Davidson,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-OH-09,2026,H,OH,9,0,party,D,uncontested,1,1,0,0,1,F,Marcy Kaptur,F,100.0,1.0,100.0,,0,Wikipedia
-2026-H-OH-09,2026,H,OH,9,0,party,R,contested,5,1,3,1,0,,Derek Merrin,M,44.1,0.0,20.2,44.1,1,Wikipedia
-2026-H-OH-10,2026,H,OH,10,0,party,D,contested,6,2,3,1,0,,Kristina Knickerbocker,F,32.7,1.0,32.7,12.8,1,Wikipedia
+2026-H-OH-09,2026,H,OH,9,0,party,R,contested,5,2,3,0,0,,Derek Merrin,M,44.1,0.0,20.2,44.1,1,Wikipedia
+2026-H-OH-10,2026,H,OH,10,0,party,D,contested,6,2,4,0,0,,Kristina Knickerbocker,F,32.7,1.0,32.7,12.8,1,Wikipedia
 2026-H-OH-10,2026,H,OH,10,0,party,R,uncontested,1,0,1,0,1,M,Mike Turner,M,100.0,0.0,,100.0,0,Wikipedia
-2026-H-OH-11,2026,H,OH,11,0,party,D,contested,3,1,1,1,1,F,Shontel Brown,F,85.5,1.0,85.5,6.6,1,Wikipedia
+2026-H-OH-11,2026,H,OH,11,0,party,D,contested,3,2,1,0,1,F,Shontel Brown,F,85.5,1.0,85.5,6.6,1,Wikipedia
 2026-H-OH-11,2026,H,OH,11,0,party,R,contested,3,0,3,0,0,,Mike Kirchner,M,65.6,0.0,,65.6,0,Wikipedia
 2026-H-OH-12,2026,H,OH,12,0,party,D,contested,3,0,3,0,0,,Jerrad Christian,M,46.4,0.0,,46.4,0,Wikipedia
 2026-H-OH-12,2026,H,OH,12,0,party,R,uncontested,1,0,1,0,1,M,Troy Balderson,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-OH-13,2026,H,OH,13,0,party,D,uncontested,1,1,0,0,1,F,Emilia Sykes,F,100.0,1.0,100.0,,0,Wikipedia
-2026-H-OH-13,2026,H,OH,13,0,party,R,contested,5,1,2,2,0,,Carey Coleman,,47.3,,16.9,18.7,1,Wikipedia
+2026-H-OH-13,2026,H,OH,13,0,party,R,contested,5,1,4,0,0,,Carey Coleman,M,47.3,0.0,16.9,47.3,1,Wikipedia
 2026-H-OH-14,2026,H,OH,14,0,party,D,contested,3,1,2,0,0,,Maria Jukic,F,50.8,1.0,50.8,35.8,1,Wikipedia
 2026-H-OH-14,2026,H,OH,14,0,party,R,contested,2,1,1,0,1,M,David Joyce,M,70.3,0.0,29.7,70.3,1,Wikipedia
 2026-H-OH-15,2026,H,OH,15,0,party,D,contested,2,0,2,0,0,,Don Leonard,M,52.9,0.0,,52.9,0,Wikipedia
 2026-H-OH-15,2026,H,OH,15,0,party,R,uncontested,1,0,1,0,1,M,Mike Carey,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-OK-01,2026,H,OK,1,0,party,D,uncontested,1,0,1,0,0,,John Croisant,M,,0.0,,,0,
-2026-H-OK-01,2026,H,OK,1,0,party,R,contested,11,2,7,2,0,,Mark Tedford,M,32.2,0.0,6.5,32.2,1,Wikipedia
+2026-H-OK-01,2026,H,OK,1,0,party,R,contested,11,3,8,0,0,,Mark Tedford,M,32.2,0.0,6.5,32.2,1,Wikipedia
 2026-H-OK-02,2026,H,OK,2,0,party,D,contested,2,0,2,0,0,,Brandon Wade,M,73.7,0.0,,73.7,0,Wikipedia
 2026-H-OK-02,2026,H,OK,2,0,party,R,contested,2,0,2,0,1,M,Josh Brecheen,M,79.2,0.0,,79.2,0,Wikipedia
-2026-H-OK-03,2026,H,OK,3,0,party,D,contested,2,1,1,0,0,,Suzie Byrd,F,67.4,1.0,67.4,32.6,1,Wikipedia
+2026-H-OK-03,2026,H,OK,3,0,party,D,contested,2,2,0,0,0,,Suzie Byrd,F,67.4,1.0,67.4,,0,Wikipedia
 2026-H-OK-03,2026,H,OK,3,0,party,R,contested,2,0,2,0,1,M,Frank Lucas,M,70.8,0.0,,70.8,0,Wikipedia
 2026-H-OK-04,2026,H,OK,4,0,party,D,contested,2,0,2,0,0,,Mitchell Jacob,M,54.4,0.0,,54.4,0,Wikipedia
 2026-H-OK-04,2026,H,OK,4,0,party,R,contested,2,1,1,0,1,M,Tom Cole,M,71.1,0.0,28.9,71.1,1,Wikipedia
@@ -16677,7 +16678,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2026-H-OR-03,2026,H,OR,3,0,party,R,uncontested,1,0,1,0,0,,Loran Ayles,M,96.3,0.0,,96.3,0,Wikipedia
 2026-H-OR-04,2026,H,OR,4,0,party,D,contested,3,2,1,0,1,F,Val Hoyle,F,75.2,1.0,75.2,2.5,1,Wikipedia
 2026-H-OR-04,2026,H,OR,4,0,party,R,contested,2,1,1,0,0,,Monique DeSpain,F,86.6,1.0,86.6,12.4,1,Wikipedia
-2026-H-OR-05,2026,H,OR,5,0,party,D,contested,2,1,0,1,1,F,Janelle Bynum,F,82.0,1.0,82.0,,0,Wikipedia
+2026-H-OR-05,2026,H,OR,5,0,party,D,contested,2,2,0,0,1,F,Janelle Bynum,F,82.0,1.0,82.0,,0,Wikipedia
 2026-H-OR-05,2026,H,OR,5,0,party,R,contested,2,1,1,0,0,,Patti Adair,F,59.6,1.0,59.6,39.7,1,Wikipedia
 2026-H-OR-06,2026,H,OR,6,0,party,D,uncontested,1,1,0,0,1,F,Andrea Salinas,F,98.7,1.0,98.7,,0,Wikipedia
 2026-H-OR-06,2026,H,OR,6,0,party,R,uncontested,1,0,1,0,0,,David Russ,M,98.4,0.0,,98.4,0,Wikipedia
@@ -16691,7 +16692,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2026-H-PA-05,2026,H,PA,5,0,party,D,uncontested,1,1,0,0,1,F,Mary Gay Scanlon,F,100.0,1.0,100.0,,0,Wikipedia
 2026-H-PA-05,2026,H,PA,5,0,party,R,uncontested,1,0,1,0,0,,Nicholas Manganaro,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-PA-06,2026,H,PA,6,0,party,D,uncontested,1,1,0,0,1,F,Chrissy Houlahan,F,100.0,1.0,100.0,,0,Wikipedia
-2026-H-PA-06,2026,H,PA,6,0,party,R,uncontested,1,0,0,1,0,,Marty Young,,100.0,,,,0,Wikipedia
+2026-H-PA-06,2026,H,PA,6,0,party,R,uncontested,1,0,1,0,0,,Marty Young,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-PA-07,2026,H,PA,7,0,party,D,contested,4,1,3,0,0,,Bob Brooks,M,41.0,0.0,17.8,41.0,1,Wikipedia
 2026-H-PA-07,2026,H,PA,7,0,party,R,uncontested,1,0,1,0,1,M,Ryan Mackenzie,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-PA-08,2026,H,PA,8,0,party,D,uncontested,1,1,0,0,0,,Paige Cognetti,F,100.0,1.0,100.0,,0,Wikipedia
@@ -16718,13 +16719,13 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2026-H-RI-01,2026,H,RI,1,0,party,R,uncontested,1,1,0,0,0,,Kellie Keenan,F,100.0,1.0,100.0,,0,Wikipedia
 2026-H-RI-02,2026,H,RI,2,0,party,D,uncontested,1,0,1,0,1,M,Seth Magaziner,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-RI-02,2026,H,RI,2,0,party,R,contested,2,0,2,0,0,,Victor Mellor,M,58.1,0.0,,58.1,0,Wikipedia
-2026-H-SC-01,2026,H,SC,1,0,party,D,runoff,7,2,4,1,0,,Nancy Lacore,F,52.1,1.0,36.5,28.9,1,Wikipedia
-2026-H-SC-01,2026,H,SC,1,0,party,R,runoff,11,2,7,2,0,,Jenny Costa Honeycutt,F,53.7,1.0,22.1,18.0,1,Wikipedia
-2026-H-SC-02,2026,H,SC,2,0,party,D,runoff,4,0,3,1,0,,Zyon Khalifa,,53.8,,,41.0,0,Wikipedia
-2026-H-SC-02,2026,H,SC,2,0,party,R,contested,3,0,2,1,1,M,Joe Wilson,M,74.2,0.0,,74.2,0,Wikipedia
+2026-H-SC-01,2026,H,SC,1,0,party,D,runoff,7,3,4,0,0,,Nancy Lacore,F,52.1,1.0,36.5,28.9,1,Wikipedia
+2026-H-SC-01,2026,H,SC,1,0,party,R,runoff,11,2,9,0,0,,Jenny Costa Honeycutt,F,53.7,1.0,22.1,18.0,1,Wikipedia
+2026-H-SC-02,2026,H,SC,2,0,party,D,runoff,4,0,4,0,0,,Zyon Khalifa,M,53.8,0.0,,41.0,0,Wikipedia
+2026-H-SC-02,2026,H,SC,2,0,party,R,contested,3,0,3,0,1,M,Joe Wilson,M,74.2,0.0,,74.2,0,Wikipedia
 2026-H-SC-03,2026,H,SC,3,0,party,D,contested,2,1,1,0,0,,Eunice Lehmacher,F,53.4,1.0,53.4,46.6,1,Wikipedia
 2026-H-SC-03,2026,H,SC,3,0,party,R,uncontested,1,1,0,0,1,F,Sheri Biggs,F,,1.0,,,0,
-2026-H-SC-04,2026,H,SC,4,0,party,D,uncontested,1,0,0,1,0,,Courtney McClain,,,,,,0,
+2026-H-SC-04,2026,H,SC,4,0,party,D,uncontested,1,1,0,0,0,,Courtney McClain,F,,1.0,,,0,
 2026-H-SC-04,2026,H,SC,4,0,party,R,contested,3,0,3,0,1,M,William Timmons,M,65.8,0.0,,65.8,0,Wikipedia
 2026-H-SC-05,2026,H,SC,5,0,party,D,contested,2,1,1,0,0,,Mallory Dittmer,F,55.8,1.0,55.8,44.2,1,Wikipedia
 2026-H-SC-05,2026,H,SC,5,0,party,R,uncontested,1,0,1,0,0,,Wes Climer,M,,0.0,,,0,
@@ -16744,15 +16745,15 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2026-H-TN-04,2026,H,TN,4,0,party,R,contested,4,0,4,0,1,M,Scott DesJarlais,M,65.9,0.0,,65.9,0,Wikipedia
 2026-H-TN-05,2026,H,TN,5,0,party,D,contested,5,3,2,0,0,,Chaz Molder,M,40.5,0.0,32.8,40.5,1,Wikipedia
 2026-H-TN-05,2026,H,TN,5,0,party,R,contested,2,0,2,0,1,M,Charlie Hatcher,M,53.2,0.0,,53.2,0,Wikipedia
-2026-H-TN-06,2026,H,TN,6,0,party,D,contested,5,2,2,1,0,,Mike Croley,M,28.9,0.0,23.0,28.9,1,Wikipedia
+2026-H-TN-06,2026,H,TN,6,0,party,D,contested,5,2,3,0,0,,Mike Croley,M,28.9,0.0,23.0,28.9,1,Wikipedia
 2026-H-TN-06,2026,H,TN,6,0,party,R,contested,4,1,3,0,0,,Johnny Garrett,M,43.6,0.0,7.0,43.6,1,Wikipedia
-2026-H-TN-07,2026,H,TN,7,0,party,D,contested,4,0,2,2,0,,Darden Copeland,,39.9,,,27.3,0,Wikipedia
+2026-H-TN-07,2026,H,TN,7,0,party,D,contested,4,1,3,0,0,,Darden Copeland,M,39.9,0.0,23.9,39.9,1,Wikipedia
 2026-H-TN-07,2026,H,TN,7,0,party,R,uncontested,1,0,1,0,1,M,Matt Van Epps,M,100.0,0.0,,100.0,0,Wikipedia
-2026-H-TN-08,2026,H,TN,8,0,party,D,contested,4,1,2,1,0,,Heidi Kuhn,F,52.0,1.0,52.0,21.0,1,Wikipedia
+2026-H-TN-08,2026,H,TN,8,0,party,D,contested,4,1,3,0,0,,Heidi Kuhn,F,52.0,1.0,52.0,21.0,1,Wikipedia
 2026-H-TN-08,2026,H,TN,8,0,party,R,uncontested,1,0,1,0,1,M,David Kustoff,M,100.0,0.0,,100.0,0,Wikipedia
-2026-H-TN-09,2026,H,TN,9,0,party,D,contested,4,1,2,1,0,,Justin Pearson,M,65.7,0.0,24.3,65.7,1,Wikipedia
+2026-H-TN-09,2026,H,TN,9,0,party,D,contested,4,1,3,0,0,,Justin Pearson,M,65.7,0.0,24.3,65.7,1,Wikipedia
 2026-H-TN-09,2026,H,TN,9,0,party,R,contested,4,1,3,0,0,,Brent Taylor,M,46.0,0.0,7.6,46.0,1,Wikipedia
-2026-H-TX-01,2026,H,TX,1,0,party,D,runoff,4,1,1,2,0,,Yolanda Prince,F,72.3,1.0,44.5,22.0,1,Wikipedia
+2026-H-TX-01,2026,H,TX,1,0,party,D,runoff,4,2,2,0,0,,Yolanda Prince,F,72.3,1.0,44.5,22.0,1,Wikipedia
 2026-H-TX-01,2026,H,TX,1,0,party,R,uncontested,1,0,1,0,1,M,Nathaniel Moran,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-TX-02,2026,H,TX,2,0,party,D,uncontested,1,0,1,0,0,,Shaun Finnie,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-TX-02,2026,H,TX,2,0,party,R,contested,4,0,4,0,1,M,Steve Toth,M,55.8,0.0,,55.8,0,Wikipedia
@@ -16767,24 +16768,24 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2026-H-TX-07,2026,H,TX,7,0,party,D,uncontested,1,1,0,0,1,F,Lizzie Fletcher,F,100.0,1.0,100.0,,0,Wikipedia
 2026-H-TX-07,2026,H,TX,7,0,party,R,runoff,4,2,2,0,0,,Alexander Hale,M,64.3,0.0,26.8,45.3,1,Wikipedia
 2026-H-TX-08,2026,H,TX,8,0,party,D,contested,2,1,1,0,0,,Laura Jones,F,65.7,1.0,65.7,34.3,1,Wikipedia
-2026-H-TX-08,2026,H,TX,8,0,party,R,contested,6,1,4,1,0,,Jessica Steinmann,F,68.0,1.0,68.0,12.6,1,Wikipedia
-2026-H-TX-09,2026,H,TX,9,0,party,D,contested,6,1,4,1,0,,Leticia Gutierrez,F,53.6,1.0,53.6,16.3,1,Wikipedia
-2026-H-TX-09,2026,H,TX,9,0,party,R,runoff,9,2,6,1,0,,Alex Mealer,M,68.3,0.0,2.5,35.8,1,Wikipedia
+2026-H-TX-08,2026,H,TX,8,0,party,R,contested,6,1,5,0,0,,Jessica Steinmann,F,68.0,1.0,68.0,12.6,1,Wikipedia
+2026-H-TX-09,2026,H,TX,9,0,party,D,contested,6,1,5,0,0,,Leticia Gutierrez,F,53.6,1.0,53.6,16.3,1,Wikipedia
+2026-H-TX-09,2026,H,TX,9,0,party,R,runoff,9,3,6,0,0,,Alex Mealer,F,68.3,1.0,35.8,31.2,1,Wikipedia
 2026-H-TX-10,2026,H,TX,10,0,party,D,contested,3,2,1,0,0,,Caitlin Rourk,F,60.8,1.0,60.8,16.5,1,Wikipedia
-2026-H-TX-10,2026,H,TX,10,0,party,R,contested,10,3,6,1,0,,Chris Gober,,51.2,,7.1,14.0,1,Wikipedia
+2026-H-TX-10,2026,H,TX,10,0,party,R,contested,10,3,7,0,0,,Chris Gober,M,51.2,0.0,7.1,51.2,1,Wikipedia
 2026-H-TX-11,2026,H,TX,11,0,party,D,contested,2,1,1,0,0,,Claire Reynolds,F,57.6,1.0,57.6,42.4,1,Wikipedia
 2026-H-TX-11,2026,H,TX,11,0,party,R,uncontested,1,0,1,0,1,M,August Pfluger,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-TX-12,2026,H,TX,12,0,party,D,contested,2,1,1,0,0,,Angela Rodriguez Prilliman,F,59.8,1.0,59.8,40.2,1,Wikipedia
 2026-H-TX-12,2026,H,TX,12,0,party,R,uncontested,1,0,1,0,1,M,Craig Goldman,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-TX-13,2026,H,TX,13,0,party,D,uncontested,1,0,1,0,0,,Mark Nair,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-TX-13,2026,H,TX,13,0,party,R,contested,2,1,1,0,1,M,Ronny Jackson,M,89.5,0.0,10.5,89.5,1,Wikipedia
-2026-H-TX-14,2026,H,TX,14,0,party,D,runoff,3,0,2,1,0,,Thurman Bartie,M,51.0,0.0,,44.3,0,Wikipedia
+2026-H-TX-14,2026,H,TX,14,0,party,D,runoff,3,0,3,0,0,,Thurman Bartie,M,51.0,0.0,,44.3,0,Wikipedia
 2026-H-TX-14,2026,H,TX,14,0,party,R,contested,2,1,1,0,1,M,Randy Weber,M,88.6,0.0,11.4,88.6,1,Wikipedia
 2026-H-TX-15,2026,H,TX,15,0,party,D,contested,2,1,1,0,0,,Bobby Pulido,M,67.5,0.0,32.5,67.5,1,Wikipedia
 2026-H-TX-15,2026,H,TX,15,0,party,R,uncontested,1,1,0,0,1,F,Monica De La Cruz,F,100.0,1.0,100.0,,0,Wikipedia
 2026-H-TX-16,2026,H,TX,16,0,party,D,uncontested,1,1,0,0,1,F,Veronica Escobar,F,100.0,1.0,100.0,,0,Wikipedia
 2026-H-TX-16,2026,H,TX,16,0,party,R,runoff,6,2,4,0,0,,Adam Bauman,M,68.5,0.0,11.0,27.9,1,Wikipedia
-2026-H-TX-17,2026,H,TX,17,0,party,D,runoff,3,0,1,2,0,,Casey Shepard,,59.9,,,25.0,0,Wikipedia
+2026-H-TX-17,2026,H,TX,17,0,party,D,runoff,3,1,2,0,0,,Casey Shepard,M,59.9,0.0,42.6,32.4,1,Wikipedia
 2026-H-TX-17,2026,H,TX,17,0,party,R,uncontested,1,0,1,0,1,M,Pete Sessions,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-TX-18,2026,H,TX,18,0,party,D,runoff,4,2,2,0,1,M,Christian Menefee,M,69.3,0.0,7.7,46.0,1,Wikipedia
 2026-H-TX-18,2026,H,TX,18,0,party,R,contested,2,1,1,0,0,,Ronald Whitfield,M,55.1,0.0,44.9,55.1,1,Wikipedia
@@ -16793,50 +16794,50 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2026-H-TX-20,2026,H,TX,20,0,party,D,contested,3,1,2,0,1,M,Joaquin Castro,M,88.2,0.0,9.4,88.2,1,Wikipedia
 2026-H-TX-20,2026,H,TX,20,0,party,R,uncontested,1,0,1,0,0,,Edgardo Baez,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-TX-21,2026,H,TX,21,0,party,D,contested,3,2,1,0,0,,Kristin Hook,F,60.1,1.0,60.1,11.8,1,Wikipedia
-2026-H-TX-21,2026,H,TX,21,0,party,R,contested,12,2,9,1,0,,Mark Teixeira,M,60.9,0.0,2.0,60.9,1,Wikipedia
-2026-H-TX-22,2026,H,TX,22,0,party,D,contested,5,2,2,1,0,,Marquette Greene-Scott,F,54.6,1.0,54.6,15.1,1,Wikipedia
+2026-H-TX-21,2026,H,TX,21,0,party,R,contested,12,2,10,0,0,,Mark Teixeira,M,60.9,0.0,2.0,60.9,1,Wikipedia
+2026-H-TX-22,2026,H,TX,22,0,party,D,contested,5,2,3,0,0,,Marquette Greene-Scott,F,54.6,1.0,54.6,18.5,1,Wikipedia
 2026-H-TX-22,2026,H,TX,22,0,party,R,contested,2,1,1,0,0,,Trever Nehls,M,75.7,0.0,24.3,75.7,1,Wikipedia
-2026-H-TX-23,2026,H,TX,23,0,party,D,contested,4,1,1,2,0,,Katy Padilla Stout,F,52.1,1.0,52.1,11.8,1,Wikipedia
+2026-H-TX-23,2026,H,TX,23,0,party,D,contested,4,2,2,0,0,,Katy Padilla Stout,F,52.1,1.0,52.1,27.1,1,Wikipedia
 2026-H-TX-23,2026,H,TX,23,0,party,R,contested,4,0,4,0,1,M,Brandon Herrera,M,43.3,0.0,,43.3,0,Wikipedia
-2026-H-TX-24,2026,H,TX,24,0,party,D,runoff,3,0,2,1,0,,Kevin Burge,M,78.1,0.0,,48.0,0,Wikipedia
+2026-H-TX-24,2026,H,TX,24,0,party,D,runoff,3,0,3,0,0,,Kevin Burge,M,78.1,0.0,,48.0,0,Wikipedia
 2026-H-TX-24,2026,H,TX,24,0,party,R,uncontested,1,1,0,0,1,F,Beth Van Duyne,F,100.0,1.0,100.0,,0,Wikipedia
 2026-H-TX-25,2026,H,TX,25,0,party,D,contested,2,1,1,0,0,,Dione Sims,F,60.5,1.0,60.5,39.5,1,Wikipedia
 2026-H-TX-25,2026,H,TX,25,0,party,R,uncontested,1,0,1,0,1,M,Roger Williams,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-TX-26,2026,H,TX,26,0,party,D,contested,2,0,2,0,0,,Steven Shook,M,51.1,0.0,,51.1,0,Wikipedia
 2026-H-TX-26,2026,H,TX,26,0,party,R,contested,2,0,2,0,1,M,Brandon Gill,M,91.1,0.0,,91.1,0,Wikipedia
-2026-H-TX-27,2026,H,TX,27,0,party,D,contested,3,1,1,1,0,,Tanya Lloyd,F,63.1,1.0,63.1,7.5,1,Wikipedia
-2026-H-TX-27,2026,H,TX,27,0,party,R,contested,2,0,1,1,1,M,Michael Cloud,M,73.0,0.0,,73.0,0,Wikipedia
+2026-H-TX-27,2026,H,TX,27,0,party,D,contested,3,1,2,0,0,,Tanya Lloyd,F,63.1,1.0,63.1,29.4,1,Wikipedia
+2026-H-TX-27,2026,H,TX,27,0,party,R,contested,2,0,2,0,1,M,Michael Cloud,M,73.0,0.0,,73.0,0,Wikipedia
 2026-H-TX-28,2026,H,TX,28,0,party,D,contested,3,0,3,0,1,M,Henry Cuellar,M,58.1,0.0,,58.1,0,Wikipedia
-2026-H-TX-28,2026,H,TX,28,0,party,R,contested,2,1,0,1,0,,Tano Tijerina,,74.3,,25.7,,0,Wikipedia
+2026-H-TX-28,2026,H,TX,28,0,party,R,contested,2,1,1,0,0,,Tano Tijerina,M,74.3,0.0,25.7,74.3,1,Wikipedia
 2026-H-TX-29,2026,H,TX,29,0,party,D,contested,3,1,2,0,1,F,Sylvia Garcia,F,58.2,1.0,58.2,35.7,1,Wikipedia
 2026-H-TX-29,2026,H,TX,29,0,party,R,uncontested,1,1,0,0,0,,Martha Fierro,F,100.0,1.0,100.0,,0,Wikipedia
 2026-H-TX-30,2026,H,TX,30,0,party,D,contested,3,1,2,0,0,,Frederick Haynes III,M,72.6,0.0,23.1,72.6,1,Wikipedia
-2026-H-TX-30,2026,H,TX,30,0,party,R,runoff,4,0,1,3,0,,Everett Jackson,M,57.5,0.0,,38.0,0,Wikipedia
+2026-H-TX-30,2026,H,TX,30,0,party,R,runoff,4,0,4,0,0,,Everett Jackson,M,57.5,0.0,,38.0,0,Wikipedia
 2026-H-TX-31,2026,H,TX,31,0,party,D,contested,2,0,2,0,0,,Justin Early,M,57.6,0.0,,57.6,0,Wikipedia
-2026-H-TX-31,2026,H,TX,31,0,party,R,contested,10,1,8,1,1,M,John Carter,M,59.7,0.0,10.9,59.7,1,Wikipedia
+2026-H-TX-31,2026,H,TX,31,0,party,R,contested,10,1,9,0,1,M,John Carter,M,59.7,0.0,10.9,59.7,1,Wikipedia
 2026-H-TX-32,2026,H,TX,32,0,party,D,contested,2,0,2,0,0,,Dan Barrios,M,60.4,0.0,,60.4,0,Wikipedia
-2026-H-TX-32,2026,H,TX,32,0,party,R,contested,9,1,7,1,0,,Jace Yarbrough,M,49.0,0.0,2.7,49.0,1,Wikipedia
-2026-H-TX-33,2026,H,TX,33,0,party,D,runoff,4,1,2,1,1,F,Colin Allred,M,54.0,0.0,33.2,44.0,1,Wikipedia
+2026-H-TX-32,2026,H,TX,32,0,party,R,contested,9,1,8,0,0,,Jace Yarbrough,M,49.0,0.0,2.7,49.0,1,Wikipedia
+2026-H-TX-33,2026,H,TX,33,0,party,D,runoff,4,1,3,0,1,F,Colin Allred,M,54.0,0.0,33.2,44.0,1,Wikipedia
 2026-H-TX-33,2026,H,TX,33,0,party,R,runoff,4,0,4,0,0,,Patrick Gillespie,M,57.1,0.0,,35.5,0,Wikipedia
-2026-H-TX-34,2026,H,TX,34,0,party,D,contested,2,0,1,1,1,M,Vicente Gonzalez,M,62.7,0.0,,62.7,0,Wikipedia
+2026-H-TX-34,2026,H,TX,34,0,party,D,contested,2,0,2,0,1,M,Vicente Gonzalez,M,62.7,0.0,,62.7,0,Wikipedia
 2026-H-TX-34,2026,H,TX,34,0,party,R,contested,8,1,7,0,0,,Eric Flores,M,56.7,0.0,23.7,56.7,1,Wikipedia
 2026-H-TX-35,2026,H,TX,35,0,party,D,runoff,4,2,2,0,0,,Johnny Garcia,M,63.8,0.0,29.2,27.0,1,Wikipedia
 2026-H-TX-35,2026,H,TX,35,0,party,R,runoff,11,1,10,0,0,,Carlos De La Cruz,M,57.6,0.0,3.6,33.0,1,Wikipedia
 2026-H-TX-36,2026,H,TX,36,0,party,D,contested,2,1,1,0,0,,Rhonda Hart,F,64.2,1.0,64.2,35.8,1,Wikipedia
 2026-H-TX-36,2026,H,TX,36,0,party,R,contested,2,0,2,0,1,M,Brian Babin,M,81.1,0.0,,81.1,0,Wikipedia
 2026-H-TX-37,2026,H,TX,37,0,party,D,contested,2,1,1,0,1,M,Greg Casar,M,80.7,0.0,19.3,80.7,1,Wikipedia
-2026-H-TX-37,2026,H,TX,37,0,party,R,runoff,3,2,0,1,0,,Lauren Peña,F,58.2,1.0,35.0,,0,Wikipedia
-2026-H-TX-38,2026,H,TX,38,0,party,D,contested,3,2,0,1,0,,Melissa McDonough,F,51.6,1.0,51.6,,0,Wikipedia
-2026-H-TX-38,2026,H,TX,38,0,party,R,runoff,10,3,6,1,0,,Jon Bonck,M,64.8,0.0,18.8,46.8,1,Wikipedia
-2026-H-UT-01,2026,H,UT,1,0,party,D,contested,4,0,2,2,0,,Ben McAdams,M,51.9,0.0,,51.9,0,Wikipedia
-2026-H-UT-01,2026,H,UT,1,0,party,R,uncontested,1,0,0,1,0,,Riley Owen,,,,,,0,
+2026-H-TX-37,2026,H,TX,37,0,party,R,runoff,3,3,0,0,0,,Lauren Peña,F,58.2,1.0,35.3,,0,Wikipedia
+2026-H-TX-38,2026,H,TX,38,0,party,D,contested,3,3,0,0,0,,Melissa McDonough,F,51.6,1.0,51.6,,0,Wikipedia
+2026-H-TX-38,2026,H,TX,38,0,party,R,runoff,10,3,7,0,0,,Jon Bonck,M,64.8,0.0,18.8,46.8,1,Wikipedia
+2026-H-UT-01,2026,H,UT,1,0,party,D,contested,5,1,4,0,0,,Ben McAdams,M,51.9,0.0,,51.9,1,CAWP only;Wikipedia
+2026-H-UT-01,2026,H,UT,1,0,party,R,uncontested,1,0,1,0,0,,Riley Owen,M,,0.0,,,0,
 2026-H-UT-02,2026,H,UT,2,0,party,D,uncontested,1,0,1,0,0,,Peter Crosby,M,,0.0,,,0,
 2026-H-UT-02,2026,H,UT,2,0,party,R,contested,2,1,1,0,1,M,Blake Moore,M,56.7,0.0,43.3,56.7,1,Wikipedia
 2026-H-UT-03,2026,H,UT,3,0,party,D,uncontested,1,0,1,0,0,,Kent Udell,M,,0.0,,,0,
 2026-H-UT-03,2026,H,UT,3,0,party,R,contested,2,1,1,0,1,F,Celeste Maloy,F,65.7,1.0,65.7,34.3,1,Wikipedia
-2026-H-UT-04,2026,H,UT,4,0,party,D,uncontested,1,0,0,1,0,,Jonny Larsen,,,,,,0,
+2026-H-UT-04,2026,H,UT,4,0,party,D,uncontested,1,0,1,0,0,,Jonny Larsen,M,,0.0,,,0,
 2026-H-UT-04,2026,H,UT,4,0,party,R,uncontested,1,0,1,0,1,M,Mike Kennedy,M,,0.0,,,0,
-2026-H-VA-01,2026,H,VA,1,0,party,D,contested,7,3,3,1,0,,Shannon Taylor,F,52.8,1.0,52.8,9.9,1,Wikipedia
+2026-H-VA-01,2026,H,VA,1,0,party,D,contested,7,3,4,0,0,,Shannon Taylor,F,52.8,1.0,52.8,19.9,1,Wikipedia
 2026-H-VA-01,2026,H,VA,1,0,party,R,uncontested,1,0,1,0,1,M,Rob Wittman,M,,0.0,,,0,
 2026-H-VA-02,2026,H,VA,2,0,party,D,contested,4,2,2,0,0,,Elaine Luria,F,80.3,1.0,80.3,2.0,1,Wikipedia
 2026-H-VA-02,2026,H,VA,2,0,party,R,uncontested,1,1,0,0,1,F,Jen Kiggans,F,,1.0,,,0,
@@ -16850,7 +16851,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2026-H-VA-06,2026,H,VA,6,0,party,R,uncontested,1,0,1,0,1,M,Ben Cline,M,,0.0,,,0,
 2026-H-VA-07,2026,H,VA,7,0,party,D,uncontested,1,0,1,0,1,M,Eugene Vindman,M,,0.0,,,0,
 2026-H-VA-07,2026,H,VA,7,0,party,R,contested,3,0,3,0,0,,Doug Ollivant,M,56.6,0.0,,56.6,0,Wikipedia
-2026-H-VA-08,2026,H,VA,8,0,party,D,contested,5,1,3,1,1,M,Don Beyer,M,67.1,0.0,2.6,67.1,1,Wikipedia
+2026-H-VA-08,2026,H,VA,8,0,party,D,contested,5,1,4,0,1,M,Don Beyer,M,67.1,0.0,2.6,67.1,1,Wikipedia
 2026-H-VA-08,2026,H,VA,8,0,party,R,uncontested,1,0,1,0,0,,Tony Sabio,M,,0.0,,,0,
 2026-H-VA-09,2026,H,VA,9,0,party,D,contested,3,1,2,0,0,,Joy Powers,F,51.7,1.0,51.7,36.4,1,Wikipedia
 2026-H-VA-09,2026,H,VA,9,0,party,R,uncontested,1,0,1,0,1,M,Morgan Griffith,M,,0.0,,,0,
@@ -16860,26 +16861,26 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2026-H-VA-11,2026,H,VA,11,0,party,R,uncontested,1,0,1,0,0,,Arthur Purves,M,,0.0,,,0,
 2026-H-VT-00,2026,H,VT,0,0,party,D,uncontested,1,1,0,0,1,F,Becca Balint,F,98.4,1.0,98.4,,0,Wikipedia
 2026-H-VT-00,2026,H,VT,0,0,party,R,contested,2,0,2,0,0,,Gerald Malloy,M,76.3,0.0,,76.3,0,Wikipedia
-2026-H-WA-01,2026,H,WA,1,0,top2,D,top2,5,2,2,1,1,F,Suzan DelBene,F,53.0,1.0,53.0,2.4,1,Wikipedia
+2026-H-WA-01,2026,H,WA,1,0,top2,D,top2,5,2,3,0,1,F,Suzan DelBene,F,53.0,1.0,53.0,6.2,1,Wikipedia
 2026-H-WA-01,2026,H,WA,1,0,top2,R,top2,1,1,0,0,0,,Mary Silva,F,26.2,1.0,26.2,,0,Wikipedia
-2026-H-WA-02,2026,H,WA,2,0,top2,D,top2,3,0,2,1,1,M,Rick Larsen,M,42.3,0.0,,42.3,0,Wikipedia
+2026-H-WA-02,2026,H,WA,2,0,top2,D,top2,3,0,3,0,1,M,Rick Larsen,M,42.3,0.0,,42.3,0,Wikipedia
 2026-H-WA-02,2026,H,WA,2,0,top2,R,top2,1,0,1,0,0,,Edwin H. Feller,M,32.8,0.0,,32.8,0,Wikipedia
 2026-H-WA-03,2026,H,WA,3,0,top2,D,top2,4,1,3,0,1,F,Marie Gluesenkamp Perez,F,36.4,1.0,36.4,16.7,1,Wikipedia
 2026-H-WA-03,2026,H,WA,3,0,top2,R,top2,3,0,3,0,0,,John Braun,M,39.7,0.0,,39.7,0,Wikipedia
 2026-H-WA-04,2026,H,WA,4,0,top2,D,top2,1,0,1,0,0,,John Duresky,M,29.9,0.0,,29.9,0,Wikipedia
-2026-H-WA-04,2026,H,WA,4,0,top2,R,top2,6,1,4,1,0,,Amanda McKinney,F,34.8,1.0,34.8,14.6,1,Wikipedia
-2026-H-WA-05,2026,H,WA,5,0,top2,D,top2,6,1,4,1,0,,Carmela Conroy,F,18.8,1.0,18.8,4.4,1,Wikipedia
+2026-H-WA-04,2026,H,WA,4,0,top2,R,top2,6,2,4,0,0,,Amanda McKinney,F,34.8,1.0,34.8,14.6,1,Wikipedia
+2026-H-WA-05,2026,H,WA,5,0,top2,D,top2,6,1,5,0,0,,Carmela Conroy,F,18.8,1.0,18.8,4.4,1,Wikipedia
 2026-H-WA-05,2026,H,WA,5,0,top2,R,top2,1,0,1,0,1,M,Michael Baumgartner,M,47.4,0.0,,47.4,0,Wikipedia
 2026-H-WA-06,2026,H,WA,6,0,top2,D,top2,1,1,0,0,1,F,Emily Randall,F,58.8,1.0,58.8,,0,Wikipedia
 2026-H-WA-06,2026,H,WA,6,0,top2,R,top2,2,1,1,0,0,,Teresa Fox,F,25.5,1.0,25.5,9.7,1,Wikipedia
 2026-H-WA-07,2026,H,WA,7,0,top2,D,top2,2,2,0,0,1,F,Pramila Jayapal,F,84.4,1.0,84.4,,0,Wikipedia
-2026-H-WA-07,2026,H,WA,7,0,top2,R,top2,1,0,0,1,0,,Nirav Sheth,,9.8,,,,0,Wikipedia
+2026-H-WA-07,2026,H,WA,7,0,top2,R,top2,1,0,1,0,0,,Nirav Sheth,M,9.8,0.0,,9.8,0,Wikipedia
 2026-H-WA-08,2026,H,WA,8,0,top2,D,top2,2,1,1,0,1,F,Kim Schrier,F,53.7,1.0,53.7,2.5,1,Wikipedia
-2026-H-WA-08,2026,H,WA,8,0,top2,R,top2,4,0,3,1,0,,Spencer Meline,M,15.8,0.0,,15.8,0,Wikipedia
+2026-H-WA-08,2026,H,WA,8,0,top2,R,top2,4,1,3,0,0,,Spencer Meline,M,15.8,0.0,14.8,15.8,1,Wikipedia
 2026-H-WA-09,2026,H,WA,9,0,top2,D,top2,2,1,1,0,1,M,Adam Smith,M,47.1,0.0,12.5,47.1,1,Wikipedia
 2026-H-WA-09,2026,H,WA,9,0,top2,R,top2,1,0,1,0,0,,Doug Basler,M,21.8,0.0,,21.8,0,Wikipedia
 2026-H-WA-10,2026,H,WA,10,0,top2,D,top2,3,1,2,0,1,F,Marilyn Strickland,F,47.3,1.0,47.3,10.3,1,Wikipedia
-2026-H-WA-10,2026,H,WA,10,0,top2,R,top2,1,0,0,1,0,,Chris D. Chung,,31.4,,,,0,Wikipedia
+2026-H-WA-10,2026,H,WA,10,0,top2,R,top2,1,0,1,0,0,,Chris D. Chung,M,31.4,0.0,,31.4,0,Wikipedia
 2026-H-WI-01,2026,H,WI,1,0,party,D,contested,4,0,4,0,0,,Mitchell Berman,M,44.11,0.0,,44.11,0,Wikipedia
 2026-H-WI-01,2026,H,WI,1,0,party,R,uncontested,1,0,1,0,1,M,Bryan Steil,M,99.6,0.0,,99.6,0,Wikipedia
 2026-H-WI-02,2026,H,WI,2,0,party,D,contested,2,0,2,0,1,M,Mark Pocan,M,87.93,0.0,,87.93,0,Wikipedia
@@ -16891,45 +16892,45 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2026-H-WI-05,2026,H,WI,5,0,party,R,uncontested,1,0,1,0,1,M,Scott Fitzgerald,M,99.74,0.0,,99.74,0,Wikipedia
 2026-H-WI-06,2026,H,WI,6,0,party,D,contested,2,1,1,0,0,,Brad Smith,M,50.18,0.0,49.67,50.18,1,Wikipedia
 2026-H-WI-06,2026,H,WI,6,0,party,R,uncontested,1,0,1,0,1,M,Glenn Grothman,M,99.68,0.0,,99.68,0,Wikipedia
-2026-H-WI-07,2026,H,WI,7,0,party,D,contested,3,1,1,1,0,,Fred Clark,M,37.66,0.0,31.82,37.66,1,Wikipedia
-2026-H-WI-07,2026,H,WI,7,0,party,R,contested,5,1,3,1,0,,Michael Alfonso,M,48.96,0.0,15.69,48.96,1,Wikipedia
+2026-H-WI-07,2026,H,WI,7,0,party,D,contested,3,1,2,0,0,,Fred Clark,M,37.66,0.0,31.82,37.66,1,Wikipedia
+2026-H-WI-07,2026,H,WI,7,0,party,R,contested,5,2,3,0,0,,Michael Alfonso,M,48.96,0.0,15.69,48.96,1,Wikipedia
 2026-H-WI-08,2026,H,WI,8,0,party,D,contested,3,1,2,0,0,,Rick Crosson,M,35.24,0.0,31.62,35.24,1,Wikipedia
 2026-H-WI-08,2026,H,WI,8,0,party,R,uncontested,1,0,1,0,1,M,Tony Wied,M,99.78,0.0,,99.78,0,Wikipedia
-2026-H-WV-01,2026,H,WV,1,0,party,D,contested,2,0,1,1,0,,Vince George,M,53.0,0.0,,53.0,0,Wikipedia
+2026-H-WV-01,2026,H,WV,1,0,party,D,contested,2,1,1,0,0,,Vince George,M,53.0,0.0,47.0,53.0,1,Wikipedia
 2026-H-WV-01,2026,H,WV,1,0,party,R,contested,2,1,1,0,1,F,Carol Miller,F,72.0,1.0,72.0,28.0,1,Wikipedia
-2026-H-WV-02,2026,H,WV,2,0,party,D,contested,3,1,1,1,0,,Ace Parsi,,39.8,,37.9,22.4,1,Wikipedia
+2026-H-WV-02,2026,H,WV,2,0,party,D,contested,3,1,2,0,0,,Ace Parsi,M,39.8,0.0,37.9,39.8,1,Wikipedia
 2026-H-WV-02,2026,H,WV,2,0,party,R,uncontested,1,0,1,0,1,M,Riley Moore,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-WY-00,2026,H,WY,0,0,party,D,contested,2,2,0,0,0,,Lisa F. Kinney,F,77.8,1.0,77.8,,0,Wikipedia
 2026-H-WY-00,2026,H,WY,0,0,party,R,contested,9,1,8,0,0,,Chuck Gray,M,25.4,0.0,10.3,25.4,1,Wikipedia
-2026-S-AK-00,2026,S,AK,0,0,top4,D,top4,3,1,2,0,0,,Mary Peltola,F,49.5,1.0,49.5,1.1,1,Wikipedia
+2026-S-AK-00,2026,S,AK,0,0,top4,D,top4,3,2,1,0,0,,Mary Peltola,F,49.5,1.0,49.5,1.1,1,Wikipedia
 2026-S-AK-00,2026,S,AK,0,0,top4,R,top4,6,1,5,0,1,M,Dan S. Sullivan,M,2.5,0.0,0.6,2.5,1,Wikipedia
-2026-S-AL-00,2026,S,AL,0,0,party,D,runoff,4,0,3,1,0,,Everett Wess,M,54.6,0.0,,39.8,0,Wikipedia
-2026-S-AL-00,2026,S,AL,0,0,party,R,runoff,7,0,6,1,0,,Barry Moore,M,55.8,0.0,,39.2,0,Wikipedia
+2026-S-AL-00,2026,S,AL,0,0,party,D,runoff,4,0,4,0,0,,Everett Wess,M,54.6,0.0,,39.8,0,Wikipedia
+2026-S-AL-00,2026,S,AL,0,0,party,R,runoff,7,0,7,0,0,,Barry Moore,M,55.8,0.0,,39.2,0,Wikipedia
 2026-S-AR-00,2026,S,AR,0,0,party,D,contested,2,1,1,0,0,,Hallie Shoffner,F,78.3,1.0,78.3,21.7,1,Wikipedia
-2026-S-AR-00,2026,S,AR,0,0,party,R,contested,3,0,2,1,1,M,Tom Cotton,M,81.6,0.0,,81.6,0,Wikipedia
+2026-S-AR-00,2026,S,AR,0,0,party,R,contested,3,1,2,0,1,M,Tom Cotton,M,81.6,0.0,9.2,81.6,1,Wikipedia
 2026-S-CO-00,2026,S,CO,0,0,party,D,contested,2,1,1,0,1,M,John Hickenlooper,M,52.8,0.0,47.2,52.8,1,Wikipedia
 2026-S-CO-00,2026,S,CO,0,0,party,R,uncontested,1,0,1,0,0,,Mark Baisley,M,100.0,0.0,,100.0,0,Wikipedia
 2026-S-DE-00,2026,S,DE,0,0,party,D,contested,4,1,3,0,1,M,Chris Coons,M,78.0,0.0,7.5,78.0,1,Wikipedia
 2026-S-DE-00,2026,S,DE,0,0,party,R,contested,2,0,2,0,0,,Michael Katz,M,77.3,0.0,,77.3,0,Wikipedia
 2026-S-FL-00-sp,2026,S,FL,0,1,party,D,contested,2,1,1,0,0,,Angie Nixon,F,56.1,1.0,56.1,43.9,1,Wikipedia
-2026-S-FL-00-sp,2026,S,FL,0,1,party,R,contested,4,2,1,1,1,F,Ashley Moody,F,79.6,1.0,79.6,4.8,1,Wikipedia
+2026-S-FL-00-sp,2026,S,FL,0,1,party,R,contested,4,2,2,0,1,F,Ashley Moody,F,79.6,1.0,79.6,13.7,1,Wikipedia
 2026-S-GA-00,2026,S,GA,0,0,party,D,uncontested,1,0,1,0,1,M,Jon Ossoff,M,100.0,0.0,,100.0,0,Wikipedia
 2026-S-GA-00,2026,S,GA,0,0,party,R,runoff,5,0,5,0,0,,Mike Collins,M,55.5,0.0,,40.5,0,Wikipedia
 2026-S-IA-00,2026,S,IA,0,0,party,D,contested,2,0,2,0,0,,Josh Turek,M,62.7,0.0,,62.7,0,Wikipedia
 2026-S-IA-00,2026,S,IA,0,0,party,R,contested,2,1,1,0,0,,Ashley Hinson,F,74.2,1.0,74.2,25.8,1,Wikipedia
 2026-S-ID-00,2026,S,ID,0,0,party,D,contested,3,0,3,0,0,,David Roth,M,61.9,0.0,,61.9,0,Wikipedia
 2026-S-ID-00,2026,S,ID,0,0,party,R,contested,4,0,4,0,1,M,Jim Risch,M,67.3,0.0,,67.3,0,Wikipedia
-2026-S-IL-00,2026,S,IL,0,0,party,D,contested,10,2,7,1,0,,Juliana Stratton,F,40.4,1.0,40.4,32.7,1,Wikipedia
-2026-S-IL-00,2026,S,IL,0,0,party,R,contested,6,2,2,2,0,,Don Tracy,M,40.0,0.0,22.8,40.0,1,Wikipedia
-2026-S-KS-00,2026,S,KS,0,0,party,D,contested,11,2,8,1,0,,Adam Hamilton,M,34.6,0.0,14.2,34.6,1,Wikipedia
+2026-S-IL-00,2026,S,IL,0,0,party,D,contested,10,3,7,0,0,,Juliana Stratton,F,40.4,1.0,40.4,32.7,1,Wikipedia
+2026-S-IL-00,2026,S,IL,0,0,party,R,contested,6,2,4,0,0,,Don Tracy,M,40.0,0.0,22.8,40.0,1,Wikipedia
+2026-S-KS-00,2026,S,KS,0,0,party,D,contested,11,3,8,0,0,,Adam Hamilton,M,34.6,0.0,14.2,34.6,1,Wikipedia
 2026-S-KS-00,2026,S,KS,0,0,party,R,contested,2,0,2,0,1,M,Roger Marshall,M,79.9,0.0,,79.9,0,Wikipedia
-2026-S-KY-00,2026,S,KY,0,0,party,D,contested,7,2,4,1,0,,Charles Booker,M,46.8,0.0,35.9,46.8,1,Wikipedia
-2026-S-KY-00,2026,S,KY,0,0,party,R,contested,11,2,7,2,0,,Andy Barr,M,60.5,0.0,1.1,60.5,1,Wikipedia
-2026-S-LA-00,2026,S,LA,0,0,party,D,runoff,3,0,2,1,0,,Jamie Davis,,79.9,,,26.3,0,Wikipedia
+2026-S-KY-00,2026,S,KY,0,0,party,D,contested,7,2,5,0,0,,Charles Booker,M,46.8,0.0,35.9,46.8,1,Wikipedia
+2026-S-KY-00,2026,S,KY,0,0,party,R,contested,11,2,9,0,0,,Andy Barr,M,60.5,0.0,1.1,60.5,1,Wikipedia
+2026-S-LA-00,2026,S,LA,0,0,party,D,runoff,3,0,3,0,0,,Jamie Davis,M,79.9,0.0,,47.4,0,Wikipedia
 2026-S-LA-00,2026,S,LA,0,0,party,R,runoff,4,1,3,0,1,M,Julia Letlow,F,56.9,1.0,44.8,28.3,1,Wikipedia
 2026-S-MA-00,2026,S,MA,0,0,party,D,contested,2,0,2,0,1,M,Ed Markey,M,64.7,0.0,,64.7,0,Wikipedia
 2026-S-MA-00,2026,S,MA,0,0,party,R,uncontested,1,0,1,0,0,,John Deaton,M,99.3,0.0,,99.3,0,Wikipedia
-2026-S-ME-00,2026,S,ME,0,0,party,D,contested,6,3,3,0,0,,Graham Platner,M,72.1,0.0,19.3,72.1,1,Wikipedia
+2026-S-ME-00,2026,S,ME,0,0,party,D,contested,6,1,3,2,0,,Graham Platner,M,72.1,0.0,19.3,72.1,1,Wikipedia
 2026-S-ME-00,2026,S,ME,0,0,party,R,uncontested,1,1,0,0,1,F,Susan Collins,F,100.0,1.0,100.0,,0,Wikipedia
 2026-S-MI-00,2026,S,MI,0,0,party,D,contested,3,2,1,0,0,,Abdul El-Sayed,M,48.45,0.0,47.55,48.45,1,Wikipedia
 2026-S-MI-00,2026,S,MI,0,0,party,R,uncontested,1,0,1,0,0,,Mike Rogers,M,100.0,0.0,,100.0,0,Wikipedia
@@ -16938,36 +16939,36 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2026-S-MS-00,2026,S,MS,0,0,party,D,contested,3,1,2,0,0,,Scott Colom,M,72.9,0.0,18.6,72.9,1,Wikipedia
 2026-S-MS-00,2026,S,MS,0,0,party,R,contested,2,2,0,0,1,F,Cindy Hyde-Smith,F,80.8,1.0,80.8,,0,Wikipedia
 2026-S-MT-00,2026,S,MT,0,0,party,D,contested,5,2,3,0,0,,Alani Bankhead,F,43.6,1.0,43.6,13.1,1,Wikipedia
-2026-S-MT-00,2026,S,MT,0,0,party,R,contested,3,0,2,1,0,,Sawyer Adams,M,76.1,0.0,,76.1,0,Wikipedia
-2026-S-NC-00,2026,S,NC,0,0,party,D,contested,6,0,5,1,0,,Roy Cooper,M,92.0,0.0,,92.0,0,Wikipedia
+2026-S-MT-00,2026,S,MT,0,0,party,R,contested,3,0,3,0,0,,Sawyer Adams,M,76.1,0.0,,76.1,0,Wikipedia
+2026-S-NC-00,2026,S,NC,0,0,party,D,contested,6,0,6,0,0,,Roy Cooper,M,92.0,0.0,,92.0,0,Wikipedia
 2026-S-NC-00,2026,S,NC,0,0,party,R,contested,7,3,4,0,0,,Michael Whatley,M,64.6,0.0,5.6,64.6,1,Wikipedia
 2026-S-NE-00,2026,S,NE,0,0,party,D,contested,2,1,1,0,0,,Cindy Burbank,F,89.5,1.0,89.5,10.5,1,Wikipedia
-2026-S-NE-00,2026,S,NE,0,0,party,R,contested,5,0,4,1,1,M,Pete Ricketts,M,81.5,0.0,,81.5,0,Wikipedia
-2026-S-NH-00,2026,S,NH,0,0,party,D,contested,5,0,4,1,0,,Chris Pappas,M,65.0,0.0,,65.0,0,Wikipedia
-2026-S-NH-00,2026,S,NH,0,0,party,R,contested,8,3,5,0,0,,John E. Sununu,M,68.4,0.0,1.1,68.4,1,Wikipedia
-2026-S-NJ-00,2026,S,NJ,0,0,party,D,convention,3,1,1,1,1,M,Cory Booker,M,100.0,0.0,,100.0,1,Wikipedia
+2026-S-NE-00,2026,S,NE,0,0,party,R,contested,5,1,4,0,1,M,Pete Ricketts,M,81.5,0.0,6.0,81.5,1,Wikipedia
+2026-S-NH-00,2026,S,NH,0,0,party,D,contested,5,1,4,0,0,,Chris Pappas,M,65.0,0.0,32.7,65.0,1,Wikipedia
+2026-S-NH-00,2026,S,NH,0,0,party,R,contested,8,2,5,1,0,,John E. Sununu,M,68.4,0.0,0.9,68.4,1,Wikipedia
+2026-S-NJ-00,2026,S,NJ,0,0,party,D,convention,3,1,2,0,1,M,Cory Booker,M,100.0,0.0,,100.0,1,Wikipedia
 2026-S-NJ-00,2026,S,NJ,0,0,party,R,contested,5,1,4,0,0,,Justin Murphy,M,33.4,0.0,,33.4,1,Wikipedia
 2026-S-NM-00,2026,S,NM,0,0,party,D,contested,2,0,2,0,1,M,Ben Ray Luján,M,84.2,0.0,,84.2,0,Wikipedia
 2026-S-NM-00,2026,S,NM,0,0,party,R,uncontested,1,0,1,0,0,,Larry Marker,M,100.0,0.0,,100.0,0,Wikipedia
 2026-S-OH-00-sp,2026,S,OH,0,1,party,D,contested,2,0,2,0,0,,Sherrod Brown,M,89.4,0.0,,89.4,0,Wikipedia
 2026-S-OH-00-sp,2026,S,OH,0,1,party,R,uncontested,1,0,1,0,1,M,Jon Husted,M,100.0,0.0,,100.0,0,Wikipedia
-2026-S-OK-00,2026,S,OK,0,0,party,D,runoff,5,0,3,2,0,,N'Kiyla Jasmine Thomas,,61.2,,,23.9,0,Wikipedia
+2026-S-OK-00,2026,S,OK,0,0,party,D,runoff,5,1,4,0,0,,N'Kiyla Jasmine Thomas,F,61.2,1.0,45.2,23.9,1,Wikipedia
 2026-S-OK-00,2026,S,OK,0,0,party,R,contested,5,0,5,0,0,,Kevin Hern,M,69.8,0.0,,69.8,0,Wikipedia
 2026-S-OR-00,2026,S,OR,0,0,party,D,contested,2,0,2,0,1,M,Jeff Merkley,M,93.2,0.0,,93.2,0,Wikipedia
 2026-S-OR-00,2026,S,OR,0,0,party,R,contested,7,2,5,0,0,,David Brock Smith,M,29.5,0.0,27.1,29.5,1,Wikipedia
 2026-S-RI-00,2026,S,RI,0,0,party,D,contested,3,0,3,0,1,M,Jack Reed,M,76.8,0.0,,76.8,0,Wikipedia
 2026-S-RI-00,2026,S,RI,0,0,party,R,uncontested,1,0,1,0,0,,Raymond McKay,M,100.0,0.0,,100.0,0,Wikipedia
 2026-S-SC-00,2026,S,SC,0,0,party,D,contested,3,1,2,0,0,,Annie Andrews,F,61.5,1.0,61.5,30.2,1,Wikipedia
-2026-S-SC-00,2026,S,SC,0,0,party,R,contested,7,1,5,1,1,M,Lindsey Graham,M,56.8,0.0,,56.8,1,Wikipedia
+2026-S-SC-00,2026,S,SC,0,0,party,R,contested,7,1,6,0,1,M,Lindsey Graham,M,56.8,0.0,,56.8,1,Wikipedia
 2026-S-SC-00-sp,2026,S,SC,0,1,party,R,runoff,10,2,8,0,1,F,Darline Graham,F,52.4,1.0,32.8,24.6,1,Wikipedia
 2026-S-SD-00,2026,S,SD,0,0,party,R,contested,2,0,2,0,1,M,Mike Rounds,M,75.8,0.0,,75.8,0,Wikipedia
 2026-S-TN-00,2026,S,TN,0,0,party,D,contested,5,4,1,0,0,,Marquita Bradshaw,F,54.8,1.0,54.8,10.1,1,Wikipedia
 2026-S-TN-00,2026,S,TN,0,0,party,R,uncontested,1,0,1,0,1,M,Bill Hagerty,M,100.0,0.0,,100.0,0,Wikipedia
 2026-S-TX-00,2026,S,TX,0,0,party,D,contested,3,1,2,0,0,,James Talarico,M,52.4,0.0,46.2,52.4,1,Wikipedia
-2026-S-TX-00,2026,S,TX,0,0,party,R,runoff,8,2,5,1,1,M,Ken Paxton,M,63.8,0.0,1.2,42.0,1,Wikipedia
+2026-S-TX-00,2026,S,TX,0,0,party,R,runoff,8,2,6,0,1,M,Ken Paxton,M,63.8,0.0,1.2,42.0,1,Wikipedia
 2026-S-VA-00,2026,S,VA,0,0,party,D,uncontested,1,0,1,0,1,M,Mark Warner,M,,0.0,,,0,
-2026-S-VA-00,2026,S,VA,0,0,party,R,contested,3,0,2,1,0,,Bert Mizusawa,M,51.5,0.0,,51.5,0,Wikipedia
-2026-S-WV-00,2026,S,WV,0,0,party,D,contested,5,1,2,2,0,,Rachel Fetty Anderson,F,33.2,1.0,33.2,27.0,1,Wikipedia
+2026-S-VA-00,2026,S,VA,0,0,party,R,contested,3,1,2,0,0,,Bert Mizusawa,M,51.5,0.0,19.6,51.5,1,Wikipedia
+2026-S-WV-00,2026,S,WV,0,0,party,D,contested,5,1,4,0,0,,Rachel Fetty Anderson,F,33.2,1.0,33.2,27.0,1,Wikipedia
 2026-S-WV-00,2026,S,WV,0,0,party,R,contested,6,2,4,0,1,F,Shelley Moore Capito,F,66.5,1.0,66.5,18.9,1,Wikipedia
 2026-S-WY-00,2026,S,WY,0,0,party,D,contested,2,0,2,0,0,,James Byrd,M,79.3,0.0,,79.3,0,Wikipedia
 2026-S-WY-00,2026,S,WY,0,0,party,R,contested,5,2,3,0,0,,Harriet Hageman,F,64.9,1.0,64.9,27.8,1,Wikipedia

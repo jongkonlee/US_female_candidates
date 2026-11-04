@@ -71,7 +71,7 @@ def trends(cand, prim, races):
     return t
 
 
-def write():
+def write(extra=None):
     os.makedirs(SITE, exist_ok=True)
     cand = pd.read_csv(os.path.join(DATA, "candidates.csv"), low_memory=False)
     prim = pd.read_csv(os.path.join(DATA, "primaries.csv"), low_memory=False)
@@ -95,6 +95,7 @@ def write():
     idx = dict(generated=dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), years=years,
                cawp_last_year=int(cawp.Year.max()), coverage=cov.to_dict("records"), trends=trends(cand, prim, races),
                counts=dict(candidates=len(cand), primaries=len(prim), races=len(races)))
+    idx.update(extra or {})
     with open(os.path.join(SITE, "index.json"), "w", encoding="utf-8") as f:
         json.dump(idx, f, ensure_ascii=False, indent=1)
     print("site data:", len(years), "years")

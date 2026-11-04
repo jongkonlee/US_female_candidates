@@ -44,11 +44,13 @@ def nick(n):
               {"susan", "sue", "suzanne", "suzan"}, {"christopher", "chris"}, {"christine", "christina", "chris", "tina"},
               {"thomas", "tom", "tommy"}, {"michael", "mike"}, {"joseph", "joe"}, {"anthony", "tony"}, {"daniel", "dan", "danny"},
               {"david", "dave"}, {"steven", "stephen", "steve"}, {"edward", "ed", "eddie", "ted"}, {"charles", "chuck", "charlie"},
-              {"kimberly", "kim"}, {"constance", "connie"}, {"dorothy", "dottie", "dot"}, {"frances", "fran"}, {"judith", "judy"}, {"carolyn", "carol"}, {"jo ann", "joann", "jo"}, {"virginia", "ginny"}, {"suzanne", "suzy"}, {"sandra", "sandy"}, {"pamela", "pam"}, {"madeleine", "madeline", "maddie"}, {"marjorie", "margie"}, {"rebecca", "becky", "becca"}, {"barbara", "barb"}, {"nancy", "nan"}, {"cynthia", "cindy"},
+              {"kimberly", "kim"}, {"constance", "connie"}, {"dorothy", "dottie", "dot"}, {"frances", "fran"}, {"judith", "judy"}, {"carolyn", "carol"}, {"jo ann", "joann", "jo"}, {"virginia", "ginny"}, {"suzanne", "suzy"}, {"sandra", "sandy"}, {"pamela", "pam"}, {"madeleine", "madeline", "maddie"}, {"marjorie", "margie"}, {"rebecca", "becky", "becca"}, {"barbara", "barb"}, {"nancy", "nan"}, {"cynthia", "cindy", "cinde", "cindi"}, {"eleanor", "elinor", "ellie", "nell", "nellie"},
               {"theresa", "teresa", "terri", "terry"}, {"victoria", "vicki", "vicky"}, {"jacqueline", "jackie"}, {"alexandria", "alex", "alexandra"},
               {"samantha", "sam"}, {"gregory", "greg"}, {"donald", "don"}, {"ronald", "ron"}, {"kenneth", "ken"}, {"lawrence", "larry"},
               {"gerald", "jerry"}, {"timothy", "tim"}, {"matthew", "matt"}, {"andrew", "andy", "drew"}, {"nicholas", "nick"},
-              {"benjamin", "ben"}, {"frederick", "fred"}, {"leonard", "len"}, {"raymond", "ray"}, {"douglas", "doug"}, {"jeffrey", "jeff"}]
+              {"benjamin", "ben"}, {"frederick", "fred"}, {"leonard", "len"}, {"raymond", "ray"}, {"douglas", "doug"}, {"jeffrey", "jeff"},
+              {"louis", "luis", "lou"}, {"jerrold", "jerry"}, {"bernard", "bernie"}, {"phillip", "philip", "phil"}, {"francis", "frank"},
+              {"henry", "hank"}, {"eugene", "gene"}, {"vincent", "vince"}, {"joshua", "josh"}, {"jacob", "jake"}, {"zachary", "zach"}]
     out = {n}
     for g in groups:
         if n in g:
@@ -124,3 +126,17 @@ def same_person(a, b):
     if fuzzy:
         return bool(fa and fb and (nick(fa) & nick(fb)))
     return first_ok(fa, fb, strict=True) or bool(given_a & given_b - {ja, jb})
+
+
+def fuzzy_same(a, b):
+    """both names spelled a little differently (Candice Duvielih / Candace Dollar Duvieilh, Crystal Deleon Sarmeinto /
+    Crystal DeLeon-Sarmiento): first names alike (nickname, prefix, or 80% similar) and one surname part 80% similar"""
+    fa, la, ta = split_name(a)
+    fb, lb, tb = split_name(b)
+    if not (fa and fb and la and lb):
+        return False
+    if not (first_ok(fa, fb, strict=True) or (len(fa) >= 4 and len(fb) >= 4 and difflib.SequenceMatcher(None, fa, fb).ratio() >= 0.8)):
+        return False
+    pa = {x for t in ta[1:] for x in re.split(r"[-' ]", t) if len(x) >= 4}
+    pb = {x for t in tb[1:] for x in re.split(r"[-' ]", t) if len(x) >= 4}
+    return any(difflib.SequenceMatcher(None, x, y).ratio() >= 0.8 for x in pa for y in pb)
