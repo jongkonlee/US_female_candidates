@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T16:33:41Z",
+ "generated": "2026-11-04T16:51:39Z",
  "years": [
   1990,
   1992,
@@ -1699,8 +1699,8 @@
    "year": 2026,
    "chamber": "H",
    "races": 435,
-   "decided": 85,
-   "women_won": 26,
+   "decided": 101,
+   "women_won": 29,
    "D": {
     "primaries": 372,
     "with_woman": 221,
@@ -1714,8 +1714,8 @@
     "candidates": 1099,
     "nominees": 433,
     "women_nominees": 186,
-    "seats": 66,
-    "women_seats": 24
+    "seats": 72,
+    "women_seats": 26
    },
    "R": {
     "primaries": 364,
@@ -1730,15 +1730,15 @@
     "candidates": 919,
     "nominees": 418,
     "women_nominees": 67,
-    "seats": 19,
-    "women_seats": 2
+    "seats": 29,
+    "women_seats": 3
    }
   },
   {
    "year": 2026,
    "chamber": "S",
    "races": 36,
-   "decided": 6,
+   "decided": 7,
    "women_won": 1,
    "D": {
     "primaries": 33,
@@ -1749,11 +1749,11 @@
     "contested_woman_won": 9,
     "mixed": 18,
     "mixed_woman_won": 9,
-    "women_candidates": 31,
+    "women_candidates": 30,
     "candidates": 128,
     "nominees": 31,
     "women_nominees": 8,
-    "seats": 1,
+    "seats": 2,
     "women_seats": 0
    },
    "R": {
