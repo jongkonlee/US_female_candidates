@@ -1202,7 +1202,7 @@ def derive(cand, legis):
         ms = map_start(y) if ch == "H" else "1985-01-03"
         before = [h for h in hist if h[1] > ms and h[0] < eday]
         inc_g = g[g.incumbent == 1]
-        attrs = (dattr.get((y - 1786) // 2 + 1) or {}).get("cd" if ch == "H" else "state", {})
+        attrs = (dattr.get((y - 1788) // 2 + 1) or {}).get("cd" if ch == "H" else "state", {})  # districts/{c}.json = Congress elected in y
         a = attrs.get(f"{st}-{d}" if ch == "H" else st, {}) if attrs else {}
         race_rows.append(dict(base,
             n_general=len(gen),

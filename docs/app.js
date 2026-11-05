@@ -518,6 +518,13 @@ async function viewWhere() {
 }
 
 /* --- women vs men --- */
+function pearson(xs, ys) {
+  const n = xs.length; if (n < 3) return null;
+  const mx = xs.reduce((t, v) => t + v, 0) / n, my = ys.reduce((t, v) => t + v, 0) / n;
+  let sxy = 0, sxx = 0, syy = 0;
+  for (let i = 0; i < n; i++) { const dx = xs[i] - mx, dy = ys[i] - my; sxy += dx * dy; sxx += dx * dx; syy += dy * dy; }
+  return sxx && syy ? sxy / Math.sqrt(sxx * syy) : null;
+}
 function ols(X, y) {
   // X: rows of predictors (with leading 1); returns coefficients via normal equations
   const k = X[0].length, A = Array.from({ length: k }, () => Array(k).fill(0)), b = Array(k).fill(0);
@@ -567,10 +574,15 @@ async function viewVsMen() {
   for (const m of ['M-M', 'F-F', 'F-M', 'M-F']) g += pts.filter(p => p.m === m).map(p => `<circle cx="${sx(Math.max(xmin, Math.min(xmax, p.x)))}" cy="${sy(p.y)}" r="${m === 'M-M' ? 2 : 3}" fill="${M[m][1]}" fill-opacity="${m === 'M-M' ? .35 : .8}" data-open="race:${esc(p.r.race_id)}" style="cursor:pointer"><title>${esc(p.r.year + ' ' + raceLabel(p.r))} · 민주 ${fmt(p.y)}%</title></circle>`).join('');
   const b0 = ols(pts.map(p => [1, p.x]), pts.map(p => p.y));
   g += `<line x1="${sx(xmin)}" y1="${sy(b0[0] + b0[1] * xmin)}" x2="${sx(xmax)}" y2="${sy(b0[0] + b0[1] * xmax)}" stroke="var(--fg)" stroke-dasharray="4 3"/>`;
+  // Pearson r of district lean and Democratic two-party share, all plotted races (actual values, not the clipped x);
+  // placed bottom right, where D-leaning districts with a low Democratic share are rare
+  const pr = pearson(pts.map(p => p.x), pts.map(p => p.y));
+  if (pr !== null) g += `<rect x="${W - R - 214}" y="${sy(9) - 17}" width="210" height="24" rx="5" fill="var(--card)" fill-opacity=".9" stroke="var(--line)"/>
+    <text x="${W - R - 10}" y="${sy(9)}" text-anchor="end" style="fill:var(--fg);font-weight:600;font-size:13px">Pearson r = ${fmt(pr, 2)} (n = ${pts.length.toLocaleString('ko-KR')})</text>`;
   const tab = Object.entries(M).map(([m, [lab, col, sign]]) => { const l = pts.filter(p => p.m === m); const res = mean(l.map(p => p.res));
     return `<tr><td><span class="legend" style="margin:0"><span><i style="background:${col}"></i>${lab}</span></span></td><td class="num">${l.length}</td><td class="num">${fmt(mean(l.map(p => p.y)))}%</td><td class="num">${res === null ? '–' : (res > 0 ? '+' : '') + fmt(res)}%p</td><td class="num">${sign && res !== null ? (sign * res > 0 ? '+' : '') + fmt(sign * res) + '%p' : '–'}</td></tr>`; }).join('');
   h += `<div class="chart-block"><b>본선 민주 후보 양당 득표율과 지역구 당파 성향</b><div class="chart"><svg viewBox="0 0 ${W} ${H}">${g}</svg></div>
-    <div class="cap">점 하나가 선거 하나입니다(누르면 결과가 열립니다). 점선은 당파 성향만으로 본 평균선이고, 아래 표의 차이는 현직 출마까지 감안한 값입니다. ${periodLabel()} ${chName(S.ch)} 본선 ${pts.length}곳.</div></div>
+    <div class="cap">점 하나가 선거 하나입니다(누르면 결과가 열립니다). 점선은 당파 성향만으로 본 평균선이고, 아래 표의 차이는 현직 출마까지 감안한 값입니다. Pearson r은 지역구 당파 성향과 민주 후보 양당 득표율의 상관계수(점 전체)입니다. ${periodLabel()} ${chName(S.ch)} 본선 ${pts.length}곳.</div></div>
   <div class="tbl-wrap"><table><thead><tr><th>본선 대결</th><th class="num">선거</th><th class="num">민주 후보 평균 득표율</th><th class="num">평균선과의 차이(민주 쪽)</th><th class="num">여성 후보 쪽 차이</th></tr></thead><tbody>${tab}</tbody></table></div>
   <p class="note">'평균선과의 차이'는 같은 당파 성향과 현직 조건에서 예상되는 민주 득표율보다 얼마나 많이(+) 또는 적게(−) 얻었는지입니다. '여성 후보 쪽'은 여성 후보 입장에서 다시 적은 값입니다(공화 여성은 부호를 바꿈). 후보의 경력·선거자금은 감안하지 않았습니다.</p>`;
   return h;

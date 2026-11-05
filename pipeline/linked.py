@@ -15,8 +15,9 @@ Output: the race column above, plus the district alignment lists for download (d
   lineage_all.csv/.dta   one row per House race (1990-2026) x earlier Congress (long)
 """
 import collections
-import gzip
 import csv
+import datetime as dt
+import gzip
 import os
 
 import pandas as pd
@@ -216,5 +217,6 @@ def stata(df, path, labels, title, strl=()):
                 df[c] = df[c].astype("int32")
         elif not pd.api.types.is_numeric_dtype(df[c]):  # object or the string dtype of pandas 3
             df[c] = df[c].astype(object).where(df[c].notna(), "").astype(str)
+    # a fixed time stamp keeps the file byte-for-byte the same when the data have not changed (no daily commit of it)
     df.to_stata(path, write_index=False, version=118, variable_labels={k: v[:80] for k, v in labels.items() if k in df.columns},
-                data_label=title[:80], convert_strl=[c for c in strl if c in df.columns])
+                data_label=title[:80], convert_strl=[c for c in strl if c in df.columns], time_stamp=dt.datetime(2026, 1, 1))
