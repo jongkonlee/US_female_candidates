@@ -696,7 +696,7 @@ async function codebookHtml() {
 }
 async function viewDownload() {
   const base = 'https://github.com/jongkonlee/US_female_candidates/raw/main/data/';
-  return `<h2>골라서 내려받기</h2>
+  return `<h2>후보 데이터 내려받기</h2>
   <div class="btns" style="align-items:center">
     <label class="fld">자료 <select data-ds><option value="candidates" ${S.ds === 'candidates' ? 'selected' : ''}>후보(한 줄 = 선거 × 후보)</option><option value="primaries" ${S.ds === 'primaries' ? 'selected' : ''}>경선(한 줄 = 선거 × 정당 경선)</option><option value="races" ${S.ds === 'races' ? 'selected' : ''}>선거(한 줄 = 선거)</option></select></label>
     <label class="fld">범위 <select data-dlscope><option value="year" ${S.dlScope === 'year' ? 'selected' : ''}>${S.year}년</option><option value="period" ${S.dlScope === 'period' ? 'selected' : ''}>비교 기간(${periodLabel()})</option><option value="all" ${S.dlScope === 'all' ? 'selected' : ''}>전체 연도</option></select></label>

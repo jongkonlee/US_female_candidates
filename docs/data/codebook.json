@@ -3,7 +3,7 @@
 {
 "table": "candidates",
 "title": "후보",
-"unit": "한 줄 = 선거 하나의 후보 한 명. 페이지 '골라서 내려받기'의 후보, 저장소 data/candidates.csv"
+"unit": "한 줄 = 선거 하나의 후보 한 명. 페이지 '후보 데이터 내려받기'의 후보, 저장소 data/candidates.csv"
 },
 {
 "table": "primaries",

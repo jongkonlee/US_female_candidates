@@ -11,7 +11,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "docs", "data")
 
 TABLES = [
-    ("candidates", "후보", "한 줄 = 선거 하나의 후보 한 명. 페이지 '골라서 내려받기'의 후보, 저장소 data/candidates.csv"),
+    ("candidates", "후보", "한 줄 = 선거 하나의 후보 한 명. 페이지 '후보 데이터 내려받기'의 후보, 저장소 data/candidates.csv"),
     ("primaries", "경선", "한 줄 = 선거 하나의 민주당 또는 공화당 경선 하나. data/primaries.csv"),
     ("races", "선거", "한 줄 = 선거 하나(연도·원·주·선거구). data/races.csv"),
     ("lineage_2026", "선거구 정렬: 2026년 기준", "한 줄 = 2026년 하원 선거구 하나. docs/data/lineage/lineage_2026.csv·.dta"),
