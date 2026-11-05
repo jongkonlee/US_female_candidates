@@ -1,4 +1,4 @@
-name: CES individual models
+name: analysis files (on demand)
 
 # on demand: downloads the cumulative CES (Stata file), joins respondents to the tracker's races and fits the
 # individual-level models of pipeline/ces_models.py (male candidates' race from pipeline/fetch_member_race.py); saves
@@ -8,6 +8,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: update
@@ -17,6 +19,9 @@ jobs:
   fit:
     runs-on: ubuntu-latest
     timeout-minutes: 60
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -34,7 +39,22 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs/data/ces data/static/ces data/static/member_race.csv data/static/member_race_meta.json
           if ! git diff --cached --quiet; then
-            git commit -m "CES individual models"
+            git commit -m "analysis files update"
             git pull --rebase origin main
             git push origin HEAD:main
           fi
+      # publish right away (a push of docs/data alone does not start the site deploy)
+      - name: version page files
+        run: |
+          for f in app.js style.css; do
+            v=$(sha1sum "docs/$f" | cut -c1-8)
+            sed -i "s#\"$f\"#\"$f?v=$v\"#" docs/index.html
+          done
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          timeout: 1800000

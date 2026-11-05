@@ -39,6 +39,7 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-CA-08,D,Nancy Pelosi,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2008-H-CA-08,R,Dana Walsh,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2008-H-CA-09,D,Barbara Lee,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2008-H-CA-09,R,Charles Hargrave,B,research,웹 조사(2026-11-05),https://cc-times.blogspot.com/2008/10/long-shot-looking-to-unseat-lee-has-no.html,Quoted: 'I have a problem being a black Republican of course.'
 2008-H-CA-10,D,Ellen O. Tauscher,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2008-H-CA-10,R,Nicholas Gerber,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-CA-11,D,Jerry McNerney,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
@@ -78,6 +79,7 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-CA-36,D,Jane Harman,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2008-H-CA-36,R,Brian Gibson,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-CA-37,D,Laura Richardson,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2008-H-CA-37,R,June Viena Pouesi,AP,research,웹 조사(2026-11-05),https://pacificbridgearts.org/?p=430,"같은 사람일 가능성 높음(확인 못함); Profile: executive director, Office of Samoan Affairs; came to Hawaii on USS Jackson when Navy closed its Samoa base; 'speak on behalf of my people'"
 2008-H-CA-39,D,Linda T. Sanchez,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2008-H-CA-39,R,Diane A. Lenning,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2008-H-CA-40,D,Christina Avalos,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -194,6 +196,7 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-GA-13,D,David Scott,B,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-GA-13,R,Deborah Honeycutt,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2008-H-HI-01,D,Neil Abercrombie,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
+2008-H-HI-01,R,Steve Tataii,MENA,file,American Kurd running for US Congress,https://www.kurdistan24.net/en/story/367715,
 2008-H-HI-02,D,Mazie Hirono,AP,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-IA-01,D,Bruce Braley,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-IA-01,R,David Hartusch,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
@@ -282,6 +285,7 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-LA-04,R,John Fleming,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-LA-06,D,"""Don"" Cazayoux",W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-LA-06,R,"William ""Bill"" Cassidy",W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
+2008-H-LA-07,D,"Donald ""Don,"" Cravins Jr.",B,file,Louisiana Secretary of State / Candidate Inquiry,https://voterportal.sos.la.gov/CandidateInquiry/StatewideCandidate/Print?officeIds=38476%2C38477%2C38478%2C38479%2C38480%2C38441%2C38442%2C38443%2C38444%2C38445%2C38446%2C38447%2C38448%2C38449%2C38450%2C38451%2C38452%2C38453%2C38454%2C38455%2C38456%2C38457%2C38458%2C38459%2C38460%2C38461%2C38462%2C38463%2C38464%2C38465%2C38466%2C38467%2C38468%2C38469%2C38470%2C38471%2C38472%2C38473%2C38474%2C38475&electionId=154&electionDate=10%2F04%2F2008,
 2008-H-LA-07,R,Charles W. Boustany Jr.,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-MA-01,D,John W. Olver,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-MA-01,R,Nathan A. Bech,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
@@ -334,6 +338,7 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-MI-11,R,Thaddeus G. McCotter,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-MI-12,D,Sander Levin,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-MI-13,D,Carolyn Cheeks Kilpatrick,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2008-H-MI-13,R,Edward J. Gubics,W,research,웹 조사(2026-11-05),https://digital.bentley.umich.edu/midaily/mdp.39015071755206/653,"Michigan Daily: ""Gubics is a white Republican running in a district that is 60 percent black"""
 2008-H-MI-15,D,John D. Dingell,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-MI-15,R,John J. Lynch,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-MN-01,D,Tim Walz,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
@@ -345,6 +350,7 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-MN-04,D,Betty McCollum,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2008-H-MN-04,R,Ed Matthews,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-MN-05,D,Keith Ellison,B,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
+2008-H-MN-05,R,Barb Davis White,B,file,Blacks and the 2008 elections: a preliminary analysis - Document - Gale Academic OneFile,https://go.gale.com/ps/i.do?asid=f5028e88&id=GALE%7CA381057893&it=r&p=AONE&u=googlescholar&v=2.1,
 2008-H-MN-06,D,El Tinklenberg,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-MN-06,R,Michele Bachmann,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2008-H-MN-07,D,Collin C. Peterson,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
@@ -472,6 +478,7 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-NY-20,D,Kirsten E. Gillibrand,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2008-H-NY-20,R,Sandy Treadwell,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-NY-21,D,Paul D. Tonko,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
+2008-H-NY-21,R,James R. Buhrmaster,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-NY-22,D,Maurice D. Hinchey,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-NY-22,R,George K. Phillips,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-NY-23,D,Michael P. Oot,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
@@ -596,6 +603,7 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-TN-04,D,Lincoln Davis,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-TN-04,R,Monty J. Lankford,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-TN-05,D,Jim Cooper,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
+2008-H-TN-05,R,Gerard Donovan,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-TN-07,R,Marsha Blackburn,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2008-H-TX-03,D,Tom Daley,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-TX-03,R,Sam Johnson,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
@@ -637,6 +645,7 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-TX-28,D,Henry Cuellar,H,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-TX-28,R,Jim Fish,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-TX-29,D,Gene Green,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
+2008-H-TX-29,R,Eric Story,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,다른 해 자료의 같은 사람
 2008-H-TX-30,D,Eddie Bernice Johnson,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2008-H-TX-31,D,Brian P. Ruiz,H,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-TX-31,R,John Carter,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -653,6 +662,7 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-VA-04,R,J. Randy Forbes,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-VA-05,D,Tom S. P. Perriello,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-VA-05,R,Virgil H. Goode Jr.,W,file,Kieran Healy / congress,https://kjhealy.github.io/congress/,다른 해 자료의 같은 사람
+2008-H-VA-06,D,"S. ""Sam"" Rasoul",W/MENA,file,Lublin et al. / State Legislative Database,https://doi.org/10.7910/DVN/NYOXTE,다른 해 자료의 같은 사람
 2008-H-VA-06,R,"R. W. ""Bob"" Goodlatte",W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-VA-07,D,Anita Hartke,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2008-H-VA-07,R,Eric I. Cantor,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -682,6 +692,7 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-WI-02,R,Peter Theron,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-WI-03,D,Ron Kind,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-WI-03,R,Paul Stark,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
+2008-H-WI-06,D,Roger A. Kittelson,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-WI-06,R,Tom Petri,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-WI-07,D,David R. Obey,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-WI-07,R,Dan Mielke,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
@@ -744,6 +755,7 @@ race_id,party,name,race,src,source,source_url,note
 2010-H-CA-08,D,Nancy Pelosi,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2010-H-CA-08,R,John Dennis,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2010-H-CA-09,D,Barbara Lee,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2010-H-CA-09,R,Gerald Hashimoto,AP,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2010-H-CA-10,D,John Garamendi,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2010-H-CA-10,R,Gary Clift,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2010-H-CA-11,D,Jerry McNerney,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
@@ -1016,6 +1028,7 @@ race_id,party,name,race,src,source,source_url,note
 2010-H-LA-03,R,"""Jeff"" Landry",W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2010-H-LA-04,D,David Melville,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2010-H-LA-04,R,John Fleming,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
+2010-H-LA-06,D,Merritt E. McDonald Sr.,W,file,Louisiana Secretary of State / Candidate Inquiry,https://voterportal.sos.la.gov/CandidateInquiry/StatewideCandidate/Print?officeIds=38952%2C38945%2C38946%2C38947%2C38948%2C38949%2C38950%2C38951&electionId=240&electionDate=11%2F02%2F2010,
 2010-H-LA-06,R,"William ""Bill"" Cassidy",W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2010-H-MA-01,D,John W. Olver,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2010-H-MA-01,R,William L. Gunn Jr,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
@@ -1367,6 +1380,7 @@ race_id,party,name,race,src,source,source_url,note
 2010-H-SD-00,R,Kristi Noem,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2010-H-TN-01,D,Michael Edward Clark,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2010-H-TN-01,R,David Philip Roe,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
+2010-H-TN-02,D,Dave Hancock,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2010-H-TN-02,R,John J. Duncan Jr.,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2010-H-TN-03,D,John Wolfe,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2010-H-TN-03,R,Chuck Fleischmann,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
@@ -1899,6 +1913,7 @@ race_id,party,name,race,src,source,source_url,note
 2012-H-MT-00,D,Kim Gillan,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2012-H-MT-00,R,Steve Daines,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2012-H-NC-01,D,G. K . Butterfield,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
+2012-H-NC-01,R,Pete DiLauro,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2012-H-NC-02,D,Steve Wilkins,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2012-H-NC-02,R,Renee Ellmers,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2012-H-NC-03,D,Erik Anderson,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
@@ -1985,6 +2000,7 @@ race_id,party,name,race,src,source,source_url,note
 2012-H-NY-08,D,Hakeem S. Jeffries,B,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2012-H-NY-08,R,Alan S. Bellone,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2012-H-NY-09,D,Yvette D. Clarke,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2012-H-NY-09,R,Daniel J. Cavanagh,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2012-H-NY-10,D,Jerrold L. Nadler,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2012-H-NY-10,R,Michael W. Chan,AP,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2012-H-NY-11,D,Mark S. Murphy,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
@@ -2585,6 +2601,7 @@ race_id,party,name,race,src,source,source_url,note
 2014-H-MD-08,D,Chris Van Hollen,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2014-H-MD-08,R,Dave Wallace,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2014-H-ME-01,D,Chellie Pingree,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2014-H-ME-01,R,Isaac J. Misiuk,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2014-H-ME-02,D,Emily Ann Cain,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2014-H-ME-02,R,Bruce Poliquin,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2014-H-MI-01,D,Jerry Cannon,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
@@ -2604,6 +2621,7 @@ race_id,party,name,race,src,source,source_url,note
 2014-H-MI-08,D,Eric Schertzing,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2014-H-MI-08,R,Mike Bishop,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2014-H-MI-09,D,Sander Levin,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
+2014-H-MI-09,R,George Brikho,MENA,file,election roundup Be sure,https://www.yumpu.com/en/document/view/68340562/october-2014/29,
 2014-H-MI-10,D,Chuck Stadler,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2014-H-MI-10,R,Candice S. Miller,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2014-H-MI-11,D,Bobby McKenzie,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
@@ -2623,6 +2641,7 @@ race_id,party,name,race,src,source,source_url,note
 2014-H-MN-04,R,Sharna Wahlgren,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2014-H-MN-05,D,Keith Ellison,B,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2014-H-MN-05,R,Doug Daggett,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
+2014-H-MN-06,D,Joe Perske,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2014-H-MN-06,R,Tom Emmer,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2014-H-MN-07,D,Collin C. Peterson,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2014-H-MN-07,R,Torrey Westrom,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
@@ -2947,6 +2966,7 @@ race_id,party,name,race,src,source,source_url,note
 2014-H-WA-02,R,B.J. Guillot,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2014-H-WA-03,D,Bob Dingethal,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2014-H-WA-03,R,Jaime Herrera Beutler,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2014-H-WA-05,D,Joseph (Joe) Pakootas,NA,file,Washington Secretary of State / Voters’ Guide,https://eledataweb.votewa.gov/OVG/OnlineVotersGuide/GetCandidateStatement?Display=Statewide&candidateId=41920&electionId=63&raceJurisdictionName=Congressional,
 2014-H-WA-05,R,Cathy McMorris Rodgers,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2014-H-WA-06,D,Derek Kilmer,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2014-H-WA-06,R,Marty McClendon,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
@@ -3094,6 +3114,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-CT-02,D,Joe Courtney,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-CT-02,R,Daria Irene Novak,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-CT-03,D,Rosa L. DeLauro,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2016-H-CT-03,R,Angel Cadena,H,file,Former Marine relishes underdog status against DeLauro,https://www.ctpost.com/news/article/Former-Marine-relishes-underdog-status-against-10415398.php,
 2016-H-CT-04,D,Jim Himes,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-CT-05,D,Elizabeth Esty,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-DE-00,D,Lisa Blunt Rochester,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -3168,6 +3189,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-ID-02,R,Mike Simpson,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-IL-01,D,Bobby L. Rush,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
 2016-H-IL-02,D,Robin Kelly,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2016-H-IL-02,R,John F Morrow,B,file,CampaignView / biographical narratives,https://doi.org/10.7910/DVN/JIEAPT,다른 해 자료의 같은 사람
 2016-H-IL-05,D,Mike Quigley,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-IL-05,R,Vince Kolber,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-IL-06,D,Amanda Howland,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -3188,6 +3210,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-IL-18,D,Junius Rodriguez,W,file,FiveThirtyEight 2018,https://github.com/fivethirtyeight/data/tree/master/primary-candidates-2018,다른 해 자료의 같은 사람
 2016-H-IL-18,R,Darin LaHood,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2016-H-IN-01,D,Peter J. Visclosky,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-IN-02,D,Lynn C. Coleman,B,file,"Thursday, Nov. 19, 2015",https://www.in.gov/library/files/HPI151119.pdf,
 2016-H-IN-02,R,Jackie Walorski,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-IN-03,D,Tommy A. Schrader,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-IN-03,R,Jim Banks,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
@@ -3216,6 +3239,8 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-KY-06,R,Andy Barr,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-LA-01,D,Lee Ann Dugas,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-LA-01,R,Steve Scalise,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-LA-03,R,Scott A. Angelle,W,file,Louisiana Secretary of State / Candidate Inquiry,https://voterportal.sos.la.gov/CandidateInquiry/StatewideCandidate/Print?officeIds=53905%2C53899%2C53900%2C53901%2C53902%2C53903%2C53904&electionId=284&electionDate=11%2F08%2F2016,
+2016-H-LA-04,D,Marshall Jones,W,file,Louisiana Secretary of State / Candidate Inquiry,https://voterportal.sos.la.gov/CandidateInquiry/StatewideCandidate/Print?officeIds=53905%2C53899%2C53900%2C53901%2C53902%2C53903%2C53904&electionId=284&electionDate=11%2F08%2F2016,
 2016-H-LA-04,R,"""Mike"" Johnson",W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,다른 해 자료의 같은 사람
 2016-H-LA-06,D,Richard Lieberman,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-LA-06,R,Garret Graves,W/MENA/MU,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,다른 해 자료의 같은 사람
@@ -3228,6 +3253,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-MA-09,R,Mark C. Alliegro,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-MD-01,R,Andy Harris,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-MD-02,D,C.A. Dutch Ruppersberger,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-MD-02,R,Pat McDonough,W,file,Lublin et al. / State Legislative Database,https://doi.org/10.7910/DVN/NYOXTE,다른 해 자료의 같은 사람
 2016-H-MD-03,D,John Sarbanes,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-MD-04,D,Anthony G. Brown,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
 2016-H-MD-04,R,George E. McDermott,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3307,12 +3333,15 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-NC-06,R,B. Mark Walker,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-NC-07,R,David Rouzer,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-NC-08,R,Richard Hudson,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-NC-09,D,Christian Cano,H,file,Christian Cano - Ballotpedia,https://ballotpedia.org/Christian_Cano,
 2016-H-NC-09,R,Robert Pittenger,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-NC-10,R,Patrick McHenry,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-NC-11,R,Mark Meadows,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-NC-12,D,Alma Adams,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2016-H-NC-12,R,Leon Threatt,B,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-NC-13,D,Bruce Davis,B,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-NC-13,R,Ted Budd,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2016-H-ND-00,D,Chase Iron Eyes,NA,file,Chase Iron Eyes | Duke Forum for Scholars and Publics,https://fsp.duke.edu/speakers/chase-iron-eyes/,
 2016-H-ND-00,R,Kevin Cramer,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-NE-01,D,Daniel M. Wik,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2016-H-NE-01,R,Jeff Fortenberry,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3332,6 +3361,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-NJ-05,D,Joshua S. Gottheimer,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2016-H-NJ-05,R,Scott Garrett,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-NJ-06,D,Frank Pallone Jr.,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-NJ-07,D,Peter Jacob,AP,file,CampaignView / biographical narratives,https://doi.org/10.7910/DVN/JIEAPT,다른 해 자료의 같은 사람
 2016-H-NJ-07,R,Leonard Lance,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-NJ-08,D,Albio Sires,H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
 2016-H-NJ-08,R,Agha Khan,AP,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,다른 해 자료의 같은 사람
@@ -3355,6 +3385,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-NV-04,R,Cresent Hardy,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-NY-01,D,Anna E. Throne-Holst,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-NY-01,R,Lee M. Zeldin,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-NY-02,D,Du Wayne Gregory,B,file,Monthly archive | The East Hampton Star,https://www.easthamptonstar.com/archive/201904?page=1025,
 2016-H-NY-02,R,Peter T. King,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-NY-03,D,Thomas R. Suozzi,W,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,다른 해 자료의 같은 사람
 2016-H-NY-03,R,Jack M. Martins,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,다른 해 자료의 같은 사람
@@ -3441,6 +3472,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-PA-12,D,Erin R. McClelland,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-PA-12,R,Keith Rothfus,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-PA-14,D,Mike Doyle,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-PA-14,R,Lenny McAllister,B,file,"Outside The Focus Of Major Parties, Black Pittsburghers Vow To Get Out The Vote | Georgia Public Broadcasting",https://www.gpb.org/news/2020/09/24/outside-the-focus-of-major-parties-black-pittsburghers-vow-get-out-the-vote,
 2016-H-PA-15,D,Rick Daugherty,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-PA-15,R,Charles W. Dent,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-PA-16,D,Christina Hartman,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -3469,6 +3501,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-TN-04,D,Steven Reynolds,W,file,FiveThirtyEight 2018,https://github.com/fivethirtyeight/data/tree/master/primary-candidates-2018,다른 해 자료의 같은 사람
 2016-H-TN-04,R,Scott DesJarlais,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-TN-05,D,Jim Cooper,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-TN-05,R,Stacy Ries Snyder,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-TN-06,R,Diane Black,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-TN-07,R,Marsha Blackburn,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-TN-08,D,Rickey Hobson,B,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3542,7 +3575,9 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-WA-01,D,Suzan DelBene,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-WA-01,R,Robert J. Sutherland,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-WA-02,D,Rick Larsen,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-WA-03,D,Jim Moeller,W,file,Lublin et al. / State Legislative Database,https://doi.org/10.7910/DVN/NYOXTE,다른 해 자료의 같은 사람
 2016-H-WA-03,R,Jaime Herrera Beutler,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,다른 해 자료의 같은 사람
+2016-H-WA-05,D,Joe Pakootas,NA,file,Washington Secretary of State / Voters’ Guide,https://eledataweb.votewa.gov/OVG/OnlineVotersGuide/GetCandidateStatement?Display=Statewide&candidateId=41920&electionId=63&raceJurisdictionName=Congressional,
 2016-H-WA-05,R,Cathy McMorris Rodgers,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-WA-06,D,Derek Kilmer,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-WA-06,R,Todd A. Bloom,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
@@ -3554,6 +3589,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-WI-01,R,Paul Ryan,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-WI-02,D,Mark Pocan,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-WI-02,R,Peter Theron,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-WI-05,D,Khary Penebaker,B,file,My Story - Khary Penebaker,https://www.kharypenebaker.com/my-story/,
 2016-H-WI-05,R,F. James. Sensenbrenner Jr.,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-WI-06,D,Sarah Lloyd,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-WI-06,R,Glenn Grothman,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3574,6 +3610,7 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-AL-02,R,Martha Roby,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-AL-03,D,Mallory Hagan,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-AL-03,R,Mike Rogers,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-AL-04,D,Lee Auman,W,file,FiveThirtyEight 2018,https://github.com/fivethirtyeight/data/tree/master/primary-candidates-2018,
 2018-H-AL-04,R,Robert Aderholt,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-AL-05,D,Peter Joffrion,W,file,FiveThirtyEight 2018,https://github.com/fivethirtyeight/data/tree/master/primary-candidates-2018,
 2018-H-AL-05,R,Mo Brooks,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
@@ -3680,6 +3717,7 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-CO-01,D,Diana DeGette,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-CO-01,R,Charles Casper Stockham,B,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,다른 해 자료의 같은 사람
 2018-H-CO-02,D,Joe Neguse,B,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-CO-02,R,Peter Yu,AP,file,Colorado's 2022 U.S. Senate candidates - Denver Gazette,https://www.denvergazette.com/2021/11/27/colorados-2022-u-s-senate-candidates-625a509a-3ed5-5d71-90f3-8899e0b022c0/,
 2018-H-CO-03,D,Diane Mitsch Bush,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-CO-03,R,Scott R. Tipton,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-CO-04,D,Karen McCormick,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -3693,7 +3731,9 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-CT-01,R,Jennifer T. Nye,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-CT-02,D,Joe Courtney,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-CT-03,D,Rosa L. DeLauro,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2018-H-CT-03,R,Angel Cadena,H,file,Former Marine relishes underdog status against DeLauro,https://www.ctpost.com/news/article/Former-Marine-relishes-underdog-status-against-10415398.php,
 2018-H-CT-04,D,Jim Himes,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-CT-04,R,Harry Arora,AP,file,Lublin et al. / State Legislative Database,https://doi.org/10.7910/DVN/NYOXTE,다른 해 자료의 같은 사람
 2018-H-CT-05,D,Jahana Hayes,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-CT-05,R,Manny Santos,H,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-DE-00,D,Lisa Blunt Rochester,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -3729,6 +3769,7 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-FL-19,D,David Holden,W,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,다른 해 자료의 같은 사람
 2018-H-FL-19,R,Francis Rooney,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-FL-22,D,Ted Deutch,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-FL-22,R,Nicolas Kimaz,MENA,file,Javi Manjarres remains in legal wrangle with primary opponent Nicolas Kimaz,https://floridapolitics.com/archives/281210-manjarres-legal-wrangle-kimaz/,
 2018-H-FL-23,D,Debbie Wasserman Schultz,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-FL-23,R,"Joseph ""Joe"" Kaufman",W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2018-H-FL-25,D,Mary Barzee Flores,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -3753,6 +3794,7 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-GA-09,R,Doug Collins,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-GA-10,D,Tabitha A. Johnson-Green,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,다른 해 자료의 같은 사람
 2018-H-GA-10,R,Jody Hice,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-GA-11,D,Flynn D. Broady Jr.,B,file,Cobb DA confident against any appeals from the killers of Ahmaud Arbery,https://www.audacy.com/waok/news/national/flynn-broady-says-he-cried-upon-hearing-the-arbery-verdicts,
 2018-H-GA-11,R,Barry Loudermilk,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-GA-12,R,Rick W. Allen,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-GA-13,D,David Scott,B,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
@@ -3920,7 +3962,9 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-MO-08,D,Kathy Ellis,W,file,FiveThirtyEight 2018,https://github.com/fivethirtyeight/data/tree/master/primary-candidates-2018,
 2018-H-MO-08,R,Jason Smith,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-MS-01,R,Trent Kelly,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-MS-03,D,Michael Ted Evans,W,file,Lublin et al. / State Legislative Database,https://doi.org/10.7910/DVN/NYOXTE,다른 해 자료의 같은 사람
 2018-H-MS-03,R,Michael Guest,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-MS-04,D,Jeramey Anderson,B,file,Lublin et al. / State Legislative Database,https://doi.org/10.7910/DVN/NYOXTE,다른 해 자료의 같은 사람
 2018-H-MS-04,R,Steven Palazzo,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-MT-00,D,Kathleen Williams,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-MT-00,R,Greg Gianforte,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
@@ -3928,6 +3972,7 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-NC-02,D,Linda Coleman,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-NC-02,R,George Holding,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-NC-04,D,David Price,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-NC-04,R,Steve A. (Von) Loor,H,file,CampaignView / biographical narratives,https://doi.org/10.7910/DVN/JIEAPT,다른 해 자료의 같은 사람
 2018-H-NC-05,D,DD Adams,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-NC-05,R,Virginia Foxx,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-NC-06,D,Ryan Watts,W,file,FiveThirtyEight 2018,https://github.com/fivethirtyeight/data/tree/master/primary-candidates-2018,
@@ -4181,6 +4226,7 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-TX-25,R,Roger Williams,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-TX-26,D,Linsey Fagan,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-TX-26,R,Michael C. Burgess,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-TX-27,D,Eric Holguin,H,file,Corpus Christi's Eric Holguin Vies to Become 1st Out Latino Congressman | OutSmart Magazine,https://www.outsmartmagazine.com/2018/09/corpus-christis-eric-holguin-vies-to-become-1st-out-latino-congressman/,
 2018-H-TX-27,R,Michael Cloud,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-TX-29,D,Sylvia R. Garcia,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-TX-31,D,"Mary Jennings ""MJ"" Hegar",W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -4193,6 +4239,7 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-TX-35,D,Lloyd Doggett,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-TX-36,D,Dayna Steele,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-TX-36,R,Brian Babin,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-UT-01,D,Lee Castillo,H,file,"Layton's Castillo holds 1,500-vote lead in bid to battle Congressman Bishop | KSL.com",https://www.ksl.com/article/46350327,
 2018-H-UT-01,R,Rob Bishop,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-UT-02,D,Shireen Ghorbani,MENA,file,Individual verification,https://www.paaia.org/CMS/educate-interviews-shireen-ghorbani,
 2018-H-UT-02,R,Chris Stewart,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
@@ -4220,6 +4267,7 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-VA-11,D,Gerald Edward Connolly,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-VA-11,R,Jeff A. Dove Jr.,B,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-VT-00,D,Peter Welch,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-VT-00,R,Anya Tynio,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,다른 해 자료의 같은 사람
 2018-H-WA-01,D,Suzan DelBene,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-WA-01,R,Jeffrey Beeler,W,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,다른 해 자료의 같은 사람
 2018-H-WA-03,D,Carolyn Long,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -4319,6 +4367,7 @@ race_id,party,name,race,src,source,source_url,note
 2020-H-CA-17,D,Ro Khanna,AP,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2020-H-CA-17,R,Ritesh Tandon,AP,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2020-H-CA-19,D,Zoe Lofgren,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2020-H-CA-19,R,Justin James Aguilera,H,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,다른 해 자료의 같은 사람
 2020-H-CA-20,D,Jimmy Panetta,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
 2020-H-CA-20,R,Jeff Gorman,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
 2020-H-CA-21,D,TJ Cox,AP,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
@@ -4354,6 +4403,7 @@ race_id,party,name,race,src,source,source_url,note
 2020-H-CA-39,D,Gil Cisneros,H,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
 2020-H-CA-39,R,Young Kim,AP,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
 2020-H-CA-40,D,Lucille Roybal-Allard,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2020-H-CA-40,R,C Antonio Delgado,H,research,웹 조사(2026-11-05),https://californiaglobe.com/section-2/congressional-candidate-c-antonio-delgado-self-made-american-immigrant-success-story/,'immigrated with his family from El Salvador as a young child'
 2020-H-CA-41,D,Mark Takano,AP,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
 2020-H-CA-41,R,Aja Smith,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2020-H-CA-42,D,"William ""Liam"" O'Mara",W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
@@ -4509,6 +4559,7 @@ race_id,party,name,race,src,source,source_url,note
 2020-H-IL-07,D,Danny K. Davis,B,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
 2020-H-IL-08,D,Raja Krishnamoorthi,AP,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
 2020-H-IL-09,D,Janice D. Schakowsky,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2020-H-IL-09,R,Sargis Sangari,MENA,file,Vote Assyrian fights for a seat at the table,https://theassyrianjournal.com/vote-assyrian-fights-for-a-seat-at-the-table/,
 2020-H-IL-10,D,Brad Schneider,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
 2020-H-IL-10,R,Valerie Ramirez Mukherjee,W/H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2020-H-IL-11,D,Bill Foster,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
@@ -4566,8 +4617,13 @@ race_id,party,name,race,src,source,source_url,note
 2020-H-LA-01,D,Lee Ann Dugas,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2020-H-LA-01,R,Steve Scalise,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
 2020-H-LA-02,D,Cedric L. Richmond,B,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
+2020-H-LA-02,R,David M. Schilling,W,file,Louisiana Secretary of State / Candidate Inquiry,https://voterportal.sos.la.gov/CandidateInquiry/StatewideCandidate/Print?officeIds=59569%2C59570%2C59571%2C59572%2C59573%2C59574%2C59575&electionId=307&electionDate=11%2F03%2F2020,
+2020-H-LA-03,D,Braylon Harris,B,file,Louisiana Secretary of State / Candidate Inquiry,https://voterportal.sos.la.gov/CandidateInquiry/StatewideCandidate/Print?officeIds=59569%2C59570%2C59571%2C59572%2C59573%2C59574%2C59575&electionId=307&electionDate=11%2F03%2F2020,
 2020-H-LA-03,R,Clay Higgins,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
+2020-H-LA-04,D,Kenny Houston,B,file,Louisiana Secretary of State / Candidate Inquiry,https://voterportal.sos.la.gov/CandidateInquiry/StatewideCandidate/Print?officeIds=59569%2C59570%2C59571%2C59572%2C59573%2C59574%2C59575&electionId=307&electionDate=11%2F03%2F2020,
 2020-H-LA-04,R,"""Mike"" Johnson",W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
+2020-H-LA-05,R,Luke J. Letlow,W,file,Louisiana Secretary of State / Candidate Inquiry,https://voterportal.sos.la.gov/CandidateInquiry/StatewideCandidate/Print?officeIds=59569%2C59570%2C59571%2C59572%2C59573%2C59574%2C59575&electionId=307&electionDate=11%2F03%2F2020,
+2020-H-LA-06,D,"Dartanyon ""DAW"" Williams",B,file,Louisiana Secretary of State / Candidate Inquiry,https://voterportal.sos.la.gov/CandidateInquiry/StatewideCandidate/Print?officeIds=59569%2C59570%2C59571%2C59572%2C59573%2C59574%2C59575&electionId=307&electionDate=11%2F03%2F2020,
 2020-H-LA-06,R,Garret Graves,W/MENA/MU,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,다른 해 자료의 같은 사람
 2020-H-MA-02,D,James P. McGovern,W,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,
 2020-H-MA-02,R,Tracy Lyn Lovvorn,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -4578,6 +4634,7 @@ race_id,party,name,race,src,source,source_url,note
 2020-H-MA-06,D,Seth Moulton,W,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,
 2020-H-MA-06,R,John Paul Moran,W,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,
 2020-H-MA-07,D,Ayanna S. Pressley,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2020-H-MA-07,R,Rayla Danella Campbell,B,research,웹 조사(2026-11-05),https://eurweb.com/black-gop-write-in-candidate-for-congress-says-she-was-attacked-after-trump-rally-in-ma-video/,"EURweb headline: ""Black GOP Write-In Candidate for Congress""; MRCTV also calls her a Black GOP candidate."
 2020-H-MA-09,D,Bill Keating,W,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,
 2020-H-MA-09,R,Helen Brady,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2020-H-MD-01,D,Mia Mason,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -5362,8 +5419,10 @@ race_id,party,name,race,src,source,source_url,note
 2022-H-LA-01,D,Katie Darling,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2022-H-LA-01,R,Steve Scalise,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1DiTYjplZmyHG8ZpNalFSkBeCza1j6bvTFUccdc3iDiU/edit,
 2022-H-LA-02,D,Troy A. Carter,B,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1DiTYjplZmyHG8ZpNalFSkBeCza1j6bvTFUccdc3iDiU/edit,
+2022-H-LA-02,R,"""Dan"" Lux",W,file,Louisiana Secretary of State / Candidate Inquiry,https://voterportal.sos.la.gov/CandidateInquiry/StatewideCandidate/Print?officeIds=61897%2C62059%2C61924%2C62013%2C61939%2C61896%2C61925&electionId=318&electionDate=11%2F08%2F2022,
 2022-H-LA-03,D,Lessie Olivia Leblanc,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2022-H-LA-03,R,Clay Higgins,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1DiTYjplZmyHG8ZpNalFSkBeCza1j6bvTFUccdc3iDiU/edit,
+2022-H-LA-05,D,"Oscar ""Omar"" Dantzler",B,file,Louisiana Secretary of State / Candidate Inquiry,https://voterportal.sos.la.gov/CandidateInquiry/StatewideCandidate/Print?officeIds=61897%2C62059%2C61924%2C62013%2C61939%2C61896%2C61925&electionId=318&electionDate=11%2F08%2F2022,
 2022-H-LA-05,R,Julia Letlow,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2022-H-MA-01,D,Richard E. Neal,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,
 2022-H-MA-01,R,Dean James Martilli,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,
@@ -5802,6 +5861,7 @@ race_id,party,name,race,src,source,source_url,note
 2022-H-VT-00,D,Becca Balint,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2022-H-VT-00,R,Liam Madden,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,
 2022-H-WA-01,D,Suzan DelBene,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2022-H-WA-01,R,Vincent J. Cavaleri,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1DiTYjplZmyHG8ZpNalFSkBeCza1j6bvTFUccdc3iDiU/edit,
 2022-H-WA-02,D,Rick Larsen,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,
 2022-H-WA-02,R,Dan Matthews,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,
 2022-H-WA-03,D,Marie Gluesenkamp Perez,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -5866,6 +5926,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-AZ-06,D,Kirsten Engel,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-AZ-06,R,Juan Ciscomani,H,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-AZ-07,D,Raúl Grijalva,H,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2024-H-AZ-07,R,Daniel Butierez,H,file,Incredible Story: My Journey of Transformation,https://butierezforcongress.com/my-incredible-story/,
 2024-H-AZ-08,R,Abraham Hamadeh,MENA,file,Individual verification,https://hamadeh.house.gov/about/,다른 해 자료의 같은 사람
 2024-H-AZ-09,R,Paul Gosar,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-CA-01,D,Rose Penelope Yee,AP,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/CA_candidates_cleaned.csv,다른 해 자료의 같은 사람
@@ -5887,6 +5948,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-CA-10,D,Mark DeSaulnier,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-CA-10,R,Katherine Piccinini,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/CA_candidates_cleaned.csv,다른 해 자료의 같은 사람
 2024-H-CA-11,D,Nancy Pelosi,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2024-H-CA-11,R,Bruce Lou,AP,file,"In liberal San Francisco, Asian immigrants are joining the Republican Party in droves | The San Francisco Standard",https://sfstandard.com/2024/02/15/as-asian-immigrants-turn-right-san-franciscos-republican-party-sees-an-opportunity/,
 2024-H-CA-13,D,Adam Gray,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-CA-13,R,John Duarte,H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
 2024-H-CA-14,D,Eric Swalwell,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
@@ -5914,6 +5976,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-CA-28,R,April Verlato,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-CA-29,D,Luz Rivas,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-CA-30,D,Laura Friedman,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2024-H-CA-30,R,Alex Balekian,MENA,research,웹 조사(2026-11-05),https://zartonkmedia.com/2024/06/17/former-u-s-presidential-candidate-vivek-ramaswamy-endorses-armenian-american-alex-balekian-for-u-s-congress/,"Headline: 'Armenian-American Alex Balekian'; Glendale native, son of immigrants"
 2024-H-CA-31,D,Gil Cisneros,H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
 2024-H-CA-31,R,Daniel Martinez,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-CA-32,D,Brad Sherman,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
@@ -5948,6 +6011,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-CA-51,D,Sara Jacobs,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-CA-52,D,Juan Vargas,H,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-CO-01,D,Diana DeGette,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2024-H-CO-01,R,Valdamar Archuleta,H/NA,file,Colorado congressional candidates | 2024 VOTER GUIDE - Denver Gazette,https://www.denvergazette.com/2024/10/01/colorado-congressional-candidates-2024-voter-guide/,
 2024-H-CO-02,D,Joe Neguse,B,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-CO-02,R,Marshall Dawson,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1DiTYjplZmyHG8ZpNalFSkBeCza1j6bvTFUccdc3iDiU/edit,다른 해 자료의 같은 사람
 2024-H-CO-03,D,Adam Frisch,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
@@ -6009,6 +6073,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-FL-24,D,Frederica Wilson,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-FL-24,R,Jesus Navarro,H,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-FL-25,D,Debbie Wasserman Schultz,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2024-H-FL-25,R,Chris Eddy,MENA,research,웹 조사(2026-11-05),https://ballotpedia.org/Christopher_Eddy,"Campaign site (quoted on Ballotpedia): ""As a grandson of Lebanese immigrants"""
 2024-H-FL-26,R,Mario Díaz-Balart,H,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-FL-27,D,Lucia Báez-Geller,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-FL-27,R,María Elvira Salazar,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -6049,6 +6114,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-IA-01,R,Mariannette Miller-Meeks,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-IA-02,D,Sarah Corkery,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-IA-02,R,Ashley Hinson,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2024-H-IA-03,D,Lanon Baccam,AP,file,"Meet Lanon Baccam, candidate in Iowa's 3rd District",https://iowastartingline.com/news/elections/meet-lanon-baccam/,
 2024-H-IA-03,R,Zach Nunn,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-IA-04,D,Ryan Melton,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-IA-04,R,Randy Feenstra,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
@@ -6097,6 +6163,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-KS-01,R,Tracey Mann,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-KS-02,D,Nancy Boyda,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-KS-03,D,Sharice Davids,NA,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2024-H-KS-03,R,Prasanth Reddy,AP,file,Indian American immigrant and top GOP prospect enters Kansas House race - Denver Gazette,https://www.denvergazette.com/2023/07/12/indian-american-immigrant-and-top-gop-prospect-enters-kansas-house-race-caeb971f-33ec-52bb-8522-31f093117c95/,
 2024-H-KS-04,D,Esau Freeman,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2024-H-KS-04,R,Ron Estes,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-KY-01,D,Erin Marshall,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -6111,8 +6178,10 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-LA-02,R,Christy Lynch,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-LA-03,D,Priscilla Gonzalez,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-LA-03,R,Clay Higgins,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-LA-05,D,Michael Vallien Jr.,B,file,Louisiana Secretary of State / Candidate Inquiry,https://voterportal.sos.la.gov/CandidateInquiry/StatewideCandidate/Print?officeIds=67171%2C67187%2C67188%2C67174%2C67175%2C67189&electionId=331&electionDate=11%2F05%2F2024,
 2024-H-LA-05,R,Julia Letlow,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-LA-06,D,Cleo Fields,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
+2024-H-LA-06,R,Elbert Guillory,B,file,Louisiana Secretary of State / Candidate Inquiry,https://voterportal.sos.la.gov/CandidateInquiry/StatewideCandidate/Print?officeIds=67171%2C67187%2C67188%2C67174%2C67175%2C67189&electionId=331&electionDate=11%2F05%2F2024,
 2024-H-MA-08,D,Stephen Lynch,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-MA-08,R,Robert Burke,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-MA-09,D,Bill Keating,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
@@ -6134,6 +6203,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-ME-01,D,Chellie Pingree,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-ME-01,R,Ronald Russell,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/ME_candidates_cleaned.csv,다른 해 자료의 같은 사람
 2024-H-ME-02,D,Jared Golden,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-ME-02,R,Austin Theriault,W,file,State Legislators Dataset / Duke,https://people.duke.edu/~nwc8/stateleg.html,다른 해 자료의 같은 사람
 2024-H-MI-01,D,Callie Barr,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-MI-01,R,Jack Bergman,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-MI-02,R,John Moolenaar,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
@@ -6207,8 +6277,10 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-NC-09,R,Richard Hudson,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-NC-10,D,Ralph Scott Jr.,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/2026_candidates_cleaned.csv,다른 해 자료의 같은 사람
 2024-H-NC-10,R,Pat Harrigan,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2024-H-NC-11,D,Caleb Rudow,W,file,State Legislators Dataset / Duke,https://people.duke.edu/~nwc8/stateleg.html,다른 해 자료의 같은 사람
 2024-H-NC-11,R,Chuck Edwards,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-NC-12,D,Alma Adams,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2024-H-NC-12,R,Addul Ali,B,research,웹 조사(2026-11-05),https://www.imdb.com/title/tt33468112/plotsummary ; https://aol.com/addul-ali-candidate-us-house-144055079.html,"IMDb synopsis of Jesse Lee Peterson interview: Ali discusses criticism he faces as ""a Black Republican""; AOL/candidate Q&A: past chairman of NCGOP Black Conservative Voices Coalition"
 2024-H-NC-13,D,Frank Pierce,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/2026_candidates_cleaned.csv,다른 해 자료의 같은 사람
 2024-H-NC-13,R,Brad Knott,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/2026_candidates_cleaned.csv,다른 해 자료의 같은 사람
 2024-H-NC-14,D,Pam Genant,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -6227,6 +6299,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-NJ-01,D,Donald Norcross,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-NJ-02,R,Jeff Van Drew,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-NJ-03,D,Herb Conaway,B,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/NJ_candidates_cleaned.csv,다른 해 자료의 같은 사람
+2024-H-NJ-03,R,Rajesh Mohan,AP,file,Rajesh Mohan defeated in New Jersey’s 3rd Congressional district race,https://www.newindiaabroad.com/punjabi/us-elections-2024/rajesh-mohan-defeated-in-new-jerseys-3rd-congressional-district-race,
 2024-H-NJ-04,D,Matthew Jenkins,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-NJ-04,R,Chris Smith,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-NJ-05,D,Josh Gottheimer,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
@@ -6273,6 +6346,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-NY-14,D,Alexandria Ocasio-Cortez,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-NY-14,R,Tina Forte,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-NY-15,D,Ritchie Torres,B/H,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2024-H-NY-16,D,George Latimer,W,file,Lublin et al. / State Legislative Database,https://doi.org/10.7910/DVN/NYOXTE,다른 해 자료의 같은 사람
 2024-H-NY-16,R,Miriam Flisser,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-NY-17,D,Mondaire Jones,B,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-NY-17,R,Mike Lawler,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
@@ -6290,6 +6364,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-NY-25,D,Joseph Morelle,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-NY-26,D,Tim Kennedy,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-OH-01,D,Greg Landsman,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-OH-01,R,Orlando Sonza,AP,file,Orlando Sonza fighting for Ohio and Jason Willick on the Trump Indictments | Breaking Battlegrounds Episode on Amazon Music,https://music.amazon.com/podcasts/2bff2490-e743-4eb3-b10c-052e29ca33f8/episodes/4f50e352-ad4a-48da-a261-e777b3a375b2/breaking-battlegrounds-orlando-sonza-fighting-for-ohio-and-jason-willick-on-the-trump-indictments,
 2024-H-OH-02,D,Samantha Meadows,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-OH-02,R,David Taylor,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/OH_candidates_cleaned.csv,다른 해 자료의 같은 사람
 2024-H-OH-03,D,Joyce Beatty,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -6324,6 +6399,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-OK-05,D,Madison Horn,NA,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-OK-05,R,Stephanie Bice,W/MENA,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-OR-01,D,Suzanne Bonamici,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2024-H-OR-02,D,Dan Ruby,W/AP,file,Dan Ruby – LGBTQ+ Victory Fund,https://victoryfund.org/candidate/ruby-dan/,
 2024-H-OR-02,R,Cliff Bentz,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-OR-03,D,Maxine Dexter,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-OR-03,R,Joanna Harbour,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -6358,9 +6434,11 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-PA-15,R,Glenn Thompson,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-PA-16,R,Mike Kelly,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-PA-17,D,Chris Deluzio,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-PA-17,R,Rob Mercuri,W,file,State Legislators Dataset / Duke,https://people.duke.edu/~nwc8/stateleg.html,다른 해 자료의 같은 사람
 2024-H-RI-01,D,Gabe Amo,B,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-RI-01,R,Allen Waters,B,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-RI-02,D,Seth Magaziner,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-SC-01,D,Michael B. Moore,B,research,웹 조사(2026-11-05),https://thegrio.com/2023/10/13/descendant-of-civil-war-hero-wants-to-unseat-sc-house-rep-nancy-mace,'the only Black Democratic candidate looking to unseat Republican U.S. Rep. Nancy Mace'
 2024-H-SC-01,R,Nancy Mace,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-SC-02,D,David Robinson,B,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/SC_candidates_cleaned.csv,다른 해 자료의 같은 사람
 2024-H-SC-02,R,Joe Wilson,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
@@ -6459,6 +6537,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-VA-05,D,Gloria Witt,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-VA-05,R,John McGuire,W,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,다른 해 자료의 같은 사람
 2024-H-VA-06,R,Ben Cline,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-VA-07,D,Eugene Vindman,W,file,High-stakes House primaries in Virginia show fissures across both parties - ABC News,https://abcnews.com/Politics/high-stakes-house-primaries-virginia-show-fissures-parties/story?id=111138645,
 2024-H-VA-07,R,Derrick Anderson,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-VA-08,D,Don Beyer,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-VA-09,D,Karen Baker,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -6473,6 +6552,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-WA-03,D,Marie Gluesenkamp Perez,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-WA-03,R,Joe Kent,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-WA-05,D,Carmela Conroy,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2024-H-WA-05,R,Michael Baumgartner,W,file,Lublin et al. / State Legislative Database,https://doi.org/10.7910/DVN/NYOXTE,다른 해 자료의 같은 사람
 2024-H-WA-06,D,Emily Randall,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-WA-06,R,Drew MacEwen,W,file,Candidate Characteristics Cooperative (C3),https://doi.org/10.7910/DVN/VHAPHV,다른 해 자료의 같은 사람
 2024-H-WA-07,D,Pramila Jayapal,AP,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
