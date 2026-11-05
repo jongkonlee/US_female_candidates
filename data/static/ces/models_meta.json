@@ -349,8 +349,9 @@
  "nominee_table": {
   "file": 5689,
   "cawp": 1724,
-  "none": 304,
+  "user": 253,
   "rdc": 192,
+  "none": 51,
   "research": 24,
   "member": 7,
   "surname": 3
@@ -388,7 +389,7 @@
   },
   "missing": {
    "copart": 281,
-   "same_race_w": 122,
+   "same_race_w": 57,
    "rrace": 0,
    "college": 0,
    "age": 0,
@@ -399,17 +400,18 @@
   },
   "man_race_races": {
    "file": 1236,
-   "none": 58,
+   "user": 47,
    "rdc": 40,
+   "none": 11,
    "research": 8,
    "member": 1
   },
   "man_race_codes": {
-   "W": 1063,
-   "B": 94,
-   "H": 80,
-   "모름": 58,
-   "AP": 28,
+   "W": 1103,
+   "B": 97,
+   "H": 82,
+   "AP": 30,
+   "모름": 11,
    "NA": 9,
    "MENA": 4,
    "W/MENA": 2,
@@ -419,7 +421,7 @@
    "H/NA": 1
   },
   "woman_race_codes": {
-   "W": 923,
+   "W": 924,
    "B": 215,
    "H": 102,
    "AP": 62,
@@ -428,8 +430,8 @@
    "NA": 7,
    "AP/B": 4,
    "B/W": 3,
-   "모름": 2,
    "NA/W": 2,
+   "모름": 1,
    "B/H/W": 1,
    "MU": 1,
    "AP/MENA": 1,
@@ -440,8 +442,9 @@
   "nominee_race_src": {
    "file": 4881,
    "cawp": 1724,
-   "none": 203,
    "rdc": 188,
+   "user": 155,
+   "none": 48,
    "research": 24,
    "surname": 3,
    "member": 3
