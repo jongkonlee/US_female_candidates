@@ -389,19 +389,19 @@
    "med_income": 0
   },
   "man_race_races": {
-   "file": 1228,
-   "none": 106,
-   "research": 7,
-   "member": 3
+   "file": 1234,
+   "none": 104,
+   "research": 5,
+   "member": 1
   },
   "man_race_codes": {
    "W": 1022,
-   "모름": 106,
+   "모름": 104,
    "B": 94,
-   "H": 75,
+   "H": 76,
    "AP": 28,
    "NA": 9,
-   "MENA": 3,
+   "MENA": 4,
    "W/MENA": 2,
    "W/H": 2,
    "W/NA/MU": 1,
@@ -428,11 +428,11 @@
    "H/MENA/W": 1
   },
   "nominee_race_src": {
-   "file": 4853,
+   "file": 4877,
    "cawp": 1726,
-   "none": 450,
-   "research": 9,
-   "member": 6
+   "none": 430,
+   "research": 7,
+   "member": 4
   }
  },
  "individual": {
