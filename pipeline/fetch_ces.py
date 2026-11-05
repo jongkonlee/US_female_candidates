@@ -169,7 +169,7 @@ def main():
     df["year_"] = pd.to_numeric(df[c["year"]], errors="coerce").astype(int)
     def abbr(col):
         s = df[col].astype(str).str.strip()
-        return s.map(lambda x: STATES.get(x, x if len(x) == 2 else None))
+        return s.map(lambda x: STATES.get(x, x if len(x) == 2 else None) if isinstance(x, str) else None)  # pandas 3 keeps missing as NaN
     df["st_"] = abbr(c["st"]) if c["st"] else None
     if c["st_pre"] and c["st_pre"] != c["st"]:
         df["st_"] = df["st_"].fillna(abbr(c["st_pre"]))
