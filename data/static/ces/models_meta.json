@@ -347,12 +347,13 @@
   }
  },
  "nominee_table": {
-  "file": 4881,
+  "file": 5689,
   "cawp": 1724,
-  "none": 205,
-  "rdc": 188,
+  "none": 304,
+  "rdc": 192,
   "research": 24,
-  "member": 4
+  "member": 7,
+  "surname": 3
  },
  "sample": {
   "respondents": 302994,
@@ -439,10 +440,11 @@
   "nominee_race_src": {
    "file": 4881,
    "cawp": 1724,
-   "none": 205,
+   "none": 203,
    "rdc": 188,
    "research": 24,
-   "member": 4
+   "surname": 3,
+   "member": 3
   }
  },
  "individual": {
