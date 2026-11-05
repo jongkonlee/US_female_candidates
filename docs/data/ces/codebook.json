@@ -9,6 +9,21 @@
 "table": "ces_districts_pid",
 "title": "CES 유권자: 선거 × 응답자 성별 × 정당 일체감",
 "unit": "한 줄 = 하원 선거 하나 × 응답자 성별 × 정당 일체감. docs/data/ces/ces_districts_pid.csv·.dta"
+},
+{
+"table": "ces_individual",
+"title": "CES 개인 분석 자료",
+"unit": "한 줄 = 응답자 한 명(2008–2024 여성 대 남성 하원 선거에서 두 후보 중 한 명을 찍은 사람). docs/data/ces/ces_individual.dta"
+},
+{
+"table": "ces_models",
+"title": "CES 회귀계수",
+"unit": "한 줄 = 모형 하나의 변수 하나. docs/data/ces/ces_models.csv"
+},
+{
+"table": "ces_models_pred",
+"title": "CES 보정 예측",
+"unit": "한 줄 = 모형 하나의 예측값 또는 차이 하나. docs/data/ces/ces_models_pred.csv"
 }
 ],
 "vars": [
@@ -353,6 +368,456 @@
 "name": "n_eff",
 "label": "유효 표본 수",
 "values": "민주·공화 투표자의 (가중치 합)² ÷ (가중치 제곱합). 비율의 오차를 어림할 때 씀"
+},
+{
+"table": "ces_individual",
+"name": "case_id",
+"label": "CES 응답자 번호",
+"values": "CES 누적 파일의 case_id"
+},
+{
+"table": "ces_individual",
+"name": "year",
+"label": "선거 연도",
+"values": "2008–2024 짝수 해"
+},
+{
+"table": "ces_individual",
+"name": "race_id",
+"label": "선거 번호",
+"values": "트래커의 하원 선거 번호"
+},
+{
+"table": "ces_individual",
+"name": "race_n",
+"label": "선거 번호(숫자)",
+"values": "묶음 표준오차용(vce(cluster race_n))"
+},
+{
+"table": "ces_individual",
+"name": "state",
+"label": "주",
+"values": ""
+},
+{
+"table": "ces_individual",
+"name": "district",
+"label": "선거구",
+"values": "0 = 주 전체 한 석"
+},
+{
+"table": "ces_individual",
+"name": "wparty",
+"label": "여성 후보의 정당",
+"values": "D = 민주당 여성 대 공화당 남성, R = 공화당 여성 대 민주당 남성"
+},
+{
+"table": "ces_individual",
+"name": "vote_woman",
+"label": "여성 후보를 찍음",
+"values": "1 = 여성 후보, 0 = 남성 후보(CES voted_rep_party, 선거 뒤 조사)"
+},
+{
+"table": "ces_individual",
+"name": "female",
+"label": "여성 유권자",
+"values": "1 = 여성, 0 = 남성(CES gender)"
+},
+{
+"table": "ces_individual",
+"name": "weight",
+"label": "CES 가중치",
+"values": "선거 뒤 가중치(weight_post), 없는 해(2008·2010·2014·2024)는 선거 전 가중치(weight)"
+},
+{
+"table": "ces_individual",
+"name": "pid",
+"label": "정당 일체감",
+"values": "D = 민주 쪽(강한·약한·기우는), R = 공화 쪽, I = 무당파·모름(CES pid7)"
+},
+{
+"table": "ces_individual",
+"name": "copart",
+"label": "여성 후보와 같은 정당 지지",
+"values": "1 = pid가 여성 후보의 정당"
+},
+{
+"table": "ces_individual",
+"name": "outpart",
+"label": "여성 후보와 반대 정당 지지",
+"values": "1 = pid가 상대 정당(기준: 무당파·모름)"
+},
+{
+"table": "ces_individual",
+"name": "rrace",
+"label": "응답자 인종",
+"values": "CES race_h(히스패닉이면 H)를 CAWP 코드로: W 백인, B 흑인, H 히스패닉, AP 아시아계, NA 원주민, MENA 중동계, MU 여러 인종, OTHER 그 밖"
+},
+{
+"table": "ces_individual",
+"name": "w_race",
+"label": "여성 후보 인종",
+"values": "CAWP 코드(둘 이상이면 /로 이음, 빈칸 = CAWP에 없음)"
+},
+{
+"table": "ces_individual",
+"name": "m_race",
+"label": "남성 후보 인종",
+"values": "의회에 있었던 남성: 위키백과 소수 인종 의원 명단(흑인·히스패닉·아시아계·원주민·중동계)의 코드, 명단에 없으면 W(백인으로 봄, 추정). 빈칸 = 의회에 없었음(모름)"
+},
+{
+"table": "ces_individual",
+"name": "m_race_src",
+"label": "남성 후보 인종의 근거",
+"values": "list = 소수 인종 의원 명단, member = 의원이었고 명단에 없음(백인으로 봄), none = 의회에 없었음"
+},
+{
+"table": "ces_individual",
+"name": "m_bioguide",
+"label": "남성 후보의 의원 번호",
+"values": "bioguide, 의회에 있었으면(같은 주 안에서 FEC 번호·위키 문서·이름으로 맞춤)"
+},
+{
+"table": "ces_individual",
+"name": "same_race_w",
+"label": "여성 후보와 같은 인종",
+"values": "1 = 응답자 인종이 여성 후보의 코드 가운데 하나. 여성 후보 인종을 모르면 빈칸(모형에서 빠짐)"
+},
+{
+"table": "ces_individual",
+"name": "same_race_m",
+"label": "남성 후보와 같은 인종",
+"values": "1 = 응답자 인종이 남성 후보의 코드 가운데 하나. 남성 후보 인종을 모르면 0"
+},
+{
+"table": "ces_individual",
+"name": "m_race_unk",
+"label": "남성 후보 인종 모름",
+"values": "1 = 의회에 없었던 남성 후보(대개 약한 도전자라 후보 경쟁력도 함께 담김)"
+},
+{
+"table": "ces_individual",
+"name": "w_nonwhite",
+"label": "여성 후보가 백인 아님",
+"values": "1 = 코드가 W 하나만이 아님"
+},
+{
+"table": "ces_individual",
+"name": "m_nonwhite",
+"label": "남성 후보가 백인 아님",
+"values": "1 = 코드가 W 하나만이 아님. 모르면 0"
+},
+{
+"table": "ces_individual",
+"name": "r_black",
+"label": "응답자 흑인",
+"values": "1/0(기준: 백인)"
+},
+{
+"table": "ces_individual",
+"name": "r_hisp",
+"label": "응답자 히스패닉",
+"values": "1/0"
+},
+{
+"table": "ces_individual",
+"name": "r_asian",
+"label": "응답자 아시아계",
+"values": "1/0"
+},
+{
+"table": "ces_individual",
+"name": "r_other",
+"label": "응답자 그 밖 인종",
+"values": "1/0(원주민·중동계·여러 인종·그 밖)"
+},
+{
+"table": "ces_individual",
+"name": "college",
+"label": "4년제 대졸 이상",
+"values": "1 = CES educ 4-Year 또는 Post-Grad"
+},
+{
+"table": "ces_individual",
+"name": "age",
+"label": "나이",
+"values": "세(CES age, 없으면 연도 − 출생 연도)"
+},
+{
+"table": "ces_individual",
+"name": "age10",
+"label": "나이/10",
+"values": ""
+},
+{
+"table": "ces_individual",
+"name": "ideo",
+"label": "이념",
+"values": "L 진보(매우 진보 포함), M 중도, C 보수(매우 보수 포함), NS 모름(CES ideo5)"
+},
+{
+"table": "ces_individual",
+"name": "lib",
+"label": "진보",
+"values": "1/0(기준: 중도)"
+},
+{
+"table": "ces_individual",
+"name": "con",
+"label": "보수",
+"values": "1/0"
+},
+{
+"table": "ces_individual",
+"name": "ideo_ns",
+"label": "이념 모름",
+"values": "1/0"
+},
+{
+"table": "ces_individual",
+"name": "pvi",
+"label": "당파 지수",
+"values": "Cook 방식, + = 민주 쪽"
+},
+{
+"table": "ces_individual",
+"name": "rural",
+"label": "농촌 인구 비율",
+"values": "%"
+},
+{
+"table": "ces_individual",
+"name": "black_nh",
+"label": "선거구 흑인 비율",
+"values": "%"
+},
+{
+"table": "ces_individual",
+"name": "hisp_d",
+"label": "선거구 히스패닉 비율",
+"values": "%"
+},
+{
+"table": "ces_individual",
+"name": "asian_nh",
+"label": "선거구 아시아계 비율",
+"values": "%"
+},
+{
+"table": "ces_individual",
+"name": "ba_plus",
+"label": "선거구 대졸 비율",
+"values": "%"
+},
+{
+"table": "ces_individual",
+"name": "inc10k",
+"label": "선거구 가구 소득 중앙값",
+"values": "만 달러"
+},
+{
+"table": "ces_individual",
+"name": "w_inc",
+"label": "여성 후보가 현직",
+"values": "1/0"
+},
+{
+"table": "ces_individual",
+"name": "m_inc",
+"label": "남성 후보가 현직",
+"values": "1/0"
+},
+{
+"table": "ces_individual",
+"name": "women_members_since_1990",
+"label": "기존 여성 의원 수(본인 포함)",
+"values": "races와 같음"
+},
+{
+"table": "ces_individual",
+"name": "women_members_since_1990_excl",
+"label": "기존 여성 의원 수(본인 제외)",
+"values": "races와 같음"
+},
+{
+"table": "ces_individual",
+"name": "women_prior_since_1990",
+"label": "기존 여성 의원·후보 수(본인 포함)",
+"values": "races와 같음"
+},
+{
+"table": "ces_individual",
+"name": "women_prior_since_1990_excl",
+"label": "기존 여성 의원·후보 수(본인 제외)",
+"values": "races와 같음"
+},
+{
+"table": "ces_models",
+"name": "model",
+"label": "모형 이름",
+"values": "여성 후보 정당_기존 여성 변수_추정 방법"
+},
+{
+"table": "ces_models",
+"name": "woman_party",
+"label": "여성 후보의 정당",
+"values": "D, R"
+},
+{
+"table": "ces_models",
+"name": "prior_var",
+"label": "기존 여성 변수",
+"values": "이 변수가 0보다 크면 '기존 여성 있음'(prior = 1)"
+},
+{
+"table": "ces_models",
+"name": "estimator",
+"label": "추정 방법",
+"values": "lpm = 선형확률모형(가중 최소제곱), logit = 로짓(가중 의사가능도)"
+},
+{
+"table": "ces_models",
+"name": "term",
+"label": "변수",
+"values": "female, prior, female_x_prior(교호작용), 통제변수, y연도(기준 2008), const"
+},
+{
+"table": "ces_models",
+"name": "label",
+"label": "변수 설명",
+"values": ""
+},
+{
+"table": "ces_models",
+"name": "coef",
+"label": "계수",
+"values": "선형확률모형은 확률(0–1), 로짓은 로그 오즈"
+},
+{
+"table": "ces_models",
+"name": "se",
+"label": "표준오차",
+"values": "선거 단위로 묶음(Stata vce(cluster)와 같은 보정)"
+},
+{
+"table": "ces_models",
+"name": "stat",
+"label": "t 또는 z",
+"values": ""
+},
+{
+"table": "ces_models",
+"name": "p",
+"label": "p 값",
+"values": "선형확률모형 t(선거 수 − 1), 로짓 정규분포"
+},
+{
+"table": "ces_models",
+"name": "ci_lo",
+"label": "95% 범위 아래",
+"values": ""
+},
+{
+"table": "ces_models",
+"name": "ci_hi",
+"label": "95% 범위 위",
+"values": ""
+},
+{
+"table": "ces_models",
+"name": "n",
+"label": "응답자 수",
+"values": ""
+},
+{
+"table": "ces_models",
+"name": "n_races",
+"label": "선거 수",
+"values": ""
+},
+{
+"table": "ces_models",
+"name": "fit",
+"label": "설명력",
+"values": "선형확률모형 R², 로짓 McFadden 의사 R²"
+},
+{
+"table": "ces_models_pred",
+"name": "model",
+"label": "모형 이름",
+"values": "ces_models와 같음"
+},
+{
+"table": "ces_models_pred",
+"name": "woman_party",
+"label": "여성 후보의 정당",
+"values": ""
+},
+{
+"table": "ces_models_pred",
+"name": "prior_var",
+"label": "기존 여성 변수",
+"values": ""
+},
+{
+"table": "ces_models_pred",
+"name": "estimator",
+"label": "추정 방법",
+"values": ""
+},
+{
+"table": "ces_models_pred",
+"name": "quantity",
+"label": "값",
+"values": "F1·M1·F0·M0 = 여성·남성 유권자 × 기존 여성 있음(1)·없음(0)의 예측 확률, gap1·gap0 = 여 − 남, dF·dM = 있음 − 없음, did = 차이의 차이"
+},
+{
+"table": "ces_models_pred",
+"name": "label",
+"label": "값 설명",
+"values": ""
+},
+{
+"table": "ces_models_pred",
+"name": "est",
+"label": "추정값",
+"values": "%(예측 확률) 또는 %p(차이). 모든 응답자를 그 성별·기존 여성으로 바꾼 뒤 다른 변수는 실제 값 그대로 둔 가중 평균"
+},
+{
+"table": "ces_models_pred",
+"name": "se",
+"label": "표준오차",
+"values": "델타 방법, 선거 단위 묶음"
+},
+{
+"table": "ces_models_pred",
+"name": "p",
+"label": "p 값",
+"values": ""
+},
+{
+"table": "ces_models_pred",
+"name": "ci_lo",
+"label": "95% 범위 아래",
+"values": ""
+},
+{
+"table": "ces_models_pred",
+"name": "ci_hi",
+"label": "95% 범위 위",
+"values": ""
+},
+{
+"table": "ces_models_pred",
+"name": "n",
+"label": "응답자 수",
+"values": ""
+},
+{
+"table": "ces_models_pred",
+"name": "n_races",
+"label": "선거 수",
+"values": ""
 }
 ],
 "office": []

@@ -18,6 +18,9 @@ TABLES = [
     ("lineage_all", "선거구 정렬: 모든 하원 선거", "한 줄 = 하원 선거 하나 × 예전 의회 하나(1990–2026). docs/data/lineage/lineage_all.csv·.dta"),
     ("ces_districts", "CES 유권자: 선거 × 응답자 성별", "한 줄 = 하원 선거 하나 × 응답자 성별(2006–2024 짝수 해). docs/data/ces/ces_districts.csv·.dta"),
     ("ces_districts_pid", "CES 유권자: 선거 × 응답자 성별 × 정당 일체감", "한 줄 = 하원 선거 하나 × 응답자 성별 × 정당 일체감. docs/data/ces/ces_districts_pid.csv·.dta"),
+    ("ces_individual", "CES 개인 분석 자료", "한 줄 = 응답자 한 명(2008–2024 여성 대 남성 하원 선거에서 두 후보 중 한 명을 찍은 사람). docs/data/ces/ces_individual.dta"),
+    ("ces_models", "CES 회귀계수", "한 줄 = 모형 하나의 변수 하나. docs/data/ces/ces_models.csv"),
+    ("ces_models_pred", "CES 보정 예측", "한 줄 = 모형 하나의 예측값 또는 차이 하나. docs/data/ces/ces_models_pred.csv"),
 ]
 
 COMMON = [
@@ -206,6 +209,47 @@ CES_VOTES = [
     ("n_eff", "유효 표본 수", "민주·공화 투표자의 (가중치 합)² ÷ (가중치 제곱합). 비율의 오차를 어림할 때 씀"),
 ]
 
+CES_INDIVIDUAL = [
+    ("case_id", "CES 응답자 번호", "CES 누적 파일의 case_id"), ("year", "선거 연도", "2008–2024 짝수 해"), ("race_id", "선거 번호", "트래커의 하원 선거 번호"),
+    ("race_n", "선거 번호(숫자)", "묶음 표준오차용(vce(cluster race_n))"), ("state", "주", ""), ("district", "선거구", "0 = 주 전체 한 석"),
+    ("wparty", "여성 후보의 정당", "D = 민주당 여성 대 공화당 남성, R = 공화당 여성 대 민주당 남성"),
+    ("vote_woman", "여성 후보를 찍음", "1 = 여성 후보, 0 = 남성 후보(CES voted_rep_party, 선거 뒤 조사)"), ("female", "여성 유권자", "1 = 여성, 0 = 남성(CES gender)"),
+    ("weight", "CES 가중치", "선거 뒤 가중치(weight_post), 없는 해(2008·2010·2014·2024)는 선거 전 가중치(weight)"),
+    ("pid", "정당 일체감", "D = 민주 쪽(강한·약한·기우는), R = 공화 쪽, I = 무당파·모름(CES pid7)"),
+    ("copart", "여성 후보와 같은 정당 지지", "1 = pid가 여성 후보의 정당"), ("outpart", "여성 후보와 반대 정당 지지", "1 = pid가 상대 정당(기준: 무당파·모름)"),
+    ("rrace", "응답자 인종", "CES race_h(히스패닉이면 H)를 CAWP 코드로: W 백인, B 흑인, H 히스패닉, AP 아시아계, NA 원주민, MENA 중동계, MU 여러 인종, OTHER 그 밖"),
+    ("w_race", "여성 후보 인종", "CAWP 코드(둘 이상이면 /로 이음, 빈칸 = CAWP에 없음)"),
+    ("m_race", "남성 후보 인종", "의회에 있었던 남성: 위키백과 소수 인종 의원 명단(흑인·히스패닉·아시아계·원주민·중동계)의 코드, 명단에 없으면 W(백인으로 봄, 추정). 빈칸 = 의회에 없었음(모름)"),
+    ("m_race_src", "남성 후보 인종의 근거", "list = 소수 인종 의원 명단, member = 의원이었고 명단에 없음(백인으로 봄), none = 의회에 없었음"),
+    ("m_bioguide", "남성 후보의 의원 번호", "bioguide, 의회에 있었으면(같은 주 안에서 FEC 번호·위키 문서·이름으로 맞춤)"),
+    ("same_race_w", "여성 후보와 같은 인종", "1 = 응답자 인종이 여성 후보의 코드 가운데 하나. 여성 후보 인종을 모르면 빈칸(모형에서 빠짐)"),
+    ("same_race_m", "남성 후보와 같은 인종", "1 = 응답자 인종이 남성 후보의 코드 가운데 하나. 남성 후보 인종을 모르면 0"),
+    ("m_race_unk", "남성 후보 인종 모름", "1 = 의회에 없었던 남성 후보(대개 약한 도전자라 후보 경쟁력도 함께 담김)"),
+    ("w_nonwhite", "여성 후보가 백인 아님", "1 = 코드가 W 하나만이 아님"), ("m_nonwhite", "남성 후보가 백인 아님", "1 = 코드가 W 하나만이 아님. 모르면 0"),
+    ("r_black", "응답자 흑인", "1/0(기준: 백인)"), ("r_hisp", "응답자 히스패닉", "1/0"), ("r_asian", "응답자 아시아계", "1/0"), ("r_other", "응답자 그 밖 인종", "1/0(원주민·중동계·여러 인종·그 밖)"),
+    ("college", "4년제 대졸 이상", "1 = CES educ 4-Year 또는 Post-Grad"), ("age", "나이", "세(CES age, 없으면 연도 − 출생 연도)"), ("age10", "나이/10", ""),
+    ("ideo", "이념", "L 진보(매우 진보 포함), M 중도, C 보수(매우 보수 포함), NS 모름(CES ideo5)"), ("lib", "진보", "1/0(기준: 중도)"), ("con", "보수", "1/0"), ("ideo_ns", "이념 모름", "1/0"),
+    ("pvi", "당파 지수", "Cook 방식, + = 민주 쪽"), ("rural", "농촌 인구 비율", "%"), ("black_nh", "선거구 흑인 비율", "%"), ("hisp_d", "선거구 히스패닉 비율", "%"),
+    ("asian_nh", "선거구 아시아계 비율", "%"), ("ba_plus", "선거구 대졸 비율", "%"), ("inc10k", "선거구 가구 소득 중앙값", "만 달러"),
+    ("w_inc", "여성 후보가 현직", "1/0"), ("m_inc", "남성 후보가 현직", "1/0"),
+    ("women_members_since_1990", "기존 여성 의원 수(본인 포함)", "races와 같음"), ("women_members_since_1990_excl", "기존 여성 의원 수(본인 제외)", "races와 같음"),
+    ("women_prior_since_1990", "기존 여성 의원·후보 수(본인 포함)", "races와 같음"), ("women_prior_since_1990_excl", "기존 여성 의원·후보 수(본인 제외)", "races와 같음"),
+]
+CES_MODELS = [
+    ("model", "모형 이름", "여성 후보 정당_기존 여성 변수_추정 방법"), ("woman_party", "여성 후보의 정당", "D, R"),
+    ("prior_var", "기존 여성 변수", "이 변수가 0보다 크면 '기존 여성 있음'(prior = 1)"), ("estimator", "추정 방법", "lpm = 선형확률모형(가중 최소제곱), logit = 로짓(가중 의사가능도)"),
+    ("term", "변수", "female, prior, female_x_prior(교호작용), 통제변수, y연도(기준 2008), const"), ("label", "변수 설명", ""),
+    ("coef", "계수", "선형확률모형은 확률(0–1), 로짓은 로그 오즈"), ("se", "표준오차", "선거 단위로 묶음(Stata vce(cluster)와 같은 보정)"),
+    ("stat", "t 또는 z", ""), ("p", "p 값", "선형확률모형 t(선거 수 − 1), 로짓 정규분포"), ("ci_lo", "95% 범위 아래", ""), ("ci_hi", "95% 범위 위", ""),
+    ("n", "응답자 수", ""), ("n_races", "선거 수", ""), ("fit", "설명력", "선형확률모형 R², 로짓 McFadden 의사 R²"),
+]
+CES_PRED = [
+    ("model", "모형 이름", "ces_models와 같음"), ("woman_party", "여성 후보의 정당", ""), ("prior_var", "기존 여성 변수", ""), ("estimator", "추정 방법", ""),
+    ("quantity", "값", "F1·M1·F0·M0 = 여성·남성 유권자 × 기존 여성 있음(1)·없음(0)의 예측 확률, gap1·gap0 = 여 − 남, dF·dM = 있음 − 없음, did = 차이의 차이"),
+    ("label", "값 설명", ""), ("est", "추정값", "%(예측 확률) 또는 %p(차이). 모든 응답자를 그 성별·기존 여성으로 바꾼 뒤 다른 변수는 실제 값 그대로 둔 가중 평균"),
+    ("se", "표준오차", "델타 방법, 선거 단위 묶음"), ("p", "p 값", ""), ("ci_lo", "95% 범위 아래", ""), ("ci_hi", "95% 범위 위", ""), ("n", "응답자 수", ""), ("n_races", "선거 수", ""),
+]
+
 OFFICE = [
     ("30", "현직 하원의원(current incumbent)"), ("29", "주 전체 선출직(주지사·부지사 등)"), ("28", "주 상원의원"), ("27", "주 하원의원"),
     ("26", "시장"), ("25", "판사(선출)"), ("24", "지방검사(district or prosecuting attorney)"), ("23", "시의회 의원(city council)"),
@@ -222,6 +266,7 @@ def entries():
     for t, _, _ in TABLES:
         rows = {"candidates": COMMON + CANDIDATES, "primaries": COMMON + PRIMARIES, "races": COMMON + RACES,
                 "lineage_2026": LINEAGE_2026, "lineage_all": LINEAGE_ALL, "ces_districts": CES_RACE + CES_VOTES,
+                "ces_individual": CES_INDIVIDUAL, "ces_models": CES_MODELS, "ces_models_pred": CES_PRED,
                 "ces_districts_pid": CES_RACE + [("pid3", "응답자 정당 일체감", "D = 민주당, R = 공화당, I = 무당파·기타·잘 모름(CES pid3: 1 민주, 2 공화, 3 무당파, 4 기타, 5 잘 모름)")] + CES_VOTES}[t]
         out += [dict(table=t, name=n, label=l, values=v) for n, l, v in rows]
     return out

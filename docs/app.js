@@ -640,7 +640,7 @@ function gapStats(list, side) {
   return { f, m, gap: f.p - m.p, se: 100 * Math.sqrt(v * G / (G - 1)), races: G };
 }
 function share1(u, g, P) { const x = u.c[g]; return x && x.d + x.r > 0 ? 100 * (P === 'D' ? x.d : x.r) / (x.d + x.r) : null; }
-const pp = (x, d = 1) => x === null || x === undefined ? '–' : (x > 0 ? '+' : x < 0 ? '−' : '') + fmt(Math.abs(x), d) + '%p';
+const pp = (x, d = 1) => { if (x === null || x === undefined) return '–'; const r = +x.toFixed(d); return (r > 0 ? '+' : r < 0 ? '−' : '') + fmt(Math.abs(r), d) + '%p'; };
 const ppS = (v, se) => v === null || v === undefined ? '–' : pp(v) + (se > 0 && Math.abs(v) > 1.96 * se ? '*' : '');
 function xwPrior(u) {
   // earlier women of the linked districts (number), or null when the race has no linked-district count
@@ -695,6 +695,7 @@ async function xwHtml() {
     <li>'본인은 빼고 세기'를 켜면 이번 선거에 나온 여성 후보 자신은 세지 않습니다. 끄면 재선에 나온 현직 여성 의원의 선거구가 '있음'에 들어가 현직 효과가 섞입니다.</li>
     <li>단순 비교입니다. '있음'과 '없음' 선거구는 당파 성향·현직 여부 등도 다릅니다(위 '지역구 성향'으로 나눠 볼 수 있음). 같은 선거구 안의 남녀를 비교하는 '차이(여 − 남)'와 그 차이를 다시 비교한 오른쪽 아래 칸은 이런 차이의 영향을 덜 받습니다.</li>
     <li>* = p &lt; .05(95% 범위가 0을 포함하지 않음). 같은 선거의 응답자끼리 닮은 점을 감안해 선거 단위로 묶어 계산한 표준오차입니다. 응답자가 직접 답한 투표이고, 가중치는 CES 선거 뒤 가중치(없는 해는 선거 전 가중치)입니다. 당파 성향은 2008년부터 Cook 방식 당파 지수, 그 전은 직전 대선 득표율입니다.</li></ol></div>`;
+  h += await xwModelsHtml();
   // districts (one year)
   if (ys.length === 1) {
     const L = units.filter(u => u.m === 'F-M' || u.m === 'M-F').sort((a, b) => a.r.state.localeCompare(b.r.state) || a.r.district - b.r.district);
@@ -729,6 +730,60 @@ async function xwHtml() {
   ${await codebookHtml('data/ces/codebook.json', 'data/ces/codebook.csv', false)}
   <p class="note">자료: ${esc(meta.citation)} (${esc(meta.version)}판, ${esc(meta.license)}, ${esc(meta.downloaded)} 받음).</p>`;
   return h;
+}
+async function xwModelsHtml() {
+  // individual-level models (pipeline/ces_models.py, workflow 'CES individual models'): the same 'earlier women' choice
+  // as the tables above; the year and lean choices do not apply (always 2008-2024)
+  let M;
+  try { M = S.cesModels || (S.cesModels = await getJSON('data/ces/ces_models.json')); }
+  catch (e) { return '<h3>개인 단위 회귀분석</h3><p class="muted">회귀분석 결과를 아직 만들고 있습니다.</p>'; }
+  const prior = (XW.basis === 'member' ? 'women_members_since_1990' : 'women_prior_since_1990') + (XW.excl ? '_excl' : '');
+  const get = (wp, est) => M.models.find(m => m.wp === wp && m.prior === prior && m.est === est);
+  const yrs = M.meta.years, nm = { D: '민주당', R: '공화당' }, other = { D: '공화당', R: '민주당' };
+  const sig = p => p !== null && p !== undefined && p < 0.05 ? '*' : '';
+  const pct = x => x ? `${fmt(x[0])}%` : '–';
+  const dp = x => x ? pp(x[0]) + sig(x[2]) : '–';
+  const adj = wp => {
+    const m = get(wp, 'lpm');
+    if (!m) return '';
+    const P = m.pred;
+    return `<div class="chart-block"><b><span class="p${wp}">${nm[wp]} 여성 후보</span> 대 ${other[wp]} 남성 후보: 통제한 뒤의 표</b>
+      <div class="cap top">칸: 여성 후보를 찍을 확률(선형확률모형, 다른 변수는 실제 값 그대로 두고 성별·기존 여성만 바꿔 평균). 선거 ${m.races.toLocaleString('ko-KR')}곳(기존 여성 있음 ${m.prior_races.toLocaleString('ko-KR')}곳), 응답자 ${m.n.toLocaleString('ko-KR')}명</div>
+      <div class="tbl-wrap"><table class="study"><thead><tr><th></th><th class="num">여성 유권자</th><th class="num">남성 유권자</th><th class="num">차이(여 − 남)</th></tr></thead><tbody>
+      <tr><td>기존 여성 있음</td><td class="num">${pct(P.F1)}</td><td class="num">${pct(P.M1)}</td><td class="num">${dp(P.gap1)}</td></tr>
+      <tr><td>기존 여성 없음</td><td class="num">${pct(P.F0)}</td><td class="num">${pct(P.M0)}</td><td class="num">${dp(P.gap0)}</td></tr>
+      <tr class="dif"><td>차이(있음 − 없음)</td><td class="num">${dp(P.dF)}</td><td class="num">${dp(P.dM)}</td><td class="num"><b>${dp(P.did)}</b></td></tr></tbody></table></div></div>`;
+  };
+  const cf = (m, t, scale = 100) => {
+    const c = m && m.coef[t];
+    if (!c) return '–';
+    const v = c[0] * scale, se = c[1] * scale;
+    return `${scale === 100 ? pp(v) : (v > 0 ? '+' : v < 0 ? '−' : '') + fmt(Math.abs(v), 3)}${sig(c[2])} <span class="muted">(${fmt(se, scale === 100 ? 1 : 3)})</span>`;
+  };
+  const rowsDef = [['female_x_prior', '여성 유권자 × 기존 여성'], ['female', '여성 유권자'], ['prior', '기존 여성 있음'], ['copart', '여성 후보와 같은 정당 지지'], ['outpart', '여성 후보와 반대 정당 지지'],
+    ['same_race_w', '여성 후보와 같은 인종'], ['same_race_m', '남성 후보와 같은 인종'], ['w_nonwhite', '여성 후보가 백인 아님'], ['m_nonwhite', '남성 후보가 백인 아님'],
+    ['m_race_unk', '남성 후보 인종 모름'], ['w_inc', '여성 후보가 현직'], ['m_inc', '남성 후보가 현직']];
+  const L = { D: get('D', 'lpm'), R: get('R', 'lpm') }, G = { D: get('D', 'logit'), R: get('R', 'logit') };
+  let rows = rowsDef.map(([t, lab]) => `<tr${t === 'female_x_prior' ? ' class="grp"' : ''}><td>${lab}</td><td class="num">${cf(L.D, t)}</td><td class="num">${cf(L.R, t)}</td></tr>`).join('');
+  rows += `<tr class="dif"><td>로짓: 여성 유권자 × 기존 여성(계수)</td><td class="num">${cf(G.D, 'female_x_prior', 1)}</td><td class="num">${cf(G.R, 'female_x_prior', 1)}</td></tr>
+    <tr><td>로짓: 확률로 바꾼 차이의 차이</td><td class="num">${G.D ? dp(G.D.pred.did) : '–'}</td><td class="num">${G.R ? dp(G.R.pred.did) : '–'}</td></tr>
+    <tr><td class="muted">응답자 / 선거 · R²(선형)</td><td class="num muted">${L.D ? `${L.D.n.toLocaleString('ko-KR')} / ${L.D.races} · ${fmt(L.D.fit, 2)}` : '–'}</td><td class="num muted">${L.R ? `${L.R.n.toLocaleString('ko-KR')} / ${L.R.races} · ${fmt(L.R.fit, 2)}` : '–'}</td></tr>`;
+  const wq = '"';
+  const ctrl = 'copart outpart same_race_w same_race_m m_race_unk w_nonwhite m_nonwhite r_black r_hisp r_asian r_other college age10 lib con ideo_ns pvi rural black_nh hisp_d asian_nh ba_plus inc10k w_inc m_inc';
+  return `<h3>개인 단위 회귀분석(${yrs[0]}–${yrs[yrs.length - 1]})</h3>
+  <p class="muted">CES 응답자 한 명이 한 줄인 자료로, 여성 후보를 찍었는지(1/0)를 '여성 유권자 × 기존 여성'과 통제변수로 설명합니다. 위의 '기존 여성'과 '본인은 빼고 세기' 선택을 따르고, 연도·지역구 성향 선택은 적용되지 않습니다(${yrs[0]}–${yrs[yrs.length - 1]}년 전체, 지역구 특징 자료가 2008년부터 있음).</p>
+  ${adj('D')}${adj('R')}
+  <div class="tbl-wrap"><table><thead><tr><th>변수(선형확률모형, %p)</th><th class="num pD">민주당 여성 후보</th><th class="num pR">공화당 여성 후보</th></tr></thead><tbody>${rows}</tbody></table></div>
+  <div class="note"><b>모형</b>: 여성 후보 선택(1/0) = 여성 유권자 + 기존 여성 + 여성 유권자 × 기존 여성 + 같은 정당·반대 정당 지지(기우는 무당파 포함, 기준: 무당파) + 여성 후보와 같은 인종 + 남성 후보와 같은 인종 + 남성 후보 인종 모름 + 여성·남성 후보가 백인 아님 + 응답자 인종·4년제 대졸·나이·이념 + 선거구 당파 지수·농촌·흑인·히스패닉·아시아계·대졸 비율·소득 중앙값 + 여성·남성 후보 현직 + 연도 고정효과.
+    CES 가중치, 표준오차는 선거 단위로 묶음(Stata의 vce(cluster)와 같은 보정). 괄호는 표준오차, * = p &lt; .05. 선형확률모형 계수는 확률 차이(%p), 로짓 계수는 로그 오즈입니다.
+    후보 인종: 여성 후보는 CAWP 코드, 남성 후보는 의회에 있었던 사람만 위키백과의 흑인·히스패닉·아시아계·원주민·중동계 의원 명단으로 정하고 명단에 없으면 백인으로 봅니다(추정). 의회에 없었던 남성 후보는 '모름'으로 두고 '남성 후보 인종 모름'을 1로, 남성 후보와 같은 인종·백인 아님은 0으로 넣습니다${M.meta.man_race ? `(선거 수: ${Object.entries(M.meta.man_race).map(([k, v]) => `${esc({ list: '소수 인종 의원 명단', member: '의원이었고 명단에 없음(백인으로 봄)', none: '의회에 없었음(모름)' }[k] || k)} ${v}`).join(', ')})` : ''}. '남성 후보 인종 모름'은 의회에 한 번도 들어가지 못한 남성(대개 약한 도전자)이라는 뜻도 함께 담고 있어, 이 계수는 인종보다 후보 경쟁력 차이로 읽는 것이 맞습니다. 응답자 인종은 CES race_h(히스패닉이면 히스패닉)입니다. 정당 지지는 선거 전 조사의 7점 척도(pid7)입니다.</div>
+  <div class="btns"><a class="btn" href="data/ces/ces_models.csv" download>계수 전체 CSV</a><a class="btn" href="data/ces/ces_models_pred.csv" download>보정 예측 CSV</a><a class="btn" href="data/ces/ces_individual.dta" download>분석 자료(.dta)</a></div>
+  <details class="cb"><summary><b>Stata로 다시 돌리기</b> <span class="muted">분석 자료(.dta)를 연 뒤, 지금 고른 모형</span></summary><div style="padding:8px 12px">
+  <pre class="code">gen prior = ${prior} > 0 if ${prior} &lt; .
+global X ${ctrl}
+reg vote_woman i.female##i.prior $X i.year if wparty==${wq}D${wq} & weight>0 [pw=weight], vce(cluster race_n)
+reg vote_woman i.female##i.prior $X i.year if wparty==${wq}R${wq} & weight>0 [pw=weight], vce(cluster race_n)
+logit vote_woman i.female##i.prior $X i.year if wparty==${wq}R${wq} & weight>0 [pw=weight], vce(cluster race_n)</pre></div></details>`;
 }
 function xwOk() { if (XW.ok) return true; try { return sessionStorage.getItem('uswc-xw') === '1'; } catch (e) { return false; } }
 async function sha256hex(s) { const b = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(s)); return [...new Uint8Array(b)].map(x => x.toString(16).padStart(2, '0')).join(''); }
