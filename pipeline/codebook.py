@@ -16,6 +16,8 @@ TABLES = [
     ("races", "선거", "한 줄 = 선거 하나(연도·원·주·선거구). data/races.csv"),
     ("lineage_2026", "선거구 정렬: 2026년 기준", "한 줄 = 2026년 하원 선거구 하나. docs/data/lineage/lineage_2026.csv·.dta"),
     ("lineage_all", "선거구 정렬: 모든 하원 선거", "한 줄 = 하원 선거 하나 × 예전 의회 하나(1990–2026). docs/data/lineage/lineage_all.csv·.dta"),
+    ("ces_districts", "CES 유권자: 선거 × 응답자 성별", "한 줄 = 하원 선거 하나 × 응답자 성별(2006–2024 짝수 해). docs/data/ces/ces_districts.csv·.dta"),
+    ("ces_districts_pid", "CES 유권자: 선거 × 응답자 성별 × 정당 일체감", "한 줄 = 하원 선거 하나 × 응답자 성별 × 정당 일체감. docs/data/ces/ces_districts_pid.csv·.dta"),
 ]
 
 COMMON = [
@@ -167,6 +169,30 @@ LINEAGE_ALL = [
 
 # prior-office codes: Pettigrew, Owen & Wanless codebook (doi:10.7910/DVN/26448) and Miller & Camberg codebook
 # (doi:10.7910/DVN/CXVMSY) list the same codes (copies in data/static/codebooks/); there is no code 1
+CES_RACE = [
+    ("race_id", "선거 번호", "트래커의 하원 선거 번호(예: 2020-H-CA-12)"),
+    ("year", "선거 연도", "2006–2024 짝수 해"),
+    ("state", "주", ""),
+    ("district", "선거구 번호", "0 = 주 전체 한 석"),
+    ("system", "경선 방식", "races와 같음"),
+    ("matchup", "본선 대결(민주-공화 성별)", "F-M, M-F, F-F, M-M, D only, R only(races와 같음)"),
+    ("d_nominee", "본선 민주 후보", ""), ("d_nominee_gender", "민주 후보 성별", "F, M"),
+    ("r_nominee", "본선 공화 후보", ""), ("r_nominee_gender", "공화 후보 성별", "F, M"),
+    ("winner_party", "당선자 정당", "D, R, O"), ("winner_gender", "당선자 성별", "F, M"),
+    ("incumbent_running", "현직 출마", "1 = 현직 의원이 나옴"), ("incumbent_party", "현직 정당", "D, R, O"),
+    ("pvi", "당파 지수", "Cook 방식, + = 민주 쪽(2008–2024)"), ("pres_d_2party", "직전 대선 민주 양당 득표율(하원)", "%, 1990–2018"),
+    ("voter_gender", "응답자 성별", "F = 여성, M = 남성(CES gender: 2 = 여성, 1 = 남성)"),
+]
+CES_VOTES = [
+    ("n_dr", "민주·공화 후보를 찍은 응답자 수", "명(가중치 없이 센 수)"),
+    ("n_other", "다른 후보를 찍은 응답자 수", "명"),
+    ("w_d", "민주 후보 표(가중)", "CES 선거 뒤 가중치(weight_post)의 합. 그 가중치가 없는 해(2006–2010, 2014, 2024)는 선거 전 가중치(weight)"),
+    ("w_r", "공화 후보 표(가중)", "같은 방식"),
+    ("w_other", "다른 후보 표(가중)", "같은 방식"),
+    ("d_share", "민주 후보 양당 지지율", "%, w_d ÷ (w_d + w_r)"),
+    ("n_eff", "유효 표본 수", "민주·공화 투표자의 (가중치 합)² ÷ (가중치 제곱합). 비율의 오차를 어림할 때 씀"),
+]
+
 OFFICE = [
     ("30", "현직 하원의원(current incumbent)"), ("29", "주 전체 선출직(주지사·부지사 등)"), ("28", "주 상원의원"), ("27", "주 하원의원"),
     ("26", "시장"), ("25", "판사(선출)"), ("24", "지방검사(district or prosecuting attorney)"), ("23", "시의회 의원(city council)"),
@@ -182,7 +208,8 @@ def entries():
     out = []
     for t, _, _ in TABLES:
         rows = {"candidates": COMMON + CANDIDATES, "primaries": COMMON + PRIMARIES, "races": COMMON + RACES,
-                "lineage_2026": LINEAGE_2026, "lineage_all": LINEAGE_ALL}[t]
+                "lineage_2026": LINEAGE_2026, "lineage_all": LINEAGE_ALL, "ces_districts": CES_RACE + CES_VOTES,
+                "ces_districts_pid": CES_RACE + [("pid3", "응답자 정당 일체감", "D = 민주당, R = 공화당, I = 무당파·기타·잘 모름(CES pid3: 1 민주, 2 공화, 3 무당파, 4 기타, 5 잘 모름)")] + CES_VOTES}[t]
         out += [dict(table=t, name=n, label=l, values=v) for n, l, v in rows]
     return out
 

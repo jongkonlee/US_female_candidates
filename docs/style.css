@@ -68,6 +68,8 @@ tr.click:hover td { background: var(--accent-soft); }
 .chart-block .cap.top { margin: 2px 0 8px; }
 .bar-head { font-size: .78rem; font-weight: 600; color: var(--muted); margin: 0 0 2px; }
 .bar.wide .val { width: 128px; }
+tr.grp td { background: var(--soft); padding-top: 8px; }
+tr.did td { border-bottom: 2px solid var(--line); }
 details.cb { border: 1px solid var(--line); border-radius: 10px; background: var(--card); margin: 8px 0; }
 details.cb > summary { cursor: pointer; padding: 9px 12px; }
 details.cb .tbl-wrap { border: 0; border-top: 1px solid var(--line); border-radius: 0 0 10px 10px; }

@@ -96,6 +96,8 @@ def write(extra=None):
                cawp_last_year=int(cawp.Year.max()), coverage=cov.to_dict("records"), trends=trends(cand, prim, races),
                counts=dict(candidates=len(cand), primaries=len(prim), races=len(races)))
     idx.update(extra or {})
+    import ces
+    idx["ces"] = ces.write(races)  # docs/data/ces.json and the CES downloads (None when the counts are missing)
     with open(os.path.join(SITE, "index.json"), "w", encoding="utf-8") as f:
         json.dump(idx, f, ensure_ascii=False, indent=1)
     import codebook

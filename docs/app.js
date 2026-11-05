@@ -136,7 +136,7 @@ async function render() {
   const tab = S.tab;
   $('#main').innerHTML = '<p class="loading">불러오는 중…</p>';
   try {
-    const f = { summary: viewSummary, map: viewMap, where: viewWhere, vsmen: viewVsMen, prior: viewPrior, list: viewList, download: viewDownload, about: viewAbout }[tab] || viewSummary;
+    const f = { summary: viewSummary, map: viewMap, where: viewWhere, vsmen: viewVsMen, prior: viewPrior, voters: viewVoters, list: viewList, download: viewDownload, about: viewAbout }[tab] || viewSummary;
     const html = await f();
     if (tab !== S.tab) return;
     $('#main').innerHTML = html;
@@ -600,6 +600,115 @@ async function viewPrior() {
   return h + `<p class="note">선거구를 다시 그린 해에는 같은 번호라도 다른 지역입니다.</p>`;
 }
 
+/* --- women and men voters (CES) --- */
+async function loadCes() {
+  if (S.cesIdx) return S.cesIdx;
+  const d = await getJSON('data/ces.json');
+  const ix = {};
+  for (const row of d.r) {
+    const o = {}; d.f.forEach((k, i) => { o[k] = row[i]; });
+    ix[o.race_id] = { F: { n: o.nF, d: o.dF, r: o.rF, o: o.oF, q: o.qF }, M: { n: o.nM, d: o.dM, r: o.rM, o: o.oM, q: o.qM } };
+  }
+  return (S.cesIdx = ix);
+}
+function cesShare(list, g, party) {
+  // weighted two-party share for the party among one voter gender, pooled over races; se from the effective sample size
+  let num = 0, den = 0, q = 0, n = 0;
+  for (const u of list) { const x = u.c[g]; if (!x || !x.n) continue; num += party === 'D' ? x.d : x.r; den += x.d + x.r; q += x.q; n += x.n; }
+  if (!den || !q) return null;
+  const p = num / den, neff = den * den / q;
+  return { p: 100 * p, se: 100 * Math.sqrt(p * (1 - p) / neff), n };
+}
+function cesGap(list, party) {
+  const w = cesShare(list, 'F', party), m = cesShare(list, 'M', party);
+  return w && m ? { w, m, gap: w.p - m.p, se: Math.hypot(w.se, m.se), races: list.length } : null;
+}
+const pp = (x, d = 1) => x === null || x === undefined ? '–' : (x > 0 ? '+' : x < 0 ? '−' : '') + fmt(Math.abs(x), d) + '%p';
+const ci = se => se === null || se === undefined ? '' : ` <span class="muted">(±${fmt(1.96 * se, 1)})</span>`;
+async function viewVoters() {
+  if (!S.idx.ces) return '<p class="muted">CES 자료가 아직 없습니다.</p>';
+  if (S.ch !== 'H') return '<p class="muted">CES의 하원 투표 자료라 하원만 볼 수 있습니다. 위에서 \'하원\'을 고르세요.</p>';
+  const cy = S.idx.ces.years;
+  let ys = periodYears().filter(y => cy.includes(y)), note = '';
+  if (!ys.length) { ys = cy.slice(); note = `선택한 기간(${periodLabel()})에는 CES 자료가 없어 ${ys[0]}–${ys[ys.length - 1]}년 전체를 보여 줍니다. `; }
+  await Promise.all(ys.map(loadYear));
+  const CI = await loadCes();  // not C: that name holds the colors
+  const units = [];
+  for (const y of ys) for (const r of S.cache[y].r) {
+    if (r.chamber !== 'H' || r.special) continue;
+    const m = `${r.d_nominee_gender}-${r.r_nominee_gender}`, c = CI[r.race_id];
+    if (!['F-F', 'F-M', 'M-F', 'M-M'].includes(m) || !c || !c.F.n || !c.M.n) continue;
+    units.push({ Y: S.cache[y], r, c, m, x: lean(r, S.cache[y]) });
+  }
+  const label = ys.length === 1 ? `${ys[0]}년` : `${ys[0]}–${ys[ys.length - 1]}년(${ys.length}번)`;
+  let h = `<p class="muted">${note}${label} 하원 선거. CES 응답자의 하원 투표를 선거구에 붙여, 여성 유권자와 남성 유권자가 같은 당 후보를 얼마나 찍었는지를 그 당 후보가 여성일 때와 남성일 때로 나눠 봅니다. 민주·공화 후보가 모두 나온 선거구 ${units.length.toLocaleString('ko-KR')}곳.</p>
+  <div class="note caution"><b>이 보기를 볼 때 주의할 점</b><ol>
+    <li>자료는 CES(Cooperative Election Study) 응답자가 선거 뒤 조사에서 답한 하원 투표입니다. 실제 투표 기록이 아니라 본인이 말한 투표이고, 민주·공화 후보를 찍은 사람만으로 양당 지지율을 냅니다.</li>
+    <li>여성 후보가 없던 곳에서는 '여성 후보를 고른 비율'이 있을 수 없어서, 같은 당 후보를 찍은 비율을 그 당 후보가 여성일 때와 남성일 때로 나눠 비교합니다. '차이의 차이'는 여성 후보일 때 남녀 유권자 차이가 남성 후보일 때보다 얼마나 더 벌어지는지입니다. 같은 선거구 안의 남녀를 비교하므로 지역구 성향 차이는 상당 부분 빠지지만, 여성 후보가 나오는 선거구가 다른 점(현직·경쟁도 등)까지 빠지지는 않습니다.</li>
+    <li>선거구마다 응답자가 수십~백여 명이라 선거구 하나의 비율은 오차가 큽니다(100명이면 ±10%p 안팎). 괄호 안 ±는 가중치를 반영한 근사 95% 범위이고, 같은 선거구 응답자끼리 닮은 점은 반영하지 않아 실제보다 좁을 수 있습니다.</li>
+    <li>가중치는 CES 선거 뒤 가중치(weight_post)이고, 그 가중치가 없는 해(2006–2010, 2014, 2024)는 선거 전 가중치를 썼습니다. CES 가중치는 전국·주 단위 대표성을 맞추려는 것이라 선거구 단위 대표성은 장담할 수 없습니다.</li>
+    <li>선거구는 응답자가 선거 뒤 조사 때 산 곳의 그해 선거구입니다. 상위 2인 경선에서 같은 당끼리 붙은 곳과 한 당만 나온 곳은 뺐습니다. 2026년은 CES 2026이 나오면 더합니다.</li></ol></div>`;
+  if (units.length < 10) return h + '<p class="muted">비교할 선거구가 충분하지 않습니다.</p>';
+  // main comparison
+  const nameP = { D: '민주당', R: '공화당' };
+  const isF = (u, P) => (P === 'D' ? u.r.d_nominee_gender : u.r.r_nominee_gender) === 'F';
+  let rows = '', chart = '';
+  for (const P of ['D', 'R']) {
+    const gF = cesGap(units.filter(u => isF(u, P)), P), gM = cesGap(units.filter(u => !isF(u, P)), P);
+    const row = (lab, g) => g ? `<tr><td>${lab}</td><td class="num">${g.races}</td><td class="num">${g.w.n.toLocaleString('ko-KR')} / ${g.m.n.toLocaleString('ko-KR')}</td><td class="num">${fmt(g.w.p)}%</td><td class="num">${fmt(g.m.p)}%</td><td class="num">${pp(g.gap)}${ci(g.se)}</td></tr>`
+      : `<tr><td>${lab}</td><td class="num" colspan="5">해당 선거구 없음</td></tr>`;
+    const did = gF && gM ? gF.gap - gM.gap : null, dse = gF && gM ? Math.hypot(gF.se, gM.se) : null;
+    rows += `<tr class="grp"><td colspan="6"><b class="p${P}">${nameP[P]} 후보 지지율</b></td></tr>${row(`${nameP[P]} 후보가 여성`, gF)}${row(`${nameP[P]} 후보가 남성`, gM)}
+      <tr class="did"><td>차이의 차이(여성 후보 − 남성 후보)</td><td colspan="4"></td><td class="num"><b>${pp(did)}</b>${ci(dse)}</td></tr>`;
+    const col = P === 'D' ? [C.d, C.dl] : [C.r, C.rl];
+    const items = [];
+    for (const [g, lab] of [[gF, '여성 후보'], [gM, '남성 후보']]) if (g) items.push({ lab: `${lab} · 여성 유권자`, n: g.w.n, v: g.w.p, color: col[0] }, { lab: `${lab} · 남성 유권자`, n: g.m.n, v: g.m.p, color: col[1] });
+    chart += `<div class="chart-block"><b>${nameP[P]} 후보를 찍은 비율(양당 득표 중)</b><div class="cap top">이름 옆 괄호는 응답자 수입니다. 진한 막대가 여성 유권자, 옅은 막대가 남성 유권자입니다.</div>${bars(items, { head: '그 당 후보 성별 · 유권자 성별' })}</div>`;
+  }
+  h += `<h2>같은 당 후보 지지율: 여성 유권자와 남성 유권자</h2><div class="grid2">${chart}</div>
+  <div class="tbl-wrap"><table><thead><tr><th></th><th class="num">선거구</th><th class="num">응답자(여/남)</th><th class="num">여성 유권자</th><th class="num">남성 유권자</th><th class="num">차이(여 − 남)</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+  // by district lean
+  const groups = [['민주 쪽(+5 이상)', x => x >= 5], ['경합(±5 이내)', x => x > -5 && x < 5], ['공화 쪽(+5 이상)', x => x <= -5]];
+  const withLean = units.filter(u => u.x !== null);
+  if (withLean.length >= 30) {
+    let lr = '';
+    for (const [lab, f] of groups) {
+      const L = withLean.filter(u => f(u.x));
+      const cells = ['D', 'R'].map(P => {
+        const a = cesGap(L.filter(u => isF(u, P)), P), b = cesGap(L.filter(u => !isF(u, P)), P);
+        return a && b ? `<td class="num">${pp(a.gap)} <span class="muted">(${a.races})</span></td><td class="num">${pp(b.gap)} <span class="muted">(${b.races})</span></td><td class="num"><b>${pp(a.gap - b.gap)}</b>${ci(Math.hypot(a.se, b.se))}</td>`
+          : '<td class="num" colspan="3">선거구 부족</td>';
+      }).join('');
+      lr += `<tr><td>${lab} <span class="muted">${L.length}곳</span></td>${cells}</tr>`;
+    }
+    h += `<h3>지역구 당파 성향별 남녀 유권자 차이</h3>
+    <div class="tbl-wrap"><table><thead><tr><th rowspan="2">당파 성향</th><th colspan="3" class="pD">민주 후보 지지율의 남녀 차이</th><th colspan="3" class="pR">공화 후보 지지율의 남녀 차이</th></tr>
+      <tr><th class="num">여성 후보</th><th class="num">남성 후보</th><th class="num">차이의 차이</th><th class="num">여성 후보</th><th class="num">남성 후보</th><th class="num">차이의 차이</th></tr></thead><tbody>${lr}</tbody></table></div>
+    <p class="note">괄호 안 수는 선거구 수입니다. 당파 성향은 2008년부터 Cook 방식 당파 지수, 그 전은 직전 대선 득표율로 정하며, 값이 없는 선거구는 이 표에서 빠집니다.</p>`;
+  }
+  // district tables (one year)
+  if (ys.length === 1) {
+    const pct1 = (x, g, P) => { const s = cesShare([{ c: x }], g, P); return s ? fmt(s.p) + '%' : '–'; };
+    const nTd = n => `<td class="num${n < 30 ? ' muted' : ''}">${n}</td>`;
+    const sorted = units.slice().sort((a, b) => a.r.state.localeCompare(b.r.state) || a.r.district - b.r.district);
+    const women = sorted.filter(u => u.m !== 'M-M'), men = sorted.filter(u => u.m === 'M-M');
+    const wRows = women.map(u => {
+      const P = u.m === 'M-F' ? 'R' : 'D';   // the woman's party (both women: Democratic candidate)
+      const name = P === 'D' ? u.r.d_nominee : u.r.r_nominee;
+      const sw = cesShare([u], 'F', P), sm = cesShare([u], 'M', P);
+      return `<tr class="click" data-open="race:${esc(u.r.race_id)}"><td>${esc(raceLabel(u.r))}</td><td>${esc(name)} <span class="p${P}">(${PARTY[P]})</span>${u.m === 'F-F' ? ' <span class="muted">둘 다 여성</span>' : ''}</td>${nTd(u.c.F.n)}<td class="num">${sw ? fmt(sw.p) + '%' : '–'}</td>${nTd(u.c.M.n)}<td class="num">${sm ? fmt(sm.p) + '%' : '–'}</td><td class="num">${sw && sm ? pp(sw.p - sm.p) : '–'}</td></tr>`;
+    }).join('');
+    const mRows = men.map(u => `<tr class="click" data-open="race:${esc(u.r.race_id)}"><td>${esc(raceLabel(u.r))}</td><td>${esc(u.r.d_nominee)} / ${esc(u.r.r_nominee)}</td>${nTd(u.c.F.n)}<td class="num">${pct1(u.c, 'F', 'D')}</td>${nTd(u.c.M.n)}<td class="num">${pct1(u.c, 'M', 'D')}</td><td class="num">${(() => { const a = cesShare([u], 'F', 'D'), b = cesShare([u], 'M', 'D'); return a && b ? pp(a.p - b.p) : '–'; })()}</td></tr>`).join('');
+    h += `<h2>선거구별(${ys[0]}년)</h2>
+    <p class="muted">응답자가 30명 미만인 칸은 회색입니다. 줄을 누르면 그 선거의 결과가 열립니다.</p>
+    <details class="cb" open><summary><b>여성 후보가 있었던 선거구</b> <span class="muted">${women.length}곳 · 여성 후보를 찍은 비율(양당 득표 중)</span></summary><div class="tbl-wrap"><table><thead><tr><th>선거구</th><th>여성 후보</th><th class="num">여성 유권자</th><th class="num">여성 유권자의 여성 후보 지지율</th><th class="num">남성 유권자</th><th class="num">남성 유권자의 여성 후보 지지율</th><th class="num">차이(여 − 남)</th></tr></thead><tbody>${wRows}</tbody></table></div></details>
+    <details class="cb"><summary><b>여성 후보가 없었던 선거구(남성 대 남성)</b> <span class="muted">${men.length}곳 · 비교용으로 민주 후보를 찍은 비율</span></summary><div class="tbl-wrap"><table><thead><tr><th>선거구</th><th>민주 / 공화 후보</th><th class="num">여성 유권자</th><th class="num">여성 유권자의 민주 후보 지지율</th><th class="num">남성 유권자</th><th class="num">남성 유권자의 민주 후보 지지율</th><th class="num">차이(여 − 남)</th></tr></thead><tbody>${mRows}</tbody></table></div></details>`;
+  } else h += `<p class="muted">선거구별 표는 위쪽 '비교 기간'을 '선택한 연도'로 두고 2006–2024년 가운데 한 해를 고르면 나옵니다.</p>`;
+  const m = S.idx.ces;
+  h += `<p class="note">자료: ${esc(m.citation)} (${esc(m.version)}판, ${esc(m.license)}, ${esc(m.downloaded)} 받음). 선거구별 숫자는 '내려받기'의 'CES 유권자 자료'에서 CSV·.dta로 받을 수 있습니다.</p>`;
+  return h;
+}
+
 async function viewList() {
   const Y = await loadYear(S.year);
   let R = Y.r.filter(r => r.chamber === S.ch);
@@ -715,6 +824,17 @@ async function viewDownload() {
     <label class="chk"><input type="checkbox" data-dlboth ${S.dlBoth ? 'checked' : ''}> 하원·상원 모두</label></div>
   <div class="btns"><button class="btn" data-dl="csv">CSV</button><button class="btn" data-dl="dta">Stata (.dta)</button></div>
   <p class="note">CSV는 UTF-8(BOM)이라 엑셀에서 한글이 그대로 보입니다. .dta는 Stata 14 이상에서 열리며 변수 설명이 한글로 붙어 있습니다. 메모(note) 열은 아래 전체 파일에만 있습니다.</p>
+  <h2>CES 유권자 자료</h2>
+  <p>CES 응답자의 하원 투표를 트래커의 선거구에 붙인 표입니다(2006–2024년 짝수 해, 응답자 한 사람씩이 아니라 선거구별로 센 수). '유권자 성별(CES)' 탭이 이 표로 계산합니다.</p>
+  <div class="grid2">
+    <div class="chart-block"><b>선거 × 응답자 성별</b> <span class="muted">(한 줄 = 하원 선거 하나 × 여성 또는 남성 응답자)</span>
+      <div class="cap top">후보 성별·당파 성향 등 선거 정보, 민주·공화·다른 후보를 찍은 응답자 수와 가중 표, 민주 양당 지지율, 유효 표본 수</div>
+      <div class="btns"><a class="btn" href="data/ces/ces_districts.csv" download>CSV</a><a class="btn" href="data/ces/ces_districts.dta" download>Stata (.dta)</a></div></div>
+    <div class="chart-block"><b>선거 × 응답자 성별 × 정당 일체감</b> <span class="muted">(민주·공화·무당파로 더 나눔)</span>
+      <div class="cap top">같은 내용을 응답자의 정당 일체감(pid3)별로 나눈 표</div>
+      <div class="btns"><a class="btn" href="data/ces/ces_districts_pid.csv" download>CSV</a><a class="btn" href="data/ces/ces_districts_pid.dta" download>Stata (.dta)</a></div></div>
+  </div>
+  <p class="note">자료: Shiro Kuriwaki, "Cumulative CES Common Content", Harvard Dataverse, doi:10.7910/DVN/II2DB6 (CC0). 가중치는 선거 뒤 가중치(weight_post), 없는 해는 선거 전 가중치입니다. 변수 뜻은 아래 코드북에 있습니다.</p>
   <h2>선거구 정렬 자료(이어지는 선거구)</h2>
   <p>하원 선거구를 1990년 선거까지 거슬러 이은 표입니다. '기존 여성 의원' 탭의 '1990년부터 누적'이 이 표로 셉니다.</p>
   <div class="grid2">
