@@ -9,6 +9,9 @@ history file keeps no ballot labels, so this script records them; build_db.third
 Runs in GitHub Actions (workflow 'fetch FEC ballot labels'), because the workspace cannot reach fec.gov.
 Output: data/static/fec_ballot_labels.csv  year, chamber, state, district, special, name, fec_id, lines (all ballot labels
 of the candidate, '/'), writein (1 = every line is a write-in), g_votes, g_pct
+        data/static/fec_line_votes.csv  candidates on two or more lines (e.g. a D or R primary line and a third-party general
+line): one row per line with year, chamber, state, district, special, name, fec_id, line, writein, p_status, p_votes,
+g_votes, g_unopposed
 """
 import os
 
@@ -19,6 +22,7 @@ import fec_results
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "data", "static", "fec_ballot_labels.csv")
+OUT_LINES = os.path.join(ROOT, "data", "static", "fec_line_votes.csv")
 YEARS = list(range(2002, 2024, 2))
 
 
@@ -35,6 +39,17 @@ def main():
     t = pd.concat(out, ignore_index=True)
     t.to_csv(OUT, index=False, encoding="utf-8")
     print("rows", len(t), "| labels:", t["lines"].value_counts().head(40).to_dict(), flush=True)
+    multi = []
+    for y in YEARS:
+        x = fec_results.line_records(y)
+        k = ["year", "chamber", "state", "district", "special", "key"]
+        n = x.groupby(k)["line"].transform("nunique")
+        x = x[n >= 2]
+        multi.append(x[["year", "chamber", "state", "district", "special", "name", "fec_id", "line", "writein", "pst", "pv", "gv", "gunopp"]]
+                     .rename(columns={"pst": "p_status", "pv": "p_votes", "gv": "g_votes", "gunopp": "g_unopposed"}))
+    m = pd.concat(multi, ignore_index=True)
+    m.to_csv(OUT_LINES, index=False, encoding="utf-8")
+    print("multi-line rows", len(m), flush=True)
 
 
 if __name__ == "__main__":

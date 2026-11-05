@@ -212,7 +212,8 @@ def race_of(row, year):
     return st, chamber, d, special
 
 
-def persons(year):
+def line_records(year):
+    """one row per candidate per party line, with the key that persons() groups by"""
     df = read_year(year)
     recs = []
     for _, r in df.iterrows():
@@ -235,9 +236,15 @@ def persons(year):
                          gwin=str(r["gwin"] or "").strip() if r["gwin"] is not None and not (isinstance(r["gwin"], float) and pd.isna(r["gwin"])) else "",
                          note=str(r["note"])[:300] if r["note"] is not None and not (isinstance(r["note"], float) and pd.isna(r["note"])) else ""))
     t = pd.DataFrame(recs)
+    if not t.empty:
+        t["key"] = t.apply(lambda x: x["fec_id"] if x["fec_id"] else re.sub(r"[^a-z]", "", x["name"].lower()), axis=1)
+    return t
+
+
+def persons(year):
+    t = line_records(year)
     if t.empty:
         return t
-    t["key"] = t.apply(lambda x: x["fec_id"] if x["fec_id"] else re.sub(r"[^a-z]", "", x["name"].lower()), axis=1)
     out = []
     ok = lambda v: v is not None and not (isinstance(v, float) and pd.isna(v))  # noqa: E731
     for (y, ch, st, d, sp, key), g in t.groupby(["year", "chamber", "state", "district", "special", "key"], sort=False):

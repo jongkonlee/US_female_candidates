@@ -1,6 +1,6 @@
 name: fetch FEC ballot labels
 
-# on demand (once): ballot-line labels of candidates with no D or R line in the FEC result workbooks 2002-2022
+# on demand: ballot-line labels in the FEC result workbooks 2002-2022 (candidates with no D or R line; candidates on two or more lines)
 on:
   workflow_dispatch:
 
@@ -28,7 +28,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/static/fec_ballot_labels.csv
+          git add data/static/fec_ballot_labels.csv data/static/fec_line_votes.csv
           if ! git diff --cached --quiet; then
             git commit -m "FEC ballot labels"
             git pull --rebase origin main
