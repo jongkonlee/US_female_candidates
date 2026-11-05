@@ -270,8 +270,8 @@ def man_race(r, idx, mrace):
         if (fec and fec in p["fec"]) or (link and p["wiki"] and link == p["wiki"]) or \
                 (p["last"] & toks and any(N.same_person(v, name) for v in p["variants"])):
             b = p["bioguide"]
-            return (b, mrace[b], "의원 명단(소수 인종)") if b in mrace else (b, "W", "의원이었고 명단에 없음(백인으로 봄)")
-    return ("", None, "의회에 없었음(모름)")
+            return (b, mrace[b], "list") if b in mrace else (b, "W", "member")
+    return ("", None, "none")
 
 
 def build(resp, rc):
@@ -427,7 +427,7 @@ IND_LABELS = dict(
     wparty="여성 후보의 정당(D/R)", vote_woman="여성 후보를 찍음(1) / 남성 후보(0)", female="여성 유권자(1)", weight="CES 가중치(선거 뒤, 없으면 선거 전)",
     pid="정당 일체감(D/R 쪽, 기우는 무당파 포함; I = 무당파·모름)", copart="여성 후보와 같은 정당 지지(1)", outpart="여성 후보와 반대 정당 지지(1)",
     rrace="응답자 인종(CAWP 코드: W B H AP NA MENA MU OTHER)", w_race="여성 후보 인종(CAWP 코드)", m_race="남성 후보 인종(의원 명단, 빈칸 = 모름)",
-    m_race_src="남성 후보 인종을 정한 근거", m_bioguide="남성 후보의 의원 번호(bioguide, 의회에 있었으면)",
+    m_race_src="남성 후보 인종 근거: list 소수 인종 의원 명단, member 의원(명단에 없어 백인으로 봄), none 의회에 없었음", m_bioguide="남성 후보의 의원 번호(bioguide, 의회에 있었으면)",
     same_race_w="여성 후보와 같은 인종(1)", same_race_m="남성 후보와 같은 인종(1, 모르면 0)", m_race_unk="남성 후보 인종 모름(1)",
     w_nonwhite="여성 후보가 백인 아님(1)", m_nonwhite="남성 후보가 백인 아님(1, 모르면 0)",
     r_black="응답자 흑인(1)", r_hisp="응답자 히스패닉(1)", r_asian="응답자 아시아계(1)", r_other="응답자 그 밖 인종(1)", college="4년제 대졸 이상(1)",
