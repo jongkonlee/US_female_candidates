@@ -8476,8 +8476,8 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 1996-S-TX-00,1996,S,TX,0,0,party,David Young,R,M,not in CAWP,,0,R,votes,75463.0,7.65,,,0.0,,,,,,,,,Wikipedia,,,,,,
 1996-S-TX-00,1996,S,TX,0,0,party,"Henry C. ""Hank"" Glover",R,M,not in CAWP,,0,R,votes,72400.0,7.34,,,0.0,,,,,,,,,Wikipedia,,,,,,
 1996-S-VA-00,1996,S,VA,0,0,party,Mark Warner,D,M,not in CAWP,,0,D,convention,,,,,1.0,1115982.0,47.39,0.0,,,,,,Wikipedia,Wikipedia,,,,Mark Warner,
-1996-S-VA-00,1996,S,VA,0,0,party,Leslie Byrne,D,M,not in CAWP,,0,D,convention,,,,,0.0,,,,,,,,,Wikipedia,,,,,,
-1996-S-VA-00,1996,S,VA,0,0,party,Nancy B. Spannaus,D,M,not in CAWP,,0,D,convention,,,,,0.0,,,,,,,,,Wikipedia,,,,,,
+1996-S-VA-00,1996,S,VA,0,0,party,Leslie Byrne,D,F,CAWP (other year),W,0,D,convention,,,,,0.0,,,,,,,,,Wikipedia,,,,,,CAWP lists the same woman in 2008
+1996-S-VA-00,1996,S,VA,0,0,party,Nancy B. Spannaus,D,F,CAWP (other year),,0,D,convention,,,,,0.0,,,,,,,,,Wikipedia,,,,,,CAWP lists the same woman in 1994
 1996-S-VA-00,1996,S,VA,0,0,party,John Warner,R,M,not in CAWP,,1,R,votes,323520.0,65.55,,,1.0,1235744.0,52.48,1.0,,,,,,Wikipedia,Wikipedia,,,,John Warner,
 1996-S-VA-00,1996,S,VA,0,0,party,James C. Miller III,R,M,not in CAWP,,0,R,votes,170015.0,34.45,,,0.0,,,,,,,,,Wikipedia,,,,,,
 1996-S-WV-00,1996,S,WV,0,0,party,Jay Rockefeller,D,M,not in CAWP,,1,D,votes,280303.0,88.44,,,1.0,456526.0,76.65,1.0,,,,,,Wikipedia,Wikipedia,,,,Jay Rockefeller,
@@ -13033,7 +13033,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2002-H-MA-05,2002,H,MA,5,0,party,Martin T. Meehan,D,M,not in CAWP,,1,D,votes,49041.0,99.47060971157356,,,1.0,122562.0,60.14515867835919,1.0,,,,,H2MA05054,FEC,FEC,,,,,
 2002-H-MA-05,2002,H,MA,5,0,party,Charles McCarthy,R,M,not in CAWP,,0,R,votes,13068.0,56.424870466321245,,,1.0,69337.0,34.02592049151769,0.0,,,,,H2MA05112,FEC,FEC,,,,,
 2002-H-MA-05,2002,H,MA,5,0,party,Thomas P. Tierney,R,M,not in CAWP,,0,R,votes,10046.0,43.376511226252155,,,0.0,,,,,,,,H4MA05043,FEC,,,,,,
-2002-H-MA-05,2002,H,MA,5,0,party,Ilana Freedman,R,M,not in CAWP,,0,O,votes,195.0,100.0,,,,11729.0,5.755801685175461,0.0,,,,,H2MA05096,FEC,FEC,,,,,party from FEC candidate file (REP)
+2002-H-MA-05,2002,H,MA,5,0,party,Ilana Freedman,R,F,CAWP (other year),W,0,O,votes,195.0,100.0,,,,11729.0,5.755801685175461,0.0,,,,,H2MA05096,FEC,FEC,,,,,party from FEC candidate file (REP) | CAWP lists the same woman in 2004
 2002-H-MA-06,2002,H,MA,6,0,party,John F. Tierney,D,M,not in CAWP,,1,D,votes,68992.0,99.67925564192215,,,1.0,162900.0,68.26896884102005,1.0,,,,,H4MA06033,FEC,FEC,,,,,
 2002-H-MA-06,2002,H,MA,6,0,party,Mark C. Smith,R,M,not in CAWP,,0,R,votes,22117.0,99.42458979545965,,,1.0,75462.0,31.625002619282107,0.0,,,,,H2MA06060,FEC,FEC,,,,,
 2002-H-MA-07,2002,H,MA,7,0,party,Edward J. Markey,D,M,not in CAWP,,1,D,votes,73014.0,84.8565850030217,,,1.0,170968.0,98.23658187626769,1.0,,,,,H6MA07101,FEC,FEC,,,,,
@@ -13452,7 +13452,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2002-H-NY-14,2002,H,NY,14,0,party,Carolyn B. Maloney,D,F,CAWP,W,1,D,unopposed,,,,,1.0,191862.0,75.25239451203728,1.0,,,,,H2NY14037,FEC,FEC,W,W,I,,
 2002-H-NY-14,2002,H,NY,14,0,party,Anton Srdanovic,R,M,not in CAWP,,0,R,unopposed,,,,,1.0,63096.0,24.747605487962723,0.0,,,,,H2NY14086,FEC,FEC,,,,,
 2002-H-NY-15,2002,H,NY,15,0,party,Charles B. Rangel,D,M,not in CAWP,,1,D,unopposed,,,,,1.0,168734.0,88.45819134993447,1.0,,,,,H6NY19029,FEC,FEC,,,,,
-2002-H-NY-15,2002,H,NY,15,0,party,Jessie A. Fields,R,M,not in CAWP,,0,R,unopposed,,,,,1.0,22016.0,11.541808650065532,0.0,,,,,H2NY15067,FEC,FEC,,,,,
+2002-H-NY-15,2002,H,NY,15,0,party,Jessie A. Fields,R,F,CAWP (other year),,0,R,unopposed,,,,,1.0,22016.0,11.541808650065532,0.0,,,,,H2NY15067,FEC,FEC,,,,,CAWP lists the same woman in 1992
 2002-H-NY-16,2002,H,NY,16,0,party,Jose E. Serrano,D,M,not in CAWP,,1,D,unopposed,,,,,1.0,101432.0,92.07363567045496,1.0,,,,,H0NY18065,FEC,FEC,,,,,
 2002-H-NY-16,2002,H,NY,16,0,party,Frank Dellavalle,R,M,not in CAWP,,0,R,unopposed,,,,,1.0,8732.0,7.926364329545042,0.0,,,,,H0NY15079,FEC,FEC,,,,,
 2002-H-NY-17,2002,H,NY,17,0,party,Eliot L. Engel,D,M,not in CAWP,,1,D,unopposed,,,,,1.0,155070.0,62.60749497347447,1.0,,,,,H8NY19058,FEC,FEC,,,,,
@@ -13908,7 +13908,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2002-H-UT-01,2002,H,UT,1,0,party,G. Michael Lee,R,M,not in CAWP,,0,,,,,,,,,,,,,,,H2UT01151,,,,,,,
 2002-H-UT-01,2002,H,UT,1,0,party,Vickie McCall,R,M,not in CAWP,,0,,,,,,,,,,,,,,,H2UT05012,,,,,,,
 2002-H-UT-01,2002,H,UT,1,0,party,Kevin C. Probasco,R,M,not in CAWP,,0,,,,,,,,,,,,,,,H2UT01086,,,,,,,
-2002-H-UT-01,2002,H,UT,1,0,party,Cathy Hammon Sundwall,R,M,not in CAWP,,0,,,,,,,,,,,,,,,H2UT01169,,,,,,,
+2002-H-UT-01,2002,H,UT,1,0,party,Cathy Hammon Sundwall,R,F,CAWP (other year),,0,,,,,,,,,,,,,,,H2UT01169,,,,,,,CAWP lists the same woman in 2020
 2002-H-UT-01,2002,H,UT,1,0,party,Scott Wyatt,R,M,not in CAWP,,0,,,,,,,,,,,,,,,H2UT01177,,,,,,,
 2002-H-UT-02,2002,H,UT,2,0,party,Jim Matheson,D,M,not in CAWP,,1,D,convention,,,,,1.0,110764.0,49.42659015252256,1.0,,,,,H0UT02096,FEC,FEC,,,,,
 2002-H-UT-02,2002,H,UT,2,0,party,Patrick Diehl,O,,,,0,O,convention,,,,,,2589.0,1.1552981284973538,0.0,,,,,H2UT02258,FEC,FEC,,,,,
@@ -14231,7 +14231,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2002-S-TX-00,2002,S,TX,0,0,party,Douglas G. Deffenbaugh,R,M,not in CAWP,,0,R,votes,43611.0,7.041960142224633,,,0.0,,,,,,,,S2TX00163,FEC,,,,,,
 2002-S-TX-00,2002,S,TX,0,0,party,Dudley F. Mooney,R,M,not in CAWP,,0,R,votes,32202.0,5.199724851526396,,,0.0,,,,,,,,S2TX00171,FEC,,,,,,
 2002-S-TX-00,2002,S,TX,0,0,party,Lawrence Cranberg,R,M,not in CAWP,,0,R,votes,17757.0,2.8672602381390666,,,0.0,,,,,,,,S2TX00155,FEC,,,,,,
-2002-S-VA-00,2002,S,VA,0,0,party,Nancy B. Spannaus,D,M,not in CAWP,,0,D,nominated (no primary record),,,,,1.0,145102.0,9.742168438494932,0.0,,,,,S0VA00013,,FEC,,,,,party from FEC candidate file (DEM)
+2002-S-VA-00,2002,S,VA,0,0,party,Nancy B. Spannaus,D,F,CAWP (other year),,0,D,nominated (no primary record),,,,,1.0,145102.0,9.742168438494932,0.0,,,,,S0VA00013,,FEC,,,,,party from FEC candidate file (DEM) | CAWP lists the same woman in 1994
 2002-S-VA-00,2002,S,VA,0,0,party,Jacob G. Hornberger Jr.,O,,,,0,,,,,,,,106055.0,7.120547433836751,0.0,,,,,S2VA00100,,FEC,,,,,
 2002-S-VA-00,2002,S,VA,0,0,party,John W. Warner,R,M,not in CAWP,,1,R,unopposed,,,,,1.0,1229894.0,82.57525402471563,1.0,,,,,S8VA00107,FEC,FEC,,,,,
 2002-S-WV-00,2002,S,WV,0,0,party,Jay Rockefeller,D,M,not in CAWP,,1,D,votes,198327.0,89.871668222478,,,1.0,275281.0,63.11135463784696,1.0,,,,,S4WV00027,FEC,FEC,,,,,
@@ -15270,7 +15270,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2004-H-NV-02,2004,H,NV,2,0,party,Jim Gibbons,R,M,not in CAWP,,1,R,unopposed,,,,,1.0,195466.0,67.15221640860385,1.0,,,,,H6NV02032,FEC,FEC,,,,,
 2004-H-NV-03,2004,H,NV,3,0,party,Tom Gallagher,D,M,not in CAWP,,0,D,votes,23349.0,69.50348276477942,,,1.0,120365.0,40.40205694184306,0.0,,,,,H4NV03019,FEC,FEC,,,,,
 2004-H-NV-03,2004,H,NV,3,0,party,Shanna Phillips,D,F,CAWP,,0,D,votes,2573.0,7.6591057927010775,,,0.0,,,,,,,,H4NV03043,FEC,,L,,C,,
-2004-H-NV-03,2004,H,NV,3,0,party,Anna Nevenic,D,M,not in CAWP,,0,D,votes,2239.0,6.664880633446449,,,0.0,,,,,,,,H4NV03035,FEC,,,,,,
+2004-H-NV-03,2004,H,NV,3,0,party,Anna Nevenic,D,F,CAWP (other year),W,0,D,votes,2239.0,6.664880633446449,,,0.0,,,,,,,,H4NV03035,FEC,,,,,,CAWP lists the same woman in 2008
 2004-H-NV-03,2004,H,NV,3,0,party,Rick Devoe,D,M,not in CAWP,,0,D,votes,2217.0,6.599392748705125,,,0.0,,,,,,,,H4NV03027,FEC,,,,,,
 2004-H-NV-03,2004,H,NV,3,0,party,Mark Budetich,D,M,not in CAWP,,0,D,votes,1833.0,5.456331487765673,,,0.0,,,,,,,,H2NV03047,FEC,,,,,,
 2004-H-NV-03,2004,H,NV,3,0,party,Ron Von Felden,D,M,not in CAWP,,0,D,votes,1383.0,4.1168065726022505,,,0.0,,,,,,,,H4NV03050,FEC,,,,,,
@@ -15392,7 +15392,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2004-H-OH-09,2004,H,OH,9,0,party,Luis T.J. Leal,R,M,not in CAWP,,0,R,votes,1278.0,7.217077027332279,,,0.0,,,,,,,,,FEC,,,,,,
 2004-H-OH-10,2004,H,OH,10,0,party,Dennis J. Kucinich,D,M,not in CAWP,,1,D,votes,74692.0,85.52747592492929,,,1.0,172406.0,60.02743617954681,1.0,,,,,H6OH23033,FEC,FEC,,,,,
 2004-H-OH-10,2004,H,OH,10,0,party,George Pulling,D,M,not in CAWP,,0,D,votes,12639.0,14.472524075070709,,,0.0,,,,,,,,H4OH10100,FEC,,,,,,
-2004-H-OH-10,2004,H,OH,10,0,party,Barbara Anne Ferris,D,M,not in CAWP,,0,,,,,,,,18343.0,6.386571591716224,0.0,,,,,H4OH10134,,FEC,,,,,party from FEC candidate file (DEM)
+2004-H-OH-10,2004,H,OH,10,0,party,Barbara Anne Ferris,D,F,CAWP (other year),W,0,,,,,,,,18343.0,6.386571591716224,0.0,,,,,H4OH10134,,FEC,,,,,party from FEC candidate file (DEM) | CAWP lists the same woman in 2008
 2004-H-OH-10,2004,H,OH,10,0,party,Edward Fitzpatrick Herman,R,M,not in CAWP,,0,R,votes,8548.0,41.77295606704784,,,1.0,96463.0,33.58599222873696,0.0,,,,,H4OH10092,FEC,FEC,,,,,
 2004-H-OH-10,2004,H,OH,10,0,party,Bruce Cobbeldick,R,M,not in CAWP,,0,R,votes,4336.0,21.18946391047256,,,0.0,,,,,,,,H4OH10118,FEC,,,,,,
 2004-H-OH-10,2004,H,OH,10,0,party,Bill Smith,R,M,not in CAWP,,0,R,votes,3959.0,19.347114303865514,,,0.0,,,,,,,,H4OH10084,FEC,,,,,,
@@ -15580,7 +15580,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2004-H-TN-03,2004,H,TN,3,0,party,Jean Howard-Hill,O,,,,0,,,,,,,,1473.0,0.5739646814944124,0.0,,,,,H4TN03165,,FEC,,,,,
 2004-H-TN-03,2004,H,TN,3,0,party,Zach Wamp,R,M,not in CAWP,,1,R,votes,30183.0,90.05280902228719,,,1.0,166154.0,64.74306020979131,1.0,,,,,H2TN03052,FEC,FEC,,,,,
 2004-H-TN-03,2004,H,TN,3,0,party,Timothy A. Sevier,R,M,not in CAWP,,0,R,votes,3334.0,9.947190977712802,,,0.0,,,,,,,,H2TN03110,FEC,,,,,,
-2004-H-TN-03,2004,H,TN,3,0,party,June Griffin,R,M,not in CAWP,,0,,,,,,,,3018.0,1.1759846631026045,0.0,,,,,H4TN03157,,FEC,,,,,party from FEC candidate file (REP)
+2004-H-TN-03,2004,H,TN,3,0,party,June Griffin,R,F,CAWP (other year),W,0,,,,,,,,3018.0,1.1759846631026045,0.0,,,,,H4TN03157,,FEC,,,,,party from FEC candidate file (REP) | CAWP lists the same woman in 2006
 2004-H-TN-04,2004,H,TN,4,0,party,Lincoln Davis,D,M,not in CAWP,,1,D,votes,36462.0,91.39033010000752,,,1.0,138459.0,54.80355913016632,1.0,,,,,H4TN06051,FEC,FEC,,,,,
 2004-H-TN-04,2004,H,TN,4,0,party,Harvey Howard,D,M,not in CAWP,,0,D,votes,3435.0,8.60966989999248,,,0.0,,,,,,,,H4TN04106,FEC,,,,,,
 2004-H-TN-04,2004,H,TN,4,0,party,Janice Bowling,R,F,CAWP,W,0,R,votes,19246.0,86.92078403034957,,,1.0,109993.0,43.53641062989321,0.0,,,,,H2TN04159,FEC,FEC,W,L,C,,
@@ -15944,7 +15944,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2004-S-CT-00,2004,S,CT,0,0,party,Leonard H. Rasch,O,,,,0,,,,,,,,9188.0,0.644895930866707,0.0,,,,,S4CT00161,,FEC,,,,,
 2004-S-CT-00,2004,S,CT,0,0,party,Jack C. Orchulli,R,M,not in CAWP,,0,R,convention,,,,,1.0,457749.0,32.12891461235353,0.0,,,,,S4CT00146,FEC,FEC,,,,,
 2004-S-CT-00,2004,S,CT,0,0,party,William Bentley,R,M,not in CAWP,,0,,,,,,,,,,,,,,,S4CT00112,,,,,,,
-2004-S-CT-00,2004,S,CT,0,0,party,Miriam J. Masullo,R,M,not in CAWP,,0,,,,,,,,,,,,,,,S4CT00104,,,,,,,
+2004-S-CT-00,2004,S,CT,0,0,party,Miriam J. Masullo,R,F,CAWP (other year),H,0,,,,,,,,,,,,,,,S4CT00104,,,,,,,CAWP lists the same woman in 2006
 2004-S-CT-00,2004,S,CT,0,0,party,Paul Streitz,R,M,not in CAWP,,0,,,,,,,,,,,,,,,S4CT00120,,,,,,,
 2004-S-CT-00,2004,S,CT,0,0,party,Alphonse Wright,R,M,not in CAWP,,0,,,,,,,,,,,,,,,S4CT00138,,,,,,,
 2004-S-FL-00,2004,S,FL,0,0,party,Betty Castor,D,F,CAWP,W,0,D,votes,669346.0,58.07708893522242,,,1.0,3590201.0,48.32102584505243,0.0,,,,,S4FL00223,FEC,FEC,W,L,O,,
@@ -16093,7 +16093,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2004-S-NY-00,2004,S,NY,0,0,party,Donald Silberger,O,,,,0,,,,,,,,19073.0,0.2845495403091957,0.0,,,,,S4NY00164,,FEC,,,,,
 2004-S-NY-00,2004,S,NY,0,0,party,Martin Koppel,O,,,,0,,,,,,,,14811.0,0.22096488447121573,0.0,,,,,S4NY00198,,FEC,,,,,
 2004-S-NY-00,2004,S,NY,0,0,party,Howard Mills,R,M,not in CAWP,,0,R,unopposed,,,,,1.0,1625069.0,24.244357831527516,0.0,,,,,S4NY00156,FEC,FEC,,,,,
-2004-S-NY-00,2004,S,NY,0,0,party,Marilyn F. O'Grady,R,M,not in CAWP,,0,O,unopposed,,,,,,220960.0,3.2964959066072392,0.0,,,,,S4NY00172,FEC,FEC,,,,,party from FEC candidate file (REP)
+2004-S-NY-00,2004,S,NY,0,0,party,Marilyn F. O'Grady,R,F,CAWP (other year),,0,O,unopposed,,,,,,220960.0,3.2964959066072392,0.0,,,,,S4NY00172,FEC,FEC,,,,,party from FEC candidate file (REP) | CAWP lists the same woman in 2002
 2004-S-NY-00,2004,S,NY,0,0,party,Abraham Hirschfeld,R,M,not in CAWP,,0,,,,,,,,16196.0,0.24162765977285863,0.0,,,,,S4NY00032,,FEC,,,,,party from FEC candidate file (REP)
 2004-S-OH-00,2004,S,OH,0,0,party,Eric D. Fingerhut,D,M,not in CAWP,,0,D,votes,672989.0,70.78804262077816,,,1.0,1961249.0,36.144086944150196,0.0,,,,,S4OH00135,FEC,FEC,,,,,
 2004-S-OH-00,2004,S,OH,0,0,party,Norbert G. Dennerll Jr.,D,M,not in CAWP,,0,D,votes,277721.0,29.211957379221843,,,0.0,,,,,,,,S2OH00030,FEC,,,,,,
@@ -16105,7 +16105,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2004-S-OK-00,2004,S,OK,0,0,party,Jim Rogers,D,M,not in CAWP,,0,D,votes,20179.0,5.719736051429154,,,0.0,,,,,,,,S2OK00095,FEC,,,,,,
 2004-S-OK-00,2004,S,OK,0,0,party,Monte E. Johnson,D,M,not in CAWP,,0,D,votes,17274.0,4.896314017165728,,,0.0,,,,,,,,S4OK00125,FEC,,,,,,
 2004-S-OK-00,2004,S,OK,0,0,party,W. B. G. Woodson,D,M,not in CAWP,,0,D,votes,6932.0,1.96487488520278,,,0.0,,,,,,,,S4OK00182,FEC,,,,,,
-2004-S-OK-00,2004,S,OK,0,0,party,Sheila Bilyeu,D,M,not in CAWP,,0,,,,,,,,86663.0,5.989787441096012,0.0,,,,,S4OK00208,,FEC,,,,,party from FEC candidate file (DEM)
+2004-S-OK-00,2004,S,OK,0,0,party,Sheila Bilyeu,D,F,CAWP (other year),NA/W,0,,,,,,,,86663.0,5.989787441096012,0.0,,,,,S4OK00208,,FEC,,,,,party from FEC candidate file (DEM) | CAWP lists the same woman in 2020
 2004-S-OK-00,2004,S,OK,0,0,party,Tom Coburn,R,M,not in CAWP,,0,R,votes,145974.0,61.23301634709364,,,1.0,763433.0,52.765325404362315,1.0,,,,,S4OK00174,FEC,FEC,,,,,
 2004-S-OK-00,2004,S,OK,0,0,party,Kirk Humphreys,R,M,not in CAWP,,0,R,votes,59877.0,25.117139489326355,,,0.0,,,,,,,,S4OK00141,FEC,,,,,,
 2004-S-OK-00,2004,S,OK,0,0,party,Bob Anthony,R,M,not in CAWP,,0,R,votes,29596.0,12.414898213439265,,,0.0,,,,,,,,S4OK00158,FEC,,,,,,
@@ -16147,7 +16147,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2004-S-UT-00,2004,S,UT,0,0,party,Robert F. Bennett,R,M,not in CAWP,,1,R,convention,,,,,1.0,626640.0,68.73117581378617,1.0,,,,,S2UT00104,FEC,FEC,,,,,
 2004-S-VT-00,2004,S,VT,0,0,party,Patrick Leahy,D,M,not in CAWP,,1,D,votes,27459.0,94.3186892453543,,,1.0,216972.0,70.62706700346345,1.0,,,,,S4VT00017,FEC,FEC,,,,,
 2004-S-VT-00,2004,S,VT,0,0,party,Craig Hill,D,M,not in CAWP,,0,D,votes,1573.0,5.4030845326829935,,,0.0,3999.0,1.3017239134397542,0.0,,,,,S4VT00108,FEC,FEC,,,,,
-2004-S-VT-00,2004,S,VT,0,0,party,Cris Ericson,D,M,not in CAWP,,0,,,,,,,,6486.0,2.1112731439285435,0.0,,,,,S4VT00132,,FEC,,,,,party from FEC candidate file (DEM)
+2004-S-VT-00,2004,S,VT,0,0,party,Cris Ericson,D,F,CAWP (other year),W,0,,,,,,,,6486.0,2.1112731439285435,0.0,,,,,S4VT00132,,FEC,,,,,party from FEC candidate file (DEM) | CAWP lists the same woman in 2016
 2004-S-VT-00,2004,S,VT,0,0,party,Keith Stern,O,,,,0,,,,,,,,3300.0,1.0741907762818677,0.0,,,,,S4VT00140,,FEC,,,,,
 2004-S-VT-00,2004,S,VT,0,0,party,Jack McMullen,R,M,not in CAWP,,0,R,votes,9591.0,67.68525052928722,,,1.0,75398.0,24.54298065154553,0.0,,,,,S8VT00059,FEC,FEC,,,,,
 2004-S-VT-00,2004,S,VT,0,0,party,Peter D. Moss,R,M,not in CAWP,,0,R,votes,2058.0,14.523641496118561,,,0.0,,,,,,,,S4VT00124,FEC,,,,,,
@@ -18123,7 +18123,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2006-S-VT-00,2006,S,VT,0,0,party,Pete Diamondstone,O,,,,0,O,votes,160.0,94.67455621301775,,,,801.0,0.30523704457375417,0.0,,,,,S6VT00152,FEC,FEC,,,,,
 2006-S-VT-00,2006,S,VT,0,0,party,Rich Tarrant,R,M,not in CAWP,,0,R,votes,22008.0,61.83585737967464,,,1.0,84924.0,32.361985984246566,0.0,,,,,S6VT00103,FEC,FEC,,,,,
 2006-S-VT-00,2006,S,VT,0,0,party,Greg Parke,R,M,not in CAWP,,0,R,votes,10479.0,29.442836672192406,,,0.0,,,,,,,,S6VT00111,FEC,,,,,,
-2006-S-VT-00,2006,S,VT,0,0,party,Cris Ericson,R,M,not in CAWP,,0,R,votes,1722.0,4.838301817875306,,,0.0,1735.0,0.6611563949256722,0.0,,,,,S4VT00132,FEC,FEC,,,,,
+2006-S-VT-00,2006,S,VT,0,0,party,Cris Ericson,R,F,CAWP (other year),W,0,R,votes,1722.0,4.838301817875306,,,0.0,1735.0,0.6611563949256722,0.0,,,,,S4VT00132,FEC,FEC,,,,,CAWP lists the same woman in 2016
 2006-S-WA-00,2006,S,WA,0,0,party,Maria Cantwell,D,F,CAWP,W,1,D,votes,568935.0,90.76123717392413,,,1.0,1184659.0,56.852698089103505,1.0,,,,,S8WA00194,FEC,FEC,W,W,I,,
 2006-S-WA-00,2006,S,WA,0,0,party,Hong Tran,D,F,CAWP,AP,0,D,votes,33097.0,5.27990836694063,,,0.0,,,,,,,,S6WA00263,FEC,,L,,CP,,
 2006-S-WA-00,2006,S,WA,0,0,party,Mike the Mover,D,M,not in CAWP,,0,D,votes,11213.0,1.7887909030578388,,,0.0,,,,,,,,S4WA00425,FEC,,,,,,
@@ -18365,7 +18365,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2008-H-CA-37,2008,H,CA,37,0,party,Peter Mathews,D,M,not in CAWP,,0,D,votes,5860.0,16.957981247829608,,,0.0,600.0,0.3423641384977062,0.0,,,,,H2CA38062,FEC,FEC,,,,,
 2008-H-CA-37,2008,H,CA,37,0,party,Lee Davis,D,F,CAWP,B,0,D,votes,2983.0,8.63236485704364,,,0.0,10.0,0.005706068974961769,0.0,,,,,H8CA37178,FEC,FEC,L,,CP,,
 2008-H-CA-37,2008,H,CA,37,0,party,"Nicholas ""Nick"" Dibs",O,,,,0,,,,,,,,42774.0,24.407139433501474,0.0,,,,,H8CA37277,,FEC,,,,,
-2008-H-CA-37,2008,H,CA,37,0,party,June Viena Pouesi,R,M,not in CAWP,,0,R,nominated (no primary record),,,,,1.0,526.0,0.3001392280829891,0.0,,,,,H8CA37285,,FEC,,,,,party from FEC candidate file (REP)
+2008-H-CA-37,2008,H,CA,37,0,party,June Viena Pouesi,R,F,research (gender_overrides.csv),,0,R,nominated (no primary record),,,,,1.0,526.0,0.3001392280829891,0.0,,,,,H8CA37285,,FEC,,,,,"party from FEC candidate file (REP) | gender from research: Republican write-in; profile of June Pouesi of Carson (in CA-37) uses she; same person likely, not certain"
 2008-H-CA-38,2008,H,CA,38,0,party,Grace F. Napolitano,D,F,CAWP,H,1,D,votes,16140.0,100.0,,,1.0,130211.0,81.7271723029801,1.0,,,,,H8CA34068,FEC,FEC,W,W,I,,
 2008-H-CA-38,2008,H,CA,38,0,party,Christopher M. Agrella,O,,,,0,O,votes,50.0,100.0,,,,29113.0,18.27282769701991,0.0,,,,,H8CA38101,FEC,FEC,,,,,
 2008-H-CA-39,2008,H,CA,39,0,party,Linda T. Sanchez,D,F,CAWP,H,1,D,votes,18949.0,100.0,,,1.0,125289.0,69.67389974530369,1.0,,,,,H2CA39078,FEC,FEC,W,W,I,,
@@ -18531,7 +18531,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2008-H-FL-12,2008,H,FL,12,0,party,Doug Tudor,D,M,not in CAWP,,0,D,unopposed,,,,,1.0,137465.0,42.53735730885033,0.0,,,,,H8FL12054,FEC,FEC,,,,,
 2008-H-FL-12,2008,H,FL,12,0,party,Adam H. Putnam,R,M,not in CAWP,,1,R,unopposed,,,,,1.0,185698.0,57.46264269114967,1.0,,,,,H0FL12051,FEC,FEC,,,,,
 2008-H-FL-13,2008,H,FL,13,0,party,Christine Jennings,D,F,CAWP,W,0,D,unopposed,,,,,1.0,137967.0,37.49144012434918,0.0,,,,,H4FL13069,FEC,FEC,W,L,C,,
-2008-H-FL-13,2008,H,FL,13,0,party,Jan Schneider,D,M,not in CAWP,,0,O,convention,,,,,,20289.0,5.513375145382015,0.0,,,,,H2FL13139,FEC,FEC,,,,,party from FEC candidate file (DEM)
+2008-H-FL-13,2008,H,FL,13,0,party,Jan Schneider,D,F,CAWP (other year),W,0,O,convention,,,,,,20289.0,5.513375145382015,0.0,,,,,H2FL13139,FEC,FEC,,,,,party from FEC candidate file (DEM) | CAWP lists the same woman in 2024
 2008-H-FL-13,2008,H,FL,13,0,party,Vern Buchanan,R,M,not in CAWP,,1,R,unopposed,,,,,1.0,204382.0,55.53919064337656,1.0,,,,,H6FL13148,FEC,FEC,,,,,
 2008-H-FL-13,2008,H,FL,13,0,party,Don Baldauf,R,M,not in CAWP,,0,O,convention,,,,,,5358.0,1.4559940868922487,0.0,,,,,H8FL13128,FEC,FEC,,,,,party from FEC candidate file (REP)
 2008-H-FL-14,2008,H,FL,14,0,party,Robert M. Neeld,D,M,not in CAWP,,0,D,unopposed,,,,,1.0,93590.0,24.76640089337931,0.0,,,,,H4FL14091,FEC,FEC,,,,,
@@ -19499,7 +19499,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2008-H-OR-03,2008,H,OR,3,0,party,Delia Lopez,R,F,CAWP,W,0,R,votes,22114.0,96.88075002190484,,,1.0,71063.0,20.835801115339734,0.0,,,,,H8OR03045,FEC,FEC,W,L,C,,
 2008-H-OR-04,2008,H,OR,4,0,party,Peter A. DeFazio,D,M,not in CAWP,,1,D,votes,119366.0,99.20628984134107,,,1.0,275143.0,82.34214983869327,1.0,,,,,H6OR04047,FEC,FEC,,,,,
 2008-H-OR-04,2008,H,OR,4,0,party,Mike Beilstein,O,,,,0,,,,,,,,13162.0,3.9389967259820557,0.0,,,,,H8OR04134,,FEC,,,,,"*  The Libertarian party nominated  by convention on June 1, 2008 for U.S. House District 5, and on August 17, 2008 for U.S. Senate and all other U.S. House Districts.  The Constitution party nominate"
-2008-H-OR-04,2008,H,OR,4,0,party,Jaynee Germond,R,M,not in CAWP,,0,R,nominated (no primary record),,,,,1.0,43133.0,12.908429249489744,0.0,,,,,H8OR04126,,FEC,,,,,"*  The Libertarian party nominated  by convention on June 1, 2008 for U.S. House District 5, and on August 17, 2008 for U.S. Senate and all other U.S. House Districts.  The Constitution party nominate | party from FEC candidate file (REP)"
+2008-H-OR-04,2008,H,OR,4,0,party,Jaynee Germond,R,F,CAWP (other year),W,0,R,nominated (no primary record),,,,,1.0,43133.0,12.908429249489744,0.0,,,,,H8OR04126,,FEC,,,,,"*  The Libertarian party nominated  by convention on June 1, 2008 for U.S. House District 5, and on August 17, 2008 for U.S. Senate and all other U.S. House Districts.  The Constitution party nominate | party from FEC candidate file (REP) | CAWP lists the same woman in 2010"
 2008-H-OR-05,2008,H,OR,5,0,party,Kurt Schrader,D,M,not in CAWP,,0,D,votes,51980.0,53.83515959980944,,,1.0,181577.0,54.25488684510897,1.0,,,,,H8OR05107,FEC,FEC,,,,,
 2008-H-OR-05,2008,H,OR,5,0,party,Nancy Moran,D,F,CAWP,W,0,D,votes,18597.0,19.26072456863517,,,0.0,,,,,,,,H8OR05131,FEC,,L,,O,,
 2008-H-OR-05,2008,H,OR,5,0,party,Steve Marks,D,M,not in CAWP,,0,D,votes,17643.0,18.27267642976987,,,0.0,,,,,,,,H8OR05115,FEC,,,,,,
@@ -19580,7 +19580,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2008-H-RI-01,2008,H,RI,1,0,party,Mickey Mouse,O,,,,0,,,,,,,,5.0,0.002358512816158643,0.0,,,,,,,FEC,,,,,
 2008-H-RI-01,2008,H,RI,1,0,party,Jonathan P. Scott,R,M,not in CAWP,,0,R,votes,44.0,100.0,,,1.0,51340.0,24.21720959631695,0.0,,,,,H6RI01096,FEC,FEC,,,,,
 2008-H-RI-02,2008,H,RI,2,0,party,James R. Langevin,D,M,not in CAWP,,1,D,votes,20018.0,100.0,,,1.0,158416.0,70.02307345491836,1.0,,,,,H0RI02139,FEC,FEC,,,,,
-2008-H-RI-02,2008,H,RI,2,0,party,Jennifer Lawless,D,M,not in CAWP,,0,,,,,,,,5.0,0.002210101045819815,0.0,,,,,H6RI02268,,FEC,,,,,party from FEC candidate file (DEM)
+2008-H-RI-02,2008,H,RI,2,0,party,Jennifer Lawless,D,F,CAWP (other year),W,0,,,,,,,,5.0,0.002210101045819815,0.0,,,,,H6RI02268,,FEC,,,,,party from FEC candidate file (DEM) | CAWP lists the same woman in 2006
 2008-H-RI-02,2008,H,RI,2,0,party,The Jockey,O,,,,0,,,,,,,,17.0,0.007514343555787372,0.0,,,,,,,FEC,,,,,
 2008-H-RI-02,2008,H,RI,2,0,party,Rod Driver,O,,,,0,,,,,,,,14.0,0.006188282928295482,0.0,,,,,H0RI02097,,FEC,,,,,
 2008-H-RI-02,2008,H,RI,2,0,party,Christopher Young,O,,,,0,,,,,,,,6.0,0.002652121254983778,0.0,,,,,,,FEC,,,,,
@@ -19626,7 +19626,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2008-H-TN-03,2008,H,TN,3,0,party,Ed Choate,O,,,,0,,,,,,,,3750.0,1.406453935820694,0.0,,,,,H8TN03182,,FEC,,,,,
 2008-H-TN-03,2008,H,TN,3,0,party,Zach Wamp,R,M,not in CAWP,,1,R,votes,31782.0,91.04764087432319,,,1.0,184964.0,69.37155887603701,1.0,,,,,H2TN03052,FEC,FEC,,,,,
 2008-H-TN-03,2008,H,TN,3,0,party,Teresa Sheppard,R,F,CAWP,W,0,R,votes,3125.0,8.952359125676798,,,0.0,,,,,,,,H8TN03174,FEC,,L,,CP,,
-2008-H-TN-03,2008,H,TN,3,0,party,June Griffin,R,M,not in CAWP,,0,,,,,,,,7.0,0.002625380680198629,0.0,,,,,H4TN03157,,FEC,,,,,party from FEC candidate file (REP)
+2008-H-TN-03,2008,H,TN,3,0,party,June Griffin,R,F,CAWP (other year),W,0,,,,,,,,7.0,0.002625380680198629,0.0,,,,,H4TN03157,,FEC,,,,,party from FEC candidate file (REP) | CAWP lists the same woman in 2006
 2008-H-TN-04,2008,H,TN,4,0,party,Lincoln Davis,D,M,not in CAWP,,1,D,votes,30487.0,90.41221826809014,,,1.0,146776.0,58.756229859290244,1.0,,,,,H4TN06051,FEC,FEC,,,,,
 2008-H-TN-04,2008,H,TN,4,0,party,Bert Mason,D,M,not in CAWP,,0,D,votes,3233.0,9.587781731909846,,,0.0,,,,,,,,H6TN04135,FEC,,,,,,
 2008-H-TN-04,2008,H,TN,4,0,party,James Anthony Gray,O,,,,0,,,,,,,,4869.0,1.9491203138447988,0.0,,,,,H8TN04065,,FEC,,,,,
@@ -20457,7 +20457,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2010-H-CA-41,2010,H,CA,41,0,party,Pat Meagher,D,M,not in CAWP,,0,D,votes,30159.0,100.0,,,1.0,74394.0,36.77664297084326,0.0,,,,,H8CA41113,FEC,FEC,,,,,
 2010-H-CA-41,2010,H,CA,41,0,party,Jerry Lewis,R,M,not in CAWP,,1,R,votes,42462.0,66.27542181086017,,,1.0,127857.0,63.20605479370792,1.0,,,,,H8CA37079,FEC,FEC,,,,,
 2010-H-CA-41,2010,H,CA,41,0,party,Eric R. Stone,R,M,not in CAWP,,0,R,votes,21607.0,33.724578189139834,,,0.0,,,,,,,,H8CA41154,FEC,,,,,,
-2010-H-CA-41,2010,H,CA,41,0,party,Pamela Zander,R,M,not in CAWP,,0,,,,,,,,35.0,0.017302235448819987,0.0,,,,,H8CA41162,,FEC,,,,,party from FEC candidate file (REP)
+2010-H-CA-41,2010,H,CA,41,0,party,Pamela Zander,R,F,CAWP (other year),W,0,,,,,,,,35.0,0.017302235448819987,0.0,,,,,H8CA41162,,FEC,,,,,party from FEC candidate file (REP) | CAWP lists the same woman in 2008
 2010-H-CA-42,2010,H,CA,42,0,party,Michael Williamson,D,M,not in CAWP,,0,D,votes,23366.0,100.0,,,1.0,65122.0,31.860390023385747,0.0,,,,,H8CA42210,FEC,FEC,,,,,
 2010-H-CA-42,2010,H,CA,42,0,party,Mark Lambert,O,,,,0,O,votes,371.0,100.0,,,,12115.0,5.9271617139110955,0.0,,,,,H0CA42191,FEC,FEC,,,,,
 2010-H-CA-42,2010,H,CA,42,0,party,Gary G. Miller,R,M,not in CAWP,,1,R,votes,32669.0,48.756790639364816,,,1.0,127161.0,62.212448262703155,1.0,,,,,H8CA41063,FEC,FEC,,,,,
@@ -22166,7 +22166,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2010-H-TX-06,2010,H,TX,6,0,party,David E. Cozad,D,M,not in CAWP,,0,D,votes,8743.0,100.0,,,1.0,50717.0,31.19951770763486,0.0,,,,,H0TX06065,FEC,FEC,,,,,
 2010-H-TX-06,2010,H,TX,6,0,party,Byron Severns,O,,,,0,O,convention,,,,,,4700.0,2.8912935155053305,0.0,,,,,H0TX06073,FEC,FEC,,,,,"* The Libertarian Party nominated by convention on March 13, 2010, for Congressional Districts 7, 16, 18, 20, 29, 30 and 32, and by convention on March 20, 2010, for all other Congressional Districts."
 2010-H-TX-06,2010,H,TX,6,0,party,Joe L. Barton,R,M,not in CAWP,,1,R,votes,46095.0,100.0,,,1.0,107140.0,65.9091887768598,1.0,,,,,H4TX06117,FEC,FEC,,,,,
-2010-H-TX-07,2010,H,TX,7,0,party,Lissa Squiers,D,M,not in CAWP,,0,D,nominated (no primary record),,,,,1.0,1019.0,0.5777364523920218,0.0,,,,,H0TX07147,,FEC,,,,,party from FEC candidate file (DEM)
+2010-H-TX-07,2010,H,TX,7,0,party,Lissa Squiers,D,F,CAWP (other year),W,0,D,nominated (no primary record),,,,,1.0,1019.0,0.5777364523920218,0.0,,,,,H0TX07147,,FEC,,,,,party from FEC candidate file (DEM) | CAWP lists the same woman in 2014
 2010-H-TX-07,2010,H,TX,7,0,party,Bob Townsend,O,,,,0,O,convention,,,,,,31704.0,17.975030899545295,0.0,,,,,H0TX07121,FEC,FEC,,,,,"* The Libertarian Party nominated by convention on March 13, 2010, for Congressional Districts 7, 16, 18, 20, 29, 30 and 32, and by convention on March 20, 2010, for all other Congressional Districts."
 2010-H-TX-07,2010,H,TX,7,0,party,Drew Parks,O,,,,0,,,,,,,,,,,,,,,H8TX07066,,,,,,,"* The Libertarian Party nominated by convention on March 13, 2010, for Congressional Districts 7, 16, 18, 20, 29, 30 and 32, and by convention on March 20, 2010, for all other Congressional Districts."
 2010-H-TX-07,2010,H,TX,7,0,party,John Culberson,R,M,not in CAWP,,1,R,votes,43567.0,100.0,,,1.0,143655.0,81.44723264806268,1.0,,,,,H0TX07055,FEC,FEC,,,,,
@@ -22587,7 +22587,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2010-S-CO-00,2010,S,CO,0,0,party,Robert Rank,R,M,not in CAWP,,0,,,,,,,,52.0,0.0029251806299038963,0.0,,,,,S0CO00393,,FEC,,,,,party from FEC candidate file (REP)
 2010-S-CT-00,2010,S,CT,0,0,party,Richard Blumenthal,D,M,not in CAWP,,0,D,convention,,,,,1.0,605204.0,52.484270866305614,1.0,,,,,S0CT00177,FEC,FEC,,,,,* A candidate is endorsed by the party at the party convention.  A primary election is only held if a qualified challenger to the party endorsed candidate receives 15% of the delegate votes on roll ca
 2010-S-CT-00,2010,S,CT,0,0,party,Merrick Alpert,D,M,not in CAWP,,0,,,,,,,,,,,,,,,S0CT00110,,,,,,,* A candidate is endorsed by the party at the party convention.  A primary election is only held if a qualified challenger to the party endorsed candidate receives 15% of the delegate votes on roll ca
-2010-S-CT-00,2010,S,CT,0,0,party,L. Lee Whitnum,D,M,not in CAWP,,0,,,,,,,,,,,,,,,S0CT00185,,,,,,,* A candidate is endorsed by the party at the party convention.  A primary election is only held if a qualified challenger to the party endorsed candidate receives 15% of the delegate votes on roll ca
+2010-S-CT-00,2010,S,CT,0,0,party,L. Lee Whitnum,D,F,CAWP (other year),,0,,,,,,,,,,,,,,,S0CT00185,,,,,,,* A candidate is endorsed by the party at the party convention.  A primary election is only held if a qualified challenger to the party endorsed candidate receives 15% of the delegate votes on roll ca | CAWP lists the same woman in 2008
 2010-S-CT-00,2010,S,CT,0,0,party,Warren B. Mosler,D,M,not in CAWP,,0,,,,,,,,11275.0,0.9777862572249949,0.0,,,,,S0CT00193,,FEC,,,,,* A candidate is endorsed by the party at the party convention.  A primary election is only held if a qualified challenger to the party endorsed candidate receives 15% of the delegate votes on roll ca
 2010-S-CT-00,2010,S,CT,0,0,party,Richard Blumenthal,O,,,,0,,,,,,,,30836.0,2.6741478516886867,0.0,,,,,S0CT00178,,FEC,,,,,
 2010-S-CT-00,2010,S,CT,0,0,party,John Mertens,O,,,,0,,,,,,,,6735.0,0.5840701057570147,0.0,,,,,S6CT05082,,FEC,,,,,
@@ -22904,7 +22904,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2010-S-UT-00,2010,S,UT,0,0,party,Loy Brunson,R,M,not in CAWP,,0,,,,,,,,6.0,0.0009466275604303368,0.0,,,,,S0UT00231,,FEC,,,,,party from FEC candidate file (REP)
 2010-S-VT-00,2010,S,VT,0,0,party,Patrick Leahy,D,M,not in CAWP,,1,D,votes,64515.0,88.88567413408282,,,1.0,151281.0,64.32616996487766,1.0,,,,,S4VT00017,FEC,FEC,,,,,
 2010-S-VT-00,2010,S,VT,0,0,party,Daniel Freilich,D,M,not in CAWP,,0,D,votes,7892.0,10.873219255462786,,,0.0,3544.0,1.5069436767044535,0.0,,,,,S0VT00106,FEC,FEC,,,,,
-2010-S-VT-00,2010,S,VT,0,0,party,Cris Ericson,D,M,not in CAWP,,0,,,,,,,,2731.0,1.161248075925469,0.0,,,,,S4VT00132,,FEC,,,,,party from FEC candidate file (DEM)
+2010-S-VT-00,2010,S,VT,0,0,party,Cris Ericson,D,F,CAWP (other year),W,0,,,,,,,,2731.0,1.161248075925469,0.0,,,,,S4VT00132,,FEC,,,,,party from FEC candidate file (DEM) | CAWP lists the same woman in 2016
 2010-S-VT-00,2010,S,VT,0,0,party,Stephen J. Cain,O,,,,0,,,,,,,,2356.0,1.0017943855292586,0.0,,,,,S0VT00130,,FEC,,,,,
 2010-S-VT-00,2010,S,VT,0,0,party,Pete Diamondstone,O,,,,0,,,,,,,,1433.0,0.6093257022340525,0.0,,,,,S6VT00152,,FEC,,,,,
 2010-S-VT-00,2010,S,VT,0,0,party,Johenry Nunes,O,,,,0,,,,,,,,1021.0,0.43413924771874923,0.0,,,,,S0VT00148,,FEC,,,,,
@@ -24692,7 +24692,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2012-H-TN-05,2012,H,TN,5,0,party,John (Big John) Smith,R,M,not in CAWP,,0,R,votes,4200.0,20.312424432944816,,,0.0,,,,,,,,H2TN05263,FEC,,,,,,
 2012-H-TN-05,2012,H,TN,5,0,party,Justin Jones,R,M,not in CAWP,,0,R,votes,3381.0,16.35150166852058,,,0.0,,,,,,,,H2TN05255,FEC,,,,,,
 2012-H-TN-05,2012,H,TN,5,0,party,Tracy C. Tarum,R,M,not in CAWP,,0,R,votes,2212.0,10.697876868017604,,,0.0,,,,,,,,H0TN05242,FEC,,,,,,
-2012-H-TN-06,2012,H,TN,6,0,party,Rachel Robinson,D,M,not in CAWP,,0,D,nominated (no primary record),,,,,1.0,455.0,0.18860807242549982,0.0,,,,,H2TN06139,,FEC,,,,,party from FEC candidate file (DEM)
+2012-H-TN-06,2012,H,TN,6,0,party,Rachel Robinson,D,F,research (gender_overrides.csv),,0,D,nominated (no primary record),,,,,1.0,455.0,0.18860807242549982,0.0,,,,,H2TN06139,,FEC,,,,,party from FEC candidate file (DEM) | gender from research: Democratic write-in nominee; local paper refers to her as she/her
 2012-H-TN-06,2012,H,TN,6,0,party,Scott Beasley,O,,,,0,,,,,,,,34766.0,14.411314826252585,0.0,,,,,H2TN06121,,FEC,,,,,
 2012-H-TN-06,2012,H,TN,6,0,party,Pat Riley,O,,,,0,,,,,,,,21633.0,8.967381166551291,0.0,,,,,H2TN06147,,FEC,,,,,
 2012-H-TN-06,2012,H,TN,6,0,party,Michael H. Thompson,O,,,,0,,,,,,,,4.0,0.0016580929443999982,0.0,,,,,,,FEC,,,,,
@@ -25157,7 +25157,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2012-S-CT-00,2012,S,CT,0,0,party,Matthew John Oakes,D,M,not in CAWP,,0,,,,,,,,,,,,,,,S2CT00207,,,,,,,A candidate is endorsed by the party at the party convention.  A primary election is only held if a qualified challenger to the party endorsed candidate receives 15% of the delegate votes on roll call
 2012-S-CT-00,2012,S,CT,0,0,party,Sylvester Salcedo,D,M,not in CAWP,,0,,,,,,,,,,,,,,,S2CT00215,,,,,,,A candidate is endorsed by the party at the party convention.  A primary election is only held if a qualified challenger to the party endorsed candidate receives 15% of the delegate votes on roll call
 2012-S-CT-00,2012,S,CT,0,0,party,William M. Tong,D,M,not in CAWP,,0,,,,,,,,,,,,,,,S2CT00157,,,,,,,A candidate is endorsed by the party at the party convention.  A primary election is only held if a qualified challenger to the party endorsed candidate receives 15% of the delegate votes on roll call
-2012-S-CT-00,2012,S,CT,0,0,party,L. Lee Whitnum,D,M,not in CAWP,,0,,,,,,,,,,,,,,,S0CT00185,,,,,,,A candidate is endorsed by the party at the party convention.  A primary election is only held if a qualified challenger to the party endorsed candidate receives 15% of the delegate votes on roll call
+2012-S-CT-00,2012,S,CT,0,0,party,L. Lee Whitnum,D,F,CAWP (other year),,0,,,,,,,,,,,,,,,S0CT00185,,,,,,,A candidate is endorsed by the party at the party convention.  A primary election is only held if a qualified challenger to the party endorsed candidate receives 15% of the delegate votes on roll call | CAWP lists the same woman in 2008
 2012-S-CT-00,2012,S,CT,0,0,party,Paul Passarelli,O,,,,0,,,,,,,,25045.0,1.656673925295218,0.0,,,,,S2CT00223,,FEC,,,,,
 2012-S-CT-00,2012,S,CT,0,0,party,Matthew Coleman,O,,,,0,,,,,,,,6414.0,0.42427257164478055,0.0,,,,,S0CT00276,,FEC,,,,,
 2012-S-CT-00,2012,S,CT,0,0,party,Michael D. Adams,O,,,,0,,,,,,,,388.0,0.025665381633641227,0.0,,,,,S2CT00231,,FEC,,,,,
@@ -25440,7 +25440,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2012-S-VA-00,2012,S,VA,0,0,party,"R. G. ""Bob"" Marshall",R,M,not in CAWP,,0,R,votes,17341.0,6.761150966936993,,,0.0,,,,,,,,S8VA00263,FEC,,,,,,
 2012-S-VA-00,2012,S,VA,0,0,party,E. W. Jackson,R,M,not in CAWP,,0,R,votes,12116.0,4.723955084217093,,,0.0,,,,,,,,S2VA00167,FEC,,,,,,
 2012-S-VT-00,2012,S,VT,0,0,party,Bernie Sanders,D,M,not in CAWP,,1,D,votes,36902.0,98.66844919786097,,,1.0,207848.0,70.99555270151181,1.0,,,,,S4VT00033,FEC,FEC,,,,,
-2012-S-VT-00,2012,S,VT,0,0,party,Cris Ericson,D,M,not in CAWP,,0,,,,,,,,5924.0,2.0234866546887913,0.0,,,,,S4VT00132,,FEC,,,,,party from FEC candidate file (DEM)
+2012-S-VT-00,2012,S,VT,0,0,party,Cris Ericson,D,F,CAWP (other year),W,0,,,,,,,,5924.0,2.0234866546887913,0.0,,,,,S4VT00132,,FEC,,,,,party from FEC candidate file (DEM) | CAWP lists the same woman in 2016
 2012-S-VT-00,2012,S,VT,0,0,party,Pete Diamondstone,O,,,,0,,,,,,,,2511.0,0.8576932798655562,0.0,,,,,S6VT00152,,FEC,,,,,
 2012-S-VT-00,2012,S,VT,0,0,party,Peter Moss,O,,,,0,,,,,,,,2452.0,0.8375403911709853,0.0,,,,,S4VT00124,,FEC,,,,,
 2012-S-VT-00,2012,S,VT,0,0,party,Laurel LaFramboise,O,,,,0,,,,,,,,877.0,0.29956073534133526,0.0,,,,,S2VT00151,,FEC,,,,,
@@ -27264,7 +27264,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2014-H-WA-09,2014,H,WA,9,0,top2,Mark Greene,O,,,,0,O,votes,2737.0,2.9445938676707906,,,,,,,,,,,H4WA09020,FEC,,,,,,
 2014-H-WA-09,2014,H,WA,9,0,top2,Doug Basler,R,M,not in CAWP,,0,R,votes,25290.0,27.20817643894567,,,1.0,48662.0,29.174910368478486,0.0,,,,,H4WA09061,FEC,FEC,,,,,
 2014-H-WA-10,2014,H,WA,10,0,top2,Denny Heck,D,M,not in CAWP,,1,D,votes,51738.0,51.57965047304774,,,1.0,99279.0,54.70158464284928,1.0,,,,,H0WA03161,FEC,FEC,,,,,
-2014-H-WA-10,2014,H,WA,10,0,top2,Jennifer Gigi Ferguson,D,M,not in CAWP,,0,O,votes,4811.0,4.796275434416342,,,,,,,,,,,H2WA10048,FEC,,,,,,party from FEC candidate file (DEM)
+2014-H-WA-10,2014,H,WA,10,0,top2,Jennifer Gigi Ferguson,D,F,CAWP (other year),B,0,O,votes,4811.0,4.796275434416342,,,,,,,,,,,H2WA10048,FEC,,,,,,party from FEC candidate file (DEM) | CAWP lists the same woman in 2016
 2014-H-WA-10,2014,H,WA,10,0,top2,Sam Wright,D,M,not in CAWP,,0,O,votes,2342.0,2.334832065558735,,,,,,,,,,,H4WA10036,FEC,,,,,,party from FEC candidate file (DEM)
 2014-H-WA-10,2014,H,WA,10,0,top2,Joyce McDonald,R,F,CAWP,W,0,R,votes,41416.0,41.28924202697718,,,1.0,82213.0,45.29841535715073,0.0,,,,,H4WA10010,FEC,FEC,W,L,C,,
 2014-H-WI-01,2014,H,WI,1,0,party,Rob Zerban,D,M,not in CAWP,,0,D,votes,25627.0,77.61994184637751,,,1.0,105552.0,36.628379081792,0.0,,,,,H2WI01084,FEC,FEC,,,,,
@@ -28077,7 +28077,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2016-H-FL-18,2016,H,FL,18,0,party,Carl J. Domino,R,M,not in CAWP,,0,R,votes,7942.0,12.516547941751243,,,0.0,,,,,,,,H4FL18068,FEC,,,,,,
 2016-H-FL-18,2016,H,FL,18,0,party,Rick Kozell,R,M,not in CAWP,,0,R,votes,4334.0,6.83035995713295,,,0.0,,,,,,,,H6FL18105,FEC,,,,,,
 2016-H-FL-18,2016,H,FL,18,0,party,Noelle Nikpour,R,F,CAWP,,0,R,votes,835.0,1.3159553678371052,,,0.0,,,,,,,,H6FL18139,FEC,,L,,O,,
-2016-H-FL-18,2016,H,FL,18,0,party,Carla Spalding,R,M,not in CAWP,,0,,,,,,,,12503.0,3.3259913066147404,0.0,,,,,H6FL18121,,FEC,,,,,party from FEC candidate file (REP)
+2016-H-FL-18,2016,H,FL,18,0,party,Carla Spalding,R,F,CAWP (other year),B,0,,,,,,,,12503.0,3.3259913066147404,0.0,,,,,H6FL18121,,FEC,,,,,party from FEC candidate file (REP) | CAWP lists the same woman in 2024
 2016-H-FL-19,2016,H,FL,19,0,party,Robert M. Neeld,D,M,not in CAWP,,0,D,unopposed,,,,,1.0,123812.0,34.092398517482366,0.0,,,,,H4FL14091,FEC,FEC,,,,,
 2016-H-FL-19,2016,H,FL,19,0,party,David Byron,O,,,,0,,,,,,,,109.0,0.030013822879895145,0.0,,,,,H6FL19103,,FEC,,,,,
 2016-H-FL-19,2016,H,FL,19,0,party,Timothy John Rossano,O,,,,0,,,,,,,,20.0,0.005507123464200943,0.0,,,,,H4FL19082,,FEC,,,,,
@@ -28233,7 +28233,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2016-H-IL-09,2016,H,IL,9,0,party,Janice D Schakowsky,D,F,CAWP,W,1,D,votes,134961.0,100.0,,,1.0,217306.0,66.46500360913662,1.0,,,,,H8IL09067,FEC,FEC,W,W,I,,
 2016-H-IL-09,2016,H,IL,9,0,party,David Williams,O,,,,0,,,,,,,,79.0,0.024162863819322953,0.0,,,,,H4IL09074,,FEC,,,,,
 2016-H-IL-09,2016,H,IL,9,0,party,Joan McCarthy Lasonde,R,F,CAWP,W,0,R,votes,47948.0,100.0,,,1.0,109550.0,33.50685735958012,0.0,,,,,H6IL09145,FEC,FEC,W,L,C,,
-2016-H-IL-09,2016,H,IL,9,0,party,Susanne Atanus,R,M,not in CAWP,,0,,,,,,,,13.0,0.00397616746393922,0.0,,,,,H0IL09080,,FEC,,,,,party from FEC candidate file (REP)
+2016-H-IL-09,2016,H,IL,9,0,party,Susanne Atanus,R,F,CAWP (other year),W,0,,,,,,,,13.0,0.00397616746393922,0.0,,,,,H0IL09080,,FEC,,,,,party from FEC candidate file (REP) | CAWP lists the same woman in 2014
 2016-H-IL-10,2016,H,IL,10,0,party,Brad Schneider,D,M,not in CAWP,,0,D,votes,50916.0,53.7326663711771,,,1.0,150435.0,52.600386019384885,1.0,,,,,H2IL10068,FEC,FEC,,,,,
 2016-H-IL-10,2016,H,IL,10,0,party,Nancy Rotering,D,F,CAWP,,0,D,votes,43842.0,46.2673336288229,,,0.0,,,,,,,,H6IL10135,FEC,,L,,C,,
 2016-H-IL-10,2016,H,IL,10,0,party,Joseph William Kopsick,O,,,,0,,,,,,,,26.0,0.009091036238269066,0.0,,,,,H6IL10150,,FEC,,,,,
@@ -28525,7 +28525,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2016-H-MI-03,2016,H,MI,3,0,party,Douglas Smith,D,M,not in CAWP,,0,D,votes,20352.0,100.0,,,1.0,128400.0,37.50383362785332,0.0,,,,,H6MI03172,FEC,FEC,,,,,
 2016-H-MI-03,2016,H,MI,3,0,party,Ted Gerrard,O,,,,0,O,convention,,,,,,10420.0,3.043535408117068,0.0,,,,,H0MI03209,FEC,FEC,,,,,"* The Libertarian Party nominated by convention on May 14, 2016, the U.S. Taxpayers Party nominated by convention on June 25, 2016, and the Green Party nominated by convention on July 30, 2016.  Conve"
 2016-H-MI-03,2016,H,MI,3,0,party,Justin Amash,R,M,not in CAWP,,1,R,votes,55889.0,100.0,,,1.0,203545.0,59.452630964029616,1.0,,,,,H0MI03126,FEC,FEC,,,,,
-2016-H-MI-04,2016,H,MI,4,0,party,Debra Wirth,D,M,not in CAWP,,0,D,votes,2013.0,100.0,,,1.0,101277.0,32.074957799025185,0.0,,,,,H2MI04237,FEC,FEC,,,,,
+2016-H-MI-04,2016,H,MI,4,0,party,Debra Wirth,D,F,CAWP (other year),W,0,D,votes,2013.0,100.0,,,1.0,101277.0,32.074957799025185,0.0,,,,,H2MI04237,FEC,FEC,,,,,CAWP lists the same woman in 2012
 2016-H-MI-04,2016,H,MI,4,0,party,Leonard Schwartz,O,,,,0,O,convention,,,,,,8516.0,2.6970619253779087,0.0,,,,,H8MI05108,FEC,FEC,,,,,"* The Libertarian Party nominated by convention on May 14, 2016, the U.S. Taxpayers Party nominated by convention on June 25, 2016, and the Green Party nominated by convention on July 30, 2016.  Conve"
 2016-H-MI-04,2016,H,MI,4,0,party,George M. Zimmer,O,,,,0,O,convention,,,,,,5595.0,1.771965884510263,0.0,,,,,H8MI08086,FEC,FEC,,,,,"* The Libertarian Party nominated by convention on May 14, 2016, the U.S. Taxpayers Party nominated by convention on June 25, 2016, and the Green Party nominated by convention on July 30, 2016.  Conve"
 2016-H-MI-04,2016,H,MI,4,0,party,Jordan Salvi,O,,,,0,O,convention,,,,,,3953.0,1.2519358608523805,0.0,,,,,H6MI04170,FEC,FEC,,,,,"* The Libertarian Party nominated by convention on May 14, 2016, the U.S. Taxpayers Party nominated by convention on June 25, 2016, and the Green Party nominated by convention on July 30, 2016.  Conve"
@@ -29026,7 +29026,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2016-H-OH-02,2016,H,OH,2,0,party,William R. Smith,D,M,not in CAWP,,0,D,votes,19422.0,41.72108609726757,,,1.0,111694.0,32.82424128435784,0.0,,,,,H8OH02074,FEC,FEC,,,,,
 2016-H-OH-02,2016,H,OH,2,0,party,Ronny Richards,D,M,not in CAWP,,0,D,votes,13976.0,30.02234060835195,,,0.0,,,,,,,,H4OH02131,FEC,,,,,,
 2016-H-OH-02,2016,H,OH,2,0,party,Russ Hurley,D,M,not in CAWP,,0,D,votes,13154.0,28.256573294380477,,,0.0,,,,,,,,H6OH02284,FEC,,,,,,
-2016-H-OH-02,2016,H,OH,2,0,party,Janet Everhard,D,M,not in CAWP,,0,,,,,,,,7392.0,2.1723350544700084,0.0,,,,,H6OH02292,,FEC,,,,,party from FEC candidate file (DEM)
+2016-H-OH-02,2016,H,OH,2,0,party,Janet Everhard,D,F,CAWP (other year),W,0,,,,,,,,7392.0,2.1723350544700084,0.0,,,,,H6OH02292,,FEC,,,,,party from FEC candidate file (DEM) | CAWP lists the same woman in 2018
 2016-H-OH-02,2016,H,OH,2,0,party,Brad Wenstrup,R,M,not in CAWP,,1,R,votes,101765.0,84.8741878716608,,,1.0,221193.0,65.00342366117215,1.0,,,,,H2OH02085,FEC,FEC,,,,,
 2016-H-OH-02,2016,H,OH,2,0,party,Jim Lewis,R,M,not in CAWP,,0,R,votes,18136.0,15.125812128339215,,,0.0,,,,,,,,H6OH02276,FEC,,,,,,
 2016-H-OH-03,2016,H,OH,3,0,party,Joyce Beatty,D,F,CAWP,B,1,D,votes,79893.0,100.0,,,1.0,199791.0,68.57398807623794,1.0,,,,,H2OH03125,FEC,FEC,W,W,I,,
@@ -29356,7 +29356,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2016-H-TX-15,2016,H,TX,15,0,party,Joel Quintanilla,D,M,not in CAWP,,0,D,votes,6152.0,11.723231129828307,,,0.0,,,,,,,,H6TX15188,FEC,,,,,,
 2016-H-TX-15,2016,H,TX,15,0,party,Rubén Ramírez,D,M,not in CAWP,,0,D,votes,3149.0,6.000724126760295,,,0.0,,,,,,,,H6TX15055,FEC,,,,,,
 2016-H-TX-15,2016,H,TX,15,0,party,"Rance G ""Randy"" Sweeten",D,M,not in CAWP,,0,D,votes,2224.0,4.238047144463289,,,0.0,,,,,,,,H6TX15212,FEC,,,,,,
-2016-H-TX-15,2016,H,TX,15,0,party,Vanessa S. Tijerina,D,M,not in CAWP,,0,O,convention,,,,,,5448.0,3.069658945565391,0.0,,,,,H6TX15220,FEC,FEC,,,,,"* The Green and Libertarian Parties nominated by convention. The convention dates were March 12, 2016, for single county U.S. House Districts 2, 3, 7, 16, 18, 20, 29 and 30; and March 19, 2016 for mul | party from FEC candidate file (DEM)"
+2016-H-TX-15,2016,H,TX,15,0,party,Vanessa S. Tijerina,D,F,CAWP (other year),H,0,O,convention,,,,,,5448.0,3.069658945565391,0.0,,,,,H6TX15220,FEC,FEC,,,,,"* The Green and Libertarian Parties nominated by convention. The convention dates were March 12, 2016, for single county U.S. House Districts 2, 3, 7, 16, 18, 20, 29 and 30; and March 19, 2016 for mul | party from FEC candidate file (DEM) | CAWP lists the same woman in 2022"
 2016-H-TX-15,2016,H,TX,15,0,party,Ross Lynn Leone,O,,,,0,O,convention,,,,,,3442.0,1.9393843778700577,0.0,,,,,H8TX28203,FEC,FEC,,,,,"* The Green and Libertarian Parties nominated by convention. The convention dates were March 12, 2016, for single county U.S. House Districts 2, 3, 7, 16, 18, 20, 29 and 30; and March 19, 2016 for mul"
 2016-H-TX-15,2016,H,TX,15,0,party,Tim Westley,R,M,not in CAWP,,0,R,votes,13164.0,45.009744589188635,1384.0,50.529390288426434,1.0,66877.0,37.68164120825562,0.0,,,,,H6TX15204,FEC,FEC,,,,,
 2016-H-TX-15,2016,H,TX,15,0,party,Ruben O. Villarreal,R,M,not in CAWP,,0,R,votes,9349.0,31.965671692823193,1355.0,49.470609711573566,0.0,,,,,,,,H6TX15147,FEC,,,,,,
@@ -30213,7 +30213,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2018-H-CA-28,2018,H,CA,28,0,top2,Johnny J. Nalbandian,R,M,not in CAWP,,0,R,votes,26566.0,20.71843024706763,,,1.0,54272.0,21.627997800218385,0.0,,,,,H8CA28185,FEC,FEC,,,,,
 2018-H-CA-29,2018,H,CA,29,0,top2,Tony Cardenas,D,M,not in CAWP,,1,D,votes,43579.0,66.7182093756698,,,1.0,124697.0,80.60985700618002,1.0,,,,,H2CA28113,FEC,FEC,,,,,
 2018-H-CA-29,2018,H,CA,29,0,top2,"Joseph ""Joe"" Shammas",D,M,not in CAWP,,0,D,votes,5278.0,8.080467864907071,,,0.0,,,,,,,,H8CA29092,FEC,,,,,,
-2018-H-CA-29,2018,H,CA,29,0,top2,Angelica Maria Dueñas,D,M,not in CAWP,,0,O,votes,4164.0,6.374965553140023,,,,,,,,,,,H8CA29100,FEC,,,,,,party from FEC candidate file (DEM)
+2018-H-CA-29,2018,H,CA,29,0,top2,Angelica Maria Dueñas,D,F,CAWP (other year),H,0,O,votes,4164.0,6.374965553140023,,,,,,,,,,,H8CA29100,FEC,,,,,,party from FEC candidate file (DEM) | CAWP lists the same woman in 2024
 2018-H-CA-29,2018,H,CA,29,0,top2,Juan Rey,O,,,,0,O,votes,944.0,1.4452371474937995,,,,,,,,,,,H8CA29118,FEC,,,,,,
 2018-H-CA-29,2018,H,CA,29,0,top2,Benito Benny Bernal,R,M,not in CAWP,,0,R,votes,11353.0,17.381120058789307,,,1.0,29995.0,19.39014299381998,0.0,,,,,H6CA29203,FEC,FEC,,,,,
 2018-H-CA-30,2018,H,CA,30,0,top2,Brad Sherman,D,M,not in CAWP,,1,D,votes,80038.0,62.296562084076,,,1.0,191573.0,73.40158548313556,1.0,,,,,H6CA24113,FEC,FEC,,,,,
@@ -32381,7 +32381,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2018-H-WA-10,2018,H,WA,10,0,top2,Denny Heck,D,M,not in CAWP,,1,D,votes,82552.0,58.15732743437645,,,1.0,166215.0,61.544015551235766,1.0,,,,,H0WA03161,FEC,FEC,,,,,
 2018-H-WA-10,2018,H,WA,10,0,top2,Tamborine Borrelli,O,,,,0,O,votes,7997.0,5.633832584222169,,,,,,,,,,,H8WA10029,FEC,,,,,,
 2018-H-WA-10,2018,H,WA,10,0,top2,Joseph Brumbles,R,M,not in CAWP,,0,R,votes,45270.0,31.892409789638315,,,1.0,103860.0,38.45598444876423,0.0,,,,,H8WA10045,FEC,FEC,,,,,
-2018-H-WA-10,2018,H,WA,10,0,top2,Nancy Dailey Slotnick,R,M,not in CAWP,,0,O,votes,6127.0,4.3164301917630645,,,,,,,,,,,H8WA10037,FEC,,,,,,party from FEC candidate file (REP)
+2018-H-WA-10,2018,H,WA,10,0,top2,Nancy Dailey Slotnick,R,F,CAWP (other year),W,0,O,votes,6127.0,4.3164301917630645,,,,,,,,,,,H8WA10037,FEC,,,,,,party from FEC candidate file (REP) | CAWP lists the same woman in 2020
 2018-H-WI-01,2018,H,WI,1,0,party,Randy Bryce,D,M,not in CAWP,,0,D,votes,36406.0,59.530700678603544,,,1.0,137508.0,42.2689253866229,0.0,,,,,H8WI01123,FEC,FEC,,,,,
 2018-H-WI-01,2018,H,WI,1,0,party,Cathy Myers,D,F,CAWP,W,0,D,votes,24699.0,40.38753985773854,,,0.0,,,,,,,,H8WI01131,FEC,,L,,O,,
 2018-H-WI-01,2018,H,WI,1,0,party,Ken Yorgan,O,,,,0,,,,,,,,10006.0,3.0757691728375707,0.0,,,,,H8WI01180,,FEC,,,,,
@@ -32513,7 +32513,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2018-S-FL-00,2018,S,FL,0,0,party,Michael S. Levinson,O,,,,0,,,,,,,,107.0,0.0014774105754514191,0.0,,,,,,,FEC,,,,,
 2018-S-FL-00,2018,S,FL,0,0,party,Rick Scott,R,M,not in CAWP,,0,R,votes,1456187.0,88.60840600804674,,,1.0,4099505.0,50.05497554641297,1.0,,,,,S8FL00273,FEC,FEC,,,,,
 2018-S-FL-00,2018,S,FL,0,0,party,"Roque ""Rocky"" De La Fuente",R,M,not in CAWP,,0,R,votes,187209.0,11.391593991953249,,,0.0,,,,,,,,S8FL00299,FEC,,,,,,
-2018-S-FL-00,2018,S,FL,0,0,party,Lateresa L.A. Jones,R,M,not in CAWP,,0,,,,,,,,467.0,0.00570207222095713,0.0,,,,,S6FL00277,,FEC,,,,,party from FEC candidate file (REP)
+2018-S-FL-00,2018,S,FL,0,0,party,Lateresa L.A. Jones,R,F,CAWP (other year),B,0,,,,,,,,467.0,0.00570207222095713,0.0,,,,,S6FL00277,,FEC,,,,,party from FEC candidate file (REP) | CAWP lists the same woman in 2022
 2018-S-HI-00,2018,S,HI,0,0,party,Mazie K. Hirono,D,F,CAWP,AP,1,D,votes,201679.0,100.0,,,1.0,276316.0,71.15109784705074,1.0,,,,,S2HI00106,FEC,FEC,W,W,I,,
 2018-S-HI-00,2018,S,HI,0,0,party,Charles (Charlie) Haverty,O,,,,0,O,votes,416.0,35.86206896551724,,,,,,,,,,,S8HI00251,FEC,,,,,,
 2018-S-HI-00,2018,S,HI,0,0,party,Matthew K. Maertens,O,,,,0,O,votes,303.0,26.120689655172413,,,,,,,,,,,S8HI00269,FEC,,,,,,
@@ -32673,8 +32673,8 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2018-S-NJ-00,2018,S,NJ,0,0,party,Hank Schroeder,O,,,,0,,,,,,,,8854.0,0.27936680223771104,0.0,,,,,S4NJ00326,,FEC,,,,,
 2018-S-NJ-00,2018,S,NJ,0,0,party,Bob Hugin,R,M,not in CAWP,,0,R,votes,168052.0,75.131887193977,,,1.0,1357355.0,42.828091919061244,0.0,,,,,S8NJ00509,FEC,FEC,,,,,
 2018-S-NJ-00,2018,S,NJ,0,0,party,Brian D. Goldberg,R,M,not in CAWP,,0,R,votes,55624.0,24.868112806023,,,0.0,,,,,,,,S4NJ00292,FEC,,,,,,
-2018-S-NJ-00,2018,S,NJ,0,0,party,Natalie Lynn Rivera,R,M,not in CAWP,,0,,,,,,,,19897.0,0.6278022661083958,0.0,,,,,S8NJ00533,,FEC,,,,,party from FEC candidate file (REP)
-2018-S-NJ-00,2018,S,NJ,0,0,party,Tricia Flanagan,R,M,not in CAWP,,0,,,,,,,,16101.0,0.5080285614218868,0.0,,,,,S8NJ00541,,FEC,,,,,party from FEC candidate file (REP)
+2018-S-NJ-00,2018,S,NJ,0,0,party,Natalie Lynn Rivera,R,F,CAWP (other year),B,0,,,,,,,,19897.0,0.6278022661083958,0.0,,,,,S8NJ00533,,FEC,,,,,party from FEC candidate file (REP) | CAWP lists the same woman in 2020
+2018-S-NJ-00,2018,S,NJ,0,0,party,Tricia Flanagan,R,F,CAWP (other year),W,0,,,,,,,,16101.0,0.5080285614218868,0.0,,,,,S8NJ00541,,FEC,,,,,party from FEC candidate file (REP) | CAWP lists the same woman in 2020
 2018-S-NM-00,2018,S,NM,0,0,party,Martin T. Heinrich,D,M,not in CAWP,,1,D,votes,152145.0,100.0,,,1.0,376998.0,54.0877345009842,1.0,,,,,S2NM00088,FEC,FEC,,,,,
 2018-S-NM-00,2018,S,NM,0,0,party,Aubrey Dunn,O,,,,0,O,votes,623.0,100.0,,,,,,,,,,,S8NM00218,FEC,,,,,,#  Aubrey Dunn withdrew after the primary and Gary Johnson was selected by the party to be the nominee.
 2018-S-NM-00,2018,S,NM,0,0,party,Gary E. Johnson,O,,,,0,,,,,,,,107201.0,15.380079539520123,0.0,,,,,S8NM00226,,FEC,,,,,#  Aubrey Dunn withdrew after the primary and Gary Johnson was selected by the party to be the nominee.
@@ -32822,7 +32822,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2018-S-WI-00,2018,S,WI,0,0,party,Charles Barman,R,M,not in CAWP,,0,R,votes,7959.0,1.7915467087447918,,,0.0,,,,,,,,S8WI00240,FEC,,,,,,
 2018-S-WI-00,2018,S,WI,0,0,party,John Schiess,R,M,not in CAWP,,0,,,,,,,,14.0,0.000526164863236598,0.0,,,,,S2WI00193,,FEC,,,,,party from FEC candidate file (REP)
 2018-S-WV-00,2018,S,WV,0,0,party,Joseph Manchin III,D,M,not in CAWP,,1,D,votes,112658.0,69.8645598194131,,,1.0,290510.0,49.5722091209725,1.0,,,,,S0WV00090,FEC,FEC,,,,,
-2018-S-WV-00,2018,S,WV,0,0,party,Paula Jean Swearengin,D,M,not in CAWP,,0,D,votes,48594.0,30.135440180586908,,,0.0,,,,,,,,S8WV00119,FEC,,,,,,
+2018-S-WV-00,2018,S,WV,0,0,party,Paula Jean Swearengin,D,F,CAWP (other year),W,0,D,votes,48594.0,30.135440180586908,,,0.0,,,,,,,,S8WV00119,FEC,,,,,,CAWP lists the same woman in 2020
 2018-S-WV-00,2018,S,WV,0,0,party,Paula J. Swearingen,D,F,CAWP,W,0,D,lost (CAWP; no vote record),,,,,0.0,,,,,,,,,CAWP only,,L,,CP,,
 2018-S-WV-00,2018,S,WV,0,0,party,Rusty Hollen,O,,,,0,O,convention,,,,,,24411.0,4.165457976840934,0.0,,,,,S8WV00192,FEC,FEC,,,,,"*  The Libertarian Party nominated by convention on April 28, 2018.  Convention nominee is noted with an asterisk"
 2018-S-WV-00,2018,S,WV,0,0,party,Patrick Morrisey,R,M,not in CAWP,,0,R,votes,48007.0,34.895655397498054,,,1.0,271113.0,46.262332902186564,0.0,,,,,S8WV00143,FEC,FEC,,,,,
@@ -33199,7 +33199,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2020-H-CO-05,2020,H,CO,5,0,party,Ed Duffett,O,,,,0,,,,,,,,14777.0,3.417382234792684,0.0,,,,,H0CO05160,,FEC,,,,,
 2020-H-CO-05,2020,H,CO,5,0,party,Marcus Allen Murphy,O,,,,0,,,,,,,,3708.0,0.8575254332145409,0.0,,,,,H8CO05171,,FEC,,,,,
 2020-H-CO-05,2020,H,CO,5,0,party,Doug Lamborn,R,M,not in CAWP,,1,R,votes,104302.0,100.0,,,1.0,249013.0,57.58764312326119,1.0,,,,,H6CO05159,FEC,FEC,,,,,
-2020-H-CO-05,2020,H,CO,5,0,party,Rebecca Keltie,R,M,not in CAWP,,0,,,,,,,,3309.0,0.7652512563395134,0.0,,,,,H0CO05152,,FEC,,,,,party from FEC candidate file (REP)
+2020-H-CO-05,2020,H,CO,5,0,party,Rebecca Keltie,R,F,CAWP (other year),W,0,,,,,,,,3309.0,0.7652512563395134,0.0,,,,,H0CO05152,,FEC,,,,,party from FEC candidate file (REP) | CAWP lists the same woman in 2022
 2020-H-CO-06,2020,H,CO,6,0,party,Jason Crow,D,M,not in CAWP,,1,D,votes,122929.0,100.0,,,1.0,250314.0,57.08766560312721,1.0,,,,,H8CO06229,FEC,FEC,,,,,
 2020-H-CO-06,2020,H,CO,6,0,party,Norm Olsen,O,,,,0,,,,,,,,9083.0,2.0715072535823187,0.0,,,,,H2CO02122,,FEC,,,,,
 2020-H-CO-06,2020,H,CO,6,0,party,Steve House,R,M,not in CAWP,,0,R,votes,63635.0,100.0,,,1.0,175192.0,39.955025737046526,0.0,,,,,H0CO06119,FEC,FEC,,,,,
@@ -33786,7 +33786,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2020-H-MA-07,2020,H,MA,7,0,party,Rachel Nicole Miselman,O,,,,0,R,votes,55.0,1.8115942028985508,,,,11.0,0.003563907338409201,0.0,,,,,,FEC,FEC,,,,,
 2020-H-MA-07,2020,H,MA,7,0,party,Roy A. Owens Sr.,O,,,,0,,,,,,,,38675.0,12.530374210270534,0.0,,,,,H0MA07062,,FEC,,,,,
 2020-H-MA-07,2020,H,MA,7,0,party,Claudette N. Joseph,O,,,,0,,,,,,,,1.0,0.0003239915762190183,0.0,,,,,,,FEC,,,,,
-2020-H-MA-07,2020,H,MA,7,0,party,Rayla Danella Campbell,R,M,not in CAWP,,0,R,votes,1202.0,39.59156785243742,,,1.0,695.0,0.22517414547221773,0.0,,,,,H0MA07054,FEC,FEC,,,,,party from FEC candidate file (REP)
+2020-H-MA-07,2020,H,MA,7,0,party,Rayla Danella Campbell,R,F,research (gender_overrides.csv),,0,R,votes,1202.0,39.59156785243742,,,1.0,695.0,0.22517414547221773,0.0,,,,,H0MA07054,FEC,FEC,,,,,party from FEC candidate file (REP) | gender from research: Republican write-in; news report calls her a Black GOP write-in candidate for Congress (she)
 2020-H-MA-08,2020,H,MA,8,0,party,Stephen F. Lynch,D,M,not in CAWP,,1,D,votes,111542.0,66.40076674425389,,,1.0,310940.0,80.67960384119398,1.0,,,,,H2MA09072,FEC,FEC,,,,,
 2020-H-MA-08,2020,H,MA,8,0,party,Robbie H. Goldstein,D,M,not in CAWP,,0,D,votes,56219.0,33.467077025651406,,,0.0,,,,,,,,H0MA08045,FEC,,,,,,
 2020-H-MA-08,2020,H,MA,8,0,party,All Others,D,M,not in CAWP,,0,D,votes,222.0,0.13215623009471197,,,,2401.0,0.6229874857615834,0.0,,,,,,FEC,FEC,,,,,
@@ -34060,7 +34060,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2020-H-MO-07,2020,H,MO,7,0,party,Kevin VanStory,R,M,not in CAWP,,0,R,votes,10486.0,9.989996665555186,,,0.0,,,,,,,,H0MO07261,FEC,,,,,,
 2020-H-MO-07,2020,H,MO,7,0,party,Steve Chentnik,R,M,not in CAWP,,0,R,votes,7407.0,7.0566379269280235,,,0.0,,,,,,,,H0MO07253,FEC,,,,,,
 2020-H-MO-07,2020,H,MO,7,0,party,Camille Lombardi-Olive,R,F,CAWP,W,0,R,votes,5969.0,5.686657457247654,,,0.0,,,,,,,,H6MO07235,FEC,,L,,CP,,
-2020-H-MO-07,2020,H,MO,7,0,party,Audrey Richards,R,M,not in CAWP,,0,,,,,,,,1279.0,0.346346839686636,0.0,,,,,H0MO07279,,FEC,,,,,party from FEC candidate file (REP)
+2020-H-MO-07,2020,H,MO,7,0,party,Audrey Richards,R,F,CAWP (other year),W,0,,,,,,,,1279.0,0.346346839686636,0.0,,,,,H0MO07279,,FEC,,,,,party from FEC candidate file (REP) | CAWP lists the same woman in 2024
 2020-H-MO-08,2020,H,MO,8,0,party,Kathy Ellis,D,F,CAWP,W,0,D,votes,20354.0,100.0,,,1.0,70561.0,21.367487720530786,0.0,,,,,H8MO08098,FEC,FEC,W,L,C,,
 2020-H-MO-08,2020,H,MO,8,0,party,Tom Schmitz,O,,,,0,O,votes,265.0,100.0,,,,5854.0,1.7727253456723577,0.0,,,,,H0MO08285,FEC,FEC,,,,,
 2020-H-MO-08,2020,H,MO,8,0,party,Jason Smith,R,M,not in CAWP,,1,R,votes,114074.0,100.0,,,1.0,253811.0,76.85978693379685,1.0,,,,,H4MO08162,FEC,FEC,,,,,
@@ -34539,7 +34539,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2020-H-OH-16,2020,H,OH,16,0,party,Anthony Gonzalez,R,M,not in CAWP,,1,R,votes,43026.0,100.0,,,1.0,247335.0,63.191417607292685,1.0,,,,,H8OH16124,FEC,FEC,,,,,
 2020-H-OK-01,2020,H,OK,1,0,party,Kojo Asamoa-Caesar,D,M,not in CAWP,,0,D,votes,34868.0,63.637027303255955,,,1.0,109641.0,32.6827058076555,0.0,,,,,H0OK01147,FEC,FEC,,,,,
 2020-H-OK-01,2020,H,OK,1,0,party,Mark A. Keeter,D,M,not in CAWP,,0,D,votes,19924.0,36.36297269674405,,,0.0,,,,,,,,H8OK01199,FEC,,,,,,
-2020-H-OK-01,2020,H,OK,1,0,party,Evelyn L. Rogers,D,M,not in CAWP,,0,,,,,,,,12130.0,3.6158117989334397,0.0,,,,,H6OK03165,,FEC,,,,,party from FEC candidate file (DEM)
+2020-H-OK-01,2020,H,OK,1,0,party,Evelyn L. Rogers,D,F,CAWP (other year),W,0,,,,,,,,12130.0,3.6158117989334397,0.0,,,,,H6OK03165,,FEC,,,,,party from FEC candidate file (DEM) | CAWP lists the same woman in 2024
 2020-H-OK-01,2020,H,OK,1,0,party,Kevin Hern,R,M,not in CAWP,,1,R,unopposed,,,,,1.0,213700.0,63.701482393411055,1.0,,,,,H8OK01157,FEC,FEC,,,,,
 2020-H-OK-02,2020,H,OK,2,0,party,Danyell Lanier,D,F,CAWP,B/NA,0,D,unopposed,,,,,1.0,63472.0,21.998634443223686,0.0,,,,,H0OK02210,FEC,FEC,W,L,C,,
 2020-H-OK-02,2020,H,OK,2,0,party,Richie Castaldo,O,,,,0,O,unopposed,,,,,,8544.0,12.84792709884062,0.0,,,,,H0OK02236,FEC,FEC,,,,,
@@ -35149,7 +35149,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2020-H-VT-00,2020,H,VT,0,0,party,Peter Welch,D,M,not in CAWP,,1,D,votes,101566.0,95.45497265089003,,,1.0,238833.0,67.3072370645925,1.0,,,,,H6VT00160,FEC,FEC,,,,,
 2020-H-VT-00,2020,H,VT,0,0,party,"Ralph ""Carcajou"" Corbo",D,M,not in CAWP,,0,D,votes,4599.0,4.322287175053101,,,0.0,,,,,,,,H0VT00122,FEC,,,,,,
 2020-H-VT-00,2020,H,VT,0,0,party,Chris Brimmer,D,M,not in CAWP,,0,D,votes,22.0,0.02067630307700983,,,0.0,,,,,,,,H0VT00148,FEC,,,,,,# Chris Brimmer withdrew after the primary election.
-2020-H-VT-00,2020,H,VT,0,0,party,Cris Ericson,D,M,not in CAWP,,0,D,votes,11.0,0.010338151538504915,,,0.0,,,,,,,,H8VT00141,FEC,,,,,,
+2020-H-VT-00,2020,H,VT,0,0,party,Cris Ericson,D,F,CAWP (other year),W,0,D,votes,11.0,0.010338151538504915,,,0.0,,,,,,,,H8VT00141,FEC,,,,,,CAWP lists the same woman in 2016
 2020-H-VT-00,2020,H,VT,0,0,party,Peter R. Becker,O,,,,0,,,,,,,,8065.0,2.272855371435013,0.0,,,,,H0VT00163,,FEC,,,,,
 2020-H-VT-00,2020,H,VT,0,0,party,Marcia Horne,O,,,,0,,,,,,,,4334.0,1.2213955585616052,0.0,,,,,H0VT00171,,FEC,,,,,
 2020-H-VT-00,2020,H,VT,0,0,party,Christopher Helali,O,,,,0,,,,,,,,3432.0,0.9671964829218803,0.0,,,,,H0VT00155,,FEC,,,,,
@@ -35746,7 +35746,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2022-H-AZ-09,2022,H,AZ,9,0,party,Adam Morgan,R,M,not in CAWP,,0,R,votes,12508.0,12.24329985708972,,,0.0,,,,,,,,H2AZ04218,FEC,,,,,,
 2022-H-AZ-09,2022,H,AZ,9,0,party,Sandra E. Dowling,R,F,CAWP,W,0,R,votes,8851.0,8.663691000567725,,,0.0,,,,,,,,H2AZ09225,FEC,,L,,CP,,
 2022-H-CA-01,2022,H,CA,1,0,top2,Max Steiner,D,M,not in CAWP,,0,D,votes,55549.0,32.754493136468696,,,1.0,93386.0,37.92709919788811,0.0,,,,,H2CA01227,FEC,FEC,,,,,
-2022-H-CA-01,2022,H,CA,1,0,top2,Rose Penelope Yee,D,M,not in CAWP,,0,O,votes,5777.0,3.4064106797490448,,,,,,,,,,,H2CA01268,FEC,,,,,,party from FEC candidate file (DEM)
+2022-H-CA-01,2022,H,CA,1,0,top2,Rose Penelope Yee,D,F,CAWP (other year),AP,0,O,votes,5777.0,3.4064106797490448,,,,,,,,,,,H2CA01268,FEC,,,,,,party from FEC candidate file (DEM) | CAWP lists the same woman in 2024
 2022-H-CA-01,2022,H,CA,1,0,top2,Doug LaMalfa,R,M,not in CAWP,,1,R,votes,96858.0,57.112363790744844,,,1.0,152839.0,62.07290080211189,1.0,,,,,H2CA02142,FEC,FEC,,,,,
 2022-H-CA-01,2022,H,CA,1,0,top2,Tim Geist,R,M,not in CAWP,,0,R,votes,11408.0,6.726732393037407,,,0.0,,,,,,,,H2CA01250,FEC,,,,,,
 2022-H-CA-02,2022,H,CA,2,0,top2,Jared Huffman,D,M,not in CAWP,,1,D,votes,145245.0,68.73192915043937,,,1.0,229720.0,74.40347984932745,1.0,,,,,H2CA06259,FEC,FEC,,,,,
@@ -35955,7 +35955,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2022-H-CA-40,2022,H,CA,40,0,top2,Nick Taurus,R,M,not in CAWP,,0,R,votes,2193.0,1.201314708299096,,,0.0,,,,,,,,H2CA45133,FEC,,,,,,
 2022-H-CA-41,2022,H,CA,41,0,top2,Will Rollins,D,M,not in CAWP,,0,D,votes,45923.0,30.44322761985575,,,1.0,112769.0,47.654645492270895,0.0,,,,,H2CA42205,FEC,FEC,,,,,
 2022-H-CA-41,2022,H,CA,41,0,top2,Shrina Kurani,D,F,CAWP,AP,0,D,votes,23483.0,15.56732605006364,,,0.0,,,,,,,,H2CA42197,FEC,,L,,C,,
-2022-H-CA-41,2022,H,CA,41,0,top2,Anna Nevenic,D,M,not in CAWP,,0,O,votes,1862.0,1.2343551124310566,,,,,,,,,,,H2CA06184,FEC,,,,,,party from FEC candidate file (DEM)
+2022-H-CA-41,2022,H,CA,41,0,top2,Anna Nevenic,D,F,CAWP (other year),W,0,O,votes,1862.0,1.2343551124310566,,,,,,,,,,,H2CA06184,FEC,,,,,,party from FEC candidate file (DEM) | CAWP lists the same woman in 2024
 2022-H-CA-41,2022,H,CA,41,0,top2,Ken Calvert,R,M,not in CAWP,,1,R,votes,72700.0,48.19420873992363,,,1.0,123869.0,52.345354507729105,1.0,,,,,H2CA37023,FEC,FEC,,,,,
 2022-H-CA-41,2022,H,CA,41,0,top2,John Michael Lucio,R,M,not in CAWP,,0,R,votes,6880.0,4.560882477725923,,,0.0,,,,,,,,H2CA41157,FEC,,,,,,
 2022-H-CA-42,2022,H,CA,42,0,top2,Robert Garcia,D,M,not in CAWP,,0,D,votes,43406.0,46.65555973558339,,,1.0,99217.0,68.36893605292173,1.0,,,,,H2CA47188,FEC,FEC,,,,,
@@ -36072,7 +36072,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2022-H-CT-03,2022,H,CT,3,0,party,Rosa L. DeLauro,D,F,CAWP,W,1,D,convention,,,,,1.0,137924.0,56.840482833369734,1.0,,,,,H0CT03072,FEC,FEC,W,W,I,,* A candidate is endorsed by the party at the party convention.  A primary election is only held if a qualified challenger to the party endorsed candidate receives 15% of the delegate votes on roll ca
 2022-H-CT-03,2022,H,CT,3,0,party,Justin Paglino,O,,,,0,,,,,,,,1967.0,0.810629257658118,0.0,,,,,H0CT03163,,FEC,,,,,
 2022-H-CT-03,2022,H,CT,3,0,party,Lesley DeNardis,R,F,CAWP,W,0,R,convention,,,,,1.0,98704.0,40.67735142241326,0.0,,,,,H2CT03110,FEC,FEC,W,L,C,,* A candidate is endorsed by the party at the party convention.  A primary election is only held if a qualified challenger to the party endorsed candidate receives 15% of the delegate votes on roll ca
-2022-H-CT-03,2022,H,CT,3,0,party,Amy F. Chai,R,M,not in CAWP,,0,,,,,,,,4056.0,1.671536486558885,0.0,,,,,H2CT03102,,FEC,,,,,party from FEC candidate file (REP)
+2022-H-CT-03,2022,H,CT,3,0,party,Amy F. Chai,R,F,CAWP (other year),,0,,,,,,,,4056.0,1.671536486558885,0.0,,,,,H2CT03102,,FEC,,,,,party from FEC candidate file (REP) | CAWP lists the same woman in 2026
 2022-H-CT-04,2022,H,CT,4,0,party,Jim Himes,D,M,not in CAWP,,1,D,convention,,,,,1.0,140262.0,59.4119042374748,1.0,,,,,H8CT04172,FEC,FEC,,,,,* A candidate is endorsed by the party at the party convention.  A primary election is only held if a qualified challenger to the party endorsed candidate receives 15% of the delegate votes on roll ca
 2022-H-CT-04,2022,H,CT,4,0,party,Brian Merlen,D,M,not in CAWP,,0,,,,,,,,,,,,,,,H0CT04211,,,,,,,* A candidate is endorsed by the party at the party convention.  A primary election is only held if a qualified challenger to the party endorsed candidate receives 15% of the delegate votes on roll ca
 2022-H-CT-04,2022,H,CT,4,0,party,Jayme Stevenson,R,F,CAWP,W,0,R,votes,9962.0,60.31361627414179,,,1.0,95822.0,39.532115687636605,0.0,,,,,H2CT04134,FEC,FEC,W,L,C,,* A candidate is endorsed by the party at the party convention.  A primary election is only held if a qualified challenger to the party endorsed candidate receives 15% of the delegate votes on roll ca
@@ -36297,7 +36297,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2022-H-GA-07,2022,H,GA,7,0,party,Lisa McCoy,R,F,CAWP,W,0,R,votes,6380.0,14.060915943051086,,,0.0,,,,,,,,H2GA07162,FEC,,L,,C,,
 2022-H-GA-07,2022,H,GA,7,0,party,Mary West,R,F,CAWP,W,0,R,votes,4370.0,9.631066249393925,,,0.0,,,,,,,,H2GA10232,FEC,,L,,C,,
 2022-H-GA-07,2022,H,GA,7,0,party,YG Nyghtstorm,R,M,not in CAWP,,0,R,votes,3510.0,7.735707673998325,,,0.0,,,,,,,,H2GA07139,FEC,,,,,,
-2022-H-GA-07,2022,H,GA,7,0,party,Lisa Babbage,R,M,not in CAWP,,0,,,,,,,,14.0,0.005974250978283598,0.0,,,,,H0GA07307,,FEC,,,,,party from FEC candidate file (REP)
+2022-H-GA-07,2022,H,GA,7,0,party,Lisa Babbage,R,F,CAWP (other year),B/W,0,,,,,,,,14.0,0.005974250978283598,0.0,,,,,H0GA07307,,FEC,,,,,party from FEC candidate file (REP) | CAWP lists the same woman in 2020
 2022-H-GA-08,2022,H,GA,8,0,party,Darrius Butler,D,M,not in CAWP,,0,D,votes,30655.0,100.0,,,1.0,81886.0,31.423790994143967,0.0,,,,,H2GA08095,FEC,FEC,,,,,
 2022-H-GA-08,2022,H,GA,8,0,party,Austin Scott,R,M,not in CAWP,,1,R,votes,90426.0,100.0,,,1.0,178700.0,68.57620900585604,1.0,,,,,H0GA08099,FEC,FEC,,,,,
 2022-H-GA-09,2022,H,GA,9,0,party,"Michael ""Mike"" Ford",D,M,not in CAWP,,0,D,votes,21434.0,100.0,,,1.0,81318.0,27.64620688248373,0.0,,,,,H2GA09234,FEC,FEC,,,,,
@@ -37001,7 +37001,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2022-H-NC-10,2022,H,NC,10,0,party,Michael Magnotta,R,M,not in CAWP,,0,R,votes,4703.0,6.4093653324611255,,,0.0,,,,,,,,H2NC10140,FEC,,,,,,
 2022-H-NC-10,2022,H,NC,10,0,party,Jeff Gregory,R,M,not in CAWP,,0,R,votes,3649.0,4.97294792646197,,,0.0,,,,,,,,H0NC10177,FEC,,,,,,
 2022-H-NC-10,2022,H,NC,10,0,party,Richard Speer,R,M,not in CAWP,,0,R,votes,3381.0,4.607710863076986,,,0.0,,,,,,,,H2NC02188,FEC,,,,,,
-2022-H-NC-10,2022,H,NC,10,0,party,Diana R. Jimison,R,M,not in CAWP,,0,,,,,,,,110.0,0.04101309809214525,0.0,,,,,H4NC10179,,FEC,,,,,party from FEC candidate file (REP)
+2022-H-NC-10,2022,H,NC,10,0,party,Diana R. Jimison,R,F,CAWP (other year),W,0,,,,,,,,110.0,0.04101309809214525,0.0,,,,,H4NC10179,,FEC,,,,,party from FEC candidate file (REP) | CAWP lists the same woman in 2024
 2022-H-NC-11,2022,H,NC,11,0,party,Jasmine Beach-Ferrara,D,F,CAWP,W,0,D,votes,32478.0,59.68355477148685,,,1.0,144165.0,44.50745881597471,0.0,,,,,H2NC11155,FEC,FEC,W,L,C,,
 2022-H-NC-11,2022,H,NC,11,0,party,Katie Dean,D,F,CAWP,W,0,D,votes,13957.0,25.648234926585445,,,0.0,,,,,,,,H2NC11171,FEC,,L,,C,,
 2022-H-NC-11,2022,H,NC,11,0,party,Jay Carey,D,M,not in CAWP,,0,D,votes,3858.0,7.0896962346325605,,,0.0,,,,,,,,H2NC11189,FEC,,,,,,
@@ -37041,7 +37041,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2022-H-NC-14,2022,H,NC,14,0,party,Jonathan Simpson,R,M,not in CAWP,,0,R,votes,8909.0,24.37682983555422,,,0.0,,,,,,,,H2NC14084,FEC,,,,,,
 2022-H-ND-00,2022,H,ND,0,0,party,Mark Haugen,D,M,not in CAWP,,0,D,votes,21897.0,99.74036622027876,,,1.0,,,,,,,,H2ND01014,FEC,,,,,,"#  Mark Haugen withdrew in September 2022, after the primary election."
 2022-H-ND-00,2022,H,ND,0,0,party,Kelly Armstrong,R,M,not in CAWP,,1,R,votes,70424.0,99.00327555424346,,,1.0,148399.0,62.19937464897354,1.0,,,,,H8ND00096,FEC,FEC,,,,,
-2022-H-ND-00,2022,H,ND,0,0,party,Cara Mund,R,M,not in CAWP,,0,,,,,,,,89644.0,37.57303446136822,0.0,,,,,H2ND01022,,FEC,,,,,party from FEC candidate file (REP)
+2022-H-ND-00,2022,H,ND,0,0,party,Cara Mund,R,F,CAWP (other year),W,0,,,,,,,,89644.0,37.57303446136822,0.0,,,,,H2ND01022,,FEC,,,,,party from FEC candidate file (REP) | CAWP lists the same woman in 2024
 2022-H-NE-01,2022,H,NE,1,0,party,Patty Pansing Brooks,D,F,CAWP,W,0,D,votes,31808.0,86.54767087505442,,,1.0,93929.0,42.08948535836713,0.0,,,,,H2NE01092,FEC,FEC,W,L,C,,
 2022-H-NE-01,2022,H,NE,1,0,party,Jazari Kual Zakaria,D,M,not in CAWP,,0,D,votes,4944.0,13.45232912494558,,,0.0,,,,,,,,H2NE01100,FEC,,,,,,
 2022-H-NE-01,2022,H,NE,1,0,party,Mike Flood,R,M,not in CAWP,,1,R,votes,61265.0,73.85151343467098,,,1.0,129236.0,57.91051464163287,1.0,,,,,H2NE01118,FEC,FEC,,,,,"* Mike Flood was elected as the 1st Congressional District Representative in a special general election on June 28, 2022."
@@ -37385,7 +37385,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2022-H-OH-15,2022,H,OH,15,0,party,Gary Josephson,D,M,not in CAWP,,0,D,votes,9047.0,100.0,,,1.0,108139.0,43.040226705565345,0.0,,,,,H2OH15269,FEC,FEC,,,,,
 2022-H-OH-15,2022,H,OH,15,0,party,Mike Carey,R,M,not in CAWP,,1,R,votes,48938.0,100.0,,,1.0,143112.0,56.95977329443465,1.0,,,,,H2OH15228,FEC,FEC,,,,,
 2022-H-OK-01,2022,H,OK,1,0,party,Adam Martin,D,M,not in CAWP,,0,D,unopposed,,,,,1.0,80974.0,34.67911518447933,0.0,,,,,H2OK01176,FEC,FEC,,,,,
-2022-H-OK-01,2022,H,OK,1,0,party,Evelyn L. Rogers,D,M,not in CAWP,,0,,,,,,,,9721.0,4.163258313882524,0.0,,,,,H6OK03165,,FEC,,,,,party from FEC candidate file (DEM)
+2022-H-OK-01,2022,H,OK,1,0,party,Evelyn L. Rogers,D,F,CAWP (other year),W,0,,,,,,,,9721.0,4.163258313882524,0.0,,,,,H6OK03165,,FEC,,,,,party from FEC candidate file (DEM) | CAWP lists the same woman in 2024
 2022-H-OK-01,2022,H,OK,1,0,party,Kevin Hern,R,M,not in CAWP,,1,R,unopposed,,,,,1.0,142800.0,61.15762650163815,1.0,,,,,H8OK01157,FEC,FEC,,,,,
 2022-H-OK-02,2022,H,OK,2,0,party,Naomi Andrews,D,F,CAWP,W,0,D,unopposed,,,,,1.0,54194.0,23.392554991539765,0.0,,,,,H2OK02307,FEC,FEC,W,L,O,,
 2022-H-OK-02,2022,H,OK,2,0,party,Bulldog Ben Robinson,O,,,,0,,,,,,,,9635.0,4.158897061362616,0.0,,,,,H2OK02331,,FEC,,,,,
@@ -37648,7 +37648,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2022-H-TX-04,2022,H,TX,4,0,party,John E. Harper,R,M,not in CAWP,,0,R,votes,7576.0,10.816521751545523,,,0.0,,,,,,,,H2TX04140,FEC,,,,,,
 2022-H-TX-05,2022,H,TX,5,0,party,Tartisha Hill,D,F,CAWP,B,0,D,votes,10689.0,52.67074012023259,,,1.0,71930.0,33.93484773429576,0.0,,,,,H2TX05246,FEC,FEC,W,L,C,,
 2022-H-TX-05,2022,H,TX,5,0,party,Kathleen Cordelia Bailey,D,F,CAWP,W,0,D,votes,9605.0,47.32925987976742,,,0.0,,,,,,,,H2TX05238,FEC,,L,,C,,
-2022-H-TX-05,2022,H,TX,5,0,party,Ruth Torres,D,M,not in CAWP,,0,,,,,,,,147.0,0.06935107211096171,0.0,,,,,H2TX05253,,FEC,,,,,party from FEC candidate file (DEM)
+2022-H-TX-05,2022,H,TX,5,0,party,Ruth Torres,D,F,CAWP (other year),H/W,0,,,,,,,,147.0,0.06935107211096171,0.0,,,,,H2TX05253,,FEC,,,,,party from FEC candidate file (DEM) | CAWP lists the same woman in 2024
 2022-H-TX-05,2022,H,TX,5,0,party,Kevin A. Hale,O,,,,0,O,convention,,,,,,4293.0,2.025334371240535,0.0,,,,,H0TX0512,FEC,FEC,,,,,
 2022-H-TX-05,2022,H,TX,5,0,party,Lance Gooden,R,M,not in CAWP,,1,R,votes,47692.0,100.0,,,1.0,135595.0,63.97046682235275,1.0,,,,,H8TX05144,FEC,FEC,,,,,
 2022-H-TX-06,2022,H,TX,6,0,party,Jake Ellzey,R,M,not in CAWP,,1,R,votes,38683.0,71.20400537485965,,,1.0,149321.0,100.0,1.0,,,,,H8TX06266,FEC,FEC,,,,,
@@ -37943,7 +37943,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2022-H-VA-10,2022,H,VA,10,0,party,Brooke Taylor,R,M,not in CAWP,,0,,,,,,,,,,,,,,,H2VA10265,,,,,,,"*  In Virginia, the Democratic and Republican Parties may choose to nominate by convention rather than by primary election.  The Democratic Party used the primary election for all U.S. House Districts"
 2022-H-VA-11,2022,H,VA,11,0,party,"Gerald E. ""Gerry"" Connolly",D,M,not in CAWP,,1,D,unopposed,,,,,1.0,193190.0,66.697278113046,1.0,,,,,H8VA11062,FEC,FEC,,,,,"*  In Virginia, the Democratic and Republican Parties may choose to nominate by convention rather than by primary election.  The Democratic Party used the primary election for all U.S. House Districts"
 2022-H-VA-11,2022,H,VA,11,0,party,"James G. ""Jim"" Myles",R,M,not in CAWP,,0,R,convention,,,,,1.0,95634.0,33.01686161324624,0.0,,,,,H2VA11255,FEC,FEC,,,,,"*  In Virginia, the Democratic and Republican Parties may choose to nominate by convention rather than by primary election.  The Democratic Party used the primary election for all U.S. House Districts"
-2022-H-VA-11,2022,H,VA,11,0,party,Manga Anantatmula,R,M,not in CAWP,,0,,,,,,,,,,,,,,,H0VA11127,,,,,,,"*  In Virginia, the Democratic and Republican Parties may choose to nominate by convention rather than by primary election.  The Democratic Party used the primary election for all U.S. House Districts"
+2022-H-VA-11,2022,H,VA,11,0,party,Manga Anantatmula,R,F,CAWP (other year),AP,0,,,,,,,,,,,,,,,H0VA11127,,,,,,,"*  In Virginia, the Democratic and Republican Parties may choose to nominate by convention rather than by primary election.  The Democratic Party used the primary election for all U.S. House Districts | CAWP lists the same woman in 2020"
 2022-H-VA-11,2022,H,VA,11,0,party,Joseph Babb,R,M,not in CAWP,,0,,,,,,,,,,,,,,,H2VA11248,,,,,,,"*  In Virginia, the Democratic and Republican Parties may choose to nominate by convention rather than by primary election.  The Democratic Party used the primary election for all U.S. House Districts"
 2022-H-VA-11,2022,H,VA,11,0,party,Barbara Banks,R,M,not in CAWP,,0,,,,,,,,,,,,,,,H2VA11263,,,,,,,"*  In Virginia, the Democratic and Republican Parties may choose to nominate by convention rather than by primary election.  The Democratic Party used the primary election for all U.S. House Districts"
 2022-H-VA-11,2022,H,VA,11,0,party,Matthew Chappell,R,M,not in CAWP,,0,,,,,,,,,,,,,,,H2VA11214,,,,,,,"*  In Virginia, the Democratic and Republican Parties may choose to nominate by convention rather than by primary election.  The Democratic Party used the primary election for all U.S. House Districts"
@@ -38284,7 +38284,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2022-S-LA-00,2022,S,LA,0,0,jungle,Devin Lance Graham,R,M,not in CAWP,,0,,,,,,,,25275.0,1.8271656702499115,0.0,,,,,S2LA00200,,FEC,,,,,"*  In Louisiana, a Congressional primary election is not held. In 2022, the election for candidates seeking Federal office was the General Election held on November 8, 2022, with a Runoff Election hel"
 2022-S-MD-00,2022,S,MD,0,0,party,Chris Van Hollen,D,M,not in CAWP,,1,D,votes,535014.0,80.80525235499613,,,1.0,1316897.0,65.76803293752896,1.0,,,,,S6MD03441,FEC,FEC,,,,,
 2022-S-MD-00,2022,S,MD,0,0,party,Michelle L. Smith,D,F,CAWP,B/W,0,D,votes,127089.0,19.194747645003872,,,0.0,,,,,,,,S2MD00529,FEC,,L,,CP,,
-2022-S-MD-00,2022,S,MD,0,0,party,Scottie Griffin,D,M,not in CAWP,,0,,,,,,,,334.0,0.016680517155961836,0.0,,,,,S2MD00628,,FEC,,,,,party from FEC candidate file (DEM)
+2022-S-MD-00,2022,S,MD,0,0,party,Scottie Griffin,D,F,CAWP (other year),B,0,,,,,,,,334.0,0.016680517155961836,0.0,,,,,S2MD00628,,FEC,,,,,party from FEC candidate file (DEM) | CAWP lists the same woman in 2024
 2022-S-MD-00,2022,S,MD,0,0,party,Andrew J. Wildman,D,M,not in CAWP,,0,,,,,,,,89.0,0.004444808463714382,0.0,,,,,S2MD00651,,FEC,,,,,party from FEC candidate file (DEM)
 2022-S-MD-00,2022,S,MD,0,0,party,Chris Chaffee,R,M,not in CAWP,,0,R,votes,50514.0,20.775855686893863,,,1.0,682293.0,34.074850574528945,0.0,,,,,S6MD03557,FEC,FEC,,,,,
 2022-S-MD-00,2022,S,MD,0,0,party,Lorie R. Friend,R,F,CAWP,W,0,R,votes,35714.0,14.688777566649392,,,0.0,,,,,,,,S2MD00602,FEC,,L,,C,,
@@ -38770,7 +38770,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2024-H-CA-30,2024,H,CA,30,0,top2,Laura Friedman,D,F,CAWP,W,0,D,votes,46329.0,30.1,,,1.0,213100.0,68.3760135276055,1.0,,,,,,Wikipedia,MEDSL,W,W,O,Laura Friedman,
 2024-H-CA-30,2024,H,CA,30,0,top2,Anthony Portantino,D,M,not in CAWP,,0,D,votes,20459.0,13.3,,,0.0,,,,,,,,,Wikipedia,,,,,Anthony Portantino,
 2024-H-CA-30,2024,H,CA,30,0,top2,Mike Feuer,D,M,not in CAWP,,0,D,votes,18878.0,12.3,,,0.0,,,,,,,,,Wikipedia,,,,,Mike Feuer,
-2024-H-CA-30,2024,H,CA,30,0,top2,Maebe A. Girl,D,M,not in CAWP,,0,D,votes,15791.0,10.3,,,0.0,,,,,,,,,Wikipedia,,,,,Maebe A. Girl,
+2024-H-CA-30,2024,H,CA,30,0,top2,Maebe A. Girl,D,F,CAWP (other year),W,0,D,votes,15791.0,10.3,,,0.0,,,,,,,,,Wikipedia,,,,,Maebe A. Girl,CAWP lists the same woman in 2022
 2024-H-CA-30,2024,H,CA,30,0,top2,Ben Savage,D,M,not in CAWP,,0,D,votes,6147.0,4.0,,,0.0,,,,,,,,,Wikipedia,,,,,Ben Savage,
 2024-H-CA-30,2024,H,CA,30,0,top2,Nick Melvoin,D,M,not in CAWP,,0,D,votes,4134.0,2.7,,,0.0,,,,,,,,,Wikipedia,,,,,Nick Melvoin,
 2024-H-CA-30,2024,H,CA,30,0,top2,Jirair Ratevosian,D,M,not in CAWP,,0,D,votes,2889.0,1.9,,,0.0,,,,,,,,,Wikipedia,,,,,Jirair Ratevosian,
@@ -40627,8 +40627,8 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2024-S-CA-00,2024,S,CA,0,0,top2,Carlos Guillermo Tapia,R,M,not in CAWP,,0,R,votes,5.0,0.0,,,0.0,,,,,,,,,Wikipedia,,,,,,
 2024-S-CA-00,2024,S,CA,0,0,top2,Danny Fabricant,R,M,not in CAWP,,0,R,votes,3.0,0.0,,,0.0,,,,,,,,,Wikipedia,,,,,,
 2024-S-CA-00-sp,2024,S,CA,0,1,top2,Adam Schiff,D,M,not in CAWP,,0,D,votes,2160171.0,29.25,,,1.0,8837051.0,58.75,1.0,,,,,,Wikipedia,Wikipedia,,,,Adam Schiff,
-2024-S-CA-00-sp,2024,S,CA,0,1,top2,Katie Porter,D,M,not in CAWP,,0,D,votes,1272684.0,17.24,,,0.0,,,,,,,,,Wikipedia,,,,,Katie Porter,
-2024-S-CA-00-sp,2024,S,CA,0,1,top2,Barbara Lee,D,M,not in CAWP,,0,D,votes,866551.0,11.74,,,0.0,,,,,,,,,Wikipedia,,,,,Barbara Lee,
+2024-S-CA-00-sp,2024,S,CA,0,1,top2,Katie Porter,D,F,CAWP (other year),W,0,D,votes,1272684.0,17.24,,,0.0,,,,,,,,,Wikipedia,,,,,Katie Porter,CAWP lists the same woman in 2022
+2024-S-CA-00-sp,2024,S,CA,0,1,top2,Barbara Lee,D,F,CAWP (other year),B,0,D,votes,866551.0,11.74,,,0.0,,,,,,,,,Wikipedia,,,,,Barbara Lee,CAWP lists the same woman in 2022
 2024-S-CA-00-sp,2024,S,CA,0,1,top2,Christina Pascucci,D,M,not in CAWP,,0,D,votes,109867.0,1.49,,,0.0,,,,,,,,,Wikipedia,,,,,,
 2024-S-CA-00-sp,2024,S,CA,0,1,top2,Sepi Gilani,D,M,not in CAWP,,0,D,votes,68497.0,0.93,,,0.0,,,,,,,,,Wikipedia,,,,,,
 2024-S-CA-00-sp,2024,S,CA,0,1,top2,Michael Dilger,O,,,,0,O,votes,27.0,0.0,,,,,,,,,,,,Wikipedia,,,,,,
@@ -42247,7 +42247,6 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2026-H-MT-01,2026,H,MT,1,0,party,Russell Cleveland,D,M,not in CAWP 2026 list,,0,D,votes,15238.0,21.7,,,0.0,,,,,,,,,Wikipedia,,,,,,
 2026-H-MT-01,2026,H,MT,1,0,party,Matt Rains,D,M,not in CAWP 2026 list,,0,D,votes,5518.0,7.9,,,0.0,,,,,,,,,Wikipedia,,,,,,
 2026-H-MT-01,2026,H,MT,1,0,party,Nick Sheedy,O,M,first name,,0,O,votes,1202.0,100.0,,,,,,0.0,,,,,,Wikipedia,Wikipedia overview,,,,,
-2026-H-MT-01,2026,H,MT,1,0,party,Kimberly Persico,O,F,first name,,0,,,,,,,,,,0.0,,,,,,,Wikipedia,,,,,
 2026-H-MT-01,2026,H,MT,1,0,party,Aaron Flint,R,M,not in CAWP 2026 list,,0,R,votes,41170.0,50.1,,,1.0,,,0.0,,,,,,Wikipedia,Wikipedia overview,,,,,
 2026-H-MT-01,2026,H,MT,1,0,party,Christi Jacobsen,R,F,CAWP 2026 list,,0,R,votes,18877.0,23.0,,,0.0,,,,,,,,,Wikipedia,,L,,O,Christi Jacobsen,
 2026-H-MT-01,2026,H,MT,1,0,party,Al Olszewski,R,M,not in CAWP 2026 list,,0,R,votes,16686.0,20.3,,,0.0,,,,,,,,,Wikipedia,,,,,Al Olszewski,
