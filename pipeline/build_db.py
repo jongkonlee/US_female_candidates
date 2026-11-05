@@ -275,7 +275,7 @@ def general_ballot_party(rows):
     Hoffman 2010 NY-23 (Conservative line) ... From the FEC per-line votes (data/static/fec_line_votes.csv, 2002-2022) or an
     FEC note saying so (Haugen 2008 OR-1). A general write-in line (W) does not count as a third-party line; a D or R
     write-in line in the primary (W(D)) counts as a D or R line. The primary party and result stay as they are."""
-    switch = {}
+    switch, cross = {}, {}
     if os.path.exists(FEC_LINES):
         t = pd.read_csv(FEC_LINES, keep_default_na=False, na_values=[""], dtype={"fec_id": str})
         t["mp"] = [F.main_party(re.sub(r"^W\((.*)\)$", r"\1", str(x))) for x in t["line"]]
@@ -286,11 +286,24 @@ def general_ballot_party(rows):
             oth = g[~g.mp.isin(["D", "R"]) & (g.writein == 0) & (g.g_votes.fillna(0) > 0)]
             if len(oth):
                 switch[(int(key[0]), key[1], key[2], int(key[3]), int(key[4]), key[5])] = "/".join(sorted(set(oth["line"])))
+        # general votes all on the other major party's line: Halvorson 2016 PA-9 (Republican primary, Democratic line in
+        # November after write-in votes in the Democratic primary), Jennings and Schley 2012 NY-5/NY-13 (the reverse)
+        for key, g in t[t.fec_id.fillna("") != ""].groupby(["year", "chamber", "state", "district", "special", "fec_id"]):
+            gv = {p: g[g.mp == p].g_votes.fillna(0).sum() + g[g.mp == p].g_unopposed.fillna(0).sum() for p in ("D", "R")}
+            if (gv["D"] > 0) != (gv["R"] > 0):
+                cross[(int(key[0]), key[1], key[2], int(key[3]), int(key[4]), key[5])] = "D" if gv["D"] > 0 else "R"
     else:
         log("  no", FEC_LINES)
     n = 0
     for r in rows:
         if r["party"] not in ("D", "R"):
+            continue
+        k = (int(r["year"]), r["chamber"], r["state"], int(r["district"] or 0), int(r["special"] or 0), r.get("fec_id") or "")
+        if r.get("fec_id") and cross.get(k, r["party"]) != r["party"]:
+            r["p_party"] = r.get("p_party") or r["party"]
+            r["note"] = (str(r.get("note") or "") + f" | general ballot line {cross[k]} (primary {r['party']})").strip(" |")
+            r["party"] = cross[k]
+            n += 1
             continue
         lab = switch.get((int(r["year"]), r["chamber"], r["state"], int(r["district"] or 0), int(r["special"] or 0), r.get("fec_id") or "")) \
             if r.get("fec_id") else None
