@@ -69,9 +69,9 @@ CES 개인 분석 자료,mm,둘 다 남성인 선거,1 = M-M(거를 때 쓰는 �
 CES 개인 분석 자료,vote_d,민주 후보를 찍음,"1 = 민주 후보, 0 = 공화 후보(모든 선거)"
 CES 개인 분석 자료,d_female,민주 후보가 여성,1/0
 CES 개인 분석 자료,r_female,공화 후보가 여성,1/0
-CES 개인 분석 자료,d_race,민주 후보 인종,"순서대로 ① 여성은 CAWP 코드 ② 출판된 후보 인종 코드 모음(사용자 제공 파일, 원출처는 data/static/nominee_race.csv) ③ 출처를 남긴 웹 조사 ④ 의회에 있었으면 소수 인종 의원 명단의 코드 ⑤ 명단에 없는 의원은 W(추정). 빈칸 = 모름"
+CES 개인 분석 자료,d_race,민주 후보 인종,"순서대로 ① 여성은 CAWP 코드 ② 출판된 후보 인종 코드 모음(사용자 제공 파일, 원출처는 data/static/nominee_race.csv) ③ 출처를 남긴 웹 조사 ④ Reflective Democracy Campaign 공표 분류(사용자 파일에 따로 표시) ⑤ 의회에 있었으면 소수 인종 의원 명단의 코드 ⑥ 명단에 없는 의원은 W(추정). 빈칸 = 모름"
 CES 개인 분석 자료,r_race,공화 후보 인종,같은 방식
-CES 개인 분석 자료,d_race_src,민주 후보 인종의 근거,"cawp = CAWP, file = 출판 코드 모음, research = 웹 조사, list = 소수 인종 의원 명단, member = 의원이었고 명단에 없음(백인으로 봄), none = 모름"
+CES 개인 분석 자료,d_race_src,민주 후보 인종의 근거,"cawp = CAWP, file = 출판 코드 모음, research = 웹 조사, rdc = Reflective Democracy Campaign 공표 분류(개별 기록의 조사·추정 방식 구분 안 됨), list = 소수 인종 의원 명단, member = 의원이었고 명단에 없음(백인으로 봄), none = 모름"
 CES 개인 분석 자료,r_race_src,공화 후보 인종의 근거,같은 코드
 CES 개인 분석 자료,same_race_d,민주 후보와 같은 인종,1 = 응답자 인종이 민주 후보의 코드 가운데 하나. 후보 인종을 모르면 0
 CES 개인 분석 자료,same_race_r,공화 후보와 같은 인종,같은 방식
@@ -91,7 +91,7 @@ CES 개인 분석 자료,outpart,여성 후보와 반대 정당 지지,1 = pid�
 CES 개인 분석 자료,rrace,응답자 인종,"CES race_h(히스패닉이면 H)를 CAWP 코드로: W 백인, B 흑인, H 히스패닉, AP 아시아계, NA 원주민, MENA 중동계, MU 여러 인종, OTHER 그 밖"
 CES 개인 분석 자료,w_race,여성 후보 인종,d_race 또는 r_race 가운데 여성 쪽(여성 대 남성 선거만; 빈칸 = 모름)
 CES 개인 분석 자료,m_race,남성 후보 인종,d_race 또는 r_race 가운데 남성 쪽(여성 대 남성 선거만; 빈칸 = 모름)
-CES 개인 분석 자료,m_race_src,남성 후보 인종의 근거,"file, research, list, member, none(d_race_src와 같은 코드)"
+CES 개인 분석 자료,m_race_src,남성 후보 인종의 근거,"file, research, rdc, list, member, none(d_race_src와 같은 코드)"
 CES 개인 분석 자료,same_race_w,여성 후보와 같은 인종,1 = 응답자 인종이 여성 후보의 코드 가운데 하나. 여성 후보 인종을 모르면 빈칸(모형에서 빠짐)
 CES 개인 분석 자료,same_race_m,남성 후보와 같은 인종,1 = 응답자 인종이 남성 후보의 코드 가운데 하나. 남성 후보 인종을 모르면 0
 CES 개인 분석 자료,m_race_unk,남성 후보 인종 모름,1 = 어느 자료에서도 인종을 찾지 못한 남성 후보(대개 약한 도전자라 후보 경쟁력도 함께 담김)
@@ -149,3 +149,18 @@ CES 보정 예측,ci_lo,95% 범위 아래,
 CES 보정 예측,ci_hi,95% 범위 위,
 CES 보정 예측,n,응답자 수,
 CES 보정 예측,n_races,선거 수,
+후보 인종 자료,race_id,선거 번호,트래커의 하원 선거 번호
+후보 인종 자료,year,선거 연도,2008–2024 짝수 해
+후보 인종 자료,state,주,
+후보 인종 자료,district,선거구,0 = 주 전체 한 석
+후보 인종 자료,matchup,본선 대결(민주-공화 성별),"F-M, M-F, F-F, M-M"
+후보 인종 자료,party,정당,"D = 민주, R = 공화(본선 투표용지 기준)"
+후보 인종 자료,name,후보 이름,
+후보 인종 자료,female,여성 후보,1/0
+후보 인종 자료,incumbent,현직,1/0
+후보 인종 자료,race,후보 인종,"CAWP 코드(W, B, H, AP, NA, MENA, MU, OTHER), 여럿이면 /로 이음. 빈칸 = 모름. 정하는 순서는 ces_individual의 d_race와 같음"
+후보 인종 자료,race_src,인종 근거,"cawp, file, research, rdc, list, member, none(ces_individual의 d_race_src와 같은 코드)"
+후보 인종 자료,source,인종 출처,"file·research·rdc는 원출처 이름(예: Hassell & Visalvanich, 웹 조사), cawp는 CAWP, list·member는 의원 명단 설명"
+후보 인종 자료,source_url,출처 주소,여럿이면 ' ; '로 이음
+후보 인종 자료,note,메모,"웹 조사는 근거 문장, 다른 해 자료·연결 자료의 같은 사람 등"
+후보 인종 자료,bioguide,의회 인명록 번호,의원이었던 사람만(congress-legislators)

@@ -249,7 +249,7 @@ def races():
         h[f"w_{k}"] = h[f"d_{k}"].where(isd, h[f"r_{k}"]).where(h.mixed == 1)
         h[f"m_{k}"] = h[f"r_{k}"].where(isd, h[f"d_{k}"]).where(h.mixed == 1)
     keep = ["race_id", "matchup", "mixed", "ff", "mm", "wparty", "d_nominee", "r_nominee", "d_female", "r_female", "d_race", "r_race", "d_race_src",
-            "r_race_src", "d_inc", "r_inc", "w_race", "m_race", "m_race_src", "w_inc", "m_inc", "pvi", "rural", "black_nh", "hisp", "asian_nh",
+            "r_race_src", "d_bioguide", "r_bioguide", "d_inc", "r_inc", "w_race", "m_race", "m_race_src", "w_inc", "m_inc", "pvi", "rural", "black_nh", "hisp", "asian_nh",
             "ba_plus", "med_income"] + list(PRIORS)
     return h[keep]
 
@@ -290,8 +290,9 @@ def nominee_race():
 
 def cand_race(r, p, idx, mrace, nrace):
     """(bioguide, race codes, source) of the party's nominee: cawp = CAWP's code (women), file = published codes from
-    the user's file, research = web research with a source, list = the minority lists, member = served in Congress but
-    on none of the lists (white, an inference), none = unknown"""
+    the user's file, research = web research with a source, rdc = Reflective Democracy Campaign's published
+    classification (kept apart in the user's 4th file), list = the minority lists, member = served in Congress but on
+    none of the lists (white, an inference), none = unknown"""
     name = getattr(r, f"{p}_nominee")
     name = name if isinstance(name, str) else ""
     gender, cawp = getattr(r, f"{p}_gen"), getattr(r, f"{p}_cawp")
@@ -504,6 +505,52 @@ IND_LABELS = dict(
     women_prior_since_1990="기존 여성 의원·후보 수(본인 포함)", women_prior_since_1990_excl="기존 여성 의원·후보 수(본인 제외)")
 
 
+NOMINEE_LABELS = dict(
+    race_id="선거 번호", year="선거 연도", state="주", district="선거구(0 = 주 전체 한 석)", matchup="본선 대결(민주-공화 성별)",
+    party="정당(D 민주, R 공화)", name="후보 이름", female="여성 후보", incumbent="현직", race="후보 인종(CAWP 코드, 여럿이면 /)",
+    race_src="인종 근거(cawp/file/research/rdc/list/member/none)", source="인종 출처", source_url="출처 주소", note="메모",
+    bioguide="의회 인명록 번호(의원이었던 사람)")
+SRC_TEXT = {"cawp": "CAWP", "list": "Wikipedia lists of minority members of Congress",
+            "member": "served in Congress, on none of the minority lists (white, an inference)", "none": ""}
+
+
+def write_nominees(rc):
+    """docs/data/ces/nominee_race.csv/.dta: every Democratic and Republican nominee of the races in the analysis (2008-2024
+    House, one nominee of each party), with the race code, its source tag and the source itself"""
+    nr = {}
+    p = os.path.join(ROOT, "data", "static", "nominee_race.csv")
+    if os.path.exists(p):
+        with open(p, encoding="utf-8") as f:
+            for r in csv.DictReader(f):
+                nr[(r["race_id"], r["party"])] = r
+    rows = []
+    for x in rc.itertuples(index=False):
+        st, dist = x.race_id.split("-")[2], int(x.race_id.split("-")[3])
+        for p_, P in (("d", "D"), ("r", "R")):
+            src = getattr(x, f"{p_}_race_src")
+            o = nr.get((x.race_id, P), {}) if src in ("file", "research", "rdc") else {}
+            rows.append(dict(race_id=x.race_id, year=int(x.race_id[:4]), state=st, district=dist, matchup=x.matchup, party=P,
+                             name=getattr(x, f"{p_}_nominee"), female=int(getattr(x, f"{p_}_female")),
+                             incumbent=getattr(x, f"{p_}_inc"), race=getattr(x, f"{p_}_race") or "", race_src=src,
+                             source=o.get("source") or SRC_TEXT.get(src, ""), source_url=o.get("source_url") or "",
+                             note=o.get("note") or "", bioguide=getattr(x, f"{p_}_bioguide") or ""))
+    t = pd.DataFrame(rows).sort_values(["year", "state", "district", "party"])
+    t["incumbent"] = pd.to_numeric(t["incumbent"], errors="coerce")
+    t.to_csv(os.path.join(OUT, "nominee_race.csv"), index=False, encoding="utf-8-sig")
+    st = t.copy()
+    for c in st.columns:
+        if c in ("year", "district", "female"):
+            st[c] = st[c].astype("int16")
+        elif c == "incumbent":
+            st[c] = st[c].astype("float32")
+        else:
+            st[c] = st[c].astype(object).where(st[c].notna(), "").astype(str)
+    st.to_stata(os.path.join(OUT, "nominee_race.dta"), write_index=False, version=118, variable_labels=NOMINEE_LABELS,
+                data_label="후보 인종: 2008-2024 하원 민주·공화 후보", time_stamp=dt.datetime(2026, 1, 1))
+    log("nominee race table", len(t), "rows", t.race_src.value_counts().to_dict())
+    return {k: int(v) for k, v in t.race_src.value_counts().items()}
+
+
 def write_individual(d):
     """the analysis file as Stata, zipped (ces_individual.zip holds ces_individual.dta): every respondent of a race with
     a Democratic and a Republican nominee, with the ff / mm flags for the same-gender races"""
@@ -553,6 +600,7 @@ def main():
     log(json.dumps(meta["labels"], ensure_ascii=False)[:3000])
     log(json.dumps(meta["coded"], ensure_ascii=False))
     rc = races()
+    meta["nominee_table"] = write_nominees(rc)
     d = build(resp, rc)
     mx = rc[rc.mixed == 1]
     meta["sample"] = dict(respondents=int(len(d)), races=int(d.race_id.nunique()),
@@ -580,4 +628,8 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    if len(sys.argv) > 1 and sys.argv[1] == "--nominees":  # only the nominee race table (no CES file needed)
+        os.makedirs(OUT, exist_ok=True)
+        write_nominees(races())
+    else:
+        main()

@@ -36,6 +36,7 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-CA-06,D,Lynn Woolsey,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2008-H-CA-06,R,Michael Halliwell,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-CA-07,D,George Miller,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
+2008-H-CA-07,R,Roger Allen Petersen,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2008-H-CA-08,D,Nancy Pelosi,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2008-H-CA-08,R,Dana Walsh,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2008-H-CA-09,D,Barbara Lee,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -124,6 +125,7 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-CO-07,D,Ed Perlmutter,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-CO-07,R,John W. Lerew,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-CT-01,D,John B. Larson,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2008-H-CT-01,R,Joe Visconti,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/who-runs-in-america-dataset2012-2014.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2008-H-CT-02,D,Joe Courtney,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-CT-03,D,Rosa L. DeLauro,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2008-H-CT-04,D,Jim Himes,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -277,8 +279,8 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-KY-03,R,Anne M. Northup,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2008-H-KY-04,D,Michael Kelley,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-KY-04,R,Geoff Davis,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
-2008-H-KY-05,R,"Harold ""Hal"" Rogers",W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-KY-06,D,Ben Chandler,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
+2008-H-KY-06,R,Jon Larson,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2008-H-LA-01,D,"""Jim"" Harlan",W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-LA-01,R,"""Steve"" Scalise",W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-LA-02,D,William J. Jefferson,B,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
@@ -462,11 +464,12 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-NY-05,R,Elizabeth Berney,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2008-H-NY-07,D,Joseph Crowley,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-NY-08,D,Jerrold L. Nadler,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
-2008-H-NY-09,D,Anthony D. Weiner,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
+2008-H-NY-08,R,Grace Lin,AP,file,看中國 / 5華裔問鼎美國國會眾議員,https://m.secretchina.com/news/b5/2008/11/04/amp269504.html,
 2008-H-NY-10,D,Edolphus Towns,B,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-NY-11,D,Yvette D. Clarke,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2008-H-NY-11,R,Hugh C. Carr,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-NY-12,D,Nydia M. Velazquez,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2008-H-NY-12,R,Allen E. Romaguera,H,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2008-H-NY-13,D,Michael E. McMahon,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-NY-13,R,Robert A. Straniere,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-NY-14,D,Carolyn B. Maloney,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -539,11 +542,9 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-OK-04,D,Blake Cummings,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-OK-04,R,Tom Cole,NA,file,Individual verification,https://cole.house.gov/about/full-biography,다른 해 자료의 같은 사람
 2008-H-OK-05,R,Mary Fallin,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
-2008-H-OR-01,D,David Wu,AP,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-OR-02,R,Greg Walden,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-OR-03,D,Earl Blumenauer,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-OR-03,R,Delia Lopez,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,다른 해 자료의 같은 사람
-2008-H-OR-04,D,Peter A. DeFazio,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-OR-05,D,Kurt Schrader,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-OR-05,R,Mike Erickson,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2008-H-PA-01,D,Robert A. Brady,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
@@ -634,6 +635,7 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-TX-19,D,Dwight Fullingim,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-TX-19,R,Randy Neugebauer,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-TX-20,D,Charles A. Gonzalez,H,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
+2008-H-TX-20,R,Robert Litoff,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2020/11/Who_Ran_on_Nov_3rd_Congressional_Electoral_Landscape_2020.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2008-H-TX-22,D,Nick Lampson,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-TX-22,R,Pete Olson,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-TX-23,D,Ciro D. Rodriguez,H,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
@@ -681,6 +683,7 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-WA-02,D,Rick Larsen,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-WA-03,D,Brian Baird,W,file,Kieran Healy / congress,https://kjhealy.github.io/congress/,다른 해 자료의 같은 사람
 2008-H-WA-03,R,Michael Delavar,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2008-H-WA-04,D,George Fearing,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2008-H-WA-04,R,Doc Hastings,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-WA-05,R,Cathy McMorris Rodgers,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2008-H-WA-06,D,Norm Dicks,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -877,7 +880,6 @@ race_id,party,name,race,src,source,source_url,note
 2010-H-FL-03,R,"Michael ""Mike"" Yost",W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2010-H-FL-05,D,"James ""Jim"" Piccillo",W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2010-H-FL-05,R,"Richard B. ""Rich"" Nugent",W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
-2010-H-FL-06,R,"Clifford B. ""Cliff"" Stearns",W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2010-H-FL-07,D,Heather Beaven,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2010-H-FL-07,R,John L. Mica,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2010-H-FL-08,D,Alan Grayson,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
@@ -1605,7 +1607,6 @@ race_id,party,name,race,src,source,source_url,note
 2012-H-CA-27,R,Jack Orswell,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2012-H-CA-28,D,Adam Schiff,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2012-H-CA-28,R,Phil Jennerjahn,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
-2012-H-CA-29,D,Tony Cárdenas,H,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2012-H-CA-32,D,Grace F. Napolitano,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,다른 해 자료의 같은 사람
 2012-H-CA-32,R,David L. Miller,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2012-H-CA-34,D,Xavier Becerra,H,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
@@ -1613,6 +1614,7 @@ race_id,party,name,race,src,source,source_url,note
 2012-H-CA-36,D,Raul Ruiz,H,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2012-H-CA-36,R,Mary Bono Mack,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2012-H-CA-37,D,Karen R. Bass,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2012-H-CA-37,R,Morgan Osborne,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/who-runs-in-america-dataset2012-2014.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2012-H-CA-38,D,Linda T. Sánchez,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2012-H-CA-38,R,Benjamin Campos,H,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2012-H-CA-39,D,Jay Chen,AP,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
@@ -1974,6 +1976,7 @@ race_id,party,name,race,src,source,source_url,note
 2012-H-NJ-09,D,Bill Pascrell Jr.,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2012-H-NJ-09,R,Shmuley Boteach,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2012-H-NJ-10,D,Donald M. Payne Jr.,B,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
+2012-H-NJ-10,R,Brian C. Kelemen,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/who-runs-in-america-dataset2012-2014.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2012-H-NJ-11,D,John Arvanites,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2012-H-NJ-11,R,Rodney P. Frelinghuysen,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2012-H-NJ-12,D,Rush Holt,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
@@ -2000,7 +2003,8 @@ race_id,party,name,race,src,source,source_url,note
 2012-H-NY-03,R,Stephen A. Labate,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2012-H-NY-04,D,Carolyn McCarthy,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2012-H-NY-04,R,Francis X. Becker Jr.,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
-2012-H-NY-05,R,Allan W. Jennings Jr.,B,research,웹 조사(2026-11-05),https://qns.com/2003/04/jennings-links-love-life-chinese-community-in-ads/ ; https://qns.com/2004/04/leader-or-loser/ ; https://ballotpedia.org/Allan_Jennings_Jr.,"TimesLedger 2003: ads Councilman Allan Jennings (D-Jamaica) placed in Chinese-language papers said ""the fact that he is black was the reason the couple filed for divorce."""
+2012-H-NY-05,D,Gregory W. Meeks,B,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2012-H-NY-05,R,Allan W. Jennings Jr.,B,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2012-H-NY-06,D,Grace Meng,AP,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2012-H-NY-06,R,Daniel J. Halloran,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2012-H-NY-08,D,Hakeem S. Jeffries,B,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
@@ -2013,6 +2017,8 @@ race_id,party,name,race,src,source,source_url,note
 2012-H-NY-11,R,Michael G. Grimm,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2012-H-NY-12,D,Carolyn B. Maloney,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2012-H-NY-12,R,Christopher R. Wight,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
+2012-H-NY-13,D,Charles B. Rangel,B,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
+2012-H-NY-13,R,Craig Schley,B,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2012-H-NY-14,D,Joseph Crowley,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2012-H-NY-14,R,Willam F. Gibbons Jr.,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2012-H-NY-15,D,Jose E. Serrano,H,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
@@ -2310,6 +2316,7 @@ race_id,party,name,race,src,source,source_url,note
 2014-H-AR-01,R,Rick Crawford,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2014-H-AR-02,D,Patrick Henry Hays,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2014-H-AR-02,R,French Hill,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
+2014-H-AR-04,D,James Lee Witt,W,file,NNDB / James Lee Witt,https://www.nndb.com/people/058/000049908/,다른 자료(주의회·주 선거 등)에서 연결한 같은 사람
 2014-H-AR-04,R,Bruce Westerman,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2014-H-AZ-01,D,Ann Kirkpatrick,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2014-H-AZ-01,R,Andy Tobin,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
@@ -2405,6 +2412,7 @@ race_id,party,name,race,src,source,source_url,note
 2014-H-CA-50,D,James H. Kimber,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2014-H-CA-50,R,Duncan D. Hunter,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2014-H-CA-51,D,Juan Vargas,H,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
+2014-H-CA-51,R,Stephen Meade,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/who-runs-in-america-dataset2012-2014.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2014-H-CA-52,D,Scott Peters,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2014-H-CA-52,R,Carl DeMaio,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2014-H-CA-53,D,Susan A. Davis,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -2422,6 +2430,7 @@ race_id,party,name,race,src,source,source_url,note
 2014-H-CO-06,D,Andrew Romanoff,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2014-H-CO-06,R,Mike Coffman,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2014-H-CO-07,D,Ed Perlmutter,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
+2014-H-CO-07,R,Don Ytterberg,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/who-runs-in-america-dataset2012-2014.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2014-H-CT-01,D,John B. Larson,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2014-H-CT-01,R,Matthew M. Corey,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2014-H-CT-02,D,Joe Courtney,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
@@ -2797,6 +2806,7 @@ race_id,party,name,race,src,source,source_url,note
 2014-H-OH-05,R,Bob Latta,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2014-H-OH-06,D,Jennifer Garrison,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2014-H-OH-06,R,Bill Johnson,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
+2014-H-OH-08,D,Tom Poetter,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/who-runs-in-america-dataset2012-2014.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2014-H-OH-08,R,John A. Boehner,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2014-H-OH-09,D,Marcy Kaptur,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2014-H-OH-09,R,Richard May,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
@@ -3008,12 +3018,15 @@ race_id,party,name,race,src,source,source_url,note
 2014-H-WV-03,R,Evan Jenkins,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2014-H-WY-00,D,Richard Grayson,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2014-H-WY-00,R,Cynthia Lummis,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2016-H-AK-00,D,Steve Lindbeck,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-AK-00,R,Don Young,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-AL-02,D,Nathan Mathis,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-AL-02,R,Martha Roby,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-AL-03,D,Jesse Smith,B,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-AL-03,R,Mike Rogers,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-AL-05,D,Will Boyd Jr.,B,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2016-H-AL-05,R,Mo Brooks,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-AL-06,D,David J. Putman,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-AL-06,R,Gary Palmer,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-AR-02,D,Dianne Curry,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-AR-02,R,French Hill,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3038,7 +3051,9 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-CA-03,D,John G. Garamendi,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2016-H-CA-04,R,Tom McClintock,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-CA-05,D,Mike Thompson,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-CA-05,R,Carlos Santamaria,H,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-CA-06,D,Doris Matsui,AP,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-CA-06,R,Robert (Bob) Evans,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-CA-07,D,Ami Bera,AP,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-CA-07,R,Scott R. Jones,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2016-H-CA-08,D,Rita Ramirez,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,다른 해 자료의 같은 사람
@@ -3048,9 +3063,11 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-CA-10,D,Michael Eggman,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-CA-10,R,Jeff Denham,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-CA-11,D,Mark DeSaulnier,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-CA-11,R,Roger Allen Petersen,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-CA-13,D,Barbara Lee,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-CA-13,R,Sue Caro,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-CA-14,D,Jackie Speier,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2016-H-CA-14,R,Angel Cardenas,H,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-CA-15,D,Eric Swalwell,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-CA-16,D,Jim Costa,H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
 2016-H-CA-16,R,Johnny M. Tacherra,H,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3062,6 +3079,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-CA-20,R,Casey Lucius,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-CA-21,D,Emilio Jesus Huerta,H,file,E L E C T I O N  2 0 1 6,https://naleo.org/wp-content/uploads/2019/10/RTW-2016-5.pdf,
 2016-H-CA-21,R,David Valadao,H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
+2016-H-CA-22,D,Louie J. Campos,H,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-CA-22,R,Devin G. Nunes,H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
 2016-H-CA-23,D,Wendy Reed,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-CA-23,R,Kevin McCarthy,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3080,11 +3098,14 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-CA-31,D,Pete Aguilar,H,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-CA-31,R,Paul Chabot,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-CA-33,D,Ted W. Lieu,AP,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-CA-33,R,Kenneth W. Wright,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-CA-35,D,Norma J. Torres,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2016-H-CA-35,R,Tyler Fischella,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-CA-36,D,Raul Ruiz,H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
 2016-H-CA-36,R,Jeff Stone,W,file,Candidate Characteristics Cooperative (C3),https://doi.org/10.7910/DVN/VHAPHV,다른 해 자료의 같은 사람
 2016-H-CA-38,D,Linda T. Sánchez,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-CA-38,R,Ryan Downing,B,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-CA-39,D,Brett Murdock,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-CA-39,R,Ed Royce,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-CA-41,D,Mark Takano,AP,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-CA-42,D,Tim Sheridan,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3108,8 +3129,10 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-CO-01,D,Diana DeGette,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-CO-01,R,"Charles ""Casper"" Stockham",B,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,다른 해 자료의 같은 사람
 2016-H-CO-02,D,Jared Polis,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-CO-02,R,Nicholas Morse,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-CO-03,D,Gail Schwartz,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-CO-03,R,Scott R. Tipton,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-CO-04,D,Bob Seay,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-CO-04,R,Ken Buck,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-CO-05,D,Misty Plowright,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-CO-05,R,Doug Lamborn,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3124,30 +3147,40 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-CT-03,D,Rosa L. DeLauro,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-CT-03,R,Angel Cadena,H,file,Former Marine relishes underdog status against DeLauro,https://www.ctpost.com/news/article/Former-Marine-relishes-underdog-status-against-10415398.php,
 2016-H-CT-04,D,Jim Himes,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-CT-04,R,John Shaban,W,file,"Fraga, Juenke & Shah / Klarner state legislative elections",https://doi.org/10.7910/DVN/IUXG2I,다른 자료(주의회·주 선거 등)에서 연결한 같은 사람
 2016-H-CT-05,D,Elizabeth Esty,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2016-H-CT-05,R,Clay Cope,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-DE-00,D,Lisa Blunt Rochester,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2016-H-DE-00,R,Hans Reigle,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
+2016-H-FL-01,D,Steven Specht,OTHER,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-FL-01,R,Matt Gaetz,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2016-H-FL-02,D,Walter Dartland,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-FL-02,R,Neal Dunn,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2016-H-FL-03,D,"Kenneth ""Ken"" McGurn",W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-FL-03,R,Ted Yoho,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-FL-04,D,David E. Bruderly,W,file,Grumbach & Sahn / hand coding,https://doi.org/10.7910/DVN/PUIJIU,다른 해 자료의 같은 사람
 2016-H-FL-04,R,John Rutherford,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2016-H-FL-05,D,Al Lawson,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
 2016-H-FL-05,R,Glo Smith,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2016-H-FL-06,D,William (Bill) McCullough,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-FL-06,R,Ron DeSantis,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-FL-07,D,Stephanie Murphy,AP,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,다른 해 자료의 같은 사람
 2016-H-FL-07,R,John Mica,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-FL-08,D,Corry Westbrook,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-FL-08,R,Bill Posey,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-FL-09,D,Darren Soto,H,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2016-H-FL-09,R,Wayne Liebnitzky,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-FL-10,D,Val Demings,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-FL-10,R,Thuy Lowe,AP,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-FL-11,D,Dave Koller,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-FL-11,R,Daniel Webster,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-FL-12,D,Robert Matthew Tager,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-FL-12,R,Gus Michael Bilirakis,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-FL-13,D,Charlie Crist,W,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,다른 해 자료의 같은 사람
 2016-H-FL-13,R,David W. Jolly,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-FL-14,D,Kathy Castor,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-FL-14,R,Christine Quinn,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2016-H-FL-15,D,Jim Lange,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-FL-15,R,Dennis A. Ross,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-FL-16,D,Jan Schneider,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-FL-16,R,Vern Buchanan,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3157,6 +3190,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-FL-19,D,Robert M. Neeld,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,다른 해 자료의 같은 사람
 2016-H-FL-19,R,Francis Rooney,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,다른 해 자료의 같은 사람
 2016-H-FL-20,D,Alcee L. Hastings,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
+2016-H-FL-20,R,Gary Stein,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-FL-21,D,Lois Frankel,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-FL-21,R,Paul Spain,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-FL-22,D,Ted Deutch,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3167,6 +3201,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-FL-25,R,Mario Diaz-Balart,H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
 2016-H-FL-26,D,Joe Garcia,H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
 2016-H-FL-26,R,Carlos Curbelo,H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
+2016-H-FL-27,D,Scott Fuhrman,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-FL-27,R,Ileana Ros-Lehtinen,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-GA-02,D,Sanford Bishop,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
 2016-H-GA-02,R,Greg Duke,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3175,6 +3210,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-GA-04,D,"Henry C. ""Hank,"" Johnson Jr.",B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
 2016-H-GA-04,R,Victor Armendariz,H,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-GA-05,D,John R. Lewis,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
+2016-H-GA-05,R,Douglas Bell,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-GA-06,R,Tom Price,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-GA-07,D,Rashid Malik,AP,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,다른 해 자료의 같은 사람
 2016-H-GA-07,R,Rob Woodall,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3188,6 +3224,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-IA-01,D,Monica Vernon,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-IA-01,R,Rod Blum,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-IA-02,D,Dave Loebsack,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-IA-02,R,Christopher Peters,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-IA-03,D,Jim Mowrer,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-IA-03,R,David Young,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-IA-04,D,Kim Weaver,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -3203,6 +3240,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-IL-06,D,Amanda Howland,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-IL-06,R,Peter J. Roskam,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-IL-07,D,Danny K. Davis,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
+2016-H-IL-07,R,Jeffrey A. Leef,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-IL-08,D,Raja Krishnamoorthi,AP,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-IL-08,R,"Peter ""Pete"" DiCianni",W,research,웹 조사(2026-11-05),https://www.dailyherald.com/?p=851192,"Daily Herald candidate profile (Sept 2012): 'As a proud product of an Italian Irish family, eldest of 7 children who grew up in DuPage County'; grandparents immigrated legally."
 2016-H-IL-09,D,Janice D Schakowsky,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -3211,14 +3249,16 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-IL-10,R,Robert Dold,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-IL-11,D,Bill Foster,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-IL-11,R,Tonia Khouri,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2016-H-IL-12,D,"Charles ""C.J."" Baricevic",W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-IL-12,R,Michael Bost,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-IL-13,D,Mark D Wicklund,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-IL-13,R,Rodney Davis,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-IL-14,D,Jim Walz,W,file,FiveThirtyEight 2018,https://github.com/fivethirtyeight/data/tree/master/primary-candidates-2018,다른 해 자료의 같은 사람
 2016-H-IL-14,R,"Randall M. ""Randy"" Hultgren",W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-IL-17,D,Cheri Bustos,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2016-H-IL-17,R,Patrick Harlan,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-IL-18,D,Junius Rodriguez,W,file,FiveThirtyEight 2018,https://github.com/fivethirtyeight/data/tree/master/primary-candidates-2018,다른 해 자료의 같은 사람
 2016-H-IL-18,R,Darin LaHood,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
-2016-H-IN-01,D,Peter J. Visclosky,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-IN-02,D,Lynn C. Coleman,B,file,"Thursday, Nov. 19, 2015",https://www.in.gov/library/files/HPI151119.pdf,
 2016-H-IN-02,R,Jackie Walorski,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-IN-03,D,Tommy A. Schrader,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3235,14 +3275,16 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-IN-08,R,Larry D. Bucshon,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-IN-09,D,Shelli Yoder,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-IN-09,R,Trey Hollingsworth,W,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,다른 해 자료의 같은 사람
-2016-H-KS-01,R,Roger Marshall,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,다른 해 자료의 같은 사람
 2016-H-KS-02,D,Britani Potter,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-KS-02,R,Lynn Jenkins,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-KS-03,D,Jay Sidie,W,file,FiveThirtyEight 2018,https://github.com/fivethirtyeight/data/tree/master/primary-candidates-2018,다른 해 자료의 같은 사람
 2016-H-KS-03,R,Kevin Yoder,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-KS-04,D,Daniel B. Giroux,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-KS-04,R,Michael Pompeo,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-KY-01,D,Samuel L. Gaskins,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-KY-01,R,James R. Comer,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2016-H-KY-03,D,John A. Yarmuth,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-KY-04,D,Calvin Sidle,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-KY-04,R,Thomas Massie,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-KY-06,D,Nancy Jo Kemper,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-KY-06,R,Andy Barr,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3258,12 +3300,15 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-MA-04,D,Joseph P. Kennedy III,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-MA-04,R,David A. Rosa,W,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,다른 해 자료의 같은 사람
 2016-H-MA-08,D,Stephen F. Lynch,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-MA-08,R,William Burke,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-MA-09,D,William Richard Keating,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-MA-09,R,Mark C. Alliegro,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-MD-01,D,Joe Werner,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/who-runs-in-america-dataset2012-2014.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-MD-01,R,Andy Harris,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-MD-02,D,C.A. Dutch Ruppersberger,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-MD-02,R,Pat McDonough,W,file,Lublin et al. / State Legislative Database,https://doi.org/10.7910/DVN/NYOXTE,다른 해 자료의 같은 사람
 2016-H-MD-03,D,John Sarbanes,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-MD-03,R,Mark Plaster,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-MD-04,D,Anthony G. Brown,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
 2016-H-MD-04,R,George E. McDermott,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-MD-05,D,Steny H. Hoyer,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3275,10 +3320,12 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-MD-08,D,Jamie Raskin,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2016-H-MD-08,R,Dan Cox,W,file,Candidate Characteristics Cooperative (C3),https://doi.org/10.7910/DVN/VHAPHV,다른 해 자료의 같은 사람
 2016-H-ME-01,D,Chellie Pingree,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2016-H-ME-01,R,Mark I. Holbrook,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-ME-02,D,Emily Ann Cain,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-ME-02,R,Bruce Poliquin,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-MI-01,D,Lon Johnson,W,file,"Fraga, Juenke & Shah / Klarner state legislative elections",https://doi.org/10.7910/DVN/IUXG2I,다른 자료(주의회·주 선거 등)에서 연결한 같은 사람
 2016-H-MI-01,R,Jack Bergman,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2016-H-MI-02,D,Dennis B. Murphy,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-MI-02,R,Bill Huizenga,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-MI-03,R,Justin Amash,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-MI-04,D,Debra Wirth,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,다른 해 자료의 같은 사람
@@ -3301,6 +3348,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-MI-13,D,John Conyers Jr.,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
 2016-H-MI-13,R,Jeff Gorman,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-MI-14,D,Brenda L. Lawrence,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2016-H-MI-14,R,Howard Klausner,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-MN-01,D,Tim Walz,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-MN-01,R,Jim Hagedorn,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-MN-02,D,Angie Craig,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -3308,27 +3356,36 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-MN-03,D,Terri E. Bonoff,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-MN-03,R,Erik Paulsen,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-MN-04,D,Betty McCollum,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2016-H-MN-04,R,Greg Ryan,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-MN-05,D,Keith Ellison,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
+2016-H-MN-05,R,Frank Nelson Drake,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-MN-06,R,Tom Emmer,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-MN-07,D,Collin Peterson,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-MN-07,R,Dave Hughes,W,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,다른 해 자료의 같은 사람
 2016-H-MN-08,D,Rick Nolan,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-MN-08,R,Stewart Mills,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-MO-01,D,Lacy Clay,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
+2016-H-MO-01,R,Steven G. Bailey,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-MO-02,D,Bill Otto,W,file,Candidate Characteristics Cooperative (C3),https://doi.org/10.7910/DVN/VHAPHV,다른 해 자료의 같은 사람
 2016-H-MO-02,R,Ann Wagner,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2016-H-MO-03,D,Kevin Miller,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-MO-03,R,Blaine Luetkemeyer,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-MO-04,D,Gordon Christensen,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-MO-04,R,Vicky Hartzler,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-MO-05,D,Emanuel Cleaver II,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
 2016-H-MO-05,R,Jacob Turk,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-MO-06,D,David M. Blackwell,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-MO-06,R,Sam Graves,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-MO-07,D,Genevieve (Gen) Williams,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-MO-07,R,Billy Long,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-MO-08,D,Dave Cowell,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-MO-08,R,Jason Smith,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-MS-01,D,Jacob Owens,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-MS-01,R,Trent Kelly,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2016-H-MS-02,D,Bennie Thompson,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
 2016-H-MS-03,D,Dennis Quinn,B,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-MS-03,R,Gregg Harper,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-MS-04,D,Mark Gladney,B,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-MS-04,R,Steven Palazzo,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-MT-00,D,Denise Juneau,NA,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-MT-00,R,Ryan Zinke,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3341,11 +3398,14 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-NC-05,D,Josh Brannon,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-NC-05,R,Virginia Foxx,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-NC-06,R,B. Mark Walker,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-NC-07,D,J. Wesley Casteen,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/who-runs-in-america-dataset2012-2014.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-NC-07,R,David Rouzer,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-NC-08,D,Thomas Mills,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-NC-08,R,Richard Hudson,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-NC-09,D,Christian Cano,H,file,Christian Cano - Ballotpedia,https://ballotpedia.org/Christian_Cano,
 2016-H-NC-09,R,Robert Pittenger,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-NC-10,R,Patrick McHenry,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-NC-11,D,Rick Bryson,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-NC-11,R,Mark Meadows,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-NC-12,D,Alma Adams,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-NC-12,R,Leon Threatt,B,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3365,6 +3425,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-NJ-01,R,Bob Patterson,W,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,다른 해 자료의 같은 사람
 2016-H-NJ-02,D,David H. Cole,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-NJ-02,R,Frank A. LoBiondo,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-NJ-03,D,Frederick John LaVergne,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-NJ-03,R,Tom MacArthur,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-NJ-04,D,Lorna Phillipson,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-NJ-04,R,Christopher H. Smith,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3379,8 +3440,10 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-NJ-09,R,Hector L. Castillo,H,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-NJ-10,D,Donald M. Payne Jr.,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
 2016-H-NJ-10,R,David H. Pinckney,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1DiTYjplZmyHG8ZpNalFSkBeCza1j6bvTFUccdc3iDiU/edit,다른 해 자료의 같은 사람
+2016-H-NJ-11,D,Joseph M. Wenzel,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-NJ-11,R,Rodney P. Frelinghuysen,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-NJ-12,D,Bonnie Watson Coleman,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2016-H-NJ-12,R,Steven J. Uccio,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-NM-01,D,Michelle Lujan Grisham,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-NM-01,R,Richard Gregory Priem,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-NM-02,D,Merrie Lee Soules,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -3388,6 +3451,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-NM-03,D,Ben R Lujan,H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
 2016-H-NV-01,D,Dina Titus,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-NV-01,R,Mary Perry,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2016-H-NV-02,D,"H. D. ""Chip"" Evans",W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-NV-02,R,Mark E. Amodei,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-NV-03,D,Jacky Rosen,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-NV-03,R,Danny Tarkanian,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3403,20 +3467,27 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-NY-05,D,Gregory W. Meeks,B,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2016-H-NY-06,D,Grace Meng,AP,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-NY-07,D,Nydia M. Velazquez,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2016-H-NY-07,R,Allan E. Romaguera,H,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-NY-10,D,Jerrold L. Nadler,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-NY-11,D,Richard A. Reichard,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-NY-11,R,Dan Donovan,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,다른 해 자료의 같은 사람
 2016-H-NY-12,D,Carolyn B. Maloney,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2016-H-NY-12,R,Robert Ardini,H,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-NY-13,D,Adriano Espaillat,B/H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/ | https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
 2016-H-NY-13,R,Robert A. Evans Jr.,B,research,웹 조사(2026-11-05),https://www.huffpost.com/entry/the-ultimate-political-underdog_b_57f2b9b4e4b0667653926690 ; https://results.elections.ny.gov/candidate/3681 ; https://ballotpedia.org/Tony_Evans ; https://nyc16.nytimes-institute.com/2016/05/30/candidate-tony-evans/,"Tony Evans, 'the Republican nominee for New York's 13th congressional district': ""I'm a black, Republican Catholic from the south. What box do you put me in?"""
 2016-H-NY-14,D,Joseph Crowley,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-NY-14,R,Frank J. Spotorno,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-NY-15,D,Jose E. Serrano,H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
 2016-H-NY-18,D,Sean Patrick Maloney,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-NY-18,R,Phil Oliva,H,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-NY-19,D,Zephyr Teachout,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-NY-19,R,John J. Faso,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,다른 해 자료의 같은 사람
 2016-H-NY-20,D,Paul D. Tonko,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-NY-20,R,Joe Vitollo,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-NY-21,R,Elise M. Stefanik,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-NY-22,D,Kim A. Myers,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-NY-22,R,Claudia Tenney,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2016-H-NY-23,D,John F. Plumb,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-NY-23,R,Thomas W. Reed II,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-NY-24,D,Colleen Deacon,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-NY-24,R,John M. Katko,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3434,15 +3505,20 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-OH-03,R,John Adams,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-OH-04,D,Janet Garrett,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-OH-04,R,Jim Jordan,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-OH-05,D,James Neu Jr.,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-OH-05,R,Bob Latta,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-OH-06,D,Michael L. Lorentz,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-OH-06,R,Bill Johnson,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-OH-07,D,Roy Rich,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-OH-07,R,Bob Gibbs,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-OH-08,R,Warren Davidson,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2016-H-OH-09,D,Marcy Kaptur,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2016-H-OH-09,R,Donald P. Larson,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-OH-10,D,Robert Klepinger,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-OH-10,R,Mike Turner,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-OH-11,D,Marcia L. Fudge,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-OH-11,R,Beverly A. Goldstein,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2016-H-OH-12,D,Ed Albertson,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-OH-12,R,Pat Tiberi,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-OH-13,D,Tim Ryan,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-OH-14,D,Michael Wager,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3460,25 +3536,32 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-OK-05,D,Al McAffrey,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-OK-05,R,Steve Russell,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-OR-01,D,Suzanne Bonamici,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2016-H-OR-01,R,Brian J. Heinrich,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
+2016-H-OR-02,D,James (Jim) Crary,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-OR-02,R,Greg Walden,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-OR-03,D,Earl Blumenauer,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-OR-04,D,Peter A. DeFazio,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-OR-04,R,Art Robinson,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-OR-05,D,Kurt Schrader,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-OR-05,R,Colm Willis,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-PA-01,D,Robert A. Brady,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-PA-01,R,Deborah Williams,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-PA-02,D,Dwight Evans,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
 2016-H-PA-02,R,James A. Jones,B,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-PA-04,D,Joshua Burkholder,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-PA-04,R,Scott Perry,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2016-H-PA-05,D,Kerith Strano Taylor,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-PA-05,R,Glenn GT Thompson,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-PA-06,D,Mike Parrish,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-PA-06,R,Ryan Costello,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-PA-07,D,Mary Ellen Balchunis,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,다른 해 자료의 같은 사람
 2016-H-PA-07,R,Patrick L. Meehan,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-PA-08,D,Steve Santarsiero,W,file,Candidate Characteristics Cooperative (C3),https://doi.org/10.7910/DVN/VHAPHV,다른 해 자료의 같은 사람
 2016-H-PA-08,R,Brian Fitzpatrick,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2016-H-PA-09,R,Bill Shuster,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-PA-10,D,Michael Molesevich,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-PA-10,R,Tom Marino,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-PA-11,D,Mike Marsicano,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-PA-11,R,Lou Barletta,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-PA-12,D,Erin R. McClelland,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-PA-12,R,Keith Rothfus,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3491,12 +3574,15 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-PA-17,D,Matt Cartwright,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-PA-17,R,Matt Connolly,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-RI-01,D,David N. Cicilline,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-RI-01,R,Harold Russell Taub,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-RI-02,D,James R. Langevin,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-RI-02,R,Rhue R. Reis,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-SC-01,R,Mark Sanford,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-SC-02,D,Arik Bjorn,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-SC-02,R,Joe Wilson,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-SC-03,D,Hosea Cleveland,B,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,다른 해 자료의 같은 사람
 2016-H-SC-03,R,Jeff Duncan,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-SC-04,D,Chris Fedalei,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-SC-04,R,Trey Gowdy,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-SC-05,R,Mick Mulvaney,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-SC-06,D,"James E. ""Jim"" Clyburn",B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
@@ -3506,6 +3592,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-SD-00,D,Paula Hawks,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-SD-00,R,Kristi Noem,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-TN-01,R,Phil Roe,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-TN-02,D,Stuart Starr,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-TN-02,R,John J. Duncan Jr.,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-TN-03,D,Melody Shekari,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-TN-03,R,Chuck Fleischmann,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3513,13 +3600,16 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-TN-04,R,Scott DesJarlais,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-TN-05,D,Jim Cooper,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-TN-05,R,Stacy Ries Snyder,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2016-H-TN-06,D,David W. Kent,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-TN-06,R,Diane Black,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-TN-07,R,Marsha Blackburn,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-TN-08,D,Rickey Hobson,B,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-TN-08,R,David Kustoff,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2016-H-TN-09,D,Steve Cohen,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-TN-09,R,Wayne Alberson,OTHER,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/who-runs-in-america-dataset2012-2014.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-TX-01,D,Shirley J. McKellar,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-TX-01,R,Louie Gohmert,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-TX-02,D,Pat Bryan,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-TX-02,R,Ted Poe,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-TX-03,D,Adam P. Bell,W,file,FiveThirtyEight 2018,https://github.com/fivethirtyeight/data/tree/master/primary-candidates-2018,다른 해 자료의 같은 사람
 2016-H-TX-03,R,Sam Johnson,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3530,6 +3620,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-TX-09,D,Al Green,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
 2016-H-TX-10,D,Tawana W. Cadien,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,다른 해 자료의 같은 사람
 2016-H-TX-10,R,Michael T. McCaul,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-TX-12,D,Bill Bradshaw,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-TX-12,R,Kay Granger,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-TX-14,D,Michael Cole,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-TX-14,R,Randy Weber,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3548,9 +3639,12 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-TX-24,R,Kenny E. Marchant,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-TX-25,D,Kathi Thomas,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-TX-25,R,Roger Williams,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-TX-26,D,Eric Mauck,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-TX-26,R,Michael C. Burgess,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-TX-27,D,Raul (Roy) Barrera,H,file,NALEO Educational Fund / Texas Election 2016,https://naleo.org/wp-content/uploads/2019/10/TX-2016Profile-2.pdf,
 2016-H-TX-27,R,Blake Farenthold,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-TX-28,D,Henry Cuellar,H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
+2016-H-TX-28,R,Zeffen Hardin,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-TX-29,D,Gene Green,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-TX-29,R,Julio Garza,H,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2016-H-TX-30,D,Eddie Bernice Johnson,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -3567,6 +3661,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-UT-01,R,Rob Bishop,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-UT-02,D,Charlene Albarran,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-UT-02,R,Chris Stewart,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-UT-03,D,Stephen P. Tryon,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-UT-03,R,Jason Chaffetz,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-UT-04,D,Doug Owens,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-UT-04,R,Mia B. Love,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -3575,12 +3670,15 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-VA-02,R,Scott W. Taylor,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-VA-03,D,"Robert C. ""Bobby"" Scott",B,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2016-H-VA-04,D,A. Donald McEachin,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
+2016-H-VA-04,R,"Michael L. ""Mike"" Wade",W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-VA-05,D,Jane D. Dittmar,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-VA-05,R,Tom A. Garrett Jr.,W,file,Kieran Healy / congress,https://kjhealy.github.io/congress/,다른 해 자료의 같은 사람
+2016-H-VA-06,D,Kai E. Degner,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-VA-06,R,"Robert W. ""Bob"" Goodlatte",W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-VA-07,D,Eileen M. Bedell,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-VA-07,R,David A. Brat,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-VA-08,D,Donald S. Beyer Jr.,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-VA-09,D,Derek W. Kitts,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-VA-09,R,H. Morgan Griffith,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-VA-10,D,LuAnn L. Bennett,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-VA-10,R,Barbara Jean Comstock,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -3594,6 +3692,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-WA-05,R,Cathy McMorris Rodgers,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-WA-06,D,Derek Kilmer,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-WA-06,R,Todd A. Bloom,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2016-H-WA-08,D,Tony Ventrella,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-WA-08,R,Dave Reichert,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-WA-09,D,Adam Smith,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-WA-09,R,Doug Basler,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3610,10 +3709,13 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-WI-07,R,Sean Duffy,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-WI-08,D,Tom Nelson,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2016-H-WI-08,R,Mike Gallagher,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2016-H-WV-01,D,Mike Manypenny,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-WV-01,R,David B. McKinley,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-WV-02,D,Mark Hunt,W,file,Grumbach & Sahn / hand coding,https://doi.org/10.7910/DVN/PUIJIU,다른 해 자료의 같은 사람
 2016-H-WV-02,R,Alex X. Mooney,W/H,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2016-H-WV-03,D,Matt Detch,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-WV-03,R,Evan Jenkins,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-WY-00,D,Ryan Greene,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-WY-00,R,Liz Cheney,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-AK-00,D,Alyse S. Galvin,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-AK-00,R,Don Young,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
@@ -3643,6 +3745,7 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-AZ-02,R,Lea Marquez Peterson,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-AZ-03,D,Raúl Grijalva,H,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-AZ-03,R,"Nicolas ""Nick"" Pierson",H,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-AZ-04,D,David Brill,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-AZ-04,R,Paul Gosar,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-AZ-05,D,Joan Greene,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-AZ-05,R,Andy Biggs,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
@@ -3651,27 +3754,33 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-AZ-08,D,Hiral Tipirneni,AP,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-AZ-08,R,Debbie Lesko,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-AZ-09,D,Greg Stanton,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-AZ-09,R,Stephen L. Ferrara,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-CA-01,D,Audrey Denney,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-CA-01,R,Doug La Malfa,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-CA-02,D,Jared W. Huffman,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-CA-02,R,Dale K. Mensing,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2018-H-CA-03,D,John Garamendi,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2018-H-CA-03,R,Charlie Schaupp,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-CA-04,D,Jessica Morse,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-CA-04,R,Tom McClintock,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-CA-07,D,Ami Bera,AP,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-CA-07,R,Andrew Grant,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-CA-09,D,Jerry McNerney,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-CA-09,R,Marla Livengood,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-CA-10,D,Josh Harder,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-CA-10,R,Jeff Denham,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-CA-11,D,Mark DeSaulnier,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-CA-11,R,John Fitzgerald,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-CA-12,D,Nancy Pelosi,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-CA-12,R,Lisa Remmer,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-CA-14,D,Jackie Speier,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-CA-14,R,Cristina Osmeña,AP,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-CA-15,D,Eric Swalwell,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-CA-15,R,Rudy L. Peters Jr.,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-CA-16,D,Jim Costa,H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
 2018-H-CA-16,R,Elizabeth Heng,AP,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-CA-17,D,Ro Khanna,AP,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2018-H-CA-17,R,Ron Cohen,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-CA-18,D,Anna G. Eshoo,MENA,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2018-H-CA-18,R,Christine Russell,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-CA-19,D,Zoe Lofgren,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -3697,11 +3806,13 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-CA-31,R,Sean Flynn,W/AP,file,"Atkinson-Baker, Inc.",https://supreme.courts.ca.gov/sites/default/files/supremecourt/default/documents/6-s260209-apps-motion-exhs-vol-i-of-ii-050420.pdf,
 2018-H-CA-32,D,Grace Flores Napolitano,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,다른 해 자료의 같은 사람
 2018-H-CA-33,D,Ted W. Lieu,AP,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-CA-33,R,Kenneth Weston Wright,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-CA-35,D,Norma J. Torres,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-CA-35,R,Christian Leonel Valiente,H,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-CA-36,D,Raul Ruiz,H,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-CA-36,R,Kimberlin Brown Pelzer,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-CA-37,D,Karen Bass,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2018-H-CA-37,R,Ron J. Bassilian,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-CA-38,D,Linda T. Sánchez,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-CA-38,R,Ryan Downing,B,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2018-H-CA-39,D,Gil Cisneros,H,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
@@ -3715,6 +3826,7 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-CA-45,D,Katie Porter,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-CA-45,R,Mimi Walters,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-CA-46,D,Lou Correa,H,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-CA-46,R,Russell Rene Lambert,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-CA-47,D,Alan Lowenthal,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-CA-47,R,John Briscoe,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2018-H-CA-48,D,Harley Rouda,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
@@ -3742,9 +3854,11 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-CO-06,D,Jason Crow,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-CO-06,R,Mike Coffman,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-CO-07,D,Ed Perlmutter,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-CO-07,R,Mark Barrington,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-CT-01,D,John B. Larson,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-CT-01,R,Jennifer T. Nye,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-CT-02,D,Joe Courtney,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-CT-02,R,Danny Postemski Jr.,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-CT-03,D,Rosa L. DeLauro,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-CT-03,R,Angel Cadena,H,file,Former Marine relishes underdog status against DeLauro,https://www.ctpost.com/news/article/Former-Marine-relishes-underdog-status-against-10415398.php,
 2018-H-CT-04,D,Jim Himes,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
@@ -3755,9 +3869,11 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-DE-00,R,Scott Walker,W,research,웹 조사(2026-11-05),https://whyy.org/segments/gop-nominee-for-lone-delaware-congressional-seat-is-one-unusual-candidate,"WHYY: 'Walker, who is white,' hopes to win votes in predominantly black Wilmington; 67-year-old Milford resident, father of four."
 2018-H-FL-01,D,Jennifer M. Zimmerman,AP,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-FL-01,R,Matt Gaetz,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-FL-02,D,Bob Rackleff,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-FL-02,R,Neal Dunn,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-FL-03,D,Yvonne Hayes Hinson,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-FL-03,R,Ted Yoho,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-FL-04,D,"George ""Ges"" Selmont",W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-FL-04,R,John H. Rutherford,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-FL-05,D,Al Lawson,B,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-FL-05,R,Virginia Fuller,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -3768,6 +3884,7 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-FL-08,D,Sanjay Patel,AP,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-FL-08,R,Bill Posey,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-FL-09,D,Darren Soto,H,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2018-H-FL-09,R,Wayne Liebnitzky,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-FL-11,D,Dana Cottrell,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-FL-11,R,Daniel Webster,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-FL-12,D,Chris Hunter,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
@@ -3797,6 +3914,7 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-GA-01,D,Lisa M. Ring,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-GA-01,R,"Earl L. ""Buddy"" Carter",W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-GA-02,D,Sanford Bishop,B,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-GA-02,R,Herman West Jr.,B,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-GA-03,D,Chuck Enderlin,W,file,FiveThirtyEight 2018,https://github.com/fivethirtyeight/data/tree/master/primary-candidates-2018,
 2018-H-GA-03,R,Drew Ferguson,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-GA-04,D,"Henry C. ""Hank,"" Johnson Jr.",B,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
@@ -3815,13 +3933,17 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-GA-12,D,Francys Johnson,B,research,웹 조사(2026-11-05),https://www.statesboromagazine.com/stories-2/rev-dr-francys-johnson-attorney-at-law ; https://projects.propublica.org/itemizer/committee/C00666941/pac-donations/C00617381 ; https://secure.actblue.com/donate/collective2018,"Statesboro Magazine: raised by grandparents; 'Only two generations away from slavery, his grandmother took in laundry'; he says 'African Americans couldn't get loans' (of them). Collective PAC gave $5,250"
 2018-H-GA-12,R,Rick W. Allen,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-GA-13,D,David Scott,B,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-GA-13,R,David Callahan,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-GA-14,D,Steven Lamar Foster,W,file,FiveThirtyEight 2018,https://github.com/fivethirtyeight/data/tree/master/primary-candidates-2018,
 2018-H-GA-14,R,Tom Graves,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-HI-01,D,Ed Case,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-HI-01,R,Cam Cavasso,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-HI-02,D,Tulsi Gabbard,AP,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-HI-02,R,Brian Evans,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-IA-01,D,Abby Finkenauer,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-IA-01,R,Rod Blum,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-IA-02,D,Dave Loebsack,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-IA-02,R,Christopher Peters,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-IA-03,D,Cindy Axne,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-IA-03,R,David Young,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-IA-04,D,J.D. Scholten,W,file,FiveThirtyEight 2018,https://github.com/fivethirtyeight/data/tree/master/primary-candidates-2018,
@@ -3833,19 +3955,25 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-IL-01,D,Bobby L. Rush,B,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-IL-01,R,Jimmy Lee Tillman II,B,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2018-H-IL-02,D,Robin Kelly,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2018-H-IL-02,R,David Merkle,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-IL-03,D,Daniel William Lipinski,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-IL-03,R,Arthur J. Jones,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2018-H-IL-04,D,"Jesus ""Chuy"" Garcia",H,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-IL-04,R,Mark Wayne Lorch,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-IL-05,D,Mike Quigley,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-IL-05,R,Tom Hanson,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2018-H-IL-06,D,Sean Casten,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-IL-06,R,Peter J. Roskam,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-IL-07,D,Danny K. Davis,B,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-IL-07,R,Craig Cameron,B,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-IL-08,D,Raja Krishnamoorthi,AP,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-IL-08,R,"Jitendra ""JD"" Diganvker",AP,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-IL-09,D,Janice D. Schakowsky,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2018-H-IL-09,R,John D. Elleson,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-IL-10,D,Brad Schneider,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-IL-10,R,Douglas R. Bennett,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-IL-11,D,Bill Foster,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-IL-11,R,Nick Stella,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-IL-12,D,Brendan Kelly,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-IL-12,R,Mike Bost,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-IL-13,D,Betsy Dirksen Londrigan,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -3857,6 +3985,7 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-IL-16,D,Sara Dady,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-IL-16,R,Adam Kinzinger,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-IL-17,D,Cheri Bustos,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2018-H-IL-17,R,"William W. ""Bill"" Fawell",W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-IL-18,D,Junius Rodriguez,W,file,FiveThirtyEight 2018,https://github.com/fivethirtyeight/data/tree/master/primary-candidates-2018,
 2018-H-IL-18,R,Darin LaHood,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2018-H-IN-01,D,Peter J. Visclosky,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
@@ -3907,9 +4036,11 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-MA-03,D,Lori Loureiro Trahan,H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
 2018-H-MA-03,R,Rick Green,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-MA-05,D,Katherine M. Clark,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2018-H-MA-05,R,John Hugo,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-MA-06,D,Seth Moulton,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-MA-06,R,Joseph S. Schneider,W,research,웹 조사(2026-11-05),https://www.bostonglobe.com/news/politics/2018/10/29/election-guide-sixth-congressional-district/RKNUBXDEhxChSbHy2JB3tL/story.html ; https://itemlive.com/2018/10/24/moulton-schneider-spar-in-lone-debate ; https://patriotpost.us/opinion/57738-from-child-refugee-to-green-beret-to-congress-2018-08-20,"Globe guide: 'was born in Romania, grew up in Paris'; Item: 'a child refugee from Romania'; Jacoby column: born in Romania 1950, family emigrated to the West when he was 10"
 2018-H-MA-09,D,Bill Keating,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-MA-09,R,Peter D. Tedeschi,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-MD-01,D,Jesse Colvin,W,file,FiveThirtyEight 2018,https://github.com/fivethirtyeight/data/tree/master/primary-candidates-2018,
 2018-H-MD-01,R,Andy Harris,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-MD-02,D,C. A. Dutch Ruppersberger,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
@@ -3919,11 +4050,15 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-MD-04,D,Anthony G. Brown,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
 2018-H-MD-04,R,George McDermott,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2018-H-MD-05,D,Steny H. Hoyer,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-MD-05,R,William A. Devine III,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-MD-06,D,David Trone,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-MD-06,R,Amie Hoeber,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-MD-07,D,Elijah Cummings,B,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-MD-07,R,Richmond Davis,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-MD-08,D,Jamie Raskin,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-MD-08,R,John Walsh,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-ME-01,D,Chellie Pingree,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2018-H-ME-01,R,Mark I. Holbrook,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-ME-02,D,Jared F. Golden,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-ME-02,R,Bruce L. Poliquin,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-MI-01,D,Matthew W. Morgan,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
@@ -3935,6 +4070,7 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-MI-04,D,Jerry Hilliard,W,file,FiveThirtyEight 2018,https://github.com/fivethirtyeight/data/tree/master/primary-candidates-2018,
 2018-H-MI-04,R,John Moolenaar,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-MI-05,D,Daniel T. Kildee,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-MI-05,R,Travis Wines,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-MI-06,D,Matt Longjohn,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-MI-06,R,Fred Upton,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-MI-07,D,Gretchen Driskell,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -3950,6 +4086,7 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-MI-12,D,Debbie Dingell,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-MI-12,R,Jeff Jones,W,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,다른 해 자료의 같은 사람
 2018-H-MI-14,D,Brenda Lawrence,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2018-H-MI-14,R,Marc S. Herschfus,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-MN-01,D,Dan Feehan,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-MN-01,R,Jim Hagedorn,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-MN-02,D,Angie Craig,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -3957,8 +4094,10 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-MN-03,D,Dean Phillips,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-MN-03,R,Erik Paulsen,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-MN-04,D,Betty McCollum,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2018-H-MN-04,R,Greg Ryan,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-MN-05,D,Ilhan Omar,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-MN-05,R,Jennifer Zielinski,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2018-H-MN-06,D,Ian Todd,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-MN-06,R,Tom Emmer,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-MN-07,D,Collin C. Peterson,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-MN-07,R,Dave Hughes,W,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,다른 해 자료의 같은 사람
@@ -3980,6 +4119,7 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-MO-07,R,Billy Long,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-MO-08,D,Kathy Ellis,W,file,FiveThirtyEight 2018,https://github.com/fivethirtyeight/data/tree/master/primary-candidates-2018,
 2018-H-MO-08,R,Jason Smith,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-MS-01,D,Randy Mack Wadkins,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-MS-01,R,Trent Kelly,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-MS-03,D,Michael Ted Evans,W,file,Lublin et al. / State Legislative Database,https://doi.org/10.7910/DVN/NYOXTE,다른 해 자료의 같은 사람
 2018-H-MS-03,R,Michael Guest,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
@@ -3988,6 +4128,7 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-MT-00,D,Kathleen Williams,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-MT-00,R,Greg Gianforte,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-NC-01,D,G. K. Butterfield,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
+2018-H-NC-01,R,Roger W. Allison,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-NC-02,D,Linda Coleman,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-NC-02,R,George Holding,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-NC-04,D,David Price,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
@@ -4016,16 +4157,19 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-NE-01,R,Jeff Fortenberry,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-NE-02,D,Kara Eastman,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-NE-02,R,Don Bacon,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-NE-03,D,Paul Theobald,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-NE-03,R,Adrian Smith,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-NH-01,D,Chris Pappas,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-NH-01,R,Eddie Edwards,B,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-NH-02,D,Ann McLane Kuster,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-NH-02,R,Steven Negron,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-NJ-01,D,Donald W. Norcross,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-NJ-01,R,Paul E. Dilks,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-NJ-02,D,Jeff Van Drew,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-NJ-02,R,Seth Grossman,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-NJ-03,D,Andy Kim,AP,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-NJ-03,R,Tom MacArthur,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-NJ-04,D,Joshua Welle,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-NJ-04,R,Christopher H. Smith,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-NJ-05,D,Josh Gottheimer,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-NJ-05,R,John J. McCann Jr.,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
@@ -4033,17 +4177,21 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-NJ-07,D,Tom Malinowski,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-NJ-07,R,Leonard Lance,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-NJ-08,D,Albio Sires,H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
+2018-H-NJ-08,R,John R. Muniz,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-NJ-09,D,"Bill Jr., Pascrell",W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-NJ-09,R,Eric P. Fisher,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-NJ-10,D,Donald M. Payne Jr.,B,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-NJ-10,R,Agha Khan,AP,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-NJ-11,D,Mikie Sherrill,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-NJ-11,R,Jay Webber,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-NJ-12,D,Bonnie Watson Coleman,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2018-H-NJ-12,R,Daryl Kipnis,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-NM-01,D,Debra A. Haaland,NA,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-NM-01,R,Janice E. Arnold-Jones,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-NM-02,D,Xochitl Torres Small,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-NM-02,R,Yvette Herrell,NA,file,Individual verification,https://history.house.gov/People/Detail/25769817326,다른 해 자료의 같은 사람
 2018-H-NM-03,D,Ben R. Lujan,H,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-NM-03,R,Jerald Steve McFall,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-NV-01,D,Dina Titus,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-NV-01,R,Joyce Bentley,W/AP,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,다른 해 자료의 같은 사람
 2018-H-NV-02,D,Clint Koble,W,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,다른 해 자료의 같은 사람
@@ -4057,7 +4205,9 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-NY-02,D,Liuba Grechen Shirley,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-NY-02,R,Peter T. King,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-NY-03,D,Thomas R. Suozzi,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-NY-03,R,Dan P. DeBono,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-NY-04,D,Kathleen M. Rice,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2018-H-NY-04,R,Ameer N. Benno,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-NY-09,D,Yvette D. Clarke,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-NY-09,R,Lutchi Gayot,B,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-NY-10,D,Jerrold L. Nadler,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
@@ -4065,16 +4215,19 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-NY-11,D,Max N. Rose,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-NY-11,R,Dan Donovan,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-NY-12,D,Carolyn B. Maloney,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2018-H-NY-12,R,Eliot Rabin,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-NY-13,D,Adriano Espaillat,H,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-NY-13,R,Jineea Butler,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-NY-14,D,Alexandria Ocasio-Cortez,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-NY-14,R,Anthony Pappas,W,research,웹 조사(2026-11-05),https://www.theringer.com/2018/10/31/18042446/anthony-pappas-alexandria-ocasio-cortez-new-york-election-congress-14th-district,"The Ringer: Greek immigrant parents, Greek spoken at home (European origin -> W)"
 2018-H-NY-15,D,Jose E. Serrano,H,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-NY-15,R,Jason D. Gonzalez,H,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2021/01/RD-Candidate-Analysis-2012-8.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-NY-18,D,Sean Patrick Maloney,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-NY-18,R,James D. O'Donnell,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-NY-19,D,Antonio Delgado,B/H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/ | https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
 2018-H-NY-19,R,John J. Faso,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-NY-20,D,Paul D. Tonko,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-NY-20,R,Francis J. Vitollo,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-NY-21,D,Tedra L. Cobb,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-NY-21,R,Elise M. Stefanik,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-NY-22,D,Anthony J. Brindisi,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
@@ -4084,6 +4237,7 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-NY-24,D,Dana Balter,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-NY-24,R,John M. Katko,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-NY-25,D,Joseph D. Morelle,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-NY-25,R,Jim Maxwell,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-NY-26,D,Brian Higgins,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-NY-26,R,Renee M. Zeno,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-NY-27,D,Nathan D. McMurray,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
@@ -4093,8 +4247,10 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-OH-02,D,Jill Schiller,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-OH-02,R,Brad Wenstrup,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-OH-03,D,Joyce Beatty,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2018-H-OH-03,R,Jim Burgess,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-OH-04,D,Janet Garrett,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-OH-04,R,Jim Jordan,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-OH-05,D,J. Michael Galbraith,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-OH-05,R,Bob Latta,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-OH-06,D,Shawna Roberts,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-OH-06,R,Bill Johnson,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
@@ -4111,11 +4267,14 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-OH-12,D,Danny O'Connor,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-OH-12,R,Troy Balderson,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-OH-13,D,Tim Ryan,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-OH-13,R,Chris DePizzo,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-OH-14,D,Betsy Rader,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-OH-14,R,David P. Joyce,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-OH-15,D,Rick Neal,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-OH-15,R,Steve Stivers,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-OH-16,D,Susan Moran Palmer,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-OH-16,R,Anthony Gonzalez,H,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-OK-01,D,Tim Gilpin,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-OK-01,R,Kevin Hern,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-OK-02,D,Jason Nichols,NA,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-OK-02,R,Markwayne Mullin,W/NA/MU,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1DiTYjplZmyHG8ZpNalFSkBeCza1j6bvTFUccdc3iDiU/edit,다른 해 자료의 같은 사람
@@ -4130,14 +4289,17 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-OR-02,D,Jamie McLeod-Skinner,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-OR-02,R,Greg Walden,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-OR-03,D,Earl Blumenauer,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-OR-03,R,Tom Harrison,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-OR-04,D,Peter A. DeFazio,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-OR-04,R,Art Robinson,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2018-H-OR-05,D,Kurt Schrader,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-OR-05,R,Mark Callahan,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-PA-01,D,Scott Wallace,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-PA-01,R,Brian Fitzpatrick,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-PA-02,D,Brendan F. Boyle,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-PA-02,R,David Torres,W,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,다른 해 자료의 같은 사람
 2018-H-PA-03,D,Dwight Evans,B,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-PA-03,R,Bryan E. Leib,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-PA-04,D,Madeleine Dean,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/PA_candidates_cleaned.csv,다른 해 자료의 같은 사람
 2018-H-PA-04,R,Dan David,W/MENA,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-PA-05,D,Mary Gay Scanlon,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -4181,6 +4343,7 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-SC-05,D,Archie Parnell,W,file,FiveThirtyEight 2018,https://github.com/fivethirtyeight/data/tree/master/primary-candidates-2018,
 2018-H-SC-05,R,Ralph W. Norman,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-SC-06,D,"James E. ""Jim"" Clyburn",B,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-SC-06,R,Gerhard R. Gressman,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-SC-07,D,Robert Williams,B,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-SC-07,R,Tom Rice,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-SD-00,D,Tim Bjorkman,W,file,FiveThirtyEight 2018,https://github.com/fivethirtyeight/data/tree/master/primary-candidates-2018,
@@ -4194,6 +4357,7 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-TN-04,D,Mariah Phillips,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-TN-04,R,Scott DesJarlais,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-TN-05,D,Jim Cooper,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-TN-05,R,Jody M. Ball,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-TN-06,D,Dawn Barlow,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-TN-06,R,John Rose,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-TN-07,D,Justin Kanew,W,file,FiveThirtyEight 2018,https://github.com/fivethirtyeight/data/tree/master/primary-candidates-2018,
@@ -4231,6 +4395,7 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-TX-15,D,Vicente Gonzalez,H,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-TX-15,R,Tim Westley,B,file,Editorial: We recommend Dawn Buckingham in GOP runoff for Texas land commissioner,https://www.houstonchronicle.com/opinion/endorsements/article/Editorial-We-recommend-Dawn-Buckingham-in-GOP-17172302.php/,다른 자료(주의회·주 선거 등)에서 연결한 같은 사람
 2018-H-TX-16,D,Veronica Escobar,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2018-H-TX-16,R,Rick Seeberger,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-TX-17,D,Rick Kennedy,W,file,FiveThirtyEight 2018,https://github.com/fivethirtyeight/data/tree/master/primary-candidates-2018,
 2018-H-TX-17,R,Bill Flores,H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
 2018-H-TX-18,D,Sheila Jackson Lee,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -4252,14 +4417,17 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-TX-27,D,Eric Holguin,H,file,Corpus Christi's Eric Holguin Vies to Become 1st Out Latino Congressman | OutSmart Magazine,https://www.outsmartmagazine.com/2018/09/corpus-christis-eric-holguin-vies-to-become-1st-out-latino-congressman/,
 2018-H-TX-27,R,Michael Cloud,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-TX-29,D,Sylvia R. Garcia,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2018-H-TX-29,R,Phillip Aronoff,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-TX-31,D,"Mary Jennings ""MJ"" Hegar",W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-TX-31,R,John Carter,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-TX-32,D,Colin Allred,B,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2018-H-TX-32,R,Pete Sessions,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-TX-33,D,Marc Veasey,B,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-TX-33,R,Willie Billups,B,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-TX-34,D,Filemon B. Vela,H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
 2018-H-TX-34,R,Rey Gonzalez,H,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,다른 해 자료의 같은 사람
 2018-H-TX-35,D,Lloyd Doggett,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-TX-35,R,David Smalling,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-TX-36,D,Dayna Steele,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-TX-36,R,Brian Babin,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-UT-01,D,Lee Castillo,H,file,"Layton's Castillo holds 1,500-vote lead in bid to battle Congressman Bishop | KSL.com",https://www.ksl.com/article/46350327,
@@ -4275,6 +4443,7 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-VA-02,D,Elaine G. Luria,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-VA-02,R,Scott W. Taylor,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-VA-04,D,A. Donald McEachin,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
+2018-H-VA-04,R,Ryan A. McAdams,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-VA-05,D,Leslie C. Cockburn,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-VA-05,R,Denver L. Riggleman III,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-VA-06,D,Jennifer Lynn Lewis,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -4300,14 +4469,17 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-WA-05,D,Lisa Brown,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-WA-05,R,Cathy McMorris Rodgers,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-WA-06,D,Derek Kilmer,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-WA-06,R,Douglas Dightman,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-WA-07,D,Pramila Jayapal,AP,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-WA-07,R,Craig Keller,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2018-H-WA-08,D,Kim Schrier,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-WA-08,R,Dino Rossi,NA,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-WA-10,D,Denny Heck,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-WA-10,R,Joseph Brumbles,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-WI-01,D,Randy Bryce,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-WI-01,R,Bryan Steil,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-WI-03,D,Ron Kind,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-WI-03,R,Steve Toft,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-WI-04,D,Gwen S. Moore,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-WI-04,R,Tim Rogers,B,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2018-H-WI-05,D,Tom Palzewicz,W,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,다른 해 자료의 같은 사람
@@ -4316,6 +4488,7 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-WI-06,R,Glenn Grothman,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-WI-07,D,Margaret Engebretson,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-WI-07,R,Sean P. Duffy,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-WI-08,D,Beau Liegeois,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-WI-08,R,Mike Gallagher,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-WV-01,D,Kendra Fershee,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-WV-01,R,David B. McKinley,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
@@ -4323,6 +4496,7 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-WV-02,R,Alex X. Mooney,W/H,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2018-H-WV-03,D,Richard Ojeda II,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2018-H-WV-03,R,Carol Miller,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2018-H-WY-00,D,Greg Hunter,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-WY-00,R,Liz Cheney,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2020-H-AK-00,D,Alyse S. Galvin,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2020-H-AK-00,R,Don Young,W,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,
@@ -4383,6 +4557,7 @@ race_id,party,name,race,src,source,source_url,note
 2020-H-CA-13,D,Barbara Lee,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2020-H-CA-13,R,Nikka Piterman,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
 2020-H-CA-14,D,Jackie Speier,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2020-H-CA-14,R,Ran S. Petel,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2020/11/Who_Ran_on_Nov_3rd_Congressional_Electoral_Landscape_2020.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2020-H-CA-15,D,Eric Swalwell,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
 2020-H-CA-15,R,Alison Hayden,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2020-H-CA-16,D,Jim Costa,H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
@@ -4436,6 +4611,7 @@ race_id,party,name,race,src,source,source_url,note
 2020-H-CA-45,D,Katie Porter,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2020-H-CA-45,R,Greg Raths,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
 2020-H-CA-46,D,Lou Correa,H,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
+2020-H-CA-46,R,James S. Waters,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2020/11/Who_Ran_on_Nov_3rd_Congressional_Electoral_Landscape_2020.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2020-H-CA-47,D,Alan Lowenthal,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
 2020-H-CA-47,R,John Briscoe,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
 2020-H-CA-48,D,Harley Rouda,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
@@ -4581,7 +4757,7 @@ race_id,party,name,race,src,source,source_url,note
 2020-H-IL-06,D,Sean Casten,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
 2020-H-IL-06,R,Jeanne Ives,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2020-H-IL-07,D,Danny K. Davis,B,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
-2020-H-IL-08,D,Raja Krishnamoorthi,AP,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
+2020-H-IL-07,R,Craig Cameron,B,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2020/11/Who_Ran_on_Nov_3rd_Congressional_Electoral_Landscape_2020.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2020-H-IL-09,D,Janice D. Schakowsky,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2020-H-IL-09,R,Sargis Sangari,MENA,file,Vote Assyrian fights for a seat at the table,https://theassyrianjournal.com/vote-assyrian-fights-for-a-seat-at-the-table/,
 2020-H-IL-10,D,Brad Schneider,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
@@ -4600,6 +4776,7 @@ race_id,party,name,race,src,source,source_url,note
 2020-H-IL-16,R,Adam Kinzinger,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
 2020-H-IL-17,D,Cheri Bustos,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2020-H-IL-17,R,Esther Joy King,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2020-H-IL-18,D,George Petrilli,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2020/11/Who_Ran_on_Nov_3rd_Congressional_Electoral_Landscape_2020.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2020-H-IL-18,R,Darin LaHood,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2020-H-IN-01,D,Frank J. Mrvan,W,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,
 2020-H-IN-01,R,Mark Leyva,H,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,
@@ -4627,6 +4804,7 @@ race_id,party,name,race,src,source,source_url,note
 2020-H-KS-03,R,Amanda L. Adkins,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2020-H-KS-04,D,Laura Lombard,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2020-H-KS-04,R,Ron Estes,W,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,
+2020-H-KY-01,D,James Rhodes,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2020/11/Who_Ran_on_Nov_3rd_Congressional_Electoral_Landscape_2020.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2020-H-KY-01,R,James R. Comer,W,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,
 2020-H-KY-02,D,Hank Linderman,W,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,
 2020-H-KY-02,R,S. Brett Guthrie,W,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,
@@ -4761,6 +4939,7 @@ race_id,party,name,race,src,source,source_url,note
 2020-H-NC-05,R,Virginia Foxx,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2020-H-NC-06,D,Kathy Manning,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2020-H-NC-06,R,Lee Haywood,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
+2020-H-NC-07,D,Christopher M. Ward,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2020/11/Who_Ran_on_Nov_3rd_Congressional_Electoral_Landscape_2020.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2020-H-NC-07,R,David Rouzer,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
 2020-H-NC-08,D,Patricia Timmons-Goodson,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2020-H-NC-08,R,Richard Hudson,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
@@ -4778,6 +4957,7 @@ race_id,party,name,race,src,source,source_url,note
 2020-H-NE-01,R,Jeff Fortenberry,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
 2020-H-NE-02,D,Kara Eastman,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2020-H-NE-02,R,Donald Bacon,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
+2020-H-NE-03,D,Mark Elworth Jr.,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2020/11/Who_Ran_on_Nov_3rd_Congressional_Electoral_Landscape_2020.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2020-H-NE-03,R,Adrian Smith,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
 2020-H-NH-01,D,Chris Pappas,W,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,
 2020-H-NH-01,R,Matt Mowers,W,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,
@@ -4957,7 +5137,6 @@ race_id,party,name,race,src,source,source_url,note
 2020-H-PA-17,R,Sean Parnell,W,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,
 2020-H-PA-18,D,Mike Doyle,W,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,
 2020-H-PA-18,R,Luke Edison Negron,W,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,
-2020-H-RI-01,D,David N. Cicilline,W,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,
 2020-H-RI-02,D,James R. Langevin,W,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,
 2020-H-RI-02,R,Robert B. Lancia,W,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,
 2020-H-SC-01,D,Joe Cunningham,W,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,
@@ -4994,9 +5173,11 @@ race_id,party,name,race,src,source,source_url,note
 2020-H-TX-02,R,Dan Crenshaw,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
 2020-H-TX-03,D,Lulu Seikaly,MENA,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2020-H-TX-03,R,Van Taylor,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
+2020-H-TX-04,D,Russell Foster,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2020/11/Who_Ran_on_Nov_3rd_Congressional_Electoral_Landscape_2020.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2020-H-TX-04,R,Pat Fallon,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2020-H-TX-05,D,Carolyn Salter,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2020-H-TX-05,R,Lance Gooden,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
+2020-H-TX-06,D,Stephen Daniel,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2020/11/Who_Ran_on_Nov_3rd_Congressional_Electoral_Landscape_2020.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2020-H-TX-06,R,Ron Wright,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
 2020-H-TX-07,D,Lizzie Fletcher,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2020-H-TX-07,R,Wesley Hunt,B,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
@@ -5010,7 +5191,7 @@ race_id,party,name,race,src,source,source_url,note
 2020-H-TX-11,R,August Pfluger,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
 2020-H-TX-12,D,Lisa Welch,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2020-H-TX-12,R,Kay Granger,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
-2020-H-TX-13,D,Gus Trujillo,H,research,웹 조사(2026-11-05),https://ballotpedia.org/Gus_Trujillo,"Ballotpedia survey: ""My grandparents came here from Mexico and settled in Amarillo's Barrio neighborhood""; born into that working-class family in Amarillo."
+2020-H-TX-13,D,Gus Trujillo,H,file,NALEO Educational Fund / Races to Watch 2020,https://naleo.org/COMMS/PRA/2020/RTW-10-29-20.pdf,
 2020-H-TX-13,R,Ronny Jackson,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
 2020-H-TX-14,D,Adrienne Bell,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2020-H-TX-14,R,Randy Weber,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
@@ -5038,7 +5219,7 @@ race_id,party,name,race,src,source,source_url,note
 2020-H-TX-25,R,Roger Williams,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
 2020-H-TX-26,D,Carol H. Iannuzzi,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2020-H-TX-26,R,Michael C. Burgess,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
-2020-H-TX-27,D,"Ricardo ""Rick"" De La Fuente",H,research,웹 조사(2026-11-05),https://finance.yahoo.com/news/latino-leader-ricardo-la-fuente-143000601.html,"Campaign press release (Oct 2020, TX-27 Democratic candidate): he ""draws on his Mexican heritage"" and calls himself ""a proud Latino""."
+2020-H-TX-27,D,"Ricardo ""Rick"" De La Fuente",H,file,NALEO Educational Fund / Races to Watch 2020,https://naleo.org/COMMS/PRA/2020/RTW-10-29-20.pdf,
 2020-H-TX-27,R,Michael Cloud,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
 2020-H-TX-28,D,Henry Cuellar,H,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,
 2020-H-TX-28,R,Sandra Whitten,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -5649,7 +5830,6 @@ race_id,party,name,race,src,source,source_url,note
 2022-H-NY-07,R,Juan Pagan,H,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,
 2022-H-NY-08,D,Hakeem S. Jeffries,B,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,
 2022-H-NY-08,R,Yuri Dashevsky,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,
-2022-H-NY-09,D,Yvette D. Clarke,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2022-H-NY-10,D,Daniel Goldman,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,
 2022-H-NY-10,R,Benine A. Hamdan,MENA,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2022-H-NY-11,D,Max N. Rose,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,
@@ -5755,6 +5935,7 @@ race_id,party,name,race,src,source,source_url,note
 2022-H-PA-11,R,Lloyd K. Smucker,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,
 2022-H-PA-12,D,Summer Lee,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2022-H-PA-12,R,Mike Doyle,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,
+2022-H-PA-15,D,Mike Molesevich,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2022-H-PA-15,R,Glenn GT Thompson,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,
 2022-H-PA-16,D,Dan Pastore,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,
 2022-H-PA-16,R,Mike Kelly,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,
@@ -5935,7 +6116,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-AL-06,R,Gary Palmer,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-AL-07,D,Terri Sewell,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-AL-07,R,Robin Litaker,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
-2024-H-AR-01,D,Rodney Govens,B,research,웹 조사(2026-11-05),https://www.ebony.com/whos-running-2024/ ; https://ballotpedia.org/Rodney_Govens,"EBONY ""Who's Running?"" 2024 directory (""profiling Black candidates from all political backgrounds"") lists Rodney Govens, House, Democrat, vs. Rick Crawford (Arkansas section)."
+2024-H-AR-01,D,Rodney Govens,B,file,New American Journal,https://www.newamericanjournal.net/2024/10/change-is-coming-to-harrison-arkansas-once-called-the-most-racist-town-in-america/,
 2024-H-AR-01,R,Rick Crawford,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-AR-02,R,French Hill,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-AR-03,R,Steve Womack,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
@@ -6094,6 +6275,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-FL-15,R,Laurel Lee,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-FL-16,D,Jan Schneider,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-FL-16,R,Vern Buchanan,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-FL-17,D,Manny Lopez,H,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2024-H-FL-17,R,Greg Steube,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-FL-18,D,Andrea Doria Kale,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-FL-18,R,Scott Franklin,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
@@ -6191,6 +6373,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-IN-06,D,Cynthia Wirth,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-IN-06,R,Jefferson Shreve,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/IN_candidates_cleaned.csv,다른 해 자료의 같은 사람
 2024-H-IN-07,D,André Carson,B,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2024-H-IN-07,R,John Schmitz,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2020/11/Who_Ran_on_Nov_3rd_Congressional_Electoral_Landscape_2020.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2024-H-IN-08,R,Mark Messmer,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/IN_candidates_cleaned.csv,다른 해 자료의 같은 사람
 2024-H-IN-09,D,Tim Peck,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/IN_candidates_cleaned.csv,다른 해 자료의 같은 사람
 2024-H-IN-09,R,Erin Houchin,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -6274,6 +6457,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-MN-05,R,Dalia Al-Aqidi,MENA,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-MN-06,D,Jeanne Hendricks,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-MN-06,R,Tom Emmer,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-MN-07,D,John Peters,W,rdc,Reflective Democracy Campaign (사용자 파일 4차의 기관 분류),https://wholeads.us/wp-content/uploads/2020/11/Who_Ran_on_Nov_3rd_Congressional_Electoral_Landscape_2020.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2024-H-MN-07,R,Michelle Fischbach,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-MN-08,D,Jennifer Schultz,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-MN-08,R,Pete Stauber,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
@@ -6318,7 +6502,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-NC-11,D,Caleb Rudow,W,file,State Legislators Dataset / Duke,https://people.duke.edu/~nwc8/stateleg.html,다른 해 자료의 같은 사람
 2024-H-NC-11,R,Chuck Edwards,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-NC-12,D,Alma Adams,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
-2024-H-NC-12,R,Addul Ali,B,research,웹 조사(2026-11-05),https://www.imdb.com/title/tt33468112/plotsummary ; https://aol.com/addul-ali-candidate-us-house-144055079.html,"IMDb synopsis of Jesse Lee Peterson interview: Ali discusses criticism he faces as ""a Black Republican""; AOL/candidate Q&A: past chairman of NCGOP Black Conservative Voices Coalition"
+2024-H-NC-12,R,Addul Ali,B,file,Christian Science Monitor,https://www.csmonitor.com/USA/Politics/2024/1024/trump-harris-black-voters-north-carolina,
 2024-H-NC-13,D,Frank Pierce,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/2026_candidates_cleaned.csv,다른 해 자료의 같은 사람
 2024-H-NC-13,R,Brad Knott,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/2026_candidates_cleaned.csv,다른 해 자료의 같은 사람
 2024-H-NC-14,D,Pam Genant,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -6483,7 +6667,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-RI-01,D,Gabe Amo,B,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-RI-01,R,Allen Waters,B,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-RI-02,D,Seth Magaziner,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
-2024-H-SC-01,D,Michael B. Moore,B,research,웹 조사(2026-11-05),https://thegrio.com/2023/10/13/descendant-of-civil-war-hero-wants-to-unseat-sc-house-rep-nancy-mace,'the only Black Democratic candidate looking to unseat Republican U.S. Rep. Nancy Mace'
+2024-H-SC-01,D,Michael B. Moore,B,file,theGrio,https://thegrio.com/2023/10/13/descendant-of-civil-war-hero-wants-to-unseat-sc-house-rep-nancy-mace/,다른 자료(주의회·주 선거 등)에서 연결한 같은 사람
 2024-H-SC-01,R,Nancy Mace,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-SC-02,D,David Robinson,B,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/SC_candidates_cleaned.csv,다른 해 자료의 같은 사람
 2024-H-SC-02,R,Joe Wilson,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
@@ -6521,7 +6705,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-TX-04,R,Pat Fallon,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-TX-05,D,Ruth Torres,W/H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-TX-05,R,Lance Gooden,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
-2024-H-TX-06,D,John Love III,B,research,웹 조사(2026-11-05),https://www.offthekuff.com/wp/?p=92431 ; https://ballotpedia.org/John_Love_III_(Texas),"Off the Kuff (2019 TX Senate primary): Love is ""the fourth African-American in the field, along with Amanda Edwards, Royce West, and Michael Cooper."" Ballotpedia lists Texas Black Democrats, NAACP."
+2024-H-TX-06,D,John Love III,B,file,Love Wealth Management / John B. Love III biography,https://www.lovewealth.net/team,다른 자료(주의회·주 선거 등)에서 연결한 같은 사람
 2024-H-TX-06,R,Jake Ellzey,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-TX-07,D,Lizzie Fletcher,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-TX-07,R,Caroline Kane,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -6586,6 +6770,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-VA-07,D,Eugene Vindman,W,file,High-stakes House primaries in Virginia show fissures across both parties - ABC News,https://abcnews.com/Politics/high-stakes-house-primaries-virginia-show-fissures-parties/story?id=111138645,
 2024-H-VA-07,R,Derrick Anderson,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-VA-08,D,Don Beyer,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-VA-08,R,Jerry Torres,H,file,Gateway Hispanic,https://gatewayhispanic.com/2024/11/el-poder-hispano-en-las-elecciones-de-2024-un-analisis-de-los-candidatos-hispanos-y-su-impacto-en-el-congreso-de-ee-uu/,
 2024-H-VA-09,D,Karen Baker,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-VA-09,R,Morgan Griffith,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-VA-10,D,Suhas Subramanyam,AP,file,Individual verification,https://subramanyam.house.gov/media/press-releases/suhas-subramanyam-sworn-represent-virginias-10th-district,다른 해 자료의 같은 사람
