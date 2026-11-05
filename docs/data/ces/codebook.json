@@ -28,7 +28,7 @@
 {
 "table": "ces_nominee_race",
 "title": "후보 인종 자료",
-"unit": "한 줄 = 2008–2024 하원에서 민주·공화 후보가 모두 나온 선거의 후보 한 명(정당마다 1명). docs/data/ces/nominee_race.csv·.dta"
+"unit": "한 줄 = 후보 한 명(정당마다 1명): 2008–2024 하원에서 민주·공화 후보가 모두 나온 선거(분석 대상)와 2026 하원·상원의 민주·공화 후보. docs/data/ces/nominee_race.csv·.dta"
 }
 ],
 "vars": [
@@ -468,7 +468,7 @@
 "table": "ces_individual",
 "name": "d_race_src",
 "label": "민주 후보 인종의 근거",
-"values": "cawp = CAWP, file = 출판 코드 모음, research = 웹 조사, rdc = Reflective Democracy Campaign 공표 분류(개별 기록의 조사·추정 방식 구분 안 됨), list = 소수 인종 의원 명단, member = 의원이었고 명단에 없음(백인으로 봄), none = 모름"
+"values": "cawp = CAWP, file = 출판 코드 모음, research = 웹 조사, rdc = Reflective Democracy Campaign 공표 분류(개별 기록의 조사·추정 방식 구분 안 됨), surname = 히스패닉(추정): 성과 이름이 모두 히스패닉 쪽인 경우(확률 0.9 이상, 미국 인구조사 2010 성씨표 × Tzioumis 2018 이름표), list = 소수 인종 의원 명단, member = 의원이었고 명단에 없음(백인으로 봄), none = 모름"
 },
 {
 "table": "ces_individual",
@@ -588,7 +588,7 @@
 "table": "ces_individual",
 "name": "m_race_src",
 "label": "남성 후보 인종의 근거",
-"values": "file, research, rdc, list, member, none(d_race_src와 같은 코드)"
+"values": "file, research, rdc, surname, list, member, none(d_race_src와 같은 코드)"
 },
 {
 "table": "ces_individual",
@@ -936,13 +936,19 @@
 "table": "ces_nominee_race",
 "name": "race_id",
 "label": "선거 번호",
-"values": "트래커의 하원 선거 번호"
+"values": "트래커의 선거 번호"
 },
 {
 "table": "ces_nominee_race",
 "name": "year",
 "label": "선거 연도",
-"values": "2008–2024 짝수 해"
+"values": "2008–2024 짝수 해(하원 분석 대상), 2026"
+},
+{
+"table": "ces_nominee_race",
+"name": "chamber",
+"label": "의회",
+"values": "H = 하원, S = 상원(2026만)"
 },
 {
 "table": "ces_nominee_race",
@@ -954,13 +960,13 @@
 "table": "ces_nominee_race",
 "name": "district",
 "label": "선거구",
-"values": "0 = 주 전체 한 석"
+"values": "0 = 주 전체 한 석, 상원"
 },
 {
 "table": "ces_nominee_race",
 "name": "matchup",
 "label": "본선 대결(민주-공화 성별)",
-"values": "F-M, M-F, F-F, M-M"
+"values": "F-M, M-F, F-F, M-M; 2026은 D only·R only(한 정당 후보만)도 있음"
 },
 {
 "table": "ces_nominee_race",
@@ -996,25 +1002,25 @@
 "table": "ces_nominee_race",
 "name": "race_src",
 "label": "인종 근거",
-"values": "cawp, file, research, rdc, list, member, none(ces_individual의 d_race_src와 같은 코드)"
+"values": "cawp, file, research, rdc, surname, list, member, none(ces_individual의 d_race_src와 같은 코드)"
 },
 {
 "table": "ces_nominee_race",
 "name": "source",
 "label": "인종 출처",
-"values": "file·research·rdc는 원출처 이름(예: Hassell & Visalvanich, 웹 조사), cawp는 CAWP, list·member는 의원 명단 설명"
+"values": "file·research·rdc는 원출처 이름(예: Hassell & Visalvanich, 웹 조사), surname은 쓴 이름표, cawp는 CAWP, list·member는 의원 명단 설명"
 },
 {
 "table": "ces_nominee_race",
 "name": "source_url",
 "label": "출처 주소",
-"values": "여럿이면 ' ; '로 이음"
+"values": "여럿이면 ' ; ' 또는 ' | '로 이음"
 },
 {
 "table": "ces_nominee_race",
 "name": "note",
 "label": "메모",
-"values": "웹 조사는 근거 문장, 다른 해 자료·연결 자료의 같은 사람 등"
+"values": "웹 조사는 근거 문장, 다른 해 자료·연결 자료의 같은 사람, surname은 확률 등"
 },
 {
 "table": "ces_nominee_race",

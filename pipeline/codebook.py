@@ -21,7 +21,7 @@ TABLES = [
     ("ces_individual", "CES 개인 분석 자료", "한 줄 = 응답자 한 명(2008–2024 민주·공화 후보가 모두 나온 하원 선거에서 둘 중 한 명을 찍은 사람; 여성 대 남성 mixed, 둘 다 여성 ff, 둘 다 남성 mm). docs/data/ces/ces_individual.zip 안의 ces_individual.dta"),
     ("ces_models", "CES 회귀계수", "한 줄 = 모형 하나의 변수 하나. docs/data/ces/ces_models.csv"),
     ("ces_models_pred", "CES 보정 예측", "한 줄 = 모형 하나의 예측값 또는 차이 하나. docs/data/ces/ces_models_pred.csv"),
-    ("ces_nominee_race", "후보 인종 자료", "한 줄 = 2008–2024 하원에서 민주·공화 후보가 모두 나온 선거의 후보 한 명(정당마다 1명). docs/data/ces/nominee_race.csv·.dta"),
+    ("ces_nominee_race", "후보 인종 자료", "한 줄 = 후보 한 명(정당마다 1명): 2008–2024 하원에서 민주·공화 후보가 모두 나온 선거(분석 대상)와 2026 하원·상원의 민주·공화 후보. docs/data/ces/nominee_race.csv·.dta"),
 ]
 
 COMMON = [
@@ -220,7 +220,7 @@ CES_INDIVIDUAL = [
     ("d_female", "민주 후보가 여성", "1/0"), ("r_female", "공화 후보가 여성", "1/0"),
     ("d_race", "민주 후보 인종", "순서대로 ① 여성은 CAWP 코드 ② 출판된 후보 인종 코드 모음(사용자 제공 파일, 원출처는 data/static/nominee_race.csv) ③ 출처를 남긴 웹 조사 ④ Reflective Democracy Campaign 공표 분류(사용자 파일에 따로 표시) ⑤ 의회에 있었으면 소수 인종 의원 명단의 코드 ⑥ 명단에 없는 의원은 W(추정). 빈칸 = 모름"),
     ("r_race", "공화 후보 인종", "같은 방식"),
-    ("d_race_src", "민주 후보 인종의 근거", "cawp = CAWP, file = 출판 코드 모음, research = 웹 조사, rdc = Reflective Democracy Campaign 공표 분류(개별 기록의 조사·추정 방식 구분 안 됨), list = 소수 인종 의원 명단, member = 의원이었고 명단에 없음(백인으로 봄), none = 모름"),
+    ("d_race_src", "민주 후보 인종의 근거", "cawp = CAWP, file = 출판 코드 모음, research = 웹 조사, rdc = Reflective Democracy Campaign 공표 분류(개별 기록의 조사·추정 방식 구분 안 됨), surname = 히스패닉(추정): 성과 이름이 모두 히스패닉 쪽인 경우(확률 0.9 이상, 미국 인구조사 2010 성씨표 × Tzioumis 2018 이름표), list = 소수 인종 의원 명단, member = 의원이었고 명단에 없음(백인으로 봄), none = 모름"),
     ("r_race_src", "공화 후보 인종의 근거", "같은 코드"),
     ("same_race_d", "민주 후보와 같은 인종", "1 = 응답자 인종이 민주 후보의 코드 가운데 하나. 후보 인종을 모르면 0"),
     ("same_race_r", "공화 후보와 같은 인종", "같은 방식"), ("d_race_unk", "민주 후보 인종 모름", "1/0"), ("r_race_unk", "공화 후보 인종 모름", "1/0"),
@@ -234,7 +234,7 @@ CES_INDIVIDUAL = [
     ("rrace", "응답자 인종", "CES race_h(히스패닉이면 H)를 CAWP 코드로: W 백인, B 흑인, H 히스패닉, AP 아시아계, NA 원주민, MENA 중동계, MU 여러 인종, OTHER 그 밖"),
     ("w_race", "여성 후보 인종", "d_race 또는 r_race 가운데 여성 쪽(여성 대 남성 선거만; 빈칸 = 모름)"),
     ("m_race", "남성 후보 인종", "d_race 또는 r_race 가운데 남성 쪽(여성 대 남성 선거만; 빈칸 = 모름)"),
-    ("m_race_src", "남성 후보 인종의 근거", "file, research, rdc, list, member, none(d_race_src와 같은 코드)"),
+    ("m_race_src", "남성 후보 인종의 근거", "file, research, rdc, surname, list, member, none(d_race_src와 같은 코드)"),
     ("same_race_w", "여성 후보와 같은 인종", "1 = 응답자 인종이 여성 후보의 코드 가운데 하나. 여성 후보 인종을 모르면 빈칸(모형에서 빠짐)"),
     ("same_race_m", "남성 후보와 같은 인종", "1 = 응답자 인종이 남성 후보의 코드 가운데 하나. 남성 후보 인종을 모르면 0"),
     ("m_race_unk", "남성 후보 인종 모름", "1 = 어느 자료에서도 인종을 찾지 못한 남성 후보(대개 약한 도전자라 후보 경쟁력도 함께 담김)"),
@@ -249,13 +249,14 @@ CES_INDIVIDUAL = [
     ("women_prior_since_1990", "기존 여성 의원·후보 수(본인 포함)", "races와 같음"), ("women_prior_since_1990_excl", "기존 여성 의원·후보 수(본인 제외)", "races와 같음"),
 ]
 CES_NOMINEE = [
-    ("race_id", "선거 번호", "트래커의 하원 선거 번호"), ("year", "선거 연도", "2008–2024 짝수 해"), ("state", "주", ""), ("district", "선거구", "0 = 주 전체 한 석"),
-    ("matchup", "본선 대결(민주-공화 성별)", "F-M, M-F, F-F, M-M"), ("party", "정당", "D = 민주, R = 공화(본선 투표용지 기준)"), ("name", "후보 이름", ""),
+    ("race_id", "선거 번호", "트래커의 선거 번호"), ("year", "선거 연도", "2008–2024 짝수 해(하원 분석 대상), 2026"), ("chamber", "의회", "H = 하원, S = 상원(2026만)"),
+    ("state", "주", ""), ("district", "선거구", "0 = 주 전체 한 석, 상원"),
+    ("matchup", "본선 대결(민주-공화 성별)", "F-M, M-F, F-F, M-M; 2026은 D only·R only(한 정당 후보만)도 있음"), ("party", "정당", "D = 민주, R = 공화(본선 투표용지 기준)"), ("name", "후보 이름", ""),
     ("female", "여성 후보", "1/0"), ("incumbent", "현직", "1/0"),
     ("race", "후보 인종", "CAWP 코드(W, B, H, AP, NA, MENA, MU, OTHER), 여럿이면 /로 이음. 빈칸 = 모름. 정하는 순서는 ces_individual의 d_race와 같음"),
-    ("race_src", "인종 근거", "cawp, file, research, rdc, list, member, none(ces_individual의 d_race_src와 같은 코드)"),
-    ("source", "인종 출처", "file·research·rdc는 원출처 이름(예: Hassell & Visalvanich, 웹 조사), cawp는 CAWP, list·member는 의원 명단 설명"),
-    ("source_url", "출처 주소", "여럿이면 ' ; '로 이음"), ("note", "메모", "웹 조사는 근거 문장, 다른 해 자료·연결 자료의 같은 사람 등"),
+    ("race_src", "인종 근거", "cawp, file, research, rdc, surname, list, member, none(ces_individual의 d_race_src와 같은 코드)"),
+    ("source", "인종 출처", "file·research·rdc는 원출처 이름(예: Hassell & Visalvanich, 웹 조사), surname은 쓴 이름표, cawp는 CAWP, list·member는 의원 명단 설명"),
+    ("source_url", "출처 주소", "여럿이면 ' ; ' 또는 ' | '로 이음"), ("note", "메모", "웹 조사는 근거 문장, 다른 해 자료·연결 자료의 같은 사람, surname은 확률 등"),
     ("bioguide", "의회 인명록 번호", "의원이었던 사람만(congress-legislators)"),
 ]
 CES_MODELS = [
