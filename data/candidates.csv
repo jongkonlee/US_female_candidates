@@ -24348,10 +24348,10 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2012-H-NY-04,2012,H,NY,4,0,party,Opportunity to Ballot (Frank Scaturro),O,,,,0,O,votes,253.0,56.59955257270693,,,,,,,,,,,,FEC,,,,,,
 2012-H-NY-04,2012,H,NY,4,0,party,Francis X. Becker Jr.,R,M,not in CAWP,,0,R,votes,6357.0,55.12486992715922,,,1.0,85693.0,32.300414624952886,0.0,,,,,H0NY04099,FEC,FEC,,,,,
 2012-H-NY-05,2012,H,NY,5,0,party,Gregory W. Meeks,D,M,not in CAWP,,1,D,votes,9920.0,66.51914437068329,,,1.0,167836.0,89.68424877498784,1.0,,,,,H8NY06048,FEC,FEC,,,,,
-2012-H-NY-05,2012,H,NY,5,0,party,Allan W. Jennings Jr.,D,M,not in CAWP,,0,D,votes,1972.0,13.223362167236639,,,0.0,17875.0,9.551621504640886,0.0,,,,,H2NY05084,FEC,FEC,,,,,
 2012-H-NY-05,2012,H,NY,5,0,party,Mike Scala,D,M,not in CAWP,,0,D,votes,1694.0,11.359216790719506,,,0.0,,,,,,,,H2NY06108,FEC,,,,,,
 2012-H-NY-05,2012,H,NY,5,0,party,Joseph R. Marthone,D,M,not in CAWP,,0,D,votes,1327.0,8.898276671360557,,,0.0,,,,,,,,H2NY05092,FEC,,,,,,
 2012-H-NY-05,2012,H,NY,5,0,party,Catherine Wark,O,,,,0,,,,,,,,1345.0,0.7187094223072443,0.0,,,,,H2NY05100,,FEC,,,,,
+2012-H-NY-05,2012,H,NY,5,0,party,Allan W. Jennings Jr.,R,M,not in CAWP,,0,R,votes,1972.0,13.223362167236639,,,1.0,17875.0,9.551621504640886,0.0,,,,,H2NY05084,FEC,FEC,,,,,general ballot line R (primary D)
 2012-H-NY-06,2012,H,NY,6,0,party,Grace Meng,D,F,CAWP,AP,0,D,votes,14825.0,52.98048745622186,,,1.0,111501.0,67.83372066141847,1.0,,,,,H2NY06116,FEC,FEC,W,W,O,,#  Rory Lancman declined the nomination after the primary election and Grace Meng was selected as the Working Families Party nominee for the general election.
 2012-H-NY-06,2012,H,NY,6,0,party,Rory I. Lancman,D,M,not in CAWP,,0,D,votes,7089.0,25.33414337788578,,,0.0,,,,,,,,H2NY09102,FEC,,,,,,#  Rory Lancman declined the nomination after the primary election and Grace Meng was selected as the Working Families Party nominee for the general election.
 2012-H-NY-06,2012,H,NY,6,0,party,Elizabeth S. Crowley,D,F,CAWP,W,0,D,votes,4606.0,16.460581802587377,,,0.0,,,,,,,,H2NY06124,FEC,,L,,O,,
@@ -24382,8 +24382,8 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2012-H-NY-13,2012,H,NY,13,0,party,Adriano Espaillat,D,M,not in CAWP,,0,D,votes,18101.0,41.929580727356964,,,0.0,,,,,,,,H2NY13096,FEC,,,,,,
 2012-H-NY-13,2012,H,NY,13,0,party,Clyde Edward Williams Jr.,D,M,not in CAWP,,0,D,votes,4266.0,9.881862404447533,,,0.0,,,,,,,,H2NY15109,FEC,,,,,,
 2012-H-NY-13,2012,H,NY,13,0,party,Joyce S. Johnson,D,F,CAWP,B,0,D,votes,1018.0,2.3581190641649297,,,0.0,,,,,,,,H0NY15129,FEC,,L,,CP,,
-2012-H-NY-13,2012,H,NY,13,0,party,Craig Schley,D,M,not in CAWP,,0,D,votes,598.0,1.3852212184387307,,,0.0,12147.0,6.29662075650682,0.0,,,,,H8NY15122,FEC,FEC,,,,,
 2012-H-NY-13,2012,H,NY,13,0,party,Deborah O. Liatos,O,,,,0,,,,,,,,5548.0,2.875907792631912,0.0,,,,,H2NY13104,,FEC,,,,,
+2012-H-NY-13,2012,H,NY,13,0,party,Craig Schley,R,M,not in CAWP,,0,R,votes,598.0,1.3852212184387307,,,1.0,12147.0,6.29662075650682,0.0,,,,,H8NY15122,FEC,FEC,,,,,general ballot line R (primary D)
 2012-H-NY-14,2012,H,NY,14,0,party,Joseph Crowley,D,M,not in CAWP,,1,D,unopposed,,,,,1.0,120761.0,83.17446105103657,1.0,,,,,H8NY07046,FEC,FEC,,,,,
 2012-H-NY-14,2012,H,NY,14,0,party,Anthony Gronowicz,O,,,,0,O,unopposed,,,,,,2570.0,1.7700943591156415,0.0,,,,,H0NY07076,FEC,FEC,,,,,
 2012-H-NY-14,2012,H,NY,14,0,party,Willam F. Gibbons Jr.,R,M,not in CAWP,,0,R,unopposed,,,,,1.0,21755.0,14.98381431228046,0.0,,,,,H8NY03052,FEC,FEC,,,,,
@@ -25439,7 +25439,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2012-S-VA-00,2012,S,VA,0,0,party,Jamie L. Radtke,R,F,CAWP,W,0,R,votes,59117.0,23.049360573923895,,,0.0,,,,,,,,S0VA00054,FEC,,L,,O,,
 2012-S-VA-00,2012,S,VA,0,0,party,"R. G. ""Bob"" Marshall",R,M,not in CAWP,,0,R,votes,17341.0,6.761150966936993,,,0.0,,,,,,,,S8VA00263,FEC,,,,,,
 2012-S-VA-00,2012,S,VA,0,0,party,E. W. Jackson,R,M,not in CAWP,,0,R,votes,12116.0,4.723955084217093,,,0.0,,,,,,,,S2VA00167,FEC,,,,,,
-2012-S-VT-00,2012,S,VT,0,0,party,Bernie Sanders,D,M,not in CAWP,,1,D,votes,36902.0,98.66844919786097,,,1.0,207848.0,70.99555270151181,1.0,,,,,S4VT00033,FEC,FEC,,,,,
+2012-S-VT-00,2012,S,VT,0,0,party,Bernie Sanders,O,,,,1,D,votes,36902.0,98.66844919786097,,,1.0,207848.0,70.99555270151181,1.0,,,,,S4VT00033,FEC,FEC,,,,,"general party O from research (was D; not counted as D or R): won the Democratic primary, declined the nomination and ran as an independent in the general election (as in 2006 and 2018)"
 2012-S-VT-00,2012,S,VT,0,0,party,Cris Ericson,O,,,,0,,,,,,,,5924.0,2.0234866546887913,0.0,,,,,S4VT00132,,FEC,,,,,ballot label USM; FEC registration DEM (not counted as D or R)
 2012-S-VT-00,2012,S,VT,0,0,party,Pete Diamondstone,O,,,,0,,,,,,,,2511.0,0.8576932798655562,0.0,,,,,S6VT00152,,FEC,,,,,
 2012-S-VT-00,2012,S,VT,0,0,party,Peter Moss,O,,,,0,,,,,,,,2452.0,0.8375403911709853,0.0,,,,,S4VT00124,,FEC,,,,,
@@ -29161,9 +29161,9 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2016-H-PA-08,2016,H,PA,8,0,party,Brian Fitzpatrick,R,M,not in CAWP,,0,R,votes,74150.0,78.26435726122246,,,1.0,207263.0,54.41944851415998,1.0,,,,,H6PA08277,FEC,FEC,,,,,
 2016-H-PA-08,2016,H,PA,8,0,party,Andrew L. Warren,R,M,not in CAWP,,0,R,votes,11828.0,12.484299631635055,,,0.0,,,,,,,,H6PA08210,FEC,,,,,,
 2016-H-PA-08,2016,H,PA,8,0,party,Marc Duome,R,M,not in CAWP,,0,R,votes,8641.0,9.120462725478399,,,0.0,,,,,,,,H6PA08251,FEC,,,,,,
-2016-H-PA-09,2016,H,PA,9,0,party,Adam Sedlock,D,M,not in CAWP,,0,D,votes,1028.0,25.22699386503067,,,1.0,996.0,0.33525871470695157,0.0,,,,,H2PA09100,FEC,FEC,,,,,party from FEC candidate file (DEM)
+2016-H-PA-09,2016,H,PA,9,0,party,Art Halvorson,D,M,not in CAWP,,0,R,votes,48166.0,49.30999180999181,,,0.0,107985.0,36.34830552974916,0.0,,,,,H4PA09056,FEC,FEC,,,,,general ballot line D (primary R)
+2016-H-PA-09,2016,H,PA,9,0,party,Adam Sedlock,D,M,not in CAWP,,0,O,votes,1028.0,25.22699386503067,,,,996.0,0.33525871470695157,0.0,,,,,H2PA09100,FEC,FEC,,,,,party from FEC candidate file (DEM)
 2016-H-PA-09,2016,H,PA,9,0,party,Bill Shuster,R,M,not in CAWP,,1,R,votes,49393.0,50.56613431613432,,,1.0,186580.0,62.80378613456127,1.0,,,,,H2PA09035,FEC,FEC,,,,,
-2016-H-PA-09,2016,H,PA,9,0,party,Art Halvorson,R,M,not in CAWP,,0,R,votes,48166.0,49.30999180999181,,,0.0,107985.0,36.34830552974916,0.0,,,,,H4PA09056,FEC,FEC,,,,,
 2016-H-PA-10,2016,H,PA,10,0,party,Michael Molesevich,D,M,not in CAWP,,0,D,votes,2263.0,46.08022805945836,,,1.0,89823.0,29.788878129021136,0.0,,,,,H6PA10141,FEC,FEC,,,,,
 2016-H-PA-10,2016,H,PA,10,0,party,Tom Marino,R,M,not in CAWP,,1,R,votes,95321.0,98.93715293995537,,,1.0,211282.0,70.06951169361793,1.0,,,,,H0PA10078,FEC,FEC,,,,,
 2016-H-PA-11,2016,H,PA,11,0,party,Mike Marsicano,D,M,not in CAWP,,0,D,votes,58117.0,99.73571759537334,,,1.0,113800.0,36.30609419166299,0.0,,,,,H6PA11073,FEC,FEC,,,,,
@@ -38050,7 +38050,7 @@ race_id,year,chamber,state,district,special,system,name,party,gender,gender_src,
 2022-H-WI-07,2022,H,WI,7,0,party,Richard Dick Ausman,D,M,not in CAWP,,0,D,votes,43265.0,99.84537985784178,,,1.0,128877.0,38.09908120188726,0.0,,,,,H2WI07123,FEC,FEC,,,,,
 2022-H-WI-07,2022,H,WI,7,0,party,Tom Tiffany,R,M,not in CAWP,,1,R,votes,80675.0,86.57695073135659,,,1.0,209224.0,61.85154965885038,1.0,,,,,H0WI07101,FEC,FEC,,,,,
 2022-H-WI-07,2022,H,WI,7,0,party,David W. Kunelius II,R,M,not in CAWP,,0,R,votes,12456.0,13.367245098354848,,,0.0,,,,,,,,H2WI07115,FEC,,,,,,
-2022-H-WI-08,2022,H,WI,8,0,party,Julie Hancock,D,M,not in CAWP,,0,D,votes,4120.0,73.2574679943101,,,1.0,3160.0,1.0187107506221873,0.0,,,,,H2WI08097,FEC,FEC,,,,,party from FEC candidate file (DEM)
+2022-H-WI-08,2022,H,WI,8,0,party,Julie Hancock,D,F,research (gender_overrides.csv),,0,D,votes,4120.0,73.2574679943101,,,1.0,3160.0,1.0187107506221873,0.0,,,,,H2WI08097,FEC,FEC,,,,,party from FEC candidate file (DEM) | gender from research: Door County Pulse profile of the write-in Democratic candidate uses she/her; Ballotpedia lists her as a 2022 write-in candidate
 2022-H-WI-08,2022,H,WI,8,0,party,Jacob J. VandenPlas,O,,,,0,O,votes,135.0,97.12230215827337,,,,32057.0,10.334433712878308,0.0,,,,,H2WI08063,FEC,FEC,,,,,
 2022-H-WI-08,2022,H,WI,8,0,party,Paul David Boucher,O,,,,0,,,,,,,,48896.0,15.762936981779262,0.0,,,,,H2WI08071,,FEC,,,,,
 2022-H-WI-08,2022,H,WI,8,0,party,Robbie Hoffman,O,,,,0,,,,,,,,135.0,0.04352087067531496,0.0,,,,,H6WI08171,,FEC,,,,,

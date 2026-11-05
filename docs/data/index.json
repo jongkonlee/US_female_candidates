@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T12:44:45Z",
+ "generated": "2026-11-05T13:23:06Z",
  "years": [
   1990,
   1992,
@@ -1165,14 +1165,14 @@
     "mixed": 79,
     "mixed_woman_won": 47,
     "women_candidates": 192,
-    "candidates": 802,
+    "candidates": 800,
     "nominees": 411,
     "women_nominees": 117,
     "seats": 201,
     "women_seats": 58
    },
    "R": {
-    "primaries": 353,
+    "primaries": 355,
     "with_woman": 81,
     "woman_won": 41,
     "contested": 185,
@@ -1181,8 +1181,8 @@
     "mixed": 59,
     "mixed_woman_won": 19,
     "women_candidates": 108,
-    "candidates": 916,
-    "nominees": 413,
+    "candidates": 918,
+    "nominees": 415,
     "women_nominees": 48,
     "seats": 234,
     "women_seats": 20
@@ -1204,10 +1204,10 @@
     "mixed": 10,
     "mixed_woman_won": 5,
     "women_candidates": 21,
-    "candidates": 91,
-    "nominees": 33,
+    "candidates": 90,
+    "nominees": 32,
     "women_nominees": 12,
-    "seats": 24,
+    "seats": 23,
     "women_seats": 10
    },
    "R": {
@@ -1312,7 +1312,7 @@
    "decided": 435,
    "women_won": 83,
    "D": {
-    "primaries": 339,
+    "primaries": 338,
     "with_woman": 127,
     "woman_won": 99,
     "contested": 144,
@@ -1321,7 +1321,7 @@
     "mixed": 72,
     "mixed_woman_won": 44,
     "women_candidates": 180,
-    "candidates": 730,
+    "candidates": 731,
     "nominees": 406,
     "women_nominees": 121,
     "seats": 194,
@@ -1337,7 +1337,7 @@
     "mixed": 50,
     "mixed_woman_won": 17,
     "women_candidates": 96,
-    "candidates": 839,
+    "candidates": 838,
     "nominees": 403,
     "women_nominees": 47,
     "seats": 241,
@@ -1547,17 +1547,17 @@
    "women_won": 124,
    "D": {
     "primaries": 348,
-    "with_woman": 199,
-    "woman_won": 151,
+    "with_woman": 200,
+    "woman_won": 152,
     "contested": 176,
     "contested_with_woman": 119,
     "contested_woman_won": 71,
     "mixed": 111,
     "mixed_woman_won": 63,
-    "women_candidates": 322,
+    "women_candidates": 323,
     "candidates": 889,
     "nominees": 413,
-    "women_nominees": 177,
+    "women_nominees": 178,
     "seats": 213,
     "women_seats": 91
    },
@@ -1776,7 +1776,7 @@
  ],
  "counts": {
   "candidates": 43765,
-  "primaries": 16964,
+  "primaries": 16965,
   "races": 8928
  },
  "cawp_list": {
