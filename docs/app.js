@@ -24,7 +24,7 @@ const CONTEST = { contested: '경쟁 경선', runoff: '경쟁 경선(결선까�
 const RACE_ETH = { W: '백인', B: '흑인', H: '히스패닉', AP: '아시아·태평양계', MENA: '중동·북아프리카계', NA: '원주민', MU: '여러 인종' };
 const QUAL = { 0: '선출직 경험 없음', 1: '선출직 경험 있음', 2: '현직', 3: '전직 하원의원' };
 const GSRC = { 'CAWP': 'CAWP 명단', 'not in CAWP': 'CAWP 명단에 없음(남성으로 봄)', 'first name': '이름', 'Wikipedia page (pronouns)': '위키백과 본인 문서(대명사)',
-  'member or earlier candidate': '의원 명부·예전 경선 자료', 'CAWP (earlier race)': '예전 CAWP 기록', 'unknown': '모름', 'Pettigrew and first name (not in CAWP)': 'Pettigrew 외 자료·이름', 'Pettigrew': 'Pettigrew 외 자료' };
+  'member or earlier candidate': '의원 명부·예전 경선 자료', 'CAWP (earlier race)': '예전 CAWP 기록', 'CAWP (other year)': '다른 해 CAWP 기록의 같은 여성', 'research (gender_overrides.csv)': '조사(대명사 등, gender_overrides.csv)', 'unknown': '모름', 'Pettigrew and first name (not in CAWP)': 'Pettigrew 외 자료·이름', 'Pettigrew': 'Pettigrew 외 자료' };
 const RSRC = { 'FEC': 'FEC 공식 결과', 'MEDSL': 'MEDSL(MIT 선거연구소가 모은 주 공식 결과)', 'Wikipedia': '위키백과(비공식)', 'Wikipedia overview': '위키백과 전체 표(득표율만)', 'Pettigrew-Owen-Wanless': 'Pettigrew 외(하원 경선)', 'Miller-Camberg': 'Miller·Camberg(하원 경선)', 'CAWP only': 'CAWP(득표 기록 없음)' };
 const C = { d: 'var(--d)', r: 'var(--r)', w: 'var(--w)', none: 'var(--none)', na: 'var(--na)', dl: '#b9cfe9', rl: '#f0c1bd', open: '#efe2b0', ff: 'var(--ff)', fm: 'var(--fm)', mf: 'var(--mf)', mm: 'var(--mm)' };
 

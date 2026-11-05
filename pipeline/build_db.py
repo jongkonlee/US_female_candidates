@@ -762,6 +762,26 @@ def apply_cawp(rows, cawp):
     fn = first_name_table()
     cawp_max = int(cawp.Year.max())
     list_years = set(cawp[cawp.cawp_src != "CAWP"].Year.astype(int))
+    # the same woman in CAWP in another year (CAWP sometimes misses a year, e.g. Debra Wirth, MI-4 2012 but not 2016)
+    by_last = collections.defaultdict(list)
+    for c in cawp.to_dict("records"):
+        for t in N.tokens(str(c.get("LName") or "")):
+            if len(t.strip(",'-")) > 1:
+                by_last[(c["State"], t.strip(",'-"))].append(c)
+
+    def other_year(r):
+        toks = {t.strip(",'-") for t in N.tokens(r["name"]) if len(t.strip(",'-")) > 1}
+        for t in toks:
+            for c in by_last.get((r["state"], t), []):
+                if int(c["Year"]) == r["year"]:
+                    continue
+                full = {x.strip(",'-") for x in N.tokens(c["name"]) if len(x.strip(",'-")) > 1}
+                exact = N.tokens(r["name"]) in (N.tokens(c["name"]), N.tokens(c["name_short"]))
+                pf = fn.get(N.split_name(r["name"])[0])
+                if exact or ((N.same_person(c["name"], r["name"]) or N.same_person(c["name_short"], r["name"]))
+                             and ((pf is not None and pf >= 0.5) or len(toks & full) >= 2)):
+                    return c
+        return None
     women_in = collections.defaultdict(list)
     for r in rows:
         if is_cawp(r):
@@ -779,8 +799,21 @@ def apply_cawp(rows, cawp):
                 pf = fn.get(N.split_name(r["name"])[0])
                 if r["gender"] == "F" and r["gender_src"] == "Pettigrew" and pf is not None and pf >= 0.95:
                     r["gender_src"] = "Pettigrew and first name (not in CAWP)"
+                elif r["year"] not in list_years and (c := other_year(r)) is not None:
+                    r["gender"], r["gender_src"] = "F", "CAWP (other year)"
+                    if ok(c["Race"]) and str(c["Race"]) != "unavailable" and not r.get("race_eth"):
+                        r["race_eth"] = str(c["Race"])
+                    r["note"] = (str(r["note"] or "") + f" | CAWP lists the same woman in {int(c['Year'])}").strip(" |")
                 else:
                     r["gender"], r["gender_src"] = "M", ("not in " + CAWP_LIST_SRC) if r["year"] in list_years else "not in CAWP"
+    # women confirmed by research but in no CAWP record (write-in candidates): data/static/gender_overrides.csv
+    gp = os.path.join(STATIC, "gender_overrides.csv")
+    if os.path.exists(gp):
+        for o in pd.read_csv(gp, dtype=str, keep_default_na=False).to_dict("records"):
+            for r in rows:
+                if r["race_id"] == o["race_id"] and N.same_person(r["name"], o["name"]):
+                    r["gender"], r["gender_src"] = o["gender"], "research (gender_overrides.csv)"
+                    r["note"] = (str(r["note"] or "") + " | gender from research: " + o["evidence"]).strip(" |")
     return pd.DataFrame(unmatched)
 
 

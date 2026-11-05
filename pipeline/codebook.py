@@ -41,7 +41,8 @@ CANDIDATES = [
     ("gender", "성별", "F = 여성, M = 남성, 빈칸 = 모름"),
     ("gender_src", "성별을 정한 근거", "CAWP = CAWP 데이터베이스에 있음(여성) / not in CAWP = 민주·공화 후보인데 CAWP에 없음(남성으로 봄) / "
      "CAWP 2026 list, not in CAWP 2026 list = 2026년은 CAWP 후보 목록으로 같은 규칙 / Wikipedia page (pronouns) = 위키백과 본인 문서의 대명사 / "
-     "CAWP (earlier race) = 예전 선거의 CAWP 기록 / member or earlier candidate = 의원 명부나 예전 경선 자료의 같은 사람 / "
+     "CAWP (earlier race) = 예전 선거의 CAWP 기록 / CAWP (other year) = 그해 CAWP엔 없지만 다른 해 CAWP에 같은 주·같은 이름의 여성이 있음 / "
+     "research (gender_overrides.csv) = 조사로 확인한 여성(투표용지에 없는 기명 후보 등, 근거는 data/static/gender_overrides.csv) / member or earlier candidate = 의원 명부나 예전 경선 자료의 같은 사람 / "
      "first name = 이름(미국 출생 기록에서 95% 이상 한쪽 성별) / Pettigrew = Pettigrew 외 자료의 성별 / "
      "...; woman's first name = 2026 목록에 없지만 여성 이름이라 모름으로 둠 / unknown·빈칸 = 정하지 못함(대부분 민주·공화 밖 후보)"),
     ("race_eth", "인종·민족(여성 후보만)", "CAWP 코드, 2004년부터: W = 백인, B = 흑인, H = 히스패닉·라티나, AP = 아시아계·태평양 섬 주민, "
