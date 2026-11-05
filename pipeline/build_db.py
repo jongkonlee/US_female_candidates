@@ -264,6 +264,67 @@ def third_party_lines(rows):
     return n
 
 
+FEC_LINES = os.path.join(ROOT, "data", "static", "fec_line_votes.csv")
+SWITCH_NOTE = re.compile(r"listed as an? (\w+) candidate in the primary election and as an? (.+?) candidate in the general election", re.I)
+
+
+def general_ballot_party(rows):
+    """A candidate on a Democratic or Republican line in the primary whose general-election votes were all cast on
+    third-party or independent lines is O in the general (only D and R candidates count, user's decision 2026-11-05):
+    Sanders 2006 and 2018 (won the Democratic primary, ran as an independent), Crowley 2018 NY-14 (Working Families line),
+    Hoffman 2010 NY-23 (Conservative line) ... From the FEC per-line votes (data/static/fec_line_votes.csv, 2002-2022) or an
+    FEC note saying so (Haugen 2008 OR-1). Write-in lines do not count as third-party lines. The primary party and result
+    stay as they are."""
+    switch = {}
+    if os.path.exists(FEC_LINES):
+        t = pd.read_csv(FEC_LINES, keep_default_na=False, na_values=[""], dtype={"fec_id": str})
+        t["mp"] = [F.main_party(re.sub(r"^W\((.*)\)$", r"\1", str(x))) for x in t["line"]]
+        for key, g in t[t.fec_id.fillna("") != ""].groupby(["year", "chamber", "state", "district", "special", "fec_id"]):
+            dr = g[g.mp.isin(["D", "R"]) & (g.writein == 0)]
+            if dr.empty or dr.mp.nunique() > 1 or dr.g_votes.fillna(0).sum() + dr.g_unopposed.fillna(0).sum() > 0:
+                continue
+            oth = g[~g.mp.isin(["D", "R"]) & (g.writein == 0) & (g.g_votes.fillna(0) > 0)]
+            if len(oth):
+                switch[(int(key[0]), key[1], key[2], int(key[3]), int(key[4]), key[5])] = "/".join(sorted(set(oth["line"])))
+    else:
+        log("  no", FEC_LINES)
+    n = 0
+    for r in rows:
+        if r["party"] not in ("D", "R"):
+            continue
+        lab = switch.get((int(r["year"]), r["chamber"], r["state"], int(r["district"] or 0), int(r["special"] or 0), r.get("fec_id") or "")) \
+            if r.get("fec_id") else None
+        if lab is None:
+            m = SWITCH_NOTE.search(str(r.get("note") or ""))
+            if m and F.main_party(m.group(2)) == "O":
+                lab = m.group(2)
+        if lab is None:
+            continue
+        r["p_party"] = r.get("p_party") or r["party"]
+        r["note"] = (str(r.get("note") or "") + f" | general ballot label {lab} (primary {r['party']}; not counted as D or R in the general)").strip(" |")
+        r["party"] = "O"
+        n += 1
+    return n
+
+
+def party_overrides(rows):
+    """general-election party confirmed by research where the FEC files cannot show it (a write-in who ran as an
+    independent but is registered as a Republican, ...): data/static/party_overrides.csv race_id, name, party, evidence,
+    source_url"""
+    p = os.path.join(STATIC, "party_overrides.csv")
+    if not os.path.exists(p):
+        return 0
+    n = 0
+    for o in pd.read_csv(p, dtype=str, keep_default_na=False).to_dict("records"):
+        for r in rows:
+            if r["race_id"] == o["race_id"] and N.same_person(r["name"], o["name"]) and r["party"] != o["party"]:
+                r["p_party"] = r.get("p_party") or ""
+                r["note"] = (str(r.get("note") or "") + f" | general party {o['party']} from research (was {r['party']}): " + o["evidence"]).strip(" |")
+                r["party"] = o["party"]
+                n += 1
+    return n
+
+
 def nominated_without_primary(rows):
     """party candidate on the general ballot but no primary record for that party (convention, no primary held,
     missing in the primary source): count as the party's nominee"""
@@ -1130,6 +1191,8 @@ def build(rebuild_history=False):
                     c["rows"] = sum(1 for r in allrows if r["year"] == y and r["chamber"] == "H")
     one_winner(allrows)
     log("third-party or independent lines back to O:", third_party_lines(allrows))
+    log("primary D/R, general on a third-party line, to O:", general_ballot_party(allrows))
+    log("party from research (party_overrides.csv):", party_overrides(allrows))
     log("nominees without primary record:", nominated_without_primary(allrows))
     cawp = load_cawp()
     unmatched = apply_cawp(allrows, cawp)

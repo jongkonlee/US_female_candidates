@@ -129,6 +129,7 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-CT-04,D,Jim Himes,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-CT-04,R,Christopher Shays,W,file,Kieran Healy / congress,https://kjhealy.github.io/congress/,다른 해 자료의 같은 사람
 2008-H-CT-05,D,Chris Murphy,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2008-H-CT-05,R,David J. Cappiello,W/MENA,research,웹 조사(2026-11-05),https://en.wikipedia.org/wiki/David_Cappiello,"Wikipedia: 'He is a second-generation American, with his grandparents having migrated to the United States from Italy and Lebanon.'"
 2008-H-DE-00,D,Karen Hartley-Nagle,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2008-H-DE-00,R,Michael N. Castle,W,file,Kieran Healy / congress,https://kjhealy.github.io/congress/,다른 해 자료의 같은 사람
 2008-H-FL-01,D,James Jim Bryan,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
@@ -3114,6 +3115,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-CO-06,D,Morgan Carroll,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-CO-06,R,Mike Coffman,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-CO-07,D,Ed Perlmutter,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-CO-07,R,George Athanasopoulos,W,research,웹 조사(2026-11-05),https://www.coloradopolitics.com/2016/02/29/army-veteran-challenges-perlmutter-blasts-support-for-iran-deal-7fe5305d-ad11-520e-a708-3f3a1b664b22,"Colorado Politics (Ernest Luning, Feb 29, 2016), quoting him on immigration: ""My father's from Greece, my mother's from Northern Ireland."""
 2016-H-CT-01,D,John B. Larson,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-CT-01,R,Matthew M. Corey,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-CT-02,D,Joe Courtney,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3201,6 +3203,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-IL-06,R,Peter J. Roskam,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-IL-07,D,Danny K. Davis,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
 2016-H-IL-08,D,Raja Krishnamoorthi,AP,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-IL-08,R,"Peter ""Pete"" DiCianni",W,research,웹 조사(2026-11-05),https://www.dailyherald.com/?p=851192,"Daily Herald candidate profile (Sept 2012): 'As a proud product of an Italian Irish family, eldest of 7 children who grew up in DuPage County'; grandparents immigrated legally."
 2016-H-IL-09,D,Janice D Schakowsky,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-IL-09,R,Joan McCarthy Lasonde,W,file,Candidate Characteristics Cooperative (C3),https://doi.org/10.7910/DVN/VHAPHV,다른 해 자료의 같은 사람
 2016-H-IL-10,D,Brad Schneider,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3403,6 +3406,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-NY-11,R,Dan Donovan,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,다른 해 자료의 같은 사람
 2016-H-NY-12,D,Carolyn B. Maloney,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-NY-13,D,Adriano Espaillat,B/H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/ | https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
+2016-H-NY-13,R,Robert A. Evans Jr.,B,research,웹 조사(2026-11-05),https://www.huffpost.com/entry/the-ultimate-political-underdog_b_57f2b9b4e4b0667653926690 ; https://results.elections.ny.gov/candidate/3681 ; https://ballotpedia.org/Tony_Evans ; https://nyc16.nytimes-institute.com/2016/05/30/candidate-tony-evans/,"Tony Evans, 'the Republican nominee for New York's 13th congressional district': ""I'm a black, Republican Catholic from the south. What box do you put me in?"""
 2016-H-NY-14,D,Joseph Crowley,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-NY-15,D,Jose E. Serrano,H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
 2016-H-NY-18,D,Sean Patrick Maloney,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
