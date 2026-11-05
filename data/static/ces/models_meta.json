@@ -347,8 +347,26 @@
   }
  },
  "sample": {
-  "respondents": 120398,
-  "races": 1343,
+  "respondents": 303395,
+  "races": 3515,
+  "by_matchup": {
+   "F-M": {
+    "respondents": 92293,
+    "races": 1013
+   },
+   "M-F": {
+    "respondents": 28105,
+    "races": 330
+   },
+   "F-F": {
+    "respondents": 18315,
+    "races": 195
+   },
+   "M-M": {
+    "respondents": 164682,
+    "races": 1977
+   }
+  },
   "by_party": {
    "D": {
     "respondents": 92293,
@@ -403,7 +421,21 @@
    "B/NA": 1,
    "B/NA/W": 1,
    "H/MENA/W": 1
+  },
+  "nominee_race_src": {
+   "none": 2390,
+   "member": 2387,
+   "cawp": 1723,
+   "list": 544
   }
  },
- "individual_rows": 120398
+ "individual": {
+  "rows": 303395,
+  "by_matchup": {
+   "M-M": 164682,
+   "F-M": 92293,
+   "M-F": 28105,
+   "F-F": 18315
+  }
+ }
 }
