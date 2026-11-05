@@ -1,0 +1,35 @@
+name: fetch source codebooks
+
+# one-off: saves the documentation of the House primary datasets (Harvard Dataverse) to data/static/codebooks
+# so the page codebook can explain their codes
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: fetch codebooks
+        run: python pipeline/fetch_codebooks.py
+      - name: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/static/codebooks
+          if ! git diff --cached --quiet; then
+            git commit -m "Source codebooks of the House primary datasets"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
