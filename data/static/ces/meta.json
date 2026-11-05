@@ -158,13 +158,29 @@
  ],
  "used": {
   "year": "year",
-  "weight": "weight",
-  "st": "st",
-  "dist": "dist_up",
-  "cd": "cd_up",
+  "weight": "weight_post",
+  "weight_pre": "weight",
+  "st": "st_post",
+  "st_pre": "st",
+  "dist": "dist_up_post",
+  "dist_pre": "dist_up",
+  "cd": "cd_up_post",
+  "cd_pre": "cd_up",
   "gender": "gender",
   "vote": "voted_rep_party",
   "pid": "pid3"
+ },
+ "weight_post_share": {
+  "2006": 0.0,
+  "2008": 0.0,
+  "2010": 0.0,
+  "2012": 0.822,
+  "2014": 0.0,
+  "2016": 0.82,
+  "2018": 0.863,
+  "2020": 0.845,
+  "2022": 0.85,
+  "2024": 0.0
  },
  "values": {
   "gender": {
@@ -218,5 +234,5 @@
   "2022": 38036,
   "2024": 40835
  },
- "cells": 17206
+ "cells": 41945
 }
