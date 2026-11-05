@@ -1,0 +1,9 @@
+{
+ "source": "https://www2.census.gov/geo/docs/reference/cenpop2020/blkgrp/CenPop2020_Mean_BG.txt",
+ "page": "https://www.census.gov/geographies/reference-files/time-series/geo/centers-population.html",
+ "publisher": "U.S. Census Bureau, 2020 Census centers of population by block group",
+ "downloaded": "2026-11-05",
+ "md5_original": "cd9808b8746ab04e4b8220b259bc3307",
+ "rows": 242335,
+ "population_states_dc": 331449281
+}
