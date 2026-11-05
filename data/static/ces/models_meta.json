@@ -351,35 +351,35 @@
   "races": 3515,
   "by_matchup": {
    "F-M": {
-    "respondents": 92293,
-    "races": 1013
+    "respondents": 92337,
+    "races": 1014
    },
    "M-F": {
-    "respondents": 28105,
-    "races": 330
+    "respondents": 28049,
+    "races": 329
    },
    "F-F": {
-    "respondents": 18315,
-    "races": 195
+    "respondents": 18458,
+    "races": 197
    },
    "M-M": {
-    "respondents": 164682,
-    "races": 1977
+    "respondents": 164551,
+    "races": 1975
    }
   },
   "by_party": {
    "D": {
-    "respondents": 92293,
-    "races": 1013
+    "respondents": 92337,
+    "races": 1014
    },
    "R": {
-    "respondents": 28105,
-    "races": 330
+    "respondents": 28049,
+    "races": 329
    }
   },
   "missing": {
    "copart": 281,
-   "same_race_w": 149,
+   "same_race_w": 57,
    "rrace": 0,
    "college": 0,
    "age": 0,
@@ -389,25 +389,28 @@
    "med_income": 0
   },
   "man_race_races": {
-   "file": 1203,
-   "none": 136,
-   "member": 5
+   "file": 1228,
+   "none": 106,
+   "research": 7,
+   "member": 3
   },
   "man_race_codes": {
-   "W": 1013,
-   "모름": 136,
-   "B": 86,
-   "H": 71,
-   "AP": 25,
-   "NA": 7,
+   "W": 1022,
+   "모름": 106,
+   "B": 94,
+   "H": 75,
+   "AP": 28,
+   "NA": 9,
+   "MENA": 3,
    "W/MENA": 2,
    "W/H": 2,
    "W/NA/MU": 1,
-   "W/B": 1
+   "W/B": 1,
+   "H/NA": 1
   },
   "woman_race_codes": {
-   "W": 921,
-   "B": 218,
+   "W": 924,
+   "B": 216,
    "H": 102,
    "AP": 62,
    "H/W": 9,
@@ -415,8 +418,8 @@
    "NA": 7,
    "AP/B": 4,
    "B/W": 3,
-   "모름": 2,
    "NA/W": 2,
+   "모름": 1,
    "B/H/W": 1,
    "MU": 1,
    "AP/MENA": 1,
@@ -425,19 +428,20 @@
    "H/MENA/W": 1
   },
   "nominee_race_src": {
-   "file": 4785,
-   "cawp": 1723,
-   "none": 527,
-   "member": 9
+   "file": 4853,
+   "cawp": 1726,
+   "none": 450,
+   "research": 9,
+   "member": 6
   }
  },
  "individual": {
   "rows": 303395,
   "by_matchup": {
-   "M-M": 164682,
-   "F-M": 92293,
-   "M-F": 28105,
-   "F-F": 18315
+   "M-M": 164551,
+   "F-M": 92337,
+   "M-F": 28049,
+   "F-F": 18458
   }
  }
 }
