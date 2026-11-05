@@ -6,8 +6,9 @@ Shiro Kuriwaki, "Cumulative CES Common Content", Harvard Dataverse, doi:10.7910/
 value labels give the codes), joined to the tracker's races (data/races.csv) and candidates (data/candidates.csv).
 
 Sample: House general elections 2008-2024 (district traits exist from 2008) with one Democratic and one Republican
-nominee, exactly one of them a woman; respondents who reported voting for one of the two (voted_rep_party), in the
-district on the ballot after the election (dist_up_post, else dist_up).
+nominee; respondents who reported voting for one of the two (voted_rep_party), in the district on the ballot after the
+election (dist_up_post, else dist_up). The models use the races where exactly one nominee is a woman; races of two women
+(ff = 1) or two men (mm = 1) stay in the analysis file, with vote_d and each party's nominee's race, for other uses.
 Outcome: vote_woman = 1 voted for the woman, 0 for the man.
 Models, separately for races with a Democratic woman and with a Republican woman, for four 'earlier women' measures
 (women_members_since_1990 > 0, women_members_since_1990_excl > 0, women_prior_since_1990 > 0,
@@ -31,7 +32,7 @@ Outputs:
   docs/data/ces/ces_models.csv        every coefficient of every model
   docs/data/ces/ces_models_pred.csv   adjusted predictions and differences
   docs/data/ces/ces_models.json       the same for the page
-  docs/data/ces/ces_individual.dta    the analysis file (one row per respondent; CES is CC0)
+  docs/data/ces/ces_individual.zip    the analysis file ces_individual.dta, zipped (one row per respondent; CES is CC0)
   data/static/ces/models_meta.json    labels and codes found, sample sizes
 """
 import collections
@@ -211,31 +212,46 @@ def respondents(df, meta):
 
 
 # ---------- races ----------
+MATCHUPS = ["F-M", "M-F", "F-F", "M-M"]  # one Democratic and one Republican nominee of known gender
+
+
 def races():
+    """House races 2008-2024 with a Democratic and a Republican nominee: woman vs man (the models) and both women (ff)
+    or both men (mm, kept in the analysis file with their flags). Each nominee's race: CAWP's code for women; otherwise,
+    for anyone who served in Congress, the minority lists (white when on none of them); otherwise unknown"""
     r = pd.read_csv(os.path.join(ROOT, "data", "races.csv"), low_memory=False)
     c = pd.read_csv(os.path.join(ROOT, "data", "candidates.csv"), low_memory=False, keep_default_na=False, na_values=[""])  # race code NA = Native American
-    h = r[(r.chamber == "H") & (r.special == 0) & r.matchup.isin(["F-M", "M-F"]) & r.year.isin(YEARS)].copy()
-    h["wparty"] = np.where(h.matchup == "F-M", "D", "R")
-    h["wname"] = np.where(h.wparty == "D", h.d_nominee, h.r_nominee)
-    h["mname"] = np.where(h.wparty == "D", h.r_nominee, h.d_nominee)
-    cw = c[c.chamber == "H"][["race_id", "name", "party", "race_eth", "incumbent", "fec_id", "link"]]
-    h = h.merge(cw.rename(columns={"name": "wname", "party": "wparty", "race_eth": "w_race", "incumbent": "w_inc"})
-                [["race_id", "wname", "wparty", "w_race", "w_inc"]], on=["race_id", "wname", "wparty"], how="left")
-    h = h.merge(cw.rename(columns={"name": "mname", "incumbent": "m_inc", "fec_id": "m_fec", "link": "m_link"})[["race_id", "mname", "m_inc", "m_fec", "m_link"]],
-                on=["race_id", "mname"], how="left")
+    h = r[(r.chamber == "H") & (r.special == 0) & r.matchup.isin(MATCHUPS) & r.year.isin(YEARS)].copy()
+    cw = c[c.chamber == "H"][["race_id", "name", "party", "gender", "race_eth", "incumbent", "fec_id", "link"]]
+    for p, P in (("d", "D"), ("r", "R")):
+        x = cw[cw.party == P].rename(columns={"name": f"{p}_nominee", "gender": f"{p}_gen", "race_eth": f"{p}_cawp", "incumbent": f"{p}_inc",
+                                              "fec_id": f"{p}_fec", "link": f"{p}_link"}).drop(columns="party")
+        h = h.merge(x.drop_duplicates(["race_id", f"{p}_nominee"]), on=["race_id", f"{p}_nominee"], how="left")
     h = h.drop_duplicates("race_id")
     idx, mrace = member_index()
-    found = [man_race(r, idx, mrace) for r in h.itertuples(index=False)]
-    h["m_bioguide"] = [f[0] for f in found]
-    h["m_race"] = [f[1] for f in found]
-    h["m_race_src"] = [f[2] for f in found]
-    keep = ["race_id", "wparty", "wname", "mname", "w_race", "m_race", "m_race_src", "m_bioguide", "w_inc", "m_inc", "pvi", "rural", "black_nh",
-            "hisp", "asian_nh", "ba_plus", "med_income"] + list(PRIORS)
+    for p in ("d", "r"):
+        found = [cand_race(row, p, idx, mrace) for row in h.itertuples(index=False)]
+        h[f"{p}_bioguide"] = [f[0] for f in found]
+        h[f"{p}_race"] = [f[1] for f in found]
+        h[f"{p}_race_src"] = [f[2] for f in found]
+        h[f"{p}_female"] = (h[f"{p}_gen"] == "F").astype(int)
+    h["ff"] = (h.matchup == "F-F").astype(int)
+    h["mm"] = (h.matchup == "M-M").astype(int)
+    h["mixed"] = h.matchup.isin(["F-M", "M-F"]).astype(int)
+    h["wparty"] = h.matchup.map({"F-M": "D", "M-F": "R"})
+    # the woman and the man of a woman-vs-man race
+    isd = h.wparty == "D"
+    for k in ("race", "race_src", "inc"):
+        h[f"w_{k}"] = h[f"d_{k}"].where(isd, h[f"r_{k}"]).where(h.mixed == 1)
+        h[f"m_{k}"] = h[f"r_{k}"].where(isd, h[f"d_{k}"]).where(h.mixed == 1)
+    keep = ["race_id", "matchup", "mixed", "ff", "mm", "wparty", "d_nominee", "r_nominee", "d_female", "r_female", "d_race", "r_race", "d_race_src",
+            "r_race_src", "d_inc", "r_inc", "w_race", "m_race", "m_race_src", "w_inc", "m_inc", "pvi", "rural", "black_nh", "hisp", "asian_nh",
+            "ba_plus", "med_income"] + list(PRIORS)
     return h[keep]
 
 
 def member_index():
-    """state -> men who served in Congress (any term there), and bioguide -> race codes from the minority lists"""
+    """state -> people who served in Congress (any term there), and bioguide -> race codes from the minority lists"""
     mrace = {}
     p = os.path.join(ROOT, "data", "static", "member_race.csv")
     if os.path.exists(p):
@@ -245,12 +261,10 @@ def member_index():
         raise SystemExit("data/static/member_race.csv is missing: run pipeline/fetch_member_race.py first")
     idx = collections.defaultdict(list)
     for x in MR.legislators():
-        if x.get("bio", {}).get("gender") != "M":
-            continue
         ids, nm = x.get("id", {}), x.get("name", {})
         full = nm.get("official_full") or f"{nm.get('first', '')} {nm.get('last', '')}"
         variants = {full, f"{nm.get('first', '')} {nm.get('last', '')}"} | ({f"{nm['nickname']} {nm.get('last', '')}"} if nm.get("nickname") else set())
-        person = dict(bioguide=ids.get("bioguide"), fec=set(ids.get("fec", []) or []),
+        person = dict(bioguide=ids.get("bioguide"), gender=x.get("bio", {}).get("gender"), fec=set(ids.get("fec", []) or []),
                       wiki=(ids.get("wikipedia") or "").replace("_", " ").strip().lower(),
                       variants=[v.strip() for v in variants if v.strip()], last={t for t in N.tokens(nm.get("last", "")) if len(t) > 1})
         for st in {t["state"] for t in x.get("terms", [])}:
@@ -258,36 +272,57 @@ def member_index():
     return idx, mrace
 
 
-def man_race(r, idx, mrace):
-    """(bioguide, race codes, source) of the male nominee: from the lists when he served in Congress, white when he
-    served but is on none of them, unknown when he never served"""
-    name = str(r.mname) if isinstance(r.mname, str) else ""
-    fec = r.m_fec if isinstance(r.m_fec, str) else ""
-    link = str(r.m_link).replace("https://en.wikipedia.org/wiki/", "").replace("_", " ").strip().lower() if isinstance(r.m_link, str) else ""
+def cand_race(r, p, idx, mrace):
+    """(bioguide, race codes, source) of the party's nominee: cawp = CAWP's code (women), list = the minority lists,
+    member = served in Congress but on none of the lists (white, an inference), none = unknown"""
+    name = getattr(r, f"{p}_nominee")
+    name = name if isinstance(name, str) else ""
+    gender, cawp = getattr(r, f"{p}_gen"), getattr(r, f"{p}_cawp")
+    fec = getattr(r, f"{p}_fec") if isinstance(getattr(r, f"{p}_fec"), str) else ""
+    link = getattr(r, f"{p}_link")
+    link = str(link).replace("https://en.wikipedia.org/wiki/", "").replace("_", " ").strip().lower() if isinstance(link, str) else ""
     st = r.race_id.split("-")[2]
     toks = {t for t in N.tokens(name) if len(t) > 1}
-    for p in idx.get(st, []):
-        if (fec and fec in p["fec"]) or (link and p["wiki"] and link == p["wiki"]) or \
-                (p["last"] & toks and any(N.same_person(v, name) for v in p["variants"])):
-            b = p["bioguide"]
-            return (b, mrace[b], "list") if b in mrace else (b, "W", "member")
-    return ("", None, "none")
+    b = ""
+    for m in idx.get(st, []):
+        if m["gender"] != gender:
+            continue
+        if (fec and fec in m["fec"]) or (link and m["wiki"] and link == m["wiki"]) or \
+                (m["last"] & toks and any(N.same_person(v, name) for v in m["variants"])):
+            b = m["bioguide"]
+            break
+    if gender == "F" and isinstance(cawp, str) and cawp and cawp != "unavailable":
+        return b, cawp, "cawp"
+    if b:
+        return (b, mrace[b], "list") if b in mrace else (b, "W", "member")
+    return "", None, "none"
+
+
+def codes(series):
+    return series.map(lambda s: set(str(s).split("/")) if isinstance(s, str) and s else None)
 
 
 def build(resp, rc):
     d = resp.merge(rc, on="race_id", how="inner")
     d = d[d.vote.isin(["D", "R"])].copy()
-    d["vote_woman"] = (d.vote == d.wparty).astype(int)
-    d["copart"] = (d.pid == d.wparty).astype(float).where(d.pid.notna())
-    d["outpart"] = ((d.pid != d.wparty) & d.pid.isin(["D", "R"])).astype(float).where(d.pid.notna())
-    wset = d.w_race.map(lambda s: set(str(s).split("/")) if isinstance(s, str) and s else None)
-    mset = d.m_race.map(lambda s: set(str(s).split("/")) if isinstance(s, str) and s else None)
-    d["same_race_w"] = [float(a in b) if b is not None and a is not None else np.nan for a, b in zip(d.rrace, wset)]
-    # the man's race is unknown when he never served in Congress: a flag, and the match and non-white set to 0 there
-    d["m_race_unk"] = mset.map(lambda x: float(x is None))
-    d["same_race_m"] = [(float(a in b) if b is not None else 0.0) if a is not None else np.nan for a, b in zip(d.rrace, mset)]
-    d["w_nonwhite"] = wset.map(lambda x: np.nan if x is None else float(x != {"W"}))
-    d["m_nonwhite"] = mset.map(lambda x: 0.0 if x is None else float(x != {"W"}))
+    mix = d.mixed == 1
+    d["vote_d"] = (d.vote == "D").astype(int)
+    d["vote_woman"] = (d.vote == d.wparty).astype(float).where(mix)  # woman-vs-man races only
+    d["copart"] = (d.pid == d.wparty).astype(float).where(d.pid.notna() & mix)
+    d["outpart"] = ((d.pid != d.wparty) & d.pid.isin(["D", "R"])).astype(float).where(d.pid.notna() & mix)
+    # each party's nominee: same race as the respondent, unknown race (then match and non-white are 0), non-white
+    for p in ("d", "r"):
+        cs = codes(d[f"{p}_race"])
+        d[f"same_race_{p}"] = [(float(a in b) if b is not None else 0.0) if a is not None else np.nan for a, b in zip(d.rrace, cs)]
+        d[f"{p}_race_unk"] = cs.map(lambda x: float(x is None))
+        d[f"{p}_nonwhite"] = cs.map(lambda x: 0.0 if x is None else float(x != {"W"}))
+    # the woman and the man (woman-vs-man races): an unknown woman's race drops the respondent from the models
+    wset, mset = codes(d.w_race), codes(d.m_race)
+    d["same_race_w"] = pd.Series([float(a in b) if b is not None and a is not None else np.nan for a, b in zip(d.rrace, wset)], index=d.index).where(mix)
+    d["m_race_unk"] = mset.map(lambda x: float(x is None)).where(mix)
+    d["same_race_m"] = pd.Series([(float(a in b) if b is not None else 0.0) if a is not None else np.nan for a, b in zip(d.rrace, mset)], index=d.index).where(mix)
+    d["w_nonwhite"] = wset.map(lambda x: np.nan if x is None else float(x != {"W"})).where(mix)
+    d["m_nonwhite"] = mset.map(lambda x: 0.0 if x is None else float(x != {"W"})).where(mix)
     for k, code in (("r_black", "B"), ("r_hisp", "H"), ("r_asian", "AP")):
         d[k] = (d.rrace == code).astype(float).where(d.rrace.notna())
     d["r_other"] = d.rrace.isin(["NA", "MENA", "MU", "OTHER"]).astype(float).where(d.rrace.notna())
@@ -424,21 +459,35 @@ def run(d):
 
 IND_LABELS = dict(
     case_id="CES 응답자 번호(case_id)", year="선거 연도", race_id="선거 번호", race_n="선거 번호(숫자, 묶음 표준오차용)", state="주", district="선거구",
-    wparty="여성 후보의 정당(D/R)", vote_woman="여성 후보를 찍음(1) / 남성 후보(0)", female="여성 유권자(1)", weight="CES 가중치(선거 뒤, 없으면 선거 전)",
-    pid="정당 일체감(D/R 쪽, 기우는 무당파 포함; I = 무당파·모름)", copart="여성 후보와 같은 정당 지지(1)", outpart="여성 후보와 반대 정당 지지(1)",
-    rrace="응답자 인종(CAWP 코드: W B H AP NA MENA MU OTHER)", w_race="여성 후보 인종(CAWP 코드)", m_race="남성 후보 인종(의원 명단, 빈칸 = 모름)",
-    m_race_src="남성 후보 인종 근거: list 소수 인종 의원 명단, member 의원(명단에 없어 백인으로 봄), none 의회에 없었음", m_bioguide="남성 후보의 의원 번호(bioguide, 의회에 있었으면)",
-    same_race_w="여성 후보와 같은 인종(1)", same_race_m="남성 후보와 같은 인종(1, 모르면 0)", m_race_unk="남성 후보 인종 모름(1)",
-    w_nonwhite="여성 후보가 백인 아님(1)", m_nonwhite="남성 후보가 백인 아님(1, 모르면 0)",
+    matchup="본선 대결(민주-공화 성별): F-M, M-F, F-F, M-M", mixed="여성 대 남성 선거(1)", ff="둘 다 여성인 선거(1)", mm="둘 다 남성인 선거(1)",
+    vote_d="민주 후보를 찍음(1) / 공화 후보(0)", female="여성 유권자(1)", weight="CES 가중치(선거 뒤, 없으면 선거 전)",
+    pid="정당 일체감(D/R 쪽, 기우는 무당파 포함; I = 무당파·모름)",
+    d_female="민주 후보가 여성(1)", r_female="공화 후보가 여성(1)",
+    d_race="민주 후보 인종(빈칸 = 모름)", r_race="공화 후보 인종(빈칸 = 모름)",
+    d_race_src="민주 후보 인종 근거: cawp, list 소수 인종 의원 명단, member 의원(백인으로 봄), none", r_race_src="공화 후보 인종 근거(같은 코드)",
+    same_race_d="민주 후보와 같은 인종(1, 모르면 0)", same_race_r="공화 후보와 같은 인종(1, 모르면 0)",
+    d_race_unk="민주 후보 인종 모름(1)", r_race_unk="공화 후보 인종 모름(1)", d_nonwhite="민주 후보가 백인 아님(1, 모르면 0)", r_nonwhite="공화 후보가 백인 아님(1, 모르면 0)",
+    d_inc="민주 후보가 현직(1)", r_inc="공화 후보가 현직(1)",
+    rrace="응답자 인종(CAWP 코드: W B H AP NA MENA MU OTHER)",
+    wparty="여성 후보의 정당(D/R, 여성 대 남성 선거만)", vote_woman="여성 후보를 찍음(1) / 남성 후보(0), 여성 대 남성 선거만",
+    copart="여성 후보와 같은 정당 지지(1, 여성 대 남성 선거만)", outpart="여성 후보와 반대 정당 지지(1, 여성 대 남성 선거만)",
+    w_race="여성 후보 인종(여성 대 남성 선거만)", m_race="남성 후보 인종(여성 대 남성 선거만, 빈칸 = 모름)",
+    m_race_src="남성 후보 인종 근거(list, member, none; 여성 대 남성 선거만)",
+    same_race_w="여성 후보와 같은 인종(1, 여성 대 남성 선거만)", same_race_m="남성 후보와 같은 인종(1, 모르면 0, 여성 대 남성 선거만)",
+    m_race_unk="남성 후보 인종 모름(1, 여성 대 남성 선거만)", w_nonwhite="여성 후보가 백인 아님(1, 여성 대 남성 선거만)",
+    m_nonwhite="남성 후보가 백인 아님(1, 모르면 0, 여성 대 남성 선거만)", w_inc="여성 후보가 현직(1, 여성 대 남성 선거만)", m_inc="남성 후보가 현직(1, 여성 대 남성 선거만)",
     r_black="응답자 흑인(1)", r_hisp="응답자 히스패닉(1)", r_asian="응답자 아시아계(1)", r_other="응답자 그 밖 인종(1)", college="4년제 대졸 이상(1)",
     age="나이", age10="나이/10", ideo="이념(L 진보, M 중도, C 보수, NS 모름)", lib="진보(1)", con="보수(1)", ideo_ns="이념 모름(1)",
     pvi="당파 지수(+민주)", rural="농촌 인구 비율(%)", black_nh="선거구 흑인 비율(%)", hisp_d="선거구 히스패닉 비율(%)", asian_nh="선거구 아시아계 비율(%)",
-    ba_plus="선거구 대졸 비율(%)", inc10k="선거구 가구 소득 중앙값(만 달러)", w_inc="여성 후보가 현직(1)", m_inc="남성 후보가 현직(1)",
+    ba_plus="선거구 대졸 비율(%)", inc10k="선거구 가구 소득 중앙값(만 달러)",
     women_members_since_1990="기존 여성 의원 수(본인 포함)", women_members_since_1990_excl="기존 여성 의원 수(본인 제외)",
     women_prior_since_1990="기존 여성 의원·후보 수(본인 포함)", women_prior_since_1990_excl="기존 여성 의원·후보 수(본인 제외)")
 
 
 def write_individual(d):
+    """the analysis file as Stata, zipped (ces_individual.zip holds ces_individual.dta): every respondent of a race with
+    a Democratic and a Republican nominee, with the ff / mm flags for the same-gender races"""
+    import zipfile
     cols = list(IND_LABELS)
     x = d.copy()
     x["race_n"] = pd.factorize(x.race_id, sort=True)[0] + 1
@@ -453,9 +502,20 @@ def write_individual(d):
                 x[c] = x[c].astype("float32")
         else:
             x[c] = x[c].astype(object).where(x[c].notna(), "").astype(str)
-    x.to_stata(os.path.join(OUT, "ces_individual.dta"), write_index=False, version=118, variable_labels={k: v[:80] for k, v in IND_LABELS.items()},
-               data_label="CES 개인 자료: 여성 대 남성 하원 선거 2008-2024", time_stamp=dt.datetime(2026, 1, 1))
-    return len(x)
+    tmp = os.path.join(F.TMP, "ces_individual.dta")
+    x.to_stata(tmp, write_index=False, version=118, variable_labels={k: v[:80] for k, v in IND_LABELS.items()},
+               data_label="CES 개인 자료: 하원 선거 2008-2024(ff·mm = 같은 성별끼리)", time_stamp=dt.datetime(2026, 1, 1))
+    zp = os.path.join(OUT, "ces_individual.zip")
+    with zipfile.ZipFile(zp, "w", zipfile.ZIP_DEFLATED, compresslevel=9) as z:
+        info = zipfile.ZipInfo("ces_individual.dta", date_time=(2026, 1, 1, 0, 0, 0))  # fixed date: same data, same file
+        info.compress_type = zipfile.ZIP_DEFLATED
+        with open(tmp, "rb") as f:
+            z.writestr(info, f.read())
+    old = os.path.join(OUT, "ces_individual.dta")
+    if os.path.exists(old):
+        os.remove(old)
+    log("analysis file", len(x), "rows,", round(os.path.getsize(tmp) / 1e6, 1), "MB as .dta,", round(os.path.getsize(zp) / 1e6, 1), "MB zipped")
+    return dict(rows=len(x), by_matchup={k: int(v) for k, v in x.matchup.value_counts().items()})
 
 
 def main():
@@ -474,12 +534,15 @@ def main():
     log(json.dumps(meta["coded"], ensure_ascii=False))
     rc = races()
     d = build(resp, rc)
+    mx = rc[rc.mixed == 1]
     meta["sample"] = dict(respondents=int(len(d)), races=int(d.race_id.nunique()),
+                          by_matchup={k: dict(respondents=int((d.matchup == k).sum()), races=int(d.loc[d.matchup == k, "race_id"].nunique())) for k in MATCHUPS},
                           by_party={wp: dict(respondents=int((d.wparty == wp).sum()), races=int(d.loc[d.wparty == wp, "race_id"].nunique())) for wp in ("D", "R")},
-                          missing={c: int(d[c].isna().sum()) for c in ("copart", "same_race_w", "rrace", "college", "age", "lib", "pvi", "rural", "med_income")},
-                          man_race_races={k: int(v) for k, v in rc.m_race_src.value_counts().items()},
-                          man_race_codes={k: int(v) for k, v in rc.m_race.fillna("모름").value_counts().items()},
-                          woman_race_codes={k: int(v) for k, v in rc.w_race.fillna("모름").value_counts().items()})
+                          missing={c: int(d.loc[d.mixed == 1, c].isna().sum()) for c in ("copart", "same_race_w", "rrace", "college", "age", "lib", "pvi", "rural", "med_income")},
+                          man_race_races={k: int(v) for k, v in mx.m_race_src.value_counts().items()},
+                          man_race_codes={k: int(v) for k, v in mx.m_race.fillna("모름").value_counts().items()},
+                          woman_race_codes={k: int(v) for k, v in mx.w_race.fillna("모름").value_counts().items()},
+                          nominee_race_src={k: int(v) for k, v in pd.concat([rc.d_race_src, rc.r_race_src]).value_counts().items()})
     log("analysis sample", json.dumps(meta["sample"], ensure_ascii=False))
     coefs, preds, models = run(d)
     coefs.to_csv(os.path.join(OUT, "ces_models.csv"), index=False, encoding="utf-8-sig", float_format="%.6g")
@@ -490,7 +553,7 @@ def main():
                 models=models)
     with open(os.path.join(OUT, "ces_models.json"), "w", encoding="utf-8") as f:
         json.dump(page, f, ensure_ascii=False, separators=(",", ":"))
-    meta["individual_rows"] = write_individual(d)
+    meta["individual"] = write_individual(d)
     with open(META, "w", encoding="utf-8") as f:
         json.dump(meta, f, ensure_ascii=False, indent=1)
     log("done", round(time.time() - t0), "s")
