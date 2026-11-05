@@ -1,0 +1,38 @@
+name: fetch CES House votes
+
+# one-off (rerun when a new cumulative CES file comes out): saves House vote counts of women and men respondents by
+# district (no individual rows) to data/static/ces
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: install
+        run: pip install pandas pyarrow
+      - name: fetch and count
+        run: python pipeline/fetch_ces.py
+      - name: commit
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/static/ces || true
+          if ! git diff --cached --quiet; then
+            git commit -m "CES House votes by district and respondent gender (counts only)"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
