@@ -6225,7 +6225,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2004-H-CA-03,2004,H,CA,3,0,party,R,contested,4,1,3,0,0,,Dan Lungren,M,38.90801770782095,0.0,23.467235065857793,38.90801770782095,1,FEC
 2004-H-CA-04,2004,H,CA,4,0,party,D,uncontested,1,0,1,0,0,,David I. Winters,M,100.0,0.0,,100.0,0,FEC
 2004-H-CA-04,2004,H,CA,4,0,party,R,uncontested,1,0,1,0,1,M,John T. Doolittle,M,100.0,0.0,,100.0,0,FEC
-2004-H-CA-05,2004,H,CA,5,0,party,D,contested,2,0,2,0,1,M,Robert T. Matsui,M,99.98262298189631,0.0,,99.98262298189631,0,FEC
+2004-H-CA-05,2004,H,CA,5,0,party,D,contested,2,0,1,1,1,M,Robert T. Matsui,M,99.98262298189631,0.0,,99.98262298189631,0,FEC
 2004-H-CA-05,2004,H,CA,5,0,party,R,uncontested,1,0,1,0,0,,Mike Dugas,M,100.0,0.0,,100.0,0,FEC
 2004-H-CA-06,2004,H,CA,6,0,party,D,contested,2,1,1,0,1,F,Lynn Woolsey,F,84.00205026510599,1.0,84.00205026510599,15.997949734893998,1,FEC
 2004-H-CA-06,2004,H,CA,6,0,party,R,uncontested,1,0,1,0,0,,Paul L. Erickson,M,100.0,0.0,,100.0,0,FEC
@@ -8891,7 +8891,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2010-H-CA-15,2010,H,CA,15,0,party,D,uncontested,1,0,1,0,1,M,Mike Honda,M,100.0,0.0,,100.0,0,FEC
 2010-H-CA-15,2010,H,CA,15,0,party,R,contested,3,0,3,0,0,,Scott Kirkland,M,38.775144750193995,0.0,,38.775144750193995,0,FEC
 2010-H-CA-16,2010,H,CA,16,0,party,D,uncontested,1,1,0,0,1,F,Zoe Lofgren,F,100.0,1.0,100.0,,0,FEC
-2010-H-CA-16,2010,H,CA,16,0,party,R,contested,2,0,2,0,0,,Edward Gonzalez,M,8.850931677018634,0.0,,91.14906832298136,0,FEC
+2010-H-CA-16,2010,H,CA,16,0,party,R,contested,2,0,1,1,0,,Edward Gonzalez,,8.850931677018634,,,91.14906832298136,0,FEC
 2010-H-CA-17,2010,H,CA,17,0,party,D,contested,2,0,2,0,1,M,Sam Farr,M,88.78871625492906,0.0,,88.78871625492906,0,FEC
 2010-H-CA-17,2010,H,CA,17,0,party,R,contested,3,0,3,0,0,,Jeff Taylor,M,61.09413097977266,0.0,,61.09413097977266,0,FEC
 2010-H-CA-18,2010,H,CA,18,0,party,D,uncontested,1,0,1,0,1,M,Dennis Cardoza,M,100.0,0.0,,100.0,0,FEC
@@ -12868,9 +12868,9 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2018-H-NE-02,2018,H,NE,2,0,party,R,uncontested,1,0,1,0,1,M,Don Bacon,M,100.0,0.0,,100.0,0,FEC
 2018-H-NE-03,2018,H,NE,3,0,party,D,uncontested,1,0,1,0,0,,Paul Theobald,M,100.0,0.0,,100.0,0,FEC
 2018-H-NE-03,2018,H,NE,3,0,party,R,contested,4,0,4,0,1,M,Adrian Smith,M,65.74234397208942,0.0,,65.74234397208942,0,FEC
-2018-H-NH-01,2018,H,NH,1,0,party,D,contested,17,3,14,0,0,,Chris Pappas,M,42.355163923001875,0.0,30.291298220618522,42.355163923001875,1,FEC
+2018-H-NH-01,2018,H,NH,1,0,party,D,contested,17,3,13,1,0,,Chris Pappas,M,42.355163923001875,0.0,30.291298220618522,42.355163923001875,1,FEC
 2018-H-NH-01,2018,H,NH,1,0,party,R,uncontested,1,0,1,0,0,,Bruce Crochetiere,M,1.556979459847895,0.0,,1.556979459847895,0,FEC
-2018-H-NH-02,2018,H,NH,2,0,party,D,contested,7,1,6,0,1,F,Ann McLane Kuster,F,99.09152086137281,1.0,99.09152086137281,0.047814691506694054,1,FEC
+2018-H-NH-02,2018,H,NH,2,0,party,D,contested,7,1,5,1,1,F,Ann McLane Kuster,F,99.09152086137281,1.0,99.09152086137281,0.047814691506694054,1,FEC
 2018-H-NH-02,2018,H,NH,2,0,party,R,contested,3,1,2,0,0,,Gerard Beloin,M,1.4573550163084967,0.0,,1.4573550163084967,1,CAWP only;FEC
 2018-H-NJ-01,2018,H,NJ,1,0,party,D,contested,3,0,3,0,1,M,Donald W. Norcross,M,84.09883536598254,0.0,,84.09883536598254,0,FEC
 2018-H-NJ-01,2018,H,NJ,1,0,party,R,uncontested,1,0,1,0,0,,Paul E. Dilks,M,100.0,0.0,,100.0,0,FEC
@@ -13284,7 +13284,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2018-S-UT-00,2018,S,UT,0,0,party,R,contested,2,0,2,0,0,,Mitt Romney,M,71.26683531675336,0.0,,71.26683531675336,0,FEC
 2018-S-VA-00,2018,S,VA,0,0,party,D,uncontested,1,0,1,0,1,M,Timothy M. Kaine,M,,0.0,,,0,FEC
 2018-S-VA-00,2018,S,VA,0,0,party,R,contested,3,0,3,0,0,,Corey A. Stewart,M,44.86105911637407,0.0,,44.86105911637407,0,FEC
-2018-S-VT-00,2018,S,VT,0,0,party,D,contested,7,1,5,1,1,,Bernie Sanders,,94.02480437029381,,5.560313007529898,0.0693931787981692,1,FEC
+2018-S-VT-00,2018,S,VT,0,0,party,D,contested,7,1,4,2,1,,Hillary Clinton,M,0.007382253063635022,0.0,5.560313007529898,0.05462867267089916,1,FEC
 2018-S-VT-00,2018,S,VT,0,0,party,R,contested,2,0,2,0,0,,"Roque ""Rocky"" De La Fuente",M,4.039438988038369,0.0,,4.039438988038369,0,FEC
 2018-S-WA-00,2018,S,WA,0,0,top2,D,top2,5,1,4,0,1,F,Maria Cantwell,F,54.67657157639755,1.0,54.67657157639755,2.1030784788692647,1,FEC
 2018-S-WA-00,2018,S,WA,0,0,top2,R,top2,13,1,12,0,0,,Susan Hutchison,F,24.300757272876933,1.0,24.300757272876933,2.341078525904847,1,FEC
@@ -13853,7 +13853,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2020-H-NY-15,2020,H,NY,15,0,party,R,uncontested,2,0,2,0,0,,Patrick Delices,M,,0.0,,,0,FEC
 2020-H-NY-16,2020,H,NY,16,0,party,D,contested,5,0,5,0,1,M,Jamaal Bowman,M,55.3826650811102,0.0,,55.3826650811102,0,FEC
 2020-H-NY-17,2020,H,NY,17,0,party,D,contested,8,4,4,0,0,,Mondaire Jones,M,41.62932686815349,0.0,15.498660844619897,41.62932686815349,1,FEC
-2020-H-NY-17,2020,H,NY,17,0,party,R,contested,2,2,0,0,0,,Maureen McArdle-Schulman,F,76.23664601849359,1.0,76.23664601849359,,0,FEC
+2020-H-NY-17,2020,H,NY,17,0,party,R,contested,2,2,0,0,0,,Yehudis Gottesfeld,F,20.980339348235926,1.0,76.23664601849359,,0,FEC
 2020-H-NY-18,2020,H,NY,18,0,party,D,uncontested,1,0,1,0,1,M,Sean Patrick Maloney,M,,0.0,,,0,FEC
 2020-H-NY-18,2020,H,NY,18,0,party,R,uncontested,1,1,0,0,0,,Chele C. Farley,F,,1.0,,,0,FEC
 2020-H-NY-19,2020,H,NY,19,0,party,D,uncontested,1,0,1,0,1,M,Antonio Delgado,M,,0.0,,,0,FEC
