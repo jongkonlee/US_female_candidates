@@ -74,7 +74,7 @@ tr.dif td { border-top: 2px solid var(--line); border-bottom: 0; }
 table.study td:first-child { white-space: nowrap; }
 table.study .sub { font-size: .76rem; color: var(--muted); font-weight: 400; }
 .note-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
-.ghost-btn { flex: none; border: 0; background: none; color: var(--muted); opacity: .35; font: inherit; font-size: .85rem; line-height: 1; padding: 2px 4px; border-radius: 4px; cursor: pointer; }
+.ghost-btn { flex: none; border: 0; background: none; color: var(--muted); opacity: .5; font: inherit; font-size: .85rem; line-height: 1; padding: 2px 4px; border-radius: 4px; cursor: pointer; }
 .ghost-btn:hover, .ghost-btn:focus-visible { opacity: .8; }
 .xw-lock { max-width: 320px; margin: 40px auto; text-align: center; }
 .xw-lock input { font: inherit; width: 130px; text-align: center; letter-spacing: .3em; padding: 6px 8px; border: 1px solid var(--line); border-radius: 8px; background: var(--card); color: var(--fg); }

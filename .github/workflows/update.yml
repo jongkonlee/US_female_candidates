@@ -61,6 +61,13 @@ jobs:
             git pull --rebase origin main
             git push origin HEAD:main
           fi
+      - name: version page files   # app.js?v=… changes with the file, so browsers do not keep an old copy
+        run: |
+          for f in app.js style.css; do
+            v=$(sha1sum "docs/$f" | cut -c1-8)
+            sed -i "s#\"$f\"#\"$f?v=$v\"#" docs/index.html
+          done
+          grep -n "app.js\|style.css" docs/index.html
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
