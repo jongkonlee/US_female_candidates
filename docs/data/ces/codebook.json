@@ -13,7 +13,7 @@
 {
 "table": "ces_individual",
 "title": "CES 개인 분석 자료",
-"unit": "한 줄 = 응답자 한 명(2008–2024 여성 대 남성 하원 선거에서 두 후보 중 한 명을 찍은 사람). docs/data/ces/ces_individual.dta"
+"unit": "한 줄 = 응답자 한 명(2008–2024 민주·공화 후보가 모두 나온 하원 선거에서 둘 중 한 명을 찍은 사람; 여성 대 남성 mixed, 둘 다 여성 ff, 둘 다 남성 mm). docs/data/ces/ces_individual.zip 안의 ces_individual.dta"
 },
 {
 "table": "ces_models",
@@ -407,15 +407,129 @@
 },
 {
 "table": "ces_individual",
+"name": "matchup",
+"label": "본선 대결(민주-공화 성별)",
+"values": "F-M 민주 여성 대 공화 남성, M-F 민주 남성 대 공화 여성, F-F 둘 다 여성, M-M 둘 다 남성"
+},
+{
+"table": "ces_individual",
+"name": "mixed",
+"label": "여성 대 남성 선거",
+"values": "1 = F-M 또는 M-F(회귀모형은 이 선거만 씀)"
+},
+{
+"table": "ces_individual",
+"name": "ff",
+"label": "둘 다 여성인 선거",
+"values": "1 = F-F(거를 때 쓰는 더미)"
+},
+{
+"table": "ces_individual",
+"name": "mm",
+"label": "둘 다 남성인 선거",
+"values": "1 = M-M(거를 때 쓰는 더미)"
+},
+{
+"table": "ces_individual",
+"name": "vote_d",
+"label": "민주 후보를 찍음",
+"values": "1 = 민주 후보, 0 = 공화 후보(모든 선거)"
+},
+{
+"table": "ces_individual",
+"name": "d_female",
+"label": "민주 후보가 여성",
+"values": "1/0"
+},
+{
+"table": "ces_individual",
+"name": "r_female",
+"label": "공화 후보가 여성",
+"values": "1/0"
+},
+{
+"table": "ces_individual",
+"name": "d_race",
+"label": "민주 후보 인종",
+"values": "여성은 CAWP 코드, 그 밖은 의회에 있었으면 소수 인종 의원 명단의 코드(명단에 없으면 W, 추정), 빈칸 = 모름"
+},
+{
+"table": "ces_individual",
+"name": "r_race",
+"label": "공화 후보 인종",
+"values": "같은 방식"
+},
+{
+"table": "ces_individual",
+"name": "d_race_src",
+"label": "민주 후보 인종의 근거",
+"values": "cawp = CAWP, list = 소수 인종 의원 명단, member = 의원이었고 명단에 없음(백인으로 봄), none = 모름"
+},
+{
+"table": "ces_individual",
+"name": "r_race_src",
+"label": "공화 후보 인종의 근거",
+"values": "같은 코드"
+},
+{
+"table": "ces_individual",
+"name": "same_race_d",
+"label": "민주 후보와 같은 인종",
+"values": "1 = 응답자 인종이 민주 후보의 코드 가운데 하나. 후보 인종을 모르면 0"
+},
+{
+"table": "ces_individual",
+"name": "same_race_r",
+"label": "공화 후보와 같은 인종",
+"values": "같은 방식"
+},
+{
+"table": "ces_individual",
+"name": "d_race_unk",
+"label": "민주 후보 인종 모름",
+"values": "1/0"
+},
+{
+"table": "ces_individual",
+"name": "r_race_unk",
+"label": "공화 후보 인종 모름",
+"values": "1/0"
+},
+{
+"table": "ces_individual",
+"name": "d_nonwhite",
+"label": "민주 후보가 백인 아님",
+"values": "1/0, 모르면 0"
+},
+{
+"table": "ces_individual",
+"name": "r_nonwhite",
+"label": "공화 후보가 백인 아님",
+"values": "1/0, 모르면 0"
+},
+{
+"table": "ces_individual",
+"name": "d_inc",
+"label": "민주 후보가 현직",
+"values": "1/0"
+},
+{
+"table": "ces_individual",
+"name": "r_inc",
+"label": "공화 후보가 현직",
+"values": "1/0"
+},
+{
+"table": "ces_individual",
 "name": "wparty",
 "label": "여성 후보의 정당",
-"values": "D = 민주당 여성 대 공화당 남성, R = 공화당 여성 대 민주당 남성"
+"values": "D = 민주당 여성 대 공화당 남성, R = 공화당 여성 대 민주당 남성(여성 대 남성 선거만, 그 밖은 빈칸)"
 },
 {
 "table": "ces_individual",
 "name": "vote_woman",
 "label": "여성 후보를 찍음",
-"values": "1 = 여성 후보, 0 = 남성 후보(CES voted_rep_party, 선거 뒤 조사)"
+"values": "1 = 여성 후보, 0 = 남성 후보(CES voted_rep_party, 선거 뒤 조사; 여성 대 남성 선거만)"
 },
 {
 "table": "ces_individual",
@@ -439,13 +553,13 @@
 "table": "ces_individual",
 "name": "copart",
 "label": "여성 후보와 같은 정당 지지",
-"values": "1 = pid가 여성 후보의 정당"
+"values": "1 = pid가 여성 후보의 정당(여성 대 남성 선거만)"
 },
 {
 "table": "ces_individual",
 "name": "outpart",
 "label": "여성 후보와 반대 정당 지지",
-"values": "1 = pid가 상대 정당(기준: 무당파·모름)"
+"values": "1 = pid가 상대 정당(기준: 무당파·모름; 여성 대 남성 선거만)"
 },
 {
 "table": "ces_individual",
@@ -457,7 +571,7 @@
 "table": "ces_individual",
 "name": "w_race",
 "label": "여성 후보 인종",
-"values": "CAWP 코드(둘 이상이면 /로 이음, 빈칸 = CAWP에 없음)"
+"values": "d_race 또는 r_race 가운데 여성 쪽(여성 대 남성 선거만; 빈칸 = 모름)"
 },
 {
 "table": "ces_individual",
@@ -470,12 +584,6 @@
 "name": "m_race_src",
 "label": "남성 후보 인종의 근거",
 "values": "list = 소수 인종 의원 명단, member = 의원이었고 명단에 없음(백인으로 봄), none = 의회에 없었음"
-},
-{
-"table": "ces_individual",
-"name": "m_bioguide",
-"label": "남성 후보의 의원 번호",
-"values": "bioguide, 의회에 있었으면(같은 주 안에서 FEC 번호·위키 문서·이름으로 맞춤)"
 },
 {
 "table": "ces_individual",
@@ -619,13 +727,13 @@
 "table": "ces_individual",
 "name": "w_inc",
 "label": "여성 후보가 현직",
-"values": "1/0"
+"values": "1/0(여성 대 남성 선거만)"
 },
 {
 "table": "ces_individual",
 "name": "m_inc",
 "label": "남성 후보가 현직",
-"values": "1/0"
+"values": "1/0(여성 대 남성 선거만)"
 },
 {
 "table": "ces_individual",

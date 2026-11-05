@@ -777,8 +777,9 @@ async function xwModelsHtml() {
   <div class="note"><b>모형</b>: 여성 후보 선택(1/0) = 여성 유권자 + 기존 여성 + 여성 유권자 × 기존 여성 + 같은 정당·반대 정당 지지(기우는 무당파 포함, 기준: 무당파) + 여성 후보와 같은 인종 + 남성 후보와 같은 인종 + 남성 후보 인종 모름 + 여성·남성 후보가 백인 아님 + 응답자 인종·4년제 대졸·나이·이념 + 선거구 당파 지수·농촌·흑인·히스패닉·아시아계·대졸 비율·소득 중앙값 + 여성·남성 후보 현직 + 연도 고정효과.
     CES 가중치, 표준오차는 선거 단위로 묶음(Stata의 vce(cluster)와 같은 보정). 괄호는 표준오차, * = p &lt; .05. 선형확률모형 계수는 확률 차이(%p), 로짓 계수는 로그 오즈입니다.
     후보 인종: 여성 후보는 CAWP 코드, 남성 후보는 의회에 있었던 사람만 위키백과의 흑인·히스패닉·아시아계·원주민·중동계 의원 명단으로 정하고 명단에 없으면 백인으로 봅니다(추정). 의회에 없었던 남성 후보는 '모름'으로 두고 '남성 후보 인종 모름'을 1로, 남성 후보와 같은 인종·백인 아님은 0으로 넣습니다${M.meta.man_race ? `(선거 수: ${Object.entries(M.meta.man_race).map(([k, v]) => `${esc({ list: '소수 인종 의원 명단', member: '의원이었고 명단에 없음(백인으로 봄)', none: '의회에 없었음(모름)' }[k] || k)} ${v}`).join(', ')})` : ''}. '남성 후보 인종 모름'은 의회에 한 번도 들어가지 못한 남성(대개 약한 도전자)이라는 뜻도 함께 담고 있어, 이 계수는 인종보다 후보 경쟁력 차이로 읽는 것이 맞습니다. 응답자 인종은 CES race_h(히스패닉이면 히스패닉)입니다. 정당 지지는 선거 전 조사의 7점 척도(pid7)입니다.</div>
-  <div class="btns"><a class="btn" href="data/ces/ces_models.csv" download>계수 전체 CSV</a><a class="btn" href="data/ces/ces_models_pred.csv" download>보정 예측 CSV</a><a class="btn" href="data/ces/ces_individual.dta" download>분석 자료(.dta)</a></div>
-  <details class="cb"><summary><b>Stata로 다시 돌리기</b> <span class="muted">분석 자료(.dta)를 연 뒤, 지금 고른 모형</span></summary><div style="padding:8px 12px">
+  <div class="btns"><a class="btn" href="data/ces/ces_models.csv" download>계수 전체 CSV</a><a class="btn" href="data/ces/ces_models_pred.csv" download>보정 예측 CSV</a><a class="btn" href="data/ces/ces_individual.zip" download>분석 자료(.dta, zip)</a></div>
+  <p class="muted">분석 자료는 응답자 한 명이 한 줄인 Stata 파일을 zip으로 묶은 것입니다. 모형은 여성 대 남성 선거만 쓰지만, 자료에는 민주·공화 후보가 둘 다 여성인 선거(ff = 1)와 둘 다 남성인 선거(mm = 1)의 응답자도 들어 있습니다(여성 대 남성은 mixed = 1). 이런 선거에는 민주 후보 투표(vote_d)와 정당별 후보의 성별·인종·현직, 응답자와의 같은 인종 여부(same_race_d, same_race_r)가 있고, 여성 후보 기준 변수(vote_woman, wparty 등)는 비어 있습니다.</p>
+  <details class="cb"><summary><b>Stata로 다시 돌리기</b> <span class="muted">zip을 풀어 ces_individual.dta를 연 뒤, 지금 고른 모형</span></summary><div style="padding:8px 12px">
   <pre class="code">gen prior = ${prior} > 0 if ${prior} &lt; .
 global X ${ctrl}
 reg vote_woman i.female##i.prior $X i.year if wparty==${wq}D${wq} & weight>0 [pw=weight], vce(cluster race_n)
