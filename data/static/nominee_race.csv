@@ -3747,6 +3747,7 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-CT-05,D,Jahana Hayes,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-CT-05,R,Manny Santos,H,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-DE-00,D,Lisa Blunt Rochester,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2018-H-DE-00,R,Scott Walker,W,research,웹 조사(2026-11-05),https://whyy.org/segments/gop-nominee-for-lone-delaware-congressional-seat-is-one-unusual-candidate,"WHYY: 'Walker, who is white,' hopes to win votes in predominantly black Wilmington; 67-year-old Milford resident, father of four."
 2018-H-FL-01,D,Jennifer M. Zimmerman,AP,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-FL-01,R,Matt Gaetz,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-FL-02,R,Neal Dunn,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
@@ -4060,6 +4061,7 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-NY-13,D,Adriano Espaillat,H,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-NY-13,R,Jineea Butler,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-NY-14,D,Alexandria Ocasio-Cortez,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2018-H-NY-14,R,Anthony Pappas,W,research,웹 조사(2026-11-05),https://www.theringer.com/2018/10/31/18042446/anthony-pappas-alexandria-ocasio-cortez-new-york-election-congress-14th-district,"The Ringer: Greek immigrant parents, Greek spoken at home (European origin -> W)"
 2018-H-NY-15,D,Jose E. Serrano,H,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-NY-18,D,Sean Patrick Maloney,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-NY-18,R,James D. O'Donnell,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
@@ -6036,6 +6038,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-CO-05,R,Jeff Crank,W,file,Grumbach & Sahn / hand coding,https://doi.org/10.7910/DVN/PUIJIU,다른 해 자료의 같은 사람
 2024-H-CO-06,D,Jason Crow,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-CO-07,D,Brittany Pettersen,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2024-H-CO-07,R,Sergei Matveyuk,W,research,웹 조사(2026-11-05),https://ballotpedia.org/Sergei_Matveyuk ; https://coloradonewsline.com/2024/10/11/candidate-qa-7th-congressional-district-2024/,"Ballotpedia: ""Sergei Matveyuk was born in Poland.""; his Candidate Connection survey: ""I am of Polish descent."""
 2024-H-CO-08,D,Yadira Caraveo,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-CO-08,R,Gabe Evans,H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
 2024-H-CT-01,D,John Larson,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
@@ -6143,6 +6146,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-IL-02,D,Robin Kelly,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-IL-02,R,Ashley Ramos,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-IL-03,D,Delia Ramirez,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2024-H-IL-03,R,John Booras,W,research,웹 조사(2026-11-05),https://ballotpedia.org/John_Booras,"Self-described son of immigrants: ""my parents who came from post World War 2 torn Greece"" (European origin -> W)"
 2024-H-IL-04,D,Chuy García,H,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-IL-04,R,Lupe Castillo,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-IL-05,D,Mike Quigley,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
@@ -6332,6 +6336,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-NJ-10,D,LaMonica McIver,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-NJ-10,R,Carmen Bucco,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/NJ_candidates_cleaned.csv,다른 해 자료의 같은 사람
 2024-H-NJ-11,D,Mikie Sherrill,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2024-H-NJ-11,R,Joseph Belnome,W,research,웹 조사(2026-11-05),https://newjerseyglobe.com/congress/sherrill-draws-first-gop-challenger/,"NJ Globe: ""Raised in Newark as the son of Italian immigrants"" (European origin -> W)"
 2024-H-NJ-12,D,Bonnie Watson Coleman,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-NJ-12,R,Darius Mayfield,B,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-NM-01,D,Melanie Stansbury,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
