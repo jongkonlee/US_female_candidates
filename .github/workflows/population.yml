@@ -1,0 +1,35 @@
+name: fetch census population points
+
+# one-off: saves the 2020 census block-group centers of population to data/static/cenpop2020_bg.csv.gz;
+# pipeline/lineage.py then uses them to measure how many residents two House districts share
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: fetch points
+        run: python pipeline/fetch_population.py
+      - name: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/static/cenpop2020_bg.csv.gz data/static/cenpop2020_bg.json
+          if ! git diff --cached --quiet; then
+            git commit -m "2020 census block-group centers of population"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
