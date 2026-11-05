@@ -346,6 +346,14 @@
    "1": 183478
   }
  },
+ "nominee_table": {
+  "file": 4881,
+  "cawp": 1724,
+  "none": 205,
+  "rdc": 188,
+  "research": 24,
+  "member": 4
+ },
  "sample": {
   "respondents": 302994,
   "races": 3509,
@@ -389,16 +397,17 @@
    "med_income": 0
   },
   "man_race_races": {
-   "file": 1234,
-   "none": 98,
-   "research": 10,
+   "file": 1236,
+   "none": 58,
+   "rdc": 40,
+   "research": 8,
    "member": 1
   },
   "man_race_codes": {
-   "W": 1027,
-   "모름": 98,
+   "W": 1063,
    "B": 94,
-   "H": 76,
+   "H": 80,
+   "모름": 58,
    "AP": 28,
    "NA": 9,
    "MENA": 4,
@@ -428,12 +437,12 @@
    "H/MENA/W": 1
   },
   "nominee_race_src": {
-   "file": 4867,
+   "file": 4881,
    "cawp": 1724,
-   "none": 398,
-   "research": 31,
-   "member": 4,
-   "list": 2
+   "none": 205,
+   "rdc": 188,
+   "research": 24,
+   "member": 4
   }
  },
  "individual": {
