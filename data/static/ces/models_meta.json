@@ -347,12 +347,12 @@
   }
  },
  "sample": {
-  "respondents": 302903,
-  "races": 3507,
+  "respondents": 302994,
+  "races": 3509,
   "by_matchup": {
    "F-M": {
-    "respondents": 92285,
-    "races": 1013
+    "respondents": 92350,
+    "races": 1014
    },
    "M-F": {
     "respondents": 28049,
@@ -363,14 +363,14 @@
     "races": 197
    },
    "M-M": {
-    "respondents": 164111,
-    "races": 1968
+    "respondents": 164137,
+    "races": 1969
    }
   },
   "by_party": {
    "D": {
-    "respondents": 92285,
-    "races": 1013
+    "respondents": 92350,
+    "races": 1014
    },
    "R": {
     "respondents": 28049,
@@ -379,7 +379,7 @@
   },
   "missing": {
    "copart": 281,
-   "same_race_w": 57,
+   "same_race_w": 122,
    "rrace": 0,
    "college": 0,
    "age": 0,
@@ -389,13 +389,13 @@
    "med_income": 0
   },
   "man_race_races": {
-   "file": 1233,
+   "file": 1234,
    "none": 98,
    "research": 10,
    "member": 1
   },
   "man_race_codes": {
-   "W": 1026,
+   "W": 1027,
    "모름": 98,
    "B": 94,
    "H": 76,
@@ -418,8 +418,8 @@
    "NA": 7,
    "AP/B": 4,
    "B/W": 3,
+   "모름": 2,
    "NA/W": 2,
-   "모름": 1,
    "B/H/W": 1,
    "MU": 1,
    "AP/MENA": 1,
@@ -430,16 +430,17 @@
   "nominee_race_src": {
    "file": 4867,
    "cawp": 1724,
-   "none": 411,
-   "research": 16,
-   "member": 4
+   "none": 404,
+   "research": 25,
+   "member": 4,
+   "list": 2
   }
  },
  "individual": {
-  "rows": 302903,
+  "rows": 302994,
   "by_matchup": {
-   "M-M": 164111,
-   "F-M": 92285,
+   "M-M": 164137,
+   "F-M": 92350,
    "M-F": 28049,
    "F-F": 18458
   }
