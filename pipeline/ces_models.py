@@ -213,7 +213,7 @@ def respondents(df, meta):
 # ---------- races ----------
 def races():
     r = pd.read_csv(os.path.join(ROOT, "data", "races.csv"), low_memory=False)
-    c = pd.read_csv(os.path.join(ROOT, "data", "candidates.csv"), low_memory=False)
+    c = pd.read_csv(os.path.join(ROOT, "data", "candidates.csv"), low_memory=False, keep_default_na=False, na_values=[""])  # race code NA = Native American
     h = r[(r.chamber == "H") & (r.special == 0) & r.matchup.isin(["F-M", "M-F"]) & r.year.isin(YEARS)].copy()
     h["wparty"] = np.where(h.matchup == "F-M", "D", "R")
     h["wname"] = np.where(h.wparty == "D", h.d_nominee, h.r_nominee)

@@ -668,6 +668,8 @@ def load_cawp_list():
 
 def load_cawp():
     c = pd.read_excel(os.path.join(STATIC, "cawp_master.xlsx"))
+    # 'NA' is CAWP's race code for Native American women; read with the defaults it became a missing value
+    c["Race"] = pd.read_excel(os.path.join(STATIC, "cawp_master.xlsx"), usecols=["Race"], keep_default_na=False, na_values=[""])["Race"]
     c["cawp_src"] = "CAWP"
     lst = load_cawp_list()
     if lst is not None and int(c.Year.max()) < CAWP_LIST_YEAR:  # the database itself covers the year once CAWP adds it

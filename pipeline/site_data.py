@@ -74,7 +74,7 @@ def trends(cand, prim, races):
 
 def write(extra=None):
     os.makedirs(SITE, exist_ok=True)
-    cand = pd.read_csv(os.path.join(DATA, "candidates.csv"), low_memory=False)
+    cand = pd.read_csv(os.path.join(DATA, "candidates.csv"), low_memory=False, keep_default_na=False, na_values=[""])  # race code NA = Native American
     prim = pd.read_csv(os.path.join(DATA, "primaries.csv"), low_memory=False)
     races = pd.read_csv(os.path.join(DATA, "races.csv"), low_memory=False)
     cov = pd.read_csv(os.path.join(DATA, "coverage.csv"))

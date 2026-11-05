@@ -40,15 +40,17 @@ LEGIS = ["legislators-current.yaml", "legislators-historical.yaml"]
 
 
 def get(params):
-    url = API + "?" + urllib.parse.urlencode(dict(params, format="json", formatversion=2))
+    url = API + "?" + urllib.parse.urlencode(dict(params, format="json", formatversion=2, maxlag=5))
     req = urllib.request.Request(url, headers={"User-Agent": UA})
-    for i in range(5):
+    for i in range(6):
         try:
             with urllib.request.urlopen(req, timeout=120) as r:
-                return json.loads(r.read())
+                out = json.loads(r.read())
+            time.sleep(1)  # one request a second: Wikipedia answered 429 (too many requests) to a faster pace
+            return out
         except Exception as e:  # noqa: BLE001
             print("  retry", i + 1, type(e).__name__, e, flush=True)
-            time.sleep(5 * (i + 1))
+            time.sleep(10 * (i + 1))
     raise RuntimeError("not reachable: " + url)
 
 
