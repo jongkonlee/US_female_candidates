@@ -16,6 +16,7 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-AZ-03,D,Bob Lord,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-AZ-03,R,John Shadegg,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-AZ-04,D,Ed Pastor,H,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
+2008-H-AZ-04,R,Don Karg,W,file,사용자 검토 파일(2026-11-06): 연구자료(후보 분류) / 연구자료 교차확인: 본선 양당 후보 대조,https://doi.org/10.7910/DVN/YUYIVB/P3MCIW | https://doi.org/10.7910/DVN/27624 | https://www.fec.gov/documents/1658/2008congresults.pdf | https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives-and-Senators-by-State-and-Territory/,"2008 CCES, Don Karg. 후보 맥락변수 V538=White, V638=1. 사후 코드 1=White, 3=Hispanic, 4=Other, 5=Missing. Fraga 연구자료(2008 AZ-4)는 양대 정당 본선에 White 및 Latino 후보가 각각 있었음을 기록합니다. FEC 본선표의 양당 후보는 Ed Pastor와 Don Karg 두 명입니다. 연방하원 역사국의 히스패닉 의원 명단에서 Ed Pastor를 확인하여 Don Karg을 연구자료의 White 후보에 연결했습니다."
 2008-H-AZ-05,D,Harry Mitchell,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-AZ-05,R,David Schweikert,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-AZ-06,D,Rebecca Schneider,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -25,6 +26,7 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-AZ-08,D,Gabrielle Giffords,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2008-H-AZ-08,R,Tim Bee,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-CA-01,D,Mike Thompson,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
+2008-H-CA-01,R,Zane Starkewolf,W,file,사용자 검토 파일(2026-11-06): 연구자료(후보 분류),https://doi.org/10.7910/DVN/YUYIVB/P3MCIW,"2008 CCES, Zane Starkewolf. 후보 맥락변수 V538=White, V638=1. 사후 코드 1=White, 3=Hispanic, 4=Other, 5=Missing."
 2008-H-CA-02,D,Jeff Morris,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-CA-02,R,Wally Herger,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-CA-03,D,William Durston,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
@@ -50,6 +52,7 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-CA-13,D,Fortney Stark,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-CA-13,R,Raymond Chui,AP,file,从教委到市长　美国加州东湾13名华裔参选公职,https://www.chinaqw.com/hqhr/hrdt/200810/27/135253.shtml,
 2008-H-CA-14,D,Anna G. Eshoo,MENA,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2008-H-CA-14,R,Ronny Santana,H,file,사용자 검토 파일(2026-11-06): 연구자료(후보 분류) / 연구자료 교차확인: 정당 단독후보,https://doi.org/10.7910/DVN/YUYIVB/P3MCIW | https://doi.org/10.7910/DVN/27624 | https://www.fec.gov/documents/1658/2008congresults.pdf,"2008 CCES, Ronny Santana. 후보 맥락변수 V538=Hispanic, V638=5. 사후 코드 1=White, 3=Hispanic, 4=Other, 5=Missing. Fraga 연구자료(2008 CA-14)에서 공화당 지명 경선의 Latino 후보 존재 변수가 1입니다. FEC 공식 경선표에 이 정당 후보 한 명만 등재됨(득표율 100%). Ronny Santana의 연구자 분류로 복원했습니다."
 2008-H-CA-15,D,Mike Honda,AP,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-CA-15,R,Joyce Stoer Cordi,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2008-H-CA-16,D,Zoe Lofgren,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -116,6 +119,7 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-CO-02,D,Jared Polis,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-CO-02,R,Scott Starin,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-CO-03,D,John T. Salazar,H,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
+2008-H-CO-03,R,Wayne Wolf,W,file,사용자 검토 파일(2026-11-06): 연구자료(후보 분류) / 연구자료 교차확인: 정당 단독후보,https://doi.org/10.7910/DVN/YUYIVB/P3MCIW | https://doi.org/10.7910/DVN/27624 | https://www.fec.gov/documents/1658/2008congresults.pdf,"2008 CCES, Wayne Wolf. 후보 맥락변수 V538=White, V638=1. 사후 코드 1=White, 3=Hispanic, 4=Other, 5=Missing. Fraga 연구자료(2008 CO-3)에서 공화당 지명 경선의 White 후보 존재 변수가 1입니다. FEC 공식 경선표에 이 정당 후보 한 명만 등재됨(득표율 100%). Wayne Wolf의 연구자 분류로 복원했습니다."
 2008-H-CO-04,D,Betsy Markey,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2008-H-CO-04,R,Marilyn N. Musgrave,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2008-H-CO-05,D,Hal Bidlack,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
@@ -127,6 +131,7 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-CT-01,D,John B. Larson,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-CT-01,R,Joe Visconti,W,rdc,Reflective Democracy Campaign (사용자 파일의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/who-runs-in-america-dataset2012-2014.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2008-H-CT-02,D,Joe Courtney,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2008-H-CT-02,R,Sean Sullivan,W,file,사용자 검토 파일(2026-11-06): 연구자료(후보 분류) / 연구자료 교차확인: 정당 단독후보,https://doi.org/10.7910/DVN/YUYIVB/P3MCIW | https://doi.org/10.7910/DVN/27624 | https://www.fec.gov/documents/1658/2008congresults.pdf,"2008 CCES, Sean Patrick Sullivan. 후보 맥락변수 V538=White, V638=1. 사후 코드 1=White, 3=Hispanic, 4=Other, 5=Missing. Fraga 연구자료(2008 CT-2)에서 공화당 지명 경선의 White 후보 존재 변수가 1입니다. FEC 보고서 96쪽에 주 공화당 전당대회에서 지명된 유일한 후보로 기재됨(경선 미개최). Sean Sullivan의 연구자 분류로 복원했습니다."
 2008-H-CT-03,D,Rosa L. DeLauro,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2008-H-CT-04,D,Jim Himes,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-CT-04,R,Christopher Shays,W,file,Kieran Healy / congress,https://kjhealy.github.io/congress/,다른 해 자료의 같은 사람
@@ -194,6 +199,7 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-GA-09,R,Nathan Deal,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-GA-10,D,Bobby Saxon,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-GA-10,R,Paul Broun,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
+2008-H-GA-11,D,"Hugh ""Bud"" Gammon",W,file,사용자 검토 파일(2026-11-06): 연구자료(후보 분류) / 연구자료 교차확인: 정당 단독후보,https://doi.org/10.7910/DVN/YUYIVB/P3MCIW | https://doi.org/10.7910/DVN/27624 | https://www.fec.gov/documents/1658/2008congresults.pdf,"2008 CCES, Hugh ""Bud"" Gammon. 후보 맥락변수 V587=White, V687=White. Fraga 연구자료(2008 GA-11)에서 민주당 지명 경선의 White 후보 존재 변수가 1입니다. FEC 공식 경선표에 이 정당 후보 한 명만 등재됨(득표율 100%). Hugh ""Bud"" Gammon의 연구자 분류로 복원했습니다."
 2008-H-GA-11,R,Phil Gingrey,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-GA-12,D,John Barrow,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-GA-12,R,John Stone,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
@@ -202,6 +208,7 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-HI-01,D,Neil Abercrombie,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-HI-01,R,Steve Tataii,MENA,file,American Kurd running for US Congress,https://www.kurdistan24.net/en/story/367715,
 2008-H-HI-02,D,Mazie Hirono,AP,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2008-H-HI-02,R,Roger B. Evans,W,file,사용자 검토 파일(2026-11-06): 연구자료(후보 분류),https://doi.org/10.7910/DVN/YUYIVB/P3MCIW,"2008 CCES, Roger B. Evans. 후보 맥락변수 V538=White, V638=1. 사후 코드 1=White, 3=Hispanic, 4=Other, 5=Missing."
 2008-H-IA-01,D,Bruce Braley,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-IA-01,R,David Hartusch,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-IA-02,D,Dave Loebsack,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
@@ -221,12 +228,15 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-IL-02,D,Jesse L. Jackson Jr.,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
 2008-H-IL-02,R,Anthony W. Williams,B,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2008-H-IL-03,D,Daniel William Lipinski,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
+2008-H-IL-03,R,Michael Hawkins,W,file,사용자 검토 파일(2026-11-06): 연구자료(후보 분류),https://doi.org/10.7910/DVN/YUYIVB/P3MCIW,"2008 CCES, Michael Hawkins. 후보 맥락변수 V538=White, V638=1. 사후 코드 1=White, 3=Hispanic, 4=Other, 5=Missing."
 2008-H-IL-04,D,Luis V. Gutierrez,H,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
+2008-H-IL-04,R,Daniel Cunningham,W,file,사용자 검토 파일(2026-11-06): 연구자료(후보 분류) / 연구자료 교차확인: 본선 양당 후보 대조,https://doi.org/10.7910/DVN/YUYIVB/P3MCIW | https://doi.org/10.7910/DVN/27624 | https://www.fec.gov/documents/1658/2008congresults.pdf | https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives-and-Senators-by-State-and-Territory/,"2008 CCES, Daniel Cunningham. 후보 맥락변수 V538=Missing, V638=5. 사후 코드 1=White, 3=Hispanic, 4=Other, 5=Missing. Fraga 연구자료(2008 IL-4)는 양대 정당 본선에 White 및 Latino 후보가 각각 있었음을 기록합니다. FEC 본선표의 양당 후보는 Luis Gutiérrez와 Daniel Cunningham 두 명입니다. 연방하원 역사국의 히스패닉 의원 명단에서 Luis Gutiérrez를 확인하여 Daniel Cunningham을 연구자료의 White 후보에 연결했습니다."
 2008-H-IL-05,D,Rahm Emanuel,W,file,Kieran Healy / congress,https://kjhealy.github.io/congress/,다른 해 자료의 같은 사람
 2008-H-IL-05,R,Tom Hanson,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2008-H-IL-06,D,Jill Morgenthaler,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2008-H-IL-06,R,Peter J. Roskam,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-IL-07,D,Danny K. Davis,B,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
+2008-H-IL-07,R,Steve Miller,W,file,사용자 검토 파일(2026-11-06): 연구자료(후보 분류) / 연구자료 교차확인: 본선 양당 후보 대조,https://doi.org/10.7910/DVN/YUYIVB/P3MCIW | https://doi.org/10.7910/DVN/27624 | https://www.fec.gov/documents/1658/2008congresults.pdf | https://jointcenter.org/wp-content/uploads/2021/02/post-election_1.pdf#page=4,"2008 CCES, Steve Miller. 후보 맥락변수 V538=White, V638=1. 사후 코드 1=White, 3=Hispanic, 4=Other, 5=Missing. Fraga 연구자료(2008 IL-7)는 양대 정당 본선에 White 및 Black 후보가 각각 있었음을 기록합니다. FEC 본선표의 양당 후보는 Danny Davis와 Steve Miller 두 명입니다. Joint Center 보고서 표 3의 흑인 의원 분류에서 Danny Davis를 확인하여 Steve Miller을 연구자료의 White 후보에 연결했습니다."
 2008-H-IL-08,D,Melissa Bean,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2008-H-IL-08,R,Steve Greenberg,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-IL-09,D,Janice D. Schakowsky,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -234,12 +244,14 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-IL-10,D,Daniel J. Seals,B,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-IL-10,R,Mark Steven Kirk,W,file,Kieran Healy / congress,https://kjhealy.github.io/congress/,다른 해 자료의 같은 사람
 2008-H-IL-11,D,"Deborah ""Debbie"" Halvorson",W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
-2008-H-IL-11,R,Marty Ozinga,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 사용자가 밝힌 내용: 네덜란드계 백인 가문(Ozinga Bros. 기업가) 출신
+2008-H-IL-11,R,Marty Ozinga,W,file,사용자 검토 파일(2026-11-06): 연구자료(후보 분류) / 가계 보도,https://doi.org/10.7910/DVN/YUYIVB/P3MCIW | https://cdn.nwindianabusiness.com/wp-content/uploads/2020/06/2014_NWIBQ-spring14.pdf,"2008 CCES, Marty Ozinga. 후보 맥락변수 V538=White, V638=1. 사후 코드 1=White, 3=Hispanic, 4=Other, 5=Missing. Northwest Indiana Business Quarterly가 Ozinga 가문이 네덜란드에서 일리노이로 이주했다고 보도함. 후보 Martin “Marty” Ozinga III의 가족 배경으로, 대분류는 미확인."
 2008-H-IL-12,D,Jerry F. Costello,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
+2008-H-IL-12,R,Timmy Jay Richardson Jr.,W,file,사용자 검토 파일(2026-11-06): 연구자료(후보 분류),https://doi.org/10.7910/DVN/YUYIVB/P3MCIW,"2008 CCES, Timmy Jay Richardson, Jr.. 후보 맥락변수 V538=White, V638=1. 사후 코드 1=White, 3=Hispanic, 4=Other, 5=Missing."
 2008-H-IL-13,D,Scott Harper,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-IL-13,R,Judy Biggert,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2008-H-IL-14,D,Bill Foster,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-IL-14,R,Jim Oberweis,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
+2008-H-IL-15,D,Steve Cox,W,file,사용자 검토 파일(2026-11-06): 연구자료(후보 분류),https://doi.org/10.7910/DVN/YUYIVB/P3MCIW,"2008 CCES, Steve Cox. 후보 맥락변수 V587=White, V687=White."
 2008-H-IL-15,R,Timothy V. Johnson,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-IL-16,D,Robert G. Abboud,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-IL-16,R,Donald A. Manzullo,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
@@ -329,6 +341,7 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-MI-04,D,Andrew D. Concannon,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-MI-04,R,Dave Camp,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-MI-05,D,Dale E. Kildee,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
+2008-H-MI-05,R,Matt Sawicki,W,file,사용자 검토 파일(2026-11-06): 연구자료(후보 분류),https://doi.org/10.7910/DVN/YUYIVB/P3MCIW,"2008 CCES, Matt Sawicki. 후보 맥락변수 V538=White, V638=1. 사후 코드 1=White, 3=Hispanic, 4=Other, 5=Missing."
 2008-H-MI-06,D,Don Cooney,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-MI-06,R,Fred Upton,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-MI-07,D,Mark Schauer,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
@@ -342,6 +355,7 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-MI-11,D,Joseph W. Larkin,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-MI-11,R,Thaddeus G. McCotter,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-MI-12,D,Sander Levin,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
+2008-H-MI-12,R,Bert Copple,W,file,사용자 검토 파일(2026-11-06): 연구자료(후보 분류),https://doi.org/10.7910/DVN/YUYIVB/P3MCIW,"2008 CCES, Bert Copple. 후보 맥락변수 V538=White, V638=1. 사후 코드 1=White, 3=Hispanic, 4=Other, 5=Missing."
 2008-H-MI-13,D,Carolyn Cheeks Kilpatrick,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2008-H-MI-13,R,Edward J. Gubics,W,file,"Fraga, Juenke & Shah / Klarner state legislative elections",https://doi.org/10.7910/DVN/IUXG2I,다른 자료(주의회·주 선거 등)에서 연결한 같은 사람
 2008-H-MI-15,D,John D. Dingell,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
@@ -389,6 +403,7 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-MT-00,D,John Driscoll,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-MT-00,R,Denny Rehberg,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-NC-01,D,G.K. Butterfield,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
+2008-H-NC-01,R,Dean Stephens,W,file,사용자 검토 파일(2026-11-06): 주의회 자료의 후보별 분류 / 연구자료(후보 분류) / 연구자료 교차확인: 본선 양당 후보 대조,https://www.ncleg.gov/Files/GIS/ReferenceDocs/2011/CommitteeDocs/Congressional%20Races%201992-2010%20Handouts.pdf | https://doi.org/10.7910/DVN/YUYIVB/P3MCIW | https://doi.org/10.7910/DVN/27624 | https://www.fec.gov/documents/1658/2008congresults.pdf | https://jointcenter.org/wp-content/uploads/2021/02/post-election_1.pdf#page=4,"노스캐롤라이나 주의회 선거구획정 자료의 2008년 NC-01 본선 표에서 Dean Stephens의 Race/Ethnicity를 White로 명시합니다. 2008 CCES, Dean Stephens. 후보 맥락변수 V538=White, V638=1. 사후 코드 1=White, 3=Hispanic, 4=Other, 5=Missing. Fraga 연구자료(2008 NC-1)는 양대 정당 본선에 White 및 Black 후보가 각각 있었음을 기록합니다. FEC 본선표의 양당 후보는 G. K. Butterfield와 Dean Stephens 두 명입니다. Joint Center 보고서 표 3의 흑인 의원 분류에서 G. K. Butterfield를 확인하여 Dean Stephens을 연구자료의 White 후보에 연결했습니다."
 2008-H-NC-02,D,Bob Etheridge,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-NC-02,R,Dan Mansell,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-NC-03,D,Craig Weber,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
@@ -406,8 +421,9 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-NC-10,D,Daniel Johnson,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-NC-10,R,Patrick McHenry,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-NC-11,D,Heath Shuler,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
-2008-H-NC-11,R,Carl Mumpower,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 사용자가 밝힌 내용: 애슈빌 시의원 출신 정치인(백인)
+2008-H-NC-11,R,Carl Mumpower,W,file,사용자 검토 파일(2026-11-06): 언론의 명시적 서술 / 연구자료(후보 분류),https://www.asheville.com/news/2024/01/asheville-watchdog-legal-case-could-be-costly-for-peak-academy-which-was-established-to-close-student-achievement-gap/ | https://doi.org/10.7910/DVN/YUYIVB/P3MCIW,"Asheville Watchdog 보도에서 전 애슈빌 시의원이자 연방 하원의원 후보였던 Carl Mumpower와 John Miall을 지명해 두 사람 모두 백인이라고 명시합니다. 2008 CCES, Carl Mumpower. 후보 맥락변수 V538=White, V638=1. 사후 코드 1=White, 3=Hispanic, 4=Other, 5=Missing."
 2008-H-NC-12,D,Mel Watt,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
+2008-H-NC-12,R,Ty Cobb Jr.,W,file,사용자 검토 파일(2026-11-06): 주의회 자료의 후보별 분류 / 연구자료(후보 분류) / 연구자료 교차확인: 본선 양당 후보 대조,https://www.ncleg.gov/Files/GIS/ReferenceDocs/2011/CommitteeDocs/Congressional%20Races%201992-2010%20Handouts.pdf | https://doi.org/10.7910/DVN/YUYIVB/P3MCIW | https://doi.org/10.7910/DVN/27624 | https://www.fec.gov/documents/1658/2008congresults.pdf | https://jointcenter.org/wp-content/uploads/2021/02/post-election_1.pdf#page=4,"노스캐롤라이나 주의회 선거구획정 자료의 2008년 NC-12 본선 표에서 Ty Cobb, Jr.의 Race/Ethnicity를 White로 명시합니다. 2008 CCES, Tyrus ""Ty"" Raymond Cobb, Jr.. 후보 맥락변수 V538=White, V638=1. 사후 코드 1=White, 3=Hispanic, 4=Other, 5=Missing. Fraga 연구자료(2008 NC-12)는 양대 정당 본선에 White 및 Black 후보가 각각 있었음을 기록합니다. FEC 본선표의 양당 후보는 Mel Watt와 Ty Cobb Jr. 두 명입니다. Joint Center 보고서 표 3의 흑인 의원 분류에서 Mel Watt를 확인하여 Ty Cobb Jr.을 연구자료의 White 후보에 연결했습니다."
 2008-H-NC-13,D,Brad Miller,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-NC-13,R,Hugh Webster,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-ND-00,D,Earl Pomeroy,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
@@ -416,6 +432,7 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-NE-01,R,Jeff Fortenberry,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-NE-02,D,Jim Esch,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-NE-02,R,Lee Terry,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
+2008-H-NE-03,D,Jay C. Stoddard,W,file,사용자 검토 파일(2026-11-06): 연구자료(후보 분류),https://doi.org/10.7910/DVN/YUYIVB/P3MCIW,"2008 CCES, Jay C. Stoddard. 후보 맥락변수 V587=White, V687=White."
 2008-H-NE-03,R,Adrian Smith,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-NH-01,D,Carol Shea-Porter,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2008-H-NH-01,R,Jeb Bradley,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
@@ -442,6 +459,7 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-NJ-12,D,Rush Holt,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-NJ-12,R,Alan R. Bateman,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-NJ-13,D,Albio Sires,H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
+2008-H-NJ-13,R,Joseph Turula,W,file,사용자 검토 파일(2026-11-06): 본인 발언을 기록한 변호사협회 / 연구자료(후보 분류) / 연구자료 교차확인: 정당 단독후보,https://njsba.com/njsba-celebrates-diversity-inclusion-in-judiciary-bestows-justice-thurgood-marshall-award/ | https://doi.org/10.7910/DVN/YUYIVB/P3MCIW | https://doi.org/10.7910/DVN/27624 | https://www.fec.gov/documents/1658/2008congresults.pdf,"뉴저지주 변호사협회는 Joseph A. Turula 판사가 2019년 수상 소감에서 백인 남성으로서의 자신의 경험을 설명했다고 기록했습니다. 2008 CCES, Joseph Turula. 후보 맥락변수 V538=White, V638=5. 사후 코드 1=White, 3=Hispanic, 4=Other, 5=Missing. Fraga 연구자료(2008 NJ-13)에서 공화당 지명 경선의 White 후보 존재 변수가 1입니다. FEC 공식 경선표에 이 정당 후보 한 명만 등재됨(득표율 100%). Joseph Turula의 연구자 분류로 복원했습니다."
 2008-H-NM-01,D,Martin T. Heinrich,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-NM-01,R,Darren White,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-NM-02,D,Harry Teague,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
@@ -465,9 +483,11 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-NY-05,D,Gary L. Ackerman,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-NY-05,R,Elizabeth Berney,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2008-H-NY-07,D,Joseph Crowley,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
+2008-H-NY-07,R,William E. Britt Jr.,W,file,사용자 검토 파일(2026-11-06): 연구자료(후보 분류),https://doi.org/10.7910/DVN/YUYIVB/P3MCIW,"2008 CCES, William E. Britt, Jr.. 후보 맥락변수 V538=White, V638=5. 사후 코드 1=White, 3=Hispanic, 4=Other, 5=Missing."
 2008-H-NY-08,D,Jerrold L. Nadler,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-NY-08,R,Grace Lin,AP,file,看中國 / 5華裔問鼎美國國會眾議員,https://m.secretchina.com/news/b5/2008/11/04/amp269504.html,
 2008-H-NY-10,D,Edolphus Towns,B,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
+2008-H-NY-10,R,Salvatore Grupico,W,file,사용자 검토 파일(2026-11-06): 연구자료(후보 분류) / 연구자료 교차확인: 본선 양당 후보 대조,https://doi.org/10.7910/DVN/YUYIVB/P3MCIW | https://doi.org/10.7910/DVN/27624 | https://www.fec.gov/documents/1658/2008congresults.pdf | https://jointcenter.org/wp-content/uploads/2021/02/post-election_1.pdf#page=4,"2008 CCES, Salvatore Grupico. 후보 맥락변수 V538=White, V638=5. 사후 코드 1=White, 3=Hispanic, 4=Other, 5=Missing. Fraga 연구자료(2008 NY-10)는 양대 정당 본선에 White 및 Black 후보가 각각 있었음을 기록합니다. FEC 본선표의 양당 후보는 Edolphus Towns와 Salvatore Grupico 두 명입니다. Joint Center 보고서 표 3의 흑인 의원 분류에서 Edolphus Towns를 확인하여 Salvatore Grupico을 연구자료의 White 후보에 연결했습니다."
 2008-H-NY-11,D,Yvette D. Clarke,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2008-H-NY-11,R,Hugh C. Carr,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-NY-12,D,Nydia M. Velazquez,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -500,6 +520,7 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-NY-27,D,Brian Higgins,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-NY-27,R,Daniel J. Humiston,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-NY-28,D,Louise M. Slaughter,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2008-H-NY-28,R,David W. Crimmen,W,file,사용자 검토 파일(2026-11-06): 연구자료(후보 분류),https://doi.org/10.7910/DVN/YUYIVB/P3MCIW,"2008 CCES, David W. Crimmen. 후보 맥락변수 V538=White, V638=1. 사후 코드 1=White, 3=Hispanic, 4=Other, 5=Missing."
 2008-H-NY-29,D,Eric J. J. Massa,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-NY-29,R,John Randy Kuhl Jr.,W,file,Kieran Healy / congress,https://kjhealy.github.io/congress/,다른 해 자료의 같은 사람
 2008-H-OH-01,D,Steve Driehaus,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
@@ -519,6 +540,7 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-OH-08,D,Nicholas A. Von Stein,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-OH-08,R,John A. Boehner,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-OH-09,D,Marcy Kaptur,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2008-H-OH-09,R,Bradley S. Leavitt,W,file,사용자 검토 파일(2026-11-06): 연구자료(후보 분류),https://doi.org/10.7910/DVN/YUYIVB/P3MCIW,"2008 CCES, Bradley S. Leavitt. 후보 맥락변수 V538=White, V638=1. 사후 코드 1=White, 3=Hispanic, 4=Other, 5=Missing."
 2008-H-OH-10,D,Dennis J. Kucinich,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-OH-10,R,Jim Trakas,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-OH-11,D,Marcia L. Fudge,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -534,6 +556,7 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-OH-16,D,John A. Boccieri,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-OH-16,R,Kirk Schuring,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-OH-17,D,Tim Ryan,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
+2008-H-OH-17,R,Duane V. Grassell,W,file,사용자 검토 파일(2026-11-06): 연구자료(후보 분류) / 연구자료 교차확인: 정당 단독후보,https://doi.org/10.7910/DVN/YUYIVB/P3MCIW | https://doi.org/10.7910/DVN/27624 | https://www.fec.gov/documents/1658/2008congresults.pdf,"2008 CCES, Duane Virgil Grassell. 후보 맥락변수 V538=White, V638=5. 사후 코드 1=White, 3=Hispanic, 4=Other, 5=Missing. Fraga 연구자료(2008 OH-17)에서 공화당 지명 경선의 White 후보 존재 변수가 1입니다. FEC 공식 경선표에 이 정당 후보 한 명만 등재됨(득표율 100%). Duane V. Grassell의 연구자 분류로 복원했습니다."
 2008-H-OH-18,D,Zack Space,W,file,Kieran Healy / congress,https://kjhealy.github.io/congress/,다른 해 자료의 같은 사람
 2008-H-OH-18,R,Fred Dailey,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-OK-01,D,Georgianna W. Oliver,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
@@ -543,7 +566,9 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-OK-03,R,Frank D. Lucas,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-OK-04,D,Blake Cummings,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-OK-04,R,Tom Cole,NA,file,Individual verification,https://cole.house.gov/about/full-biography,다른 해 자료의 같은 사람
+2008-H-OK-05,D,Steven L. Perry,W,file,사용자 검토 파일(2026-11-06): 연구자료(후보 분류),https://doi.org/10.7910/DVN/YUYIVB/P3MCIW,"2008 CCES, Steven L. Perry. 후보 맥락변수 V587=White, V687=White."
 2008-H-OK-05,R,Mary Fallin,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2008-H-OR-02,D,Noah Lemas,W,file,사용자 검토 파일(2026-11-06): 연구자료(후보 분류),https://doi.org/10.7910/DVN/YUYIVB/P3MCIW,"2008 CCES, Noah I. Lemas. 후보 맥락변수 V587=White, V687=White."
 2008-H-OR-02,R,Greg Walden,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-OR-03,D,Earl Blumenauer,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-OR-03,R,Delia Lopez,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,다른 해 자료의 같은 사람
@@ -552,6 +577,7 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-PA-01,D,Robert A. Brady,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-PA-01,R,Mike Muhammad,B,file,"Table 3. Black Major Party Nominees for Federal Office, November 2008",https://jointcenter.org/wp-content/uploads/2021/02/post-election_1.pdf,
 2008-H-PA-02,D,Chaka Fattah,B,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
+2008-H-PA-02,R,Adam A. Lang,W,file,사용자 검토 파일(2026-11-06): 연구자료(후보 분류) / 연구자료 교차확인: 본선 양당 후보 대조,https://doi.org/10.7910/DVN/YUYIVB/P3MCIW | https://doi.org/10.7910/DVN/27624 | https://www.fec.gov/documents/1658/2008congresults.pdf | https://jointcenter.org/wp-content/uploads/2021/02/post-election_1.pdf#page=4,"2008 CCES, Adam Lang. 후보 맥락변수 V538=White, V638=1. 사후 코드 1=White, 3=Hispanic, 4=Other, 5=Missing. Fraga 연구자료(2008 PA-2)는 양대 정당 본선에 White 및 Black 후보가 각각 있었음을 기록합니다. FEC 본선표의 양당 후보는 Chaka Fattah와 Adam A. Lang 두 명입니다. Joint Center 보고서 표 3의 흑인 의원 분류에서 Chaka Fattah를 확인하여 Adam A. Lang을 연구자료의 White 후보에 연결했습니다."
 2008-H-PA-03,D,Kathy Dahlkemper,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2008-H-PA-03,R,Phil English,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-PA-04,D,Jason Altmire,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
@@ -655,6 +681,7 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-TX-29,D,Gene Green,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-TX-29,R,Eric Story,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,다른 해 자료의 같은 사람
 2008-H-TX-30,D,Eddie Bernice Johnson,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2008-H-TX-30,R,Fred Wood,W,file,사용자 검토 파일(2026-11-06): 연구자료(후보 분류) / 연구자료 교차확인: 정당 단독후보,https://doi.org/10.7910/DVN/YUYIVB/P3MCIW | https://doi.org/10.7910/DVN/27624 | https://www.fec.gov/documents/1658/2008congresults.pdf,"2008 CCES, Fred Wood. 후보 맥락변수 V538=White, V638=1. 사후 코드 1=White, 3=Hispanic, 4=Other, 5=Missing. Fraga 연구자료(2008 TX-30)에서 공화당 지명 경선의 White 후보 존재 변수가 1입니다. FEC 공식 경선표에 이 정당 후보 한 명만 등재됨(득표율 100%). Fred Wood의 연구자 분류로 복원했습니다."
 2008-H-TX-31,D,Brian P. Ruiz,H,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-TX-31,R,John Carter,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-TX-32,D,Eric Roberson,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
@@ -662,8 +689,10 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-UT-01,D,Morgan Bowen,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-UT-01,R,Rob Bishop,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-UT-02,D,Jim Matheson,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
-2008-H-UT-03,D,Bennion L. Spencer,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 사용자가 밝힌 내용: 유타 출신 언론인·교수(백인)
+2008-H-UT-02,R,Bill Dew,W,file,사용자 검토 파일(2026-11-06): 연구자료(후보 분류),https://doi.org/10.7910/DVN/YUYIVB/P3MCIW,"2008 CCES, Bill Dew. 후보 맥락변수 V538=White, V638=1. 사후 코드 1=White, 3=Hispanic, 4=Other, 5=Missing."
+2008-H-UT-03,D,Bennion L. Spencer,W,file,사용자 검토 파일(2026-11-06): 연구자료(후보 분류),https://doi.org/10.7910/DVN/YUYIVB/P3MCIW,"2008 CCES, Bennion Lloyd Spencer. 후보 맥락변수 V587=White, V687=White."
 2008-H-UT-03,R,Jason Chaffetz,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2008-H-VA-01,D,Bill S. Day Jr.,W,file,사용자 검토 파일(2026-11-06): 연구자료(후보 분류),https://doi.org/10.7910/DVN/YUYIVB/P3MCIW,"2008 CCES, William S. ""Bill"" Day, Jr.. 후보 맥락변수 V587=White, V687=White."
 2008-H-VA-01,R,"Robert J. ""Rob"" Wittman",W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-VA-02,D,Glenn C. Nye III,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-VA-02,R,Thelma D. Drake,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -684,15 +713,17 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-WA-01,D,Jay Inslee,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-WA-01,R,Larry Ishmael,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,다른 해 자료의 같은 사람
 2008-H-WA-02,D,Rick Larsen,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2008-H-WA-02,R,Rick Bart,W,file,사용자 검토 파일(2026-11-06): 연구자료(후보 분류),https://doi.org/10.7910/DVN/YUYIVB/P3MCIW,"2008 CCES, Rick Bart. 후보 맥락변수 V538=White, V638=1. 사후 코드 1=White, 3=Hispanic, 4=Other, 5=Missing."
 2008-H-WA-03,D,Brian Baird,W,file,Kieran Healy / congress,https://kjhealy.github.io/congress/,다른 해 자료의 같은 사람
 2008-H-WA-03,R,Michael Delavar,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-WA-04,D,George Fearing,W,rdc,Reflective Democracy Campaign (사용자 파일의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2008-H-WA-04,R,Doc Hastings,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2008-H-WA-05,D,Mark Mays,W,file,사용자 검토 파일(2026-11-06): 연구자료(후보 분류),https://doi.org/10.7910/DVN/YUYIVB/P3MCIW,"2008 CCES, Mark Mays. 후보 맥락변수 V587=White, V687=White."
 2008-H-WA-05,R,Cathy McMorris Rodgers,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2008-H-WA-06,D,Norm Dicks,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-WA-06,R,Doug Cloud,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-WA-07,D,Jim McDermott,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
-2008-H-WA-07,R,Steve Beren,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 사용자가 밝힌 내용: 정치 활동가(백인)
+2008-H-WA-07,R,Steve Beren,W,file,사용자 검토 파일(2026-11-06): 연구자료(후보 분류) / 후보 약력·본인 기고,https://doi.org/10.7910/DVN/YUYIVB/P3MCIW | https://en.wikipedia.org/w/index.php?title=Steve_Beren&oldid=1268461654 | https://web.archive.org/web/20110716135312/http://www.steveberen.com/mv2.html,"2008 CCES, Steve Beren. 후보 맥락변수 V538=White, V638=1. 사후 코드 1=White, 3=Hispanic, 4=Other, 5=Missing. 후보 약력에는 유대인 가정에서 자랐다고 소개됩니다. 후보 본인의 글은 1995년 기독교 개종을 밝힙니다. 인종 범주를 확인할 수 없어 공란으로 두었습니다."
 2008-H-WA-08,D,Darcy Burner,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2008-H-WA-08,R,Dave Reichert,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-WA-09,D,Adam Smith,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -919,6 +950,7 @@ race_id,party,name,race,src,source,source_url,note
 2010-H-FL-24,R,"Sandra ""Sandy"" Adams",W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2010-H-FL-25,D,Joe Garcia,H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
 2010-H-FL-25,R,David Rivera,H,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
+2010-H-GA-01,D,Oscar L. Harris II,W,file,사용자 검토 파일(2026-11-06): 학술 연구 코딩 / 연구자료(후보 분류),https://doi.org/10.7910/DVN/L4O6JC | https://web.archive.org/web/20101104204151/http://thewayuthink.net/ | https://doi.org/10.7910/DVN/OKZMIY,"Sorensen·Chen의 후보별 자료에서 2010년 GA1 민주당 HARRIS, OSCAR의 white 값은 White입니다. 당시 본인의 선거 사이트에서 학력·경력을 별도로 확인했습니다. Hassell·Visalvanich 후보자료의 2010 GA-01 민주당 Oscar L. Jr. HARRIS 행에서 white=1. FEC·동일 선거에서 이름 접미사를 II로도 표기."
 2010-H-GA-01,R,Jack Kingston,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2010-H-GA-02,D,Sanford Bishop,B,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2010-H-GA-02,R,Mike Keown,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
@@ -3227,6 +3259,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-GA-04,R,Victor Armendariz,H,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-GA-05,D,John R. Lewis,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
 2016-H-GA-05,R,Douglas Bell,W,rdc,Reflective Democracy Campaign (사용자 파일의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
+2016-H-GA-06,D,Rodney Stooksbury,W,file,사용자 검토 파일(2026-11-06): 연구자 분류,https://dataverse.harvard.edu/api/access/datafile/4655908 | https://www.ajc.com/blog/politics/jon-ossoff-mystery-6th-district-predecessor-emerges/ezWo2BXXceZATUiBCl1hlN/,"Sorensen·Chen 후보별 원자료의 2016 GA6 민주당 STOOKSBURY, RODNEY 행에 white=White로 기재됨."
 2016-H-GA-06,R,Tom Price,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-GA-07,D,Rashid Malik,AP,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,다른 해 자료의 같은 사람
 2016-H-GA-07,R,Rob Woodall,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3664,7 +3697,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-TX-07,D,James Cargas,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-TX-07,R,John Culberson,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-TX-09,D,Al Green,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
-2016-H-TX-09,R,Jeff Martin,B,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 흑인); 근거는 적지 않음
+2016-H-TX-09,R,Jeff Martin,B,file,사용자 검토 파일(2026-11-06): 연구자 분류,https://dataverse.harvard.edu/api/access/datafile/4655908 | https://doi.org/10.7910/DVN/IAOZOU,"출처 간 불일치: 흑인 / 백인; 입력값은 흑인. 2016 CCES 후보 인종 보충자료는 TX-09 공화당 Jeff Martin을 h2_black=1로 분류함. Sorensen·Chen 원자료는 동일 후보를 white=White, black=0으로 분류함. 원래 값을 보존하고 출처 간 불일치를 표시함."
 2016-H-TX-10,D,Tawana W. Cadien,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,다른 해 자료의 같은 사람
 2016-H-TX-10,R,Michael T. McCaul,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-TX-12,D,Bill Bradshaw,W,rdc,Reflective Democracy Campaign (사용자 파일의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
