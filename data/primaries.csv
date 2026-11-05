@@ -5839,7 +5839,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2002-H-NY-04,2002,H,NY,4,0,party,D,uncontested,1,1,0,0,1,F,Carolyn McCarthy,F,,1.0,,,0,FEC
 2002-H-NY-04,2002,H,NY,4,0,party,R,contested,3,1,2,0,0,,Marilyn F. O'Grady,F,49.93870044953004,1.0,49.93870044953004,30.3330608908868,1,FEC
 2002-H-NY-05,2002,H,NY,5,0,party,D,uncontested,1,0,1,0,1,M,Gary L. Ackerman,M,,0.0,,,0,FEC
-2002-H-NY-06,2002,H,NY,6,0,party,D,contested,2,0,2,0,1,M,Gregory W. Meeks,M,78.65769435098282,0.0,,78.65769435098282,0,FEC
+2002-H-NY-06,2002,H,NY,6,0,party,D,contested,2,0,1,1,1,M,Gregory W. Meeks,M,78.65769435098282,0.0,,78.65769435098282,0,FEC
 2002-H-NY-07,2002,H,NY,7,0,party,D,contested,2,0,2,0,1,M,Joseph Crowley,M,64.03749524975721,0.0,,64.03749524975721,0,FEC
 2002-H-NY-07,2002,H,NY,7,0,party,R,uncontested,1,0,1,0,0,,Kevin Brawley,M,,0.0,,,0,FEC
 2002-H-NY-08,2002,H,NY,8,0,party,D,uncontested,1,0,1,0,1,M,Jerrold L. Nadler,M,,0.0,,,0,FEC
@@ -5870,7 +5870,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2002-H-NY-22,2002,H,NY,22,0,party,D,uncontested,1,0,1,0,1,M,Maurice D. Hinchey,M,,0.0,,,0,FEC
 2002-H-NY-22,2002,H,NY,22,0,party,R,uncontested,1,0,1,0,0,,Eric Hall,M,,0.0,,,0,FEC
 2002-H-NY-23,2002,H,NY,23,0,party,R,uncontested,1,0,1,0,1,M,John M. McHugh,M,,0.0,,,0,FEC
-2002-H-NY-24,2002,H,NY,24,0,party,R,contested,2,0,2,0,1,M,Sherwood L. Boehlert,M,53.39027236388013,0.0,,53.39027236388013,0,FEC
+2002-H-NY-24,2002,H,NY,24,0,party,R,contested,2,0,1,1,1,M,Sherwood L. Boehlert,M,53.39027236388013,0.0,,53.39027236388013,0,FEC
 2002-H-NY-25,2002,H,NY,25,0,party,D,uncontested,1,1,0,0,0,,Stephanie Polowe Aldersley,F,,1.0,,,0,FEC
 2002-H-NY-25,2002,H,NY,25,0,party,R,uncontested,1,0,1,0,1,M,James T. Walsh,M,,0.0,,,0,FEC
 2002-H-NY-26,2002,H,NY,26,0,party,D,uncontested,1,1,0,0,0,,Ayesha F. Nariman,F,,1.0,,,0,FEC
@@ -6699,7 +6699,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2004-H-NY-04,2004,H,NY,4,0,party,D,uncontested,1,1,0,0,1,F,Carolyn McCarthy,F,,1.0,,,0,FEC
 2004-H-NY-04,2004,H,NY,4,0,party,R,uncontested,1,0,1,0,0,,James A. Garner,M,,0.0,,,0,FEC
 2004-H-NY-05,2004,H,NY,5,0,party,D,uncontested,1,0,1,0,1,M,Gary L. Ackerman,M,,0.0,,,0,FEC
-2004-H-NY-05,2004,H,NY,5,0,party,R,contested,2,0,2,0,0,,Stephen Graves,M,74.92307692307692,0.0,,74.92307692307692,0,FEC
+2004-H-NY-05,2004,H,NY,5,0,party,R,contested,2,0,1,1,0,,Stephen Graves,M,74.92307692307692,0.0,,74.92307692307692,0,FEC
 2004-H-NY-06,2004,H,NY,6,0,party,D,uncontested,1,0,1,0,1,M,Gregory W. Meeks,M,,0.0,,,0,FEC
 2004-H-NY-07,2004,H,NY,7,0,party,D,contested,4,0,4,0,1,M,Joseph Crowley,M,63.35238708638597,0.0,,63.35238708638597,0,FEC
 2004-H-NY-07,2004,H,NY,7,0,party,R,uncontested,1,0,1,0,0,,Joseph Cinquemain,M,,0.0,,,0,FEC
@@ -6735,7 +6735,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2004-H-NY-23,2004,H,NY,23,0,party,D,uncontested,1,0,1,0,0,,Robert J. Johnson,M,,0.0,,,0,FEC
 2004-H-NY-23,2004,H,NY,23,0,party,R,uncontested,1,0,1,0,1,M,John M. McHugh,M,,0.0,,,0,FEC
 2004-H-NY-24,2004,H,NY,24,0,party,D,uncontested,1,0,1,0,0,,Jeffrey A. Miller,M,,0.0,,,0,FEC
-2004-H-NY-24,2004,H,NY,24,0,party,R,contested,2,0,2,0,1,M,Sherwood L. Boehlert,M,58.904602725636416,0.0,,58.904602725636416,0,FEC
+2004-H-NY-24,2004,H,NY,24,0,party,R,contested,2,0,1,1,1,M,Sherwood L. Boehlert,M,58.904602725636416,0.0,,58.904602725636416,0,FEC
 2004-H-NY-25,2004,H,NY,25,0,party,R,uncontested,1,0,1,0,1,M,James T. Walsh,M,,0.0,,,0,FEC
 2004-H-NY-26,2004,H,NY,26,0,party,D,uncontested,1,0,1,0,0,,Jack Davis,M,,0.0,,,0,FEC
 2004-H-NY-26,2004,H,NY,26,0,party,R,uncontested,1,0,1,0,1,M,Thomas M. Reynolds,M,,0.0,,,0,FEC
@@ -6744,7 +6744,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2004-H-NY-28,2004,H,NY,28,0,party,D,contested,2,2,0,0,1,F,Louise M. Slaughter,F,78.86400442390489,1.0,78.86400442390489,,0,FEC
 2004-H-NY-28,2004,H,NY,28,0,party,R,uncontested,1,0,1,0,0,,Michael D. Laba,M,,0.0,,,0,FEC
 2004-H-NY-29,2004,H,NY,29,0,party,D,contested,2,1,1,0,0,,Samara Barend,F,79.68064572732058,1.0,79.68064572732058,19.336725741358133,1,FEC
-2004-H-NY-29,2004,H,NY,29,0,party,R,contested,2,0,2,0,0,,John Randy Kuhl Jr.,M,63.99358861980014,0.0,,63.99358861980014,0,FEC
+2004-H-NY-29,2004,H,NY,29,0,party,R,contested,2,0,1,1,0,,John Randy Kuhl Jr.,M,63.99358861980014,0.0,,63.99358861980014,0,FEC
 2004-H-OH-01,2004,H,OH,1,0,party,D,contested,2,0,2,0,0,,Greg Harris,M,60.91541249061409,0.0,,60.91541249061409,0,FEC
 2004-H-OH-01,2004,H,OH,1,0,party,R,uncontested,1,0,1,0,1,M,Steve Chabot,M,100.0,0.0,,100.0,0,FEC
 2004-H-OH-02,2004,H,OH,2,0,party,D,contested,2,0,2,0,0,,Charles W. Sanders,M,65.34903280067283,0.0,,65.34903280067283,0,FEC
@@ -7050,8 +7050,8 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2004-S-SD-00,2004,S,SD,0,0,party,R,uncontested,1,0,1,0,0,,John Thune,M,,0.0,,,0,FEC
 2004-S-UT-00,2004,S,UT,0,0,party,D,convention,2,0,2,0,0,,R. Paul Van Dam,M,,0.0,,,0,FEC
 2004-S-UT-00,2004,S,UT,0,0,party,R,convention,1,0,1,0,1,M,Robert F. Bennett,M,,0.0,,,0,FEC
-2004-S-VT-00,2004,S,VT,0,0,party,D,contested,2,0,2,0,1,M,Patrick Leahy,M,94.3186892453543,0.0,,94.3186892453543,0,FEC
-2004-S-VT-00,2004,S,VT,0,0,party,R,contested,3,0,3,0,0,,Jack McMullen,M,67.68525052928722,0.0,,67.68525052928722,0,FEC
+2004-S-VT-00,2004,S,VT,0,0,party,D,contested,2,0,1,1,1,M,Patrick Leahy,M,94.3186892453543,0.0,,94.3186892453543,0,FEC
+2004-S-VT-00,2004,S,VT,0,0,party,R,contested,3,0,2,1,0,,Jack McMullen,M,67.68525052928722,0.0,,67.68525052928722,0,FEC
 2004-S-WA-00,2004,S,WA,0,0,party,D,contested,3,1,2,0,1,F,Patty Murray,F,92.20066171635604,1.0,92.20066171635604,6.041475528710329,1,FEC
 2004-S-WA-00,2004,S,WA,0,0,party,R,contested,6,0,6,0,0,,George R. Nethercutt Jr.,M,82.88698969917294,0.0,,82.88698969917294,0,FEC
 2004-S-WI-00,2004,S,WI,0,0,party,D,uncontested,1,0,1,0,1,M,Russ Feingold,M,99.6589879617212,0.0,,99.6589879617212,0,FEC
@@ -7927,7 +7927,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2006-S-UT-00,2006,S,UT,0,0,party,R,convention,1,0,1,0,1,M,Orrin G. Hatch,M,,0.0,,,0,FEC
 2006-S-VA-00,2006,S,VA,0,0,party,D,contested,2,0,2,0,0,,"James H. ""Jim,"" Webb Jr.",M,53.470189493144346,0.0,,53.470189493144346,0,FEC
 2006-S-VA-00,2006,S,VA,0,0,party,R,uncontested,1,0,1,0,1,M,George F. Allen,M,,0.0,,,0,FEC
-2006-S-VT-00,2006,S,VT,0,0,party,D,contested,5,0,5,0,0,,Bernard Sanders,M,94.15492588906929,0.0,,94.15492588906929,0,FEC
+2006-S-VT-00,2006,S,VT,0,0,party,D,contested,5,0,2,3,0,,Bernard Sanders,,94.15492588906929,,,1.5319750693971612,0,FEC
 2006-S-VT-00,2006,S,VT,0,0,party,R,contested,3,1,2,0,0,,Rich Tarrant,M,61.83585737967464,0.0,4.838301817875306,61.83585737967464,1,FEC
 2006-S-WA-00,2006,S,WA,0,0,party,D,contested,5,2,3,0,1,F,Maria Cantwell,F,90.76123717392413,1.0,90.76123717392413,1.7887909030578388,1,FEC
 2006-S-WA-00,2006,S,WA,0,0,party,R,contested,6,0,6,0,0,,Mike McGavick,M,85.8872823585602,0.0,,85.8872823585602,0,FEC
@@ -8489,7 +8489,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2008-H-NY-19,2008,H,NY,19,0,party,R,uncontested,1,0,1,0,0,,Kieran Michael Lalor,M,,0.0,,,0,FEC
 2008-H-NY-20,2008,H,NY,20,0,party,D,uncontested,1,1,0,0,1,F,Kirsten E. Gillibrand,F,,1.0,,,0,FEC
 2008-H-NY-20,2008,H,NY,20,0,party,R,uncontested,1,0,1,0,0,,Sandy Treadwell,M,,0.0,,,0,FEC
-2008-H-NY-21,2008,H,NY,21,0,party,D,contested,5,1,4,0,0,,Paul D. Tonko,M,39.49821499404998,0.0,30.16164220547402,39.49821499404998,1,FEC
+2008-H-NY-21,2008,H,NY,21,0,party,D,contested,5,1,3,1,0,,Paul D. Tonko,M,39.49821499404998,0.0,30.16164220547402,39.49821499404998,1,FEC
 2008-H-NY-21,2008,H,NY,21,0,party,R,uncontested,1,0,1,0,0,,James R. Buhrmaster,M,70.43628013777268,0.0,,70.43628013777268,0,FEC
 2008-H-NY-22,2008,H,NY,22,0,party,D,uncontested,1,0,1,0,1,M,Maurice D. Hinchey,M,,0.0,,,0,FEC
 2008-H-NY-22,2008,H,NY,22,0,party,R,uncontested,1,0,1,0,0,,George K. Phillips,M,,0.0,,,0,FEC
@@ -8499,7 +8499,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2008-H-NY-24,2008,H,NY,24,0,party,R,uncontested,1,0,1,0,0,,Richard L. Hanna,M,,0.0,,,0,FEC
 2008-H-NY-25,2008,H,NY,25,0,party,D,uncontested,1,0,1,0,0,,Daniel B. Maffei,M,,0.0,,,0,FEC
 2008-H-NY-25,2008,H,NY,25,0,party,R,uncontested,1,0,1,0,0,,Dale A. Sweetland,M,,0.0,,,0,FEC
-2008-H-NY-26,2008,H,NY,26,0,party,D,contested,3,1,2,0,0,,Alice Kryzan,F,40.98099941407885,1.0,40.98099941407885,35.57378421361011,1,FEC
+2008-H-NY-26,2008,H,NY,26,0,party,D,contested,3,1,1,1,0,,Alice Kryzan,F,40.98099941407885,1.0,40.98099941407885,23.44521637231104,1,FEC
 2008-H-NY-26,2008,H,NY,26,0,party,R,uncontested,1,0,1,0,0,,Christopher J. Lee,M,,0.0,,,0,FEC
 2008-H-NY-27,2008,H,NY,27,0,party,D,uncontested,1,0,1,0,1,M,Brian Higgins,M,,0.0,,,0,FEC
 2008-H-NY-27,2008,H,NY,27,0,party,R,uncontested,1,0,1,0,0,,Daniel J. Humiston,M,,0.0,,,0,FEC
@@ -8554,7 +8554,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2008-H-OK-05,2008,H,OK,5,0,party,D,contested,2,0,2,0,0,,Steven L. Perry,M,58.89979456745036,0.0,,58.89979456745036,0,FEC
 2008-H-OK-05,2008,H,OK,5,0,party,R,uncontested,1,1,0,0,1,F,Mary Fallin,F,,1.0,,,0,FEC
 2008-H-OR-01,2008,H,OR,1,0,party,D,contested,3,0,3,0,1,M,David Wu,M,77.91501976284584,0.0,,77.91501976284584,0,FEC
-2008-H-OR-01,2008,H,OR,1,0,party,R,contested,2,0,2,0,0,,Joel Haugen,M,68.95285036733935,0.0,,68.95285036733935,0,FEC
+2008-H-OR-01,2008,H,OR,1,0,party,R,contested,2,0,1,1,0,,Joel Haugen,,68.95285036733935,,,29.119780526364735,0,FEC
 2008-H-OR-02,2008,H,OR,2,0,party,D,uncontested,2,0,2,0,0,,Noah Lemas,M,97.85838185034434,0.0,,97.85838185034434,0,FEC
 2008-H-OR-02,2008,H,OR,2,0,party,R,uncontested,1,0,1,0,1,M,Greg Walden,M,99.13970026727759,0.0,,99.13970026727759,0,FEC
 2008-H-OR-03,2008,H,OR,3,0,party,D,contested,3,0,3,0,1,M,Earl Blumenauer,M,86.74574596788626,0.0,,86.74574596788626,0,FEC
@@ -8857,7 +8857,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2010-H-AZ-06,2010,H,AZ,6,0,party,D,uncontested,1,1,0,0,0,,Rebecca Schneider,F,100.0,1.0,100.0,,0,FEC
 2010-H-AZ-06,2010,H,AZ,6,0,party,R,contested,2,0,2,0,1,M,Jeff Flake,M,64.596253966937,0.0,,64.596253966937,0,FEC
 2010-H-AZ-07,2010,H,AZ,7,0,party,D,uncontested,1,0,1,0,1,M,Raúl M. Grijalva,M,100.0,0.0,,100.0,0,FEC
-2010-H-AZ-07,2010,H,AZ,7,0,party,R,contested,5,1,4,0,0,,Ruth McClung,F,50.9527891335883,1.0,50.9527891335883,23.222998813134645,1,FEC
+2010-H-AZ-07,2010,H,AZ,7,0,party,R,contested,5,1,3,1,0,,Ruth McClung,F,50.9527891335883,1.0,50.9527891335883,12.20493208492681,1,FEC
 2010-H-AZ-08,2010,H,AZ,8,0,party,D,uncontested,1,1,0,0,1,F,Gabrielle Giffords,F,100.0,1.0,100.0,,0,FEC
 2010-H-AZ-08,2010,H,AZ,8,0,party,R,contested,5,0,5,0,0,,Jesse Kelly,M,48.309065025613435,0.0,,48.309065025613435,0,FEC
 2010-H-CA-01,2010,H,CA,1,0,party,D,uncontested,1,0,1,0,1,M,Mike Thompson,M,100.0,0.0,,100.0,0,FEC
@@ -9062,7 +9062,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2010-H-HI-01,2010,H,HI,1,0,party,D,contested,2,1,1,0,0,,Colleen Hanabusa,F,78.93854851481503,1.0,78.93854851481503,21.061451485184982,1,FEC
 2010-H-HI-01,2010,H,HI,1,0,party,R,contested,3,0,3,0,1,M,Charles Djou,M,97.41394845918182,0.0,,97.41394845918182,0,FEC
 2010-H-HI-02,2010,H,HI,2,0,party,D,uncontested,1,1,0,0,1,F,Mazie Hirono,F,100.0,1.0,100.0,,0,FEC
-2010-H-HI-02,2010,H,HI,2,0,party,R,contested,3,0,3,0,0,,John W. Willoughby,M,47.19868173258004,0.0,,47.19868173258004,0,FEC
+2010-H-HI-02,2010,H,HI,2,0,party,R,contested,3,0,2,1,0,,John W. Willoughby,M,47.19868173258004,0.0,,47.19868173258004,0,FEC
 2010-H-IA-01,2010,H,IA,1,0,party,D,uncontested,1,0,1,0,1,M,Bruce Braley,M,99.43484579363798,0.0,,99.43484579363798,0,FEC
 2010-H-IA-01,2010,H,IA,1,0,party,R,contested,3,0,3,0,0,,Benjamin M. Lange,M,52.78226563967687,0.0,,52.78226563967687,0,FEC
 2010-H-IA-02,2010,H,IA,2,0,party,D,uncontested,1,0,1,0,1,M,Dave Loebsack,M,99.12215444130338,0.0,,99.12215444130338,0,FEC
@@ -9205,7 +9205,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2010-H-ME-02,2010,H,ME,2,0,party,D,uncontested,1,0,1,0,1,M,Michael H. Michaud,M,100.0,0.0,,100.0,0,FEC
 2010-H-ME-02,2010,H,ME,2,0,party,R,uncontested,1,0,1,0,0,,Jason J. Levesque,M,100.0,0.0,,100.0,0,FEC
 2010-H-MI-01,2010,H,MI,1,0,party,D,uncontested,1,0,1,0,0,,Gary McDowell,M,100.0,0.0,,100.0,0,FEC
-2010-H-MI-01,2010,H,MI,1,0,party,R,contested,6,1,5,0,0,,Dan Benishek,M,38.138768381317256,0.0,7.0144796889965635,38.138768381317256,1,FEC
+2010-H-MI-01,2010,H,MI,1,0,party,R,contested,6,1,4,1,0,,Dan Benishek,M,38.138768381317256,0.0,7.0144796889965635,38.138768381317256,1,FEC
 2010-H-MI-02,2010,H,MI,2,0,party,D,contested,2,1,1,0,0,,Fred Johnson,M,59.93606819392648,0.0,40.06393180607352,59.93606819392648,1,FEC
 2010-H-MI-02,2010,H,MI,2,0,party,R,contested,7,0,7,0,0,,Bill Huizenga,M,25.395617915269675,0.0,,25.395617915269675,0,FEC
 2010-H-MI-03,2010,H,MI,3,0,party,D,contested,2,0,2,0,0,,Pat Miles,M,68.53452461882101,0.0,,68.53452461882101,0,FEC
@@ -9380,13 +9380,13 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2010-H-NY-13,2010,H,NY,13,0,party,D,uncontested,1,0,1,0,1,M,Michael E. McMahon,M,,0.0,,,0,FEC
 2010-H-NY-13,2010,H,NY,13,0,party,R,contested,2,0,2,0,0,,Michael G. Grimm,M,68.22271020755119,0.0,,68.22271020755119,0,FEC
 2010-H-NY-14,2010,H,NY,14,0,party,D,contested,2,2,0,0,1,F,Carolyn B. Maloney,F,82.7667144339576,1.0,82.7667144339576,,0,FEC
-2010-H-NY-14,2010,H,NY,14,0,party,R,contested,2,0,2,0,0,,David Ryan Brumberg,M,62.48288452761296,0.0,,62.48288452761296,0,FEC
+2010-H-NY-14,2010,H,NY,14,0,party,R,contested,2,0,1,1,0,,David Ryan Brumberg,M,62.48288452761296,0.0,,62.48288452761296,0,FEC
 2010-H-NY-15,2010,H,NY,15,0,party,D,contested,6,1,5,0,1,M,Charles B. Rangel,M,51.110284326779976,0.0,12.618469491658182,51.110284326779976,1,FEC
 2010-H-NY-15,2010,H,NY,15,0,party,R,uncontested,1,0,1,0,0,,Michel J. Faulkner,M,,0.0,,,0,FEC
 2010-H-NY-16,2010,H,NY,16,0,party,D,uncontested,1,0,1,0,1,M,Jose E. Serrano,M,,0.0,,,0,FEC
 2010-H-NY-16,2010,H,NY,16,0,party,R,uncontested,1,0,1,0,0,,Frank Della Valle,M,,0.0,,,0,FEC
 2010-H-NY-17,2010,H,NY,17,0,party,D,uncontested,1,0,1,0,1,M,Eliot L. Engel,M,,0.0,,,0,FEC
-2010-H-NY-17,2010,H,NY,17,0,party,R,contested,2,0,2,0,0,,Anthony Mele,M,51.07490072572916,0.0,,51.07490072572916,0,FEC
+2010-H-NY-17,2010,H,NY,17,0,party,R,contested,2,0,1,1,0,,Anthony Mele,M,51.07490072572916,0.0,,51.07490072572916,0,FEC
 2010-H-NY-18,2010,H,NY,18,0,party,D,uncontested,1,1,0,0,1,F,Nita M. Lowey,F,,1.0,,,0,FEC
 2010-H-NY-18,2010,H,NY,18,0,party,R,uncontested,1,0,1,0,0,,Jim Russell,M,,0.0,,,0,FEC
 2010-H-NY-19,2010,H,NY,19,0,party,D,uncontested,1,0,1,0,1,M,John J. Hall,M,,0.0,,,0,FEC
@@ -9398,7 +9398,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2010-H-NY-22,2010,H,NY,22,0,party,D,uncontested,1,0,1,0,1,M,Maurice D. Hinchey,M,,0.0,,,0,FEC
 2010-H-NY-22,2010,H,NY,22,0,party,R,uncontested,1,0,1,0,0,,George K. Phillips,M,,0.0,,,0,FEC
 2010-H-NY-23,2010,H,NY,23,0,party,D,uncontested,1,0,1,0,1,M,William L. Owens,M,,0.0,,,0,FEC
-2010-H-NY-23,2010,H,NY,23,0,party,R,contested,2,0,2,0,0,,Matthew A. Doheny,M,51.018110162334615,0.0,,51.018110162334615,0,FEC
+2010-H-NY-23,2010,H,NY,23,0,party,R,contested,2,0,1,1,0,,Matthew A. Doheny,M,51.018110162334615,0.0,,51.018110162334615,0,FEC
 2010-H-NY-24,2010,H,NY,24,0,party,D,uncontested,1,0,1,0,1,M,Michael A. Arcuri,M,,0.0,,,0,FEC
 2010-H-NY-24,2010,H,NY,24,0,party,R,uncontested,1,0,1,0,0,,Richard L. Hanna,M,,0.0,,,0,FEC
 2010-H-NY-25,2010,H,NY,25,0,party,D,uncontested,1,0,1,0,1,M,Daniel B. Maffei,M,,0.0,,,0,FEC
@@ -9719,13 +9719,13 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2010-S-NY-00,2010,S,NY,0,0,party,D,uncontested,1,0,1,0,1,M,Charles E. Schumer,M,,0.0,,,0,FEC
 2010-S-NY-00,2010,S,NY,0,0,party,R,contested,2,0,2,0,0,,Jay Townsend,M,55.41425964620345,0.0,,55.41425964620345,0,FEC
 2010-S-NY-00-sp,2010,S,NY,0,1,party,D,contested,2,2,0,0,1,F,Kirsten E. Gillibrand,F,76.14913369278511,1.0,76.14913369278511,,0,FEC
-2010-S-NY-00-sp,2010,S,NY,0,1,party,R,contested,3,0,3,0,0,,Joseph J. DioGuardi,M,41.78053186648827,0.0,,41.78053186648827,0,FEC
+2010-S-NY-00-sp,2010,S,NY,0,1,party,R,contested,3,0,2,1,0,,Joseph J. DioGuardi,M,41.78053186648827,0.0,,41.78053186648827,0,FEC
 2010-S-OH-00,2010,S,OH,0,0,party,D,contested,2,1,1,0,0,,Lee Fisher,M,55.56572130105303,0.0,44.43427869894697,55.56572130105303,1,FEC
 2010-S-OH-00,2010,S,OH,0,0,party,R,uncontested,1,0,1,0,0,,Rob Portman,M,100.0,0.0,,100.0,0,FEC
 2010-S-OK-00,2010,S,OK,0,0,party,D,contested,2,0,2,0,0,,Jim Rogers,M,65.35978814085323,0.0,,65.35978814085323,0,FEC
 2010-S-OK-00,2010,S,OK,0,0,party,R,contested,3,1,2,0,1,M,Tom Coburn,M,90.35707658671572,0.0,6.088292954473945,90.35707658671572,1,FEC
 2010-S-OR-00,2010,S,OR,0,0,party,D,contested,3,0,3,0,1,M,Ron Wyden,M,89.55393737032674,0.0,,89.55393737032674,0,FEC
-2010-S-OR-00,2010,S,OR,0,0,party,R,contested,7,0,7,0,0,,Jim Huffman,M,41.7042678437251,0.0,,41.7042678437251,0,FEC
+2010-S-OR-00,2010,S,OR,0,0,party,R,contested,7,0,6,1,0,,Jim Huffman,M,41.7042678437251,0.0,,41.7042678437251,0,FEC
 2010-S-PA-00,2010,S,PA,0,0,party,D,contested,2,0,2,0,1,M,Joe Sestak,M,53.85241243440868,0.0,,53.85241243440868,0,FEC
 2010-S-PA-00,2010,S,PA,0,0,party,R,contested,2,1,1,0,0,,Pat Toomey,M,81.43013901266451,0.0,18.569860987335478,81.43013901266451,1,FEC
 2010-S-SC-00,2010,S,SC,0,0,party,D,contested,2,0,2,0,0,,Alvin M. Greene,M,58.96190112504773,0.0,,58.96190112504773,0,FEC
@@ -10262,7 +10262,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2012-H-NY-03,2012,H,NY,3,0,party,D,uncontested,1,0,1,0,1,M,Steve J. Israel,M,,0.0,,,0,FEC
 2012-H-NY-03,2012,H,NY,3,0,party,R,uncontested,1,0,1,0,0,,Stephen A. Labate,M,,0.0,,,0,FEC
 2012-H-NY-04,2012,H,NY,4,0,party,D,uncontested,1,1,0,0,1,F,Carolyn McCarthy,F,,1.0,,,0,FEC
-2012-H-NY-04,2012,H,NY,4,0,party,R,contested,2,0,2,0,0,,Francis X. Becker Jr.,M,55.12486992715922,0.0,,55.12486992715922,0,FEC
+2012-H-NY-04,2012,H,NY,4,0,party,R,contested,2,0,1,1,0,,Francis X. Becker Jr.,M,55.12486992715922,0.0,,55.12486992715922,0,FEC
 2012-H-NY-05,2012,H,NY,5,0,party,D,contested,4,0,4,0,1,M,Gregory W. Meeks,M,66.51914437068329,0.0,,66.51914437068329,0,FEC
 2012-H-NY-06,2012,H,NY,6,0,party,D,contested,4,2,2,0,0,,Grace Meng,F,52.98048745622186,1.0,52.98048745622186,25.33414337788578,1,FEC
 2012-H-NY-06,2012,H,NY,6,0,party,R,uncontested,1,0,1,0,0,,Daniel J. Halloran,M,,0.0,,,0,FEC
@@ -10442,7 +10442,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2012-H-TX-07,2012,H,TX,7,0,party,D,runoff,3,1,2,0,0,,James Cargas,M,57.855973813420626,0.0,39.92150266330249,33.78188954303336,1,FEC
 2012-H-TX-07,2012,H,TX,7,0,party,R,contested,2,0,2,0,1,M,John Culberson,M,86.29278483046761,0.0,,86.29278483046761,0,FEC
 2012-H-TX-08,2012,H,TX,8,0,party,D,uncontested,1,0,1,0,0,,Neil Burns,M,100.0,0.0,,100.0,0,FEC
-2012-H-TX-08,2012,H,TX,8,0,party,R,contested,2,0,2,0,1,M,Kevin Brady,M,76.11059530741026,0.0,,76.11059530741026,0,FEC
+2012-H-TX-08,2012,H,TX,8,0,party,R,contested,2,0,1,1,1,M,Kevin Brady,M,76.11059530741026,0.0,,76.11059530741026,0,FEC
 2012-H-TX-09,2012,H,TX,9,0,party,D,uncontested,1,0,1,0,1,M,Al Green,M,100.0,0.0,,100.0,0,FEC
 2012-H-TX-09,2012,H,TX,9,0,party,R,uncontested,1,0,1,0,0,,Steve Mueller,M,100.0,0.0,,100.0,0,FEC
 2012-H-TX-10,2012,H,TX,10,0,party,D,contested,2,1,1,0,0,,Tawana W. Cadien,F,56.64792691496837,1.0,56.64792691496837,43.35207308503162,1,FEC
@@ -11754,7 +11754,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2016-H-IA-02,2016,H,IA,2,0,party,D,uncontested,1,0,1,0,1,M,Dave Loebsack,M,99.00734067400734,0.0,,99.00734067400734,0,FEC
 2016-H-IA-02,2016,H,IA,2,0,party,R,uncontested,1,0,1,0,0,,Christopher Peters,M,99.29110904995362,0.0,,99.29110904995362,0,FEC
 2016-H-IA-03,2016,H,IA,3,0,party,D,contested,3,0,3,0,0,,Jim Mowrer,M,49.549172531862276,0.0,,49.549172531862276,0,FEC
-2016-H-IA-03,2016,H,IA,3,0,party,R,contested,2,0,2,0,1,M,David Young,M,84.77717519452959,0.0,,84.77717519452959,0,FEC
+2016-H-IA-03,2016,H,IA,3,0,party,R,contested,2,0,1,1,1,M,David Young,M,84.77717519452959,0.0,,84.77717519452959,0,FEC
 2016-H-IA-04,2016,H,IA,4,0,party,D,uncontested,1,1,0,0,0,,Kim Weaver,F,99.515625,1.0,99.515625,,0,FEC
 2016-H-IA-04,2016,H,IA,4,0,party,R,contested,2,0,2,0,1,M,Steve King,M,64.63493191763477,0.0,,64.63493191763477,0,FEC
 2016-H-ID-01,2016,H,ID,1,0,party,D,contested,3,2,1,0,0,,James Piotrowski,M,56.1531007751938,0.0,27.680878552971578,56.1531007751938,1,FEC
@@ -11794,7 +11794,6 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2016-H-IL-18,2016,H,IL,18,0,party,D,uncontested,1,0,1,0,0,,Junius Rodriguez,M,,0.0,,,0,
 2016-H-IL-18,2016,H,IL,18,0,party,R,uncontested,1,0,1,0,1,M,Darin LaHood,M,100.0,0.0,,100.0,0,FEC
 2016-H-IN-01,2016,H,IN,1,0,party,D,contested,2,0,2,0,1,M,Peter J. Visclosky,M,79.96577118556166,0.0,,79.96577118556166,0,FEC
-2016-H-IN-01,2016,H,IN,1,0,party,R,uncontested,1,0,1,0,0,,John Meyer,M,,0.0,,,0,
 2016-H-IN-02,2016,H,IN,2,0,party,D,contested,2,0,2,0,0,,Lynn C. Coleman,M,73.75105366676033,0.0,,73.75105366676033,0,FEC
 2016-H-IN-02,2016,H,IN,2,0,party,R,contested,2,1,1,0,1,F,Jackie Walorski,F,69.7781343815079,1.0,69.7781343815079,30.221865618492107,1,FEC
 2016-H-IN-03,2016,H,IN,3,0,party,D,contested,3,0,3,0,0,,Tommy A. Schrader,M,37.501842299189384,0.0,,37.501842299189384,0,FEC
@@ -12933,7 +12932,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2018-H-NY-12,2018,H,NY,12,0,party,R,uncontested,1,0,1,0,0,,Eliot Rabin,M,,0.0,,,0,FEC
 2018-H-NY-13,2018,H,NY,13,0,party,D,uncontested,1,0,1,0,1,M,Adriano Espaillat,M,,0.0,,,0,FEC
 2018-H-NY-13,2018,H,NY,13,0,party,R,uncontested,1,1,0,0,0,,Jineea Butler,F,,1.0,,,0,FEC
-2018-H-NY-14,2018,H,NY,14,0,party,D,contested,2,1,1,0,1,M,Alexandria Ocasio-Cortez,F,56.74659144334744,1.0,56.74659144334744,43.25340855665256,1,FEC
+2018-H-NY-14,2018,H,NY,14,0,party,D,contested,2,1,0,1,1,,Alexandria Ocasio-Cortez,F,56.74659144334744,1.0,56.74659144334744,,0,FEC
 2018-H-NY-14,2018,H,NY,14,0,party,R,uncontested,1,0,1,0,0,,Anthony Pappas,M,,0.0,,,0,FEC
 2018-H-NY-15,2018,H,NY,15,0,party,D,uncontested,1,0,1,0,1,M,Jose E. Serrano,M,,0.0,,,0,FEC
 2018-H-NY-15,2018,H,NY,15,0,party,R,uncontested,1,0,1,0,0,,Jason D. Gonzalez,M,,0.0,,,0,FEC
@@ -13285,7 +13284,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2018-S-UT-00,2018,S,UT,0,0,party,R,contested,2,0,2,0,0,,Mitt Romney,M,71.26683531675336,0.0,,71.26683531675336,0,FEC
 2018-S-VA-00,2018,S,VA,0,0,party,D,uncontested,1,0,1,0,1,M,Timothy M. Kaine,M,,0.0,,,0,FEC
 2018-S-VA-00,2018,S,VA,0,0,party,R,contested,3,0,3,0,0,,Corey A. Stewart,M,44.86105911637407,0.0,,44.86105911637407,0,FEC
-2018-S-VT-00,2018,S,VT,0,0,party,D,contested,7,1,6,0,1,M,Bernie Sanders,M,94.02480437029381,0.0,5.560313007529898,94.02480437029381,1,FEC
+2018-S-VT-00,2018,S,VT,0,0,party,D,contested,7,1,5,1,1,,Bernie Sanders,,94.02480437029381,,5.560313007529898,0.0693931787981692,1,FEC
 2018-S-VT-00,2018,S,VT,0,0,party,R,contested,2,0,2,0,0,,"Roque ""Rocky"" De La Fuente",M,4.039438988038369,0.0,,4.039438988038369,0,FEC
 2018-S-WA-00,2018,S,WA,0,0,top2,D,top2,5,1,4,0,1,F,Maria Cantwell,F,54.67657157639755,1.0,54.67657157639755,2.1030784788692647,1,FEC
 2018-S-WA-00,2018,S,WA,0,0,top2,R,top2,13,1,12,0,0,,Susan Hutchison,F,24.300757272876933,1.0,24.300757272876933,2.341078525904847,1,FEC
@@ -14767,7 +14766,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2022-H-NY-12,2022,H,NY,12,0,party,R,uncontested,1,0,1,0,0,,Michael K. Zumbluskas,M,,0.0,,,0,FEC
 2022-H-NY-13,2022,H,NY,13,0,party,D,contested,3,0,3,0,1,M,Adriano Espaillat,M,79.86950584188963,0.0,,79.86950584188963,0,FEC
 2022-H-NY-14,2022,H,NY,14,0,party,D,uncontested,1,1,0,0,1,F,Alexandria Ocasio-Cortez,F,,1.0,,,0,FEC
-2022-H-NY-14,2022,H,NY,14,0,party,R,contested,2,1,1,0,0,,Tina Forte,F,67.30849727919632,1.0,67.30849727919632,31.854332356634572,1,FEC
+2022-H-NY-14,2022,H,NY,14,0,party,R,contested,2,1,0,1,0,,Desi Joseph Cuellar,,31.854332356634572,,67.30849727919632,,0,FEC
 2022-H-NY-15,2022,H,NY,15,0,party,D,uncontested,1,0,1,0,1,M,Ritchie Torres,M,,0.0,,,0,FEC
 2022-H-NY-15,2022,H,NY,15,0,party,R,uncontested,1,0,1,0,0,,Stylo A. Sapaskis,M,,0.0,,,0,FEC
 2022-H-NY-16,2022,H,NY,16,0,party,D,contested,4,1,3,0,1,M,Jamaal Bowman,M,54.380763335762204,0.0,18.852232468152465,54.380763335762204,1,FEC
