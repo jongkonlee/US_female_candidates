@@ -1227,7 +1227,8 @@ def derive(cand, legis):
     # linked districts back to the 1990 election (2/3 of residents, or the same member) and the women who held them
     import linked
     counts, long_rows, wide = linked.compute(races, cand, legis, election_day, at_large)
-    races["women_members_since_1990"] = races.race_id.map(counts)
+    for col in linked.RACE_COLS:  # women members, and women members or general candidates, of the linked districts
+        races[col] = races.race_id.map({k: v[col] for k, v in counts.items()})
     linked.write(long_rows, wide)
     log("linked districts:", len(counts), "House races,", sum(1 for r in long_rows if r["rule"]), "links of", len(long_rows))
     prim.to_csv(os.path.join(OUT, "primaries.csv"), index=False)

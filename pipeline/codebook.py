@@ -106,6 +106,12 @@ RACES = [
      "서로 다른 여성 의원 수(지금 의원 포함, 같은 사람은 1명). 10년마다 0부터 다시 셈, 1992·2002·2012·2022년은 정의상 0. 상원: 1985년부터 그 주 두 자리"),
     ("women_members_since_1990", "이어지는 선거구의 기존 여성 의원 수(하원)", "1990년 선거 때 의회(101대)부터 선거일까지, 의회마다 이어지는 선거구(주민 2/3 이상, 없으면 같은 의원)를 "
      "맡은 서로 다른 여성 의원 수(지금 의원 포함). 10년마다 0으로 돌아가지 않음. 정한 방법은 선거구 정렬 자료 참고"),
+    ("women_members_since_1990_excl", "기존 여성 의원 수(하원, 이번 본선 여성 후보 본인 제외)", "women_members_since_1990과 같되, 이번 선거 본선에 나온 민주·공화 "
+     "여성 후보 자신은 세지 않음(재선에 나온 현직 여성 의원은 자기 선거구의 '기존 여성'이 아님)"),
+    ("women_prior_since_1990", "이어지는 선거구의 기존 여성 수(의원 또는 본선 후보, 하원)", "이어지는 선거구에서 여성 의원이었거나(women_members_since_1990과 같은 기준), "
+     "1990년부터 직전 선거까지 본선에 나온 민주·공화 여성 후보(당락 무관, 상위 2인 경선 등은 본선에 나간 여성 모두)인 서로 다른 사람 수. "
+     "의원과 후보가 같은 사람인지는 FEC 번호·위키백과 문서·이름으로 맞춤"),
+    ("women_prior_since_1990_excl", "기존 여성 수(의원 또는 본선 후보, 이번 본선 여성 후보 본인 제외)", "women_prior_since_1990과 같되 이번 선거 본선의 민주·공화 여성 후보 자신은 세지 않음"),
     ("d_primary_women", "민주 경선 여성 후보 수", "명"),
     ("r_primary_women", "공화 경선 여성 후보 수", "명"),
     ("d_primary_woman_won", "민주 경선에서 여성이 이김", "1, 0, 빈칸 = 모름·경선 없음"),
@@ -144,6 +150,8 @@ LINEAGE_2026 = [
     ("n_linked", "이어지는 선거구가 있는 예전 의회 수", "101~119대 중(최대 19)"),
     ("women_since_1990", "서로 다른 여성 의원 수", "이어진 선거구들을 맡은 여성(1990년 선거 때 의회부터, 같은 사람은 1명) = races의 women_members_since_1990"),
     ("women_names", "그 여성 의원 이름", ";로 이음"),
+    ("women_prior_since_1990", "기존 여성 수(의원 또는 본선 후보)", "여성 의원이었거나 1990–2024년 본선에 나온 민주·공화 여성 후보인 서로 다른 사람 수 = races의 women_prior_since_1990"),
+    ("women_prior_names", "그 여성 이름", ";로 이음(의원 먼저)"),
     ("d1988 … d2024", "그해 선거의 이어지는 선거구 번호", "d2024 = 2024년 선거(119대 의회) … d1988 = 1990년 선거 때 의원(101대). 빈칸 = 없음. " + LINEAGE_RULE),
     ("s1988 … s2024", "주민 겹침 비율", "%, 2026년 선거구 주민 중 그 선거구에 살던 비율(2020년 인구). 같은 의원으로 이은 경우 작을 수 있음"),
     ("r1988 … r2024", "이은 방법", "인구 2/3, 같은 의원, 빈칸"),
@@ -165,6 +173,7 @@ LINEAGE_ALL = [
     ("members", "그 의회에서 이어지는 선거구를 맡은 의원", ";로 이음(중간에 바뀌면 둘 이상)"),
     ("women", "그중 여성 의원", ";로 이음"),
     ("women_cum", "여기까지 쌓인 여성 의원 수", "101대부터 이 줄의 의회까지 서로 다른 여성 의원 수"),
+    ("women_cands", "그 예전 선거 본선의 여성 후보", "이어지는 예전 선거구의 본선에 나온 민주·공화 여성 후보(당락 무관), ;로 이음. 1988년 줄은 후보 자료가 없어 빈칸"),
 ]
 
 # prior-office codes: Pettigrew, Owen & Wanless codebook (doi:10.7910/DVN/26448) and Miller & Camberg codebook
@@ -181,6 +190,10 @@ CES_RACE = [
     ("winner_party", "당선자 정당", "D, R, O"), ("winner_gender", "당선자 성별", "F, M"),
     ("incumbent_running", "현직 출마", "1 = 현직 의원이 나옴"), ("incumbent_party", "현직 정당", "D, R, O"),
     ("pvi", "당파 지수", "Cook 방식, + = 민주 쪽(2008–2024)"), ("pres_d_2party", "직전 대선 민주 양당 득표율(하원)", "%, 1990–2018"),
+    ("women_members_since_1990", "기존 여성 의원 수", "races와 같음(이어지는 선거구, 1990년 선거 때 의회부터, 지금 의원 포함)"),
+    ("women_members_since_1990_excl", "기존 여성 의원 수(이번 본선 여성 후보 본인 제외)", "races와 같음"),
+    ("women_prior_since_1990", "기존 여성 수(의원 또는 1990년부터 본선 후보)", "races와 같음"),
+    ("women_prior_since_1990_excl", "기존 여성 수(의원 또는 본선 후보, 본인 제외)", "races와 같음"),
     ("voter_gender", "응답자 성별", "F = 여성, M = 남성(CES gender: 2 = 여성, 1 = 남성)"),
 ]
 CES_VOTES = [
@@ -215,19 +228,23 @@ def entries():
 
 
 def write():
-    os.makedirs(OUT, exist_ok=True)
-    data = dict(tables=[dict(table=t, title=ti, unit=u) for t, ti, u in TABLES], vars=entries(),
-                office=[dict(code=c, meaning=m) for c, m in OFFICE])
-    with open(os.path.join(OUT, "codebook.json"), "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=0)
+    """docs/data/codebook.json/.csv for the public tables; the CES tables go to docs/data/ces/codebook.json/.csv,
+    which only the CES window opens"""
     titles = {t: ti for t, ti, _ in TABLES}
-    with open(os.path.join(OUT, "codebook.csv"), "w", encoding="utf-8-sig", newline="") as f:
-        w = csv.writer(f)
-        w.writerow(["자료", "변수", "뜻", "값·단위"])
-        for e in data["vars"]:
-            w.writerow([titles[e["table"]], e["name"], e["label"], e["values"]])
-        for o in data["office"]:
-            w.writerow(["후보: office(이전 경력) 코드", o["code"], o["meaning"], "Pettigrew 외·Miller & Camberg 코드북"])
+    allv = entries()
+    for folder, keep, office in ((OUT, lambda t: not t.startswith("ces_"), True), (os.path.join(OUT, "ces"), lambda t: t.startswith("ces_"), False)):
+        os.makedirs(folder, exist_ok=True)
+        data = dict(tables=[dict(table=t, title=ti, unit=u) for t, ti, u in TABLES if keep(t)], vars=[e for e in allv if keep(e["table"])],
+                    office=[dict(code=c, meaning=m) for c, m in OFFICE] if office else [])
+        with open(os.path.join(folder, "codebook.json"), "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=0)
+        with open(os.path.join(folder, "codebook.csv"), "w", encoding="utf-8-sig", newline="") as f:
+            w = csv.writer(f)
+            w.writerow(["자료", "변수", "뜻", "값·단위"])
+            for e in data["vars"]:
+                w.writerow([titles[e["table"]], e["name"], e["label"], e["values"]])
+            for o in data["office"]:
+                w.writerow(["후보: office(이전 경력) 코드", o["code"], o["meaning"], "Pettigrew 외·Miller & Camberg 코드북"])
 
 
 if __name__ == "__main__":

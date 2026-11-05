@@ -2,6 +2,7 @@
 
 Input: data/static/ces/ces_house_cells.csv.gz and meta.json (pipeline/fetch_ces.py; counts only, CC0).
 Output (every day, from site_data.write()):
+  (shown only in the window opened from the small button at the bottom of the page's '기존 여성 의원' tab)
   docs/data/ces.json            page data: per House race and voter gender, respondents who voted D or R (n), weighted
                                 D / R / other votes (d, r, o) and the sum of squared weights of D+R voters (q)
   docs/data/ces/ces_districts.csv/.dta      one row per House race x voter gender
@@ -19,13 +20,16 @@ META = os.path.join(ROOT, "data", "static", "ces", "meta.json")
 SITE = os.path.join(ROOT, "docs", "data")
 OUT = os.path.join(SITE, "ces")
 RACE_COLS = ["race_id", "year", "state", "district", "system", "matchup", "d_nominee", "d_nominee_gender", "r_nominee",
-             "r_nominee_gender", "winner_party", "winner_gender", "incumbent_running", "incumbent_party", "pvi", "pres_d_2party"]
+             "r_nominee_gender", "winner_party", "winner_gender", "incumbent_running", "incumbent_party", "pvi", "pres_d_2party",
+             "women_members_since_1990", "women_members_since_1990_excl", "women_prior_since_1990", "women_prior_since_1990_excl"]
 
 LABELS = dict(
     race_id="선거 번호", year="선거 연도", state="주", district="선거구(0 = 주 전체 한 석)", system="경선 방식",
     matchup="본선 대결(민주-공화 성별)", d_nominee="민주 후보", d_nominee_gender="민주 후보 성별", r_nominee="공화 후보",
     r_nominee_gender="공화 후보 성별", winner_party="당선자 정당", winner_gender="당선자 성별", incumbent_running="현직 출마(1)",
     incumbent_party="현직 정당", pvi="당파 지수(+민주, 2008-2024)", pres_d_2party="직전 대선 민주 양당 득표율(하원 1990-2018)",
+    women_members_since_1990="기존 여성 의원 수(이어지는 선거구, 1990년부터)", women_members_since_1990_excl="기존 여성 의원 수(이번 여성 후보 본인 제외)",
+    women_prior_since_1990="기존 여성 수(의원 또는 1990년부터 본선 후보)", women_prior_since_1990_excl="기존 여성 수(의원 또는 본선 후보, 본인 제외)",
     voter_gender="응답자 성별(F 여성, M 남성)", pid3="응답자 정당 일체감(D 민주, R 공화, I 무당파·기타)",
     n_dr="민주·공화 후보를 찍은 응답자 수", n_other="다른 후보를 찍은 응답자 수", w_d="민주 후보 표(가중)", w_r="공화 후보 표(가중)",
     w_other="다른 후보 표(가중)", d_share="민주 후보 양당 지지율(%, 가중)", n_eff="유효 표본 수(민주·공화 투표자, 가중치 반영)")
@@ -98,7 +102,8 @@ def stata(df, path, title):
     df = df.copy()
     for c in df.columns:
         if pd.api.types.is_numeric_dtype(df[c]):
-            if c in ("year", "district", "n_dr", "n_other", "incumbent_running") and df[c].notna().all():
+            if c in ("year", "district", "n_dr", "n_other", "incumbent_running", "women_members_since_1990", "women_members_since_1990_excl",
+                     "women_prior_since_1990", "women_prior_since_1990_excl") and df[c].notna().all():
                 df[c] = df[c].astype("int32")
         else:
             df[c] = df[c].astype(object).where(df[c].notna(), "").astype(str)

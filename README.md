@@ -15,7 +15,6 @@
 | 어디서 이기나 | 지역구 당파 성향, 현직 출마, 기존 여성 의원, 농촌 비율, 인구 구성, 후보 수, 여성 후보의 위치·인종·이전 경력별 비교. '출마한 비율'과 '출마한 지역구에서 이긴 비율'을 나눠 봅니다 |
 | 남성과 맞붙을 때 | 남녀가 함께 나온 경쟁 경선에서 여성의 승률과 득표율, 본선에서 같은 성향 지역구 대비 여성 후보의 득표 |
 | 기존 여성 의원 | 기존에 여성 의원이 있었던 선거구와 없었던 선거구 비교. 같은 지도 안(10년마다 새로 셈)과, 주민 2/3 이상이 겹치는 예전 선거구를 이어 1990년부터 쌓아 세는 방법 두 가지 |
-| 유권자 성별(CES) | CES 응답자의 하원 투표로, 같은 당 후보를 찍은 비율이 그 당 후보가 여성일 때와 남성일 때 여성·남성 유권자 사이에서 어떻게 다른지(차이의 차이), 당파 성향별, 선거구별(2006–2024) |
 | 선거 목록 | 선거별 양당 후보, 당선자, 경선의 여성 후보 수 |
 
 ## 자료와 출처
@@ -28,7 +27,6 @@
 - 위키백과 선거 문서(1990–2000년 상원, 2024년 이후 하원 경선과 상원, 2026년 하원 본선, 루이지애나 1990–1996년 일부): 비공식 자료, CC BY-SA. FEC 2024년판이 나오면 자동으로 공식 결과로 바뀝니다.
 - congress-legislators (unitedstates 프로젝트): 의원 성별·임기
 - 선거구 경계(실제 지도): Jeffrey B. Lewis, Brandon DeVine, Lincoln Pitcher, and Kenneth C. Martis. (2013) Digital Boundary Definitions of U.S. Congressional Districts, 1789-2012 (저자들이 119대 의회까지 갱신). https://github.com/JeffreyBLewis/congressional-district-boundaries (MIT), 2026-11-05 내려받음. 2026년에 선거구를 새로 그린 10개 주는 위키미디어 공용의 지도 자료("Data:{주}'s {n}th congressional district (2027–).map", CC0, 각 주 정부·의회 원본에서 옮긴 것)를 `pipeline/fetch_maps_2026.py`로 받아 `data/static/boundaries_2026/`에 둡니다(일부만 새로 그린 노스캐롤라이나·플로리다의 나머지 선거구는 2024년 경계)
-- 유권자 성별(CES): Shiro Kuriwaki, "Cumulative CES Common Content", Harvard Dataverse, doi:10.7910/DVN/II2DB6 (CC0, 12.0판). `pipeline/fetch_ces.py`(작업 흐름 'fetch CES House votes')가 선거구 × 응답자 성별 × 정당 일체감 × 하원 투표별로 센 수만 `data/static/ces/`에 둡니다(응답자 한 사람씩의 줄은 저장하지 않음)
 - 선거구를 이을 때의 주민 수: U.S. Census Bureau, Centers of Population by Block Group, 2020 Census(공공 저작물). https://www2.census.gov/geo/docs/reference/cenpop2020/blkgrp/CenPop2020_Mean_BG.txt, 2026-11-05 내려받음(`pipeline/fetch_population.py`, `data/static/cenpop2020_bg.csv.gz`)
 - 지역구 특징(2008–2024): 미국 인구조사국 원본 파일과 Cook 방식으로 계산한 당파 지수([여성정책 트래커](https://github.com/jongkonlee/US_gender_policy)와 같은 값)
 
@@ -44,7 +42,6 @@
 | `pipeline/maps.py` | 실제 지도 자료(`docs/data/maps/`) 만들기. 경계는 날마다 바뀌지 않아 손으로 한 번 돌립니다(파일 첫머리에 방법) |
 | `pipeline/lineage.py` | 선거구 사이 주민 겹침(1990–2026년 선거구 × 101~119대 의회 선거구, 2020년 블록그룹 인구) → `data/static/lineage_overlap.csv.gz`. 손으로 한 번 돌립니다 |
 | `pipeline/linked.py` | 매일: 이어지는 선거구(주민 2/3, 없으면 같은 의원)와 1990년부터의 기존 여성 의원 수, 선거구 정렬 자료(`docs/data/lineage/`) |
-| `pipeline/ces.py` | 매일: CES 셈을 선거에 붙여 페이지 자료(`docs/data/ces.json`)와 내려받기(`docs/data/ces/`) |
 | `pipeline/codebook.py` | 변수 설명(코드북) `docs/data/codebook.csv`·`.json`. 변수를 더하거나 바꾸면 여기도 고칩니다 |
 | `pipeline/fetch_population.py`, `pipeline/fetch_codebooks.py` | 한 번만: 인구조사국 블록그룹 인구 중심점, 하원 경선 자료의 원래 코드북(작업 흐름으로 실행) |
 | `data/static/` | 자주 바뀌지 않는 입력: CAWP 파일과 2026 후보 목록, MEDSL 하원 결과, 하원 경선 자료 요약, 지역구 특징, 이름 성별표, 위키 문서 대명사 확인 결과 |

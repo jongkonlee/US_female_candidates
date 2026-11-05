@@ -24,16 +24,6 @@
 "table": "lineage_all",
 "title": "선거구 정렬: 모든 하원 선거",
 "unit": "한 줄 = 하원 선거 하나 × 예전 의회 하나(1990–2026). docs/data/lineage/lineage_all.csv·.dta"
-},
-{
-"table": "ces_districts",
-"title": "CES 유권자: 선거 × 응답자 성별",
-"unit": "한 줄 = 하원 선거 하나 × 응답자 성별(2006–2024 짝수 해). docs/data/ces/ces_districts.csv·.dta"
-},
-{
-"table": "ces_districts_pid",
-"title": "CES 유권자: 선거 × 응답자 성별 × 정당 일체감",
-"unit": "한 줄 = 하원 선거 하나 × 응답자 성별 × 정당 일체감. docs/data/ces/ces_districts_pid.csv·.dta"
 }
 ],
 "vars": [
@@ -483,6 +473,24 @@
 },
 {
 "table": "races",
+"name": "women_members_since_1990_excl",
+"label": "기존 여성 의원 수(하원, 이번 본선 여성 후보 본인 제외)",
+"values": "women_members_since_1990과 같되, 이번 선거 본선에 나온 민주·공화 여성 후보 자신은 세지 않음(재선에 나온 현직 여성 의원은 자기 선거구의 '기존 여성'이 아님)"
+},
+{
+"table": "races",
+"name": "women_prior_since_1990",
+"label": "이어지는 선거구의 기존 여성 수(의원 또는 본선 후보, 하원)",
+"values": "이어지는 선거구에서 여성 의원이었거나(women_members_since_1990과 같은 기준), 1990년부터 직전 선거까지 본선에 나온 민주·공화 여성 후보(당락 무관, 상위 2인 경선 등은 본선에 나간 여성 모두)인 서로 다른 사람 수. 의원과 후보가 같은 사람인지는 FEC 번호·위키백과 문서·이름으로 맞춤"
+},
+{
+"table": "races",
+"name": "women_prior_since_1990_excl",
+"label": "기존 여성 수(의원 또는 본선 후보, 이번 본선 여성 후보 본인 제외)",
+"values": "women_prior_since_1990과 같되 이번 선거 본선의 민주·공화 여성 후보 자신은 세지 않음"
+},
+{
+"table": "races",
 "name": "d_primary_women",
 "label": "민주 경선 여성 후보 수",
 "values": "명"
@@ -669,6 +677,18 @@
 },
 {
 "table": "lineage_2026",
+"name": "women_prior_since_1990",
+"label": "기존 여성 수(의원 또는 본선 후보)",
+"values": "여성 의원이었거나 1990–2024년 본선에 나온 민주·공화 여성 후보인 서로 다른 사람 수 = races의 women_prior_since_1990"
+},
+{
+"table": "lineage_2026",
+"name": "women_prior_names",
+"label": "그 여성 이름",
+"values": ";로 이음(의원 먼저)"
+},
+{
+"table": "lineage_2026",
 "name": "d1988 … d2024",
 "label": "그해 선거의 이어지는 선거구 번호",
 "values": "d2024 = 2024년 선거(119대 의회) … d1988 = 1990년 선거 때 의원(101대). 빈칸 = 없음. 이은 방법: 그해 선거구 주민(2020년 인구조사 블록그룹 인구)의 2/3 이상이 살던 예전 선거구(인구 2/3). 그런 선거구가 없으면, 그 예전 선거구의 의원이 이번 선거에 나왔을 때 그 의원의 선거구(같은 의원). 둘 다 없으면 빈칸"
@@ -776,298 +796,10 @@
 "values": "101대부터 이 줄의 의회까지 서로 다른 여성 의원 수"
 },
 {
-"table": "ces_districts",
-"name": "race_id",
-"label": "선거 번호",
-"values": "트래커의 하원 선거 번호(예: 2020-H-CA-12)"
-},
-{
-"table": "ces_districts",
-"name": "year",
-"label": "선거 연도",
-"values": "2006–2024 짝수 해"
-},
-{
-"table": "ces_districts",
-"name": "state",
-"label": "주",
-"values": ""
-},
-{
-"table": "ces_districts",
-"name": "district",
-"label": "선거구 번호",
-"values": "0 = 주 전체 한 석"
-},
-{
-"table": "ces_districts",
-"name": "system",
-"label": "경선 방식",
-"values": "races와 같음"
-},
-{
-"table": "ces_districts",
-"name": "matchup",
-"label": "본선 대결(민주-공화 성별)",
-"values": "F-M, M-F, F-F, M-M, D only, R only(races와 같음)"
-},
-{
-"table": "ces_districts",
-"name": "d_nominee",
-"label": "본선 민주 후보",
-"values": ""
-},
-{
-"table": "ces_districts",
-"name": "d_nominee_gender",
-"label": "민주 후보 성별",
-"values": "F, M"
-},
-{
-"table": "ces_districts",
-"name": "r_nominee",
-"label": "본선 공화 후보",
-"values": ""
-},
-{
-"table": "ces_districts",
-"name": "r_nominee_gender",
-"label": "공화 후보 성별",
-"values": "F, M"
-},
-{
-"table": "ces_districts",
-"name": "winner_party",
-"label": "당선자 정당",
-"values": "D, R, O"
-},
-{
-"table": "ces_districts",
-"name": "winner_gender",
-"label": "당선자 성별",
-"values": "F, M"
-},
-{
-"table": "ces_districts",
-"name": "incumbent_running",
-"label": "현직 출마",
-"values": "1 = 현직 의원이 나옴"
-},
-{
-"table": "ces_districts",
-"name": "incumbent_party",
-"label": "현직 정당",
-"values": "D, R, O"
-},
-{
-"table": "ces_districts",
-"name": "pvi",
-"label": "당파 지수",
-"values": "Cook 방식, + = 민주 쪽(2008–2024)"
-},
-{
-"table": "ces_districts",
-"name": "pres_d_2party",
-"label": "직전 대선 민주 양당 득표율(하원)",
-"values": "%, 1990–2018"
-},
-{
-"table": "ces_districts",
-"name": "voter_gender",
-"label": "응답자 성별",
-"values": "F = 여성, M = 남성(CES gender: 2 = 여성, 1 = 남성)"
-},
-{
-"table": "ces_districts",
-"name": "n_dr",
-"label": "민주·공화 후보를 찍은 응답자 수",
-"values": "명(가중치 없이 센 수)"
-},
-{
-"table": "ces_districts",
-"name": "n_other",
-"label": "다른 후보를 찍은 응답자 수",
-"values": "명"
-},
-{
-"table": "ces_districts",
-"name": "w_d",
-"label": "민주 후보 표(가중)",
-"values": "CES 선거 뒤 가중치(weight_post)의 합. 그 가중치가 없는 해(2006–2010, 2014, 2024)는 선거 전 가중치(weight)"
-},
-{
-"table": "ces_districts",
-"name": "w_r",
-"label": "공화 후보 표(가중)",
-"values": "같은 방식"
-},
-{
-"table": "ces_districts",
-"name": "w_other",
-"label": "다른 후보 표(가중)",
-"values": "같은 방식"
-},
-{
-"table": "ces_districts",
-"name": "d_share",
-"label": "민주 후보 양당 지지율",
-"values": "%, w_d ÷ (w_d + w_r)"
-},
-{
-"table": "ces_districts",
-"name": "n_eff",
-"label": "유효 표본 수",
-"values": "민주·공화 투표자의 (가중치 합)² ÷ (가중치 제곱합). 비율의 오차를 어림할 때 씀"
-},
-{
-"table": "ces_districts_pid",
-"name": "race_id",
-"label": "선거 번호",
-"values": "트래커의 하원 선거 번호(예: 2020-H-CA-12)"
-},
-{
-"table": "ces_districts_pid",
-"name": "year",
-"label": "선거 연도",
-"values": "2006–2024 짝수 해"
-},
-{
-"table": "ces_districts_pid",
-"name": "state",
-"label": "주",
-"values": ""
-},
-{
-"table": "ces_districts_pid",
-"name": "district",
-"label": "선거구 번호",
-"values": "0 = 주 전체 한 석"
-},
-{
-"table": "ces_districts_pid",
-"name": "system",
-"label": "경선 방식",
-"values": "races와 같음"
-},
-{
-"table": "ces_districts_pid",
-"name": "matchup",
-"label": "본선 대결(민주-공화 성별)",
-"values": "F-M, M-F, F-F, M-M, D only, R only(races와 같음)"
-},
-{
-"table": "ces_districts_pid",
-"name": "d_nominee",
-"label": "본선 민주 후보",
-"values": ""
-},
-{
-"table": "ces_districts_pid",
-"name": "d_nominee_gender",
-"label": "민주 후보 성별",
-"values": "F, M"
-},
-{
-"table": "ces_districts_pid",
-"name": "r_nominee",
-"label": "본선 공화 후보",
-"values": ""
-},
-{
-"table": "ces_districts_pid",
-"name": "r_nominee_gender",
-"label": "공화 후보 성별",
-"values": "F, M"
-},
-{
-"table": "ces_districts_pid",
-"name": "winner_party",
-"label": "당선자 정당",
-"values": "D, R, O"
-},
-{
-"table": "ces_districts_pid",
-"name": "winner_gender",
-"label": "당선자 성별",
-"values": "F, M"
-},
-{
-"table": "ces_districts_pid",
-"name": "incumbent_running",
-"label": "현직 출마",
-"values": "1 = 현직 의원이 나옴"
-},
-{
-"table": "ces_districts_pid",
-"name": "incumbent_party",
-"label": "현직 정당",
-"values": "D, R, O"
-},
-{
-"table": "ces_districts_pid",
-"name": "pvi",
-"label": "당파 지수",
-"values": "Cook 방식, + = 민주 쪽(2008–2024)"
-},
-{
-"table": "ces_districts_pid",
-"name": "pres_d_2party",
-"label": "직전 대선 민주 양당 득표율(하원)",
-"values": "%, 1990–2018"
-},
-{
-"table": "ces_districts_pid",
-"name": "voter_gender",
-"label": "응답자 성별",
-"values": "F = 여성, M = 남성(CES gender: 2 = 여성, 1 = 남성)"
-},
-{
-"table": "ces_districts_pid",
-"name": "pid3",
-"label": "응답자 정당 일체감",
-"values": "D = 민주당, R = 공화당, I = 무당파·기타·잘 모름(CES pid3: 1 민주, 2 공화, 3 무당파, 4 기타, 5 잘 모름)"
-},
-{
-"table": "ces_districts_pid",
-"name": "n_dr",
-"label": "민주·공화 후보를 찍은 응답자 수",
-"values": "명(가중치 없이 센 수)"
-},
-{
-"table": "ces_districts_pid",
-"name": "n_other",
-"label": "다른 후보를 찍은 응답자 수",
-"values": "명"
-},
-{
-"table": "ces_districts_pid",
-"name": "w_d",
-"label": "민주 후보 표(가중)",
-"values": "CES 선거 뒤 가중치(weight_post)의 합. 그 가중치가 없는 해(2006–2010, 2014, 2024)는 선거 전 가중치(weight)"
-},
-{
-"table": "ces_districts_pid",
-"name": "w_r",
-"label": "공화 후보 표(가중)",
-"values": "같은 방식"
-},
-{
-"table": "ces_districts_pid",
-"name": "w_other",
-"label": "다른 후보 표(가중)",
-"values": "같은 방식"
-},
-{
-"table": "ces_districts_pid",
-"name": "d_share",
-"label": "민주 후보 양당 지지율",
-"values": "%, w_d ÷ (w_d + w_r)"
-},
-{
-"table": "ces_districts_pid",
-"name": "n_eff",
-"label": "유효 표본 수",
-"values": "민주·공화 투표자의 (가중치 합)² ÷ (가중치 제곱합). 비율의 오차를 어림할 때 씀"
+"table": "lineage_all",
+"name": "women_cands",
+"label": "그 예전 선거 본선의 여성 후보",
+"values": "이어지는 예전 선거구의 본선에 나온 민주·공화 여성 후보(당락 무관), ;로 이음. 1988년 줄은 후보 자료가 없어 빈칸"
 }
 ],
 "office": [

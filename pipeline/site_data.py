@@ -18,6 +18,7 @@ PRIM = ["race_id", "chamber", "state", "district", "special", "system", "party",
         "top_woman_pct", "top_man_pct", "mixed", "src"]
 RACE = ["race_id", "chamber", "state", "district", "special", "system", "n_general", "incumbent_running", "incumbent_party",
         "incumbent_gender", "open_seat", "seat_member_on_eday", "seat_member_female", "women_members_same_map", "women_members_since_1990",
+        "women_members_since_1990_excl", "women_prior_since_1990", "women_prior_since_1990_excl",
         "d_primary_women", "r_primary_women", "d_primary_woman_won", "r_primary_woman_won", "d_nominee", "d_nominee_gender",
         "r_nominee", "r_nominee_gender", "matchup", "winner", "winner_party", "winner_gender", "woman_won_general",
         "d_share_2party", "pres_d_2party", "pvi", "rural", "white_nh", "black_nh", "hisp", "asian_nh", "ba_plus", "med_income",
@@ -97,7 +98,7 @@ def write(extra=None):
                counts=dict(candidates=len(cand), primaries=len(prim), races=len(races)))
     idx.update(extra or {})
     import ces
-    idx["ces"] = ces.write(races)  # docs/data/ces.json and the CES downloads (None when the counts are missing)
+    ces.write(races)  # docs/data/ces.json and the CES downloads (not listed in index.json: the CES window reads ces.json)
     with open(os.path.join(SITE, "index.json"), "w", encoding="utf-8") as f:
         json.dump(idx, f, ensure_ascii=False, indent=1)
     import codebook

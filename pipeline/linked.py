@@ -9,8 +9,14 @@ election, up to the Congress in office at Y's election) is:
   3. otherwise none for that Congress.
 women_members_since_1990 = number of different women (one person counts once however often elected) who represented the
 linked districts in those Congresses before Y's election day, the member in office included.
+women_prior_since_1990 = number of different women who either represented the linked districts (as above) or were a
+Democratic or Republican candidate in the general election of a linked district from 1990 to Y-2 (the same rule as the
+page's 'woman in the general': every such woman with a general result, so both finalists of a same-party top-two race).
+A woman member and a candidate are one person when the FEC number, the Wikipedia page or the name agree.
+..._excl = the same count without the women who are Democratic or Republican general candidates in this race itself
+(a woman member running for re-election is then not counted as an earlier woman of her own district).
 
-Output: the race column above, plus the district alignment lists for download (docs/data/lineage/):
+Output: the race columns above, plus the district alignment lists for download (docs/data/lineage/):
   lineage_2026.csv/.dta  one row per 2026 district, the linked district of every earlier election (wide)
   lineage_all.csv/.dta   one row per House race (1990-2026) x earlier Congress (long)
 """
@@ -30,6 +36,7 @@ OUT = os.path.join(ROOT, "docs", "data", "lineage")
 FIRST_C = 101
 THRESH = 200 / 3
 RULE = {"pop": "인구 2/3", "member": "같은 의원"}
+RACE_COLS = ("women_members_since_1990", "women_members_since_1990_excl", "women_prior_since_1990", "women_prior_since_1990_excl")
 
 
 def congress_of(year):
@@ -106,17 +113,72 @@ def ran_here(member, rid, cands):
     return hit
 
 
+def person(r):
+    """a candidate row as a person to compare: name, FEC number, Wikipedia page"""
+    link = str(r.link).replace("https://en.wikipedia.org/wiki/", "").replace("_", " ").strip().lower() if isinstance(r.link, str) else ""
+    return dict(name=str(r.name), fec_id=r.fec_id if isinstance(r.fec_id, str) else "", link=link, tokens=last_tokens(str(r.name)))
+
+
+def one_edit(a, b):
+    """the two words differ by at most one letter added, dropped or changed"""
+    if abs(len(a) - len(b)) > 1:
+        return False
+    if len(a) > len(b):
+        a, b = b, a
+    i = 0
+    while i < len(a) and a[i] == b[i]:
+        i += 1
+    return a[i + (len(a) == len(b)):] == b[i + 1:]
+
+
+def close_name(a, b):
+    """same surname and a first name one letter off (a source's typo such as 'Barabara Cubin'); only used between
+    women of the same chain of linked districts, where two different women with such names are unlikely"""
+    fa, la, _ = N.split_name(a)
+    fb, lb, _ = N.split_name(b)
+    return bool(la) and la == lb and len(fa) >= 4 and len(fb) >= 4 and one_edit(fa, fb)
+
+
+def same_cand(a, b):
+    if a["fec_id"] and a["fec_id"] == b["fec_id"]:
+        return True
+    if a["link"] and a["link"] == b["link"]:
+        return True
+    return bool(a["tokens"] & b["tokens"]) and (N.same_person(a["name"], b["name"]) or close_name(a["name"], b["name"]))
+
+
+def member_is(m, c):
+    """is this member (congress-legislators) the candidate c?"""
+    if (c["fec_id"] and c["fec_id"] in m["fec"]) or (c["link"] and m["wiki"] and c["link"] == m["wiki"]):
+        return True
+    return bool(m["last"] & c["tokens"]) and any(N.same_person(v, c["name"]) or close_name(v, c["name"]) for v in m["variants"])
+
+
+def general_women(cand, races):
+    """race_id -> women of the Democratic or Republican party on the general ballot of a House race: everyone with a
+    general result (as the page's 'woman in the general', so both finalists of a same-party top-two race), and this
+    year's women nominees before their result is in"""
+    nom = {}
+    for r in races[races.chamber == "H"][["race_id", "d_nominee", "d_nominee_gender", "r_nominee", "r_nominee_gender"]].itertuples(index=False):
+        nom[r.race_id] = {n for n, g in ((r.d_nominee, r.d_nominee_gender), (r.r_nominee, r.r_nominee_gender)) if g == "F" and isinstance(n, str) and n}
+    w = cand[(cand.chamber == "H") & (cand.gender == "F") & cand.party.isin(["D", "R"])]
+    out = collections.defaultdict(list)
+    for r in w[["race_id", "name", "fec_id", "link", "g_won", "g_votes", "g_pct"]].itertuples(index=False):
+        if pd.notna(r.g_won) or pd.notna(r.g_votes) or pd.notna(r.g_pct) or str(r.name) in nom.get(r.race_id, ()):
+            out[r.race_id].append(person(r))
+    return out
+
+
 def compute(races, cand, legis, election_day, at_large):
-    """returns ({race_id: count}, long rows, wide rows)"""
+    """returns ({race_id: {column: count}} for RACE_COLS, long rows, wide rows)"""
     ov = load_overlap()
     if not ov:
         return {}, [], []
     terms = member_terms(legis, at_large)
     cby = collections.defaultdict(list)
     for r in cand[(cand.chamber == "H")][["race_id", "name", "fec_id", "link"]].itertuples(index=False):
-        link = str(r.link).replace("https://en.wikipedia.org/wiki/", "").replace("_", " ").strip().lower() if isinstance(r.link, str) else ""
-        cby[r.race_id].append(dict(name=str(r.name), fec_id=r.fec_id if isinstance(r.fec_id, str) else "", link=link,
-                                   tokens=last_tokens(str(r.name))))
+        cby[r.race_id].append(person(r))
+    gw = general_women(cand, races)
     counts, long_rows, wide = {}, [], []
     h = races[(races.chamber == "H") & (races.special == 0)]
     for r in h.itertuples(index=False):
@@ -125,7 +187,7 @@ def compute(races, cand, legis, election_day, at_large):
         if info is None:
             continue
         cb, eday = congress_of(y), election_day(y)
-        women, wrow = {}, dict(race_id=rid, year=y, state=st, district=d)
+        women, wrow, cands = {}, dict(race_id=rid, year=y, state=st, district=d), []
         for k in range(FIRST_C, cb):
             lst = info.get(k, [])
             share_of = dict(lst)
@@ -142,8 +204,12 @@ def compute(races, cand, legis, election_day, at_large):
                 held = [m for m in terms.get((st, k), []) if m["district"] == link and m["start"] < eday]
                 for m in held:
                     if m["gender"] == "F":
-                        women.setdefault(m["bioguide"], m["name"])
+                        women.setdefault(m["bioguide"], m)
             py = election_year_of(k)
+            wc = gw.get(f"{py}-H-{st}-{link:02d}", []) if link is not None else []  # no candidate list before 1990
+            for c in wc:
+                if not any(same_cand(c, x) for x in cands):
+                    cands.append(c)
             long_rows.append(dict(
                 race_id=rid, year=y, state=st, district=d, prior_year=py, congress=k,
                 prior_district=link, prior_race_id=f"{py}-H-{st}-{link:02d}" if link is not None else "",
@@ -151,15 +217,30 @@ def compute(races, cand, legis, election_day, at_large):
                 best_district=best_d, best_share=best_s,
                 members=";".join(dict.fromkeys(m["name"] for m in held)),
                 women=";".join(dict.fromkeys(m["name"] for m in held if m["gender"] == "F")),
-                women_cum=len(women)))
+                women_cum=len(women), women_cands=";".join(dict.fromkeys(c["name"] for c in wc))))
             wrow[f"d{py}"] = link
             wrow[f"s{py}"] = share_of.get(link) if link is not None else None
             wrow[f"r{py}"] = RULE.get(rule, "")
-        counts[rid] = len(women)
+        # one group per woman: a member, joined by her own candidacies; then candidates who never held the seat
+        groups = [dict(m=[m], c=[]) for m in women.values()]
+        for c in cands:
+            g = next((g for g in groups if any(member_is(m, c) for m in g["m"]) or any(same_cand(c, x) for x in g["c"])), None)
+            if g:
+                g["c"].append(c)
+            else:
+                groups.append(dict(m=[], c=[c]))
+        cur = gw.get(rid, [])
+        here = [any(member_is(m, c) for m in g["m"] for c in cur) or any(same_cand(x, c) for x in g["c"] for c in cur) for g in groups]
+        counts[rid] = dict(women_members_since_1990=len(women),
+                           women_members_since_1990_excl=sum(1 for g, h in zip(groups, here) if g["m"] and not h),
+                           women_prior_since_1990=len(groups),
+                           women_prior_since_1990_excl=sum(1 for h in here if not h))
         if y == 2026:
             wrow["n_linked"] = sum(1 for k in range(FIRST_C, cb) if wrow.get(f"d{election_year_of(k)}") is not None)
             wrow["women_since_1990"] = len(women)
-            wrow["women_names"] = ";".join(women.values())
+            wrow["women_names"] = ";".join(m["name"] for m in women.values())
+            wrow["women_prior_since_1990"] = len(groups)
+            wrow["women_prior_names"] = ";".join((g["m"][0]["name"] if g["m"] else g["c"][0]["name"]) for g in groups)
             wide.append(wrow)
     return counts, long_rows, wide
 
@@ -169,7 +250,8 @@ LONG_LABELS = dict(
     prior_year="예전 선거 연도(그 의회를 뽑은 선거)", congress="예전 의회 대수", prior_district="이어지는 예전 선거구(비면 없음)",
     prior_race_id="이어지는 예전 선거 번호", share="이 선거구 주민 중 이어지는 선거구에 살던 비율(%, 2020년 인구)",
     rule="이은 방법(인구 2/3 또는 같은 의원)", best_district="주민이 가장 많이 겹친 예전 선거구", best_share="그 겹친 비율(%)",
-    members="그 의회에서 이어지는 선거구를 맡은 의원", women="그중 여성 의원", women_cum="1990년 선거 때부터 여기까지 서로 다른 여성 의원 수")
+    members="그 의회에서 이어지는 선거구를 맡은 의원", women="그중 여성 의원", women_cum="1990년 선거 때부터 여기까지 서로 다른 여성 의원 수",
+    women_cands="그 예전 선거 본선의 민주·공화 여성 후보(1990년부터)")
 
 
 def write(long_rows, wide):
@@ -179,13 +261,15 @@ def write(long_rows, wide):
     lg = ints(pd.DataFrame(long_rows).sort_values(["year", "state", "district", "congress"]))
     lg.to_csv(os.path.join(OUT, "lineage_all.csv"), index=False, encoding="utf-8-sig")
     stata(lg, os.path.join(OUT, "lineage_all.dta"), LONG_LABELS, "선거구 이어 보기: 모든 하원 선거 x 예전 의회(1990-2026)",
-          strl=("members", "women"))
+          strl=("members", "women", "women_cands"))
     wd = ints(pd.DataFrame(wide).sort_values(["state", "district"]))
     years = sorted({int(c[1:]) for c in wd.columns if c[:1] == "d" and c[1:].isdigit()}, reverse=True)
-    cols = ["race_id", "year", "state", "district", "n_linked", "women_since_1990", "women_names"]
+    cols = ["race_id", "year", "state", "district", "n_linked", "women_since_1990", "women_names", "women_prior_since_1990", "women_prior_names"]
     labels = dict(race_id="2026년 선거 번호", year="선거 연도", state="주", district="2026년 선거구(0 = 주 전체 한 석)",
                   n_linked="이어지는 선거구가 있는 예전 의회 수(101~119대, 최대 19)",
-                  women_since_1990="이어지는 선거구의 서로 다른 여성 의원 수(1990년 선거 때부터)", women_names="그 여성 의원")
+                  women_since_1990="이어지는 선거구의 서로 다른 여성 의원 수(1990년 선거 때부터)", women_names="그 여성 의원",
+                  women_prior_since_1990="이어지는 선거구의 기존 여성 수(의원 또는 1990-2024년 본선 민주·공화 후보)",
+                  women_prior_names="그 여성(의원 또는 본선 후보)")
     for py in years:
         cols += [f"d{py}", f"s{py}", f"r{py}"]
         labels[f"d{py}"] = f"{py}년 선거의 이어지는 선거구(비면 없음)"
@@ -196,7 +280,8 @@ def write(long_rows, wide):
     stata(wd, os.path.join(OUT, "lineage_2026.dta"), labels, "선거구 이어 보기: 2026년 하원 선거구 기준")
 
 
-INT_COLS = ("year", "district", "prior_year", "congress", "prior_district", "best_district", "women_cum", "women_since_1990", "n_linked")
+INT_COLS = ("year", "district", "prior_year", "congress", "prior_district", "best_district", "women_cum", "women_since_1990", "n_linked",
+            "women_prior_since_1990")
 
 
 def ints(df):
