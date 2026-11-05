@@ -294,7 +294,9 @@ def member_index():
         variants = {full, f"{nm.get('first', '')} {nm.get('last', '')}"} | ({f"{nm['nickname']} {nm.get('last', '')}"} if nm.get("nickname") else set())
         person = dict(bioguide=ids.get("bioguide"), gender=x.get("bio", {}).get("gender"), fec=set(ids.get("fec", []) or []),
                       wiki=(ids.get("wikipedia") or "").replace("_", " ").strip().lower(),
-                      variants=[v.strip() for v in variants if v.strip()], last={t for t in N.tokens(nm.get("last", "")) if len(t) > 1})
+                      variants=[v.strip() for v in variants if v.strip()], last={t for t in N.tokens(nm.get("last", "")) if len(t) > 1},
+                      born=int(str(x.get("bio", {}).get("birthday") or "0")[:4] or 0),
+                      served=(min(int(t["start"][:4]) for t in x["terms"]), max(int(t["end"][:4]) for t in x["terms"])) if x.get("terms") else (0, 0))
         for st in {t["state"] for t in x.get("terms", [])}:
             idx[st].append(person)
     return idx, mrace
@@ -326,8 +328,13 @@ def cand_race(r, p, idx, mrace, nrace):
     st = r.race_id.split("-")[2]
     toks = {t for t in N.tokens(name) if len(t) > 1}
     b = ""
+    year = int(r.race_id[:4])
     for m in idx.get(st, []):
         if m["gender"] != gender:
+            continue
+        # a namesake from another era (e.g. John J. Delaney, NY 1918-1949): aged 25-95 on election day, or without a
+        # birthday, service within 45 years before or 30 after
+        if not ((year - 95 <= m["born"] <= year - 25) if m["born"] else (m["served"][0] <= year + 30 and m["served"][1] >= year - 45)):
             continue
         if (fec and fec in m["fec"]) or (link and m["wiki"] and link == m["wiki"]) or \
                 (m["last"] & toks and any(N.same_person(v, name) for v in m["variants"])):
