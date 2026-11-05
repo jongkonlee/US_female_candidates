@@ -1,0 +1,2639 @@
+year,chamber,state,district,special,name,fec_id,line,writein,p_status,p_votes,g_votes,g_unopposed
+2002,S,NE,0,0,"Hagel, Chuck",S6NE00087,R,0,votes,141841.0,397438.0,0
+2002,S,NE,0,0,"Hagel, Chuck",S6NE00087,N(R),0,votes,2319.0,,0
+2002,S,NE,0,0,"Matulka, Charlie A.",S2NE00052,D,0,votes,33360.0,70290.0,0
+2002,S,NE,0,0,"Hamburg, Al",S0NE00056,D,0,votes,22904.0,,0
+2002,S,NE,0,0,"Matulka, Charlie A.",S2NE00052,N(D),0,votes,561.0,,0
+2002,S,NE,0,0,"Hamburg, Al",S0NE00056,N(D),0,votes,368.0,,0
+2002,S,NE,0,0,"Graziano, John J.",S2NE00060,LBT,0,votes,169.0,7423.0,0
+2002,S,NE,0,0,"Graziano, John J.",S2NE00060,N(LBT),0,votes,59.0,,0
+2002,H,NE,1,0,"Bereuter, Doug",H8NE01016,R,0,votes,40113.0,133013.0,0
+2002,H,NE,1,0,"Bereuter, Doug",H8NE01016,N(R),0,votes,798.0,,0
+2002,H,NE,1,0,"Eckerson, Robert",H2NE01068,LBT,0,votes,45.0,22831.0,0
+2002,H,NE,1,0,"Eckerson, Robert",H2NE01068,N(LBT),0,votes,38.0,,0
+2002,H,NE,2,0,"Terry, Lee",H8NE02139,R,0,votes,23297.0,89917.0,0
+2002,H,NE,2,0,"Terry, Lee",H8NE02139,N(R),0,votes,896.0,,0
+2002,H,NE,2,0,"Simon, Jim",H2NE02017,D,0,votes,15875.0,46843.0,0
+2002,H,NE,2,0,"Simon, Jim",H2NE02017,N(D),0,votes,502.0,,0
+2002,H,NE,2,0,"Stock, Dave",H2NE02025,LBT,0,votes,68.0,2018.0,0
+2002,H,NE,2,0,"Stock, Dave",H2NE02025,N(LBT),0,votes,5.0,,0
+2002,H,NE,3,0,"Osborne, Tom",H0NE03159,R,0,votes,77731.0,163939.0,0
+2002,H,NE,3,0,"Osborne, Tom",H0NE03159,N(R),0,votes,566.0,,0
+2002,H,NE,3,0,"Hickman, Jerry",H8NE03046,LBT,0,votes,56.0,12017.0,0
+2002,H,NE,3,0,"Hickman, Jerry",H8NE03046,N(LBT),0,votes,17.0,,0
+2002,S,NH,0,0,"Sununu, John E.",S0NH00201,R,0,votes,81920.0,227229.0,0
+2002,S,NH,0,0,"Smith, ""Bob""",S0NH00144,R/W,0,votes,68608.0,2396.0,0
+2002,S,NH,0,0,"Stremsky, Kenneth Scot",S2NH00173,R,0,votes,2694.0,,0
+2002,S,NH,0,0,"Shaheen, Jeanne",S0NH00219,W(R),1,votes,320.0,,0
+2002,S,NH,0,0,"Shaheen, Jeanne",S0NH00219,D,0,votes,57995.0,207478.0,0
+2002,S,NH,0,0,"Smith, ""Bob""",S0NH00144,W(D),1,votes,1087.0,,0
+2002,S,NH,0,0,"Sununu, John E.",S0NH00201,W(D),1,votes,739.0,,0
+2002,S,NH,0,0,"Stremsky, Kenneth Scot",S2NH00173,W(D),1,votes,2.0,,0
+2002,H,NH,1,0,"Bradley, Jeb",H2NH01130,R,0,votes,23012.0,128993.0,0
+2002,H,NH,1,0,"Stephen, John A.",H2NH01163,R,0,votes,16956.0,,0
+2002,H,NH,1,0,"Mahoney, Sean",H2NH01122,R,0,votes,13861.0,,0
+2002,H,NH,1,0,"Clark, Vivian",H6NH01123,R,0,votes,6889.0,,0
+2002,H,NH,1,0,"Barrows, Wayne",H2NH01171,R,0,votes,6008.0,,0
+2002,H,NH,1,0,"Wendelboe, Francine ""Fran""",H2NH01148,R,0,votes,4947.0,,0
+2002,H,NH,1,0,"Hoffman, Gary Scott",H2NH01155,R,0,votes,1101.0,,0
+2002,H,NH,1,0,"Clark, Martha Fuller",H0NH01175,W(R),1,votes,79.0,,0
+2002,H,NH,1,0,"Dean, Sean Patrick",H2NH01189,W(R),1,votes,1.0,,0
+2002,H,NH,1,0,"Clark, Martha Fuller",H0NH01175,D,0,votes,26317.0,85426.0,0
+2002,H,NH,1,0,"Dean, Sean Patrick",H2NH01189,D,0,votes,4717.0,,0
+2002,H,NH,1,0,"Stephen, John A.",H2NH01163,W(D),1,votes,160.0,,0
+2002,H,NH,1,0,"Bradley, Jeb",H2NH01130,W(D),1,votes,64.0,,0
+2002,H,NH,1,0,"Mahoney, Sean",H2NH01122,W(D),1,votes,52.0,,0
+2002,H,NH,1,0,"Barrows, Wayne",H2NH01171,W(D),1,votes,23.0,,0
+2002,H,NH,1,0,"Wendelboe, Francine ""Fran""",H2NH01148,W(D),1,votes,18.0,,0
+2002,H,NH,1,0,"Clark, Vivian",H6NH01123,W(D),1,votes,10.0,,0
+2002,H,NH,1,0,"Hoffman, Gary Scott",H2NH01155,W(D),1,votes,3.0,,0
+2002,H,NH,2,0,"Bass, Charles",H0NH02017,R,0,votes,61473.0,125804.0,0
+2002,H,NH,2,0,"Douglass, Eugene",H2NH02138,R,0,votes,9486.0,,0
+2002,H,NH,2,0,"Swett, Katrina",H2NH02146,W(R),1,votes,74.0,,0
+2002,H,NH,2,0,"Swett, Katrina",H2NH02146,D,0,votes,24997.0,90479.0,0
+2002,H,NH,2,0,"Bass, Charles",H0NH02017,W(D),1,votes,122.0,,0
+2002,H,NH,2,0,"Douglass, Eugene",H2NH02138,W(D),1,votes,7.0,,0
+2002,H,NY,1,0,"Bishop, Timothy H.",H2NY01067,D/WF,0,,,84276.0,0
+2002,H,NY,1,0,"Bishop, Timothy H.",H2NY01067,D,0,unopposed,,81325.0,0
+2002,H,NY,1,0,"Bishop, Timothy H.",H2NY01067,WF,0,unopposed,,2951.0,0
+2002,H,NY,1,0,"Grucci, Felix J., Jr.",H0NY01095,R/IDP/C/RTL,0,,,81524.0,0
+2002,H,NY,1,0,"Grucci, Felix J., Jr.",H0NY01095,R,0,unopposed,,64999.0,0
+2002,H,NY,1,0,"Grucci, Felix J., Jr.",H0NY01095,IDP,0,unopposed,,4522.0,0
+2002,H,NY,1,0,"Grucci, Felix J., Jr.",H0NY01095,C,0,unopposed,,6116.0,0
+2002,H,NY,1,0,"Grucci, Felix J., Jr.",H0NY01095,RTL,0,unopposed,,5887.0,0
+2002,H,NY,2,0,"Israel, Steve J.",H0NY02085,D/IDP/WF,0,,,85451.0,0
+2002,H,NY,2,0,"Israel, Steve J.",H0NY02085,D,0,unopposed,,75845.0,0
+2002,H,NY,2,0,"Israel, Steve J.",H0NY02085,IDP,0,unopposed,,7632.0,0
+2002,H,NY,2,0,"Israel, Steve J.",H0NY02085,WF,0,unopposed,,1974.0,0
+2002,H,NY,2,0,"Finley, Joseph P.",H2NY05068,R/C/RTL,0,,,59117.0,0
+2002,H,NY,2,0,"Finley, Joseph P.",H2NY05068,R,0,unopposed,,48239.0,0
+2002,H,NY,2,0,"Finley, Joseph P.",H2NY05068,C,0,unopposed,,5772.0,0
+2002,H,NY,2,0,"Finley, Joseph P.",H2NY05068,RTL,0,unopposed,,5106.0,0
+2002,H,NY,3,0,"King, Peter T.",H2NY03089,R/C/IDP/RTL,0,,,121537.0,0
+2002,H,NY,3,0,"King, Peter T.",H2NY03089,IDP,0,unopposed,,7904.0,0
+2002,H,NY,3,0,"King, Peter T.",H2NY03089,RTL,0,unopposed,,7646.0,0
+2002,H,NY,3,0,"King, Peter T.",H2NY03089,C,0,unopposed,,7113.0,0
+2002,H,NY,3,0,"King, Peter T.",H2NY03089,R,0,votes,11932.0,98874.0,0
+2002,H,NY,4,0,"McCarthy, Carolyn",H6NY04112,D/IDP/L/WF,0,,,94806.0,0
+2002,H,NY,4,0,"McCarthy, Carolyn",H6NY04112,D,0,unopposed,,85496.0,0
+2002,H,NY,4,0,"McCarthy, Carolyn",H6NY04112,IDP,0,unopposed,,5272.0,0
+2002,H,NY,4,0,"McCarthy, Carolyn",H6NY04112,L,0,unopposed,,1155.0,0
+2002,H,NY,4,0,"McCarthy, Carolyn",H6NY04112,WF,0,unopposed,,2883.0,0
+2002,H,NY,4,0,"O'Grady, Marilyn F.",H2NY04129,R/C/RTL,0,,,72882.0,0
+2002,H,NY,4,0,"O'Grady, Marilyn F.",H2NY04129,RTL,0,unopposed,,6101.0,0
+2002,H,NY,4,0,"O'Grady, Marilyn F.",H2NY04129,R,0,votes,9776.0,61473.0,0
+2002,H,NY,4,0,"Frisa, Daniel",H2NY04079,R,0,votes,5938.0,,0
+2002,H,NY,4,0,"Irace, Steven",H2NY04145,R,0,votes,3862.0,,0
+2002,H,NY,4,0,"O'Grady, Marilyn F.",H2NY04129,C,0,votes,359.0,5308.0,0
+2002,H,NY,4,0,"Frisa, Daniel",H2NY04079,C,0,votes,300.0,,0
+2002,H,NY,4,0,"Irace, Steven",H2NY04145,W(C),1,votes,43.0,,0
+2002,H,NY,5,0,"Ackerman, Gary L.",H4NY07011,D/IDP/L/WF,0,,,68773.0,0
+2002,H,NY,5,0,"Ackerman, Gary L.",H4NY07011,D,0,unopposed,,61736.0,0
+2002,H,NY,5,0,"Ackerman, Gary L.",H4NY07011,IDP,0,unopposed,,3614.0,0
+2002,H,NY,5,0,"Ackerman, Gary L.",H4NY07011,L,0,unopposed,,1541.0,0
+2002,H,NY,5,0,"Ackerman, Gary L.",H4NY07011,WF,0,unopposed,,1882.0,0
+2002,H,NY,6,0,"Meeks, Gregory W.",H8NY06048,D/L/WF,0,,,72799.0,0
+2002,H,NY,6,0,"Meeks, Gregory W.",H8NY06048,WF,0,unopposed,,3352.0,0
+2002,H,NY,6,0,"Meeks, Gregory W.",H8NY06048,L,0,unopposed,,729.0,0
+2002,H,NY,6,0,"Meeks, Gregory W.",H8NY06048,D,0,votes,22209.0,68718.0,0
+2002,H,NY,6,0,"Clarke, Rey",H2NY06090,D,0,votes,6024.0,,0
+2002,H,NY,6,0,"Clarke, Rey",H2NY06090,IDP,0,unopposed,,2632.0,0
+2002,H,NY,7,0,"Crowley, Joseph",H8NY07046,D/WF,0,,,50967.0,0
+2002,H,NY,7,0,"Crowley, Joseph",H8NY07046,WF,0,unopposed,,1984.0,0
+2002,H,NY,7,0,"Crowley, Joseph",H8NY07046,D,0,votes,15166.0,48983.0,0
+2002,H,NY,7,0,"Brawley, Kevin",H0NY18081,R/C,0,,,18572.0,0
+2002,H,NY,7,0,"Brawley, Kevin",H0NY18081,R,0,unopposed,,16460.0,0
+2002,H,NY,7,0,"Brawley, Kevin",H0NY18081,C,0,unopposed,,2112.0,0
+2002,H,NY,8,0,"Nadler, Jerrold L.",H2NY17071,D/L/WF,0,,,81002.0,0
+2002,H,NY,8,0,"Nadler, Jerrold L.",H2NY17071,D,0,unopposed,,71996.0,0
+2002,H,NY,8,0,"Nadler, Jerrold L.",H2NY17071,WF,0,unopposed,,6390.0,0
+2002,H,NY,8,0,"Nadler, Jerrold L.",H2NY17071,L,0,unopposed,,2616.0,0
+2002,H,NY,8,0,"Farrin, Jim",H2NY08088,R/IDP,0,,,19674.0,0
+2002,H,NY,8,0,"Farrin, Jim",H2NY08088,R,0,unopposed,,18623.0,0
+2002,H,NY,8,0,"Farrin, Jim",H2NY08088,IDP,0,unopposed,,1051.0,0
+2002,H,NY,9,0,"Weiner, Anthony D.",H8NY09091,D/L/WF,0,,,60737.0,0
+2002,H,NY,9,0,"Weiner, Anthony D.",H8NY09091,D,0,unopposed,,57104.0,0
+2002,H,NY,9,0,"Weiner, Anthony D.",H8NY09091,WF,0,unopposed,,1893.0,0
+2002,H,NY,9,0,"Weiner, Anthony D.",H8NY09091,L,0,unopposed,,1740.0,0
+2002,H,NY,9,0,"Donohue, Alfred F.",H2NY09078,R/C,0,,,31698.0,0
+2002,H,NY,9,0,"Donohue, Alfred F.",H2NY09078,R,0,unopposed,,27882.0,0
+2002,H,NY,9,0,"Donohue, Alfred F.",H2NY09078,C,0,unopposed,,3816.0,0
+2002,H,NY,10,0,"Towns, Edolphus",H2NY11017,D/L,0,,,73859.0,0
+2002,H,NY,10,0,"Towns, Edolphus",H2NY11017,D,0,unopposed,,72313.0,0
+2002,H,NY,10,0,"Towns, Edolphus",H2NY11017,L,0,unopposed,,1546.0,0
+2002,H,NY,11,0,"Owens, Major R.",H2NY12023,D/WF,0,,,76917.0,0
+2002,H,NY,11,0,"Owens, Major R.",H2NY12023,D,0,unopposed,,67967.0,0
+2002,H,NY,11,0,"Owens, Major R.",H2NY12023,WF,0,unopposed,,8950.0,0
+2002,H,NY,11,0,"Cleary, Susan",H0NY11052,R/IDP,0,,,11149.0,0
+2002,H,NY,11,0,"Cleary, Susan",H0NY11052,R,0,unopposed,,9250.0,0
+2002,H,NY,11,0,"Cleary, Susan",H0NY11052,IDP,0,unopposed,,1899.0,0
+2002,H,NY,12,0,"Velazquez, Nydia M.",H2NY00010,D/WF,0,,,48408.0,0
+2002,H,NY,12,0,"Velazquez, Nydia M.",H2NY00010,D,0,unopposed,,43809.0,0
+2002,H,NY,12,0,"Velazquez, Nydia M.",H2NY00010,WF,0,unopposed,,4599.0,0
+2002,H,NY,13,0,"Fossella, Vito",H8NY13028,R/C/RTL,0,,,72204.0,0
+2002,H,NY,13,0,"Fossella, Vito",H8NY13028,R,0,unopposed,,62520.0,0
+2002,H,NY,13,0,"Fossella, Vito",H8NY13028,C,0,unopposed,,7166.0,0
+2002,H,NY,13,0,"Fossella, Vito",H8NY13028,RTL,0,unopposed,,2518.0,0
+2002,H,NY,13,0,"Mattsson, Arne M.",H2NY13054,D/L/WF,0,,,29366.0,0
+2002,H,NY,13,0,"Mattsson, Arne M.",H2NY13054,D,0,unopposed,,27304.0,0
+2002,H,NY,13,0,"Mattsson, Arne M.",H2NY13054,WF,0,unopposed,,1271.0,0
+2002,H,NY,13,0,"Mattsson, Arne M.",H2NY13054,L,0,unopposed,,791.0,0
+2002,H,NY,14,0,"Maloney, Carolyn B.",H2NY14037,D/IDP/L/WF,0,,,95931.0,0
+2002,H,NY,14,0,"Maloney, Carolyn B.",H2NY14037,D,0,unopposed,,85029.0,0
+2002,H,NY,14,0,"Maloney, Carolyn B.",H2NY14037,WF,0,unopposed,,4863.0,0
+2002,H,NY,14,0,"Maloney, Carolyn B.",H2NY14037,IDP,0,unopposed,,3383.0,0
+2002,H,NY,14,0,"Maloney, Carolyn B.",H2NY14037,L,0,unopposed,,2656.0,0
+2002,H,NY,14,0,"Srdanovic, Anton",H2NY14086,R/C,0,,,31548.0,0
+2002,H,NY,14,0,"Srdanovic, Anton",H2NY14086,R,0,unopposed,,30053.0,0
+2002,H,NY,14,0,"Srdanovic, Anton",H2NY14086,C,0,unopposed,,1495.0,0
+2002,H,NY,15,0,"Rangel, Charles B.",H6NY19029,D/WF,0,,,84367.0,0
+2002,H,NY,15,0,"Rangel, Charles B.",H6NY19029,D,0,unopposed,,77036.0,0
+2002,H,NY,15,0,"Rangel, Charles B.",H6NY19029,WF,0,unopposed,,7331.0,0
+2002,H,NY,15,0,"Fields, Jessie A.",H2NY15067,R/IDP,0,,,11008.0,0
+2002,H,NY,15,0,"Fields, Jessie A.",H2NY15067,R,0,unopposed,,8790.0,0
+2002,H,NY,15,0,"Fields, Jessie A.",H2NY15067,IDP,0,unopposed,,2218.0,0
+2002,H,NY,16,0,"Serrano, Jose E.",H0NY18065,D/WF,0,,,50716.0,0
+2002,H,NY,16,0,"Serrano, Jose E.",H0NY18065,D,0,unopposed,,48411.0,0
+2002,H,NY,16,0,"Serrano, Jose E.",H0NY18065,WF,0,unopposed,,2305.0,0
+2002,H,NY,16,0,"Dellavalle, Frank",H0NY15079,R/C,0,,,4366.0,0
+2002,H,NY,16,0,"Dellavalle, Frank",H0NY15079,R,0,unopposed,,3916.0,0
+2002,H,NY,16,0,"Dellavalle, Frank",H0NY15079,C,0,unopposed,,450.0,0
+2002,H,NY,17,0,"Engel, Eliot L.",H8NY19058,D/L/WF,0,,,77535.0,0
+2002,H,NY,17,0,"Engel, Eliot L.",H8NY19058,D,0,unopposed,,73569.0,0
+2002,H,NY,17,0,"Engel, Eliot L.",H8NY19058,WF,0,unopposed,,2721.0,0
+2002,H,NY,17,0,"Engel, Eliot L.",H8NY19058,L,0,unopposed,,1245.0,0
+2002,H,NY,17,0,"Vanderhoef, C. Scott",H2NY17097,R/IDP/C,0,,,42634.0,0
+2002,H,NY,17,0,"Vanderhoef, C. Scott",H2NY17097,R,0,unopposed,,35389.0,0
+2002,H,NY,17,0,"Vanderhoef, C. Scott",H2NY17097,C,0,unopposed,,4135.0,0
+2002,H,NY,17,0,"Vanderhoef, C. Scott",H2NY17097,IDP,0,unopposed,,3110.0,0
+2002,H,NY,18,0,"Lowey, Nita M.",H8NY20056,D/WF,0,,,98957.0,0
+2002,H,NY,18,0,"Lowey, Nita M.",H8NY20056,D,0,unopposed,,95396.0,0
+2002,H,NY,18,0,"Lowey, Nita M.",H8NY20056,WF,0,unopposed,,3561.0,0
+2002,H,NY,19,0,"Kelly, Sue W.",H4NY19073,R/IDP/C,0,,,121129.0,0
+2002,H,NY,19,0,"Kelly, Sue W.",H4NY19073,R,0,unopposed,,102848.0,0
+2002,H,NY,19,0,"Kelly, Sue W.",H4NY19073,IDP,0,unopposed,,8633.0,0
+2002,H,NY,19,0,"Kelly, Sue W.",H4NY19073,C,0,unopposed,,9648.0,0
+2002,H,NY,20,0,"Sweeney, John E.",H8NY22045,R/C,0,,,140238.0,0
+2002,H,NY,20,0,"Sweeney, John E.",H8NY22045,R,0,unopposed,,125335.0,0
+2002,H,NY,20,0,"Sweeney, John E.",H8NY22045,C,0,unopposed,,14903.0,0
+2002,H,NY,21,0,"McNulty, Michael R.",H8NY23084,D/IDP/C/WF,0,,,161329.0,0
+2002,H,NY,21,0,"McNulty, Michael R.",H8NY23084,D,0,unopposed,,128584.0,0
+2002,H,NY,21,0,"McNulty, Michael R.",H8NY23084,IDP,0,unopposed,,17810.0,0
+2002,H,NY,21,0,"McNulty, Michael R.",H8NY23084,C,0,unopposed,,10489.0,0
+2002,H,NY,21,0,"McNulty, Michael R.",H8NY23084,WF,0,unopposed,,4446.0,0
+2002,H,NY,22,0,"Hinchey, Maurice D.",H2NY26080,D/IDP/L/WF,0,,,113280.0,0
+2002,H,NY,22,0,"Hinchey, Maurice D.",H2NY26080,D,0,unopposed,,92336.0,0
+2002,H,NY,22,0,"Hinchey, Maurice D.",H2NY26080,IDP,0,unopposed,,13215.0,0
+2002,H,NY,22,0,"Hinchey, Maurice D.",H2NY26080,L,0,unopposed,,2594.0,0
+2002,H,NY,22,0,"Hinchey, Maurice D.",H2NY26080,WF,0,unopposed,,5135.0,0
+2002,H,NY,22,0,"Hall, Eric",H2NY22071,R/C,0,,,58008.0,0
+2002,H,NY,22,0,"Hall, Eric",H2NY22071,R,0,unopposed,,52499.0,0
+2002,H,NY,22,0,"Hall, Eric",H2NY22071,C,0,unopposed,,5509.0,0
+2002,H,NY,23,0,"McHugh, John M.",H2NY24036,R/C,0,,,124682.0,0
+2002,H,NY,23,0,"McHugh, John M.",H2NY24036,R,0,unopposed,,110042.0,0
+2002,H,NY,23,0,"McHugh, John M.",H2NY24036,C,0,unopposed,,14640.0,0
+2002,H,NY,24,0,"Walrath, David L.",H2NY24085,R,0,votes,18773.0,,0
+2002,H,NY,24,0,"Walrath, David L.",H2NY24085,C,0,unopposed,,32991.0,0
+2002,H,NY,25,0,"Walsh, James T.",H8NY27036,R/IDP/C,0,,,144610.0,0
+2002,H,NY,25,0,"Walsh, James T.",H8NY27036,R,0,unopposed,,113914.0,0
+2002,H,NY,25,0,"Walsh, James T.",H8NY27036,IDP,0,unopposed,,18902.0,0
+2002,H,NY,25,0,"Walsh, James T.",H8NY27036,C,0,unopposed,,11794.0,0
+2002,H,NY,26,0,"Reynolds, Thomas M.",H8NY27077,R/IDP/C,0,,,135089.0,0
+2002,H,NY,26,0,"Reynolds, Thomas M.",H8NY27077,R,0,unopposed,,105807.0,0
+2002,H,NY,26,0,"Reynolds, Thomas M.",H8NY27077,IDP,0,unopposed,,18345.0,0
+2002,H,NY,26,0,"Reynolds, Thomas M.",H8NY27077,C,0,unopposed,,10937.0,0
+2002,H,NY,27,0,"Quinn, Jack",H2NY30041,R/C,0,,,120117.0,0
+2002,H,NY,27,0,"Quinn, Jack",H2NY30041,R,0,unopposed,,105946.0,0
+2002,H,NY,27,0,"Quinn, Jack",H2NY30041,C,0,unopposed,,14171.0,0
+2002,H,NY,27,0,"Crotty, Peter",H2NY27070,D/WF,0,,,47811.0,0
+2002,H,NY,27,0,"Crotty, Peter",H2NY27070,D,0,unopposed,,45060.0,0
+2002,H,NY,27,0,"Crotty, Peter",H2NY27070,WF,0,unopposed,,2751.0,0
+2002,H,NY,28,0,"Slaughter, Louise M.",H6NY03031,D/WF,0,,,99057.0,0
+2002,H,NY,28,0,"Slaughter, Louise M.",H6NY03031,D,0,unopposed,,94209.0,0
+2002,H,NY,28,0,"Slaughter, Louise M.",H6NY03031,WF,0,unopposed,,4848.0,0
+2002,H,NY,28,0,"Wojtaszek, Henry F.",H2NY28102,R/IDP/C,0,,,59547.0,0
+2002,H,NY,28,0,"Wojtaszek, Henry F.",H2NY28102,R,0,unopposed,,46125.0,0
+2002,H,NY,28,0,"Wojtaszek, Henry F.",H2NY28102,IDP,0,unopposed,,7996.0,0
+2002,H,NY,28,0,"Wojtaszek, Henry F.",H2NY28102,C,0,unopposed,,5426.0,0
+2002,H,NY,28,0,"Wojtaszek, Henry F.",H2NY28102,W(RTL),1,votes,2.0,,0
+2002,H,NY,29,0,"Houghton, Amo",H6NY34069,R/C,0,,,127657.0,0
+2002,H,NY,29,0,"Houghton, Amo",H6NY34069,R,0,unopposed,,116245.0,0
+2002,H,NY,29,0,"Houghton, Amo",H6NY34069,C,0,unopposed,,11412.0,0
+2002,H,SC,4,0,"Ashy, Peter J.",H8SC04151,D/UC,0,,,52635.0,0
+2002,H,SC,4,0,"Ashy, Peter J.",H8SC04151,D,0,unopposed,,51462.0,0
+2002,H,SC,4,0,"Ashy, Peter J.",H8SC04151,UC,0,convention,,1173.0,0
+2002,H,TN,7,0,"Blackburn, Marsha",H2TN07137,R,0,votes,36633.0,138314.0,0
+2002,H,TN,7,0,"Barron, Tim",H2TN07137,D,0,votes,22789.0,51790.0,0
+2002,H,UT,1,0,"Judy, Cody Robert",H2UT01128,D,0,,,,0
+2002,H,UT,1,0,"Judy, Cody",H2UT01128,W,1,,,8.0,0
+2002,H,VT,0,0,"Sanders, Bernie",H8VT01016,I,0,,,144880.0,0
+2002,H,VT,0,0,"Sanders, Bernie",H8VT01016,W(D),1,votes,2583.0,,0
+2002,H,WV,2,0,"Capito, Shelley Moore",H0WV02096,R,0,votes,32655.0,98276.0,0
+2002,H,WV,2,0,"Humphreys, Jim",H0WV02096,D,0,votes,31597.0,65400.0,0
+2004,H,CA,5,0,"Driscoll, Pat",H4CA05232,W(D),1,votes,11.0,,0
+2004,H,CA,5,0,"Driscoll, Pat",H4CA05232,GRN,0,votes,1041.0,6593.0,0
+2004,H,NE,1,0,"Fortenberry, Jeff",H4NE01064,R,0,votes,18137.0,143756.0,0
+2004,H,NE,1,0,"Bromm, Curt",H4NE01072,R,0,votes,15211.0,,0
+2004,H,NE,1,0,"Ruehle, Greg",H4NE01098,R,0,votes,9898.0,,0
+2004,H,NE,1,0,"Van Valkenburg, Bob",H4NE01130,R,0,votes,1000.0,,0
+2004,H,NE,1,0,"Manning, Daniel",H4NE01114,R,0,votes,999.0,,0
+2004,H,NE,1,0,"Walburn, Greg",H4NE01148,R,0,votes,673.0,,0
+2004,H,NE,1,0,"Ringsmuth, Andrew J.",H4NE01122,R,0,votes,446.0,,0
+2004,H,NE,1,0,"Fortenberry, Jeff",H4NE01064,N(R),0,votes,598.0,,0
+2004,H,NE,1,0,"Bromm, Curt",H4NE01072,N(R),0,votes,497.0,,0
+2004,H,NE,1,0,"Ruehle, Greg",H4NE01098,N(R),0,votes,179.0,,0
+2004,H,NE,1,0,"Van Valkenburg, Bob",H4NE01130,N(R),0,votes,44.0,,0
+2004,H,NE,1,0,"Manning, Daniel",H4NE01114,N(R),0,votes,28.0,,0
+2004,H,NE,1,0,"Ringsmuth, Andrew J.",H4NE01122,N(R),0,votes,23.0,,0
+2004,H,NE,1,0,"Walburn, Greg",H4NE01148,N(R),0,votes,23.0,,0
+2004,H,NE,1,0,"Connealy, Matt",H4NE01049,D,0,votes,14453.0,113971.0,0
+2004,H,NE,1,0,"Stewart, Janet",H4NE01056,D,0,votes,9505.0,,0
+2004,H,NE,1,0,"Matulka, Charlie",H4NE01106,D,0,votes,2690.0,,0
+2004,H,NE,1,0,"Chase, Phil",H4NE01080,D,0,votes,2022.0,,0
+2004,H,NE,1,0,"Connealy, Matt",H4NE01049,N(D),0,votes,354.0,,0
+2004,H,NE,1,0,"Stewart, Janet",H4NE01056,N(D),0,votes,352.0,,0
+2004,H,NE,1,0,"Matulka, Charlie",H4NE01106,N(D),0,votes,60.0,,0
+2004,H,NE,1,0,"Chase, Phil",H4NE01080,N(D),0,votes,58.0,,0
+2004,H,NE,1,0,"Larrick, Steven R.",H4NE01155,GRN,0,votes,24.0,7345.0,0
+2004,H,NE,1,0,"Larrick, Steven R.",H4NE01155,N(GRN),0,votes,45.0,,0
+2004,H,NE,2,0,"Terry, Lee",H8NE02139,R,0,votes,23130.0,152608.0,0
+2004,H,NE,2,0,"Terry, Lee",H8NE02139,N(R),0,votes,333.0,,0
+2004,H,NE,2,0,"Thompson, Nancy",H4NE02062,D,0,votes,18265.0,90292.0,0
+2004,H,NE,2,0,"Thompson, Nancy",H4NE02062,N(D),0,votes,308.0,,0
+2004,H,NE,2,0,"Graziano, Jack",H0NE02128,LBT,0,votes,90.0,4656.0,0
+2004,H,NE,2,0,"Graziano, Jack",H0NE02128,N(LBT),0,votes,19.0,,0
+2004,H,NE,3,0,"Osborne, Tom",H0NE03159,R,0,votes,58247.0,218751.0,0
+2004,H,NE,3,0,"Osborne, Tom",H0NE03159,N(R),0,votes,311.0,,0
+2004,H,NE,3,0,"Anderson, Donna J.",H4NE03037,D,0,votes,19665.0,26434.0,0
+2004,H,NE,3,0,"Anderson, Donna J.",H4NE03037,N(D),0,votes,82.0,,0
+2004,H,NE,3,0,"Rosberg, Joseph A.",H4NE03045,NB,0,votes,28.0,3396.0,0
+2004,H,NE,3,0,"Dufek, Duane E.F.",H6NE01044,NB,0,votes,14.0,,0
+2004,H,NE,3,0,"Rosberg, Joseph A.",H4NE03045,N(NB),0,votes,35.0,,0
+2004,H,NE,3,0,"Dufek, Duane E.F.",H6NE01044,N(NB),0,votes,13.0,,0
+2004,H,NH,1,0,"Bradley, Jeb",H2NH01130,R,0,votes,27285.0,204836.0,0
+2004,H,NH,1,0,"Bevill, R. ""Bob"" Tillman",H0NH01183,R,0,votes,3076.0,,0
+2004,H,NH,1,0,"Nadeau, Justin",H4NH01193,W(R),1,votes,53.0,,0
+2004,H,NH,1,0,"Duffy, Peter J.",H4NH01201,W(R),1,votes,21.0,,0
+2004,H,NH,1,0,"Bruce, ""Bob""",H4NH01185,W(R),1,votes,5.0,,0
+2004,H,NH,1,0,"Nadeau, Justin",H4NH01193,D,0,votes,12150.0,118226.0,0
+2004,H,NH,1,0,"Duffy, Peter J.",H4NH01201,D,0,votes,5813.0,,0
+2004,H,NH,1,0,"Bruce, ""Bob""",H4NH01185,D,0,votes,4049.0,,0
+2004,H,NH,1,0,"Bradley, Jeb",H2NH01130,W(D),1,votes,73.0,,0
+2004,H,NH,1,0,"Bevill, R. ""Bob"" Tillman",H0NH01183,W(D),1,votes,6.0,,0
+2004,H,NH,2,0,"Bass, Charles",H0NH02017,R,0,votes,25414.0,191188.0,0
+2004,H,NH,2,0,"Brady, Mark",H4NH02183,R,0,votes,10167.0,,0
+2004,H,NH,2,0,"Hodes, Paul W.",H4NH02175,W(R),1,votes,28.0,,0
+2004,H,NH,2,0,"Owen, ""Chris""",H4NH02191,W(R),1,votes,5.0,,0
+2004,H,NH,2,0,"Hodes, Paul W.",H4NH02175,D,0,votes,15161.0,125280.0,0
+2004,H,NH,2,0,"Owen, ""Chris""",H4NH02191,D,0,votes,9792.0,,0
+2004,H,NH,2,0,"Bass, Charles",H0NH02017,W(D),1,votes,146.0,,0
+2004,H,NH,2,0,"Brady, Mark",H4NH02183,W(D),1,votes,42.0,,0
+2004,S,NH,0,0,"Gregg, Judd",S2NH00025,R,0,votes,60597.0,434847.0,0
+2004,S,NH,0,0,"Alciere, Tom",S4NH00062,R,0,votes,2682.0,,0
+2004,S,NH,0,0,"Tipa, Michael D.",S4NH00070,R,0,votes,2563.0,,0
+2004,S,NH,0,0,"Haddock, Doris R.",S4NH00054,W(R),1,votes,143.0,,0
+2004,S,NH,0,0,"Haddock, Doris Granny D.",S4NH00054,D,0,votes,46745.0,221549.0,0
+2004,S,NH,0,0,"Gregg, Judd",S2NH00025,W(D),1,votes,375.0,,0
+2004,S,NH,0,0,"Alciere, Tom",S4NH00062,W(D),1,votes,3.0,,0
+2004,S,NH,0,0,"Tipa, Michael D.",S4NH00070,W(D),1,votes,3.0,,0
+2004,H,NY,1,0,"Bishop, Timothy H.",H2NY01067,D,0,unopposed,,140878.0,0
+2004,H,NY,1,0,"Bishop, Timothy H.",H2NY01067,IDP,0,unopposed,,9657.0,0
+2004,H,NY,1,0,"Bishop, Timothy H.",H2NY01067,WF,0,unopposed,,5819.0,0
+2004,H,NY,1,0,"Manger, William, Jr.",H4NY01089,R,0,unopposed,,110786.0,0
+2004,H,NY,1,0,"Manger, William, Jr.",H4NY01089,C,0,unopposed,,11069.0,0
+2004,H,NY,2,0,"Israel, Steve J.",H0NY02085,D,0,unopposed,,147197.0,0
+2004,H,NY,2,0,"Israel, Steve J.",H0NY02085,IDP,0,unopposed,,9508.0,0
+2004,H,NY,2,0,"Israel, Steve J.",H0NY02085,WF,0,unopposed,,4888.0,0
+2004,H,NY,2,0,"Hoffmann, Richard",H4NY02053,R,0,unopposed,,72953.0,0
+2004,H,NY,2,0,"Hoffmann, Richard",H4NY02053,C,0,unopposed,,7997.0,0
+2004,H,NY,3,0,"King, Peter",H2NY03089,C,0,unopposed,,12022.0,0
+2004,H,NY,3,0,"King, Peter",H2NY03089,IDP,0,unopposed,,7914.0,0
+2004,H,NY,3,0,"King, Peter",H2NY03089,R,0,votes,8110.0,151323.0,0
+2004,H,NY,4,0,"McCarthy, Carolyn",H6NY04112,D,0,unopposed,,148615.0,0
+2004,H,NY,4,0,"McCarthy, Carolyn",H6NY04112,WF,0,unopposed,,4403.0,0
+2004,H,NY,4,0,"McCarthy, Carolyn",H6NY04112,IDP,0,votes,280.0,6951.0,0
+2004,H,NY,4,0,"Garner, James A.",H4NY04059,IDP,0,votes,137.0,,0
+2004,H,NY,4,0,"Garner, James A.",H4NY04059,R,0,unopposed,,85505.0,0
+2004,H,NY,4,0,"Garner, James A.",H4NY04059,C,0,unopposed,,8636.0,0
+2004,H,NY,5,0,"Ackerman, Gary L.",H4NY07011,D,0,unopposed,,114132.0,0
+2004,H,NY,5,0,"Ackerman, Gary L.",H4NY07011,IDP,0,unopposed,,2901.0,0
+2004,H,NY,5,0,"Ackerman, Gary L.",H4NY07011,WF,0,unopposed,,2693.0,0
+2004,H,NY,5,0,"Graves, Stephen",H4NY05072,C,0,unopposed,,3865.0,0
+2004,H,NY,5,0,"Graves, Stephen",H4NY05072,R,0,votes,1461.0,43002.0,0
+2004,H,NY,5,0,"Policarpio, Gonzalo",H4NY05064,R,0,votes,481.0,,0
+2004,H,NY,5,0,"Policarpio, Gonzalo",H4NY05064,FAA,0,,,1248.0,0
+2004,H,NY,6,0,"Meeks, Gregory W.",H8NY06048,D,0,unopposed,,125127.0,0
+2004,H,NY,6,0,"Meeks, Gregory W.",H8NY06048,WF,0,unopposed,,4561.0,0
+2004,H,NY,7,0,"Crowley, Joseph",H8NY07046,WF,0,unopposed,,3893.0,0
+2004,H,NY,7,0,"Crowley, Joseph",H8NY07046,D,0,votes,15738.0,100382.0,0
+2004,H,NY,7,0,"Cinquemain, Joseph",H4NY07052,R,0,unopposed,,21843.0,0
+2004,H,NY,7,0,"Cinquemain, Joseph",H4NY07052,C,0,unopposed,,2705.0,0
+2004,H,NY,8,0,"Nadler, Jerrold L.",H2NY17071,D,0,unopposed,,154098.0,0
+2004,H,NY,8,0,"Nadler, Jerrold L.",H2NY17071,WF,0,unopposed,,7984.0,0
+2004,H,NY,8,0,"Hort, Peter",H4NY08043,R,0,unopposed,,35177.0,0
+2004,H,NY,8,0,"Hort, Peter",H4NY08043,IDP,0,unopposed,,2421.0,0
+2004,H,NY,8,0,"Hort, Peter",H4NY08043,C,0,unopposed,,1642.0,0
+2004,H,NY,9,0,"Weiner, Anthony D.",H8NY09091,D,0,unopposed,,108577.0,0
+2004,H,NY,9,0,"Weiner, Anthony D.",H8NY09091,WF,0,unopposed,,4448.0,0
+2004,H,NY,9,0,"Cronin, Gerard J.",H4NY09082,R,0,unopposed,,39648.0,0
+2004,H,NY,9,0,"Cronin, Gerard J.",H4NY09082,C,0,unopposed,,4141.0,0
+2004,H,NY,9,0,"Cronin, Gerard J.",H4NY09082,IDP,0,unopposed,,1662.0,0
+2004,H,NY,10,0,"Towns, Edolphus",H2NY11017,D,0,unopposed,,130265.0,0
+2004,H,NY,10,0,"Towns, Edolphus",H2NY11017,WF,0,votes,7.0,5848.0,0
+2004,H,NY,11,0,"Owens, Major R.",H2NY12023,WF,0,unopposed,,10824.0,0
+2004,H,NY,11,0,"Owens, Major R.",H2NY12023,D,0,votes,14718.0,134175.0,0
+2004,H,NY,12,0,"Velazquez, Nydia M.",H2NY00010,D,0,unopposed,,100402.0,0
+2004,H,NY,12,0,"Velazquez, Nydia M.",H2NY00010,WF,0,unopposed,,7394.0,0
+2004,H,NY,12,0,"Rodriguez, Paul A.",H4NY12045,R,0,unopposed,,15697.0,0
+2004,H,NY,12,0,"Rodriguez, Paul A.",H4NY12045,C,0,unopposed,,1469.0,0
+2004,H,NY,13,0,"Fossella, Vito",H8NY13028,R,0,unopposed,,102713.0,0
+2004,H,NY,13,0,"Fossella, Vito",H8NY13028,C,0,unopposed,,10221.0,0
+2004,H,NY,13,0,"Barbaro, Frank J.",H4NY13043,D,0,unopposed,,72180.0,0
+2004,H,NY,13,0,"Barbaro, Frank J.",H4NY13043,WF,0,unopposed,,3657.0,0
+2004,H,NY,13,0,"Barbaro, Frank J.",H4NY13043,IDP,0,unopposed,,2663.0,0
+2004,H,NY,14,0,"Maloney, Carolyn B.",H2NY14037,D,0,unopposed,,175886.0,0
+2004,H,NY,14,0,"Maloney, Carolyn B.",H2NY14037,IDP,0,unopposed,,4743.0,0
+2004,H,NY,14,0,"Maloney, Carolyn B.",H2NY14037,WF,0,unopposed,,6059.0,0
+2004,H,NY,14,0,"Srdanovic, Anton",H2NY14086,R,0,unopposed,,41936.0,0
+2004,H,NY,14,0,"Srdanovic, Anton",H2NY14086,C,0,unopposed,,1687.0,0
+2004,H,NY,15,0,"Rangel, Charles B.",H6NY19029,WF,0,unopposed,,8252.0,0
+2004,H,NY,15,0,"Rangel, Charles B.",H6NY19029,D,0,votes,19087.0,153099.0,0
+2004,H,NY,16,0,"Serrano, Jose E.",H0NY18065,D,0,unopposed,,106739.0,0
+2004,H,NY,16,0,"Serrano, Jose E.",H0NY18065,WF,0,unopposed,,4899.0,0
+2004,H,NY,16,0,"Mohamed, Ali",H4NY16053,R,0,unopposed,,4917.0,0
+2004,H,NY,16,0,"Mohamed, Ali",H4NY16053,C,0,unopposed,,693.0,0
+2004,H,NY,17,0,"Engel, Eliot L.",H8NY19058,WF,0,unopposed,,5186.0,0
+2004,H,NY,17,0,"Engel, Eliot L.",H8NY19058,D,0,votes,18854.0,135344.0,0
+2004,H,NY,18,0,"Lowey, Nita M.",H8NY20056,D,0,unopposed,,159072.0,0
+2004,H,NY,18,0,"Lowey, Nita M.",H8NY20056,IDP,0,unopposed,,7271.0,0
+2004,H,NY,18,0,"Lowey, Nita M.",H8NY20056,WF,0,unopposed,,4372.0,0
+2004,H,NY,19,0,"Kelly, Sue W.",H4NY19073,R,0,unopposed,,152051.0,0
+2004,H,NY,19,0,"Kelly, Sue W.",H4NY19073,C,0,unopposed,,11945.0,0
+2004,H,NY,19,0,"Kelly, Sue W.",H4NY19073,IDP,0,unopposed,,11405.0,0
+2004,H,NY,20,0,"Sweeney, John E.",H8NY22045,R,0,unopposed,,163343.0,0
+2004,H,NY,20,0,"Sweeney, John E.",H8NY22045,IDP,0,unopposed,,14131.0,0
+2004,H,NY,20,0,"Sweeney, John E.",H8NY22045,C,0,unopposed,,11279.0,0
+2004,H,NY,21,0,"McNulty, Michael R.",H8NY23084,D,0,unopposed,,167247.0,0
+2004,H,NY,21,0,"McNulty, Michael R.",H8NY23084,IDP,0,unopposed,,11321.0,0
+2004,H,NY,21,0,"McNulty, Michael R.",H8NY23084,C,0,unopposed,,8544.0,0
+2004,H,NY,21,0,"McNulty, Michael R.",H8NY23084,WF,0,unopposed,,6921.0,0
+2004,H,NY,22,0,"Hinchey, Maurice D.",H2NY26080,D,0,unopposed,,148588.0,0
+2004,H,NY,22,0,"Hinchey, Maurice D.",H2NY26080,IDP,0,unopposed,,10349.0,0
+2004,H,NY,22,0,"Hinchey, Maurice D.",H2NY26080,WF,0,unopposed,,8552.0,0
+2004,H,NY,23,0,"McHugh, John M.",H2NY24036,R,0,unopposed,,136222.0,0
+2004,H,NY,23,0,"McHugh, John M.",H2NY24036,IDP,0,unopposed,,15086.0,0
+2004,H,NY,23,0,"McHugh, John M.",H2NY24036,C,0,unopposed,,8771.0,0
+2004,H,NY,24,0,"Boehlert, Sherwood L.",H2NY25017,IDP,0,unopposed,,14507.0,0
+2004,H,NY,24,0,"Boehlert, Sherwood L.",H2NY25017,R,0,votes,22908.0,128493.0,0
+2004,H,NY,24,0,"Walrath, David L.",H2NY24085,R,0,votes,15394.0,,0
+2004,H,NY,24,0,"Walrath, David L.",H2NY24085,C,0,unopposed,,23228.0,0
+2004,H,NY,25,0,"Walsh, James T.",H8NY27036,R,0,unopposed,,155163.0,0
+2004,H,NY,25,0,"Walsh, James T.",H8NY27036,IDP,0,unopposed,,20184.0,0
+2004,H,NY,25,0,"Walsh, James T.",H8NY27036,C,0,unopposed,,13716.0,0
+2004,H,NY,26,0,"Reynolds, Thomas M.",H8NY27077,R,0,unopposed,,137425.0,0
+2004,H,NY,26,0,"Reynolds, Thomas M.",H8NY27077,C,0,unopposed,,10672.0,0
+2004,H,NY,26,0,"Reynolds, Thomas M.",H8NY27077,IDP,0,unopposed,,9369.0,0
+2004,H,NY,26,0,"Davis, Jack",H4NY26045,D,0,unopposed,,116484.0,0
+2004,H,NY,26,0,"Davis, Jack",H4NY26045,WF,0,unopposed,,9129.0,0
+2004,H,NY,27,0,"Higgins, Brian M.",H4NY27076,WF,0,unopposed,,8091.0,0
+2004,H,NY,27,0,"Higgins, Brian M.",H4NY27076,IDP,0,unopposed,,7974.0,0
+2004,H,NY,27,0,"Higgins, Brian M.",H4NY27076,D,0,votes,18790.0,127267.0,0
+2004,H,NY,27,0,"Naples, Nancy A.",H6NY29150,R,0,unopposed,,125275.0,0
+2004,H,NY,27,0,"Naples, Nancy A.",H6NY29150,C,0,unopposed,,14283.0,0
+2004,H,NY,28,0,"Slaughter, Louise M.",H6NY03031,WF,0,unopposed,,9224.0,0
+2004,H,NY,28,0,"Slaughter, Louise M.",H6NY03031,D,0,votes,19966.0,150431.0,0
+2004,H,NY,28,0,"Cartonia, Francina J.",H4NY28066,D,0,votes,3202.0,,0
+2004,H,NY,28,0,"Laba, Michael D.",H4NY28041,R,0,unopposed,,48981.0,0
+2004,H,NY,28,0,"Laba, Michael D.",H4NY28041,C,0,unopposed,,5562.0,0
+2004,H,NY,28,0,"Cartonia, Francina J.",H4NY28066,IDP,0,unopposed,,5678.0,0
+2004,H,NY,29,0,"Assini, Mark W.",H4NY29098,R,0,votes,13303.0,,0
+2004,H,NY,29,0,"Barend, Samara",H4NY29130,WF,0,unopposed,,5686.0,0
+2004,H,NY,29,0,"Barend, Samara",H4NY29130,D,0,votes,9082.0,104555.0,0
+2004,H,NY,29,0,"Assini, Mark W.",H4NY29098,C,0,votes,564.0,17272.0,0
+2004,S,NY,0,0,"Schumer, Charles",S8NY00082,D,0,unopposed,,4384907.0,0
+2004,S,NY,0,0,"Schumer, Charles",S8NY00082,IDP,0,unopposed,,216198.0,0
+2004,S,NY,0,0,"Schumer, Charles",S8NY00082,WF,0,unopposed,,168719.0,0
+2004,H,RI,1,0,"Binder, Mark",H4RI01083,D,0,votes,7359.0,,0
+2004,H,RI,1,0,"Binder, Mark",H4RI01083,W,1,,,6.0,0
+2004,H,SC,6,0,"McLeod, Gary",H4SC06064,R,0,votes,16855.0,75443.0,0
+2004,H,SC,6,0,"McLeod, Gary",H4SC06064,CON,0,,,4157.0,0
+2004,S,SC,0,0,"Nwangaza, Efia",S4SC00208,GRN,0,,,4245.0,0
+2004,S,SC,0,0,"Nwangaza, Efia",S4SC00208,IDP,0,,,138.0,0
+2004,H,VT,0,0,"Sanders, Bernie",H8VT01016,I,0,,,205774.0,0
+2004,H,VT,0,0,"Sanders, Bernie",H8VT01016,W(D),1,votes,1878.0,,0
+2004,H,VT,0,0,"Newton, Jane",H2VT00094,LU,0,,,3018.0,0
+2004,H,VT,0,0,"Sanders, Bernie",H8VT01016,W(PRO),1,votes,315.0,,0
+2004,H,VT,0,0,"Newton, Jane",H2VT00094,PRO,0,votes,238.0,,0
+2004,S,VT,0,0,"Hill, Craig",S4VT00108,D,0,votes,1573.0,,0
+2004,S,VT,0,0,"Mitchell, Ben",S4VT00116,R,0,votes,1715.0,,0
+2004,S,VT,0,0,"Hill, Craig",S4VT00108,VGR,0,,,3999.0,0
+2004,S,VT,0,0,"Mitchell, Ben",S4VT00116,LU,0,,,879.0,0
+2006,H,CA,6,0,"Halliwell, Mike",H6CA06193,W(DEM),1,votes,11.0,,0
+2006,H,CA,6,0,"Halliwell, Mike",H6CA06193,REP/W,0,votes,14445.0,5.0,0
+2006,H,CA,51,0,"Litwin, Dan",H6CA51058,LBT,0,votes,158.0,2790.0,0
+2006,H,CA,51,0,"Arguello, David",H6CA51058,W,1,,,4.0,0
+2006,H,CT,5,0,"Murphy, Chris",H6CT05124,DEM,0,,,117186.0,0
+2006,H,CT,5,0,"Murphy, Chris",H6CT05124,WF,0,,,5794.0,0
+2006,H,DE,0,0,"Hartley-Nagle, Karen M.",H6DE00180,DEM,0,votes,6253.0,,0
+2006,H,DE,0,0,"Hartley-Nagle, Karen M.",H6DE00180,IDE,0,,,5769.0,0
+2006,S,MN,0,0,"Uldrich, John",S6MN00341,REP,0,votes,10025.0,,0
+2006,S,MN,0,0,"Uldrich, John",S6MN00341,W,1,,,4.0,0
+2006,H,MO,7,0,"Craig, Kevin",H4MO07107,LBT,0,votes,224.0,7566.0,0
+2006,H,MO,7,0,"Miller, Glenn",H4MO07107,W,1,,,23.0,0
+2006,H,MT,0,0,"Fellows, Mike",H8MT01141,LBT,0,,,8085.0,0
+2006,H,MT,0,0,"Wlaysewski, Walter Michael",H8MT01141,W,1,,,9.0,0
+2006,S,NE,0,0,"Nelson, Ben",S6NE00095,DEM,0,votes,91592.0,378388.0,0
+2006,S,NE,0,0,"Nelson, Ben",S6NE00095,N(DEM),0,votes,909.0,,0
+2006,S,NE,0,0,"Ricketts, Pete",S6NE00129,REP,0,votes,127795.0,213928.0,0
+2006,S,NE,0,0,"Stenberg, Don",S6NE00079,REP,0,votes,95101.0,,0
+2006,S,NE,0,0,"Kramer, David J.",H6NE03107,REP,0,votes,42954.0,,0
+2006,S,NE,0,0,"Ricketts, Pete",S6NE00129,N(REP),0,votes,1848.0,,0
+2006,S,NE,0,0,"Stenberg, Don",S6NE00079,N(REP),0,votes,1395.0,,0
+2006,S,NE,0,0,"Kramer, David J.",H6NE03107,N(REP),0,votes,861.0,,0
+2006,H,NE,1,0,"Fortenberry, Jeff",H4NE01064,REP,0,votes,78960.0,121015.0,0
+2006,H,NE,1,0,"Fortenberry, Jeff",H4NE01064,N(REP),0,votes,2228.0,,0
+2006,H,NE,1,0,"Moul, Maxine B.",H6NE01093,DEM,0,votes,22818.0,86360.0,0
+2006,H,NE,1,0,"Wilson, James",H6NE01101,DEM,0,votes,9332.0,,0
+2006,H,NE,1,0,"Moul, Maxine B.",H6NE01093,N(DEM),0,votes,520.0,,0
+2006,H,NE,1,0,"Wilson, James",H6NE01101,N(DEM),0,votes,196.0,,0
+2006,H,NE,2,0,"Terry, Lee",H8NE02139,REP,0,votes,52807.0,99475.0,0
+2006,H,NE,2,0,"Laird, Steven",H8NE02204,REP,0,votes,10329.0,,0
+2006,H,NE,2,0,"Terry, Lee",H8NE02139,N(REP),0,votes,83.0,,0
+2006,H,NE,2,0,"Laird, Steven",H8NE02204,N(REP),0,votes,51.0,,0
+2006,H,NE,2,0,"Esch, Jim",H6NE02117,DEM,0,votes,21321.0,82504.0,0
+2006,H,NE,2,0,"Esch, Jim",H6NE02117,N(DEM),0,votes,31.0,,0
+2006,H,NE,3,0,"Smith, Adrian",H6NE03115,REP,0,votes,42010.0,113687.0,0
+2006,H,NE,3,0,"Hanson, John",H6NE03107,REP,0,votes,30349.0,,0
+2006,H,NE,3,0,"Vavricek, Jay",H6NE03123,REP,0,votes,28844.0,,0
+2006,H,NE,3,0,"Harris, David",H6NE03099,REP,0,votes,2912.0,,0
+2006,H,NE,3,0,"Polk, Douglas",H6NE03149,REP,0,votes,2001.0,,0
+2006,H,NE,3,0,"Vavricek, Jay",H6NE03123,N(REP),0,votes,380.0,,0
+2006,H,NE,3,0,"Smith, Adrian",H6NE03115,N(REP),0,votes,208.0,,0
+2006,H,NE,3,0,"Hanson, John",H6NE03107,N(REP),0,votes,152.0,,0
+2006,H,NE,3,0,"Harris, David",H6NE03099,N(REP),0,votes,22.0,,0
+2006,H,NE,3,0,"Polk, Douglas",H6NE03149,N(REP),0,votes,19.0,,0
+2006,H,NE,3,0,"Kleeb, Scott",H6NE03131,DEM,0,votes,23777.0,93046.0,0
+2006,H,NE,3,0,"Kleeb, Scott",H6NE03131,N(DEM),0,votes,152.0,,0
+2006,H,NH,1,0,"Shea-Porter, Carol",H6NH01230,DEM,0,votes,12497.0,100691.0,0
+2006,H,NH,1,0,"Craig, ""Jim""",H6NH01248,DEM,0,votes,7944.0,,0
+2006,H,NH,1,0,"Dodds, Gary",H6NH01222,DEM,0,votes,1125.0,,0
+2006,H,NH,1,0,"Sullivan, Peter M.",H6NH01214,DEM,0,votes,1021.0,,0
+2006,H,NH,1,0,"Jarvis, ""Dave""",H6NH01255,DEM,0,votes,422.0,,0
+2006,H,NH,1,0,"Bradley, Jeb",H2NH01130,W(DEM),1,votes,80.0,,0
+2006,H,NH,1,0,"Callis, Michael",H6NH01263,W(DEM),1,votes,4.0,,0
+2006,H,NH,1,0,"Bradley, Jeb",H2NH01130,REP,0,votes,20329.0,95527.0,0
+2006,H,NH,1,0,"Callis, Michael",H6NH01263,REP,0,votes,3128.0,,0
+2006,H,NH,1,0,"Shea-Porter, Carol",H6NH01230,W(REP),1,votes,74.0,,0
+2006,H,NH,1,0,"Craig, ""Jim""",H6NH01248,W(REP),1,votes,72.0,,0
+2006,H,NH,1,0,"Dodds, Gary",H6NH01222,W(REP),1,votes,10.0,,0
+2006,H,NH,1,0,"Jarvis, ""Dave""",H6NH01255,W(REP),1,votes,1.0,,0
+2006,H,NH,1,0,"Sullivan, Peter M.",H6NH01214,W(REP),1,votes,1.0,,0
+2006,H,NH,2,0,"Hodes, Paul W.",H4NH02175,DEM,0,votes,18002.0,108743.0,0
+2006,H,NH,2,0,"Bass, Charles",H0NH02017,W(DEM),1,votes,111.0,,0
+2006,H,NH,2,0,"Danderson, Robert A.",H6NH02139,W(DEM),1,votes,25.0,,0
+2006,H,NH,2,0,"Maxwell, Mary",H6NH02154,W(DEM),1,votes,6.0,,0
+2006,H,NH,2,0,"Bass, Charles",H0NH02017,REP,0,votes,18068.0,94088.0,0
+2006,H,NH,2,0,"Danderson, Robert A.",H6NH02139,REP,0,votes,3239.0,,0
+2006,H,NH,2,0,"Maxwell, Mary",H6NH02154,REP,0,votes,2557.0,,0
+2006,H,NH,2,0,"Hodes, Paul W.",H4NH02175,W(REP),1,votes,46.0,,0
+2006,S,NY,0,0,"Clinton, Hillary Rodham",S0NY00188,DEM,0,votes,640955.0,2698931.0,0
+2006,S,NY,0,0,"Clinton, Hillary Rodham",S0NY00188,IDP,0,unopposed,,160705.0,0
+2006,S,NY,0,0,"Clinton, Hillary Rodham",S0NY00188,WF,0,unopposed,,148792.0,0
+2006,S,NY,0,0,"Spencer, John",S6NY00243,REP,0,votes,114914.0,1212902.0,0
+2006,S,NY,0,0,"Spencer, John",S6NY00243,CRV,0,unopposed,,179287.0,0
+2006,H,NY,1,0,"Bishop, Timothy H.",H2NY01067,DEM,0,unopposed,,92546.0,0
+2006,H,NY,1,0,"Bishop, Timothy H.",H2NY01067,IDP,0,unopposed,,7468.0,0
+2006,H,NY,1,0,"Bishop, Timothy H.",H2NY01067,WF,0,unopposed,,4346.0,0
+2006,H,NY,1,0,"Zanzi, Italo A.",H6NY01100,REP,0,unopposed,,54044.0,0
+2006,H,NY,1,0,"Zanzi, Italo A.",H6NY01100,CRV,0,unopposed,,9284.0,0
+2006,H,NY,2,0,"Israel, Steve J.",H0NY02085,DEM,0,unopposed,,94100.0,0
+2006,H,NY,2,0,"Israel, Steve J.",H0NY02085,IDP,0,unopposed,,7443.0,0
+2006,H,NY,2,0,"Israel, Steve J.",H0NY02085,WF,0,unopposed,,3733.0,0
+2006,H,NY,2,0,"Bugler, John W.",H0NY02036,REP,0,unopposed,,37671.0,0
+2006,H,NY,2,0,"Bugler, John W.",H0NY02036,CRV,0,unopposed,,6541.0,0
+2006,H,NY,3,0,"King, Peter T.",H2NY03089,REP,0,votes,11077.0,86918.0,0
+2006,H,NY,3,0,"King, Peter T.",H2NY03089,CRV,0,unopposed,,9656.0,0
+2006,H,NY,3,0,"King, Peter T.",H2NY03089,IDP,0,unopposed,,5213.0,0
+2006,H,NY,3,0,"Mejias, David L.",H6NY03155,DEM,0,unopposed,,76169.0,0
+2006,H,NY,3,0,"Mejias, David L.",H6NY03155,WF,0,unopposed,,3674.0,0
+2006,H,NY,4,0,"McCarthy, Carolyn",H6NY04112,DEM,0,unopposed,,93041.0,0
+2006,H,NY,4,0,"McCarthy, Carolyn",H6NY04112,IDP,0,unopposed,,4909.0,0
+2006,H,NY,4,0,"McCarthy, Carolyn",H6NY04112,WF,0,unopposed,,3911.0,0
+2006,H,NY,4,0,"Blessinger, Martin W.",H6NY04120,REP,0,unopposed,,48121.0,0
+2006,H,NY,4,0,"Blessinger, Martin W.",H6NY04120,CRV,0,unopposed,,6929.0,0
+2006,H,NY,5,0,"Ackerman, Gary L.",H4NY07011,DEM,0,unopposed,,70033.0,0
+2006,H,NY,5,0,"Ackerman, Gary L.",H4NY07011,IDP,0,unopposed,,3884.0,0
+2006,H,NY,5,0,"Ackerman, Gary L.",H4NY07011,WF,0,unopposed,,3273.0,0
+2006,H,NY,7,0,"Crowley, Joseph",H8NY07046,DEM,0,unopposed,,60266.0,0
+2006,H,NY,7,0,"Crowley, Joseph",H8NY07046,WF,0,unopposed,,3731.0,0
+2006,H,NY,7,0,"Brawley, Kevin",H6NY07131,REP,0,unopposed,,10402.0,0
+2006,H,NY,7,0,"Brawley, Kevin",H6NY07131,CRV,0,unopposed,,1818.0,0
+2006,H,NY,8,0,"Nadler, Jerrold L.",H2NY17071,DEM,0,unopposed,,96115.0,0
+2006,H,NY,8,0,"Nadler, Jerrold L.",H2NY17071,WF,0,unopposed,,12421.0,0
+2006,H,NY,9,0,"Weiner, Anthony D.",H8NY09091,DEM,0,unopposed,,67040.0,0
+2006,H,NY,9,0,"Weiner, Anthony D.",H8NY09091,WF,0,unopposed,,4722.0,0
+2006,H,NY,10,0,"Barron, Charles",H6NY00060,DEM,0,votes,15345.0,,0
+2006,H,NY,10,0,"Green, Roger L.",H6NY10085,DEM,0,votes,6237.0,,0
+2006,H,NY,10,0,Barron,H6NY00060,W(DEM),1,votes,1.0,,0
+2006,H,NY,10,0,"Green, Roger",H6NY10085,W(DEM),1,votes,1.0,,0
+2006,H,NY,11,0,"Clarke, Yvette D.",H4NY11138,DEM,0,votes,15711.0,75520.0,0
+2006,H,NY,11,0,"Yassky, David S.",H6NY11117,DEM,0,votes,13928.0,,0
+2006,H,NY,11,0,"Yassky, David S.",H6NY11117,W(DEM),1,votes,1.0,,0
+2006,H,NY,11,0,"Clarke, Yvette D.",H4NY11138,WF,0,,,12814.0,0
+2006,H,NY,11,0,"Finger, Stephen",H6NY11125,REP,0,unopposed,,6776.0,0
+2006,H,NY,11,0,"Finger, Stephen",H6NY11125,LBT,0,,,671.0,0
+2006,H,NY,12,0,"Velazquez, Nydia M.",H2NY00010,DEM,0,unopposed,,55674.0,0
+2006,H,NY,12,0,"Velazquez, Nydia M.",H2NY00010,WF,0,unopposed,,7173.0,0
+2006,H,NY,12,0,"Romaguera, Allan E.",H6NY12115,REP,0,unopposed,,6143.0,0
+2006,H,NY,12,0,"Romaguera, Allan E.",H6NY12115,CRV,0,unopposed,,1039.0,0
+2006,H,NY,13,0,"Fossella, Vito",H8NY13028,REP,0,unopposed,,49818.0,0
+2006,H,NY,13,0,"Fossella, Vito",H8NY13028,CRV,0,unopposed,,5849.0,0
+2006,H,NY,13,0,"Fossella, Vito",H8NY13028,IDP,0,votes,241.0,3667.0,0
+2006,H,NY,13,0,"Harrison, Stephen",H6NY13071,W(IDP),1,votes,1.0,,0
+2006,H,NY,13,0,"Harrison, Stephen A.",H6NY13071,DEM,0,unopposed,,42229.0,0
+2006,H,NY,13,0,"Harrison, Stephen A.",H6NY13071,WF,0,unopposed,,2902.0,0
+2006,H,NY,14,0,"Maloney, Carolyn B.",H2NY14037,DEM,0,unopposed,,107095.0,0
+2006,H,NY,14,0,"Maloney, Carolyn B.",H2NY14037,WF,0,unopposed,,8100.0,0
+2006,H,NY,14,0,"Maloney, Carolyn B.",H2NY14037,IDP,0,unopposed,,4387.0,0
+2006,H,NY,15,0,"Rangel, Charles B.",H6NY19029,DEM,0,unopposed,,93857.0,0
+2006,H,NY,15,0,"Rangel, Charles B.",H6NY19029,WF,0,unopposed,,10059.0,0
+2006,H,NY,16,0,"Serrano, Jose E.",H0NY18065,DEM,0,unopposed,,53179.0,0
+2006,H,NY,16,0,"Serrano, Jose E.",H0NY18065,WF,0,unopposed,,2945.0,0
+2006,H,NY,16,0,"Mohamed, Ali",H4NY16053,REP,0,unopposed,,2045.0,0
+2006,H,NY,16,0,"Mohamed, Ali",H4NY16053,CRV,0,unopposed,,714.0,0
+2006,H,NY,17,0,"Engel, Eliot L.",H8NY19058,WF,0,unopposed,,88714.0,0
+2006,H,NY,17,0,"Engel, Eliot L.",H8NY19058,DEM,0,votes,26564.0,4900.0,0
+2006,H,NY,17,0,"Faulkner, Jim",H6NY17148,REP,0,unopposed,,22608.0,0
+2006,H,NY,17,0,"Faulkner, Jim",H6NY17148,CRV,0,unopposed,,3769.0,0
+2006,H,NY,17,0,"Faulkner, Jim",H6NY17148,IDP,0,unopposed,,2465.0,0
+2006,H,NY,18,0,"Lowey, Nita M.",H8NY20056,DEM,0,unopposed,,119041.0,0
+2006,H,NY,18,0,"Lowey, Nita M.",H8NY20056,WF,0,unopposed,,5215.0,0
+2006,H,NY,18,0,"Hoffman, Richard A.",H4NY18075,CRV,0,unopposed,,45472.0,0
+2006,H,NY,18,0,"Hoffman, Richard A.",H4NY18075,REP,0,votes,3239.0,5978.0,0
+2006,H,NY,19,0,"Kelly, Sue W.",H4NY19073,REP,0,unopposed,,79545.0,0
+2006,H,NY,19,0,"Kelly, Sue W.",H4NY19073,CRV,0,unopposed,,9677.0,0
+2006,H,NY,19,0,"Kelly, Sue W.",H4NY19073,IDP,0,unopposed,,6137.0,0
+2006,H,NY,20,0,"Gillibrand, Kirsten E.",H6NY20167,DEM,0,unopposed,,116416.0,0
+2006,H,NY,20,0,"Gillibrand, Kirsten E.",H6NY20167,WF,0,unopposed,,8752.0,0
+2006,H,NY,20,0,"Sweeney, John E.",H8NY22045,REP,0,unopposed,,94093.0,0
+2006,H,NY,20,0,"Sweeney, John E.",H8NY22045,CRV,0,unopposed,,9869.0,0
+2006,H,NY,20,0,"Sweeney, John E.",H8NY22045,IDP,0,unopposed,,6592.0,0
+2006,H,NY,21,0,"McNulty, Michael R.",H8NY23084,DEM,0,votes,26246.0,139997.0,0
+2006,H,NY,21,0,"McNulty, Michael R.",H8NY23084,IDP,0,unopposed,,12501.0,0
+2006,H,NY,21,0,"McNulty, Michael R.",H8NY23084,CRV,0,unopposed,,8336.0,0
+2006,H,NY,21,0,"McNulty, Michael R.",H8NY23084,WF,0,unopposed,,6770.0,0
+2006,H,NY,22,0,"Hinchey, Maurice D.",H2NY26080,DEM,0,unopposed,,104423.0,0
+2006,H,NY,22,0,"Hinchey, Maurice D.",H2NY26080,IDP,0,unopposed,,9944.0,0
+2006,H,NY,22,0,"Hinchey, Maurice D.",H2NY26080,WF,0,unopposed,,7316.0,0
+2006,H,NY,23,0,"McHugh, John M.",H2NY24036,REP,0,unopposed,,89482.0,0
+2006,H,NY,23,0,"McHugh, John M.",H2NY24036,IDP,0,unopposed,,9973.0,0
+2006,H,NY,23,0,"McHugh, John M.",H2NY24036,CRV,0,unopposed,,7326.0,0
+2006,H,NY,23,0,"Johnson, Robert J.",H4NY23059,DEM,0,unopposed,,58859.0,0
+2006,H,NY,23,0,"Johnson, Robert J.",H4NY23059,WF,0,unopposed,,3459.0,0
+2006,H,NY,24,0,"Arcuri, Michael A.",H6NY24128,DEM,0,unopposed,,96093.0,0
+2006,H,NY,24,0,"Arcuri, Michael A.",H6NY24128,IDP,0,unopposed,,7049.0,0
+2006,H,NY,24,0,"Arcuri, Michael A.",H6NY24128,WF,0,unopposed,,6544.0,0
+2006,H,NY,24,0,"Meier, Raymond A.",H6NY24144,REP,0,unopposed,,83228.0,0
+2006,H,NY,24,0,"Meier, Raymond A.",H6NY24144,CRV,0,unopposed,,8276.0,0
+2006,H,NY,25,0,"Maffei, Dan",H6NY25125,DEM,0,unopposed,,100605.0,0
+2006,H,NY,25,0,"Maffei, Dan",H6NY25125,WF,0,votes,50.0,6503.0,0
+2006,H,NY,25,0,"Walsh, James T.",H8NY27036,REP,0,unopposed,,91187.0,0
+2006,H,NY,25,0,"Walsh, James T.",H8NY27036,IDP,0,unopposed,,11634.0,0
+2006,H,NY,25,0,"Walsh, James T.",H8NY27036,CRV,0,unopposed,,7704.0,0
+2006,H,NY,26,0,"Reynolds, Thomas M.",H8NY27077,REP,0,unopposed,,94157.0,0
+2006,H,NY,26,0,"Reynolds, Thomas M.",H8NY27077,CRV,0,unopposed,,15100.0,0
+2006,H,NY,26,0,"Davis, Jack",H4NY26045,DEM,0,unopposed,,85145.0,0
+2006,H,NY,26,0,"Davis, Jack",H4NY26045,IDP,0,votes,659.0,9187.0,0
+2006,H,NY,26,0,"Davis, Jack",H4NY26045,WF,0,unopposed,,6582.0,0
+2006,H,NY,27,0,"Higgins, Brian M.",H4NY27076,DEM,0,unopposed,,116935.0,0
+2006,H,NY,27,0,"Higgins, Brian M.",H4NY27076,IDP,0,unopposed,,14162.0,0
+2006,H,NY,27,0,"Higgins, Brian M.",H4NY27076,WF,0,unopposed,,8930.0,0
+2006,H,NY,28,0,"Slaughter, Louise M.",H6NY03031,DEM,0,unopposed,,93382.0,0
+2006,H,NY,28,0,"Slaughter, Louise M.",H6NY03031,IDP,0,unopposed,,7068.0,0
+2006,H,NY,28,0,"Slaughter, Louise M.",H6NY03031,WF,0,unopposed,,5936.0,0
+2006,H,NY,28,0,"Donnelly, John E.",H6NY28053,REP,0,unopposed,,33361.0,0
+2006,H,NY,28,0,"Donnelly, John E.",H6NY28053,CRV,0,unopposed,,7483.0,0
+2006,H,NY,29,0,"Massa, Eric J.",H6NY29168,DEM,0,unopposed,,94609.0,0
+2006,H,NY,29,0,"Massa, Eric J.",H6NY29168,WF,0,unopposed,,5435.0,0
+2006,H,NY,29,0,"Kuhl, John Randy, Jr.",H4NY29080,REP,0,unopposed,,91383.0,0
+2006,H,NY,29,0,"Kuhl, John Randy, Jr.",H4NY29080,CRV,0,unopposed,,9420.0,0
+2006,H,NY,29,0,"Kuhl, John Randy, Jr.",H4NY29080,IDP,0,unopposed,,5274.0,0
+2006,H,PA,15,0,"Dent, Charles W.",H4PA15087,REP,0,votes,18858.0,106153.0,0
+2006,H,PA,15,0,"Dent, Charles W.",H4PA15087,W(DEM),1,votes,1098.0,,0
+2006,H,SC,1,0,"Maatta, Randy",H6SC01128,DEM,0,votes,3393.0,68343.0,0
+2006,H,SC,1,0,"Maatta, Randy",H6SC01128,WF,0,,,4875.0,0
+2006,H,SC,3,0,"Ballenger, Lee",H6SC03074,DEM,0,votes,9738.0,59795.0,0
+2006,H,SC,3,0,"Ballenger, Lee",H6SC03074,WF,0,,,6244.0,0
+2006,S,TN,0,0,"Hooker, John Jay",S6TN00067,DEM/W,0,votes,27175.0,13.0,0
+2006,S,TN,0,0,"Price, Gloria D. Reagon",S6TN00067,W,1,,,1.0,0
+2006,S,VT,0,0,"Sanders, Bernard",S4VT00033,IND,0,,,171638.0,0
+2006,S,VT,0,0,"Hill, Craig",S4VT00108,VGR,0,,,1536.0,0
+2006,S,VT,0,0,"Moss, Peter",S4VT00124,ABC,0,,,1518.0,0
+2006,S,VT,0,0,"Sanders, Bernard",S4VT00033,DEM,0,votes,35954.0,,0
+2006,S,VT,0,0,"Hill, Craig",S4VT00108,DEM,0,votes,504.0,,0
+2006,S,VT,0,0,"Moss, Peter D.",S4VT00124,DEM,0,votes,385.0,,0
+2008,H,CA,37,0,"Mathews, Peter",H2CA38062,D,0,votes,5860.0,,0
+2008,H,CA,37,0,"Mathews, Peter",H2CA38062,W,1,,,600.0,0
+2008,H,CT,1,0,"Larson, John B.",H8CT01046,D,0,convention,,194493.0,0
+2008,H,CT,1,0,"Larson, John B.",H8CT01046,WF,0,,,17000.0,0
+2008,H,CT,2,0,"Courtney, Joe",H2CT02112,D,0,convention,,198984.0,0
+2008,H,CT,2,0,"Courtney, Joe",H2CT02112,WF,0,,,13164.0,0
+2008,H,CT,3,0,"DeLauro, Rosa L.",H0CT03072,D,0,convention,,204761.0,0
+2008,H,CT,3,0,"DeLauro, Rosa L.",H0CT03072,WF,0,,,25411.0,0
+2008,H,CT,4,0,"Himes, Jim",H8CT04172,D,0,votes,12260.0,149345.0,0
+2008,H,CT,4,0,"Himes, Jim",H8CT04172,WF,0,,,9130.0,0
+2008,H,CT,5,0,"Murphy, Chris",H6CT05124,D,0,convention,,161178.0,0
+2008,H,CT,5,0,"Murphy, Chris",H6CT05124,WF,0,,,18149.0,0
+2008,H,NE,1,0,"Fortenberry, Jeff",H4NE01064,R,0,votes,45958.0,184923.0,0
+2008,H,NE,1,0,"Fortenberry, Jeff",H4NE01064,N(R),0,votes,662.0,,0
+2008,H,NE,1,0,"Yashirin, Max",H8NE01073,D,0,votes,26332.0,77897.0,0
+2008,H,NE,1,0,"Yashirin, Max",H8NE01073,N(D),0,votes,786.0,,0
+2008,H,NE,2,0,"Terry, Lee",H8NE02139,R,0,votes,23054.0,142473.0,0
+2008,H,NE,2,0,"Laird, Steven",H8NE02204,R,0,votes,4246.0,,0
+2008,H,NE,2,0,"Terry, Lee",H8NE02139,N(R),0,votes,92.0,,0
+2008,H,NE,2,0,"Laird, Steven",H8NE02204,N(R),0,votes,42.0,,0
+2008,H,NE,2,0,"Esch, Jim",H6NE02117,D,0,votes,20937.0,131901.0,0
+2008,H,NE,2,0,"Carter, Richard N.",H8NE02212,D,0,votes,5059.0,,0
+2008,H,NE,2,0,"Esch, Jim",H6NE02117,N(D),0,votes,260.0,,0
+2008,H,NE,2,0,"Carter, Richard N.",H8NE02212,N(D),0,votes,72.0,,0
+2008,H,NE,3,0,"Smith, Adrian",H6NE03115,R,0,votes,55129.0,183117.0,0
+2008,H,NE,3,0,"Ellison, Jeremiah",H8NE03079,R,0,votes,7918.0,,0
+2008,H,NE,3,0,"Smith, Adrian",H6NE03115,N(R),0,votes,96.0,,0
+2008,H,NE,3,0,"Ellison, Jeremiah",H8NE03079,N(R),0,votes,29.0,,0
+2008,H,NE,3,0,"Stoddard, Jay C.",H8NE03053,D,0,votes,17668.0,55087.0,0
+2008,H,NE,3,0,"Spatz, Paul A.",H8NE03061,D,0,votes,6110.0,,0
+2008,H,NE,3,0,"Stoddard, Jay C.",H8NE03053,N(D),0,votes,91.0,,0
+2008,H,NE,3,0,"Spatz, Paul A.",H8NE03061,N(D),0,votes,32.0,,0
+2008,S,NE,0,0,"Johanns, Mike",S8NE00117,R,0,votes,111455.0,455854.0,0
+2008,S,NE,0,0,"Flynn, Pat",S8NE00109,R,0,votes,31271.0,,0
+2008,S,NE,0,0,"Johanns, Mike",S8NE00117,N(R),0,votes,736.0,,0
+2008,S,NE,0,0,"Flynn, Pat",S8NE00109,N(R),0,votes,289.0,,0
+2008,S,NE,0,0,"Kleeb, Scott",S8NE00133,D,0,votes,64468.0,317456.0,0
+2008,S,NE,0,0,"Raimondo, Tony",S8NE00125,D,0,votes,23617.0,,0
+2008,S,NE,0,0,"Wilson, James Bryan",S8NE00158,D,0,votes,3179.0,,0
+2008,S,NE,0,0,"Marvin, Larry",S8NE00141,D,0,votes,2629.0,,0
+2008,S,NE,0,0,"Kleeb, Scott",S8NE00133,N(D),0,votes,1114.0,,0
+2008,S,NE,0,0,"Raimondo, Tony",S8NE00125,N(D),0,votes,524.0,,0
+2008,S,NE,0,0,"Wilson, James Bryan",S8NE00158,N(D),0,votes,45.0,,0
+2008,S,NE,0,0,"Marvin, Larry",S8NE00141,N(D),0,votes,43.0,,0
+2008,H,NH,1,0,"Shea-Porter, Carol",H6NH01230,D,0,votes,20839.0,176435.0,0
+2008,H,NH,1,0,"Bradley, Jeb",H2NH01130,W(D),1,votes,162.0,,0
+2008,H,NH,1,0,"Stephen, John",H2NH01163,W(D),1,votes,127.0,,0
+2008,H,NH,1,0,"Bradley, Jeb",H2NH01130,R,0,votes,18559.0,156338.0,0
+2008,H,NH,1,0,"Stephen, John",H2NH01163,R,0,votes,16766.0,,0
+2008,H,NH,1,0,"Shea-Porter, Carol",H6NH01230,W(R),1,votes,46.0,,0
+2008,H,NH,1,0,"Bradley, Jeb",H2NH01130,W(R),1,votes,43.0,,0
+2008,H,NH,2,0,"Hodes, Paul W.",H4NH02175,D,0,votes,22638.0,188332.0,0
+2008,H,NH,2,0,"Clegg, ""Bob""",H8NH02200,W(D),1,votes,59.0,,0
+2008,H,NH,2,0,"Horn, Jennifer",H8NH02192,W(D),1,votes,56.0,,0
+2008,H,NH,2,0,"Steiner, ""Jim""",H8NH02184,W(D),1,votes,46.0,,0
+2008,H,NH,2,0,"Bosse, Grant",H8NH02218,W(D),1,votes,18.0,,0
+2008,H,NH,2,0,"Horn, Jennifer",H8NH02192,R,0,votes,12726.0,138222.0,0
+2008,H,NH,2,0,"Clegg, ""Bob""",H8NH02200,R,0,votes,10771.0,,0
+2008,H,NH,2,0,"Steiner, ""Jim""",H8NH02184,R,0,votes,4582.0,,0
+2008,H,NH,2,0,"Bosse, Grant",H8NH02218,R,0,votes,2974.0,,0
+2008,H,NH,2,0,"Hodes, Paul W.",H4NH02175,W(R),1,votes,61.0,,0
+2008,S,NH,0,0,"Shaheen, Jeanne",S0NH00219,D,0,votes,42968.0,358438.0,0
+2008,S,NH,0,0,"Stebbins, Raymond",S8NH00170,D,0,votes,5281.0,,0
+2008,S,NH,0,0,"Sununu, John E.",S0NH00201,W(D),1,votes,235.0,,0
+2008,S,NH,0,0,"Sununu, John E.",S0NH00201,R,0,votes,60852.0,314403.0,0
+2008,S,NH,0,0,"Shaheen, Jeanne",S0NH00219,W(R),1,votes,517.0,,0
+2008,S,NH,0,0,"Stebbins, Raymond",S8NH00170,W(R),1,votes,3.0,,0
+2008,H,NJ,5,0,"Garrett, Scott",H8NJ05094,R,0,votes,19914.0,172653.0,0
+2008,H,NJ,5,0,"Shulman , Dennis",H8NJ05094,D,0,votes,9390.0,131033.0,0
+2008,H,NJ,7,0,"Hatfield, P. Kelly",H8NJ07132,R,0,votes,3902.0,,0
+2008,H,NJ,7,0,"Hsing, Michael P.",H8NJ07132,HFC,0,,,16419.0,0
+2008,H,NY,1,0,"Bishop, Timothy H.",H2NY01067,D,0,unopposed,,141727.0,0
+2008,H,NY,1,0,"Bishop, Timothy H.",H2NY01067,IDP,0,unopposed,,12919.0,0
+2008,H,NY,1,0,"Bishop, Timothy H.",H2NY01067,WF,0,unopposed,,7437.0,0
+2008,H,NY,1,0,"Zeldin, Lee M.",H8NY01148,R,0,unopposed,,100036.0,0
+2008,H,NY,1,0,"Zeldin, Lee M.",H8NY01148,CRV,0,unopposed,,15509.0,0
+2008,H,NY,2,0,"Israel, Steve J.",H0NY02085,D,0,unopposed,,143759.0,0
+2008,H,NY,2,0,"Israel, Steve J.",H0NY02085,IDP,0,unopposed,,11900.0,0
+2008,H,NY,2,0,"Israel, Steve J.",H0NY02085,WF,0,unopposed,,5620.0,0
+2008,H,NY,2,0,"Stalzer, Frank J.",H8NY02062,R,0,unopposed,,70145.0,0
+2008,H,NY,2,0,"Stalzer, Frank J.",H8NY02062,CRV,0,unopposed,,9496.0,0
+2008,H,NY,3,0,"King, Peter T.",H2NY03089,IDP,0,unopposed,,10447.0,0
+2008,H,NY,3,0,"King, Peter T.",H2NY03089,CRV,0,unopposed,,12983.0,0
+2008,H,NY,3,0,"King, Peter T.",H2NY03089,R,0,votes,6847.0,149344.0,0
+2008,H,NY,3,0,"Long, Graham E.",H8NY03144,D,0,unopposed,,93481.0,0
+2008,H,NY,3,0,"Long, Graham E.",H8NY03144,WF,0,unopposed,,4044.0,0
+2008,H,NY,4,0,"McCarthy, Carolyn",H6NY04112,D,0,unopposed,,151792.0,0
+2008,H,NY,4,0,"McCarthy, Carolyn",H6NY04112,IDP,0,unopposed,,7318.0,0
+2008,H,NY,4,0,"McCarthy, Carolyn",H6NY04112,WF,0,unopposed,,4918.0,0
+2008,H,NY,4,0,"Martins, Jack M.",H8NY04076,R,0,unopposed,,84444.0,0
+2008,H,NY,4,0,"Martins, Jack M.",H8NY04076,CRV,0,unopposed,,7798.0,0
+2008,H,NY,5,0,"Ackerman, Gary L.",H4NY07011,D,0,unopposed,,105836.0,0
+2008,H,NY,5,0,"Ackerman, Gary L.",H4NY07011,IDP,0,unopposed,,4084.0,0
+2008,H,NY,5,0,"Ackerman, Gary L.",H4NY07011,WF,0,unopposed,,2804.0,0
+2008,H,NY,7,0,"Crowley, Joseph",H8NY07046,D,0,unopposed,,113988.0,0
+2008,H,NY,7,0,"Crowley, Joseph",H8NY07046,WF,0,unopposed,,4471.0,0
+2008,H,NY,7,0,"Britt, William E., Jr.",H8NY07079,R,0,unopposed,,19373.0,0
+2008,H,NY,7,0,"Britt, William E., Jr.",H8NY07079,CRV,0,unopposed,,2104.0,0
+2008,H,NY,8,0,"Nadler, Jerrold L.",H2NY17071,D,0,unopposed,,152153.0,0
+2008,H,NY,8,0,"Nadler, Jerrold L.",H2NY17071,WF,0,unopposed,,8622.0,0
+2008,H,NY,8,0,"Lin, Grace",H8NY08085,R,0,unopposed,,36897.0,0
+2008,H,NY,8,0,"Lin, Grace",H8NY08085,CRV,0,unopposed,,2165.0,0
+2008,H,NY,9,0,"Weiner, Anthony D.",H8NY09091,D,0,unopposed,,106097.0,0
+2008,H,NY,9,0,"Weiner, Anthony D.",H8NY09091,WF,0,unopposed,,6108.0,0
+2008,H,NY,10,0,"Grupico, Salvatore",H8NY10073,R,0,unopposed,,8204.0,0
+2008,H,NY,10,0,"Grupico, Salvatore",H8NY10073,CRV,0,unopposed,,1361.0,0
+2008,H,NY,11,0,"Clarke, Yvette D.",H4NY11138,D,0,unopposed,,158235.0,0
+2008,H,NY,11,0,"Clarke, Yvette D.",H4NY11138,WF,0,unopposed,,10327.0,0
+2008,H,NY,12,0,"Velazquez, Nydia M.",H2NY00010,D,0,unopposed,,115633.0,0
+2008,H,NY,12,0,"Velazquez, Nydia M.",H2NY00010,WF,0,unopposed,,7420.0,0
+2008,H,NY,12,0,"Romaguera, Allen E.",H6NY12115,R,0,unopposed,,12486.0,0
+2008,H,NY,12,0,"Romaguera, Allen E.",H6NY12115,CRV,0,unopposed,,1262.0,0
+2008,H,NY,13,0,"McMahon, Michael E.",H8NY13077,WF,0,unopposed,,6579.0,0
+2008,H,NY,13,0,"McMahon, Michael E.",H8NY13077,D,0,votes,12805.0,107640.0,0
+2008,H,NY,14,0,"Maloney, Carolyn B.",H2NY14037,D,0,unopposed,,176426.0,0
+2008,H,NY,14,0,"Maloney, Carolyn B.",H2NY14037,WF,0,unopposed,,6813.0,0
+2008,H,NY,15,0,"Rangel, Charles B.",H6NY19029,D,0,unopposed,,170372.0,0
+2008,H,NY,15,0,"Rangel, Charles B.",H6NY19029,WF,0,unopposed,,6779.0,0
+2008,H,NY,16,0,"Serrano, Jose E.",H0NY18065,D,0,unopposed,,123312.0,0
+2008,H,NY,16,0,"Serrano, Jose E.",H0NY18065,WF,0,unopposed,,3867.0,0
+2008,H,NY,16,0,"Mohamed, Ali",H4NY16053,R,0,unopposed,,3941.0,0
+2008,H,NY,16,0,"Mohamed, Ali",H4NY16053,CRV,0,unopposed,,547.0,0
+2008,H,NY,17,0,"Engel, Eliot L.",H8NY19058,D,0,unopposed,,149676.0,0
+2008,H,NY,17,0,"Engel, Eliot L.",H8NY19058,IDP,0,unopposed,,6721.0,0
+2008,H,NY,17,0,"Engel, Eliot L.",H8NY19058,WF,0,unopposed,,5197.0,0
+2008,H,NY,17,0,"Goodman, Robert",H8NY17094,R,0,unopposed,,35994.0,0
+2008,H,NY,17,0,"Goodman, Robert",H8NY17094,CRV,0,unopposed,,4713.0,0
+2008,H,NY,18,0,"Lowey, Nita M.",H8NY20056,D,0,unopposed,,167365.0,0
+2008,H,NY,18,0,"Lowey, Nita M.",H8NY20056,WF,0,unopposed,,7426.0,0
+2008,H,NY,18,0,"Russell, Jim",H6NY18153,R,0,unopposed,,73237.0,0
+2008,H,NY,18,0,"Russell, Jim",H6NY18153,CRV,0,unopposed,,7261.0,0
+2008,H,NY,19,0,"Hall, John",H6NY19144,D,0,unopposed,,141173.0,0
+2008,H,NY,19,0,"Hall, John",H6NY19144,IDP,0,unopposed,,16584.0,0
+2008,H,NY,19,0,"Hall, John",H6NY19144,WF,0,unopposed,,7102.0,0
+2008,H,NY,19,0,"Lalor, Kieran Michael",H8NY19140,R,0,unopposed,,103813.0,0
+2008,H,NY,19,0,"Lalor, Kieran Michael",H8NY19140,CRV,0,unopposed,,12307.0,0
+2008,H,NY,20,0,"Gillibrand, Kirsten E.",H6NY20167,D,0,unopposed,,178996.0,0
+2008,H,NY,20,0,"Gillibrand, Kirsten E.",H6NY20167,WF,0,unopposed,,14655.0,0
+2008,H,NY,20,0,"Treadwell, Sandy",H8NY20122,R,0,unopposed,,99930.0,0
+2008,H,NY,20,0,"Treadwell, Sandy",H8NY20122,IDP,0,unopposed,,8024.0,0
+2008,H,NY,20,0,"Treadwell, Sandy",H8NY20122,CRV,0,unopposed,,10077.0,0
+2008,H,NY,21,0,"Tonko, Paul D.",H8NY21203,WF,0,unopposed,,159849.0,0
+2008,H,NY,21,0,"Tonko, Paul D.",H8NY21203,D,0,votes,15932.0,11437.0,0
+2008,H,NY,21,0,"Steck, Phillip G.",H8NY21138,D,0,votes,7498.0,,0
+2008,H,NY,21,0,"Buhrmaster, James R.",H8NY21187,R,0,votes,8589.0,85267.0,0
+2008,H,NY,21,0,"Vasquez, Steven",H8NY21187,R,0,votes,3605.0,,0
+2008,H,NY,21,0,"Buhrmaster, James R.",H8NY21187,CRV,0,unopposed,,11332.0,0
+2008,H,NY,21,0,"Steck, Phillip G.",H8NY21138,IDP,0,unopposed,,7965.0,0
+2008,H,NY,22,0,"Hinchey, Maurice D.",H2NY26080,D,0,unopposed,,147238.0,0
+2008,H,NY,22,0,"Hinchey, Maurice D.",H2NY26080,IDP,0,unopposed,,11320.0,0
+2008,H,NY,22,0,"Hinchey, Maurice D.",H2NY26080,WF,0,unopposed,,10000.0,0
+2008,H,NY,22,0,"Phillips, George K.",H8NY22102,R,0,unopposed,,76569.0,0
+2008,H,NY,22,0,"Phillips, George K.",H8NY22102,CRV,0,unopposed,,8557.0,0
+2008,H,NY,23,0,"McHugh, John M.",H2NY24036,R,0,unopposed,,120778.0,0
+2008,H,NY,23,0,"McHugh, John M.",H2NY24036,IDP,0,unopposed,,12958.0,0
+2008,H,NY,23,0,"McHugh, John M.",H2NY24036,CRV,0,unopposed,,9293.0,0
+2008,H,NY,23,0,"Oot, Michael P.",H8NY23100,D,0,unopposed,,70037.0,0
+2008,H,NY,23,0,"Oot, Michael P.",H8NY23100,WF,0,unopposed,,5834.0,0
+2008,H,NY,24,0,"Arcuri, Michael A.",H6NY24128,D,0,unopposed,,121345.0,0
+2008,H,NY,24,0,"Arcuri, Michael A.",H6NY24128,WF,0,unopposed,,9454.0,0
+2008,H,NY,24,0,"Hanna, Richard L.",H8NY24066,R,0,unopposed,,103379.0,0
+2008,H,NY,24,0,"Hanna, Richard L.",H8NY24066,IDP,0,unopposed,,9555.0,0
+2008,H,NY,24,0,"Hanna, Richard L.",H8NY24066,CRV,0,unopposed,,7946.0,0
+2008,H,NY,25,0,"Maffei, Daniel B.",H6NY25125,D,0,unopposed,,148290.0,0
+2008,H,NY,25,0,"Maffei, Daniel B.",H6NY25125,WF,0,unopposed,,9085.0,0
+2008,H,NY,25,0,"Sweetland, Dale A.",H8NY25071,R,0,unopposed,,106653.0,0
+2008,H,NY,25,0,"Sweetland, Dale A.",H8NY25071,CRV,0,unopposed,,13564.0,0
+2008,H,NY,26,0,"Lee, Christopher J.",H8NY26095,R,0,unopposed,,124845.0,0
+2008,H,NY,26,0,"Lee, Christopher J.",H8NY26095,CRV,0,unopposed,,13866.0,0
+2008,H,NY,26,0,"Lee, Christopher J.",H8NY26095,IDP,0,replacement,,9896.0,0
+2008,H,NY,26,0,"Powers, Jonathan P.",H8NY26061,D,0,votes,8500.0,,0
+2008,H,NY,26,0,"Powers, Jonathan P.",H8NY26061,WF,0,unopposed,,12104.0,0
+2008,H,NY,27,0,"Higgins, Brian",H4NY27076,D,0,unopposed,,169196.0,0
+2008,H,NY,27,0,"Higgins, Brian",H4NY27076,WF,0,unopposed,,16517.0,0
+2008,H,NY,27,0,"Humiston, Daniel J.",H8NY27093,R,0,unopposed,,50420.0,0
+2008,H,NY,27,0,"Humiston, Daniel J.",H8NY27093,IDP,0,unopposed,,5934.0,0
+2008,H,NY,28,0,"Slaughter, Louise M.",H6NY03031,D,0,unopposed,,155409.0,0
+2008,H,NY,28,0,"Slaughter, Louise M.",H6NY03031,IDP,0,unopposed,,9424.0,0
+2008,H,NY,28,0,"Slaughter, Louise M.",H6NY03031,WF,0,unopposed,,7822.0,0
+2008,H,NY,28,0,"Crimmen, David W.",H8NY28091,R,0,unopposed,,42016.0,0
+2008,H,NY,28,0,"Crimmen, David W.",H8NY28091,CRV,0,unopposed,,6674.0,0
+2008,H,NY,29,0,"Massa, Eric J. J.",H6NY29168,D,0,unopposed,,131526.0,0
+2008,H,NY,29,0,"Massa, Eric J. J.",H6NY29168,WF,0,unopposed,,9003.0,0
+2008,H,NY,29,0,"Kuhl, John Randy, Jr.",H4NY29080,R,0,unopposed,,116137.0,0
+2008,H,NY,29,0,"Kuhl, John Randy, Jr.",H4NY29080,IDP,0,unopposed,,8185.0,0
+2008,H,NY,29,0,"Kuhl, John Randy, Jr.",H4NY29080,CRV,0,unopposed,,10877.0,0
+2008,H,NC,4,0,"Price, David",H6NC04037,D,0,unopposed,,265751.0,0
+2008,H,NC,4,0,"Lawson, William (B.J.)",H6NC04037,R,0,votes,23373.0,153947.0,0
+2008,H,OR,4,0,"DeFazio, Peter A.",H6OR04047,D,0,votes,119366.0,275143.0,0
+2008,H,OR,4,0,"DeFazio, Peter A.",H6OR04047,W(R),1,votes,906.0,,0
+2008,S,RI,0,0,"Young, Christopher F.",S0RI00042,D,0,votes,7286.0,,0
+2008,S,RI,0,0,"Young, Christopher",S0RI00042,W,1,,,262.0,0
+2008,H,VT,0,0,"Welch, Peter",H6VT00160,D/R,0,votes,19566.0,248203.0,0
+2008,H,VT,0,0,"Welch, Peter",H6VT00160,W(R),1,votes,600.0,,0
+2010,S,AK,0,0,"Murkowski, Lisa",S4AK00099,REP/W,0,votes,53872.0,92931.0,0
+2010,S,AK,0,0,"Miller, Joe",S0AK00121,REP,0,votes,55878.0,90839.0,0
+2010,S,AK,0,0,Murkowski,S4AK00099,W (Challenged Counted),0,,,8160.0,0
+2010,S,AK,0,0,"Miller, Joe",S0AK00121,W,1,,,21.0,0
+2010,H,AZ,7,0,"Myers, Terry",H0AZ07025,REP,0,votes,7044.0,,0
+2010,H,AZ,7,0,"Myer, Harley",H0AZ07025,IND,0,,,4506.0,0
+2010,H,CA,6,0,"Halliwell, Michael J.",H6CA06193,W(DEM),1,votes,11.0,,0
+2010,H,CA,6,0,"Halliwell, Michael",H6CA06193,REP,0,votes,13136.0,,0
+2010,H,CA,16,0,"Gonzalez, Edward",H0CA16096,W(REP),1,votes,285.0,,0
+2010,H,CA,16,0,"Gonzalez, Edward",H0CA16096,LIB,0,votes,319.0,12304.0,0
+2010,H,CT,1,0,"Larson, John B.",H8CT01046,DEM,0,convention,,130538.0,0
+2010,H,CT,1,0,"Larson, John B.",H8CT01046,WF,0,,,7902.0,0
+2010,H,CT,2,0,"Courtney, Joe",H2CT02112,DEM,0,convention,,140888.0,0
+2010,H,CT,2,0,"Courtney, Joe",H2CT02112,WF,0,,,6860.0,0
+2010,H,CT,3,0,"DeLauro, Rosa L.",H0CT03072,DEM,0,convention,,134544.0,0
+2010,H,CT,3,0,"DeLauro, Rosa L.",H0CT03072,WF,0,,,9021.0,0
+2010,H,CT,4,0,"Himes, Jim",H8CT04172,DEM,0,convention,,110746.0,0
+2010,H,CT,4,0,"Himes, Jim",H8CT04172,WF,0,,,4605.0,0
+2010,H,CT,5,0,"Murphy, Chris",H6CT05124,DEM,0,convention,,118231.0,0
+2010,H,CT,5,0,"Murphy, Chris",H6CT05124,WF,0,,,4648.0,0
+2010,H,CT,5,0,"Caligiuri, Sam S. F.",H0CT05176,IND,0,,,2310.0,0
+2010,H,CT,5,0,"Caligiuri, Sam S. F.",H0CT05176,REP,0,votes,11287.0,102092.0,0
+2010,H,HI,2,0,"Wharton, Ramsay Puanani",H0HI02114,REP,0,votes,7809.0,,0
+2010,H,HI,2,0,"Von Sonn, Andrew Vsevolod",H0HI02114,N,0,votes,313.0,1310.0,0
+2010,H,MI,1,0,"Hooper, Don",H0MI01187,REP,0,votes,3969.0,,0
+2010,H,MI,1,0,"Boal, Ellis",H0MI01187,GRE,0,convention,,2072.0,0
+2010,H,MI,9,0,"Janek, Anna",H0MI09149,REP,0,votes,8006.0,,0
+2010,H,MI,9,0,"Gray, Bob",H0MI09149,NPA,0,,,1866.0,0
+2010,H,MS,1,0,"McGlowan, Angela",H0MS01068,REP,0,votes,5924.0,,0
+2010,H,MS,1,0,"Green, Les",H0MS01068,IND,0,,,2020.0,0
+2010,H,NE,1,0,"Fortenberry, Jeff",H4NE01064,REP,0,votes,55283.0,116871.0,0
+2010,H,NE,1,0,"Hunt, David L.",H0NE01104,REP,0,votes,6536.0,,0
+2010,H,NE,1,0,"Bodie, Ralph M.",H0NE01096,REP,0,votes,3800.0,,0
+2010,H,NE,1,0,"Fortenberry, Jeff",H4NE01064,N(REP),0,votes,2107.0,,0
+2010,H,NE,1,0,"Hunt, David L.",H0NE01104,N(REP),0,votes,464.0,,0
+2010,H,NE,1,0,"Bodie, Ralph M.",H0NE01096,N(REP),0,votes,253.0,,0
+2010,H,NE,1,0,"Harper, Ivy",H0NE01062,DEM,0,votes,11573.0,47106.0,0
+2010,H,NE,1,0,"Turek, Jessica Lynn",H0NE01070,DEM,0,votes,11283.0,,0
+2010,H,NE,1,0,"Krauter, Stanley E.",H0NE01054,DEM,0,votes,4014.0,,0
+2010,H,NE,1,0,"Yates, Sherman",H0NE01088,DEM,0,votes,3927.0,,0
+2010,H,NE,1,0,"Harper, Ivy",H0NE01062,N(DEM),0,votes,676.0,,0
+2010,H,NE,1,0,"Turek, Jessica Lynn",H0NE01070,N(DEM),0,votes,564.0,,0
+2010,H,NE,1,0,"Yates, Sherman",H0NE01088,N(DEM),0,votes,173.0,,0
+2010,H,NE,1,0,"Krauter, Stanley E.",H0NE01054,N(DEM),0,votes,131.0,,0
+2010,H,NE,2,0,"Terry, Lee",H8NE02139,REP,0,votes,18172.0,93840.0,0
+2010,H,NE,2,0,"Sakalosky, Matt",H0NE02136,REP,0,votes,10445.0,,0
+2010,H,NE,2,0,"Sakalosky, Matt",H0NE02136,N(REP),0,votes,371.0,,0
+2010,H,NE,2,0,"Terry, Lee",H8NE02139,N(REP),0,votes,306.0,,0
+2010,H,NE,2,0,"White, Tom",H0NE02144,DEM,0,votes,12333.0,60486.0,0
+2010,H,NE,2,0,"White, Tom",H0NE02144,N(DEM),0,votes,135.0,,0
+2010,H,NE,3,0,"Smith, Adrian",H6NE03115,REP,0,votes,65539.0,117275.0,0
+2010,H,NE,3,0,"Parker , Dennis L.",H0NE03191,REP,0,votes,8930.0,,0
+2010,H,NE,3,0,"Smith, Adrian",H6NE03115,N(REP),0,votes,125.0,,0
+2010,H,NE,3,0,"Parker , Dennis L.",H0NE03191,N(REP),0,votes,49.0,,0
+2010,H,NE,3,0,"Davis, Rebekah",H0NE03175,DEM,0,votes,16425.0,29932.0,0
+2010,H,NE,3,0,"Davis, Rebekah",H0NE03175,N(DEM),0,votes,43.0,,0
+2010,S,NH,0,0,"Ayotte, Kelly",S0NH00235,REP,0,votes,53056.0,273218.0,0
+2010,S,NH,0,0,"Hodes, Paul W.",S0NH00235,DEM,0,votes,49845.0,167545.0,0
+2010,H,NY,1,0,"Bishop, Timothy H.",H2NY01067,DEM,0,unopposed,,85051.0,0
+2010,H,NY,1,0,"Bishop, Timothy H.",H2NY01067,IDP,0,unopposed,,7370.0,0
+2010,H,NY,1,0,"Bishop, Timothy H.",H2NY01067,WF,0,unopposed,,5895.0,0
+2010,H,NY,1,0,"Altschuler, Randolph",H0NY01129,REP,0,votes,11557.0,78300.0,0
+2010,H,NY,1,0,"Demos, George D.",H0NY01137,REP,0,votes,7774.0,,0
+2010,H,NY,1,0,"Cox, Chris",H0NY00063,REP,0,votes,6312.0,,0
+2010,H,NY,1,0,"Altschuler, Randolph",H0NY01129,CRV,0,votes,1358.0,19423.0,0
+2010,H,NY,1,0,"Cox, Chris",H0NY00063,W(CRV),1,votes,301.0,,0
+2010,H,NY,1,0,"Demos, George D.",H0NY01137,W(CRV),1,votes,191.0,,0
+2010,H,NY,2,0,"Israel, Steve J.",H0NY02085,DEM,0,unopposed,,84211.0,0
+2010,H,NY,2,0,"Israel, Steve J.",H0NY02085,IDP,0,unopposed,,6353.0,0
+2010,H,NY,2,0,"Israel, Steve J.",H0NY02085,WF,0,unopposed,,4130.0,0
+2010,H,NY,2,0,"Gomez, John B.",H0NY02184,REP,0,unopposed,,58590.0,0
+2010,H,NY,2,0,"Gomez, John B.",H0NY02184,CRV,0,unopposed,,13525.0,0
+2010,H,NY,3,0,"King, Peter T.",H2NY03089,REP,0,votes,21915.0,109039.0,0
+2010,H,NY,3,0,"King, Peter T.",H2NY03089,CRV,0,unopposed,,15192.0,0
+2010,H,NY,3,0,"King, Peter T.",H2NY03089,IDP,0,unopposed,,7443.0,0
+2010,H,NY,3,0,"King, Peter T.",H2NY03089,TRP,0,,,0.0,0
+2010,H,NY,4,0,"McCarthy, Carolyn",H6NY04112,DEM,0,unopposed,,89743.0,0
+2010,H,NY,4,0,"McCarthy, Carolyn",H6NY04112,WF,0,unopposed,,4740.0,0
+2010,H,NY,4,0,"Becker, Francis X., Jr.",H0NY04099,REP,0,votes,11194.0,69323.0,0
+2010,H,NY,4,0,"Becker, Francis X., Jr.",H0NY04099,CRV,0,unopposed,,9455.0,0
+2010,H,NY,4,0,"Becker, Francis X., Jr.",H0NY04099,IDP,0,unopposed,,2940.0,0
+2010,H,NY,4,0,"Becker, Francis X., Jr.",H0NY04099,TRP,0,,,0.0,0
+2010,H,NY,5,0,"Ackerman, Gary L.",H4NY07011,DEM,0,votes,19394.0,66564.0,0
+2010,H,NY,5,0,"Ackerman, Gary L.",H4NY07011,WF,0,unopposed,,3323.0,0
+2010,H,NY,5,0,"Ackerman, Gary L.",H4NY07011,IDP,0,unopposed,,2352.0,0
+2010,H,NY,5,0,"Milano, James",H0NY05062,REP,0,votes,4489.0,36861.0,0
+2010,H,NY,5,0,"Milano, James",H0NY05062,CRV,0,unopposed,,4632.0,0
+2010,H,NY,6,0,"Taub, Asher E.",H0NY06045,REP,0,unopposed,,10057.0,0
+2010,H,NY,6,0,"Taub, Asher E.",H0NY06045,CRV,0,unopposed,,1769.0,0
+2010,H,NY,7,0,"Crowley, Joseph",H8NY07046,DEM,0,unopposed,,66223.0,0
+2010,H,NY,7,0,"Crowley, Joseph",H8NY07046,WF,0,unopposed,,5024.0,0
+2010,H,NY,7,0,"Reynolds, Kenneth A.",H0NY07068,REP,0,unopposed,,13751.0,0
+2010,H,NY,7,0,"Reynolds, Kenneth A.",H0NY07068,CRV,0,unopposed,,2394.0,0
+2010,H,NY,8,0,"Nadler, Jerrold L.",H2NY17071,DEM,0,unopposed,,88758.0,0
+2010,H,NY,8,0,"Nadler, Jerrold L.",H2NY17071,WF,0,unopposed,,10081.0,0
+2010,H,NY,8,0,"Kone, Susan L.",H0NY08082,REP,0,unopposed,,29514.0,0
+2010,H,NY,8,0,"Kone, Susan L.",H0NY08082,CRV,0,unopposed,,2482.0,0
+2010,H,NY,9,0,"Weiner, Anthony D.",H8NY09091,DEM,0,unopposed,,60879.0,0
+2010,H,NY,9,0,"Weiner, Anthony D.",H8NY09091,WF,0,unopposed,,3332.0,0
+2010,H,NY,9,0,"Weiner, Anthony D.",H8NY09091,IDP,0,unopposed,,2800.0,0
+2010,H,NY,9,0,"Turner, Robert L.",H0NY09072,REP,0,unopposed,,37750.0,0
+2010,H,NY,9,0,"Turner, Robert L.",H0NY09072,CRV,0,unopposed,,5379.0,0
+2010,H,NY,11,0,"Clarke, Yvette D.",H4NY11138,DEM,0,unopposed,,89973.0,0
+2010,H,NY,11,0,"Clarke, Yvette D.",H4NY11138,WF,0,unopposed,,14324.0,0
+2010,H,NY,11,0,"Carr, Hugh C.",H8NY11055,REP,0,unopposed,,9119.0,0
+2010,H,NY,11,0,"Carr, Hugh C.",H8NY11055,CRV,0,unopposed,,1739.0,0
+2010,H,NY,12,0,"Velazquez, Nydia M.",H2NY00010,DEM,0,unopposed,,60586.0,0
+2010,H,NY,12,0,"Velazquez, Nydia M.",H2NY00010,WF,0,unopposed,,8038.0,0
+2010,H,NY,13,0,"Grimm, Michael G.",H0NY13074,CRV,0,unopposed,,9203.0,0
+2010,H,NY,13,0,"Grimm, Michael G.",H0NY13074,REP,0,votes,9631.0,55821.0,0
+2010,H,NY,13,0,"McMahon, Michael E.",H8NY13077,DEM,0,unopposed,,56412.0,0
+2010,H,NY,13,0,"McMahon, Michael E.",H8NY13077,IDP,0,unopposed,,4361.0,0
+2010,H,NY,14,0,"Maloney, Carolyn B.",H2NY14037,WF,0,unopposed,,8374.0,0
+2010,H,NY,14,0,"Maloney, Carolyn B.",H2NY14037,DEM,0,votes,33499.0,98953.0,0
+2010,H,NY,14,0,"LaVerghetta, Dino L.",H0NY14197,REP,0,votes,1754.0,,0
+2010,H,NY,14,0,"LaVerghetta, Dino L.",H0NY14197,IDP,0,unopposed,,1617.0,0
+2010,H,NY,15,0,"Rangel, Charles B.",H6NY19029,DEM,0,votes,26101.0,83633.0,0
+2010,H,NY,15,0,"Rangel, Charles B.",H6NY19029,WF,0,unopposed,,7592.0,0
+2010,H,NY,15,0,"Faulkner, Michel J.",H0NY15111,REP,0,unopposed,,10678.0,0
+2010,H,NY,15,0,"Faulkner, Michel J.",H0NY15111,CRV,0,unopposed,,1076.0,0
+2010,H,NY,15,0,"Faulkner, Michel J.",H0NY15111,JNP,0,,,0.0,0
+2010,H,NY,15,0,"Schley, Craig",H8NY15122,IDP,0,unopposed,,6865.0,0
+2010,H,NY,15,0,"Schley, Craig",H8NY15122,VPC,0,,,938.0,0
+2010,H,NY,16,0,"Serrano, Jose E.",H0NY18065,DEM,0,unopposed,,58478.0,0
+2010,H,NY,16,0,"Serrano, Jose E.",H0NY18065,WF,0,unopposed,,3164.0,0
+2010,H,NY,16,0,"Della Valle, Frank",H0NY16119,REP,0,unopposed,,2257.0,0
+2010,H,NY,16,0,"Della Valle, Frank",H0NY16119,CRV,0,unopposed,,501.0,0
+2010,H,NY,17,0,"Engel, Eliot L.",H8NY19058,DEM,0,unopposed,,89693.0,0
+2010,H,NY,17,0,"Engel, Eliot L.",H8NY19058,WF,0,unopposed,,5653.0,0
+2010,H,NY,17,0,"Kleinhandler, York J.",H0NY17133,REP,0,votes,3573.0,,0
+2010,H,NY,17,0,"Kleinhandler, York J.",H0NY17133,CRV,0,unopposed,,5661.0,0
+2010,H,NY,18,0,"Lowey, Nita M.",H8NY20056,DEM,0,unopposed,,104836.0,0
+2010,H,NY,18,0,"Lowey, Nita M.",H8NY20056,IDP,0,unopposed,,5703.0,0
+2010,H,NY,18,0,"Lowey, Nita M.",H8NY20056,WF,0,unopposed,,5080.0,0
+2010,H,NY,18,0,"Russell, Jim",H6NY18153,REP,0,unopposed,,60513.0,0
+2010,H,NY,18,0,"Russell, Jim",H6NY18153,CRV,0,unopposed,,9900.0,0
+2010,H,NY,19,0,"Hayworth, Nan",H0NY19139,REP,0,votes,19483.0,88734.0,0
+2010,H,NY,19,0,"Hayworth, Nan",H0NY19139,CRV,0,unopposed,,15778.0,0
+2010,H,NY,19,0,"Hayworth, Nan",H0NY19139,IDP,0,unopposed,,5444.0,0
+2010,H,NY,19,0,"Hall, John J.",H6NY19144,DEM,0,unopposed,,91797.0,0
+2010,H,NY,19,0,"Hall, John J.",H6NY19144,WF,0,unopposed,,6969.0,0
+2010,H,NY,20,0,"Gibson, Christopher P.",H0NY20095,REP,0,unopposed,,110813.0,0
+2010,H,NY,20,0,"Gibson, Christopher P.",H0NY20095,CRV,0,unopposed,,19363.0,0
+2010,H,NY,20,0,"Murphy, Scott",H0NY20079,DEM,0,unopposed,,91577.0,0
+2010,H,NY,20,0,"Murphy, Scott",H0NY20079,IDP,0,unopposed,,8858.0,0
+2010,H,NY,20,0,"Murphy, Scott",H0NY20079,WF,0,unopposed,,6642.0,0
+2010,H,NY,21,0,"Tonko, Paul D.",H8NY21203,DEM,0,unopposed,,107136.0,0
+2010,H,NY,21,0,"Tonko, Paul D.",H8NY21203,IDP,0,unopposed,,9625.0,0
+2010,H,NY,21,0,"Tonko, Paul D.",H8NY21203,WF,0,unopposed,,8128.0,0
+2010,H,NY,21,0,"Danz, Theodore J., Jr.",H0NY21077,REP,0,unopposed,,70211.0,0
+2010,H,NY,21,0,"Danz, Theodore J., Jr.",H0NY21077,CRV,0,unopposed,,15541.0,0
+2010,H,NY,22,0,"Hinchey, Maurice D.",H2NY26080,DEM,0,unopposed,,83849.0,0
+2010,H,NY,22,0,"Hinchey, Maurice D.",H2NY26080,WF,0,unopposed,,8886.0,0
+2010,H,NY,22,0,"Hinchey, Maurice D.",H2NY26080,IDP,0,unopposed,,5926.0,0
+2010,H,NY,22,0,"Phillips, George K.",H8NY22102,REP,0,unopposed,,75558.0,0
+2010,H,NY,22,0,"Phillips, George K.",H8NY22102,CRV,0,unopposed,,13129.0,0
+2010,H,NY,23,0,"Owens, William L.",H0NY23081,DEM,0,unopposed,,75849.0,0
+2010,H,NY,23,0,"Owens, William L.",H0NY23081,WF,0,unopposed,,6383.0,0
+2010,H,NY,23,0,"Doheny, Matthew A.",H0NY23057,REP,0,votes,16311.0,73646.0,0
+2010,H,NY,23,0,"Hoffman, Douglas L.",H0NY23107,REP,0,votes,15660.0,,0
+2010,H,NY,23,0,"Doheny, Matthew A.",H0NY23057,IDP,0,unopposed,,6591.0,0
+2010,H,NY,23,0,"Hoffman, Douglas L.",H0NY23107,CRV,0,unopposed,,10507.0,0
+2010,H,NY,24,0,"Hanna, Richard L.",H8NY24066,REP,0,unopposed,,85702.0,0
+2010,H,NY,24,0,"Hanna, Richard L.",H8NY24066,CRV,0,unopposed,,10313.0,0
+2010,H,NY,24,0,"Hanna, Richard L.",H8NY24066,IDP,0,unopposed,,5584.0,0
+2010,H,NY,24,0,"Arcuri, Michael A.",H6NY24128,DEM,0,unopposed,,85624.0,0
+2010,H,NY,24,0,"Arcuri, Michael A.",H6NY24128,MOD,0,,,4185.0,0
+2010,H,NY,25,0,"Buerkle, Ann Marie",H0NY25078,REP,0,unopposed,,81380.0,0
+2010,H,NY,25,0,"Buerkle, Ann Marie",H0NY25078,CRV,0,unopposed,,16830.0,0
+2010,H,NY,25,0,"Buerkle, Ann Marie",H0NY25078,IDP,0,unopposed,,6392.0,0
+2010,H,NY,25,0,"Maffei, Daniel B.",H6NY25125,DEM,0,unopposed,,95146.0,0
+2010,H,NY,25,0,"Maffei, Daniel B.",H6NY25125,WF,0,unopposed,,8808.0,0
+2010,H,NY,26,0,"Lee, Christopher J.",H8NY26095,REP,0,unopposed,,121371.0,0
+2010,H,NY,26,0,"Lee, Christopher J.",H8NY26095,CRV,0,unopposed,,19368.0,0
+2010,H,NY,26,0,"Lee, Christopher J.",H8NY26095,IDP,0,unopposed,,10710.0,0
+2010,H,NY,27,0,"Higgins, Brian",H4NY27076,DEM,0,unopposed,,106644.0,0
+2010,H,NY,27,0,"Higgins, Brian",H4NY27076,WF,0,unopposed,,12441.0,0
+2010,H,NY,27,0,"Roberto, Leonard A.",H0NY27066,REP,0,unopposed,,63015.0,0
+2010,H,NY,27,0,"Roberto, Leonard A.",H0NY27066,CRV/TX,0,unopposed,,13305.0,0
+2010,H,NY,28,0,"Slaughter, Louise M.",H6NY03031,DEM,0,unopposed,,91103.0,0
+2010,H,NY,28,0,"Slaughter, Louise M.",H6NY03031,IDP,0,unopposed,,5976.0,0
+2010,H,NY,28,0,"Slaughter, Louise M.",H6NY03031,WF,0,unopposed,,5435.0,0
+2010,H,NY,28,0,"Rowland, Jill A.",H0NY28122,REP,0,unopposed,,45630.0,0
+2010,H,NY,28,0,"Rowland, Jill A.",H0NY28122,CRV,0,unopposed,,9762.0,0
+2010,H,NY,29,0,"Reed, Thomas W., II",H0NY29054,REP,0,unopposed,,93167.0,0
+2010,H,NY,29,0,"Reed, Thomas W., II",H0NY29054,CRV,0,unopposed,,13505.0,0
+2010,H,NY,29,0,"Reed, Thomas W., II",H0NY29054,IDP,0,,,5642.0,0
+2010,H,NY,29,0,"Zeller, Matthew C.",H0NY29062,DEM,0,unopposed,,79558.0,0
+2010,H,NY,29,0,"Zeller, Matthew C.",H0NY29062,WF,0,unopposed,,6541.0,0
+2010,H,NY,29,1,"Reed, Thomas W., II",H0NY29054,REP,0,,,87767.0,0
+2010,H,NY,29,1,"Reed, Thomas W., II",H0NY29054,CRV,0,,,13028.0,0
+2010,H,NY,29,1,"Reed, Thomas W., II",H0NY29054,IDP,0,,,5112.0,0
+2010,H,NY,29,1,"Zeller, Matthew C.",H0NY29062,DEM,0,,,74021.0,0
+2010,H,NY,29,1,"Zeller, Matthew C.",H0NY29062,WF,0,,,6459.0,0
+2010,S,NY,0,0,"Schumer, Charles E.",S8NY00082,DEM,0,unopposed,,2686698.0,0
+2010,S,NY,0,0,"Schumer, Charles E.",S8NY00082,WF,0,unopposed,,183714.0,0
+2010,S,NY,0,0,"Schumer, Charles E.",S8NY00082,IDP,0,unopposed,,177468.0,0
+2010,S,NY,0,0,"Townsend, Jay",S0NY00550,REP,0,votes,234440.0,1239605.0,0
+2010,S,NY,0,0,"Townsend, Jay",S0NY00550,CRV,0,unopposed,,240818.0,0
+2010,S,NY,0,1,"Gillibrand, Kirsten E.",S0NY00410,DEM,0,votes,464512.0,2479393.0,0
+2010,S,NY,0,1,"Gillibrand, Kirsten E.",S0NY00410,WF,0,unopposed,,182655.0,0
+2010,S,NY,0,1,"Gillibrand, Kirsten E.",S0NY00410,IDP,0,unopposed,,175636.0,0
+2010,S,NY,0,1,"DioGuardi, Joseph J.",S0NY00287,REP,0,votes,185483.0,1338308.0,0
+2010,S,NY,0,1,"Blakeman, Bruce",S0NY00477,REP,0,votes,91312.0,,0
+2010,S,NY,0,1,"DioGuardi, Joseph J.",S0NY00287,CRV/TX,0,unopposed,,244385.0,0
+2010,S,NY,0,1,"Blakeman, Bruce",S0NY00477,TRP,0,,,4516.0,0
+2010,H,ND,0,0,"Berg, Rick",H0ND00135,REP,0,votes,54662.0,129802.0,0
+2010,H,ND,0,0,"Pomeroy, Earl",H2ND00057,W(REP),1,votes,1.0,,0
+2010,H,ND,0,0,"Pomeroy, Earl",H2ND00057,DNL,0,votes,28329.0,106542.0,0
+2010,H,ND,0,0,"Berg, Rick",H0ND00135,W(LIB),1,votes,2.0,,0
+2010,H,ND,0,0,"Pomeroy, Earl",H2ND00057,W(LIB),1,votes,1.0,,0
+2010,H,OR,3,0,"Lawrence, Jeff",H0OR03117,LIB/IP,0,convention,,8380.0,0
+2010,H,OR,3,0,"Lawrence, Jeff",H0OR03117,IP,0,votes,80.0,,0
+2010,H,OR,3,0,"Meo, Michael",H8OR03052,PG/PRO,0,convention,,6197.0,0
+2010,H,OR,3,0,"Meo, Michael",H8OR03052,IP,0,votes,63.0,,0
+2010,H,OR,4,0,"DeFazio, Peter A.",H6OR04047,DEM/PRO/WF,0,votes,74568.0,162416.0,0
+2010,H,OR,4,0,"Robinson, Art",H0OR04081,REP/CON/IP,0,votes,49401.0,129877.0,0
+2010,H,OR,4,0,"Robinson, Art",H0OR04081,IP,0,votes,418.0,,0
+2010,H,OR,4,0,"DeFazio, Peter A.",H6OR04047,IP,0,votes,288.0,,0
+2010,H,OR,5,0,"Schrader, Kurt",H8OR05107,DEM,0,votes,57282.0,145319.0,0
+2010,H,OR,5,0,"Bruun, Scott",H0OR05054,REP/IP,0,votes,37778.0,130313.0,0
+2010,H,OR,5,0,"Bruun, Scott",H0OR05054,IP,0,votes,237.0,,0
+2010,H,OR,5,0,"Schrader, Kurt",H8OR05107,IP,0,votes,211.0,,0
+2010,S,OR,0,0,"Huffman, Jim",S0OR00220,REP,0,votes,110450.0,566199.0,0
+2010,S,OR,0,0,"Stutzman, Tom",S0OR00212,REP,0,votes,31859.0,,0
+2010,S,OR,0,0,"Delphine, Marc",S0OR00220,LIB,0,convention,,16028.0,0
+2010,S,OR,0,0,"Staggenborg, Rick",S0OR00212,PRO,0,,,14466.0,0
+2010,H,RI,1,0,"Gemma, Anthony P.",H0RI01107,DEM,0,votes,13112.0,,0
+2010,H,RI,1,0,"Gemma, Anthony",H0RI01107,W,1,,,9.0,0
+2010,H,SC,3,0,"Dyer, Jane Ballard",H8SC03054,DEM,0,votes,10551.0,66497.0,0
+2010,H,SC,3,0,"Dyer, Jane Ballard",H8SC03054,WF,0,convention,,6598.0,0
+2012,H,CT,1,0,"Larson, John B.",H8CT01046,D,0,convention,,192840.0,0
+2012,H,CT,1,0,"Larson, John B.",H8CT01046,WF,0,,,14133.0,0
+2012,H,CT,2,0,"Courtney, Joe",H2CT02112,D,0,convention,,189444.0,0
+2012,H,CT,2,0,"Courtney, Joe",H2CT02112,WF,0,,,15264.0,0
+2012,H,CT,3,0,"DeLauro, Rosa L.",H0CT03072,D,0,convention,,197163.0,0
+2012,H,CT,3,0,"DeLauro, Rosa L.",H0CT03072,WF,0,,,20410.0,0
+2012,H,CT,3,0,"Packard, Steve",H2CT03086,R,0,,,,0
+2012,H,CT,3,0,"Packard, Stephen ""Steve""",H2CT03086,W,1,,,1.0,0
+2012,H,CT,4,0,"Himes, Jim",H8CT04172,D,0,convention,,167320.0,0
+2012,H,CT,4,0,"Himes, Jim",H8CT04172,WF,0,,,8609.0,0
+2012,H,CT,5,0,"Esty, Elizabeth",H2CT05131,WF,0,,,8467.0,0
+2012,H,CT,5,0,"Esty, Elizabeth",H2CT05131,D,0,votes,12717.0,137631.0,0
+2012,H,CT,5,0,"Roraback, Andrew",H2CT05206,IP,0,,,9710.0,0
+2012,H,CT,5,0,"Roraback, Andrew",H2CT05206,R,0,votes,9536.0,128927.0,0
+2012,S,CT,0,0,"Murphy, Christopher S.",S2CT00132,WF,0,,,35778.0,0
+2012,S,CT,0,0,"Murphy, Christopher S.",S2CT00132,D,0,votes,94424.0,792983.0,0
+2012,S,CT,0,0,"McMahon, Linda E.",S0CT00151,IP,0,,,46520.0,0
+2012,S,CT,0,0,"McMahon, Linda E.",S0CT00151,R,0,votes,82646.0,604569.0,0
+2012,H,IL,12,0,"Bradshaw, Paula",H2IL12130,GRE,0,,,17045.0,0
+2012,H,IL,12,0,"Horton, Shon-Tiyon",H2IL12130,W,1,,,2.0,0
+2012,H,MA,1,0,All Others,,W(D),1,votes,33.0,,0
+2012,H,MA,1,0,All Others,,W(R),1,votes,1021.0,,0
+2012,H,MA,1,0,All Others,,W(GR),1,votes,67.0,,0
+2012,H,MA,1,0,All Others,,W,1,,,4197.0,0
+2012,H,MA,2,0,All Others,,W(D),1,votes,44.0,,0
+2012,H,MA,2,0,All Others,,W(R),1,votes,569.0,,0
+2012,H,MA,2,0,All Others,,W(GR),1,votes,38.0,,0
+2012,H,MA,2,0,All Others,,W,1,,,4078.0,0
+2012,H,MA,3,0,All Others,,W(D),1,votes,196.0,,0
+2012,H,MA,3,0,All Others,,W(R),1,votes,38.0,,0
+2012,H,MA,3,0,All Others,,W(GR),1,votes,17.0,,0
+2012,H,MA,3,0,All Others,,W,1,,,262.0,0
+2012,H,MA,4,0,All Others,,W(D),1,votes,73.0,,0
+2012,H,MA,4,0,All Others,,W(R),1,votes,25.0,,0
+2012,H,MA,4,0,All Others,,W(GR),1,votes,18.0,,0
+2012,H,MA,4,0,All Others,,W,1,,,265.0,0
+2012,H,MA,5,0,All Others,,W(D),1,votes,316.0,,0
+2012,H,MA,5,0,All Others,,W(R),1,votes,65.0,,0
+2012,H,MA,5,0,All Others,,W(GR),1,votes,18.0,,0
+2012,H,MA,5,0,All Others,,W,1,,,675.0,0
+2012,H,MA,6,0,All Others,,W(D),1,votes,517.0,,0
+2012,H,MA,6,0,All Others,,W(R),1,votes,186.0,,0
+2012,H,MA,6,0,All Others,,W(GR),1,votes,18.0,,0
+2012,H,MA,6,0,All Others,,W,1,,,514.0,0
+2012,H,MA,7,0,All Others,,W(D),1,votes,446.0,,0
+2012,H,MA,7,0,All Others,,W(GR),1,votes,45.0,,0
+2012,H,MA,7,0,All Others,,W(R),1,votes,466.0,,0
+2012,H,MA,7,0,All Others,,W,1,,,843.0,0
+2012,H,MA,8,0,All Others,,W(D),1,votes,369.0,,0
+2012,H,MA,8,0,All Others,,W(R),1,votes,47.0,,0
+2012,H,MA,8,0,All Others,,W(GR),1,votes,13.0,,0
+2012,H,MA,8,0,All Others,,W,1,,,570.0,0
+2012,H,MA,9,0,All Others,,W(D),1,votes,47.0,,0
+2012,H,MA,9,0,All Others,,W(R),1,votes,94.0,,0
+2012,H,MA,9,0,All Others,,W(GR),1,votes,25.0,,0
+2012,H,MA,9,0,All Others,,W,1,,,465.0,0
+2012,S,MA,0,0,All Others,,W(D),1,votes,7638.0,,0
+2012,S,MA,0,0,All Others,,W(R),1,votes,733.0,,0
+2012,S,MA,0,0,All Others,,W(GR),1,votes,333.0,,0
+2012,S,MA,0,0,All Others,,W,1,,,2159.0,0
+2012,S,MN,0,0,"Shepard, Jack Edward",S2MN00159,DFL,0,votes,6632.0,,0
+2012,S,MN,0,0,"Shepard, Jack",S2MN00159,W,1,,,1.0,0
+2012,H,NE,1,0,"Fortenberry, Jeff",H4NE01064,R,0,votes,53886.0,174889.0,0
+2012,H,NE,1,0,"Turek, Jessica L.",H0NE01070,R,0,votes,4840.0,,0
+2012,H,NE,1,0,"Parker, Dennis L.",H0NE0E191,R,0,votes,3290.0,,0
+2012,H,NE,1,0,"Fortenberry, Jeff",H4NE01064,N(R),0,votes,1772.0,,0
+2012,H,NE,1,0,"Turek, Jessica L.",H0NE01070,N(R),0,votes,415.0,,0
+2012,H,NE,1,0,"Parker, Dennis L.",H0NE0E191,N(R),0,votes,221.0,,0
+2012,H,NE,1,0,"Reiman, Korey L.",H2NE01076,D,0,votes,14332.0,81206.0,0
+2012,H,NE,1,0,"Way, Robert",H2NE01084,D,0,votes,8428.0,,0
+2012,H,NE,1,0,"Reiman, Korey L.",H2NE01076,N(D),0,votes,472.0,,0
+2012,H,NE,1,0,"Way, Robert",H2NE01084,N(D),0,votes,300.0,,0
+2012,H,NE,2,0,"Terry, Lee",H8NE02129,R,0,votes,27414.0,133964.0,0
+2012,H,NE,2,0,"Lindstrom, Brett",H2NE02041,R,0,votes,10415.0,,0
+2012,H,NE,2,0,"Heidel, Jack",H2NE02066,R,0,votes,5021.0,,0
+2012,H,NE,2,0,"Freeman, Glen M.",H2NE02082,R,0,votes,1803.0,,0
+2012,H,NE,2,0,"Anderson, Paul",H2NE02090,R,0,votes,1004.0,,0
+2012,H,NE,2,0,"Terry, Lee",H8NE02129,N(R),0,votes,584.0,,0
+2012,H,NE,2,0,"Heidel, Jack",H2NE02066,N(R),0,votes,385.0,,0
+2012,H,NE,2,0,"Lindstrom, Brett",H2NE02041,N(R),0,votes,338.0,,0
+2012,H,NE,2,0,"Freeman, Glen M.",H2NE02082,N(R),0,votes,82.0,,0
+2012,H,NE,2,0,"Anderson, Paul",H2NE02090,N(R),0,votes,47.0,,0
+2012,H,NE,2,0,"Ewing, John W., Jr.",H2NE02058,D,0,votes,17686.0,129767.0,0
+2012,H,NE,2,0,"Howard, Gwen",H2NE02074,D,0,votes,10793.0,,0
+2012,H,NE,2,0,"Ewing, John W., Jr.",H2NE02058,N(D),0,votes,268.0,,0
+2012,H,NE,2,0,"Howard, Gwen",H2NE02074,N(D),0,votes,216.0,,0
+2012,H,NE,3,0,"Smith, Adrian",H6NE03115,R,0,votes,62176.0,187423.0,0
+2012,H,NE,3,0,"Lingenfelter, Bob",H2NE03049,R,0,votes,14089.0,,0
+2012,H,NE,3,0,"Smith, Adrian",H6NE03115,N(R),0,votes,469.0,,0
+2012,H,NE,3,0,"Lingenfelter, Bob",H2NE03049,N(R),0,votes,208.0,,0
+2012,H,NE,3,0,"Sullivan, Mark",H2NE03023,D,0,votes,17354.0,65266.0,0
+2012,H,NE,3,0,"Sullivan, Mark",H2NE03023,N(D),0,votes,146.0,,0
+2012,S,NE,0,0,"Fischer, Deb",S2NE00094,R,0,votes,77594.0,455593.0,0
+2012,S,NE,0,0,"Bruning, Jon",S8NE00091,R,0,votes,68796.0,,0
+2012,S,NE,0,0,"Stenberg, Don",S6NE00079,R,0,votes,35984.0,,0
+2012,S,NE,0,0,"Flynn, Pat",S8NE00109,R,0,votes,5251.0,,0
+2012,S,NE,0,0,"Zimmerman, Spencer",S2NE00144,R,0,votes,1526.0,,0
+2012,S,NE,0,0,"Elander, Sharyn",S2NE00128,R,0,votes,1236.0,,0
+2012,S,NE,0,0,"Fischer, Deb",S2NE00094,N(R),0,votes,2347.0,,0
+2012,S,NE,0,0,"Bruning, Jon",S8NE00091,N(R),0,votes,1271.0,,0
+2012,S,NE,0,0,"Stenberg, Don",S6NE00079,N(R),0,votes,743.0,,0
+2012,S,NE,0,0,"Flynn, Pat",S8NE00109,N(R),0,votes,162.0,,0
+2012,S,NE,0,0,"Zimmerman, Spencer",S2NE00144,N(R),0,votes,75.0,,0
+2012,S,NE,0,0,"Elander, Sharyn",S2NE00128,N(R),0,votes,58.0,,0
+2012,S,NE,0,0,"Kerrey, Bob",S8NE00067,D,0,votes,65214.0,332979.0,0
+2012,S,NE,0,0,"Hassebrook, Chuck",S2NE00110,D,0,votes,9721.0,,0
+2012,S,NE,0,0,"Lustgarten, Steven P.",S2NE00102,D,0,votes,2135.0,,0
+2012,S,NE,0,0,"Marvin, Larry",S8NE00141,D,0,votes,2045.0,,0
+2012,S,NE,0,0,"Yates, Sherman",S2NE00136,D,0,votes,1465.0,,0
+2012,S,NE,0,0,"Kerrey, Bob",S8NE00067,N(D),0,votes,1372.0,,0
+2012,S,NE,0,0,"Hassebrook, Chuck",S2NE00110,N(D),0,votes,165.0,,0
+2012,S,NE,0,0,"Lustgarten, Steven P.",S2NE00102,N(D),0,votes,42.0,,0
+2012,S,NE,0,0,"Yates, Sherman",S2NE00136,N(D),0,votes,35.0,,0
+2012,S,NE,0,0,"Marvin, Larry",S8NE00141,N(D),0,votes,31.0,,0
+2012,H,NH,1,0,"Shea-Porter, Carol",H6NH01230,D,0,votes,38623.0,171650.0,0
+2012,H,NH,1,0,"Guinta, Frank C.",H0NH01217,W(D),1,votes,204.0,,0
+2012,H,NH,1,0,"Parent, Rick",H0NH01241,W(D),1,votes,10.0,,0
+2012,H,NH,1,0,"Clough, Vern",H2NH01239,W(D),1,votes,2.0,,0
+2012,H,NH,1,0,"Guinta, Frank C.",H0NH01217,R,0,votes,46979.0,158659.0,0
+2012,H,NH,1,0,"Parent, Rick",H0NH01241,R,0,votes,6923.0,,0
+2012,H,NH,1,0,"Clough, Vern",H2NH01239,R,0,votes,1639.0,,0
+2012,H,NH,1,0,"Shea-Porter, Carol",H6NH01230,W(R),1,votes,130.0,,0
+2012,H,NH,2,0,"Kuster, Ann McLane",H0NH02181,D,0,votes,40627.0,169275.0,0
+2012,H,NH,2,0,"Bass, Charles",H0NH02017,W(D),1,votes,157.0,,0
+2012,H,NH,2,0,"Dean, Will",H2NH02187,W(D),1,votes,4.0,,0
+2012,H,NH,2,0,"Dziedzic, Miroslaw",H2NH02195,W(D),1,votes,3.0,,0
+2012,H,NH,2,0,"Lamare, Dennis",H2NH02161,W(D),1,votes,3.0,,0
+2012,H,NH,2,0,"Bass, Charles",H0NH02017,R,0,votes,39605.0,152977.0,0
+2012,H,NH,2,0,"Lamare, Dennis",H2NH02161,R,0,votes,4263.0,,0
+2012,H,NH,2,0,"Dean, Will",H2NH02187,R,0,votes,2129.0,,0
+2012,H,NH,2,0,"Dziedzic, Miroslaw",H2NH02195,R,0,votes,1310.0,,0
+2012,H,NH,2,0,"Kuster, Ann McLane",H0NH02181,W(R),1,votes,193.0,,0
+2012,S,NM,0,0,"Wilson, Heather A.",S8NM00168,R,0,votes,63631.0,351260.0,0
+2012,S,NM,0,0,"Barrie, Jon R.",S8NM00168,IAP,0,,,28199.0,0
+2012,H,NY,1,0,"Bishop, Timothy H.",H2NY01067,D/WF Combined Parties,0,,,,0
+2012,H,NY,1,0,"Bishop, Timothy H.",H2NY01067,D,0,unopposed,,135118.0,0
+2012,H,NY,1,0,"Bishop, Timothy H.",H2NY01067,WF,0,unopposed,,11061.0,0
+2012,H,NY,1,0,"Altschuler, Randy",H0NY01129,R/CRV/IDP Combined Parties,0,,,,0
+2012,H,NY,1,0,"Altschuler, Randy",H0NY01129,CRV,0,unopposed,,20125.0,0
+2012,H,NY,1,0,"Altschuler, Randy",H0NY01129,IDP,0,unopposed,,4953.0,0
+2012,H,NY,1,0,"Altschuler, Randy",H0NY01129,R,0,votes,7394.0,107226.0,0
+2012,H,NY,2,0,"King, Peter T.",H2NY03089,R/CRV/IDP/TRP Combined Parties,0,,,,0
+2012,H,NY,2,0,"King, Peter T.",H2NY03089,R/TRP,0,unopposed,,116363.0,0
+2012,H,NY,2,0,"King, Peter T.",H2NY03089,CRV,0,unopposed,,19515.0,0
+2012,H,NY,2,0,"King, Peter T.",H2NY03089,IDP,0,unopposed,,6431.0,0
+2012,H,NY,2,0,"Falcone, Vivianne C.",H2NY02081,D/WF Combined Parties,0,,,,0
+2012,H,NY,2,0,"Falcone, Vivianne C.",H2NY02081,D,0,unopposed,,93932.0,0
+2012,H,NY,2,0,"Falcone, Vivianne C.",H2NY02081,WF,0,unopposed,,6613.0,0
+2012,H,NY,3,0,"Israel, Steve J.",H0NY02085,D/WF/IDP Combined Parties,0,,,,0
+2012,H,NY,3,0,"Israel, Steve J.",H0NY02085,D,0,unopposed,,146271.0,0
+2012,H,NY,3,0,"Israel, Steve J.",H0NY02085,WF,0,unopposed,,6506.0,0
+2012,H,NY,3,0,"Israel, Steve J.",H0NY02085,IDP,0,unopposed,,5103.0,0
+2012,H,NY,3,0,"Labate, Stephen A.",H0NY02176,R/CRV/TRP Combined Parties,0,,,,0
+2012,H,NY,3,0,"Labate, Stephen A.",H0NY02176,R/TRP,0,unopposed,,98614.0,0
+2012,H,NY,3,0,"Labate, Stephen A.",H0NY02176,CRV,0,unopposed,,14589.0,0
+2012,H,NY,4,0,"McCarthy, Carolyn",H6NY04112,D/IDP/WF Combined Parties,0,,,,0
+2012,H,NY,4,0,"McCarthy, Carolyn",H6NY04112,D,0,unopposed,,152590.0,0
+2012,H,NY,4,0,"McCarthy, Carolyn",H6NY04112,IDP,0,unopposed,,3893.0,0
+2012,H,NY,4,0,"McCarthy, Carolyn",H6NY04112,WF,0,unopposed,,7472.0,0
+2012,H,NY,4,0,"Becker, Francis X., Jr.",H0NY04099,R/TRP Combined Parties,0,,,,0
+2012,H,NY,4,0,"Becker, Francis X., Jr.",H0NY04099,R,0,votes,6357.0,84982.0,0
+2012,H,NY,4,0,"Scaturro, Frank J.",H0NY04057,R,0,votes,5175.0,,0
+2012,H,NY,4,0,"Becker, Francis X., Jr.",H0NY04099,TRP,0,,,711.0,0
+2012,H,NY,4,0,"Scaturro, Frank J.",H0NY04057,CRV,0,,,15603.0,0
+2012,H,NY,4,0,"Becker, Francis X., Jr.",H0NY04099,CRV,0,votes,194.0,,0
+2012,H,NY,5,0,"Jennings, Allan W., Jr.",H2NY05084,D,0,votes,1972.0,,0
+2012,H,NY,5,0,"Jennings, Allan W., Jr.",H2NY05084,R,0,unopposed,,17875.0,0
+2012,H,NY,6,0,"Meng, Grace",H2NY06116,D/WF Combined Parties,0,,,,0
+2012,H,NY,6,0,"Meng, Grace",H2NY06116,D,0,votes,14825.0,107507.0,0
+2012,H,NY,6,0,"Lancman, Rory I.",H2NY09102,D,0,votes,7089.0,,0
+2012,H,NY,6,0,"Meng, Grace",H2NY06116,WF,0,replacement,,3994.0,0
+2012,H,NY,6,0,"Lancman, Rory I.",H2NY09102,WF,0,unopposed,,,0
+2012,H,NY,6,0,"Halloran, Daniel J.",H2NY06157,R/CRV/LIB Combined Parties,0,,,,0
+2012,H,NY,6,0,"Halloran, Daniel J.",H2NY06157,R,0,unopposed,,45993.0,0
+2012,H,NY,6,0,"Halloran, Daniel J.",H2NY06157,CRV/LIB,0,unopposed,,4853.0,0
+2012,H,NY,7,0,"Velazquez, Nydia M.",H2NY00010,D/WF Combined Parties,0,,,,0
+2012,H,NY,7,0,"Velazquez, Nydia M.",H2NY00010,WF,0,unopposed,,9128.0,0
+2012,H,NY,7,0,"Velazquez, Nydia M.",H2NY00010,D,0,votes,17208.0,134802.0,0
+2012,H,NY,8,0,"Jeffries, Hakeem S.",H2NY10092,D/WF Combined Parties,0,,,,0
+2012,H,NY,8,0,"Jeffries, Hakeem S.",H2NY10092,WF,0,unopposed,,5351.0,0
+2012,H,NY,8,0,"Jeffries, Hakeem S.",H2NY10092,D,0,votes,28271.0,178688.0,0
+2012,H,NY,8,0,"Bellone, Alan S.",H2NY08120,R/CRV Combined Parties,0,,,,0
+2012,H,NY,8,0,"Bellone, Alan S.",H2NY08120,R,0,unopposed,,15841.0,0
+2012,H,NY,8,0,"Bellone, Alan S.",H2NY08120,CRV,0,unopposed,,1809.0,0
+2012,H,NY,9,0,"Clarke, Yvette D.",H4NY11138,D/WF Combined Parties,0,,,,0
+2012,H,NY,9,0,"Clarke, Yvette D.",H4NY11138,WF,0,unopposed,,7973.0,0
+2012,H,NY,9,0,"Clarke, Yvette D.",H4NY11138,D,0,votes,15069.0,178168.0,0
+2012,H,NY,9,0,"Cavanagh, Daniel J.",H2NY09110,R/CRV Combined Parties,0,,,,0
+2012,H,NY,9,0,"Cavanagh, Daniel J.",H2NY09110,R,0,unopposed,,20899.0,0
+2012,H,NY,9,0,"Cavanagh, Daniel J.",H2NY09110,CRV,0,unopposed,,3265.0,0
+2012,H,NY,10,0,"Nadler, Jerrold L.",H2NY17071,D/WF Combined Parties,0,,,,0
+2012,H,NY,10,0,"Nadler, Jerrold L.",H2NY17071,D,0,unopposed,,156619.0,0
+2012,H,NY,10,0,"Nadler, Jerrold L.",H2NY17071,WF,0,unopposed,,9124.0,0
+2012,H,NY,10,0,"Chan, Michael W.",H2NY10100,R/CRV Combined Parties,0,,,,0
+2012,H,NY,10,0,"Chan, Michael W.",H2NY10100,R,0,unopposed,,35538.0,0
+2012,H,NY,10,0,"Chan, Michael W.",H2NY10100,CRV,0,unopposed,,3875.0,0
+2012,H,NY,11,0,"Grimm, Michael G.",H0NY13074,R/CRV Combined Parties,0,,,,0
+2012,H,NY,11,0,"Grimm, Michael G.",H0NY13074,R,0,unopposed,,91030.0,0
+2012,H,NY,11,0,"Grimm, Michael G.",H0NY13074,CRV,0,unopposed,,12088.0,0
+2012,H,NY,11,0,"Murphy, Mark S.",H2NY13088,D/WF Combined Parties,0,,,,0
+2012,H,NY,11,0,"Murphy, Mark S.",H2NY13088,D,0,unopposed,,87720.0,0
+2012,H,NY,11,0,"Murphy, Mark S.",H2NY13088,WF,0,unopposed,,4710.0,0
+2012,H,NY,12,0,"Maloney, Carolyn B.",H2NY14037,D/WF Combined Parties,0,,,,0
+2012,H,NY,12,0,"Maloney, Carolyn B.",H2NY14037,D,0,unopposed,,185757.0,0
+2012,H,NY,12,0,"Maloney, Carolyn B.",H2NY14037,WF,0,unopposed,,8613.0,0
+2012,H,NY,12,0,"Wight, Christopher R.",H2NY12155,R/CRV/IDP Combined Parties,0,,,,0
+2012,H,NY,12,0,"Wight, Christopher R.",H2NY12155,R,0,unopposed,,42110.0,0
+2012,H,NY,12,0,"Wight, Christopher R.",H2NY12155,CRV,0,unopposed,,2257.0,0
+2012,H,NY,12,0,"Wight, Christopher R.",H2NY12155,IDP,0,unopposed,,2474.0,0
+2012,H,NY,13,0,"Rangel, Charles B.",H6NY19029,D/WF Combined Parties,0,,,,0
+2012,H,NY,13,0,"Rangel, Charles B.",H6NY19029,WF,0,unopposed,,4326.0,0
+2012,H,NY,13,0,"Rangel, Charles B.",H6NY19029,D,0,votes,19187.0,170690.0,0
+2012,H,NY,13,0,"Schley, Craig",H8NY15122,D,0,votes,598.0,,0
+2012,H,NY,13,0,"Schley, Craig",H8NY15122,R,0,unopposed,,12147.0,0
+2012,H,NY,14,0,"Crowley, Joseph",H8NY07046,D/WF Combined Parties,0,,,,0
+2012,H,NY,14,0,"Crowley, Joseph",H8NY07046,D,0,unopposed,,116117.0,0
+2012,H,NY,14,0,"Crowley, Joseph",H8NY07046,WF,0,unopposed,,4644.0,0
+2012,H,NY,14,0,"Gibbons, Willam F., Jr.",H8NY03052,R/CRV Combined Parties,0,,,,0
+2012,H,NY,14,0,"Gibbons, Willam F., Jr.",H8NY03052,R,0,unopposed,,19191.0,0
+2012,H,NY,14,0,"Gibbons, Willam F., Jr.",H8NY03052,CRV,0,unopposed,,2564.0,0
+2012,H,NY,15,0,"Serrano, Jose E.",H0NY18065,D/WF Combined Parties,0,,,,0
+2012,H,NY,15,0,"Serrano, Jose E.",H0NY18065,D,0,unopposed,,150243.0,0
+2012,H,NY,15,0,"Serrano, Jose E.",H0NY18065,WF,0,unopposed,,2418.0,0
+2012,H,NY,15,0,"Della Valle, Frank L.",H0NY16119,R/CRV Combined Parties,0,,,,0
+2012,H,NY,15,0,"Della Valle, Frank L.",H0NY16119,R,0,unopposed,,3487.0,0
+2012,H,NY,15,0,"Della Valle, Frank L.",H0NY16119,CRV,0,unopposed,,940.0,0
+2012,H,NY,16,0,"Engel, Eliot L.",H8NY19058,D/WF Combined Parties,0,,,,0
+2012,H,NY,16,0,"Engel, Eliot L.",H8NY19058,WF,0,unopposed,,5676.0,0
+2012,H,NY,16,0,"Engel, Eliot L.",H8NY19058,D,0,votes,12856.0,173886.0,0
+2012,H,NY,17,0,"Lowey, Nita M.",H8NY20056,D/WF Combined Parties,0,,,,0
+2012,H,NY,17,0,"Lowey, Nita M.",H8NY20056,D,0,unopposed,,161624.0,0
+2012,H,NY,17,0,"Lowey, Nita M.",H8NY20056,WF,0,unopposed,,9793.0,0
+2012,H,NY,18,0,"Maloney, Sean Patrick",H2NY22139,D/WF Combined Parties,0,,,,0
+2012,H,NY,18,0,"Maloney, Sean Patrick",H2NY22139,WF,0,replacement,,11389.0,0
+2012,H,NY,18,0,"Maloney, Sean Patrick",H2NY22139,D,0,votes,7493.0,132456.0,0
+2012,H,NY,18,0,"Hayworth, Nan",H0NY19139,R/CRV Combined Parties,0,,,,0
+2012,H,NY,18,0,"Hayworth, Nan",H0NY19139,R,0,unopposed,,113386.0,0
+2012,H,NY,18,0,"Hayworth, Nan",H0NY19139,CRV,0,unopposed,,19663.0,0
+2012,H,NY,19,0,"Gibson, Christopher P.",H0NY20095,R/CRV/IDP Combined Parties,0,,,,0
+2012,H,NY,19,0,"Gibson, Christopher P.",H0NY20095,R,0,unopposed,,123066.0,0
+2012,H,NY,19,0,"Gibson, Christopher P.",H0NY20095,CRV,0,unopposed,,17629.0,0
+2012,H,NY,19,0,"Gibson, Christopher P.",H0NY20095,IDP,0,unopposed,,9550.0,0
+2012,H,NY,19,0,"Schreibman, Julian",H2NY00051,D/WF Combined Parties,0,,,,0
+2012,H,NY,19,0,"Schreibman, Julian",H2NY00051,WF,0,unopposed,,13336.0,0
+2012,H,NY,19,0,"Schreibman, Julian",H2NY00051,D,0,votes,6653.0,120959.0,0
+2012,H,NY,20,0,"Tonko, Paul D.",H8NY21203,D/IDP/WF Combined Parties,0,,,,0
+2012,H,NY,20,0,"Tonko, Paul D.",H8NY21203,D,0,unopposed,,181093.0,0
+2012,H,NY,20,0,"Tonko, Paul D.",H8NY21203,IDP,0,unopposed,,10291.0,0
+2012,H,NY,20,0,"Tonko, Paul D.",H8NY21203,WF,0,unopposed,,12017.0,0
+2012,H,NY,20,0,"Dieterich, Robert J.",H2NY21099,R/CRV Combined Parties,0,,,,0
+2012,H,NY,20,0,"Dieterich, Robert J.",H2NY21099,R,0,unopposed,,79102.0,0
+2012,H,NY,20,0,"Dieterich, Robert J.",H2NY21099,CRV,0,unopposed,,14676.0,0
+2012,H,NY,21,0,"Owens, William L.",H0NY23081,D/WF Combined Parties,0,,,,0
+2012,H,NY,21,0,"Owens, William L.",H0NY23081,D,0,unopposed,,117856.0,0
+2012,H,NY,21,0,"Owens, William L.",H0NY23081,WF,0,unopposed,,8775.0,0
+2012,H,NY,21,0,"Doheny, Matthew A.",H0NY23057,R/CRV/IDP Combined Parties,0,,,,0
+2012,H,NY,21,0,"Doheny, Matthew A.",H0NY23057,CRV,0,unopposed,,12877.0,0
+2012,H,NY,21,0,"Doheny, Matthew A.",H0NY23057,IDP,0,unopposed,,4401.0,0
+2012,H,NY,21,0,"Doheny, Matthew A.",H0NY23057,R,0,votes,9331.0,104368.0,0
+2012,H,NY,22,0,"Hanna, Richard L.",H8NY24066,R/IDP Combined Parties,0,,,,0
+2012,H,NY,22,0,"Hanna, Richard L.",H8NY24066,IDP,0,unopposed,,12899.0,0
+2012,H,NY,22,0,"Hanna, Richard L.",H8NY24066,R,0,votes,10627.0,145042.0,0
+2012,H,NY,23,0,"Reed, Thomas W., II",H0NY29054,R/CRV/IDP Combined Parties,0,,,,0
+2012,H,NY,23,0,"Reed, Thomas W., II",H0NY29054,R,0,unopposed,,117641.0,0
+2012,H,NY,23,0,"Reed, Thomas W., II",H0NY29054,CRV,0,unopposed,,14273.0,0
+2012,H,NY,23,0,"Reed, Thomas W., II",H0NY29054,IDP,0,unopposed,,5755.0,0
+2012,H,NY,23,0,"Shinagawa, Nate",H2NY22113,D/WF Combined Parties,0,,,,0
+2012,H,NY,23,0,"Shinagawa, Nate",H2NY22113,WF,0,unopposed,,12945.0,0
+2012,H,NY,23,0,"Shinagawa, Nate",H2NY22113,D,0,votes,6162.0,114590.0,0
+2012,H,NY,24,0,"Maffei, Daniel B.",H6NY25125,D/WF Combined Parties,0,,,,0
+2012,H,NY,24,0,"Maffei, Daniel B.",H6NY25125,D,0,unopposed,,133908.0,0
+2012,H,NY,24,0,"Maffei, Daniel B.",H6NY25125,WF,0,unopposed,,9136.0,0
+2012,H,NY,24,0,"Buerkle, Ann Marie",H0NY25078,R/CRV/IDP Combined Parties,0,,,,0
+2012,H,NY,24,0,"Buerkle, Ann Marie",H0NY25078,R,0,unopposed,,105584.0,0
+2012,H,NY,24,0,"Buerkle, Ann Marie",H0NY25078,CRV,0,unopposed,,16481.0,0
+2012,H,NY,24,0,"Buerkle, Ann Marie",H0NY25078,IDP,0,unopposed,,4989.0,0
+2012,H,NY,25,0,"Slaughter, Louise M.",H6NY03031,D/WF Combined Parties,0,,,,0
+2012,H,NY,25,0,"Slaughter, Louise M.",H6NY03031,D,0,unopposed,,168761.0,0
+2012,H,NY,25,0,"Slaughter, Louise M.",H6NY03031,WF,0,unopposed,,11049.0,0
+2012,H,NY,25,0,"Brooks, Maggie",H2NY25074,R/CRV/IDP Combined Parties,0,,,,0
+2012,H,NY,25,0,"Brooks, Maggie",H2NY25074,R,0,unopposed,,109292.0,0
+2012,H,NY,25,0,"Brooks, Maggie",H2NY25074,CRV,0,unopposed,,18543.0,0
+2012,H,NY,25,0,"Brooks, Maggie",H2NY25074,IDP,0,unopposed,,5554.0,0
+2012,H,NY,26,0,"Higgins, Brian",H4NY27076,D/WF Combined Parties,0,,,,0
+2012,H,NY,26,0,"Higgins, Brian",H4NY27076,D,0,unopposed,,195234.0,0
+2012,H,NY,26,0,"Higgins, Brian",H4NY27076,WF,0,unopposed,,17354.0,0
+2012,H,NY,26,0,"Madigan, Michael H.",H2NY26171,R/CRV/IDP Combined Parties,0,,,,0
+2012,H,NY,26,0,"Madigan, Michael H.",H2NY26171,R,0,unopposed,,57368.0,0
+2012,H,NY,26,0,"Madigan, Michael H.",H2NY26171,CRV,0,unopposed,,10243.0,0
+2012,H,NY,26,0,"Madigan, Michael H.",H2NY26171,IDP,0,unopposed,,4055.0,0
+2012,H,NY,27,0,"Collins, Chris",H8NY29032,R/CRV Combined Parties,0,,,,0
+2012,H,NY,27,0,"Collins, Chris",H8NY29032,CRV,0,unopposed,,23970.0,0
+2012,H,NY,27,0,"Collins, Chris",H8NY29032,R,0,votes,11677.0,137250.0,0
+2012,H,NY,27,0,"Hochul, Kathy C.",H2NY00036,D/WF Combined Parties,0,,,,0
+2012,H,NY,27,0,"Hochul, Kathy C.",H2NY00036,D,0,unopposed,,140008.0,0
+2012,H,NY,27,0,"Hochul, Kathy C.",H2NY00036,WF,0,unopposed,,16211.0,0
+2012,S,NY,0,0,"Gillibrand, Kirsten E.",S0NY00410,D/WF/IDP Combined Parties,0,,,4822330.0,0
+2012,S,NY,0,0,"Gillibrand, Kirsten E.",S0NY00410,D,0,unopposed,,4432525.0,0
+2012,S,NY,0,0,"Gillibrand, Kirsten E.",S0NY00410,WF,0,unopposed,,251292.0,0
+2012,S,NY,0,0,"Gillibrand, Kirsten E.",S0NY00410,IDP,0,unopposed,,138513.0,0
+2012,S,NY,0,0,"Long, Wendy",S2NY00259,R/CRV Combined Parties,0,,,1758702.0,0
+2012,S,NY,0,0,"Long, Wendy",S2NY00259,CRV,0,unopposed,,241124.0,0
+2012,S,NY,0,0,"Long, Wendy",S2NY00259,R,0,votes,75924.0,1517578.0,0
+2012,S,ND,0,0,"Heitkamp, Heidi",S2ND00099,DNL,0,votes,57246.0,161163.0,0
+2012,S,ND,0,0,"Berg, Rick",S2ND00073,R,0,votes,67860.0,158282.0,0
+2012,S,ND,0,0,"Sand, Duane",S0ND00069,R,0,votes,34213.0,,0
+2012,S,ND,0,0,"Heitkamp, Heidi",S2ND00099,W(CON),1,votes,4.0,,0
+2012,S,ND,0,0,"Berg, Rick",S2ND00073,W(CON),1,votes,1.0,,0
+2012,S,ND,0,0,"Sand, Duane",S0ND00069,W(CON),1,votes,1.0,,0
+2012,S,ND,0,0,"Berg, Rick",S2ND00073,W(LIB),1,votes,1.0,,0
+2012,S,ND,0,0,"Heitkamp, Heidi",S2ND00099,W(LIB),1,votes,1.0,,0
+2012,S,ND,0,0,"Sand, Duane",S0ND00069,W(LIB),1,votes,1.0,,0
+2012,H,SC,1,0,"Rose, Bobbie",H2SC01069,D,0,unopposed,,98154.0,0
+2012,H,SC,1,0,"Rose, Bobbie",H2SC01069,WF,0,convention,,5403.0,0
+2012,H,SC,4,0,"Morrow, Deb",H2SC04105,WF,0,convention,,5877.0,0
+2012,H,SC,4,0,"Morrow, Deb",H2SC04105,D,0,votes,3678.0,84087.0,0
+2012,H,SC,5,0,"Knott, Joyce",H2SC05086,D,0,unopposed,,113904.0,0
+2012,H,SC,5,0,"Knott, Joyce",H2SC05086,WF,0,convention,,9539.0,0
+2012,H,SC,7,0,"Tinubu, Gloria Bromell",H2SC07108,WF,0,convention,,7795.0,0
+2012,H,SC,7,0,"Tinubu, Gloria Bromell",H2SC07108,D,0,votes,16404.0,114594.0,0
+2012,H,TN,1,0,"Roe, Phil",H6TN01388,R,0,votes,53490.0,182252.0,0
+2012,H,TN,1,0,"Smith, Robert N.",H6TN01388,GRE,0,,,2872.0,0
+2012,H,TX,8,0,"Youngblood, Larry",H2TX08075,R,0,votes,15181.0,,0
+2012,H,TX,8,0,"Hall, Roy",H2TX08075,LIB,0,convention,,5958.0,0
+2014,S,MA,0,0,All Others,,W(D),1,votes,6986.0,,0
+2014,S,MA,0,0,All Others,,W(R),1,votes,872.0,,0
+2014,S,MA,0,0,All Others,,W,1,,,3072.0,0
+2014,S,NE,0,0,"Sasse, Ben",S4NE00090,R,0,votes,108443.0,347636.0,0
+2014,S,NE,0,0,"Dinsdale, Sid",S4NE00116,R,0,votes,49026.0,,0
+2014,S,NE,0,0,"Osborn, Shane",S4NE00074,R,0,votes,45952.0,,0
+2014,S,NE,0,0,"McLeay, Bart",S4NE00082,R,0,votes,12348.0,,0
+2014,S,NE,0,0,"Johnson, Clifton R.",S4NE00132,R,0,votes,3110.0,,0
+2014,S,NE,0,0,"Sasse, Ben",S4NE00090,N(R),0,votes,2359.0,,0
+2014,S,NE,0,0,"Dinsdale, Sid",S4NE00116,N(R),0,votes,1468.0,,0
+2014,S,NE,0,0,"Osborn, Shane",S4NE00074,N(R),0,votes,1386.0,,0
+2014,S,NE,0,0,"McLeay, Bart",S4NE00082,N(R),0,votes,492.0,,0
+2014,S,NE,0,0,"Johnson, Clifton R.",S4NE00132,N(R),0,votes,200.0,,0
+2014,S,NE,0,0,"Domina, Dave",S4NE00140,D,0,votes,44487.0,170127.0,0
+2014,S,NE,0,0,"Marvin, Larry",S8NE00141,D,0,votes,21483.0,,0
+2014,S,NE,0,0,"Domina, Dave",S4NE00140,N(DEM),0,votes,1161.0,,0
+2014,S,NE,0,0,"Marvin, Larry",S8NE00141,N(DEM),0,votes,421.0,,0
+2014,S,NH,0,0,"Shaheen, Jeanne",S0NH00219,D,0,votes,39282.0,251184.0,0
+2014,S,NH,0,0,"Brown, Scott P.",S4NH00120,W(D),1,votes,363.0,,0
+2014,S,NH,0,0,"Rubens, Jim",S4NH00112,W(D),1,votes,127.0,,0
+2014,S,NH,0,0,"Smith, Bob",S0NH00144,W(D),1,votes,123.0,,0
+2014,S,NH,0,0,"Farnham, Mark W.",S2NH00124,W(D),1,votes,4.0,,0
+2014,S,NH,0,0,"Heghmann, Bob",S4NH00153,W(D),1,votes,4.0,,0
+2014,S,NH,0,0,"Kelly, Walter W.",S4NH00161,W(D),1,votes,2.0,,0
+2014,S,NH,0,0,"Martin, Andy",S4NH00096,W(D),1,votes,2.0,,0
+2014,S,NH,0,0,"D'Arcy, Robert",S4NH00138,W(D),1,votes,0.0,,0
+2014,S,NH,0,0,"Brown, Scott P.",S4NH00120,R,0,votes,59147.0,235347.0,0
+2014,S,NH,0,0,"Rubens, Jim",S4NH00112,R,0,votes,27252.0,,0
+2014,S,NH,0,0,"Smith, Bob",S0NH00144,R,0,votes,26762.0,,0
+2014,S,NH,0,0,"Kelly, Walter W.",S4NH00161,R,0,votes,1392.0,,0
+2014,S,NH,0,0,"Heghmann, Bob",S4NH00153,R,0,votes,789.0,,0
+2014,S,NH,0,0,"Martin, Andy",S4NH00096,R,0,votes,738.0,,0
+2014,S,NH,0,0,"Farnham, Mark W.",S2NH00124,R,0,votes,737.0,,0
+2014,S,NH,0,0,"D'Arcy, Robert",S4NH00138,R,0,votes,399.0,,0
+2014,S,NH,0,0,"Shaheen, Jeanne",S0NH00219,W(R),1,votes,220.0,,0
+2014,S,SC,0,0,"Hutto, Brad",S4SC00364,WF,0,convention,,24207.0,0
+2014,S,SC,0,0,"Hutto, Brad",S4SC00364,D,0,votes,87552.0,456726.0,0
+2014,S,WV,0,0,"Butcher, Larry Eugene",S4WV00241,R,0,votes,3595.0,,0
+2014,S,WV,0,0,"Butcher, Larry Eugene",S4WV00241,W,1,,,5.0,0
+2014,H,CT,1,0,"Larson, John B.",H8CT01046,D,0,convention,,127430.0,0
+2014,H,CT,1,0,"Larson, John B.",H8CT01046,WF,0,,,8395.0,0
+2014,H,CT,2,0,"Courtney, Joe",H2CT02112,D,0,convention,,131294.0,0
+2014,H,CT,2,0,"Courtney, Joe",H2CT02112,WF,0,,,10654.0,0
+2014,H,CT,3,0,"DeLauro, Rosa L.",H0CT03072,D,0,convention,,130009.0,0
+2014,H,CT,3,0,"DeLauro, Rosa L.",H0CT03072,WF,0,,,10476.0,0
+2014,H,CT,4,0,"Himes, Jim",H8CT04172,D,0,convention,,101401.0,0
+2014,H,CT,4,0,"Himes, Jim",H8CT04172,WF,0,,,5472.0,0
+2014,H,CT,4,0,"Debicella, Dan",H0CT04146,R,0,convention,,88209.0,0
+2014,H,CT,4,0,"Debicella, Dan",H0CT04146,IP,0,,,3713.0,0
+2014,H,CT,4,0,"Miller, Stephen A.",H8CT04172,W,1,,,3.0,0
+2014,H,CT,4,0,"Pastore, Sophie E.",H8CT04172,W,1,,,2.0,0
+2014,H,CT,5,0,"Esty, Elizabeth",H2CT05131,D,0,convention,,106256.0,0
+2014,H,CT,5,0,"Esty, Elizabeth",H2CT05131,WF,0,,,7308.0,0
+2014,H,CT,5,0,"Greenberg, Mark",H0CT05150,R,0,convention,,92404.0,0
+2014,H,CT,5,0,"Greenberg, Mark",H0CT05150,IP,0,,,5363.0,0
+2014,H,MA,1,0,All Others,,W(D),1,votes,406.0,,0
+2014,H,MA,1,0,All Others,,W,1,,,3498.0,0
+2014,H,MA,2,0,All Others,,W(D),1,votes,288.0,,0
+2014,H,MA,2,0,All Others,,W,1,,,3105.0,0
+2014,H,MA,3,0,All Others,,W(D),1,votes,402.0,,0
+2014,H,MA,3,0,All Others,,W(R),1,votes,85.0,,0
+2014,H,MA,3,0,All Others,,W,1,,,204.0,0
+2014,H,MA,4,0,All Others,,W(D),1,votes,357.0,,0
+2014,H,MA,4,0,All Others,,W,1,,,3940.0,0
+2014,H,MA,5,0,All Others,,W(D),1,votes,140.0,,0
+2014,H,MA,5,0,All Others,,W,1,,,3159.0,0
+2014,H,MA,6,0,All Others,,W(D),1,votes,36.0,,0
+2014,H,MA,6,0,All Others,,W(R),1,votes,143.0,,0
+2014,H,MA,6,0,All Others,,W,1,,,219.0,0
+2014,H,MA,7,0,All Others,,W(D),1,votes,578.0,,0
+2014,H,MA,7,0,All Others,,W,1,,,2413.0,0
+2014,H,MA,8,0,All Others,,W(D),1,votes,499.0,,0
+2014,H,MA,8,0,All Others,,W,1,,,2707.0,0
+2014,H,MA,9,0,All Others,,W(D),1,votes,345.0,,0
+2014,H,MA,9,0,All Others,,W(R),1,votes,69.0,,0
+2014,H,MA,9,0,All Others,,W,1,,,157.0,0
+2014,H,MI,11,0,"Bentivolio, Kerry Lynn",H2MI11133,R,0,votes,21254.0,,0
+2014,H,MI,11,0,"Bentivolio, Kerry Lynn",H2MI11133,W,1,,,1411.0,0
+2014,H,MO,3,0,"Steinman, Leonard",H0MO04151,R,0,votes,8580.0,,0
+2014,H,MO,3,0,"Davis, Harold",H0MO04151,W,1,,,66.0,0
+2014,H,NE,1,0,"Fortenberry, Jeff",H4NE01064,R,0,votes,61171.0,123219.0,0
+2014,H,NE,1,0,"Turek, Jessica L.",H0NE01070,R,0,votes,5357.0,,0
+2014,H,NE,1,0,"Parker, Dennis L.",H0NE03191,R,0,votes,4110.0,,0
+2014,H,NE,1,0,"Crawford, Dennis P.",H4NE01163,D,0,votes,23336.0,55838.0,0
+2014,H,NE,1,0,"Crawford, Dennis P.",H4NE01163,N(D),0,votes,804.0,,0
+2014,H,NE,1,0,"Fortenberry, Jeff",H4NE01064,N(R),0,votes,2502.0,,0
+2014,H,NE,1,0,"Turek, Jessica L.",H0NE01070,N(R),0,votes,545.0,,0
+2014,H,NE,1,0,"Parker, Dennis L.",H0NE03191,N(R),0,votes,297.0,,0
+2014,H,NE,2,0,"Ashford, Brad",H4NE02054,D,0,votes,16571.0,83872.0,0
+2014,H,NE,2,0,"Aupperle, Mark",H2NE02116,D,0,votes,3764.0,,0
+2014,H,NE,2,0,"Terry, Lee",H8NE02139,R,0,votes,25169.0,78157.0,0
+2014,H,NE,2,0,"Frei, Dan",H4NE02096,R,0,votes,21959.0,,0
+2014,H,NE,2,0,"Laird, Steven",H8NE02204,LIB,0,votes,67.0,9021.0,0
+2014,H,NE,2,0,"Shambaugh, Andy",H4NE02104,LIB,0,votes,43.0,,0
+2014,H,NE,2,0,"Ashford, Brad",H4NE02054,N(D),0,votes,418.0,,0
+2014,H,NE,2,0,"Aupperle, Mark",H2NE02116,N(D),0,votes,108.0,,0
+2014,H,NE,2,0,"Laird, Steven",H8NE02204,N(LIB),0,votes,10.0,,0
+2014,H,NE,2,0,"Shambaugh, Andy",H4NE02104,N(LIB),0,votes,10.0,,0
+2014,H,NE,2,0,"Frei, Dan",H4NE02096,N(R),0,votes,1101.0,,0
+2014,H,NE,2,0,"Terry, Lee",H8NE02139,N(R),0,votes,643.0,,0
+2014,H,NE,3,0,"Smith, Adrian",H6NE03115,R,0,votes,66586.0,139440.0,0
+2014,H,NE,3,0,"Brewer, Tom",H4NE03060,R,0,votes,30996.0,,0
+2014,H,NE,3,0,"Sullivan, Mark",H2NE03023,D,0,votes,19936.0,45524.0,0
+2014,H,NE,3,0,"Sullivan, Mark",H2NE03023,N(D),0,votes,133.0,,0
+2014,H,NE,3,0,"Smith, Adrian",H6NE03115,N(R),0,votes,527.0,,0
+2014,H,NE,3,0,"Brewer, Tom",H4NE03060,N(R),0,votes,470.0,,0
+2014,H,NH,1,0,"Guinta, Frank C.",H0NH01217,R,0,votes,29246.0,125508.0,0
+2014,H,NH,1,0,"Innis, Dan",H4NH01219,R,0,votes,24342.0,,0
+2014,H,NH,1,0,"Kelly, Brendan",H4NH01235,R,0,votes,4999.0,,0
+2014,H,NH,1,0,"Jabour, Everett",H4NH01227,R,0,votes,996.0,,0
+2014,H,NH,1,0,"Shea-Porter, Carol",H6NH01230,W(R),1,votes,40.0,,0
+2014,H,NH,1,0,"Shea-Porter, Carol",H6NH01230,D,0,votes,16956.0,116769.0,0
+2014,H,NH,1,0,"Guinta, Frank C.",H0NH01217,W(D),1,votes,108.0,,0
+2014,H,NH,1,0,"Innis, Dan",H4NH01219,W(D),1,votes,92.0,,0
+2014,H,NH,1,0,"Kelly, Brendan",H4NH01235,W(D),1,votes,10.0,,0
+2014,H,NH,1,0,"Jabour, Everett",H4NH01227,W(D),1,votes,4.0,,0
+2014,H,NH,2,0,"Kuster, Ann McLane",H0NH02181,D,0,votes,21269.0,130700.0,0
+2014,H,NH,2,0,"Garcia, Marilinda",H4NH02241,W(D),1,votes,79.0,,0
+2014,H,NH,2,0,"Lambert, Gary",H4NH02233,W(D),1,votes,39.0,,0
+2014,H,NH,2,0,"Lawrence, Jim",H4NH02258,W(D),1,votes,32.0,,0
+2014,H,NH,2,0,"Little, Mike",H4NH02266,W(D),1,votes,6.0,,0
+2014,H,NH,2,0,"Garcia, Marilinda",H4NH02241,R,0,votes,27285.0,106871.0,0
+2014,H,NH,2,0,"Lambert, Gary",H4NH02233,R,0,votes,15196.0,,0
+2014,H,NH,2,0,"Lawrence, Jim",H4NH02258,R,0,votes,10327.0,,0
+2014,H,NH,2,0,"Little, Mike",H4NH02266,R,0,votes,2489.0,,0
+2014,H,NH,2,0,"Kuster, Ann McLane",H0NH02181,W(R),1,votes,64.0,,0
+2014,H,NY,1,0,"Zeldin, Lee M.",H8NY01148,CRV,0,unopposed,,16973.0,0
+2014,H,NY,1,0,"Zeldin, Lee M.",H8NY01148,R,0,votes,10283.0,77062.0,0
+2014,H,NY,1,0,"Bishop, Timothy H.",H2NY01067,D,0,unopposed,,68387.0,0
+2014,H,NY,1,0,"Bishop, Timothy H.",H2NY01067,IDP,0,unopposed,,4878.0,0
+2014,H,NY,1,0,"Bishop, Timothy H.",H2NY01067,WF,0,unopposed,,5457.0,0
+2014,H,NY,2,0,"King, Peter T.",H2NY03089,R/TRP,0,unopposed,,76659.0,0
+2014,H,NY,2,0,"King, Peter T.",H2NY03089,CRV,0,unopposed,,13789.0,0
+2014,H,NY,2,0,"King, Peter T.",H2NY03089,IDP,0,unopposed,,4729.0,0
+2014,H,NY,3,0,"Israel, Steve J.",H0NY02085,D,0,unopposed,,80393.0,0
+2014,H,NY,3,0,"Israel, Steve J.",H0NY02085,IDP,0,unopposed,,4448.0,0
+2014,H,NY,3,0,"Israel, Steve J.",H0NY02085,WF,0,unopposed,,5191.0,0
+2014,H,NY,3,0,"Lally, Grant M.",H4NY03077,R,0,votes,3439.0,63219.0,0
+2014,H,NY,3,0,"Lally, Grant M.",H4NY03077,CRV/LIB,0,unopposed,,11050.0,0
+2014,H,NY,4,0,"Rice, Kathleen M.",H4NY04075,WF,0,unopposed,,6021.0,0
+2014,H,NY,4,0,"Rice, Kathleen M.",H4NY04075,D,0,votes,7770.0,83772.0,0
+2014,H,NY,4,0,"Blakeman, Bruce A.",H4NY04091,R/TRP,0,votes,9083.0,67811.0,0
+2014,H,NY,4,0,"Blakeman, Bruce A.",H4NY04091,IDP,0,unopposed,,2437.0,0
+2014,H,NY,4,0,"Blakeman, Bruce A.",H4NY04091,CRV,0,votes,664.0,9879.0,0
+2014,H,NY,6,0,"Meng, Grace",H2NY06116,D,0,unopposed,,49227.0,0
+2014,H,NY,6,0,"Meng, Grace",H2NY06116,WF,0,unopposed,,6141.0,0
+2014,H,NY,7,0,"Valezquez, Nydia M.",H2NY00010,WF,0,unopposed,,9451.0,0
+2014,H,NY,7,0,"Valezquez, Nydia M.",H2NY00010,D,0,votes,7627.0,47142.0,0
+2014,H,NY,8,0,"Jeffries, Hakeem S.",H2NY10092,D,0,unopposed,,70469.0,0
+2014,H,NY,8,0,"Jeffries, Hakeem S.",H2NY10092,WF,0,unopposed,,6786.0,0
+2014,H,NY,9,0,"Clarke, Yvette D.",H4NY11138,D,0,unopposed,,70997.0,0
+2014,H,NY,9,0,"Clarke, Yvette D.",H4NY11138,WF,0,unopposed,,11662.0,0
+2014,H,NY,10,0,"Nadler, Jerrold L.",H2NY17071,D,0,unopposed,,73945.0,0
+2014,H,NY,10,0,"Nadler, Jerrold L.",H2NY17071,WF,0,unopposed,,15135.0,0
+2014,H,NY,11,0,"Grimm, Michael G.",H0NY13074,R,0,unopposed,,48291.0,0
+2014,H,NY,11,0,"Grimm, Michael G.",H0NY13074,CRV,0,unopposed,,8251.0,0
+2014,H,NY,11,0,"Grimm, Michael G.",H0NY13074,IDP,0,unopposed,,2344.0,0
+2014,H,NY,11,0,"Recchia, Domenic M., Jr.",H8NY13069,D,0,unopposed,,41429.0,0
+2014,H,NY,11,0,"Recchia, Domenic M., Jr.",H8NY13069,WF,0,unopposed,,3815.0,0
+2014,H,NY,12,0,"Maloney, Carolyn B.",H2NY14037,D,0,unopposed,,78440.0,0
+2014,H,NY,12,0,"Maloney, Carolyn B.",H2NY14037,WF,0,unopposed,,12163.0,0
+2014,H,NY,12,0,"Di Iorio, Nicholas S.",H4NY12052,R,0,unopposed,,19564.0,0
+2014,H,NY,12,0,"Di Iorio, Nicholas S.",H4NY12052,CRV,0,unopposed,,1841.0,0
+2014,H,NY,12,0,"Di Iorio, Nicholas S.",H4NY12052,IDP,0,unopposed,,1326.0,0
+2014,H,NY,13,0,"Rangel, Charles B.",H6NY19029,D,0,votes,23865.0,63437.0,0
+2014,H,NY,13,0,"Rangel, Charles B.",H6NY19029,WF,0,replacement,,4959.0,0
+2014,H,NY,14,0,"Crowley, Joseph",H8NY07046,D,0,unopposed,,45370.0,0
+2014,H,NY,14,0,"Crowley, Joseph",H8NY07046,WF,0,unopposed,,4982.0,0
+2014,H,NY,15,0,"Serrano, Jose E.",H0NY18065,WF,0,unopposed,,1778.0,0
+2014,H,NY,15,0,"Serrano, Jose E.",H0NY18065,D,0,votes,10346.0,53128.0,0
+2014,H,NY,16,0,"Engel, Eliot L.",H8NY19058,D,0,unopposed,,90088.0,0
+2014,H,NY,16,0,"Engel, Eliot L.",H8NY19058,WF,0,unopposed,,9570.0,0
+2014,H,NY,17,0,"Lowey, Nita M.",H8NY20056,D,0,unopposed,,89295.0,0
+2014,H,NY,17,0,"Lowey, Nita M.",H8NY20056,WF,0,unopposed,,8855.0,0
+2014,H,NY,17,0,"Day, Christopher E.",H4NY17135,R,0,unopposed,,63549.0,0
+2014,H,NY,17,0,"Day, Christopher E.",H4NY17135,CRV,0,unopposed,,12232.0,0
+2014,H,NY,18,0,"Maloney, Sean Patrick",H2NY22139,D,0,unopposed,,76235.0,0
+2014,H,NY,18,0,"Maloney, Sean Patrick",H2NY22139,WF,0,unopposed,,12758.0,0
+2014,H,NY,18,0,"Hayworth, Nan",H0NY19139,R,0,unopposed,,66523.0,0
+2014,H,NY,18,0,"Hayworth, Nan",H0NY19139,CRV,0,unopposed,,15714.0,0
+2014,H,NY,18,0,"Hayworth, Nan",H0NY19139,IDP,0,votes,780.0,3423.0,0
+2014,H,NY,18,0,"Maloney, Sean Patrick",H2NY22139,IDP,0,votes,682.0,,0
+2014,H,NY,19,0,"Gibson, Christopher P.",H0NY20095,R,0,unopposed,,102118.0,0
+2014,H,NY,19,0,"Gibson, Christopher P.",H0NY20095,CRV,0,unopposed,,20420.0,0
+2014,H,NY,19,0,"Gibson, Christopher P.",H0NY20095,IDP,0,unopposed,,9056.0,0
+2014,H,NY,19,0,"Eldridge, Sean S.",H4NY19115,D,0,unopposed,,60533.0,0
+2014,H,NY,19,0,"Eldridge, Sean S.",H4NY19115,WF,0,unopposed,,11937.0,0
+2014,H,NY,20,0,"Tonko, Paul D.",H8NY21203,D,0,unopposed,,103437.0,0
+2014,H,NY,20,0,"Tonko, Paul D.",H8NY21203,IDP,0,unopposed,,10389.0,0
+2014,H,NY,20,0,"Tonko, Paul D.",H8NY21203,WF,0,unopposed,,11285.0,0
+2014,H,NY,20,0,"Fischer, James M.",H4NY20121,R,0,unopposed,,61820.0,0
+2014,H,NY,20,0,"Fischer, James M.",H4NY20121,CRV,0,unopposed,,17284.0,0
+2014,H,NY,21,0,"Stefanik, Elise M.",H4NY21079,R,0,votes,16489.0,79615.0,0
+2014,H,NY,21,0,"Doheny, Matthew A.",H0NY23057,R,0,votes,10620.0,,0
+2014,H,NY,21,0,"Stefanik, Elise M.",H4NY21079,CRV,0,unopposed,,12207.0,0
+2014,H,NY,21,0,"Stefanik, Elise M.",H4NY21079,IDP,0,replacement,,4404.0,0
+2014,H,NY,21,0,"Doheny, Matthew A.",H0NY23057,IDP,0,unopposed,,,0
+2014,H,NY,21,0,"Woolf, Aaron G.",H4NY21103,D,0,unopposed,,53140.0,0
+2014,H,NY,21,0,"Woolf, Aaron G.",H4NY21103,WF,0,unopposed,,5923.0,0
+2014,H,NY,22,0,"Hanna, Richard L.",H8NY24066,IDP,0,unopposed,,16277.0,0
+2014,H,NY,22,0,"Hanna, Richard L.",H8NY24066,R,0,votes,16119.0,113574.0,0
+2014,H,NY,23,0,"Reed, Thomas W., II",H0NY29054,R,0,unopposed,,94375.0,0
+2014,H,NY,23,0,"Reed, Thomas W., II",H0NY29054,CRV,0,unopposed,,13917.0,0
+2014,H,NY,23,0,"Reed, Thomas W., II",H0NY29054,IDP,0,unopposed,,4838.0,0
+2014,H,NY,23,0,"Robertson, Martha",H4NY23067,D,0,unopposed,,60233.0,0
+2014,H,NY,23,0,"Robertson, Martha",H4NY23067,WF,0,unopposed,,10009.0,0
+2014,H,NY,24,0,"Katko, John M.",H4NY24073,R,0,unopposed,,93881.0,0
+2014,H,NY,24,0,"Katko, John M.",H4NY24073,CRV,0,unopposed,,17768.0,0
+2014,H,NY,24,0,"Katko, John M.",H4NY24073,IDP,0,unopposed,,6825.0,0
+2014,H,NY,24,0,"Maffei, Daniel B.",H6NY25125,D,0,unopposed,,72631.0,0
+2014,H,NY,24,0,"Maffei, Daniel B.",H6NY25125,WF,0,unopposed,,7673.0,0
+2014,H,NY,25,0,"Slaughter, Louise M.",H6NY03031,D,0,unopposed,,87264.0,0
+2014,H,NY,25,0,"Slaughter, Louise M.",H6NY03031,WF,0,unopposed,,9539.0,0
+2014,H,NY,25,0,"Assini, Mark W.",H4NY29098,R,0,unopposed,,75990.0,0
+2014,H,NY,25,0,"Assini, Mark W.",H4NY29098,CRV,0,unopposed,,19942.0,0
+2014,H,NY,26,0,"Higgins, Brian",H4NY27076,D,0,unopposed,,100648.0,0
+2014,H,NY,26,0,"Higgins, Brian",H4NY27076,WF,0,unopposed,,12562.0,0
+2014,H,NY,26,0,"Weppner, Kathleen A.",H4NY26052,R,0,unopposed,,38477.0,0
+2014,H,NY,26,0,"Weppner, Kathleen A.",H4NY26052,CRV,0,unopposed,,14432.0,0
+2014,H,NY,27,0,"Collins, Chris",H8NY29032,R,0,unopposed,,109171.0,0
+2014,H,NY,27,0,"Collins, Chris",H8NY29032,CRV,0,unopposed,,27605.0,0
+2014,H,NY,27,0,"Collins, Chris",H8NY29032,IDP,0,unopposed,,7899.0,0
+2014,H,NY,27,0,"O'Donnell, James D.",H4NY27118,D,0,unopposed,,50939.0,0
+2014,H,NY,27,0,"O'Donnell, James D.",H4NY27118,WF,0,unopposed,,7972.0,0
+2014,H,SC,5,0,"Adams, Tom",H4SC05058,D,0,unopposed,,66802.0,0
+2014,H,SC,5,0,"Adams, Tom",H4SC05058,WF,0,convention,,5183.0,0
+2016,S,CT,0,0,"Blumenthal, Richard",S0CT00177,D,0,convention,,920766.0,0
+2016,S,CT,0,0,"Blumenthal, Richard",S0CT00177,WF,0,,,87948.0,0
+2016,S,KS,0,0,"Smith, DJ",S4KS00150,R,0,votes,61056.0,,0
+2016,S,KS,0,0,"Smith, DJ",S4KS00150,W,1,,,46.0,0
+2016,S,MD,0,0,"Young, Lih",S6MD03375,D,0,votes,8561.0,,0
+2016,S,MD,0,0,"Smith, Charles U.",S6MD03359,D,0,votes,7912.0,,0
+2016,S,MD,0,0,"Tinus, Ed",S2MD00446,D,0,votes,2560.0,,0
+2016,S,MD,0,0,"Tinus, Ed",S2MD00446,W,1,,,138.0,0
+2016,S,MD,0,0,"Young, Lih",S6MD03375,W,1,,,77.0,0
+2016,S,MD,0,0,"Smith, Charles U.",S6MD03359,W,1,,,26.0,0
+2016,S,NH,0,0,"Hassan, Maggie",S6NH00091,D,0,votes,70374.0,354649.0,0
+2016,S,NH,0,0,"Ayotte, Kelly",S0NH00235,W(D),1,votes,775.0,,0
+2016,S,NH,0,0,"Rubens, Jim",S4NH00112,W(D),1,votes,67.0,,0
+2016,S,NH,0,0,"Beloin, Gerard",S0NH00284,W(D),1,votes,5.0,,0
+2016,S,NH,0,0,"Emanuel, Stanley Michael",S6NH00109,W(D),1,votes,2.0,,0
+2016,S,NH,0,0,"Ayotte, Kelly",S0NH00235,R,0,votes,86676.0,353632.0,0
+2016,S,NH,0,0,"Rubens, Jim",S4NH00112,R,0,votes,19156.0,,0
+2016,S,NH,0,0,"Alciere, Tom",S0NH00235,R,0,votes,1586.0,,0
+2016,S,NH,0,0,"Beloin, Gerard",S0NH00284,R,0,votes,1255.0,,0
+2016,S,NH,0,0,"Emanuel, Stanley Michael",S6NH00109,R,0,votes,1187.0,,0
+2016,S,NH,0,0,"Hassan, Maggie",S6NH00091,W(R),1,votes,301.0,,0
+2016,S,NY,0,0,"Schumer, Charles E.",S8NY00082,D,0,unopposed,,4784218.0,0
+2016,S,NY,0,0,"Schumer, Charles E.",S8NY00082,IDP,0,unopposed,,150654.0,0
+2016,S,NY,0,0,"Schumer, Charles E.",S8NY00082,WEP,0,unopposed,,45401.0,0
+2016,S,NY,0,0,"Schumer, Charles E.",S8NY00082,WF,0,unopposed,,241672.0,0
+2016,S,NY,0,0,"Long, Wendy",S2NY00259,R,0,unopposed,,1723920.0,0
+2016,S,NY,0,0,"Long, Wendy",S2NY00259,CRV,0,unopposed,,267622.0,0
+2016,S,NY,0,0,"Long, Wendy",S2NY00259,REF,0,unopposed,,17813.0,0
+2016,S,SC,0,0,"Dixon, Thomas",S6SC04148,D,0,unopposed,,704540.0,0
+2016,S,SC,0,0,"Dixon, Thomas",S6SC04148,WF,0,convention,,37610.0,0
+2016,S,SC,0,0,"Dixon, Thomas",S6SC04148,GRE,0,convention,,14872.0,0
+2016,S,SC,0,0,"Bledsoe, Bill",S6SC04155,LIB,0,convention,,24830.0,0
+2016,S,SC,0,0,"Bledsoe, Bill",S6SC04155,CON,0,convention,,12652.0,0
+2016,S,VT,0,0,"Ericson, Cris",S4VT00132,D,0,votes,7596.0,,0
+2016,S,VT,0,0,"Ericson, Cris",S4VT00132,USM,0,,,9156.0,0
+2016,H,AK,0,0,"Wright, Stephen T. ""Todd""",H6AK00284,R,0,votes,10189.0,,0
+2016,H,AK,0,0,"Wright, Stephen",H6AK00284,W,1,,,,0
+2016,H,CT,1,0,"Larson, John B.",H8CT01046,D,0,convention,,187021.0,0
+2016,H,CT,1,0,"Larson, John B.",H8CT01046,WF,0,,,13665.0,0
+2016,H,CT,2,0,"Courtney, Joe",H2CT02112,D,0,convention,,186210.0,0
+2016,H,CT,2,0,"Courtney, Joe",H2CT02112,WF,0,,,22608.0,0
+2016,H,CT,3,0,"DeLauro, Rosa L.",H0CT03072,D,0,convention,,192274.0,0
+2016,H,CT,3,0,"DeLauro, Rosa L.",H0CT03072,WF,0,,,21298.0,0
+2016,H,CT,4,0,"Shaban, John",H4CT04114,R,0,convention,,120653.0,0
+2016,H,CT,4,0,"Shaban, John",H4CT04114,IP,0,,,5071.0,0
+2016,H,CT,5,0,"Esty, Elizabeth",H2CT05131,D,0,convention,,163499.0,0
+2016,H,CT,5,0,"Esty, Elizabeth",H2CT05131,WF,0,,,15753.0,0
+2016,H,CT,5,0,"Cope, Clay",H6CT05157,IP,0,,,4901.0,0
+2016,H,CT,5,0,"Cope, Clay",H6CT05157,R,0,convention,,124900.0,0
+2016,H,DE,0,0,"Walker, Scott",H6DE00214,D,0,votes,3156.0,,0
+2016,H,DE,0,0,"Walker, Scott",H6DE00214,W,1,,,14.0,0
+2016,H,IL,5,0,"Kolber, Vince",H6IL05168,R,0,,,86222.0,0
+2016,H,IL,5,0,"Grimsley, Warren ""Grizz""",H6IL05168,GRE,0,votes,114.0,,0
+2016,H,IA,3,0,"Grandanette, Joe",H4IA03123,R,0,votes,3143.0,,0
+2016,H,IA,3,0,"Grandanette, Joe",H4IA03123,NNE,0,,,4518.0,0
+2016,H,MD,7,0,"Newton, William T.",H6MD07434,R,0,votes,10599.0,,0
+2016,H,MD,7,0,"Newton, William T.",H6MD07434,W,1,,,202.0,0
+2016,H,MA,1,0,All Others,,W(D),1,votes,706.0,,0
+2016,H,MA,1,0,All Others,,W,1,,,721.0,0
+2016,H,MA,2,0,All Others,,W(D),1,votes,166.0,,0
+2016,H,MA,2,0,All Others,,W,1,,,4924.0,0
+2016,H,MA,3,0,All Others,,W(D),1,votes,291.0,,0
+2016,H,MA,3,0,All Others,,W(R),1,votes,54.0,,0
+2016,H,MA,3,0,All Others,,W,1,,,360.0,0
+2016,H,MA,4,0,All Others,,W(D),1,votes,216.0,,0
+2016,H,MA,4,0,All Others,,W(R),1,votes,87.0,,0
+2016,H,MA,4,0,All Others,,W,1,,,335.0,0
+2016,H,MA,5,0,All Others,,W(D),1,votes,455.0,,0
+2016,H,MA,5,0,All Others,,W,1,,,4201.0,0
+2016,H,MA,6,0,All Others,,W(D),1,votes,267.0,,0
+2016,H,MA,6,0,All Others,,W,1,,,5132.0,0
+2016,H,MA,7,0,All Others,,W(D),1,votes,666.0,,0
+2016,H,MA,7,0,All Others,,W,1,,,3557.0,0
+2016,H,MA,8,0,All Others,,W(D),1,votes,737.0,,0
+2016,H,MA,8,0,All Others,,W(R),1,votes,291.0,,0
+2016,H,MA,8,0,All Others,,W,1,,,502.0,0
+2016,H,MA,9,0,All Others,,W(D),1,votes,215.0,,0
+2016,H,MA,9,0,All Others,,W(R),1,votes,55.0,,0
+2016,H,MA,9,0,All Others,,W,1,,,411.0,0
+2016,H,NH,1,0,"Shea-Porter, Carol",H6NH01230,D,0,votes,32409.0,162080.0,0
+2016,H,NH,1,0,"Ashooh, Rich",H0NH01225,W(D),1,votes,88.0,,0
+2016,H,NH,1,0,"Guinta, Frank",H0NH01217,W(D),1,votes,59.0,,0
+2016,H,NH,1,0,"Callis, Michael",H6NH01263,W(D),1,votes,3.0,,0
+2016,H,NH,1,0,"Guinta, Frank",H0NH01217,R,0,votes,26400.0,157176.0,0
+2016,H,NH,1,0,"Ashooh, Rich",H0NH01225,R/W,0,votes,25678.0,55.0,0
+2016,H,NH,1,0,"Callis, Michael",H6NH01263,R,0,votes,2243.0,,0
+2016,H,NH,1,0,"Shea-Porter, Carol",H6NH01230,W(R),1,votes,49.0,,0
+2016,H,NH,2,0,"Kuster, Ann McLane",H0NH02181,D,0,votes,36683.0,174495.0,0
+2016,H,NH,2,0,"Lawrence, Jim",H4NH02258,W(D),1,votes,29.0,,0
+2016,H,NH,2,0,"Flanagan, Jack B.",H6NH02162,W(D),1,votes,19.0,,0
+2016,H,NH,2,0,"Kelly, Walter W.",H6NH02212,W(D),1,votes,7.0,,0
+2016,H,NH,2,0,"Martin, Andy",H6NH02196,W(D),1,votes,7.0,,0
+2016,H,NH,2,0,"Mercer, Jay",H6NH02220,W(D),1,votes,5.0,,0
+2016,H,NH,2,0,"Estevez, Eric P.",H6NH02204,W(D),1,votes,4.0,,0
+2016,H,NH,2,0,"Newell, Casey",H6NH02170,W(D),1,votes,1.0,,0
+2016,H,NH,2,0,"Lawrence, Jim",H4NH02258,R,0,votes,17180.0,158973.0,0
+2016,H,NH,2,0,"Flanagan, Jack B.",H6NH02162,R,0,votes,12046.0,,0
+2016,H,NH,2,0,"Kelly, Walter W.",H6NH02212,R,0,votes,4287.0,,0
+2016,H,NH,2,0,"Martin, Andy",H6NH02196,R,0,votes,3145.0,,0
+2016,H,NH,2,0,"Estevez, Eric P.",H6NH02204,R,0,votes,2443.0,,0
+2016,H,NH,2,0,"Mercer, Jay",H6NH02220,R,0,votes,2113.0,,0
+2016,H,NH,2,0,"Newell, Casey",H6NH02170,R,0,votes,1839.0,,0
+2016,H,NH,2,0,"Kuster, Ann McLane",H0NH02181,W(R),1,votes,63.0,,0
+2016,H,NY,1,0,"Zeldin, Lee M.",H8NY01148,R,0,unopposed,,158409.0,0
+2016,H,NY,1,0,"Zeldin, Lee M.",H8NY01148,CRV,0,unopposed,,23327.0,0
+2016,H,NY,1,0,"Zeldin, Lee M.",H8NY01148,REF,0,unopposed,,843.0,0
+2016,H,NY,1,0,"Zeldin, Lee M.",H8NY01148,IDP,0,,,5920.0,0
+2016,H,NY,1,0,"Throne-Holst, Anna E.",H6NY01126,D,0,votes,6479.0,126635.0,0
+2016,H,NY,1,0,"Throne-Holst, Anna E.",H6NY01126,WEP,0,votes,2.0,2496.0,0
+2016,H,NY,1,0,"Throne-Holst, Anna E.",H6NY01126,WF,0,,,6147.0,0
+2016,H,NY,2,0,"King, Peter T.",H2NY03089,R/TRP,0,unopposed,,157571.0,0
+2016,H,NY,2,0,"King, Peter T.",H2NY03089,CRV,0,unopposed,,21810.0,0
+2016,H,NY,2,0,"King, Peter T.",H2NY03089,REF,0,unopposed,,2125.0,0
+2016,H,NY,2,0,"Gregory, Du Wayne",H6NY02124,D,0,unopposed,,102270.0,0
+2016,H,NY,2,0,"Gregory, Du Wayne",H6NY02124,IDP,0,unopposed,,3213.0,0
+2016,H,NY,2,0,"Gregory, Du Wayne",H6NY02124,WEP,0,unopposed,,1438.0,0
+2016,H,NY,2,0,"Gregory, Du Wayne",H6NY02124,WF,0,unopposed,,4017.0,0
+2016,H,NY,3,0,"Martins, Jack M.",H6NY03197,R,0,unopposed,,133954.0,0
+2016,H,NY,3,0,"Martins, Jack M.",H6NY03197,REF,0,unopposed,,1940.0,0
+2016,H,NY,3,0,"Martins, Jack M.",H6NY03197,CRV,0,unopposed,,16410.0,0
+2016,H,NY,4,0,"Rice, Kathleen M.",H4NY04075,D,0,unopposed,,181861.0,0
+2016,H,NY,4,0,"Rice, Kathleen M.",H4NY04075,WEP,0,unopposed,,4562.0,0
+2016,H,NY,4,0,"Gurfein, David H.",H6NY03171,R/TRP,0,unopposed,,111246.0,0
+2016,H,NY,4,0,"Gurfein, David H.",H6NY03171,CRV,0,unopposed,,14137.0,0
+2016,H,NY,4,0,"Gurfein, David H.",H6NY03171,REF,0,unopposed,,1055.0,0
+2016,H,NY,5,0,"Meeks, Gregory W.",H8NY06048,D,0,votes,7056.0,197852.0,0
+2016,H,NY,5,0,"Meeks, Gregory W.",H8NY06048,WEP,0,unopposed,,1963.0,0
+2016,H,NY,5,0,"O'Reilly, Michael A.",H6NY05077,R,0,unopposed,,26791.0,0
+2016,H,NY,5,0,"O'Reilly, Michael A.",H6NY05077,CRV,0,unopposed,,3521.0,0
+2016,H,NY,6,0,"Meng, Grace",H2NY06116,D,0,unopposed,,131463.0,0
+2016,H,NY,6,0,"Meng, Grace",H2NY06116,WEP,0,unopposed,,5043.0,0
+2016,H,NY,6,0,"Maio, Danniel S.",H6NY14236,R,0,unopposed,,43770.0,0
+2016,H,NY,6,0,"Maio, Danniel S.",H6NY14236,BLM,0,,,1972.0,0
+2016,H,NY,6,0,"Maio, Danniel S.",H6NY14236,CRV,0,unopposed,,4875.0,0
+2016,H,NY,6,0,"Maio, Danniel (Opportunity to Ballot)",H6NY14236,REF,0,votes,1.0,,0
+2016,H,NY,7,0,"Velazquez, Nydia M.",H2NY00010,D,0,votes,10162.0,165819.0,0
+2016,H,NY,7,0,"Velazquez, Nydia M.",H2NY00010,WEP,0,unopposed,,6327.0,0
+2016,H,NY,7,0,"Romaguera, Allan E.",H6NY12115,R,0,unopposed,,14941.0,0
+2016,H,NY,7,0,"Romaguera, Allan E.",H6NY12115,CRV,0,unopposed,,2537.0,0
+2016,H,NY,8,0,"Jeffries, Hakeem S.",H2NY10092,D,0,unopposed,,203235.0,0
+2016,H,NY,8,0,"Jeffries, Hakeem S.",H2NY10092,WF,0,unopposed,,11360.0,0
+2016,H,NY,9,0,"Clarke, Yvette D.",H4NY11138,D,0,unopposed,,198886.0,0
+2016,H,NY,9,0,"Clarke, Yvette D.",H4NY11138,WF,0,unopposed,,15303.0,0
+2016,H,NY,10,0,"Nadler, Jerrold L.",H2NY17071,D,0,votes,27270.0,180117.0,0
+2016,H,NY,10,0,"Nadler, Jerrold L.",H2NY17071,WF,0,unopposed,,10471.0,0
+2016,H,NY,10,0,"Nadler, Jerrold L.",H2NY17071,WEP,0,unopposed,,1783.0,0
+2016,H,NY,10,0,"Rosenthal, Philip",H6NY10119,R,0,unopposed,,46275.0,0
+2016,H,NY,10,0,"Rosenthal, Philip",H6NY10119,CRV,0,unopposed,,4646.0,0
+2016,H,NY,10,0,"Rosenthal, Philip",H6NY10119,IDP,0,unopposed,,2093.0,0
+2016,H,NY,10,0,"Rosenthal, Philip",H6NY10119,SID,0,,,843.0,0
+2016,H,NY,11,0,"Donovan, Dan",H6NY11174,R,0,unopposed,,122606.0,0
+2016,H,NY,11,0,"Donovan, Dan",H6NY11174,CRV,0,unopposed,,12824.0,0
+2016,H,NY,11,0,"Donovan, Dan",H6NY11174,IDP,0,unopposed,,5636.0,0
+2016,H,NY,11,0,"Donovan, Dan",H6NY11174,REF,0,unopposed,,1868.0,0
+2016,H,NY,12,0,"Maloney, Carolyn B.",H2NY14037,D,0,votes,15101.0,230153.0,0
+2016,H,NY,12,0,"Maloney, Carolyn B.",H2NY14037,WF,0,unopposed,,14205.0,0
+2016,H,NY,12,0,"Ardini, Robert",H6NY12149,R,0,unopposed,,49399.0,0
+2016,H,NY,12,0,"Ardini, Robert (Opportunity to Ballot)",H6NY12149,REF,0,votes,1.0,,0
+2016,H,NY,13,0,"Espaillat, Adriano",H2NY13096,D,0,votes,16377.0,207194.0,0
+2016,H,NY,13,0,"Williams, Clyde E.",H2NY15109,D,0,votes,5003.0,,0
+2016,H,NY,13,0,"Evans, Robert A., Jr.",H6NY13154,R,0,unopposed,,13129.0,0
+2016,H,NY,13,0,"Evans, Robert A., Jr.",H6NY13154,IDP,0,unopposed,,2960.0,0
+2016,H,NY,13,0,"Espaillat, Adriano (Opportunity to Ballot)",H2NY13096,REF,0,votes,1.0,,0
+2016,H,NY,13,0,"Williams, Clyde E. (Opportunity to Ballot)",H2NY15109,REF,0,votes,1.0,,0
+2016,H,NY,14,0,"Crowley, Joseph",H8NY07046,D,0,unopposed,,138367.0,0
+2016,H,NY,14,0,"Crowley, Joseph",H8NY07046,WEP,0,unopposed,,1903.0,0
+2016,H,NY,14,0,"Crowley, Joseph",H8NY07046,WF,0,unopposed,,7317.0,0
+2016,H,NY,14,0,"Spotorno, Frank J.",H6NY14244,R,0,unopposed,,26891.0,0
+2016,H,NY,14,0,"Spotorno, Frank J.",H6NY14244,CRV,0,unopposed,,3654.0,0
+2016,H,NY,16,0,"Engel, Eliot L.",H8NY19058,D,0,unopposed,,198811.0,0
+2016,H,NY,16,0,"Engel, Eliot L.",H8NY19058,WEP,0,unopposed,,2528.0,0
+2016,H,NY,16,0,"Engel, Eliot L.",H8NY19058,WF,0,unopposed,,8518.0,0
+2016,H,NY,17,0,"Lowey, Nita M.",H8NY20056,D,0,unopposed,,193819.0,0
+2016,H,NY,17,0,"Lowey, Nita M.",H8NY20056,WEP,0,unopposed,,5005.0,0
+2016,H,NY,17,0,"Lowey, Nita M.",H8NY20056,WF,0,unopposed,,15706.0,0
+2016,H,NY,18,0,"Maloney, Sean Patrick",H2NY22139,D,0,unopposed,,140951.0,0
+2016,H,NY,18,0,"Maloney, Sean Patrick",H2NY22139,IDP,0,unopposed,,10356.0,0
+2016,H,NY,18,0,"Maloney, Sean Patrick",H2NY22139,WEP,0,unopposed,,1982.0,0
+2016,H,NY,18,0,"Maloney, Sean Patrick",H2NY22139,WF,0,unopposed,,8771.0,0
+2016,H,NY,18,0,"Oliva, Phil",H6NY18203,R,0,votes,3574.0,111117.0,0
+2016,H,NY,18,0,"Oliva, Phil",H6NY18203,CRV,0,unopposed,,16968.0,0
+2016,H,NY,18,0,"Oliva, Phil",H6NY18203,REF,0,unopposed,,1284.0,0
+2016,H,NY,19,0,"Faso, John J.",H6NY19169,R,0,votes,10922.0,135905.0,0
+2016,H,NY,19,0,"Faso, John J.",H6NY19169,CRV,0,unopposed,,21353.0,0
+2016,H,NY,19,0,"Faso, John J.",H6NY19169,IDP,0,unopposed,,8028.0,0
+2016,H,NY,19,0,"Faso, John J.",H6NY19169,REF,0,unopposed,,885.0,0
+2016,H,NY,19,0,"Teachout, Zephyr",H6NY19243,D,0,votes,13801.0,125956.0,0
+2016,H,NY,19,0,"Teachout, Zephyr",H6NY19243,WF,0,unopposed,,15268.0,0
+2016,H,NY,20,0,"Tonko, Paul D.",H8NY21203,D,0,unopposed,,188426.0,0
+2016,H,NY,20,0,"Tonko, Paul D.",H8NY21203,WF,0,unopposed,,10929.0,0
+2016,H,NY,20,0,"Tonko, Paul D.",H8NY21203,IDP,0,unopposed,,10626.0,0
+2016,H,NY,20,0,"Tonko, Paul D.",H8NY21203,WEP,0,unopposed,,3037.0,0
+2016,H,NY,20,0,"Vitollo, Joe",H6NY20209,R,0,unopposed,,83321.0,0
+2016,H,NY,20,0,"Vitollo, Joe",H6NY20209,CRV,0,unopposed,,15911.0,0
+2016,H,NY,20,0,"Vitollo, Joe",H6NY20209,REF,0,unopposed,,1508.0,0
+2016,H,NY,21,0,"Stefanik, Elise M.",H4NY21079,R,0,unopposed,,152597.0,0
+2016,H,NY,21,0,"Stefanik, Elise M.",H4NY21079,CRV,0,unopposed,,15526.0,0
+2016,H,NY,21,0,"Stefanik, Elise M.",H4NY21079,IDP,0,unopposed,,8799.0,0
+2016,H,NY,21,0,"Stefanik, Elise M.",H4NY21079,REF,0,unopposed,,964.0,0
+2016,H,NY,21,0,"Derrick, Mike",H6NY21132,D,0,unopposed,,75965.0,0
+2016,H,NY,21,0,"Derrick, Mike",H6NY21132,WF,0,unopposed,,6196.0,0
+2016,H,NY,22,0,"Tenney, Claudia",H4NY22051,R,0,votes,9549.0,113287.0,0
+2016,H,NY,22,0,"Phillips, George K.",H6NY22098,R,0,votes,5716.0,,0
+2016,H,NY,22,0,"Tenney, Claudia",H4NY22051,CRV,0,unopposed,,16157.0,0
+2016,H,NY,22,0,"Myers, Kim A.",H6NY22130,D,0,unopposed,,102734.0,0
+2016,H,NY,22,0,"Myers, Kim A.",H6NY22130,WF,0,unopposed,,11532.0,0
+2016,H,NY,22,0,"Babinec, Martin (Opportunity to Ballot)",H6NY22148,REF,0,votes,21.0,24595.0,0
+2016,H,NY,22,0,"Tenney, Claudia",H4NY22051,REF,0,votes,6.0,,0
+2016,H,NY,22,0,"Phillips, George K. (Opportunity to Ballot)",H6NY22098,REF,0,votes,1.0,,0
+2016,H,NY,22,0,"Babinec, Martin",H6NY22148,UPJ,0,,,10043.0,0
+2016,H,NY,23,0,"Reed, Thomas W., II",H0NY29054,R,0,unopposed,,136964.0,0
+2016,H,NY,23,0,"Reed, Thomas W., II",H0NY29054,CRV,0,unopposed,,16420.0,0
+2016,H,NY,23,0,"Reed, Thomas W., II",H0NY29054,REF,0,unopposed,,876.0,0
+2016,H,NY,23,0,"Reed, Thomas W., II",H0NY29054,IDP,0,unopposed,,6790.0,0
+2016,H,NY,23,0,"Plumb, John F.",H6NY23518,D,0,unopposed,,106600.0,0
+2016,H,NY,23,0,"Plumb, John F.",H6NY23518,WF,0,unopposed,,11984.0,0
+2016,H,NY,24,0,"Katko, John M.",H4NY24073,R,0,unopposed,,150330.0,0
+2016,H,NY,24,0,"Katko, John M.",H4NY24073,CRV,0,unopposed,,20399.0,0
+2016,H,NY,24,0,"Katko, John M.",H4NY24073,IDP,0,unopposed,,10931.0,0
+2016,H,NY,24,0,"Katko, John M.",H4NY24073,REF,0,unopposed,,1101.0,0
+2016,H,NY,24,0,"Deacon, Colleen",H6NY24177,D,0,votes,6517.0,110550.0,0
+2016,H,NY,24,0,"Deacon, Colleen",H6NY24177,WF,0,,,8490.0,0
+2016,H,NY,25,0,"Slaughter, Louise M.",H6NY03031,D,0,unopposed,,168660.0,0
+2016,H,NY,25,0,"Slaughter, Louise M.",H6NY03031,WEP,0,unopposed,,4095.0,0
+2016,H,NY,25,0,"Slaughter, Louise M.",H6NY03031,WF,0,unopposed,,10195.0,0
+2016,H,NY,25,0,"Assini, Mark W.",H4NY29098,R,0,unopposed,,113840.0,0
+2016,H,NY,25,0,"Assini, Mark W.",H4NY29098,CRV,0,unopposed,,20883.0,0
+2016,H,NY,25,0,"Assini, Mark W.",H4NY29098,IDP,0,unopposed,,6856.0,0
+2016,H,NY,25,0,"Assini, Mark W.",H4NY29098,REF,0,unopposed,,1071.0,0
+2016,H,NY,26,0,"Higgins, Brian",H4NY27076,D,0,unopposed,,195322.0,0
+2016,H,NY,26,0,"Higgins, Brian",H4NY27076,WEP,0,unopposed,,3829.0,0
+2016,H,NY,26,0,"Higgins, Brian",H4NY27076,WF,0,unopposed,,16138.0,0
+2016,H,NY,26,0,"Schratz, Shelly",H6NY26115,R,0,unopposed,,56930.0,0
+2016,H,NY,26,0,"Schratz, Shelly",H6NY26115,CRV,0,unopposed,,16447.0,0
+2016,H,NY,27,0,"Collins, Chris",H8NY29032,R,0,unopposed,,175509.0,0
+2016,H,NY,27,0,"Collins, Chris",H8NY29032,CRV,0,unopposed,,34292.0,0
+2016,H,NY,27,0,"Collins, Chris",H8NY29032,IDP,0,unopposed,,9995.0,0
+2016,H,NY,27,0,"Collins, Chris",H8NY29032,REF,0,unopposed,,1089.0,0
+2016,H,OR,1,0,"Bonamici, Suzanne",H2OR01133,D/IP,0,votes,99153.0,225391.0,0
+2016,H,OR,1,0,"Bonamici, Suzanne",H2OR01133,W(IP),1,votes,855.0,,0
+2016,H,OR,2,0,"Walden, Greg",H6OR02116,R/IP,0,votes,85039.0,272952.0,0
+2016,H,OR,2,0,"Walden, Greg",H6OR02116,W(IP),1,votes,1725.0,,0
+2016,H,OR,3,0,"Walker, David W.",H4OR03135,IP/R,0,votes,2529.0,78154.0,0
+2016,H,OR,3,0,"Walker, David W.",H4OR03135,W(R),1,votes,217.0,,0
+2016,H,OR,4,0,"DeFazio, Peter A.",H6OR04047,D/PRO/WF/IP,0,votes,113816.0,220628.0,0
+2016,H,OR,4,0,"DeFazio, Peter A.",H6OR04047,W(IP),1,votes,1223.0,,0
+2016,H,OR,5,0,"Schrader, Kurt",H8OR05107,D/IP,0,votes,72634.0,199505.0,0
+2016,H,OR,5,0,"Schrader, Kurt",H8OR05107,W(IP),1,votes,792.0,,0
+2016,H,PA,9,0,"Halvorson, Art",H4PA09056,R,0,votes,48166.0,,0
+2016,H,PA,9,0,"Halvorson, Art",H4PA09056,W(D)/D,1,votes,1069.0,107985.0,0
+2016,H,SC,1,0,"Cherny, Dimitri",H4SC01271,D,0,unopposed,,110539.0,0
+2016,H,SC,1,0,"Cherny, Dimitri",H4SC01271,WF,0,convention,,5757.0,0
+2016,H,SC,1,0,"Cherny, Dimitri",H4SC01271,GRE,0,convention,,3483.0,0
+2016,H,SC,2,0,"Bjorn, Arik",H6SC02100,D,0,votes,9681.0,105306.0,0
+2016,H,SC,2,0,"Bjorn, Arik",H6SC02100,GRE,0,convention,,4146.0,0
+2016,H,SC,7,0,"Hyman, Mal",H6SC07018,D,0,unopposed,,103454.0,0
+2016,H,SC,7,0,"Hyman, Mal",H6SC07018,WF,0,convention,,6747.0,0
+2016,H,SC,7,0,"Hyman, Mal",H6SC07018,GRE,0,convention,,2543.0,0
+2016,H,VT,0,0,"Welch, Peter",H6VT00160,D/R,0,votes,67285.0,264414.0,0
+2016,H,VT,0,0,"Welch, Peter",H6VT00160,W(R),1,votes,2093.0,,0
+2018,S,CT,0,0,"Murphy, Christopher S.",S2CT00132,WF,0,,,37894.0,0
+2018,S,CT,0,0,"Murphy, Christopher S.",S2CT00132,D,0,convention,,787685.0,0
+2018,S,MD,0,0,"Young, Lih",S6MD03375,D,0,votes,9874.0,,0
+2018,S,MD,0,0,"Young, Lih",S6MD03375,W,1,,,364.0,0
+2018,S,MA,0,0,All Others,,W(D),1,votes,11558.0,,0
+2018,S,MA,0,0,All Others,,W(R),1,votes,798.0,,0
+2018,S,MA,0,0,All Others,,W,1,,,2799.0,0
+2018,S,NY,0,0,"Gillibrand, Kirsten E.",S0NY00410,D,0,unopposed,,3755489.0,0
+2018,S,NY,0,0,"Gillibrand, Kirsten E.",S0NY00410,WF,0,unopposed,,160128.0,0
+2018,S,NY,0,0,"Gillibrand, Kirsten E.",S0NY00410,IDP,0,unopposed,,99325.0,0
+2018,S,NY,0,0,"Gillibrand, Kirsten E.",S0NY00410,WEP,0,unopposed,,41989.0,0
+2018,S,NY,0,0,"Farley, Chele Chiavacci",S8NY00215,R,0,unopposed,,1730439.0,0
+2018,S,NY,0,0,"Farley, Chele Chiavacci",S8NY00215,CRV,0,unopposed,,246171.0,0
+2018,S,NY,0,0,"Farley, Chele Chiavacci",S8NY00215,REF,0,unopposed,,21610.0,0
+2018,S,RI,0,0,"Fontes, Patricia J.",S8RI00144,D,0,votes,26947.0,,0
+2018,S,RI,0,0,"Fontes, Patricia",S8RI00144,W,1,,,26.0,0
+2018,S,RI,0,0,"Fontes, Patricia J",S8RI00144,W,1,,,12.0,0
+2018,S,VT,0,0,"Sanders, Bernie",S4VT00033,IND,0,,,183649.0,0
+2018,S,VT,0,0,"Sanders, Bernie",S4VT00033,D,0,votes,63683.0,,0
+2018,S,VT,0,0,"Adeluola, Folasade",S8VT00117,D,0,votes,3766.0,,0
+2018,S,VT,0,0,"Peacock, Brad",S8VT00158,W(D),1,votes,47.0,,0
+2018,S,VT,0,0,"Zupan, Lawrence",S8VT00141,W(D),1,votes,37.0,,0
+2018,S,VT,0,0,"Paige, H. Brooke",S2VT00144,W(D),1,votes,26.0,,0
+2018,S,VT,0,0,"Welch, Peter",,W(D),1,votes,10.0,,0
+2018,S,VT,0,0,"Pannu, Jasdeep",S8VT00125,W(D),1,votes,9.0,,0
+2018,S,VT,0,0,"Rodgers, John",,W(D),1,votes,9.0,,0
+2018,S,VT,0,0,"Clinton, Hillary",,W(D),1,votes,5.0,,0
+2018,S,VT,0,0,"Sanders, Bernie",S4VT00033,W(PRO),1,votes,434.0,,0
+2018,S,VT,0,0,"Zupan, Lawrence",S8VT00141,W(PRO),1,votes,9.0,,0
+2018,S,VT,0,0,"Pannu, Jasdeep",S8VT00125,W(PRO),1,votes,6.0,,0
+2018,S,VT,0,0,"Paige, H. Brooke",S2VT00144,W(PRO),1,votes,5.0,,0
+2018,S,VT,0,0,"Zupan, Lawrence",S8VT00141,R,0,,,74815.0,0
+2018,S,VT,0,0,"Paige, H. Brooke",S2VT00144,R,0,votes,9805.0,,0
+2018,S,VT,0,0,"Zupan, Lawrence",S8VT00141,R,0,votes,9383.0,,0
+2018,S,VT,0,0,"Pannu, Jasdeep",S8VT00125,R,0,votes,4527.0,,0
+2018,S,VT,0,0,"Sanders, Bernie",S4VT00033,W(R),1,votes,1081.0,,0
+2018,S,VT,0,0,"Rodgers, John",,W(R),1,votes,15.0,,0
+2018,S,VT,0,0,"Douglas, Jim",,W(R),1,votes,14.0,,0
+2018,S,VT,0,0,"Welch, Peter",,W(R),1,votes,12.0,,0
+2018,S,VT,0,0,"Peacock, Brad J.",S8VT00158,IND,0,,,3665.0,0
+2018,S,VT,0,0,"Adeluola, Folasade",S8VT00117,IND,0,,,1979.0,0
+2018,S,VT,0,0,"Clinton, Hillary",,W,1,,,7.0,0
+2018,S,VT,0,0,"Douglas, Jim",,W,1,,,6.0,0
+2018,H,CT,1,0,"Larson, John B.",H8CT01046,D,0,convention,,166155.0,0
+2018,H,CT,1,0,"Larson, John B.",H8CT01046,WF,0,,,8932.0,0
+2018,H,CT,2,0,"Courtney, Joe",H2CT02112,D,0,convention,,167659.0,0
+2018,H,CT,2,0,"Courtney, Joe",H2CT02112,WF,0,,,12072.0,0
+2018,H,CT,3,0,"DeLauro, Rosa L.",H0CT03072,D,0,convention,,163211.0,0
+2018,H,CT,3,0,"DeLauro, Rosa L.",H0CT03072,WF,0,,,11361.0,0
+2018,H,CT,4,0,"Arora, Harry",H8CT04214,R,0,convention,,103175.0,0
+2018,H,CT,4,0,"Arora, Harry",H8CT04214,IP,0,,,3746.0,0
+2018,H,CT,5,0,"Hayes, Jahana",H8CT05245,D,0,votes,24693.0,142901.0,0
+2018,H,CT,5,0,"Hayes, Jahana",H8CT05245,WF,0,,,8324.0,0
+2018,H,CT,5,0,"Santos, Manny",H8CT05187,R,0,votes,16816.0,115146.0,0
+2018,H,CT,5,0,"Santos, Manny",H8CT05187,IP,0,,,4280.0,0
+2018,H,MD,5,0,"Rice, Johnny",H8MD05129,R,0,votes,8385.0,,0
+2018,H,MD,5,0,"Rice, Johnny",H8MD05129,W,1,,,99.0,0
+2018,H,MA,1,0,All Others,,W(D),1,votes,93.0,,0
+2018,H,MA,1,0,All Others,,W,1,,,5110.0,0
+2018,H,MA,2,0,All Others,,W(D),1,votes,448.0,,0
+2018,H,MA,2,0,All Others,,W(R),1,votes,105.0,,0
+2018,H,MA,2,0,All Others,,W,1,,,170.0,0
+2018,H,MA,3,0,All Others,,W(D),1,votes,102.0,,0
+2018,H,MA,3,0,All Others,,W(R),1,votes,273.0,,0
+2018,H,MA,3,0,All Others,,W,1,,,135.0,0
+2018,H,MA,4,0,All Others,,W(D),1,votes,38.0,,0
+2018,H,MA,4,0,All Others,,W,1,,,5727.0,0
+2018,H,MA,5,0,All Others,,W(D),1,votes,574.0,,0
+2018,H,MA,5,0,All Others,,W(R),1,votes,151.0,,0
+2018,H,MA,5,0,All Others,,W,1,,,225.0,0
+2018,H,MA,6,0,All Others,,W(D),1,votes,608.0,,0
+2018,H,MA,6,0,All Others,,W(R),1,votes,233.0,,0
+2018,H,MA,6,0,All Others,,W,1,,,165.0,0
+2018,H,MA,7,0,All Others,,W(D),1,votes,172.0,,0
+2018,H,MA,7,0,All Others,,W,1,,,3852.0,0
+2018,H,MA,8,0,All Others,,W(D),1,votes,161.0,,0
+2018,H,MA,8,0,All Others,,W,1,,,4148.0,0
+2018,H,MA,9,0,All Others,,W(D),1,votes,109.0,,0
+2018,H,MA,9,0,All Others,,W(R),1,votes,136.0,,0
+2018,H,MA,9,0,All Others,,W,1,,,118.0,0
+2018,H,MI,3,0,"Farrington, Joe",,W(R),1,votes,52.0,,0
+2018,H,MI,3,0,"Farrington, Joe",,W,1,,,3.0,0
+2018,H,MI,13,0,"Jones, Brenda",H8MI13243,D,0,votes,26941.0,,0
+2018,H,MI,13,0,"Knott, Kimberly Hill",H8MI13326,W(D),1,votes,33.0,,0
+2018,H,MI,13,0,"Jones, Brenda",H8MI13243,W,1,,,633.0,0
+2018,H,MI,13,0,"Dudenhoefer, David Anthony",,W,1,,,75.0,0
+2018,H,MI,13,0,"Knott, Kimberly Hill",H8MI13326,W,1,,,1.0,0
+2018,H,MI,13,0,"Dudenhoefer, David Anthony",,W(R),1,votes,419.0,,0
+2018,H,MT,0,0,"Heenan, John",H8MT00101,W(R),1,votes,5.0,,0
+2018,H,MT,0,0,"Heenan, John",H8MT00101,D,0,votes,35480.0,,0
+2018,H,NH,1,0,"Pappas, Chris",H8NH01210,D,0,votes,27350.0,155884.0,0
+2018,H,NH,1,0,"Sullivan, Maura",H8NH01186,D,0,votes,19560.0,,0
+2018,H,NH,1,0,"Messmer, Mindi",H8NH01202,D,0,votes,6143.0,,0
+2018,H,NH,1,0,"Andrews, Naomi",H8NH01285,D,0,votes,4546.0,,0
+2018,H,NH,1,0,"Soldati, Lincoln",H8NH01178,D,0,votes,2003.0,,0
+2018,H,NH,1,0,"McEachern, Deaglan",H8NH01251,D,0,votes,1686.0,,0
+2018,H,NH,1,0,"Sanders, Levi",H8NH01244,D,0,votes,1160.0,,0
+2018,H,NH,1,0,"MacKenzie, Mark S.",H8NH01228,D,0,votes,765.0,,0
+2018,H,NH,1,0,"O'Rourke, Terence",H8NH01194,D,0,votes,667.0,,0
+2018,H,NH,1,0,"Cardinal, Paul",H8NH01293,D,0,votes,328.0,,0
+2018,H,NH,1,0,"Edwards, Eddie",H8NH01152,W(D),1,votes,53.0,,0
+2018,H,NH,1,0,"Sanborn, Andy",H8NH01160,W(D),1,votes,30.0,,0
+2018,H,NH,1,0,"Martin, Andy",H6NH02196,W(D),1,votes,7.0,,0
+2018,H,NH,1,0,"Callis, Michael",H6NH01263,W(D),1,votes,2.0,,0
+2018,H,NH,1,0,"Belforti, Dan",H0NH01191,W(D),1,votes,1.0,,0
+2018,H,NH,1,0,"Denaro, Jeffory W.",H8NH01319,W(D),1,votes,1.0,,0
+2018,H,NH,1,0,"Edwards, Eddie",H8NH01152,R,0,votes,23763.0,130996.0,0
+2018,H,NH,1,0,"Sanborn, Andy",H8NH01160,R,0,votes,20852.0,,0
+2018,H,NH,1,0,"Martin, Andy",H6NH02196,R,0,votes,2126.0,,0
+2018,H,NH,1,0,"Callis, Michael",H6NH01263,R,0,votes,1272.0,,0
+2018,H,NH,1,0,"Denaro, Jeffory W.",H8NH01319,R,0,votes,983.0,,0
+2018,H,NH,1,0,"Pappas, Chris",H8NH01210,W(R),1,votes,175.0,,0
+2018,H,NH,1,0,"Sullivan, Maura",H8NH01186,W(R),1,votes,74.0,,0
+2018,H,NH,1,0,"Messmer, Mindi",H8NH01202,W(R),1,votes,19.0,,0
+2018,H,NH,1,0,"Soldati, Lincoln",H8NH01178,W(R),1,votes,18.0,,0
+2018,H,NH,1,0,"Andrews, Naomi",H8NH01285,W(R),1,votes,15.0,,0
+2018,H,NH,1,0,"O'Rourke, Terence",H8NH01194,W(R),1,votes,7.0,,0
+2018,H,NH,1,0,"Belforti, Dan",H0NH01191,W(R),1,votes,5.0,,0
+2018,H,NH,1,0,"Sanders, Levi",H8NH01244,W(R),1,votes,3.0,,0
+2018,H,NH,1,0,"MacKenzie, Mark S.",H8NH01228,W(R),1,votes,2.0,,0
+2018,H,NH,1,0,"Cardinal, Paul",H8NH01293,W(R),1,votes,2.0,,0
+2018,H,NH,1,0,"McEachern, Deaglan",H8NH01251,W(R),1,votes,1.0,,0
+2018,H,NH,1,0,"Belforti, Dan",H0NH01191,LIB,0,votes,370.0,4048.0,0
+2018,H,NH,1,0,"Sanborn, Andy",H8NH01160,W(LIB),1,votes,24.0,,0
+2018,H,NH,1,0,"Pappas, Chris",H8NH01210,W(LIB),1,votes,4.0,,0
+2018,H,NH,1,0,"Edwards, Eddie",H8NH01152,W(LIB),1,votes,3.0,,0
+2018,H,NH,1,0,"Sullivan, Maura",H8NH01186,W(LIB),1,votes,2.0,,0
+2018,H,NH,1,0,"Soldati, Lincoln",H8NH01178,W(LIB),1,votes,1.0,,0
+2018,H,NH,1,0,"MacKenzie, Mark S.",H8NH01228,W(LIB),1,votes,1.0,,0
+2018,H,NH,1,0,"Andrews, Naomi",H8NH01285,W(LIB),1,votes,1.0,,0
+2018,H,NH,1,0,"Martin, Andy",H6NH02196,W(LIB),1,votes,1.0,,0
+2018,H,NH,2,0,"Kuster, Ann McLane",H0NH02181,D,0,votes,55955.0,155358.0,0
+2018,H,NH,2,0,"Negron, Steven",H8NH02275,W(D),1,votes,27.0,,0
+2018,H,NH,2,0,"Levenson, Stewart I.",H8NH02267,W(D),1,votes,26.0,,0
+2018,H,NH,2,0,"Burns, Robert",H8NH02309,W(D),1,votes,19.0,,0
+2018,H,NH,2,0,"Mercer, Jay",H6NH02220,W(D),1,votes,6.0,,0
+2018,H,NH,2,0,"O'Donnell, Justin",H8NH02242,W(D),1,votes,3.0,,0
+2018,H,NH,2,0,"Belanger, Brian",H8NH02291,W(D),1,votes,1.0,,0
+2018,H,NH,2,0,"Negron, Steven",H8NH02275,R,0,votes,11195.0,117990.0,0
+2018,H,NH,2,0,"Levenson, Stewart I.",H8NH02267,R,0,votes,10952.0,,0
+2018,H,NH,2,0,"Burns, Robert",H8NH02309,R,0,votes,6802.0,,0
+2018,H,NH,2,0,"Belanger, Brian",H8NH02291,R,0,votes,2421.0,,0
+2018,H,NH,2,0,"Mercer, Jay",H6NH02220,R,0,votes,1234.0,,0
+2018,H,NH,2,0,"Kuster, Ann McLane",H0NH02181,W(R),1,votes,121.0,,0
+2018,H,NH,2,0,"O'Donnell, Justin",H8NH02242,W(R),1,votes,11.0,,0
+2018,H,NH,2,0,"Alciere, Tom",H6NH02089,W(R),1,votes,5.0,,0
+2018,H,NH,2,0,"O'Donnell, Justin",H8NH02242,LIB,0,votes,426.0,6206.0,0
+2018,H,NH,2,0,"Alciere, Tom",H6NH02089,LIB,0,votes,146.0,,0
+2018,H,NH,2,0,"Negron, Steven",H8NH02275,W(LIB),1,votes,5.0,,0
+2018,H,NH,2,0,"Kuster, Ann McLane",H0NH02181,W(LIB),1,votes,3.0,,0
+2018,H,NH,2,0,"Belanger, Brian",H8NH02291,W(LIB),1,votes,1.0,,0
+2018,H,NY,1,0,"Zeldin, Lee M.",H8NY01148,R,0,unopposed,,121562.0,0
+2018,H,NY,1,0,"Zeldin, Lee M.",H8NY01148,CRV,0,unopposed,,14284.0,0
+2018,H,NY,1,0,"Zeldin, Lee M.",H8NY01148,IDP,0,unopposed,,2693.0,0
+2018,H,NY,1,0,"Zeldin, Lee M.",H8NY01148,REF,0,unopposed,,488.0,0
+2018,H,NY,1,0,"Gershon, Perry",H8NY01155,D,0,votes,7902.0,124213.0,0
+2018,H,NY,1,0,"Browning, Kate M.",H8NY01197,D,0,votes,6813.0,,0
+2018,H,NY,1,0,"Gershon, Perry",H8NY01155,WF,0,,,3778.0,0
+2018,H,NY,1,0,"Browning, Kate M.",H8NY01197,WEP,0,unopposed,,2988.0,0
+2018,H,NY,2,0,"King, Peter T.",H2NY03089,R/TRP,0,unopposed,,112565.0,0
+2018,H,NY,2,0,"King, Peter T.",H2NY03089,CRV,0,unopposed,,12504.0,0
+2018,H,NY,2,0,"King, Peter T.",H2NY03089,IDP,0,,,2535.0,0
+2018,H,NY,2,0,"King, Peter T.",H2NY03089,REF,0,unopposed,,474.0,0
+2018,H,NY,2,0,"Shirley, Liuba Grechen",H8NY02104,D,0,votes,7315.0,108803.0,0
+2018,H,NY,2,0,"Gregory, Du Wayne",H6NY02124,D,0,votes,5456.0,,0
+2018,H,NY,2,0,"Shirley, Liuba Grechen",H8NY02104,WF,0,,,2799.0,0
+2018,H,NY,2,0,"Shirley, Liuba Grechen",H8NY02104,WEP,0,,,1472.0,0
+2018,H,NY,2,0,"Gregory, Du Wayne",H6NY02124,IDP/WEP/WF,0,unopposed,,,0
+2018,H,NY,3,0,"Suozzi, Thomas R.",H6NY03247,D,0,unopposed,,149937.0,0
+2018,H,NY,3,0,"Suozzi, Thomas R.",H6NY03247,IDP,0,unopposed,,2962.0,0
+2018,H,NY,3,0,"Suozzi, Thomas R.",H6NY03247,WF,0,unopposed,,2838.0,0
+2018,H,NY,3,0,"Suozzi, Thomas R.",H6NY03247,WEP,0,unopposed,,1376.0,0
+2018,H,NY,3,0,"Suozzi, Thomas R.",H6NY03247,REF,0,unopposed,,343.0,0
+2018,H,NY,3,0,"DeBono, Dan P.",H8NY03151,R,0,unopposed,,98716.0,0
+2018,H,NY,3,0,"DeBono, Dan P.",H8NY03151,CRV,0,unopposed,,10798.0,0
+2018,H,NY,4,0,"Rice, Kathleen M.",H4NY04075,D,0,unopposed,,156728.0,0
+2018,H,NY,4,0,"Rice, Kathleen M.",H4NY04075,WEP,0,unopposed,,2807.0,0
+2018,H,NY,4,0,"Benno, Ameer N.",H8NY04084,R,0,unopposed,,90306.0,0
+2018,H,NY,4,0,"Benno, Ameer N.",H8NY04084,CRV,0,unopposed,,9709.0,0
+2018,H,NY,4,0,"Benno, Ameer N.",H8NY04084,REF,0,unopposed,,556.0,0
+2018,H,NY,6,0,"Meng, Grace",H2NY06116,D,0,unopposed,,104293.0,0
+2018,H,NY,6,0,"Meng, Grace",H2NY06116,WF,0,unopposed,,6429.0,0
+2018,H,NY,6,0,"Meng, Grace",H2NY06116,REF,0,unopposed,,924.0,0
+2018,H,NY,7,0,"Velazquez, Nydia M.",H2NY00010,D,0,unopposed,,134125.0,0
+2018,H,NY,7,0,"Velazquez, Nydia M.",H2NY00010,WF,0,unopposed,,12562.0,0
+2018,H,NY,7,0,"Velazquez, Nydia M.",H2NY00010,W(REF),1,votes,17.0,,0
+2018,H,NY,8,0,"Jeffries, Hakeem S.",H2NY10092,D,0,unopposed,,170850.0,0
+2018,H,NY,8,0,"Jeffries, Hakeem S.",H2NY10092,WF,0,unopposed,,9526.0,0
+2018,H,NY,9,0,"Clarke, Yvette D.",H4NY11138,D,0,votes,16202.0,167269.0,0
+2018,H,NY,9,0,"Clarke, Yvette D.",H4NY11138,WF,0,unopposed,,14186.0,0
+2018,H,NY,9,0,"Gayot, Lutchi",H8NY09174,R,0,unopposed,,18702.0,0
+2018,H,NY,9,0,"Gayot, Lutchi",H8NY09174,CRV,0,unopposed,,2199.0,0
+2018,H,NY,10,0,"Nadler, Jerrold L.",H2NY17071,D,0,unopposed,,162131.0,0
+2018,H,NY,10,0,"Nadler, Jerrold L.",H2NY17071,WF,0,unopposed,,10964.0,0
+2018,H,NY,10,0,"Levin, Naomi",H8NY10099,R,0,unopposed,,33692.0,0
+2018,H,NY,10,0,"Levin, Naomi",H8NY10099,CRV,0,unopposed,,3259.0,0
+2018,H,NY,10,0,"Levin, Naomi",H8NY10099,REF,0,unopposed,,668.0,0
+2018,H,NY,11,0,"Rose, Max N.",H8NY11113,D,0,votes,11539.0,96850.0,0
+2018,H,NY,11,0,"Rose, Max N.",H8NY11113,WF,0,unopposed,,3894.0,0
+2018,H,NY,11,0,"Rose, Max N.",H8NY11113,WEP,0,unopposed,,1079.0,0
+2018,H,NY,11,0,"Donovan, Dan",H6NY11174,R,0,votes,13515.0,80440.0,0
+2018,H,NY,11,0,"Grimm, Michael G.",H0NY13074,R,0,votes,7957.0,,0
+2018,H,NY,11,0,"Donovan, Dan",H6NY11174,IDP,0,unopposed,,1302.0,0
+2018,H,NY,11,0,"Donovan, Dan",H6NY11174,W(CRV)/CRV,1,votes,610.0,7352.0,0
+2018,H,NY,11,0,"Grimm, Michael G.",H0NY13074,W(CRV),1,votes,497.0,,0
+2018,H,NY,11,0,"Rose, Max N.",H8NY11113,W(CRV),1,votes,3.0,,0
+2018,H,NY,11,0,"Donovan, Dan",H6NY11174,REF,0,unopposed,,347.0,0
+2018,H,NY,12,0,"Maloney, Carolyn B.",H2NY14037,D,0,votes,26742.0,205858.0,0
+2018,H,NY,12,0,"Maloney, Carolyn B.",H2NY14037,WF,0,unopposed,,10972.0,0
+2018,H,NY,12,0,"Maloney, Carolyn B.",H2NY14037,REF,0,unopposed,,600.0,0
+2018,H,NY,13,0,"Espaillat, Adriano",H2NY13096,D,0,unopposed,,171341.0,0
+2018,H,NY,13,0,"Espaillat, Adriano",H2NY13096,WF,0,unopposed,,8694.0,0
+2018,H,NY,13,0,"Butler, Jineea",H8NY13150,R,0,unopposed,,9535.0,0
+2018,H,NY,13,0,"Butler, Jineea",H8NY13150,REF,0,unopposed,,733.0,0
+2018,H,NY,14,0,"Crowley, Joseph",H8NY07046,D,0,votes,12880.0,,0
+2018,H,NY,14,0,"Crowley, Joseph",H8NY07046,WF,0,unopposed,,8075.0,0
+2018,H,NY,14,0,"Crowley, Joseph",H8NY07046,WEP,0,unopposed,,1273.0,0
+2018,H,NY,15,0,"Serrano, Jose E.",H0NY18065,D,0,unopposed,,122007.0,0
+2018,H,NY,15,0,"Serrano, Jose E.",H0NY18065,WF,0,unopposed,,2462.0,0
+2018,H,NY,15,0,"Gonzalez, Jason D.",H8NY15155,R,0,unopposed,,4566.0,0
+2018,H,NY,15,0,"Gonzalez, Jason D.",H8NY15155,CRV,0,unopposed,,639.0,0
+2018,H,NY,15,0,"Serrano, Jose E.",H0NY18065,W(REF),1,votes,2.0,,0
+2018,H,NY,15,0,"Gonzalez, Jason",H8NY15155,W(REF),1,votes,1.0,,0
+2018,H,NY,15,0,"Serrano, Jose E",H0NY18065,W(REF),1,votes,1.0,,0
+2018,H,NY,16,0,"Engel, Eliot L.",H8NY19058,D,0,votes,22160.0,172815.0,0
+2018,H,NY,16,0,"Engel, Eliot L.",H8NY19058,WF,0,unopposed,,6755.0,0
+2018,H,NY,16,0,"Engel, Eliot L.",H8NY19058,WEP,0,unopposed,,2474.0,0
+2018,H,NY,17,0,"Lowey, Nita M.",H8NY20056,D,0,unopposed,,159923.0,0
+2018,H,NY,17,0,"Lowey, Nita M.",H8NY20056,WF,0,unopposed,,7336.0,0
+2018,H,NY,17,0,"Lowey, Nita M.",H8NY20056,WEP,0,unopposed,,2909.0,0
+2018,H,NY,18,0,"Maloney, Sean Patrick",H2NY22139,D,0,unopposed,,126368.0,0
+2018,H,NY,18,0,"Maloney, Sean Patrick",H2NY22139,IDP,0,unopposed,,7726.0,0
+2018,H,NY,18,0,"Maloney, Sean Patrick",H2NY22139,WF,0,unopposed,,3929.0,0
+2018,H,NY,18,0,"Maloney, Sean Patrick",H2NY22139,WEP,0,unopposed,,1541.0,0
+2018,H,NY,18,0,"O'Donnell, James D.",H8NY18274,R,0,unopposed,,96345.0,0
+2018,H,NY,18,0,"O'Donnell, James D.",H8NY18274,CRV,0,unopposed,,14484.0,0
+2018,H,NY,18,0,"O'Donnell, James D.",H8NY18274,REF,0,unopposed,,1206.0,0
+2018,H,NY,19,0,"Delgado, Antonio",H8NY19181,D,0,votes,8576.0,135582.0,0
+2018,H,NY,19,0,"Ryan, Pat",H8NY19223,D,0,votes,6941.0,,0
+2018,H,NY,19,0,"Rhodes, Gareth",H8NY19199,D,0,votes,6890.0,,0
+2018,H,NY,19,0,"Flynn, Brian",H8NY19173,D,0,votes,5245.0,,0
+2018,H,NY,19,0,"Beals, Jeff",H8NY19215,D,0,votes,4991.0,,0
+2018,H,NY,19,0,"Collier, Erin",H8NY19256,D,0,votes,1908.0,,0
+2018,H,NY,19,0,"Delgado, Antonio",H8NY19181,WF,0,,,9237.0,0
+2018,H,NY,19,0,"Delgado, Antonio",H8NY19181,W(WEP)/WEP,1,votes,1.0,3054.0,0
+2018,H,NY,19,0,"Beals, Jeff",H8NY19215,W(WEP),1,votes,1.0,,0
+2018,H,NY,19,0,"Collier, Erin",H8NY19256,W(WEP),1,votes,1.0,,0
+2018,H,NY,19,0,"Flynn, Brian",H8NY19173,W(WEP),1,votes,1.0,,0
+2018,H,NY,19,0,"Rhodes, Gareth",H8NY19199,W(WEP),1,votes,1.0,,0
+2018,H,NY,19,0,"Ryan, Pat",H8NY19223,W(WEP),1,votes,1.0,,0
+2018,H,NY,19,0,"Faso, John J.",H6NY19169,R,0,unopposed,,112304.0,0
+2018,H,NY,19,0,"Faso, John J.",H6NY19169,CRV,0,unopposed,,16906.0,0
+2018,H,NY,19,0,"Faso, John J.",H6NY19169,IDP,0,unopposed,,3009.0,0
+2018,H,NY,19,0,"Faso, John J.",H6NY19169,REF,0,unopposed,,654.0,0
+2018,H,NY,20,0,"Tonko, Paul D.",H8NY21203,D,0,unopposed,,161330.0,0
+2018,H,NY,20,0,"Tonko, Paul D.",H8NY21203,WF,0,unopposed,,10129.0,0
+2018,H,NY,20,0,"Tonko, Paul D.",H8NY21203,WEP,0,unopposed,,3712.0,0
+2018,H,NY,20,0,"Tonko, Paul D.",H8NY21203,REF,0,unopposed,,1640.0,0
+2018,H,NY,21,0,"Stefanik, Elise M.",H4NY21079,R,0,unopposed,,116433.0,0
+2018,H,NY,21,0,"Stefanik, Elise M.",H4NY21079,CRV,0,unopposed,,11398.0,0
+2018,H,NY,21,0,"Stefanik, Elise M.",H4NY21079,IDP,0,unopposed,,3369.0,0
+2018,H,NY,21,0,"Stefanik, Elise M.",H4NY21079,REF,0,unopposed,,781.0,0
+2018,H,NY,21,0,"Cobb, Tedra L.",H8NY21245,D,0,votes,10853.0,93394.0,0
+2018,H,NY,21,0,"Wilson, Katie",H8NY21252,D,0,votes,2356.0,,0
+2018,H,NY,21,0,"Ratigan, Dylan",H8NY21344,D,0,votes,2313.0,,0
+2018,H,NY,21,0,"Nelson, Patrick F.",H2NY21115,D,0,votes,1802.0,,0
+2018,H,NY,21,0,"Cobb, Tedra L.",H8NY21245,WF,0,,,4425.0,0
+2018,H,NY,21,0,"Wilson, Katie",H8NY21252,WF,0,unopposed,,,0
+2018,H,NY,21,0,"Cobb, Tedra L.",H8NY21245,W(WEP)/WEP,1,votes,1.0,1972.0,0
+2018,H,NY,21,0,"Ratigan, Dylan",H8NY21344,W(WEP),1,votes,2.0,,0
+2018,H,NY,21,0,"Nelson, Patrick",H2NY21115,W(WEP),1,votes,1.0,,0
+2018,H,NY,22,0,"Brindisi, Anthony J.",H8NY22151,D,0,unopposed,,116001.0,0
+2018,H,NY,22,0,"Brindisi, Anthony J.",H8NY22151,IDP,0,unopposed,,5673.0,0
+2018,H,NY,22,0,"Brindisi, Anthony J.",H8NY22151,WF,0,unopposed,,4651.0,0
+2018,H,NY,22,0,"Brindisi, Anthony J.",H8NY22151,WEP,0,unopposed,,1390.0,0
+2018,H,NY,22,0,"Tenney, Claudia",H4NY22051,R,0,unopposed,,110125.0,0
+2018,H,NY,22,0,"Tenney, Claudia",H4NY22051,CRV,0,unopposed,,12061.0,0
+2018,H,NY,22,0,"Tenney, Claudia",H4NY22051,REF,0,unopposed,,1056.0,0
+2018,H,NY,23,0,"Reed, Thomas W., II",H0NY29054,R,0,unopposed,,114722.0,0
+2018,H,NY,23,0,"Reed, Thomas W., II",H0NY29054,CRV,0,unopposed,,12274.0,0
+2018,H,NY,23,0,"Reed, Thomas W., II",H0NY29054,IDP,0,unopposed,,3327.0,0
+2018,H,NY,23,0,"Mitrano, Tracy",H8NY23183,D,0,votes,7724.0,100914.0,0
+2018,H,NY,23,0,"Mitrano, Tracy",H8NY23183,WF,0,unopposed,,6464.0,0
+2018,H,NY,23,0,"Mitrano, Tracy",H8NY23183,WEP,0,votes,4.0,2554.0,0
+2018,H,NY,24,0,"Katko, John M.",H4NY24073,R,0,unopposed,,113538.0,0
+2018,H,NY,24,0,"Katko, John M.",H4NY24073,CRV,0,unopposed,,16972.0,0
+2018,H,NY,24,0,"Katko, John M.",H4NY24073,IDP,0,unopposed,,5454.0,0
+2018,H,NY,24,0,"Katko, John M.",H4NY24073,REF,0,unopposed,,956.0,0
+2018,H,NY,24,0,"Balter, Dana",H8NY24090,D,0,votes,14897.0,115902.0,0
+2018,H,NY,24,0,"Balter, Dana",H8NY24090,WF,0,unopposed,,4784.0,0
+2018,H,NY,24,0,"Balter, Dana",H8NY24090,WEP,0,unopposed,,2540.0,0
+2018,H,NY,25,0,"Morelle, Joseph D.",H8NY25105,D,0,votes,16245.0,147979.0,0
+2018,H,NY,25,0,"Morelle, Joseph D.",H8NY25105,IDP,0,unopposed,,4585.0,0
+2018,H,NY,25,0,"Morelle, Joseph D.",H8NY25105,WF,0,unopposed,,4575.0,0
+2018,H,NY,25,0,"Morelle, Joseph D.",H8NY25105,WEP,0,unopposed,,2105.0,0
+2018,H,NY,25,0,"Maxwell, Jim",H8NY25097,R,0,unopposed,,91342.0,0
+2018,H,NY,25,0,"Maxwell, Jim",H8NY25097,CRV,0,unopposed,,17781.0,0
+2018,H,NY,25,0,"Maxwell, Jim",H8NY25097,REF,0,unopposed,,1613.0,0
+2018,H,NY,25,1,"Morelle, Joseph D.",H8NY25105,D,0,convention,,138997.0,0
+2018,H,NY,25,1,"Morelle, Joseph D.",H8NY25105,WF,0,convention,,4520.0,0
+2018,H,NY,25,1,"Morelle, Joseph D.",H8NY25105,IDP,0,convention,,4352.0,0
+2018,H,NY,25,1,"Morelle, Joseph D.",H8NY25105,WEP,0,convention,,2068.0,0
+2018,H,NY,25,1,"Maxwell, Jim",H8NY25097,R,0,convention,,86725.0,0
+2018,H,NY,25,1,"Maxwell, Jim",H8NY25097,CRV,0,convention,,17285.0,0
+2018,H,NY,25,1,"Maxwell, Jim",H8NY25097,REF,0,convention,,1611.0,0
+2018,H,NY,26,0,"Higgins, Brian",H4NY27076,D,0,unopposed,,156968.0,0
+2018,H,NY,26,0,"Higgins, Brian",H4NY27076,WF,0,unopposed,,8929.0,0
+2018,H,NY,26,0,"Higgins, Brian",H4NY27076,WEP,0,unopposed,,3269.0,0
+2018,H,NY,27,0,"Collins, Christopher C.",H8NY29032,R,0,unopposed,,114506.0,0
+2018,H,NY,27,0,"Collins, Christopher C.",H8NY29032,CRV,0,unopposed,,23553.0,0
+2018,H,NY,27,0,"Collins, Christopher C.",H8NY29032,IDP,0,unopposed,,2087.0,0
+2018,H,NY,27,0,"McMurray, Nathan D.",H8NY27176,D,0,unopposed,,128167.0,0
+2018,H,NY,27,0,"McMurray, Nathan D.",H8NY27176,WF,0,unopposed,,8090.0,0
+2018,H,NY,27,0,"McMurray, Nathan D.",H8NY27176,WEP,0,unopposed,,2802.0,0
+2018,H,OR,1,0,"Bonamici, Suzanne",H2OR01133,D/IP,0,votes,69774.0,231198.0,0
+2018,H,OR,1,0,"Bonamici, Suzanne",H2OR01133,W(IP),1,votes,406.0,,0
+2018,H,OR,4,0,"DeFazio, Peter A.",H6OR04047,D/IP/PRO/WF,0,votes,78575.0,208710.0,0
+2018,H,OR,4,0,"DeFazio, Peter A.",H6OR04047,W(IP),1,votes,888.0,,0
+2018,H,OR,5,0,"Schrader, Kurt",H8OR05107,D/IP,0,votes,59196.0,197187.0,0
+2018,H,OR,5,0,"Schrader, Kurt",H8OR05107,W(IP),1,votes,498.0,,0
+2018,H,VT,0,0,"Welch, Peter",H6VT00160,D,0,votes,56041.0,188547.0,0
+2018,H,VT,0,0,"Freilich, Dan",H8VT01040,D,0,votes,7889.0,,0
+2018,H,VT,0,0,"Mitchell, Benjamin",H8VT01057,D,0,votes,2680.0,,0
+2018,H,VT,0,0,"Paige, H. Brooke",H8VT00158,W(D),1,votes,32.0,,0
+2018,H,VT,0,0,"Tynio, Anya",H8VT01065,W(D),1,votes,21.0,,0
+2018,H,VT,0,0,"Tynio, Anya",H8VT01065,R,0,,,70705.0,0
+2018,H,VT,0,0,"Paige, H. Brooke",H8VT00158,R,0,votes,14703.0,,0
+2018,H,VT,0,0,"Tynio, Anya",H8VT01065,R,0,votes,8481.0,,0
+2018,H,VT,0,0,"Welch, Peter",H6VT00160,W(R),1,votes,1058.0,,0
+2018,H,VT,0,0,"Freilich, Dan",H8VT01040,W(R),1,votes,61.0,,0
+2018,H,VT,0,0,"Mitchell, Ben",H8VT01057,W(R),1,votes,29.0,,0
+2018,H,VT,0,0,"Douglas, Jim",,W(R),1,votes,7.0,,0
+2018,H,VT,0,0,"Freilich, Dan",H8VT01040,W,1,,,8.0,0
+2018,H,VT,0,0,"Douglas, Jim",,W,1,,,5.0,0
+2018,H,VT,0,0,"Welch, Peter",H6VT00160,W(PRO),1,votes,237.0,,0
+2018,H,VT,0,0,"Freilich, Dan",H8VT01040,W(PRO),1,votes,73.0,,0
+2018,H,VT,0,0,"Paige, H. Brooke",H8VT00158,W(PRO),1,votes,12.0,,0
+2018,H,VT,0,0,"Mitchell, Benjamin",H8VT01057,W(PRO),1,votes,11.0,,0
+2018,H,VT,0,0,"Tynio, Anya",H8VT01065,W(PRO),1,votes,9.0,,0
+2018,H,WI,5,0,"Garcia, Ramon",H8WI05157,W(D),1,votes,5.0,,0
+2018,H,WI,5,0,"Garcia, Ramon",H8WI05157,W,1,,,1.0,0
+2020,S,KY,0,0,"Frangedakis, Paul John",S0KY00347,R,0,votes,11957.0,,0
+2020,S,KY,0,0,"Frangedakis, Paul John",S0KY00347,W,1,,,70.0,0
+2020,S,MA,0,0,All Others,,W(D),1,votes,1935.0,,0
+2020,S,MA,0,0,"Ayyadurai, Shiva",S8MA00268,R,0,votes,104782.0,,0
+2020,S,MA,0,0,All Others,,W(R),1,votes,2245.0,,0
+2020,S,MA,0,0,"Ayyadurai, Shiva",S8MA00268,W,1,,,21134.0,0
+2020,S,MA,0,0,All Others,,W,1,,,7428.0,0
+2020,S,MA,0,0,All Others,,W(LIB),1,votes,3390.0,,0
+2020,S,MI,0,0,"Peters, Gary",S4MI00298,D,0,votes,1180780.0,2734568.0,0
+2020,S,MI,0,0,"Carr, Robert William",S4MI00298,W,1,,,5.0,0
+2020,S,MN,0,0,"Berman, John L.",S0MN00351,R,0,votes,16213.0,,0
+2020,S,MN,0,0,"Berman, John",S0MN00351,W,1,,,2.0,0
+2020,S,NH,0,0,"Shaheen, Jeanne",S0NH00219,D,0,votes,142012.0,450778.0,0
+2020,S,NH,0,0,"Krautmann, Paul J.",S0NH00359,D,0,votes,5914.0,,0
+2020,S,NH,0,0,"Alciere, Tom",S4NH00062,D,0,votes,2992.0,,0
+2020,S,NH,0,0,"Bolduc, Don",S0NH00326,W(D),1,votes,199.0,,0
+2020,S,NH,0,0,"Messner, Corky",S0NH00334,W(D),1,votes,137.0,,0
+2020,S,NH,0,0,"Martin, Andy",S4NH00096,W(D),1,votes,11.0,,0
+2020,S,NH,0,0,"Beloin, Gerard",S0NH00284,W(D),1,votes,3.0,,0
+2020,S,NH,0,0,"Messner, Corky",S0NH00334,R,0,votes,69801.0,326229.0,0
+2020,S,NH,0,0,"Bolduc, Don",S0NH00326,R,0,votes,58749.0,,0
+2020,S,NH,0,0,"Martin, Andy",S4NH00096,R,0,votes,6443.0,,0
+2020,S,NH,0,0,"Beloin, Gerard",S0NH00284,R,0,votes,3098.0,,0
+2020,S,NH,0,0,"Shaheen, Jeanne",S0NH00219,W(R),1,votes,771.0,,0
+2020,S,NH,0,0,"Alciere, Tom",S4NH00062,W(R),1,votes,7.0,,0
+2020,S,NH,0,0,"Krautmann, Paul J.",S0NH00359,W(R),1,votes,7.0,,0
+2020,H,CT,1,0,"Larson, John B.",H8CT01046,D,0,convention,,213001.0,0
+2020,H,CT,1,0,"Larson, John B.",H8CT01046,WF,0,,,9667.0,0
+2020,H,CT,2,0,"Courtney, Joe",H2CT02112,D,0,convention,,207303.0,0
+2020,H,CT,2,0,"Courtney, Joe",H2CT02112,WF,0,,,10816.0,0
+2020,H,CT,3,0,"DeLauro, Rosa L.",H0CT03072,D,0,convention,,194259.0,0
+2020,H,CT,3,0,"DeLauro, Rosa L.",H0CT03072,WF,0,,,9006.0,0
+2020,H,CT,3,0,"Streicker, Margaret",H0CT03155,R,0,convention,,131568.0,0
+2020,H,CT,3,0,"Streicker, Margaret",H0CT03155,IP,0,,,6030.0,0
+2020,H,CT,5,0,"Hayes, Jahana",H8CT05245,D,0,convention,,183797.0,0
+2020,H,CT,5,0,"Hayes, Jahana",H8CT05245,WF,0,,,8687.0,0
+2020,H,MD,7,0,"Smith, Charles U.",H0MD07056,D,0,votes,189.0,,0
+2020,H,MD,7,0,"Bly, Ray",H8MD07042,R,0,votes,1234.0,,0
+2020,H,MD,7,0,"Smith, Charles U.",H0MD07056,W,1,,,21.0,0
+2020,H,MD,7,0,"Bly, Ray",H8MD07042,W,1,,,16.0,0
+2020,H,MD,8,0,"Young, Lih",H6MD08366,D,0,votes,4874.0,,0
+2020,H,MD,8,0,"Young, Lih",H6MD08366,W,1,,,27.0,0
+2020,H,MA,1,0,"Morse, Alex B.",H0MA01081,D,0,votes,59110.0,,0
+2020,H,MA,1,0,All Others,,W(D),1,votes,191.0,,0
+2020,H,MA,1,0,All Others,,W,1,,,8682.0,0
+2020,H,MA,1,0,"Morse, Alex B.",H0MA01081,W,1,,,1274.0,0
+2020,H,MA,2,0,All Others,,W(D),1,votes,686.0,,0
+2020,H,MA,2,0,All Others,,W(R),1,votes,241.0,,0
+2020,H,MA,2,0,All Others,,W,1,,,378.0,0
+2020,H,MA,3,0,All Others,,W(D),1,votes,880.0,,0
+2020,H,MA,3,0,All Others,,W,1,,,6643.0,0
+2020,H,MA,4,0,All Others,,W(D),1,votes,242.0,,0
+2020,H,MA,4,0,All Others,,W(R),1,votes,182.0,,0
+2020,H,MA,4,0,All Others,,W,1,,,1247.0,0
+2020,H,MA,5,0,All Others,,W(D),1,votes,938.0,,0
+2020,H,MA,5,0,All Others,,W(R),1,votes,336.0,,0
+2020,H,MA,5,0,All Others,,W,1,,,405.0,0
+2020,H,MA,5,0,All Others,,W(LIB),1,votes,210.0,,0
+2020,H,MA,6,0,All Others,,W(D),1,votes,268.0,,0
+2020,H,MA,6,0,All Others,,W(R),1,votes,375.0,,0
+2020,H,MA,6,0,All Others,,W,1,,,605.0,0
+2020,H,MA,7,0,All Others,,W(D),1,votes,1979.0,,0
+2020,H,MA,7,0,All Others,,W,1,,,1906.0,0
+2020,H,MA,7,0,"Campbell, Rayla Danella",H0MA07054,W,1,,,695.0,0
+2020,H,MA,7,0,"Miselman, Rachel Nicole",,W,1,,,11.0,0
+2020,H,MA,7,0,All Others,,W(R),1,votes,1779.0,,0
+2020,H,MA,7,0,"Campbell, Rayla",H0MA07054,W(R),1,votes,1202.0,,0
+2020,H,MA,7,0,"Miselman, Rachel Nicole",,W(R),1,votes,55.0,,0
+2020,H,MA,8,0,All Others,,W(D),1,votes,222.0,,0
+2020,H,MA,8,0,All Others,,W,1,,,2401.0,0
+2020,H,MA,9,0,All Others,,W(D),1,votes,751.0,,0
+2020,H,MA,9,0,All Others,,W(R),1,votes,378.0,,0
+2020,H,MA,9,0,All Others,,W,1,,,361.0,0
+2020,H,MI,9,0,"Troszak, Douglas Allen",,W(R),1,votes,1.0,,0
+2020,H,MI,9,0,"Troszak, Douglas Allen",,W,1,,,1.0,0
+2020,H,MI,11,0,"Acosta, Frank",H0MI11103,R,0,votes,11030.0,,0
+2020,H,MI,11,0,"Acosta, Frank",H0MI11103,W,1,,,4.0,0
+2020,H,NH,1,0,"Pappas, Chris",H8NH01210,D,0,votes,70643.0,205606.0,0
+2020,H,NH,1,0,"Mowers, Matt",H0NH01282,W(D),1,votes,101.0,,0
+2020,H,NH,1,0,"Mayberry, Matt",H0NH01290,W(D),1,votes,71.0,,0
+2020,H,NH,1,0,"Denaro, Jeff",H8NH01319,W(D),1,votes,9.0,,0
+2020,H,NH,1,0,"Callis, Michael",H6NH01263,W(D),1,votes,8.0,,0
+2020,H,NH,1,0,"Rondeau, Kevin",H0NH01258,W(D),1,votes,8.0,,0
+2020,H,NH,1,0,"Mowers, Matt",H0NH01282,R,0,votes,41100.0,185159.0,0
+2020,H,NH,1,0,"Mayberry, Matt",H0NH01290,R,0,votes,18479.0,,0
+2020,H,NH,1,0,"Rondeau, Kevin",H0NH01258,R,0,votes,4203.0,,0
+2020,H,NH,1,0,"Denaro, Jeff",H8NH01319,R,0,votes,2723.0,,0
+2020,H,NH,1,0,"Callis, Michael",H6NH01263,R,0,votes,2703.0,,0
+2020,H,NH,1,0,"Pappas, Chris",H8NH01210,W(R),1,votes,254.0,,0
+2020,H,NH,2,0,"McClane Kuster, Anne",H0NH02181,D,0,votes,71358.0,208289.0,0
+2020,H,NH,2,0,"Mirzoeff, Joseph",H0NH02306,D,0,votes,5500.0,,0
+2020,H,NH,2,0,"Negron, Steven",H8NH02275,W(D),1,votes,63.0,,0
+2020,H,NH,2,0,"Bjelobrk, Matthew D.",H0NH02298,W(D),1,votes,9.0,,0
+2020,H,NH,2,0,"Clemmer, Eli D.",H0NH02272,W(D),1,votes,9.0,,0
+2020,H,NH,2,0,"Negron, Steven",H8NH02275,R,0,votes,30503.0,168886.0,0
+2020,H,NH,2,0,"Bjelobrk, Matthew D.",H0NH02298,R,0,votes,4381.0,,0
+2020,H,NH,2,0,"Clemmer, Eli D.",H0NH02272,R,0,votes,3850.0,,0
+2020,H,NH,2,0,"McClane Kuster, Anne",H0NH02181,W(R),1,votes,201.0,,0
+2020,H,NH,2,0,"Mirzoeff, Joseph",H0NH02306,W(R),1,votes,5.0,,0
+2020,H,NY,1,0,"Zeldin, Lee M.",H8NY01148,R,0,unopposed,,180855.0,0
+2020,H,NY,1,0,"Zeldin, Lee M.",H8NY01148,CRV,0,unopposed,,21611.0,0
+2020,H,NY,1,0,"Zeldin, Lee M.",H8NY01148,IDP,0,unopposed,,3249.0,0
+2020,H,NY,1,0,"Goroff, Nancy S.",H0NY01186,D,0,votes,17970.0,160978.0,0
+2020,H,NY,1,0,"Goroff, Nancy S.",H0NY01186,WF,0,replacement,,8316.0,0
+2020,H,NY,2,0,"Garbarino, Andrew R.",H0NY02234,R,0,votes,17462.0,158151.0,0
+2020,H,NY,2,0,"Garbarino, Andrew R.",H0NY02234,CRV,0,unopposed,,17434.0,0
+2020,H,NY,2,0,"Garbarino, Andrew R.",H0NY02234,LIB,0,unopposed,,1491.0,0
+2020,H,NY,2,0,"Garbarino, Andrew R.",H0NY02234,SAM,0,unopposed,,303.0,0
+2020,H,NY,2,0,"Gordon, Jackie",H0NY02192,D,0,votes,25317.0,144849.0,0
+2020,H,NY,2,0,"Gordon, Jackie",H0NY02192,WF,0,unopposed,,6380.0,0
+2020,H,NY,2,0,"Gordon, Jackie",H0NY02192,IDP,0,unopposed,,3017.0,0
+2020,H,NY,3,0,"Suozzi, Thomas R.",H6NY03247,D,0,votes,36812.0,196056.0,0
+2020,H,NY,3,0,"Suozzi, Thomas R.",H6NY03247,WF,0,replacement,,9203.0,0
+2020,H,NY,3,0,"Suozzi, Thomas R.",H6NY03247,IDP,0,unopposed,,3296.0,0
+2020,H,NY,3,0,"Santos, George A.D.",H0NY03083,R,0,unopposed,,147461.0,0
+2020,H,NY,3,0,"Santos, George A.D.",H0NY03083,CRV,0,unopposed,,14470.0,0
+2020,H,NY,4,0,"Tuman, Douglas L.",H0NY04156,R,0,votes,10898.0,139559.0,0
+2020,H,NY,4,0,"Tuman, Douglas L.",H0NY04156,CRV,0,unopposed,,13448.0,0
+2020,H,NY,6,0,"Meng, Grace",H2NY06116,D,0,votes,30759.0,144149.0,0
+2020,H,NY,6,0,"Meng, Grace",H2NY06116,WF,0,unopposed,,14713.0,0
+2020,H,NY,6,0,"Zmich, Thomas J.",H0NY06086,R,0,unopposed,,67735.0,0
+2020,H,NY,6,0,"Zmich, Thomas J.",H0NY06086,CRV,0,unopposed,,5231.0,0
+2020,H,NY,6,0,"Zmich, Thomas J.",H0NY06086,SVC,0,,,1109.0,0
+2020,H,NY,6,0,"Zmich, Thomas J.",H0NY06086,LIB,0,unopposed,,754.0,0
+2020,H,NY,7,0,"Velazquez, Nydia M.",H2NY00010,D,0,votes,56698.0,156889.0,0
+2020,H,NY,7,0,"Velazquez, Nydia M.",H2NY00010,WF,0,unopposed,,34184.0,0
+2020,H,NY,7,0,"Kelly, Brian W.",H0NY07118,R,0,unopposed,,29404.0,0
+2020,H,NY,7,0,"Kelly, Brian W.",H0NY07118,CRV,0,unopposed,,3116.0,0
+2020,H,NY,8,0,"Jeffries, Hakeem S.",H2NY10092,D,0,unopposed,,207111.0,0
+2020,H,NY,8,0,"Jeffries, Hakeem S.",H2NY10092,WF,0,unopposed,,27822.0,0
+2020,H,NY,8,0,"Wallace, Garfield H.",H0NY08108,R,0,unopposed,,39124.0,0
+2020,H,NY,8,0,"Wallace, Garfield H.",H0NY08108,CRV,0,unopposed,,2883.0,0
+2020,H,NY,9,0,"Clarke, Yvette D.",H4NY11138,D,0,votes,52293.0,195758.0,0
+2020,H,NY,9,0,"Clarke, Yvette D.",H4NY11138,WF,0,replacement,,34463.0,0
+2020,H,NY,9,0,"Jean-Pierre, Constantine",H0NY09122,R,0,unopposed,,40110.0,0
+2020,H,NY,9,0,"Jean-Pierre, Constantine",H0NY09122,CRV,0,unopposed,,3840.0,0
+2020,H,NY,10,0,"Nadler, Jerrold L.",H2NY17071,D,0,votes,51054.0,181215.0,0
+2020,H,NY,10,0,"Nadler, Jerrold L.",H2NY17071,WF,0,unopposed,,25095.0,0
+2020,H,NY,10,0,"Bernstein, Cathy A.",H0NY10112,R,0,unopposed,,61045.0,0
+2020,H,NY,10,0,"Bernstein, Cathy A.",H0NY10112,CRV,0,unopposed,,5844.0,0
+2020,H,NY,11,0,"Malliotakis, Nicole",H0NY11078,R,0,votes,15697.0,143420.0,0
+2020,H,NY,11,0,"Malliotakis, Nicole",H0NY11078,CRV,0,unopposed,,12188.0,0
+2020,H,NY,11,0,"Rose, Max N.",H8NY11113,D,0,unopposed,,134625.0,0
+2020,H,NY,11,0,"Rose, Max N.",H8NY11113,IDP,0,unopposed,,2573.0,0
+2020,H,NY,12,0,"Santiago-Cano, Carlos",H0NY12209,R,0,unopposed,,49157.0,0
+2020,H,NY,12,0,"Santiago-Cano, Carlos",H0NY12209,CRV,0,unopposed,,3904.0,0
+2020,H,NY,13,0,"Espaillat, Adriano",H2NY13096,D,0,votes,46066.0,202916.0,0
+2020,H,NY,13,0,"Espaillat, Adriano",H2NY13096,WF,0,unopposed,,28925.0,0
+2020,H,NY,14,0,"Caruso-Cabrera, Michelle",H0NY14346,D/SAM,0,votes,11339.0,,0
+2020,H,NY,14,0,"Cummings, John C.",H0NY14296,R,0,unopposed,,52447.0,0
+2020,H,NY,14,0,"Cummings, John C.",H0NY14296,CRV,0,unopposed,,5963.0,0
+2020,H,NY,14,0,"Caruso-Cabrera, Michelle",H0NY14346,SAM,0,unopposed,,2000.0,0
+2020,H,NY,15,0,"Delices, Patrick",H0NY15202,R,0,replacement,,18984.0,0
+2020,H,NY,15,0,"Delices, Patrick",H0NY15202,CRV,0,unopposed,,2237.0,0
+2020,H,NY,17,0,"Jones, Mondaire",H0NY17174,D,0,votes,32796.0,183976.0,0
+2020,H,NY,17,0,"Jones, Mondaire",H0NY17174,WF,0,unopposed,,13378.0,0
+2020,H,NY,17,0,"Gottesfeld, Yehudis",H0NY17307,R,0,votes,2337.0,,0
+2020,H,NY,17,0,"Gottesfeld, Yehudis",H0NY17307,CRV,0,unopposed,,8887.0,0
+2020,H,NY,18,0,"Maloney, Sean Patrick",H2NY22139,D,0,unopposed,,171161.0,0
+2020,H,NY,18,0,"Maloney, Sean Patrick",H2NY22139,WF,0,unopposed,,12924.0,0
+2020,H,NY,18,0,"Maloney, Sean Patrick",H2NY22139,IDP,0,unopposed,,3359.0,0
+2020,H,NY,18,0,"Farley, Chele C.",H0NY18172,R,0,unopposed,,128611.0,0
+2020,H,NY,18,0,"Farley, Chele C.",H0NY18172,CRV,0,unopposed,,16534.0,0
+2020,H,NY,18,0,"Smith, Scott A.",H4NY18109,LIB,0,unopposed,,2687.0,0
+2020,H,NY,18,0,"Smith, Scott A.",H4NY18109,SAM,0,unopposed,,477.0,0
+2020,H,NY,19,0,"Delgado, Antonio",H8NY19181,D,0,unopposed,,168281.0,0
+2020,H,NY,19,0,"Delgado, Antonio",H8NY19181,WF,0,unopposed,,22969.0,0
+2020,H,NY,19,0,"Delgado, Antonio",H8NY19181,SAM,0,unopposed,,850.0,0
+2020,H,NY,20,0,"Tonko, Paul D.",H8NY21203,D,0,unopposed,,194071.0,0
+2020,H,NY,20,0,"Tonko, Paul D.",H8NY21203,WF,0,unopposed,,19678.0,0
+2020,H,NY,20,0,"Tonko, Paul D.",H8NY21203,IDP,0,unopposed,,5956.0,0
+2020,H,NY,20,0,"Joy, Elizabeth L.",H0NY20111,R,0,unopposed,,120839.0,0
+2020,H,NY,20,0,"Joy, Elizabeth L.",H0NY20111,CRV,0,unopposed,,17849.0,0
+2020,H,NY,20,0,"Joy, Elizabeth L.",H0NY20111,SAM,0,unopposed,,758.0,0
+2020,H,NY,21,0,"Stefanik, Elise M.",H4NY21079,R,0,unopposed,,169684.0,0
+2020,H,NY,21,0,"Stefanik, Elise M.",H4NY21079,CRV,0,unopposed,,15044.0,0
+2020,H,NY,21,0,"Stefanik, Elise M.",H4NY21079,IDP,0,unopposed,,3927.0,0
+2020,H,NY,21,0,"Cobb, Tedra L.",H8NY21245,D,0,unopposed,,122422.0,0
+2020,H,NY,21,0,"Cobb, Tedra L.",H8NY21245,WF,0,unopposed,,9573.0,0
+2020,H,NY,22,0,"Tenney, Claudia",H4NY22051,R,0,votes,23784.0,143291.0,0
+2020,H,NY,22,0,"Tenney, Claudia",H4NY22051,CRV,0,unopposed,,12807.0,0
+2020,H,NY,22,0,"Brindisi, Anthony J.",H8NY22151,D,0,unopposed,,138898.0,0
+2020,H,NY,22,0,"Brindisi, Anthony J.",H8NY22151,WF,0,unopposed,,11188.0,0
+2020,H,NY,22,0,"Brindisi, Anthony J.",H8NY22151,IDP,0,unopposed,,5903.0,0
+2020,H,NY,23,0,"Reed, Tom",H0NY29054,R,0,unopposed,,161800.0,0
+2020,H,NY,23,0,"Reed, Tom",H0NY29054,CRV,0,unopposed,,15512.0,0
+2020,H,NY,23,0,"Reed, Tom",H0NY29054,IDP,0,unopposed,,3709.0,0
+2020,H,NY,23,0,"Mitrano, Tracy",H8NY23183,D,0,unopposed,,116025.0,0
+2020,H,NY,23,0,"Mitrano, Tracy",H8NY23183,WF,0,replacement,,12951.0,0
+2020,H,NY,24,0,"Katko, John M.",H4NY24073,R,0,unopposed,,156236.0,0
+2020,H,NY,24,0,"Katko, John M.",H4NY24073,CRV,0,unopposed,,21086.0,0
+2020,H,NY,24,0,"Katko, John M.",H4NY24073,IDP,0,unopposed,,5487.0,0
+2020,H,NY,25,0,"Morelle, Joseph D.",H8NY25105,D,0,votes,42955.0,187503.0,0
+2020,H,NY,25,0,"Morelle, Joseph D.",H8NY25105,WF,0,unopposed,,14584.0,0
+2020,H,NY,25,0,"Morelle, Joseph D.",H8NY25105,IDP,0,unopposed,,4309.0,0
+2020,H,NY,25,0,"Mitris, George",H0NY25094,R,0,replacement,,115940.0,0
+2020,H,NY,25,0,"Mitris, George",H0NY25094,CRV,0,unopposed,,20258.0,0
+2020,H,NY,26,0,"Higgins, Brian",H4NY27076,D,0,unopposed,,202400.0,0
+2020,H,NY,26,0,"Higgins, Brian",H4NY27076,WF,0,unopposed,,20309.0,0
+2020,H,NY,26,0,"Higgins, Brian",H4NY27076,SAM,0,unopposed,,657.0,0
+2020,H,NY,27,0,"Jacobs, Chris",H0NY27090,R,0,votes,40459.0,192619.0,0
+2020,H,NY,27,0,"Parlato, Beth",H0NY27108,R,0,votes,14805.0,,0
+2020,H,NY,27,0,"Jacobs, Chris",H0NY27090,CRV,0,replacement,,31006.0,0
+2020,H,NY,27,0,"Parlato, Beth",H0NY27108,CRV,0,unopposed,,,0
+2020,H,NY,27,0,"Jacobs, Chris",H0NY27090,IDP,0,unopposed,,5260.0,0
+2020,H,NY,27,0,"McMurray, Nathan D.",H8NY27176,D,0,unopposed,,136686.0,0
+2020,H,NY,27,0,"McMurray, Nathan D.",H8NY27176,WF,0,unopposed,,12763.0,0
+2020,H,OR,5,0,"Roman, Angela",H0OR05088,R,0,votes,6155.0,,0
+2020,H,OR,5,0,"Roman, Angela",H0OR05088,LIB,0,,,,0
+2020,H,TN,7,0,"Green, Mark E.",H0TN07255,R,0,votes,73540.0,245188.0,0
+2020,H,TN,7,0,"Sreepada, Kiran",H0TN07255,D,0,votes,23390.0,95839.0,0
+2020,H,UT,3,0,"Robinson, Trey",H0UT03201,D,0,,,,0
+2020,H,UT,3,0,"Robinson, Trey",H0UT03201,W,1,,,250.0,0
+2020,H,VT,0,0,"Welch, Peter",H6VT00160,D,0,votes,101566.0,238833.0,0
+2020,H,VT,0,0,"Corbo, Ralph ""Carcajou""",H0VT00122,D,0,votes,4599.0,,0
+2020,H,VT,0,0,"Brimmer, Chris",H0VT00148,W(D),1,votes,22.0,,0
+2020,H,VT,0,0,"Berry, Miriam",H0VT00130,W(D),1,votes,12.0,,0
+2020,H,VT,0,0,"Ericson, Cris",H8VT00141,W(D),1,votes,11.0,,0
+2020,H,VT,0,0,"Tuthill, Justin",H0VT01070,W(D),1,votes,9.0,,0
+2020,H,VT,0,0,"Berry, Miriam",H0VT00130,R,0,votes,14368.0,95830.0,0
+2020,H,VT,0,0,"Tuthill, Justin",H0VT01070,R,0,votes,10915.0,,0
+2020,H,VT,0,0,"Welch, Peter",H6VT00160,W(R),1,votes,1434.0,,0
+2020,H,VT,0,0,"Ericson, Cris",H8VT00141,W(R),1,votes,13.0,,0
+2020,H,VT,0,0,"Brimmer, Chris",H0VT00148,W(R),1,votes,8.0,,0
+2020,H,VT,0,0,"Carbo, Ralph ""Carcajou""",H0VT00122,W(R),1,votes,8.0,,0
+2020,H,VT,0,0,"Brimmer, Chris",H0VT00148,PRO,0,votes,469.0,,0
+2020,H,VT,0,0,"Ericson, Cris",H8VT00141,PRO,0,votes,236.0,,0
+2020,H,VT,0,0,"Welch, Peter",H6VT00160,W(PRO),1,votes,75.0,,0
+2022,S,CT,0,0,"Blumenthal, Richard",S0CT00177,D,0,convention,,701175.0,0
+2022,S,CT,0,0,"Blumenthal, Richard",S0CT00177,WF,0,,,22689.0,0
+2022,S,MO,0,0,"Lewis, Patrick A.",S2MO00684,R,0,votes,6085.0,,0
+2022,S,MO,0,0,"Rolen, Lewis",S2MO00684,D,0,votes,5247.0,,0
+2022,S,NH,0,0,"Hassan, Maggie",S6NH00091,D,0,votes,88146.0,332490.0,0
+2022,S,NH,0,0,"Krautmann, Paul J.",S0NH00359,D,0,votes,3629.0,,0
+2022,S,NH,0,0,"Riggieri, John",S2NH00314,D,0,votes,1680.0,,0
+2022,S,NH,0,0,"Bolduc, Donald C.",S0NH00326,W(D),1,votes,185.0,,0
+2022,S,NH,0,0,"Morse, Chuck",S2NH00249,W(D),1,votes,133.0,,0
+2022,S,NH,0,0,"Smith, Kevin H.",S2NH00231,W(D),1,votes,30.0,,0
+2022,S,NH,0,0,"Fenton, Bruce",S2NH00280,W(D),1,votes,28.0,,0
+2022,S,NH,0,0,"Mansharamani, Vikram",S2NH00272,W(D),1,votes,20.0,,0
+2022,S,NH,0,0,"Martin, Andy",S4NH00096,W(D),1,votes,6.0,,0
+2022,S,NH,0,0,"Berman, John",S2NH00298,W(D),1,votes,1.0,,0
+2022,S,NH,0,0,"Laplante, Edmond, Jr.",S2NH00223,W(D),1,votes,1.0,,0
+2022,S,NH,0,0,"Sivalingam, Tejasinha",S2NH00207,W(D),1,votes,1.0,,0
+2022,S,NH,0,0,"Beloin, Gerard",S0NH00284,W(D),1,votes,0.0,,0
+2022,S,NH,0,0,"Lamare, Dennis",S2NH00215,W(D),1,votes,0.0,,0
+2022,S,NH,0,0,"Bolduc, Donald C.",S0NH00326,R,0,votes,52629.0,275631.0,0
+2022,S,NH,0,0,"Morse, Chuck",S2NH00249,R,0,votes,50929.0,,0
+2022,S,NH,0,0,"Smith, Kevin H.",S2NH00231,R,0,votes,16621.0,,0
+2022,S,NH,0,0,"Mansharamani, Vikram",S2NH00272,R,0,votes,10690.0,,0
+2022,S,NH,0,0,"Fenton, Bruce",S2NH00280,R,0,votes,6381.0,,0
+2022,S,NH,0,0,"Berman, John",S2NH00298,R,0,votes,961.0,,0
+2022,S,NH,0,0,"Martin, Andy",S4NH00096,R,0,votes,920.0,,0
+2022,S,NH,0,0,"Sivalingam, Tejasinha",S2NH00207,R,0,votes,832.0,,0
+2022,S,NH,0,0,"Lamare, Dennis",S2NH00215,R,0,votes,773.0,,0
+2022,S,NH,0,0,"Laplante, Edmond, Jr.",S2NH00223,R,0,votes,723.0,,0
+2022,S,NH,0,0,"Beloin, Gerard",S0NH00284,R,0,votes,521.0,,0
+2022,S,NH,0,0,"Hassan, Maggie",S6NH00091,W(R),1,votes,316.0,,0
+2022,S,NH,0,0,"Krautmann, Paul J.",S0NH00359,W(R),1,votes,14.0,,0
+2022,S,NH,0,0,"Riggieri, John",S2NH00314,W(R),1,votes,2.0,,0
+2022,S,NY,0,0,"Schumer, Charles E.",S8NY00082,D,0,unopposed,,3022822.0,0
+2022,S,NY,0,0,"Schumer, Charles E.",S8NY00082,WF,0,unopposed,,297739.0,0
+2022,S,NY,0,0,"Pinion, Joe",S2NY00499,R,0,unopposed,,2204499.0,0
+2022,S,NY,0,0,"Pinion, Joe",S2NY00499,CRV,0,unopposed,,296652.0,0
+2022,S,UT,0,0,"Hamblin, Laird Fetzer",S2UT00377,R,0,,,,0
+2022,S,UT,0,0,"Hamblin, Laird Fetzer",S2UT00377,W,1,,,152.0,0
+2022,H,CT,1,0,"Larson, John B.",H8CT01046,D,0,convention,,144873.0,0
+2022,H,CT,1,0,"Larson, John B.",H8CT01046,WF,0,,,4683.0,0
+2022,H,CT,4,0,"Stevenson, Jayme",H2CT04134,IP,0,,,2493.0,0
+2022,H,CT,4,0,"Stevenson, Jayme",H2CT04134,R,0,votes,9962.0,93329.0,0
+2022,H,CT,5,0,"Hayes, Jahana",H8CT05245,D,0,convention,,123818.0,0
+2022,H,CT,5,0,"Hayes, Jahana",H8CT05245,WF,0,,,4020.0,0
+2022,H,CT,5,0,"Logan, George S.",H2CT05222,R,0,convention,,123342.0,0
+2022,H,CT,5,0,"Logan, George S.",H2CT05222,IP,0,,,2492.0,0
+2022,H,IL,3,0,"Ramirez, Delia",H2IL03162,D,0,votes,37296.0,121764.0,0
+2022,H,IL,3,0,"Burau, Justin",H2IL03162,R,0,votes,18997.0,55995.0,0
+2022,H,KY,3,0,"Cobble, Daniel",H2KY03248,R,0,votes,1539.0,,0
+2022,H,KY,3,0,"Cobble, Daniel",H2KY03248,W,1,,,30.0,0
+2022,H,MA,1,0,All Others,,W(D),1,votes,606.0,,0
+2022,H,MA,1,0,All Others,,W(R),1,votes,194.0,,0
+2022,H,MA,1,0,All Others,,W,1,,,378.0,0
+2022,H,MA,2,0,All Others,,W(D),1,votes,216.0,,0
+2022,H,MA,2,0,All Others,,W(R),1,votes,140.0,,0
+2022,H,MA,2,0,All Others,,W,1,,,276.0,0
+2022,H,MA,3,0,All Others,,W(D),1,votes,283.0,,0
+2022,H,MA,3,0,All Others,,W(R),1,votes,180.0,,0
+2022,H,MA,3,0,All Others,,W,1,,,220.0,0
+2022,H,MA,4,0,All Others,,W(D),1,votes,481.0,,0
+2022,H,MA,4,0,All Others,,W,1,,,6397.0,0
+2022,H,MA,4,0,All Others,,W(R),1,votes,1457.0,,0
+2022,H,MA,5,0,All Others,,W(D),1,votes,329.0,,0
+2022,H,MA,5,0,All Others,,W(R),1,votes,161.0,,0
+2022,H,MA,5,0,All Others,,W,1,,,186.0,0
+2022,H,MA,6,0,All Others,,W(D),1,votes,597.0,,0
+2022,H,MA,6,0,All Others,,W(R),1,votes,240.0,,0
+2022,H,MA,6,0,All Others,,W,1,,,197.0,0
+2022,H,MA,7,0,All Others,,W(D),1,votes,893.0,,0
+2022,H,MA,7,0,All Others,,W(R),1,votes,114.0,,0
+2022,H,MA,7,0,All Others,,W,1,,,557.0,0
+2022,H,MA,8,0,All Others,,W(D),1,votes,715.0,,0
+2022,H,MA,8,0,All Others,,W(R),1,votes,124.0,,0
+2022,H,MA,8,0,All Others,,W,1,,,451.0,0
+2022,H,MA,9,0,All Others,,W(D),1,votes,228.0,,0
+2022,H,MA,9,0,All Others,,W(R),1,votes,113.0,,0
+2022,H,MA,9,0,All Others,,W,1,,,150.0,0
+2022,H,MI,13,0,"Landin, Rogelio",H2MI13352,W(D),1,votes,3.0,,0
+2022,H,MI,13,0,"Landin, Rogelio J.",H2MI13352,W,1,,,1.0,0
+2022,H,NH,1,0,"Pappas, Chris",H8NH01210,D,0,votes,41990.0,167391.0,0
+2022,H,NH,1,0,"Leavitt, Karoline",H2NH01270,W(D),1,votes,72.0,,0
+2022,H,NH,1,0,"Mowers, Matt",H0NH01282,W(D),1,votes,72.0,,0
+2022,H,NH,1,0,"Brown, Gail Huff",H2NH01288,W(D),1,votes,42.0,,0
+2022,H,NH,1,0,"Baxter, Tim",H2NH01262,W(D),1,votes,19.0,,0
+2022,H,NH,1,0,"Prescott, Russell",H2NH01304,W(D),1,votes,15.0,,0
+2022,H,NH,1,0,"Maxwell, Mary",H6NH02154,W(D),1,votes,2.0,,0
+2022,H,NH,1,0,"Rondeau, Kevin R.",H0NH01258,W(D),1,votes,2.0,,0
+2022,H,NH,1,0,"Alciere, Tom",H6NH02089,W(D),1,votes,1.0,,0
+2022,H,NH,1,0,"Towne, Gilead R.",H0NH02280,W(D),1,votes,1.0,,0
+2022,H,NH,1,0,"Kilbane, Mark",H2NH01296,W(D),1,votes,0.0,,0
+2022,H,NH,1,0,"Leavitt, Karoline",H2NH01270,R,0,votes,25931.0,142229.0,0
+2022,H,NH,1,0,"Mowers, Matt",H0NH01282,R,0,votes,19072.0,,0
+2022,H,NH,1,0,"Brown, Gail Huff",H2NH01288,R,0,votes,12999.0,,0
+2022,H,NH,1,0,"Prescott, Russell",H2NH01304,R,0,votes,7551.0,,0
+2022,H,NH,1,0,"Baxter, Tim",H2NH01262,R,0,votes,6970.0,,0
+2022,H,NH,1,0,"Maxwell, Mary",H6NH02154,R,0,votes,673.0,,0
+2022,H,NH,1,0,"Rondeau, Kevin R.",H0NH01258,R,0,votes,610.0,,0
+2022,H,NH,1,0,"Towne, Gilead R.",H0NH02280,R,0,votes,466.0,,0
+2022,H,NH,1,0,"Kilbane, Mark",H2NH01296,R,0,votes,347.0,,0
+2022,H,NH,1,0,"Alciere, Tom",H6NH02089,R,0,votes,342.0,,0
+2022,H,NH,1,0,"Pappas, Chris",H8NH01210,W(R),1,votes,181.0,,0
+2022,H,NH,2,0,"Kuster, Ann McLane",H0NH02181,D,0,votes,48630.0,171636.0,0
+2022,H,NH,2,0,"Burns, Robert",H2NH00025,W(D),1,votes,52.0,,0
+2022,H,NH,2,0,"Hansel, George",H2NH02294,W(D),1,votes,49.0,,0
+2022,H,NH,2,0,"Williams, Lily Tang",H2NH02260,W(D),1,votes,45.0,,0
+2022,H,NH,2,0,"Black, Scott",H2NH02286,W(D),1,votes,7.0,,0
+2022,H,NH,2,0,"Poirer, Dean A.",H2NH02229,W(D),1,votes,5.0,,0
+2022,H,NH,2,0,"Mercer, Jay",H6NH02220,W(D),1,votes,4.0,,0
+2022,H,NH,2,0,"Callis, Michael",H6NH01263,W(D),1,votes,0.0,,0
+2022,H,NH,2,0,"Burns, Robert",H2NH00025,R,0,votes,21065.0,135579.0,0
+2022,H,NH,2,0,"Hansel, George",H2NH02294,R,0,votes,19024.0,,0
+2022,H,NH,2,0,"Williams, Lily Tang",H2NH02260,R,0,votes,15729.0,,0
+2022,H,NH,2,0,"Black, Scott",H2NH02286,R,0,votes,2211.0,,0
+2022,H,NH,2,0,"Mercer, Jay",H6NH02220,R,0,votes,2085.0,,0
+2022,H,NH,2,0,"Poirer, Dean A.",H2NH02229,R,0,votes,2047.0,,0
+2022,H,NH,2,0,"Callis, Michael",H6NH01263,R,0,votes,1133.0,,0
+2022,H,NH,2,0,"Kuster, Ann McLane",H0NH02181,W(R),1,votes,125.0,,0
+2022,H,NY,1,0,"LaLota, Nicholas J.",H0NY02200,R,0,votes,12015.0,154046.0,0
+2022,H,NY,1,0,"LaLota, Nicholas J.",H0NY02200,CRV,0,unopposed,,22994.0,0
+2022,H,NY,1,0,"Fleming, Bridget",H0NY01202,D,0,unopposed,,135170.0,0
+2022,H,NY,1,0,"Fleming, Bridget",H0NY01202,WF,0,unopposed,,6737.0,0
+2022,H,NY,2,0,"Garbarino, Andrew R.",H0NY02234,R,0,votes,9902.0,130798.0,0
+2022,H,NY,2,0,"Garbarino, Andrew R.",H0NY02234,CRV,0,unopposed,,20380.0,0
+2022,H,NY,2,0,"Gordon, Jackie",H0NY02192,D,0,unopposed,,93299.0,0
+2022,H,NY,2,0,"Gordon, Jackie",H0NY02192,WF,0,unopposed,,4475.0,0
+2022,H,NY,3,0,"Santos, George A.D.",H0NY03083,R,0,unopposed,,133859.0,0
+2022,H,NY,3,0,"Santos, George A.D.",H0NY03083,CRV,0,unopposed,,11965.0,0
+2022,H,NY,3,0,"Zimmerman, Robert P.",H2NY03188,D,0,votes,10074.0,120045.0,0
+2022,H,NY,3,0,"Zimmerman, Robert P.",H2NY03188,WF,0,,,5359.0,0
+2022,H,NY,4,0,"D'Esposito, Anthony P.",H2NY04277,R,0,unopposed,,129353.0,0
+2022,H,NY,4,0,"D'Esposito, Anthony P.",H2NY04277,CRV,0,unopposed,,11269.0,0
+2022,H,NY,5,0,"King, Paul",H2NY05126,R,0,unopposed,,31405.0,0
+2022,H,NY,5,0,"King, Paul",H2NY05126,CRV,0,unopposed,,3002.0,0
+2022,H,NY,6,0,"Zmich, Thomas J.",H0NY06086,R,0,unopposed,,44264.0,0
+2022,H,NY,6,0,"Zmich, Thomas J.",H0NY06086,CRV,0,unopposed,,3240.0,0
+2022,H,NY,6,0,"Zmich, Thomas J.",H0NY06086,MF,0,,,431.0,0
+2022,H,NY,7,0,"Velazquez, Nydia M.",H2NY00010,D,0,votes,22797.0,95645.0,0
+2022,H,NY,7,0,"Velazquez, Nydia M.",H2NY00010,WF,0,unopposed,,23828.0,0
+2022,H,NY,7,0,"Pagan, Juan",H2NY07064,R,0,unopposed,,26351.0,0
+2022,H,NY,7,0,"Pagan, Juan",H2NY07064,CRV,0,unopposed,,2246.0,0
+2022,H,NY,8,0,"Dashevsky, Yuri",H2NY08187,R,0,unopposed,,36776.0,0
+2022,H,NY,8,0,"Dashevsky, Yuri",H2NY08187,CRV,0,unopposed,,2284.0,0
+2022,H,NY,9,0,"Clarke, Yvette D.",H4NY11138,D,0,unopposed,,99771.0,0
+2022,H,NY,9,0,"Clarke, Yvette D.",H4NY11138,WF,0,unopposed,,17199.0,0
+2022,H,NY,10,0,"Hamdan, Benine A.",H2NY10134,R,0,unopposed,,26711.0,0
+2022,H,NY,10,0,"Hamdan, Benine A.",H2NY10134,CRV,0,unopposed,,2347.0,0
+2022,H,NY,11,0,"Malliotakis, Nicole",H0NY11078,R,0,votes,12431.0,107989.0,0
+2022,H,NY,11,0,"Malliotakis, Nicole",H0NY11078,CRV,0,unopposed,,8003.0,0
+2022,H,NY,12,0,"Nadler, Jerrold L.",H2NY17071,D,0,votes,49744.0,184872.0,0
+2022,H,NY,12,0,"Nadler, Jerrold L.",H2NY17071,WF,0,unopposed,,16018.0,0
+2022,H,NY,12,0,"Zumbluskas, Michael K.",H2NY12221,R,0,unopposed,,40994.0,0
+2022,H,NY,12,0,"Zumbluskas, Michael K.",H2NY12221,CRV,0,unopposed,,2715.0,0
+2022,H,NY,12,0,"Zumbluskas, Michael K.",H2NY12221,PRT,0,,,464.0,0
+2022,H,NY,14,0,"Ocasio-Cortez, Alexandria",H8NY15148,D,0,unopposed,,74050.0,0
+2022,H,NY,14,0,"Ocasio-Cortez, Alexandria",H8NY15148,WF,0,unopposed,,8403.0,0
+2022,H,NY,14,0,"Cuellar, Desi Joseph",H2NY14094,R,0,votes,761.0,,0
+2022,H,NY,14,0,"Cuellar, Desi",H2NY14094,CRV,0,unopposed,,2208.0,0
+2022,H,NY,16,0,"Bowman, Jamaal",H0NY16143,WF,0,unopposed,,6543.0,0
+2022,H,NY,16,0,"Bowman, Jamaal",H0NY16143,D,0,votes,21643.0,127024.0,0
+2022,H,NY,17,0,"Lawler, Michael V.",H2NY17162,R,0,votes,12317.0,125738.0,0
+2022,H,NY,17,0,"Faulkner, William G.",H2NY16099,R,0,votes,1958.0,,0
+2022,H,NY,17,0,"Lawler, Michael V.",H2NY17162,CRV,0,votes,1078.0,17812.0,0
+2022,H,NY,17,0,"Faulkner, William G.",H2NY16099,CRV,0,votes,156.0,,0
+2022,H,NY,17,0,"Maloney, Sean Patrick",H2NY14037,D,0,votes,24535.0,133457.0,0
+2022,H,NY,17,0,"Maloney, Sean Patrick",H2NY14037,WF,0,unopposed,,8273.0,0
+2022,H,NY,18,0,"Ryan, Pat",H2NY18103,D,0,votes,30093.0,123168.0,0
+2022,H,NY,18,0,"Ryan, Pat",H2NY18103,WF,0,unopposed,,12077.0,0
+2022,H,NY,18,0,"Schmitt, Colin J.",H2NY18087,R,0,unopposed,,116972.0,0
+2022,H,NY,18,0,"Schmitt, Colin J.",H2NY18087,CRV,0,unopposed,,14681.0,0
+2022,H,NY,19,0,"Molinaro, Marcus",H2NY19127,R,0,unopposed,,129960.0,0
+2022,H,NY,19,0,"Molinaro, Marcus",H2NY19127,CRV,0,unopposed,,16044.0,0
+2022,H,NY,19,0,"Riley, Josh",H8NY22177,D,0,votes,31193.0,124396.0,0
+2022,H,NY,19,0,"Riley, Josh",H8NY22177,WF,0,,,17113.0,0
+2022,H,NY,20,0,"Tonko, Paul D.",H8NY21203,D,0,votes,18251.0,145928.0,0
+2022,H,NY,20,0,"Tonko, Paul D.",H8NY21203,WF,0,unopposed,,14492.0,0
+2022,H,NY,20,0,"Joy, Elizabeth L.",H0NY20111,R,0,unopposed,,110903.0,0
+2022,H,NY,20,0,"Joy, Elizabeth L.",H0NY20111,CRV,0,unopposed,,19966.0,0
+2022,H,NY,21,0,"Stefanik, Elise M.",H4NY21079,R,0,unopposed,,150595.0,0
+2022,H,NY,21,0,"Stefanik, Elise M.",H4NY21079,CRV,0,unopposed,,17984.0,0
+2022,H,NY,21,0,"Castelli, Matt",H2NY21164,D,0,votes,19319.0,112645.0,0
+2022,H,NY,21,0,"Castelli, Matt",H2NY21164,MOD,0,,,3776.0,0
+2022,H,NY,22,0,"Williams, Brandon M.",H2NY13120,R,0,votes,14351.0,116529.0,0
+2022,H,NY,22,0,"Williams, Brandon M.",H2NY13120,CRV,0,unopposed,,19015.0,0
+2022,H,NY,23,0,"Langworthy, Nick",H2NY23228,R,0,votes,24450.0,163000.0,0
+2022,H,NY,23,0,"Langworthy, Nick",H2NY23228,CRV,0,unopposed,,29694.0,0
+2022,H,NY,24,0,"Tenney, Claudia",H4NY22051,R,0,votes,17630.0,156347.0,0
+2022,H,NY,24,0,"Tenney, Claudia",H4NY22051,CRV,0,unopposed,,25707.0,0
+2022,H,NY,25,0,"Morelle, Joseph D.",H8NY25105,D,0,unopposed,,139875.0,0
+2022,H,NY,25,0,"Morelle, Joseph D.",H8NY25105,WF,0,unopposed,,12147.0,0
+2022,H,NY,25,0,"Singletary, La'Ron D.",H2NY25082,R,0,unopposed,,108010.0,0
+2022,H,NY,25,0,"Singletary, La'Ron D.",H2NY25082,CRV,0,unopposed,,22180.0,0
+2022,H,NY,26,0,"Higgins, Brian",H4NY27076,D,0,votes,28485.0,141942.0,0
+2022,H,NY,26,0,"Higgins, Brian",H4NY27076,WF,0,unopposed,,14941.0,0
+2022,H,NY,26,0,"Sams, Steven L., II",H2NY26189,R,0,unopposed,,70547.0,0
+2022,H,NY,26,0,"Sams, Steven L., II",H2NY26189,CRV,0,unopposed,,17792.0,0
+2022,H,RI,2,0,"Segal, David A.",H2RI02234,D,0,votes,9067.0,,0
+2022,H,RI,2,0,"Segal, David",H2RI02234,W,1,,,8.0,0
+2022,H,VT,0,0,"Redic, Ericka Bundy",H2VT01084,R,0,votes,8255.0,,0
+2022,H,VT,0,0,"Redic, Ericka",H2VT01084,LIB,0,,,12590.0,0
+2022,H,WV,2,0,"Buchser-Lochocki, Susan",H2WV02183,R,0,votes,3329.0,,0
+2022,H,WV,2,0,"Buchser-Lochocki, Susan",H2WV02183,W,1,,,115.0,0
