@@ -2000,6 +2000,7 @@ race_id,party,name,race,src,source,source_url,note
 2012-H-NY-03,R,Stephen A. Labate,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2012-H-NY-04,D,Carolyn McCarthy,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2012-H-NY-04,R,Francis X. Becker Jr.,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
+2012-H-NY-05,R,Allan W. Jennings Jr.,B,research,웹 조사(2026-11-05),https://qns.com/2003/04/jennings-links-love-life-chinese-community-in-ads/ ; https://qns.com/2004/04/leader-or-loser/ ; https://ballotpedia.org/Allan_Jennings_Jr.,"TimesLedger 2003: ads Councilman Allan Jennings (D-Jamaica) placed in Chinese-language papers said ""the fact that he is black was the reason the couple filed for divorce."""
 2012-H-NY-06,D,Grace Meng,AP,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2012-H-NY-06,R,Daniel J. Halloran,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2012-H-NY-08,D,Hakeem S. Jeffries,B,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
@@ -6294,6 +6295,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-MS-01,R,Trent Kelly,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-MS-02,D,Bennie Thompson,B,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-MS-02,R,Ron Eller,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2024-H-MS-04,D,Craig Raybon,B,research,웹 조사(2026-11-05),https://ballotpedia.org/Craig_Raybon,"Ballotpedia Candidate Connection survey ('Who are you?'): 'Democrat ,hard working, citizen God fearing African American.'"
 2024-H-MS-04,R,Mike Ezell,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-MT-01,D,Monica Tranel,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-MT-01,R,Ryan Zinke,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
@@ -6333,6 +6335,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-NH-02,D,Maggie Goodlander,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-NH-02,R,Lily Tang Williams,AP,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-NJ-01,D,Donald Norcross,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-NJ-01,R,Teddy Liddell,B,research,웹 조사(2026-11-05),https://newjerseyglobe.com/congress/liddell-wins-gop-nod-to-take-on-norcross-in-nj-1/,"New Jersey Globe: 'If he were to win in November, Liddell would be the first Black Republican to ever be elected to Congress from New Jersey.'"
 2024-H-NJ-02,R,Jeff Van Drew,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-NJ-03,D,Herb Conaway,B,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/NJ_candidates_cleaned.csv,다른 해 자료의 같은 사람
 2024-H-NJ-03,R,Rajesh Mohan,AP,file,Rajesh Mohan defeated in New Jersey’s 3rd Congressional district race,https://www.newindiaabroad.com/punjabi/us-elections-2024/rajesh-mohan-defeated-in-new-jerseys-3rd-congressional-district-race,
@@ -6362,6 +6365,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-NV-03,D,Susie Lee,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-NV-04,D,Steven Horsford,B,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-NV-04,R,John Lee,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 자료(주의회·주 선거 등)에서 연결한 같은 사람
+2024-H-NY-01,D,John Avlon,W,research,웹 조사(2026-11-05),https://en.wikipedia.org/wiki/John_Avlon ; https://greekreporter.com/2024/11/04/greek-americans-running-congress/,"Wikipedia: ""He is of Greek descent, and his grandparents were immigrants."" Greek Reporter (Greek-Americans running for Congress, 2024): Avlon ""originally from Corfu and Samos."""
 2024-H-NY-01,R,Nick LaLota,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-NY-02,R,Andrew Garbarino,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-NY-03,D,Tom Suozzi,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
@@ -6381,6 +6385,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-NY-12,D,Jerry Nadler,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-NY-12,R,Michael Zumbluskas,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-NY-13,D,Adriano Espaillat,B/H/MU,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-NY-13,R,Ruben Vargas,H,research,웹 조사(2026-11-05),https://elnuevodiario.com.do/vargas-marca-hito-como-candidato-dominicano-al-congreso-con-32-316-votos-en-elecciones-de-noviembre/,"El Nuevo Diario (Dominican Rep.) calls Ruben Dario Vargas ""candidato republicano dominicano al congreso"" and Espaillat ""su compatriota"" (32,316 votes, Nov 2024)."
 2024-H-NY-14,D,Alexandria Ocasio-Cortez,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-NY-14,R,Tina Forte,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-NY-15,D,Ritchie Torres,B/H,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
@@ -6516,6 +6521,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-TX-04,R,Pat Fallon,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-TX-05,D,Ruth Torres,W/H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-TX-05,R,Lance Gooden,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-TX-06,D,John Love III,B,research,웹 조사(2026-11-05),https://www.offthekuff.com/wp/?p=92431 ; https://ballotpedia.org/John_Love_III_(Texas),"Off the Kuff (2019 TX Senate primary): Love is ""the fourth African-American in the field, along with Amanda Edwards, Royce West, and Michael Cooper."" Ballotpedia lists Texas Black Democrats, NAACP."
 2024-H-TX-06,R,Jake Ellzey,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-TX-07,D,Lizzie Fletcher,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-TX-07,R,Caroline Kane,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
