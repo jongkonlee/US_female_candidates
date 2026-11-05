@@ -1,0 +1,32 @@
+June 13, 2016
+	OK-5 in 2010 and TX-7 in 2000 each had two candidates with duplicate records. I've removed those and alterned the candpct, tvotes, and candnumber variables to reflect the changes. Thanks to Michael Miller for pointing these out to me!
+
+December 21, 2020
+
+	Huge thanks to Mike Miller and Nikki Camberg for the changes in this update:
+ 
+	Michael Miller and Nikki Camberg have updated the dataset from 2012 through 2018. Those data are available on their dataverse page: https://doi.org/10.7910/DVN/CXVMSY
+
+	The data on this dataverse have been updated so that the two databases have the same codebooks and can be appended together.
+
+	Corrected ~28 instances of misspelled candidate names.
+
+	The state variable is now the full state name in lowercase.
+
+	There's a new variable (runoff) which takes the value of 0 if the primary is either in a state where run-offs aren't a thing or the primary didn't spawn a run-off, 1 if it spawned a run-off, and 2 if the election IS a run-off.
+	
+	For primaries that swapned a corresponding runoff, those paired races have been added. The district-level variables stay the same. Values for runoff are missing where I don't have data on runoffs in runoff states. Data were added back to 1982 for  AL, GA, MS, NC, and TX, and back to 1976 for AR, OK, SC, and SD.
+
+	The race ID variable now has a "_p" suffix if it's a primary and "_r" if it's the runoff election.
+
+	Miller/Camberg also identified instances of mis-assigned parties, so vote totals and percentages have been fixed accordingly. The relevant race IDs are: 
+		200043240
+		200043241
+		200032020
+		200032021
+		200032030
+		200836051
+		200043230
+		200043231
+		200043220
+		200043221
