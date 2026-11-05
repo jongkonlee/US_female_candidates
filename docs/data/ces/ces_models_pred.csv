@@ -1,76 +1,76 @@
 ﻿model,woman_party,prior_var,estimator,quantity,label,est,se,p,ci_lo,ci_hi,n,n_races
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,F1,여성 유권자 · 기존 여성 있음,50.557,0.369756,0,49.8323,51.2818,88563,983
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,M1,남성 유권자 · 기존 여성 있음,49.1678,0.388674,0,48.406,49.9296,88563,983
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,F0,여성 유권자 · 기존 여성 없음,49.156,0.332859,0,48.5036,49.8084,88563,983
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,M0,남성 유권자 · 기존 여성 없음,48.7978,0.398149,0,48.0174,49.5781,88563,983
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,gap1,차이(여 − 남) · 기존 여성 있음,1.38925,0.411682,0.000768251,0.58235,2.19614,88563,983
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,gap0,차이(여 − 남) · 기존 여성 없음,0.358189,0.414033,0.387183,-0.453316,1.16969,88563,983
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,dF,여성 유권자 · 차이(있음 − 없음),1.40109,0.578378,0.0155967,0.267465,2.53471,88563,983
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,dM,남성 유권자 · 차이(있음 − 없음),0.370028,0.613915,0.546824,-0.833245,1.5733,88563,983
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,did,차이의 차이,1.03106,0.583116,0.0773405,-0.111851,2.17397,88563,983
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,F1,여성 유권자 · 기존 여성 있음,50.6109,0.372046,0,49.8817,51.3401,88563,983
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,M1,남성 유권자 · 기존 여성 있음,49.0578,0.388291,0,48.2968,49.8189,88563,983
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,F0,여성 유권자 · 기존 여성 없음,49.165,0.323321,0,48.5312,49.7987,88563,983
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,M0,남성 유권자 · 기존 여성 없음,48.9453,0.39949,0,48.1623,49.7283,88563,983
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,gap1,차이(여 − 남) · 기존 여성 있음,1.55306,0.414162,0.000176918,0.741301,2.36482,88563,983
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,gap0,차이(여 − 남) · 기존 여성 없음,0.219696,0.414169,0.5958,-0.592075,1.03147,88563,983
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,dF,여성 유권자 · 차이(있음 − 없음),1.44592,0.575991,0.0120625,0.316974,2.57486,88563,983
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,dM,남성 유권자 · 차이(있음 − 없음),0.112556,0.611814,0.854037,-1.0866,1.31171,88563,983
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,did,차이의 차이,1.33336,0.584609,0.0225618,0.187528,2.4792,88563,983
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,F1,여성 유권자 · 기존 여성 있음,49.8151,0.45717,0,48.919,50.7111,88563,983
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,M1,남성 유권자 · 기존 여성 있음,49.6747,0.47216,0,48.7493,50.6002,88563,983
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,F0,여성 유권자 · 기존 여성 없음,49.8532,0.221506,0,49.4191,50.2874,88563,983
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,M0,남성 유권자 · 기존 여성 없음,48.8003,0.286975,0,48.2378,49.3628,88563,983
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,gap1,차이(여 − 남) · 기존 여성 있음,0.14031,0.61833,0.820535,-1.07162,1.35224,88563,983
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,gap0,차이(여 − 남) · 기존 여성 없음,1.05291,0.333368,0.00163481,0.399509,1.70631,88563,983
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,dF,여성 유권자 · 차이(있음 − 없음),-0.0381523,0.505378,0.939838,-1.02869,0.952389,88563,983
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,dM,남성 유권자 · 차이(있음 − 없음),0.874448,0.557448,0.117049,-0.21815,1.96705,88563,983
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,did,차이의 차이,-0.9126,0.706432,0.196715,-2.29721,0.472007,88563,983
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,F1,여성 유권자 · 기존 여성 있음,49.7942,0.454964,0,48.9024,50.6859,88563,983
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,M1,남성 유권자 · 기존 여성 있음,49.532,0.445008,0,48.6598,50.4043,88563,983
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,F0,여성 유권자 · 기존 여성 없음,49.8734,0.216547,0,49.4489,50.2978,88563,983
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,M0,남성 유권자 · 기존 여성 없음,48.849,0.291112,0,48.2784,49.4196,88563,983
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,gap1,차이(여 − 남) · 기존 여성 있음,0.26213,0.603748,0.664164,-0.921215,1.44548,88563,983
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,gap0,차이(여 − 남) · 기존 여성 없음,1.02434,0.336462,0.00233099,0.364879,1.68381,88563,983
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,dF,여성 유권자 · 차이(있음 − 없음),-0.0791912,0.504511,0.875271,-1.06803,0.90965,88563,983
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,dM,남성 유권자 · 차이(있음 − 없음),0.683023,0.532546,0.199646,-0.360767,1.72681,88563,983
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,did,차이의 차이,-0.762214,0.695056,0.272806,-2.12452,0.600095,88563,983
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,F1,여성 유권자 · 기존 여성 있음,49.8145,0.21753,0,49.3881,50.2408,88563,983
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,M1,남성 유권자 · 기존 여성 있음,48.8457,0.262313,0,48.3316,49.3598,88563,983
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,F0,여성 유권자 · 기존 여성 없음,50.1047,0.582408,0,48.9631,51.2462,88563,983
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,M0,남성 유권자 · 기존 여성 없음,50.0731,0.766182,0,48.5714,51.5748,88563,983
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,gap1,차이(여 − 남) · 기존 여성 있음,0.968759,0.310347,0.0018517,0.360479,1.57704,88563,983
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,gap0,차이(여 − 남) · 기존 여성 없음,0.0315418,0.896482,0.97194,-1.72556,1.78865,88563,983
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,dF,여성 유권자 · 차이(있음 − 없음),-0.290189,0.633394,0.646947,-1.53164,0.951264,88563,983
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,dM,남성 유권자 · 차이(있음 − 없음),-1.22741,0.816306,0.133003,-2.82737,0.372553,88563,983
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,did,차이의 차이,0.937218,0.950825,0.324528,-0.926399,2.80083,88563,983
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,F1,여성 유권자 · 기존 여성 있음,49.8207,0.21262,0,49.404,50.2374,88563,983
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,M1,남성 유권자 · 기존 여성 있음,48.8386,0.262959,0,48.3232,49.354,88563,983
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,F0,여성 유권자 · 기존 여성 없음,50.1639,0.55569,0,49.0748,51.2531,88563,983
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,M0,남성 유권자 · 기존 여성 없음,50.1972,0.786639,0,48.6554,51.739,88563,983
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,gap1,차이(여 − 남) · 기존 여성 있음,0.982077,0.309912,0.00153024,0.374649,1.58951,88563,983
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,gap0,차이(여 − 남) · 기존 여성 없음,-0.0332706,0.917114,0.971061,-1.83081,1.76427,88563,983
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,dF,여성 유권자 · 차이(있음 − 없음),-0.343211,0.606611,0.57154,-1.53217,0.845746,88563,983
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,dM,남성 유권자 · 차이(있음 − 없음),-1.35856,0.83541,0.103903,-2.99596,0.278845,88563,983
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,did,차이의 차이,1.01535,0.971367,0.295895,-0.888531,2.91923,88563,983
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,F1,여성 유권자 · 기존 여성 있음,49.6605,0.245879,0,49.1786,50.1425,88563,983
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,M1,남성 유권자 · 기존 여성 있음,48.9886,0.289597,0,48.4209,49.5562,88563,983
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,F0,여성 유권자 · 기존 여성 없음,50.3893,0.369449,0,49.6651,51.1134,88563,983
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,M0,남성 유권자 · 기존 여성 없음,48.9468,0.508903,0,47.9494,49.9443,88563,983
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,gap1,차이(여 − 남) · 기존 여성 있음,0.671985,0.339965,0.0483631,0.0056531,1.33832,88563,983
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,gap0,차이(여 − 남) · 기존 여성 없음,1.44242,0.581481,0.0132828,0.302718,2.58213,88563,983
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,dF,여성 유권자 · 차이(있음 − 없음),-0.728728,0.457647,0.111631,-1.62572,0.16826,88563,983
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,dM,남성 유권자 · 차이(있음 − 없음),0.0417086,0.597158,0.944331,-1.12872,1.21214,88563,983
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,did,차이의 차이,-0.770437,0.675586,0.254398,-2.09458,0.553711,88563,983
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,F1,여성 유권자 · 기존 여성 있음,49.6515,0.240486,0,49.1801,50.1228,88563,983
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,M1,남성 유권자 · 기존 여성 있음,48.9935,0.288461,0,48.4281,49.5589,88563,983
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,F0,여성 유권자 · 기존 여성 없음,50.4541,0.358667,0,49.7511,51.1571,88563,983
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,M0,남성 유권자 · 기존 여성 없음,48.9792,0.52678,0,47.9467,50.0117,88563,983
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,gap1,차이(여 − 남) · 기존 여성 있음,0.657949,0.337616,0.0513181,-0.00377785,1.31968,88563,983
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,gap0,차이(여 − 남) · 기존 여성 없음,1.47483,0.60482,0.0147499,0.289383,2.66028,88563,983
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,dF,여성 유권자 · 차이(있음 − 없음),-0.8026,0.44637,0.0721674,-1.67748,0.0722847,88563,983
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,dM,남성 유권자 · 차이(있음 − 없음),0.0142819,0.610943,0.98135,-1.18317,1.21173,88563,983
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,did,차이의 차이,-0.816882,0.696581,0.240915,-2.18218,0.548417,88563,983
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,F1,여성 유권자 · 기존 여성 있음,50.5047,0.364474,0,49.7904,51.2191,89108,988
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,M1,남성 유권자 · 기존 여성 있음,49.1272,0.384176,0,48.3743,49.8802,89108,988
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,F0,여성 유권자 · 기존 여성 없음,49.1173,0.330051,0,48.4704,49.7642,89108,988
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,M0,남성 유권자 · 기존 여성 없음,48.7639,0.395041,0,47.9896,49.5381,89108,988
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,gap1,차이(여 − 남) · 기존 여성 있음,1.3775,0.409158,0.000790189,0.575548,2.17945,89108,988
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,gap0,차이(여 − 남) · 기존 여성 없음,0.353453,0.412163,0.391346,-0.454387,1.16129,89108,988
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,dF,여성 유권자 · 차이(있음 − 없음),1.38743,0.569936,0.0150944,0.270357,2.50451,89108,988
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,dM,남성 유권자 · 차이(있음 − 없음),0.363386,0.605884,0.548802,-0.824146,1.55092,89108,988
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,did,차이의 차이,1.02405,0.580162,0.0778558,-0.113072,2.16116,89108,988
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,F1,여성 유권자 · 기존 여성 있음,50.5543,0.366698,0,49.8356,51.2731,89108,988
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,M1,남성 유권자 · 기존 여성 있음,49.0263,0.383423,0,48.2748,49.7778,89108,988
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,F0,여성 유권자 · 기존 여성 없음,49.1222,0.320334,0,48.4944,49.7501,89108,988
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,M0,남성 유권자 · 기존 여성 없음,48.9096,0.396047,0,48.1334,49.6859,89108,988
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,gap1,차이(여 − 남) · 기존 여성 있음,1.52808,0.411809,0.000206724,0.720934,2.33522,89108,988
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,gap0,차이(여 − 남) · 기존 여성 없음,0.212584,0.412212,0.606054,-0.595353,1.02052,89108,988
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,dF,여성 유권자 · 차이(있음 − 없음),1.43213,0.56738,0.0115993,0.320062,2.54419,89108,988
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,dM,남성 유권자 · 차이(있음 − 없음),0.116631,0.602901,0.846607,-1.06505,1.29832,89108,988
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,did,차이의 차이,1.3155,0.581621,0.0237112,0.17552,2.45547,89108,988
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,F1,여성 유권자 · 기존 여성 있음,49.7883,0.44914,0,48.9079,50.6686,89108,988
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,M1,남성 유권자 · 기존 여성 있음,49.6572,0.467159,0,48.7416,50.5729,89108,988
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,F0,여성 유권자 · 기존 여성 없음,49.8042,0.220903,0,49.3712,50.2371,89108,988
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,M0,남성 유권자 · 기존 여성 없음,48.756,0.286225,0,48.195,49.317,89108,988
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,gap1,차이(여 − 남) · 기존 여성 있음,0.131038,0.609582,0.82984,-1.06374,1.32582,89108,988
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,gap0,차이(여 − 남) · 기존 여성 없음,1.0482,0.332395,0.00166215,0.396704,1.69969,89108,988
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,dF,여성 유권자 · 차이(있음 − 없음),-0.0159006,0.497632,0.974516,-0.991258,0.959457,89108,988
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,dM,남성 유권자 · 차이(있음 − 없음),0.90126,0.552708,0.103288,-0.182048,1.98457,89108,988
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,did,차이의 차이,-0.917161,0.69847,0.189455,-2.28616,0.451841,89108,988
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,F1,여성 유권자 · 기존 여성 있음,49.7514,0.446747,0,48.8758,50.627,89108,988
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,M1,남성 유권자 · 기존 여성 있음,49.5272,0.439939,0,48.6649,50.3894,89108,988
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,F0,여성 유권자 · 기존 여성 없음,49.8237,0.215882,0,49.4006,50.2468,89108,988
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,M0,남성 유권자 · 기존 여성 없음,48.8063,0.290284,0,48.2374,49.3753,89108,988
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,gap1,차이(여 − 남) · 기존 여성 있음,0.224232,0.595472,0.706499,-0.942894,1.39136,89108,988
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,gap0,차이(여 − 남) · 기존 여성 없음,1.01739,0.335434,0.00242082,0.359943,1.67484,89108,988
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,dF,여성 유권자 · 차이(있음 − 없음),-0.0723203,0.496594,0.884211,-1.04564,0.901003,89108,988
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,dM,남성 유권자 · 차이(있음 − 없음),0.720841,0.527623,0.171875,-0.3133,1.75498,89108,988
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,did,차이의 차이,-0.793161,0.687408,0.248564,-2.14048,0.554158,89108,988
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,F1,여성 유권자 · 기존 여성 있음,49.766,0.216457,0,49.3418,50.1903,89108,988
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,M1,남성 유권자 · 기존 여성 있음,48.8071,0.261333,0,48.2949,49.3193,89108,988
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,F0,여성 유권자 · 기존 여성 없음,50.0895,0.576323,0,48.9599,51.2191,89108,988
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,M0,남성 유권자 · 기존 여성 없음,50.0405,0.757837,0,48.5552,51.5259,89108,988
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,gap1,차이(여 − 남) · 기존 여성 있음,0.958877,0.308896,0.00196225,0.353441,1.56431,89108,988
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,gap0,차이(여 − 남) · 기존 여성 없음,0.0489471,0.885745,0.955942,-1.68711,1.78501,89108,988
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,dF,여성 유권자 · 차이(있음 − 없음),-0.323473,0.627073,0.606077,-1.55254,0.90559,89108,988
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,dM,남성 유권자 · 차이(있음 − 없음),-1.2334,0.807972,0.127195,-2.81703,0.350222,89108,988
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,did,차이의 차이,0.90993,0.940223,0.333391,-0.932908,2.75277,89108,988
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,F1,여성 유권자 · 기존 여성 있음,49.7697,0.211494,0,49.3552,50.1843,89108,988
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,M1,남성 유권자 · 기존 여성 있음,48.8033,0.261974,0,48.2898,49.3167,89108,988
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,F0,여성 유권자 · 기존 여성 없음,50.1342,0.550057,0,49.0561,51.2124,89108,988
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,M0,남성 유권자 · 기존 여성 없음,50.1716,0.778382,0,48.646,51.6973,89108,988
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,gap1,차이(여 − 남) · 기존 여성 있음,0.966464,0.308486,0.00173072,0.361832,1.5711,89108,988
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,gap0,차이(여 − 남) · 기존 여성 없음,-0.0373953,0.906807,0.967106,-1.81474,1.73995,89108,988
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,dF,여성 유권자 · 차이(있음 − 없음),-0.364513,0.600825,0.544058,-1.54213,0.813104,89108,988
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,dM,남성 유권자 · 차이(있음 − 없음),-1.36837,0.827205,0.0980842,-2.98969,0.252948,89108,988
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,did,차이의 차이,1.00386,0.961105,0.296261,-0.879907,2.88763,89108,988
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,F1,여성 유권자 · 기존 여성 있음,49.6157,0.244508,0,49.1365,50.095,89108,988
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,M1,남성 유권자 · 기존 여성 있음,48.9537,0.288408,0,48.3884,49.519,89108,988
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,F0,여성 유권자 · 기존 여성 없음,50.3459,0.367748,0,49.6251,51.0667,89108,988
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,M0,남성 유권자 · 기존 여성 없음,48.9029,0.50663,0,47.9099,49.8959,89108,988
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,gap1,차이(여 − 남) · 기존 여성 있음,0.662038,0.338071,0.0504787,-0.000581937,1.32466,89108,988
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,gap0,차이(여 − 남) · 기존 여성 없음,1.44305,0.578526,0.0127812,0.309139,2.57696,89108,988
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,dF,여성 유권자 · 차이(있음 − 없음),-0.730182,0.455355,0.109134,-1.62268,0.162314,89108,988
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,dM,남성 유권자 · 차이(있음 − 없음),0.0508291,0.594635,0.931897,-1.11465,1.21631,89108,988
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,did,차이의 차이,-0.781011,0.672125,0.245515,-2.09838,0.536354,89108,988
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,F1,여성 유권자 · 기존 여성 있음,49.6035,0.239051,0,49.135,50.072,89108,988
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,M1,남성 유권자 · 기존 여성 있음,48.962,0.287227,0,48.399,49.5249,89108,988
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,F0,여성 유권자 · 기존 여성 없음,50.4054,0.356966,0,49.7057,51.105,89108,988
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,M0,남성 유권자 · 기존 여성 없음,48.94,0.524665,0,47.9116,49.9683,89108,988
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,gap1,차이(여 − 남) · 기존 여성 있음,0.641543,0.335707,0.0560017,-0.0164421,1.29953,89108,988
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,gap0,차이(여 − 남) · 기존 여성 없음,1.4654,0.602141,0.0149473,0.285206,2.6456,89108,988
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,dF,여성 유권자 · 차이(있음 − 없음),-0.801872,0.444104,0.0709818,-1.67232,0.0685723,89108,988
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,dM,남성 유권자 · 차이(있음 − 없음),0.0219866,0.608537,0.971178,-1.17075,1.21472,89108,988
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,did,차이의 차이,-0.823859,0.693264,0.234685,-2.18266,0.534939,89108,988
 R_women_members_since_1990_lpm,R,women_members_since_1990,lpm,F1,여성 유권자 · 기존 여성 있음,48.0425,0.650649,8.83923e-202,46.7672,49.3178,26913,318
 R_women_members_since_1990_lpm,R,women_members_since_1990,lpm,M1,남성 유권자 · 기존 여성 있음,47.384,0.675517,4.01835e-195,46.06,48.708,26913,318
 R_women_members_since_1990_lpm,R,women_members_since_1990,lpm,F0,여성 유권자 · 기존 여성 없음,48.1977,0.646791,5.65233e-203,46.93,49.4654,26913,318
