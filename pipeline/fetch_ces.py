@@ -5,11 +5,14 @@ Actions (the workflow "fetch CES House votes"), because the workspace cannot rea
 no individual rows:
 
   data/static/ces/ces_house_cells.csv.gz  year, state, district, gender (F/M), pid3 (D/R/I), vote (D/R/O),
-                                          n (respondents), w (sum of the year's survey weights)
-  data/static/ces/meta.json               dataset version, license or terms, file used, columns used, rows per year
+                                          n (respondents), w (sum of survey weights), w2 (sum of squared weights,
+                                          for the effective sample size)
+  data/static/ces/meta.json               dataset version, license, file used, columns used, rows per year
 
-Respondents count when they reported a House vote after the election (voted_rep_party or the closest column). The
-district is the one on the ballot (the "upcoming" district column when the file has one).
+Respondents count when they reported a House vote after the election (voted_rep_party). Weights are the
+post-election weights (weight_post; the pre-election weight where missing), and the district is the one on the ballot
+as recorded after the election (dist_up_post, then dist_up). gender: 1 male, 2 female; pid3: 1 Democrat,
+2 Republican, others independent/other/not sure.
 """
 import json
 import os
@@ -119,10 +122,11 @@ def norm_party(v):
 
 
 def norm_pid(v):
+    """CES pid3: 1 Democrat, 2 Republican, 3 Independent, 4 Other, 5 Not sure (labels or codes)"""
     s = str(v).strip().lower()
-    if s.startswith("democrat"):
+    if s.startswith("democrat") or s in ("1", "1.0"):
         return "D"
-    if s.startswith("republican"):
+    if s.startswith("republican") or s in ("2", "2.0"):
         return "R"
     return "I"
 
@@ -146,8 +150,12 @@ def main():
     cols = list(head.columns)
     info["file"] = f["name"]
     info["columns"] = cols
-    c = dict(year=first(cols, "year"), weight=first(cols, "weight", "weight_cumulative"), st=first(cols, "st", "state"),
-             dist=first(cols, "dist_up", "dist"), cd=first(cols, "cd_up", "cd"), gender=first(cols, "gender", "gender4"),
+    # the House vote is asked after the election: post-election weight and the district recorded then (the one on the
+    # ballot, "up" = upcoming Congress), falling back to the pre-election ones
+    c = dict(year=first(cols, "year"), weight=first(cols, "weight_post", "weight"), weight_pre=first(cols, "weight"),
+             st=first(cols, "st_post", "st", "state"), st_pre=first(cols, "st"),
+             dist=first(cols, "dist_up_post", "dist_up", "dist"), dist_pre=first(cols, "dist_up", "dist"),
+             cd=first(cols, "cd_up_post", "cd_up", "cd"), cd_pre=first(cols, "cd_up", "cd"), gender=first(cols, "gender", "gender4"),
              vote=first(cols, "voted_rep_party", "voted_rep"), pid=first(cols, "pid3"))
     info["used"] = c
     print("columns used", c, flush=True)
@@ -159,22 +167,27 @@ def main():
     df = read(path, f["name"], use)
     df = df[pd.to_numeric(df[c["year"]], errors="coerce") % 2 == 0].copy()  # House elections
     df["year_"] = pd.to_numeric(df[c["year"]], errors="coerce").astype(int)
-    if c["st"]:
-        s = df[c["st"]].astype(str).str.strip()
-        df["st_"] = s.map(lambda x: STATES.get(x, x if len(x) == 2 else None))
-    if c["dist"]:
-        df["dist_"] = pd.to_numeric(df[c["dist"]], errors="coerce")
-    else:
-        df["dist_"] = None
-    if c["cd"]:  # "CA-12" strings fill state and district where the numeric columns are empty
-        m = df[c["cd"]].astype(str).str.extract(r"^([A-Z]{2})-?(\d+)")
-        if not c["st"]:
-            df["st_"] = m[0]
-        df["dist_"] = df["dist_"].fillna(pd.to_numeric(m[1], errors="coerce"))
+    def abbr(col):
+        s = df[col].astype(str).str.strip()
+        return s.map(lambda x: STATES.get(x, x if len(x) == 2 else None))
+    df["st_"] = abbr(c["st"]) if c["st"] else None
+    if c["st_pre"] and c["st_pre"] != c["st"]:
+        df["st_"] = df["st_"].fillna(abbr(c["st_pre"]))
+    df["dist_"] = pd.to_numeric(df[c["dist"]], errors="coerce") if c["dist"] else float("nan")
+    if c["dist_pre"] and c["dist_pre"] != c["dist"]:
+        df["dist_"] = df["dist_"].fillna(pd.to_numeric(df[c["dist_pre"]], errors="coerce"))
+    for col in (c["cd"], c["cd_pre"]):  # "CA-12" strings fill state and district where the numeric columns are empty
+        if col:
+            m = df[col].astype(str).str.extract(r"^([A-Z]{2})-?(\d+)")
+            df["st_"] = df["st_"].fillna(m[0])
+            df["dist_"] = df["dist_"].fillna(pd.to_numeric(m[1], errors="coerce"))
     df["gender_"] = df[c["gender"]].map(norm_gender)
     df["vote_"] = df[c["vote"]].map(norm_party)
     df["pid_"] = df[c["pid"]].map(norm_pid) if c["pid"] else "I"
     df["w_"] = pd.to_numeric(df[c["weight"]], errors="coerce")
+    if c["weight_pre"] and c["weight_pre"] != c["weight"]:
+        df["w_"] = df["w_"].fillna(pd.to_numeric(df[c["weight_pre"]], errors="coerce"))
+    info["weight_post_share"] = {int(y): round(float(g[c["weight"]].notna().mean()), 3) for y, g in df.groupby("year_")}
     info["values"] = {k: {str(a): int(b) for a, b in df[v].astype(str).value_counts().head(25).items()} for k, v in c.items() if v and k in ("gender", "vote", "pid")}
     ok = df.dropna(subset=["st_", "dist_", "gender_", "vote_", "w_"])
     ok = ok[ok.st_.str.len() == 2]
@@ -182,9 +195,11 @@ def main():
     # at-large districts: the file may code them 1; the tracker uses 0
     ones = ok.groupby(["year_", "st_"]).dist_.transform("max") == 1
     ok.loc[ones, "dist_"] = 0
-    cells = (ok.groupby(["year_", "st_", "dist_", "gender_", "pid_", "vote_"]).agg(n=("w_", "size"), w=("w_", "sum")).reset_index()
+    ok["w2_"] = ok.w_ ** 2
+    cells = (ok.groupby(["year_", "st_", "dist_", "gender_", "pid_", "vote_"]).agg(n=("w_", "size"), w=("w_", "sum"), w2=("w2_", "sum")).reset_index()
              .rename(columns={"year_": "year", "st_": "state", "dist_": "district", "gender_": "gender", "pid_": "pid3", "vote_": "vote"}))
-    cells["w"] = cells.w.round(3)
+    cells["w"] = cells.w.round(4)
+    cells["w2"] = cells.w2.round(4)
     cells.to_csv(os.path.join(OUT, "ces_house_cells.csv.gz"), index=False, compression="gzip")
     info["rows_by_year"] = {int(y): int(n) for y, n in ok.groupby("year_").size().items()}
     info["cells"] = len(cells)
