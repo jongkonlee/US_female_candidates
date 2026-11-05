@@ -18,6 +18,7 @@ Sources by year (official first, Wikipedia only where nothing official is compil
 """
 import argparse
 import collections
+import csv
 import datetime as dt
 import gzip
 import io
@@ -206,7 +207,8 @@ def fec_parties():
 
 
 def fill_party_from_fec_id(rows, parties):
-    """non-partisan or write-in lines in the results (MS 2018 special, Murkowski 2010 write-in): use the FEC party"""
+    """non-partisan or write-in lines in the results (MS 2018 special, Murkowski 2010 write-in): use the FEC party.
+    It also catches third-party and independent lines; third_party_lines undoes those on every build"""
     n = 0
     for r in rows:
         if r["party"] == "O" and r.get("fec_id"):
@@ -216,6 +218,49 @@ def fill_party_from_fec_id(rows, parties):
                 r["party"] = m
                 r["note"] = (str(r["note"] or "") + f" | party from FEC candidate file ({p})").strip(" |")
                 n += 1
+    return n
+
+
+FEC_LABELS = os.path.join(ROOT, "data", "static", "fec_ballot_labels.csv")
+FEC_FILL = re.compile(r"party from FEC candidate file \((\w+)\)")
+
+
+def third_party_lines(rows):
+    """Only Democratic and Republican candidates count as D or R (user's decision, 2026-11-05). A candidate whose FEC
+    ballot lines are all third-party or independent labels (LIB, CON, IND, NPA, CA 'NOP', the NY Conservative line, ...)
+    goes back to O even when registered with the FEC as a Democrat or Republican. Kept: write-in lines (W, W(R), W(DEM))
+    and the nonpartisan Mississippi Senate specials of 2008 and 2018 (label N). Labels: data/static/fec_ballot_labels.csv"""
+    if not os.path.exists(FEC_LABELS):
+        log("  no", FEC_LABELS)
+        return 0
+    labels = {}
+    with open(FEC_LABELS, encoding="utf-8") as f:
+        for x in csv.DictReader(f):
+            labels[(int(x["year"]), x["chamber"], x["state"], int(float(x["district"])), int(float(x["special"])), x["fec_id"])] = x["lines"]
+
+    def keeps(lines, r):
+        for lab in [s.strip().upper() for s in lines.split("/") if s.strip()]:
+            if lab == "W":
+                continue
+            m = re.match(r"^W\((.+)\)$", lab)
+            if m and F.main_party(m.group(1)) in ("D", "R"):
+                continue
+            if lab == "N" and r["state"] == "MS" and r["chamber"] == "S":
+                continue
+            return False
+        return True
+
+    n = 0
+    for r in rows:
+        m = FEC_FILL.search(str(r.get("note") or ""))
+        if not m or r["party"] not in ("D", "R"):
+            continue
+        lines = labels.get((int(r["year"]), r["chamber"], r["state"], int(r["district"] or 0), int(r["special"] or 0), r.get("fec_id") or ""))
+        if lines is None or keeps(lines, r):
+            continue
+        r["party"] = "O"
+        r["note"] = FEC_FILL.sub(f"ballot label {lines}; FEC registration {m.group(1)} (not counted as D or R)", str(r["note"]))
+        n += 1
     return n
 
 
@@ -1084,6 +1129,7 @@ def build(rebuild_history=False):
                                    else "Wikipedia (primaries) + MEDSL (general)")
                     c["rows"] = sum(1 for r in allrows if r["year"] == y and r["chamber"] == "H")
     one_winner(allrows)
+    log("third-party or independent lines back to O:", third_party_lines(allrows))
     log("nominees without primary record:", nominated_without_primary(allrows))
     cawp = load_cawp()
     unmatched = apply_cawp(allrows, cawp)
