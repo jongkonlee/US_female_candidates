@@ -337,7 +337,9 @@ def nominated_without_primary(rows):
         if system(rs[0]["state"], rs[0]["year"]) in ("top2", "top4", "jungle"):
             continue
         for party in ("D", "R"):
-            if any(r["party"] == party and r.get("p_won") == 1 for r in rs):
+            # a primary winner counts even when he or she ran under another label in the general (Sanders 2018 VT):
+            # then no stray write-in (Hillary Clinton, 7 votes) becomes the nominee
+            if any((r["party"] == party or r.get("p_party") == party) and r.get("p_won") == 1 for r in rs):
                 continue
             gen = [r for r in rs if r["party"] == party and (ok(r["g_votes"]) or ok(r["g_pct"]) or r.get("g_won") is not None)]
             if len(gen) == 1:
