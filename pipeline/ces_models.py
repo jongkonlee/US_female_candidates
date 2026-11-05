@@ -24,8 +24,8 @@ women_prior_since_1990_excl > 0):
 Candidate race, in this order: (1) a woman's CAWP code (race_eth); (2) data/static/nominee_race.csv: published codes
 from a file of candidate race codes the user supplied (src 'file'; each row names its original source, e.g. Hassell &
 Visalvanich, Grumbach & Sahn, Fraga & Rendleman / FiveThirtyEight, Daily Kos Elections, CAWP, U.S. House Historian),
-web research with a cited source (src 'research'), the Reflective Democracy Campaign's classification that the user's file
-keeps apart (src 'rdc'), and Hispanic (estimated) from the first name and surname where both point there (src 'surname':
+web research with a cited source (src 'research'), codes the user filled in by hand (src 'user', 2026-11-06), the
+Reflective Democracy Campaign's classification that the user's file keeps apart (src 'rdc'), and Hispanic (estimated) from the first name and surname where both point there (src 'surname':
 probability >= 0.9 from the Census 2010 surname table and the Tzioumis 2018 first-name table; user's decision
 2026-11-06); (3) Wikipedia's lists of minority members of Congress
 (data/static/member_race.csv, pipeline/fetch_member_race.py) for anyone who served in Congress (matched within the state
@@ -303,20 +303,26 @@ def member_index():
 
 
 def nominee_race():
-    """(race_id, party) -> (codes, source tag, name) from data/static/nominee_race.csv"""
-    out = {}
+    """(race_id, party) -> [(codes, source tag, name, row)] from data/static/nominee_race.csv. A race and party can hold
+    rows for two names (the nominee in the tracker and the candidate a source names, while the two differ)"""
+    out = collections.defaultdict(list)
     p = os.path.join(ROOT, "data", "static", "nominee_race.csv")
     if os.path.exists(p):
         with open(p, encoding="utf-8") as f:
             for r in csv.DictReader(f):
                 if r["race"]:
-                    out[(r["race_id"], r["party"])] = (r["race"], r["src"], r["name"])
+                    out[(r["race_id"], r["party"])].append((r["race"], r["src"], r["name"], r))
     return out
+
+
+def same_nominee(row_name, name):
+    toks = {t for t in N.tokens(name) if len(t) > 1}
+    return bool(name) and (N.same_person(row_name, name) or bool({t for t in N.tokens(row_name) if len(t) > 1} & toks))
 
 
 def cand_race(r, p, idx, mrace, nrace):
     """(bioguide, race codes, source) of the party's nominee: cawp = CAWP's code (women), file = published codes from
-    the user's file, research = web research with a source, rdc = Reflective Democracy Campaign's published
+    the user's file, research = web research with a source, user = filled in by the user, rdc = Reflective Democracy Campaign's published
     classification (kept apart in the user's file), surname = Hispanic (estimated) from the first name and surname,
     list = the minority lists, member = served in Congress but on none of the lists (white, an inference), none = unknown"""
     name = getattr(r, f"{p}_nominee")
@@ -342,9 +348,9 @@ def cand_race(r, p, idx, mrace, nrace):
             break
     if gender == "F" and isinstance(cawp, str) and cawp and cawp != "unavailable":
         return b, cawp, "cawp"
-    f = nrace.get((r.race_id, p.upper()))
-    if f and (N.same_person(f[2], name) or ({t for t in N.tokens(f[2]) if len(t) > 1} & toks)):
-        return b, f[0], f[1]
+    for f in nrace.get((r.race_id, p.upper()), []):
+        if same_nominee(f[2], name):
+            return b, f[0], f[1]
     if b:
         return (b, mrace[b], "list") if b in mrace else (b, "W", "member")
     return "", None, "none"
@@ -516,7 +522,7 @@ IND_LABELS = dict(
     pid="정당 일체감(D/R 쪽, 기우는 무당파 포함; I = 무당파·모름)",
     d_female="민주 후보가 여성(1)", r_female="공화 후보가 여성(1)",
     d_race="민주 후보 인종(빈칸 = 모름)", r_race="공화 후보 인종(빈칸 = 모름)",
-    d_race_src="민주 후보 인종 근거: cawp, file 출판 코드 모음, research 웹 조사, rdc 기관 분류, surname 히스패닉(추정), list 의원 명단, member 의원(백인으로 봄), none", r_race_src="공화 후보 인종 근거(같은 코드)",
+    d_race_src="민주 후보 인종 근거: cawp, file 출판 코드 모음, research 웹 조사, user 사용자 입력, rdc 기관 분류, surname 히스패닉(추정), list 의원 명단, member 의원(백인으로 봄), none", r_race_src="공화 후보 인종 근거(같은 코드)",
     same_race_d="민주 후보와 같은 인종(1, 모르면 0)", same_race_r="공화 후보와 같은 인종(1, 모르면 0)",
     d_race_unk="민주 후보 인종 모름(1)", r_race_unk="공화 후보 인종 모름(1)", d_nonwhite="민주 후보가 백인 아님(1, 모르면 0)", r_nonwhite="공화 후보가 백인 아님(1, 모르면 0)",
     d_inc="민주 후보가 현직(1)", r_inc="공화 후보가 현직(1)",
@@ -524,7 +530,7 @@ IND_LABELS = dict(
     wparty="여성 후보의 정당(D/R, 여성 대 남성 선거만)", vote_woman="여성 후보를 찍음(1) / 남성 후보(0), 여성 대 남성 선거만",
     copart="여성 후보와 같은 정당 지지(1, 여성 대 남성 선거만)", outpart="여성 후보와 반대 정당 지지(1, 여성 대 남성 선거만)",
     w_race="여성 후보 인종(여성 대 남성 선거만)", m_race="남성 후보 인종(여성 대 남성 선거만, 빈칸 = 모름)",
-    m_race_src="남성 후보 인종 근거(file, research, rdc, surname, list, member, none; 여성 대 남성 선거만)",
+    m_race_src="남성 후보 인종 근거(file, research, user, rdc, surname, list, member, none; 여성 대 남성 선거만)",
     same_race_w="여성 후보와 같은 인종(1, 여성 대 남성 선거만)", same_race_m="남성 후보와 같은 인종(1, 모르면 0, 여성 대 남성 선거만)",
     m_race_unk="남성 후보 인종 모름(1, 여성 대 남성 선거만)", w_nonwhite="여성 후보가 백인 아님(1, 여성 대 남성 선거만)",
     m_nonwhite="남성 후보가 백인 아님(1, 모르면 0, 여성 대 남성 선거만)", w_inc="여성 후보가 현직(1, 여성 대 남성 선거만)", m_inc="남성 후보가 현직(1, 여성 대 남성 선거만)",
@@ -539,7 +545,7 @@ IND_LABELS = dict(
 NOMINEE_LABELS = dict(
     race_id="선거 번호", year="선거 연도", chamber="의회(H 하원, S 상원)", state="주", district="선거구(0 = 주 전체 한 석, 상원)",
     matchup="본선 대결(민주-공화 성별)", party="정당(D 민주, R 공화)", name="후보 이름", female="여성 후보", incumbent="현직",
-    race="후보 인종(CAWP 코드, 여럿이면 /)", race_src="인종 근거(cawp/file/research/rdc/surname/list/member/none)",
+    race="후보 인종(CAWP 코드, 여럿이면 /)", race_src="인종 근거(cawp/file/research/user/rdc/surname/list/member/none)",
     source="인종 출처", source_url="출처 주소", note="메모", bioguide="의회 인명록 번호(의원이었던 사람)")
 SRC_TEXT = {"cawp": "CAWP", "list": "Wikipedia lists of minority members of Congress",
             "member": "served in Congress, on none of the minority lists (white, an inference)", "none": ""}
@@ -549,12 +555,7 @@ def write_nominees(rc):
     """docs/data/ces/nominee_race.csv/.dta: every Democratic and Republican nominee of the races in the analysis (2008-2024
     House, one nominee of each party) and of the current cycle (2026 House and Senate, nominees_now), with the race code,
     its source tag and the source itself"""
-    nr = {}
-    p = os.path.join(ROOT, "data", "static", "nominee_race.csv")
-    if os.path.exists(p):
-        with open(p, encoding="utf-8") as f:
-            for r in csv.DictReader(f):
-                nr[(r["race_id"], r["party"])] = r
+    nr = nominee_race()
     rows = []
     for x in pd.concat([rc.assign(chamber="H"), nominees_now()], ignore_index=True).itertuples(index=False):
         st, dist = x.race_id.split("-")[2], int(x.race_id.split("-")[3])
@@ -563,7 +564,7 @@ def write_nominees(rc):
             if not isinstance(name, str) or not name:  # one-party races of the current cycle
                 continue
             src = getattr(x, f"{p_}_race_src")
-            o = nr.get((x.race_id, P), {}) if src in ("file", "research", "rdc", "surname") else {}
+            o = next((f[3] for f in nr.get((x.race_id, P), []) if same_nominee(f[2], name)), {}) if src in ("file", "research", "user", "rdc", "surname") else {}
             rows.append(dict(race_id=x.race_id, year=int(x.race_id[:4]), chamber=x.chamber, state=st, district=dist, matchup=x.matchup,
                              party=P, name=name, female=int(getattr(x, f"{p_}_female")),
                              incumbent=getattr(x, f"{p_}_inc"), race=getattr(x, f"{p_}_race") or "", race_src=src,

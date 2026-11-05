@@ -468,7 +468,7 @@
 "table": "ces_individual",
 "name": "d_race_src",
 "label": "민주 후보 인종의 근거",
-"values": "cawp = CAWP, file = 출판 코드 모음, research = 웹 조사, rdc = Reflective Democracy Campaign 공표 분류(개별 기록의 조사·추정 방식 구분 안 됨), surname = 히스패닉(추정): 성과 이름이 모두 히스패닉 쪽인 경우(확률 0.9 이상, 미국 인구조사 2010 성씨표 × Tzioumis 2018 이름표), list = 소수 인종 의원 명단, member = 의원이었고 명단에 없음(백인으로 봄), none = 모름"
+"values": "cawp = CAWP, file = 출판 코드 모음, research = 웹 조사, user = 사용자가 직접 채운 코드(근거는 note), rdc = Reflective Democracy Campaign 공표 분류(개별 기록의 조사·추정 방식 구분 안 됨), surname = 히스패닉(추정): 성과 이름이 모두 히스패닉 쪽인 경우(확률 0.9 이상, 미국 인구조사 2010 성씨표 × Tzioumis 2018 이름표), list = 소수 인종 의원 명단, member = 의원이었고 명단에 없음(백인으로 봄), none = 모름"
 },
 {
 "table": "ces_individual",
@@ -588,7 +588,7 @@
 "table": "ces_individual",
 "name": "m_race_src",
 "label": "남성 후보 인종의 근거",
-"values": "file, research, rdc, surname, list, member, none(d_race_src와 같은 코드)"
+"values": "file, research, user, rdc, surname, list, member, none(d_race_src와 같은 코드)"
 },
 {
 "table": "ces_individual",
@@ -1002,13 +1002,13 @@
 "table": "ces_nominee_race",
 "name": "race_src",
 "label": "인종 근거",
-"values": "cawp, file, research, rdc, surname, list, member, none(ces_individual의 d_race_src와 같은 코드)"
+"values": "cawp, file, research, user, rdc, surname, list, member, none(ces_individual의 d_race_src와 같은 코드)"
 },
 {
 "table": "ces_nominee_race",
 "name": "source",
 "label": "인종 출처",
-"values": "file·research·rdc는 원출처 이름(예: Hassell & Visalvanich, 웹 조사), surname은 쓴 이름표, cawp는 CAWP, list·member는 의원 명단 설명"
+"values": "file·research·rdc는 원출처 이름(예: Hassell & Visalvanich, 웹 조사), user는 사용자 입력과 날짜, surname은 쓴 이름표, cawp는 CAWP, list·member는 의원 명단 설명"
 },
 {
 "table": "ces_nominee_race",

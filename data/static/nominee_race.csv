@@ -234,6 +234,7 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-IL-10,D,Daniel J. Seals,B,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-IL-10,R,Mark Steven Kirk,W,file,Kieran Healy / congress,https://kjhealy.github.io/congress/,다른 해 자료의 같은 사람
 2008-H-IL-11,D,"Deborah ""Debbie"" Halvorson",W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2008-H-IL-11,R,Marty Ozinga,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 사용자가 밝힌 내용: 네덜란드계 백인 가문(Ozinga Bros. 기업가) 출신
 2008-H-IL-12,D,Jerry F. Costello,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-IL-13,D,Scott Harper,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-IL-13,R,Judy Biggert,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -405,6 +406,7 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-NC-10,D,Daniel Johnson,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-NC-10,R,Patrick McHenry,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-NC-11,D,Heath Shuler,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
+2008-H-NC-11,R,Carl Mumpower,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 사용자가 밝힌 내용: 애슈빌 시의원 출신 정치인(백인)
 2008-H-NC-12,D,Mel Watt,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
 2008-H-NC-13,D,Brad Miller,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
 2008-H-NC-13,R,Hugh Webster,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
@@ -660,6 +662,7 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-UT-01,D,Morgan Bowen,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-UT-01,R,Rob Bishop,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-UT-02,D,Jim Matheson,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2008-H-UT-03,D,Bennion L. Spencer,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 사용자가 밝힌 내용: 유타 출신 언론인·교수(백인)
 2008-H-UT-03,R,Jason Chaffetz,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-VA-01,R,"Robert J. ""Rob"" Wittman",W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-VA-02,D,Glenn C. Nye III,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -689,6 +692,7 @@ race_id,party,name,race,src,source,source_url,note
 2008-H-WA-06,D,Norm Dicks,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-WA-06,R,Doug Cloud,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-WA-07,D,Jim McDermott,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2008-H-WA-07,R,Steve Beren,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 사용자가 밝힌 내용: 정치 활동가(백인)
 2008-H-WA-08,D,Darcy Burner,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2008-H-WA-08,R,Dave Reichert,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2008-H-WA-09,D,Adam Smith,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -873,6 +877,7 @@ race_id,party,name,race,src,source,source_url,note
 2010-H-CT-05,R,Sam S. F. Caligiuri,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2010-H-DE-00,D,John C. Carney Jr.,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2010-H-DE-00,R,Glen Urquhart,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
+2010-H-FL-01,D,Jim Bryan,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2010-H-FL-01,R,Jeff Miller,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2010-H-FL-02,D,Allen Boyd,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2010-H-FL-02,R,Steve Southerland,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,
@@ -1819,6 +1824,7 @@ race_id,party,name,race,src,source,source_url,note
 2012-H-LA-01,R,"""Steve"" Scalise",W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2012-H-LA-02,D,Cedric Richmond,B,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2012-H-LA-02,R,Dwayne Bailey,B,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
+2012-H-LA-03,D,"""Ron"" Richard",W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2012-H-LA-03,R,Charles W. Boustany Jr.,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2012-H-MA-03,D,Nicola S. Tsongas,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2012-H-MA-03,R,Jonathan A. Golnik,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
@@ -2332,6 +2338,7 @@ race_id,party,name,race,src,source,source_url,note
 2014-H-AZ-06,D,W. John Williamson,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2014-H-AZ-06,R,David Schweikert,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
 2014-H-AZ-07,D,Ruben Gallego,H,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,
+2014-H-AZ-07,R,Gary Dunn,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2014-H-AZ-09,D,Kyrsten Sinema,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2014-H-AZ-09,R,Wendy Rogers,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2014-H-CA-01,D,Heidi Hall,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -3032,9 +3039,11 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-AR-02,D,Dianne Curry,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-AR-02,R,French Hill,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-AZ-01,D,Tom O'Halleran,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2016-H-AZ-01,R,Paul Babeu,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2016-H-AZ-02,D,Matt Heinz,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-AZ-02,R,Martha McSally,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-AZ-03,D,Raúl Grijalva,H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
+2016-H-AZ-03,R,Bill Abatecola,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2016-H-AZ-04,D,Mikel Weisser,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-AZ-04,R,Paul Gosar,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-AZ-05,D,Talia Fuentes,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -3050,6 +3059,8 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-CA-02,D,Jared W. Huffman,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-CA-02,R,Dale K. Mensing,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-CA-03,D,John G. Garamendi,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2016-H-CA-03,R,N. Eugene Cleek,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
+2016-H-CA-04,D,Robert W. Derlet,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2016-H-CA-04,R,Tom McClintock,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-CA-05,D,Mike Thompson,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-CA-05,R,Carlos Santamaria,H,rdc,Reflective Democracy Campaign (사용자 파일의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
@@ -3070,6 +3081,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-CA-14,D,Jackie Speier,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-CA-14,R,Angel Cardenas,H,rdc,Reflective Democracy Campaign (사용자 파일의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-CA-15,D,Eric Swalwell,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-CA-15,R,Danny R. Turner,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2016-H-CA-16,D,Jim Costa,H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
 2016-H-CA-16,R,Johnny M. Tacherra,H,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-CA-18,D,Anna G. Eshoo,MENA,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
@@ -3109,6 +3121,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-CA-39,D,Brett Murdock,W,rdc,Reflective Democracy Campaign (사용자 파일의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-CA-39,R,Ed Royce,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-CA-41,D,Mark Takano,AP,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-CA-41,R,Doug Shepherd,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2016-H-CA-42,D,Tim Sheridan,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-CA-42,R,Ken Calvert,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-CA-43,D,Maxine Waters,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -3127,6 +3140,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-CA-51,R,Juan M. Hidalgo Jr.,H,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,다른 해 자료의 같은 사람
 2016-H-CA-52,D,Scott Peters,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-CA-53,D,Susan A. Davis,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2016-H-CA-53,R,James Veltmeyer,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2016-H-CO-01,D,Diana DeGette,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-CO-01,R,"Charles ""Casper"" Stockham",B,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,다른 해 자료의 같은 사람
 2016-H-CO-02,D,Jared Polis,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3187,6 +3201,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-FL-16,R,Vern Buchanan,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-FL-17,D,April Freeman,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-FL-17,R,Tom Rooney,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-FL-18,D,Randy Perkins,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2016-H-FL-18,R,Brian Mast,H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
 2016-H-FL-19,D,Robert M. Neeld,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,다른 해 자료의 같은 사람
 2016-H-FL-19,R,Francis Rooney,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,다른 해 자료의 같은 사람
@@ -3215,7 +3230,9 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-GA-06,R,Tom Price,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-GA-07,D,Rashid Malik,AP,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,다른 해 자료의 같은 사람
 2016-H-GA-07,R,Rob Woodall,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-GA-08,D,James Neal Harris,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2016-H-GA-08,R,Austin Scott,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-GA-11,D,Don Wilson,B,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 흑인); 근거는 적지 않음
 2016-H-GA-11,R,Barry Loudermilk,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-GA-12,D,Patricia C. McCracken,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-GA-12,R,Rick Allen,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3230,10 +3247,12 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-IA-03,R,David Young,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-IA-04,D,Kim Weaver,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-IA-04,R,Steve King,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-ID-01,D,James Piotrowski,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2016-H-ID-01,R,Raul R. Labrador,H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
 2016-H-ID-02,D,Jennifer Martinez,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-ID-02,R,Mike Simpson,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-IL-01,D,Bobby L. Rush,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
+2016-H-IL-01,R,August (O'Neill) Deuser,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2016-H-IL-02,D,Robin Kelly,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-IL-02,R,John F Morrow,B,file,CampaignView / biographical narratives,https://doi.org/10.7910/DVN/JIEAPT,다른 해 자료의 같은 사람
 2016-H-IL-05,D,Mike Quigley,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3285,12 +3304,14 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-KY-01,D,Samuel L. Gaskins,W,rdc,Reflective Democracy Campaign (사용자 파일의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-KY-01,R,James R. Comer,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2016-H-KY-03,D,John A. Yarmuth,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-KY-03,R,Harold Bratcher,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2016-H-KY-04,D,Calvin Sidle,W,rdc,Reflective Democracy Campaign (사용자 파일의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-KY-04,R,Thomas Massie,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-KY-06,D,Nancy Jo Kemper,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-KY-06,R,Andy Barr,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-LA-01,D,Lee Ann Dugas,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-LA-01,R,Steve Scalise,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-LA-03,D,"Jacob ""Dorian Phibian"" Hebert",W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2016-H-LA-03,R,Scott A. Angelle,W,file,Louisiana Secretary of State / Candidate Inquiry,https://voterportal.sos.la.gov/CandidateInquiry/StatewideCandidate/Print?officeIds=53905%2C53899%2C53900%2C53901%2C53902%2C53903%2C53904&electionId=284&electionDate=11%2F08%2F2016,
 2016-H-LA-04,D,Marshall Jones,W,file,Louisiana Secretary of State / Candidate Inquiry,https://voterportal.sos.la.gov/CandidateInquiry/StatewideCandidate/Print?officeIds=53905%2C53899%2C53900%2C53901%2C53902%2C53903%2C53904&electionId=284&electionDate=11%2F08%2F2016,
 2016-H-LA-04,R,"""Mike"" Johnson",W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,다른 해 자료의 같은 사람
@@ -3328,6 +3349,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-MI-01,R,Jack Bergman,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2016-H-MI-02,D,Dennis B. Murphy,W,rdc,Reflective Democracy Campaign (사용자 파일의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-MI-02,R,Bill Huizenga,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-MI-03,D,Douglas Smith,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2016-H-MI-03,R,Justin Amash,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-MI-04,D,Debra Wirth,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,다른 해 자료의 같은 사람
 2016-H-MI-04,R,John Moolenaar,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3340,6 +3362,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-MI-08,D,Suzanna Shkreli,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-MI-08,R,Mike Bishop,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-MI-09,D,Sander Levin,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-MI-09,R,Christopher R. Morse,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2016-H-MI-10,D,Frank Accavitti Jr.,W,file,FiveThirtyEight 2018,https://github.com/fivethirtyeight/data/tree/master/primary-candidates-2018,다른 해 자료의 같은 사람
 2016-H-MI-10,R,Paul Mitchell,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-MI-11,D,Anil Kumar,AP,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3360,6 +3383,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-MN-04,R,Greg Ryan,W,rdc,Reflective Democracy Campaign (사용자 파일의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-MN-05,D,Keith Ellison,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
 2016-H-MN-05,R,Frank Nelson Drake,W,rdc,Reflective Democracy Campaign (사용자 파일의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
+2016-H-MN-06,D,David Snyder,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2016-H-MN-06,R,Tom Emmer,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-MN-07,D,Collin Peterson,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-MN-07,R,Dave Hughes,W,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,다른 해 자료의 같은 사람
@@ -3384,6 +3408,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-MS-01,D,Jacob Owens,W,rdc,Reflective Democracy Campaign (사용자 파일의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-MS-01,R,Trent Kelly,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2016-H-MS-02,D,Bennie Thompson,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
+2016-H-MS-02,R,John Bouie II,B,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 흑인); 근거는 적지 않음
 2016-H-MS-03,D,Dennis Quinn,B,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-MS-03,R,Gregg Harper,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-MS-04,D,Mark Gladney,B,rdc,Reflective Democracy Campaign (사용자 파일의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
@@ -3391,6 +3416,8 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-MT-00,D,Denise Juneau,NA,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-MT-00,R,Ryan Zinke,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-NC-01,D,G. K. Butterfield,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
+2016-H-NC-01,R,H. Powell Dew Jr.,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
+2016-H-NC-02,D,John P. McNeil,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2016-H-NC-02,R,George Holding,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-NC-03,D,Ernest T. Reeves,B,file,Candidate Characteristics Cooperative (C3),https://doi.org/10.7910/DVN/VHAPHV,다른 해 자료의 같은 사람
 2016-H-NC-03,R,Walter B. Jones,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3398,6 +3425,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-NC-04,R,Sue Googe,AP,file,Individual verification,https://www.asianfortunenews.com/2016/10/incumbents-first-timers-are-among-asian-americans-in-the-nov-8-elections/,
 2016-H-NC-05,D,Josh Brannon,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-NC-05,R,Virginia Foxx,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2016-H-NC-06,D,Pete Glidewell,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2016-H-NC-06,R,B. Mark Walker,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-NC-07,D,J. Wesley Casteen,W,rdc,Reflective Democracy Campaign (사용자 파일의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/who-runs-in-america-dataset2012-2014.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-NC-07,R,David Rouzer,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3405,6 +3433,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-NC-08,R,Richard Hudson,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-NC-09,D,Christian Cano,H,file,Christian Cano - Ballotpedia,https://ballotpedia.org/Christian_Cano,
 2016-H-NC-09,R,Robert Pittenger,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-NC-10,D,Andy Millard,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2016-H-NC-10,R,Patrick McHenry,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-NC-11,D,Rick Bryson,W,rdc,Reflective Democracy Campaign (사용자 파일의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-NC-11,R,Mark Meadows,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3433,6 +3462,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-NJ-05,D,Joshua S. Gottheimer,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2016-H-NJ-05,R,Scott Garrett,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-NJ-06,D,Frank Pallone Jr.,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-NJ-06,R,Brent Sonnek-Schmelz,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2016-H-NJ-07,D,Peter Jacob,AP,file,CampaignView / biographical narratives,https://doi.org/10.7910/DVN/JIEAPT,다른 해 자료의 같은 사람
 2016-H-NJ-07,R,Leonard Lance,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-NJ-08,D,Albio Sires,H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
@@ -3450,6 +3480,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-NM-02,D,Merrie Lee Soules,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-NM-02,R,Steve Pearce,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-NM-03,D,Ben R Lujan,H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
+2016-H-NM-03,R,Michael H. Romero,H,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 히스패닉); 근거는 적지 않음
 2016-H-NV-01,D,Dina Titus,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-NV-01,R,Mary Perry,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-NV-02,D,"H. D. ""Chip"" Evans",W,rdc,Reflective Democracy Campaign (사용자 파일의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
@@ -3465,11 +3496,15 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-NY-03,D,Thomas R. Suozzi,W,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,다른 해 자료의 같은 사람
 2016-H-NY-03,R,Jack M. Martins,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,다른 해 자료의 같은 사람
 2016-H-NY-04,D,Kathleen M. Rice,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2016-H-NY-04,R,David H. Gurfein,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2016-H-NY-05,D,Gregory W. Meeks,B,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2016-H-NY-05,R,Michael A. O'Reilly,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2016-H-NY-06,D,Grace Meng,AP,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-NY-06,R,Danniel S. Maio,AP,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 아시안); 근거는 적지 않음
 2016-H-NY-07,D,Nydia M. Velazquez,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-NY-07,R,Allan E. Romaguera,H,rdc,Reflective Democracy Campaign (사용자 파일의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-NY-10,D,Jerrold L. Nadler,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-NY-10,R,Philip Rosenthal,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2016-H-NY-11,D,Richard A. Reichard,W,rdc,Reflective Democracy Campaign (사용자 파일의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-NY-11,R,Dan Donovan,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,다른 해 자료의 같은 사람
 2016-H-NY-12,D,Carolyn B. Maloney,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -3486,6 +3521,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-NY-19,R,John J. Faso,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,다른 해 자료의 같은 사람
 2016-H-NY-20,D,Paul D. Tonko,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-NY-20,R,Joe Vitollo,W,rdc,Reflective Democracy Campaign (사용자 파일의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
+2016-H-NY-21,D,Mike Derrick,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2016-H-NY-21,R,Elise M. Stefanik,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-NY-22,D,Kim A. Myers,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-NY-22,R,Claudia Tenney,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -3513,6 +3549,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-OH-06,R,Bill Johnson,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-OH-07,D,Roy Rich,W,rdc,Reflective Democracy Campaign (사용자 파일의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-OH-07,R,Bob Gibbs,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-OH-08,D,Steven Fought,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2016-H-OH-08,R,Warren Davidson,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2016-H-OH-09,D,Marcy Kaptur,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-OH-09,R,Donald P. Larson,W,rdc,Reflective Democracy Campaign (사용자 파일의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
@@ -3523,6 +3560,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-OH-12,D,Ed Albertson,W,rdc,Reflective Democracy Campaign (사용자 파일의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-OH-12,R,Pat Tiberi,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-OH-13,D,Tim Ryan,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-OH-13,R,Richard A. Morckel,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2016-H-OH-14,D,Michael Wager,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-OH-14,R,David P. Joyce,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-OH-15,D,Scott Wharton,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3542,6 +3580,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-OR-02,D,James (Jim) Crary,W,rdc,Reflective Democracy Campaign (사용자 파일의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-OR-02,R,Greg Walden,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-OR-03,D,Earl Blumenauer,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-OR-03,R,David W. Walker,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2016-H-OR-04,D,Peter A. DeFazio,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-OR-04,R,Art Robinson,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-OR-05,D,Kurt Schrader,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3560,6 +3599,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-PA-07,R,Patrick L. Meehan,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-PA-08,D,Steve Santarsiero,W,file,Candidate Characteristics Cooperative (C3),https://doi.org/10.7910/DVN/VHAPHV,다른 해 자료의 같은 사람
 2016-H-PA-08,R,Brian Fitzpatrick,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2016-H-PA-09,D,Art Halvorson,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2016-H-PA-09,R,Bill Shuster,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-PA-10,D,Michael Molesevich,W,rdc,Reflective Democracy Campaign (사용자 파일의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-PA-10,R,Tom Marino,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3579,6 +3619,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-RI-01,R,Harold Russell Taub,W,rdc,Reflective Democracy Campaign (사용자 파일의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-RI-02,D,James R. Langevin,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-RI-02,R,Rhue R. Reis,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-SC-01,D,Dimitri Cherny,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2016-H-SC-01,R,Mark Sanford,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-SC-02,D,Arik Bjorn,W,rdc,Reflective Democracy Campaign (사용자 파일의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-SC-02,R,Joe Wilson,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3586,6 +3627,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-SC-03,R,Jeff Duncan,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-SC-04,D,Chris Fedalei,W,rdc,Reflective Democracy Campaign (사용자 파일의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-SC-04,R,Trey Gowdy,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-SC-05,D,Fran Person,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2016-H-SC-05,R,Mick Mulvaney,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-SC-06,D,"James E. ""Jim"" Clyburn",B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
 2016-H-SC-06,R,Laura Sterling,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -3593,6 +3635,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-SC-07,R,Tom Rice,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-SD-00,D,Paula Hawks,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-SD-00,R,Kristi Noem,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2016-H-TN-01,D,Alan Bohms,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2016-H-TN-01,R,Phil Roe,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-TN-02,D,Stuart Starr,W,rdc,Reflective Democracy Campaign (사용자 파일의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-TN-02,R,John J. Duncan Jr.,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3604,6 +3647,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-TN-05,R,Stacy Ries Snyder,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-TN-06,D,David W. Kent,W,rdc,Reflective Democracy Campaign (사용자 파일의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-TN-06,R,Diane Black,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2016-H-TN-07,D,Tharon Chandler,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2016-H-TN-07,R,Marsha Blackburn,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-TN-08,D,Rickey Hobson,B,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-TN-08,R,David Kustoff,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
@@ -3620,6 +3664,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-TX-07,D,James Cargas,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-TX-07,R,John Culberson,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-TX-09,D,Al Green,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
+2016-H-TX-09,R,Jeff Martin,B,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 흑인); 근거는 적지 않음
 2016-H-TX-10,D,Tawana W. Cadien,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,다른 해 자료의 같은 사람
 2016-H-TX-10,R,Michael T. McCaul,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-TX-12,D,Bill Bradshaw,W,rdc,Reflective Democracy Campaign (사용자 파일의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
@@ -3628,6 +3673,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-TX-14,R,Randy Weber,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-TX-15,D,Vicente Gonzalez,H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
 2016-H-TX-15,R,Tim Westley,B,file,Editorial: We recommend Dawn Buckingham in GOP runoff for Texas land commissioner,https://www.houstonchronicle.com/opinion/endorsements/article/Editorial-We-recommend-Dawn-Buckingham-in-GOP-17172302.php/,다른 자료(주의회·주 선거 등)에서 연결한 같은 사람
+2016-H-TX-17,D,William Matta,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2016-H-TX-17,R,Bill Flores,H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
 2016-H-TX-18,D,Sheila Jackson Lee,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-TX-18,R,Lori Bartley,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -3667,10 +3713,12 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-UT-03,R,Jason Chaffetz,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-UT-04,D,Doug Owens,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-UT-04,R,Mia B. Love,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2016-H-VA-01,D,"M. D. ""Matt"" Rowe",W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2016-H-VA-01,R,"Robert J. ""Rob"" Wittman",W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-VA-02,D,Shaun D. Brown,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-VA-02,R,Scott W. Taylor,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-VA-03,D,"Robert C. ""Bobby"" Scott",B,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2016-H-VA-03,R,"M. L. ""Marty"" Williams",W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2016-H-VA-04,D,A. Donald McEachin,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
 2016-H-VA-04,R,"Michael L. ""Mike"" Wade",W,rdc,Reflective Democracy Campaign (사용자 파일의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-VA-05,D,Jane D. Dittmar,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -3680,14 +3728,17 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-VA-07,D,Eileen M. Bedell,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-VA-07,R,David A. Brat,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-VA-08,D,Donald S. Beyer Jr.,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-VA-08,R,Charles A. Hernick,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2016-H-VA-09,D,Derek W. Kitts,W,rdc,Reflective Democracy Campaign (사용자 파일의 기관 분류),https://wholeads.us/wp-content/uploads/2018/09/full-data-sets-and-reports-2016-17.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2016-H-VA-09,R,H. Morgan Griffith,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-VA-10,D,LuAnn L. Bennett,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-VA-10,R,Barbara Jean Comstock,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-VT-00,D,Peter Welch,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-VT-00,R,Mark Donka,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2016-H-WA-01,D,Suzan DelBene,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2016-H-WA-01,R,Robert J. Sutherland,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-WA-02,D,Rick Larsen,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-WA-02,R,Marc Hennemann,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2016-H-WA-03,D,Jim Moeller,W,file,Lublin et al. / State Legislative Database,https://doi.org/10.7910/DVN/NYOXTE,다른 해 자료의 같은 사람
 2016-H-WA-03,R,Jaime Herrera Beutler,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,다른 해 자료의 같은 사람
 2016-H-WA-05,D,Joe Pakootas,NA,file,Washington Secretary of State / Voters’ Guide,https://eledataweb.votewa.gov/OVG/OnlineVotersGuide/GetCandidateStatement?Display=Statewide&candidateId=41920&electionId=63&raceJurisdictionName=Congressional,
@@ -3700,6 +3751,7 @@ race_id,party,name,race,src,source,source_url,note
 2016-H-WA-09,R,Doug Basler,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-WA-10,D,Denny Heck,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-WA-10,R,Jim Postma,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2016-H-WI-01,D,Ryan Solen,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2016-H-WI-01,R,Paul Ryan,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-WI-02,D,Mark Pocan,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2016-H-WI-02,R,Peter Theron,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
@@ -3786,6 +3838,7 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-CA-18,D,Anna G. Eshoo,MENA,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2018-H-CA-18,R,Christine Russell,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-CA-19,D,Zoe Lofgren,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2018-H-CA-19,R,Justin James Aguilera,H,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 히스패닉); 근거는 적지 않음
 2018-H-CA-21,D,TJ Cox,AP,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-CA-21,R,David Valadao,H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
 2018-H-CA-22,D,Andrew Janz,AP,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
@@ -3807,6 +3860,7 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-CA-31,D,Pete Aguilar,H,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-CA-31,R,Sean Flynn,W/AP,file,"Atkinson-Baker, Inc.",https://supreme.courts.ca.gov/sites/default/files/supremecourt/default/documents/6-s260209-apps-motion-exhs-vol-i-of-ii-050420.pdf,
 2018-H-CA-32,D,Grace Flores Napolitano,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,다른 해 자료의 같은 사람
+2018-H-CA-32,R,Joshua M. Scott,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2018-H-CA-33,D,Ted W. Lieu,AP,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-CA-33,R,Kenneth Weston Wright,W,rdc,Reflective Democracy Campaign (사용자 파일의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2018-H-CA-35,D,Norma J. Torres,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -3925,6 +3979,7 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-GA-06,R,Karen Handel,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-GA-07,D,Carolyn Bourdeaux,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2018-H-GA-07,R,Rob Woodall,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-GA-08,D,James L. Cooper III,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2018-H-GA-08,R,Austin Scott,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-GA-09,D,Josh McCall,W,file,FiveThirtyEight 2018,https://github.com/fivethirtyeight/data/tree/master/primary-candidates-2018,
 2018-H-GA-09,R,Doug Collins,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
@@ -4030,8 +4085,11 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-KY-06,R,Andy Barr,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-LA-01,R,Steve Scalise,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-LA-03,R,Clay Higgins,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-LA-04,D,Ryan Trundle,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2018-H-LA-04,R,"""Mike"" Johnson",W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-LA-05,D,Jessee Carlton Fleenor,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2018-H-LA-05,R,Ralph Abraham,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-LA-06,D,Justin Dewitt,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2018-H-LA-06,R,Garret Graves,W/MENA/MU,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,다른 해 자료의 같은 사람
 2018-H-MA-02,D,James P. McGovern,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-MA-02,R,Tracy Lyn Lovvorn,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -4176,6 +4234,7 @@ race_id,party,name,race,src,source,source_url,note
 2018-H-NJ-05,D,Josh Gottheimer,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-NJ-05,R,John J. McCann Jr.,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-NJ-06,D,Frank Pallone Jr.,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
+2018-H-NJ-06,R,Richard J. Pezzullo,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2018-H-NJ-07,D,Tom Malinowski,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-NJ-07,R,Leonard Lance,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,
 2018-H-NJ-08,D,Albio Sires,H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
@@ -5015,6 +5074,7 @@ race_id,party,name,race,src,source,source_url,note
 2020-H-NY-06,R,Thomas J. Zmich,W,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,
 2020-H-NY-07,D,Nydia M. Velazquez,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2020-H-NY-08,D,Hakeem S. Jeffries,B,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,
+2020-H-NY-08,R,Garfield H. Wallace,B,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 흑인); 근거는 적지 않음
 2020-H-NY-09,D,Yvette D. Clarke,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2020-H-NY-09,R,Constantine Jean-Pierre,B,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,
 2020-H-NY-10,D,Jerrold L. Nadler,W,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,
@@ -5568,6 +5628,7 @@ race_id,party,name,race,src,source,source_url,note
 2022-H-IL-06,D,Sean Casten,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,
 2022-H-IL-06,R,Keith Pekau,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,
 2022-H-IL-07,D,Danny K. Davis,B,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,
+2022-H-IL-07,R,Chad Koppie,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2022-H-IL-08,D,Raja Krishnamoorthi,AP,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,
 2022-H-IL-08,R,Chris Dargis,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,
 2022-H-IL-09,D,Janice D. Schakowsky,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -5881,6 +5942,7 @@ race_id,party,name,race,src,source,source_url,note
 2022-H-OH-08,D,Vanessa Enoch,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2022-H-OH-08,R,Warren Davidson,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,
 2022-H-OH-09,D,Marcy Kaptur,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2022-H-OH-09,R,J. R. Majewski,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2022-H-OH-10,D,David Esrati,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,
 2022-H-OH-10,R,Mike Turner,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,
 2022-H-OH-11,D,Shontel Brown,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -5990,6 +6052,7 @@ race_id,party,name,race,src,source,source_url,note
 2022-H-TX-08,D,Laura Jones,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2022-H-TX-08,R,Morgan Luttrell,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,
 2022-H-TX-09,D,Al Green,B,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,
+2022-H-TX-09,R,Jimmy I. Leon,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2022-H-TX-10,D,Linda Nuno,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2022-H-TX-10,R,Michael McCaul,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,
 2022-H-TX-12,D,Trey J. Hunt,W/B,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,
@@ -6102,6 +6165,7 @@ race_id,party,name,race,src,source,source_url,note
 2022-H-WI-05,R,Scott Fitzgerald,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,
 2022-H-WI-07,D,Richard Dick Ausman,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,
 2022-H-WI-07,R,Tom Tiffany,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,
+2022-H-WI-08,D,Julie Hancock,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2022-H-WI-08,R,Mike Gallagher,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,
 2022-H-WV-01,D,Mr. Lacy Watson,B,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,
 2022-H-WV-01,R,Carol Miller,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -6111,6 +6175,7 @@ race_id,party,name,race,src,source,source_url,note
 2022-H-WY-00,R,Harriett Hageman,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-AK-00,D,Mary Peltola,NA,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-AK-00,R,Nick Begich III,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2024-H-AL-01,D,Tom Holmes,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-AL-01,R,Barry Moore,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-AL-02,D,Shomari Figures,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
 2024-H-AL-02,R,Caroleene Dobson,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -6120,6 +6185,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-AL-07,R,Robin Litaker,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-AR-01,D,Rodney Govens,B,file,New American Journal,https://www.newamericanjournal.net/2024/10/change-is-coming-to-harrison-arkansas-once-called-the-most-racist-town-in-america/,
 2024-H-AR-01,R,Rick Crawford,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-AR-02,D,Marcus Jones,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-AR-02,R,French Hill,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-AR-03,R,Steve Womack,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-AR-04,D,Risie Howard,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -6138,6 +6204,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-AZ-06,R,Juan Ciscomani,H,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-AZ-07,D,Raúl Grijalva,H,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-AZ-07,R,Daniel Butierez,H,file,Incredible Story: My Journey of Transformation,https://butierezforcongress.com/my-incredible-story/,
+2024-H-AZ-08,D,Greg Whitten,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-AZ-08,R,Abraham Hamadeh,MENA,file,Individual verification,https://hamadeh.house.gov/about/,다른 해 자료의 같은 사람
 2024-H-AZ-09,D,Quacy Smith,B,research,웹 조사(2026-11-05),https://www.ebony.com/whos-running-2024/ ; https://quacysmithforcongress.com,"EBONY ""Who's Running?"" 2024 directory of Black candidates lists Quacy Smith, House, Democrat, vs. Paul Gosar (Arizona section)."
 2024-H-AZ-09,R,Paul Gosar,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
@@ -6154,6 +6221,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-CA-06,D,Ami Bera,AP,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-CA-06,R,Christine Bish,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-CA-07,D,Doris Matsui,AP,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2024-H-CA-07,R,Tom Silva,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-CA-08,D,John Garamendi,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-CA-08,R,Rudy Recile,AP,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-CA-09,D,Josh Harder,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
@@ -6173,6 +6241,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-CA-18,D,Zoe Lofgren,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-CA-18,R,Peter Hernandez,H,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-CA-19,D,Jimmy Panetta,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-CA-19,R,Jason Anderson,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-CA-21,D,Jim Costa,H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
 2024-H-CA-21,R,Michael Maher,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-CA-22,D,Rudy Salas,H,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
@@ -6180,7 +6249,9 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-CA-23,D,Derek Marshall,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-CA-23,R,Jay Obernolte,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-CA-24,D,Salud Carbajal,H,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-CA-24,R,Thomas Cole,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-CA-25,D,Raul Ruiz,H,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-CA-25,R,Ian Weeks,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-CA-26,D,Julia Brownley,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-CA-26,R,Michael Koslow,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/CA_candidates_cleaned.csv,다른 해 자료의 같은 사람
 2024-H-CA-27,D,George Whitesides,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/CA_candidates_cleaned.csv,다른 해 자료의 같은 사람
@@ -6204,6 +6275,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-CA-38,D,Linda Sánchez,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-CA-38,R,Eric Ching,AP,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-CA-39,D,Mark Takano,AP,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2024-H-CA-39,R,David Serpa,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-CA-40,D,Joe Kerr,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/CA_candidates_cleaned.csv,다른 해 자료의 같은 사람
 2024-H-CA-40,R,Young Kim,AP,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-CA-41,D,Will Rollins,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
@@ -6211,7 +6283,9 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-CA-42,D,Robert Garcia,H,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-CA-42,R,John Briscoe,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-CA-43,D,Maxine Waters,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2024-H-CA-43,R,Steve Williams,AP,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 아시안); 근거는 적지 않음
 2024-H-CA-44,D,Nanette Barragán,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2024-H-CA-44,R,Roger Groh,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-CA-45,D,Derek Tran,AP,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/CA_candidates_cleaned.csv,다른 해 자료의 같은 사람
 2024-H-CA-45,R,Michelle Steel,AP,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-CA-46,D,Lou Correa,H,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
@@ -6221,9 +6295,13 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-CA-48,D,Stephen Houlahan,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-CA-48,R,Darrell Issa,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-CA-49,D,Mike Levin,H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
+2024-H-CA-49,R,Matt Gunderson,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-CA-50,D,Scott Peters,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-CA-50,R,Peter Bono,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-CA-51,D,Sara Jacobs,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2024-H-CA-51,R,Bill Wells,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-CA-52,D,Juan Vargas,H,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-CA-52,R,Justin Lee,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-CO-01,D,Diana DeGette,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-CO-01,R,Valdamar Archuleta,H/NA,file,Colorado congressional candidates | 2024 VOTER GUIDE - Denver Gazette,https://www.denvergazette.com/2024/10/01/colorado-congressional-candidates-2024-voter-guide/,
 2024-H-CO-02,D,Joe Neguse,B,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
@@ -6234,6 +6312,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-CO-05,D,River Gassen,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-CO-05,R,Jeff Crank,W,file,Grumbach & Sahn / hand coding,https://doi.org/10.7910/DVN/PUIJIU,다른 해 자료의 같은 사람
 2024-H-CO-06,D,Jason Crow,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-CO-06,R,John Fabbricatore,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-CO-07,D,Brittany Pettersen,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-CO-07,R,Sergei Matveyuk,W,research,웹 조사(2026-11-05),https://ballotpedia.org/Sergei_Matveyuk ; https://coloradonewsline.com/2024/10/11/candidate-qa-7th-congressional-district-2024/,"Ballotpedia: ""Sergei Matveyuk was born in Poland.""; his Candidate Connection survey: ""I am of Polish descent."""
 2024-H-CO-08,D,Yadira Caraveo,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -6243,11 +6322,13 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-CT-02,D,Joe Courtney,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-CT-02,R,Mike France,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-CT-03,D,Rosa DeLauro,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2024-H-CT-03,R,Michael Massey,B,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 흑인); 근거는 적지 않음
 2024-H-CT-04,D,Jim Himes,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-CT-04,R,Michael Goldstein,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-CT-05,D,Jahana Hayes,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-CT-05,R,George Logan,B,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-DE-00,D,Sarah McBride,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2024-H-DE-00,R,John Whalen,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-FL-01,D,Gay Valimont,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-FL-01,R,Matt Gaetz,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-FL-02,D,Yen Bailey,AP,file,Individual verification,https://news.wfsu.org/state-news/2024-07-31/a-new-democrat-emerges-to-challenge-republican-neal-dunn-for-floridas-second-congressional-district,
@@ -6258,12 +6339,14 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-FL-04,R,Aaron Bean,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-FL-05,D,Jay McGovern,W,file,Grumbach & Sahn / Goggin,https://doi.org/10.7910/DVN/PUIJIU,다른 해 자료의 같은 사람
 2024-H-FL-05,R,John Rutherford,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-FL-06,D,James Stockton III,B,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 흑인); 근거는 적지 않음
 2024-H-FL-06,R,Michael Waltz,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-FL-07,D,Jennifer Adams,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-FL-07,R,Cory Mills,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-FL-08,D,Sandy Kennedy,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-FL-08,R,Mike Haridopolos,W,file,NALAF / New American Candidate Database,https://www.nalaf.org/nalaf-new-american-candidate-database,다른 자료(주의회·주 선거 등)에서 연결한 같은 사람
 2024-H-FL-09,D,Darren Soto,H,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2024-H-FL-09,R,Thomas Chalifoux,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-FL-10,D,Maxwell Alejandro Frost,B/H/MU,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-FL-10,R,Willie Montague,B,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-FL-11,D,Barbie Harden Hall,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -6273,6 +6356,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-FL-13,D,Whitney Fox,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-FL-13,R,Anna Paulina Luna,W/H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-FL-14,D,Kathy Castor,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2024-H-FL-14,R,Robert Rochford,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-FL-15,D,Pat Kemp,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-FL-15,R,Laurel Lee,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-FL-16,D,Jan Schneider,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -6283,6 +6367,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-FL-18,R,Scott Franklin,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-FL-19,D,Kari Lerner,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-FL-19,R,Byron Donalds,B,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-FL-21,D,Thomas Witkop,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-FL-21,R,Brian Mast,H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
 2024-H-FL-22,D,Lois Frankel,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-FL-22,R,Dan Franzese,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
@@ -6292,6 +6377,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-FL-24,R,Jesus Navarro,H,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-FL-25,D,Debbie Wasserman Schultz,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-FL-25,R,Chris Eddy,MENA,research,웹 조사(2026-11-05),https://ballotpedia.org/Christopher_Eddy,"Campaign site (quoted on Ballotpedia): ""As a grandson of Lebanese immigrants"""
+2024-H-FL-26,D,Joey Atkins,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-FL-26,R,Mario Díaz-Balart,H,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-FL-27,D,Lucia Báez-Geller,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-FL-27,R,María Elvira Salazar,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -6308,6 +6394,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-GA-05,D,Nikema Williams,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-GA-05,R,John Salvesen,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/GA_candidates_cleaned.csv,다른 해 자료의 같은 사람
 2024-H-GA-06,D,Lucy McBath,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2024-H-GA-06,R,Jeff Criswell,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-GA-07,D,Bob Christian,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-GA-07,R,Rich McCormick,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-GA-08,D,Darrius Butler,B,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
@@ -6341,6 +6428,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-ID-02,D,David Roth,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-ID-02,R,Mike Simpson,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-IL-01,D,Jonathan Jackson,B,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-IL-01,R,Marcus Lewis,B,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 흑인); 근거는 적지 않음
 2024-H-IL-02,D,Robin Kelly,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-IL-02,R,Ashley Ramos,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-IL-03,D,Delia Ramirez,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -6354,21 +6442,30 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-IL-07,D,Danny Davis,B,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-IL-07,R,Chad Koppie,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-IL-08,D,Raja Krishnamoorthi,AP,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2024-H-IL-08,R,Mark Rice,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-IL-09,D,Janice Schakowsky,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2024-H-IL-09,R,Seth Cohen,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-IL-10,D,Brad Schneider,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-IL-10,R,Jim Carris,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-IL-11,D,Bill Foster,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-IL-11,R,Jerry Evans,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2024-H-IL-12,D,Brian Roberts,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-IL-12,R,Mike Bost,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-IL-13,D,Nikki Budzinski,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2024-H-IL-13,R,Joshua Loyd,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-IL-14,D,Lauren Underwood,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-IL-14,R,James Marter,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2024-H-IL-15,D,William Bonnett,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-IL-15,R,Mary Miller,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-IL-17,D,Eric Sorensen,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-IL-17,R,Joseph McGraw,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-IN-01,D,Frank J. Mrvan,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-IN-01,R,Randy Niemeyer,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-IN-02,D,Lori Camp,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-IN-02,R,Rudy Yakym,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-IN-03,D,Kiley Adolph,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-IN-03,R,Marlin Stutzman,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
+2024-H-IN-04,D,Derrick Holder,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-IN-04,R,Jim Baird,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-IN-05,D,Deborah Pickett,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-IN-05,R,Victoria Spartz,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -6376,6 +6473,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-IN-06,R,Jefferson Shreve,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/IN_candidates_cleaned.csv,다른 해 자료의 같은 사람
 2024-H-IN-07,D,André Carson,B,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-IN-07,R,John Schmitz,W,rdc,Reflective Democracy Campaign (사용자 파일의 기관 분류),https://wholeads.us/wp-content/uploads/2020/11/Who_Ran_on_Nov_3rd_Congressional_Electoral_Landscape_2020.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
+2024-H-IN-08,D,Erik Hurt,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-IN-08,R,Mark Messmer,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/IN_candidates_cleaned.csv,다른 해 자료의 같은 사람
 2024-H-IN-09,D,Tim Peck,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/IN_candidates_cleaned.csv,다른 해 자료의 같은 사람
 2024-H-IN-09,R,Erin Houchin,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -6393,7 +6491,9 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-KY-02,R,Brett Guthrie,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-KY-03,D,Morgan McGarvey,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-KY-03,R,Mike Craven,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2024-H-KY-06,D,Randy Cravens,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-KY-06,R,Andy Barr,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-LA-01,D,Mel Manuel,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-LA-01,R,Steve Scalise,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-LA-02,D,Troy Carter,B,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-LA-02,R,Christy Lynch,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -6407,10 +6507,12 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-MA-08,R,Robert Burke,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-MA-09,D,Bill Keating,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-MA-09,R,Dan Sullivan,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2024-H-MD-01,D,Blane H. Miller III,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-MD-01,R,Andy Harris,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-MD-02,D,Johnny Olszewski,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/MD_candidates_cleaned.csv,다른 해 자료의 같은 사람
 2024-H-MD-02,R,Kimberly Klacik,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-MD-03,D,Sarah Elfreth,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2024-H-MD-03,R,Robert Steinberger,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-MD-04,D,Glenn Ivey,B,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-MD-04,R,George McDermott,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-MD-05,D,Steny Hoyer,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
@@ -6427,8 +6529,10 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-ME-02,R,Austin Theriault,W,file,State Legislators Dataset / Duke,https://people.duke.edu/~nwc8/stateleg.html,다른 해 자료의 같은 사람
 2024-H-MI-01,D,Callie Barr,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-MI-01,R,Jack Bergman,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-MI-02,D,Michael Lynch,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-MI-02,R,John Moolenaar,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-MI-03,D,Hillary Scholten,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2024-H-MI-03,R,Paul Hudson,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-MI-04,D,Jessica Swartz,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-MI-04,R,Bill Huizenga,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-MI-05,D,Libbi Urban,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -6439,10 +6543,12 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-MI-07,R,Tom Barrett,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-MI-08,D,Kristen McDonald Rivet,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-MI-08,R,Paul Junge,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2024-H-MI-09,D,Clinton St. Mosley,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-MI-09,R,Lisa McClain,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-MI-10,D,Carl Marlinga,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-MI-10,R,John James,B,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-MI-11,D,Haley Stevens,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2024-H-MI-11,R,Nick Somberg,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-MI-12,D,Rashida Tlaib,MENA,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,다른 해 자료의 같은 사람
 2024-H-MI-12,R,James Hooper,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-MI-13,D,Shri Thanedar,AP,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
@@ -6465,12 +6571,14 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-MN-08,R,Pete Stauber,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-MO-01,D,Wesley Bell,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
 2024-H-MO-01,R,Andrew Jones,B,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2024-H-MO-02,D,Ray Hartmann,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-MO-02,R,Ann Wagner,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-MO-03,D,Bethany Mann,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-MO-03,R,Bob Onder,W,file,Candidate Characteristics Cooperative (C3),https://doi.org/10.7910/DVN/VHAPHV,다른 해 자료의 같은 사람
 2024-H-MO-04,D,Jeanette Cass,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-MO-04,R,Mark Alford,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-MO-05,D,Emanuel Cleaver,B,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-MO-05,R,Sean Smith,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-MO-06,D,Pam May,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-MO-06,R,Sam Graves,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-MO-07,D,Missi Hesketh,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -6492,8 +6600,10 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-NC-02,D,Deborah Ross,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-NC-02,R,Alan Swain,AP,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1yAK-fF8hOXdkZS7Bs3kjRZJS86sdLy8g_-oTZYr8x60/edit,다른 해 자료의 같은 사람
 2024-H-NC-04,D,Valerie Foushee,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2024-H-NC-04,R,Eric Blankenburg,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-NC-05,D,Chuck Hubbard,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/2026_candidates_cleaned.csv,다른 해 자료의 같은 사람
 2024-H-NC-05,R,Virginia Foxx,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2024-H-NC-07,D,Marlando Pridgen,B,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 흑인); 근거는 적지 않음
 2024-H-NC-07,R,David Rouzer,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-NC-08,D,Justin Dues,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/2026_candidates_cleaned.csv,다른 해 자료의 같은 사람
 2024-H-NC-08,R,Mark Harris,W,file,Daily Kos Elections / The Downballot,https://docs.google.com/spreadsheets/d/1peOepPqFLcThlNGJpJeUC4BkztRDwyP179SU2wwD5-w/edit,다른 해 자료의 같은 사람
@@ -6515,6 +6625,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-NE-01,R,Mike Flood,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-NE-02,D,Tony Vargas,H,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-NE-02,R,Don Bacon,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-NE-03,D,Daniel Ebers,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-NE-03,R,Adrian Smith,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-NH-01,D,Chris Pappas,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-NH-01,R,Russell Prescott,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
@@ -6522,6 +6633,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-NH-02,R,Lily Tang Williams,AP,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-NJ-01,D,Donald Norcross,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-NJ-01,R,Teddy Liddell,B,research,웹 조사(2026-11-05),https://newjerseyglobe.com/congress/liddell-wins-gop-nod-to-take-on-norcross-in-nj-1/,"New Jersey Globe: 'If he were to win in November, Liddell would be the first Black Republican to ever be elected to Congress from New Jersey.'"
+2024-H-NJ-02,D,Joe Salerno,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-NJ-02,R,Jeff Van Drew,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-NJ-03,D,Herb Conaway,B,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/NJ_candidates_cleaned.csv,다른 해 자료의 같은 사람
 2024-H-NJ-03,R,Rajesh Mohan,AP,file,Rajesh Mohan defeated in New Jersey’s 3rd Congressional district race,https://www.newindiaabroad.com/punjabi/us-elections-2024/rajesh-mohan-defeated-in-new-jerseys-3rd-congressional-district-race,
@@ -6530,9 +6642,11 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-NJ-05,D,Josh Gottheimer,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-NJ-05,R,Mary Jo-Ann Guinchard,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-NJ-06,D,Frank Pallone,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-NJ-06,R,Scott Fegler,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-NJ-07,D,Sue Altman,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-NJ-07,R,Thomas Kean Jr.,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-NJ-08,D,Rob Menendez,H,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2024-H-NJ-08,R,Anthony Valdes,H,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 히스패닉); 근거는 적지 않음
 2024-H-NJ-09,D,Nellie Pou,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-NJ-09,R,Billy Prempeh,B,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-NJ-10,D,LaMonica McIver,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -6542,6 +6656,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-NJ-12,D,Bonnie Watson Coleman,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-NJ-12,R,Darius Mayfield,B,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-NM-01,D,Melanie Stansbury,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2024-H-NM-01,R,Steve Jones,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-NM-02,D,Gabe Vasquez,H,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-NM-02,R,Yvette Herrell,NA,file,Individual verification,https://history.house.gov/People/Detail/25769817326,다른 해 자료의 같은 사람
 2024-H-NM-03,D,Teresa Leger Fernandez,H,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
@@ -6549,10 +6664,12 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-NV-01,D,Dina Titus,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-NV-01,R,Mark Robertson,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-NV-03,D,Susie Lee,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2024-H-NV-03,R,Drew Johnson,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-NV-04,D,Steven Horsford,B,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-NV-04,R,John Lee,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 자료(주의회·주 선거 등)에서 연결한 같은 사람
 2024-H-NY-01,D,John Avlon,W,research,웹 조사(2026-11-05),https://en.wikipedia.org/wiki/John_Avlon ; https://greekreporter.com/2024/11/04/greek-americans-running-congress/,"Wikipedia: ""He is of Greek descent, and his grandparents were immigrants."" Greek Reporter (Greek-Americans running for Congress, 2024): Avlon ""originally from Corfu and Samos."""
 2024-H-NY-01,R,Nick LaLota,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-NY-02,D,Rob Lubin,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-NY-02,R,Andrew Garbarino,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-NY-03,D,Tom Suozzi,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-NY-03,R,Mike LiPetri,W,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,다른 해 자료의 같은 사람
@@ -6563,9 +6680,12 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-NY-06,D,Grace Meng,AP,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-NY-06,R,Thomas Zmich,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-NY-07,D,Nydia Velázquez,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2024-H-NY-07,R,William Kregler,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-NY-08,D,Hakeem Jeffries,B,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-NY-09,D,Yvette Clarke,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2024-H-NY-09,R,Menachem Raitport,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-NY-10,D,Dan Goldman,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-NY-10,R,Alex Dodenhoff,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-NY-11,D,Andrea Morse,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-NY-11,R,Nicole Malliotakis,W/H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-NY-12,D,Jerry Nadler,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
@@ -6585,19 +6705,25 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-NY-19,D,Josh Riley,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-NY-19,R,Marc Molinaro,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-NY-20,D,Paul Tonko,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-NY-20,R,Kevin Waltz,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-NY-21,D,Paula Collins,W/AP,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-NY-21,R,Elise Stefanik,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-NY-22,D,John Mannion,W,file,Candidate Characteristics Cooperative (C3),https://doi.org/10.7910/DVN/VHAPHV,다른 해 자료의 같은 사람
 2024-H-NY-22,R,Brandon Williams,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-NY-23,D,Thomas Carle,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-NY-23,R,Nick Langworthy,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-NY-24,D,David Wagenhauser,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-NY-24,R,Claudia Tenney,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-NY-25,D,Joseph Morelle,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-NY-25,R,Gregg Sadwick,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-NY-26,D,Tim Kennedy,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-NY-26,R,Anthony Marecki,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-OH-01,D,Greg Landsman,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-OH-01,R,Orlando Sonza,AP,file,Orlando Sonza fighting for Ohio and Jason Willick on the Trump Indictments | Breaking Battlegrounds Episode on Amazon Music,https://music.amazon.com/podcasts/2bff2490-e743-4eb3-b10c-052e29ca33f8/episodes/4f50e352-ad4a-48da-a261-e777b3a375b2/breaking-battlegrounds-orlando-sonza-fighting-for-ohio-and-jason-willick-on-the-trump-indictments,
 2024-H-OH-02,D,Samantha Meadows,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-OH-02,R,David Taylor,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/OH_candidates_cleaned.csv,다른 해 자료의 같은 사람
 2024-H-OH-03,D,Joyce Beatty,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2024-H-OH-03,R,Michael Young,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-OH-04,D,Tamie Wilson,W/B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-OH-04,R,Jim Jordan,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-OH-05,D,Keith Mundy,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/OH_candidates_cleaned.csv,다른 해 자료의 같은 사람
@@ -6613,9 +6739,11 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-OH-10,D,Amy Cox,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-OH-10,R,Mike Turner,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-OH-11,D,Shontel Brown,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2024-H-OH-11,R,Alan Rapoport,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-OH-12,D,Jerrad Christian,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/OH_candidates_cleaned.csv,다른 해 자료의 같은 사람
 2024-H-OH-12,R,Troy Balderson,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-OH-13,D,Emilia Sykes,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2024-H-OH-13,R,Kevin Coughlin,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-OH-14,D,Brian Kenderes,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/OH_candidates_cleaned.csv,다른 해 자료의 같은 사람
 2024-H-OH-14,R,David Joyce,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-OH-15,D,Adam Miller,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/OH_candidates_cleaned.csv,다른 해 자료의 같은 사람
@@ -6629,6 +6757,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-OK-05,D,Madison Horn,NA,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-OK-05,R,Stephanie Bice,W/MENA,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-OR-01,D,Suzanne Bonamici,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2024-H-OR-01,R,Bob Todd,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-OR-02,D,Dan Ruby,W/AP,file,Dan Ruby – LGBTQ+ Victory Fund,https://victoryfund.org/candidate/ruby-dan/,
 2024-H-OR-02,R,Cliff Bentz,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-OR-03,D,Maxine Dexter,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -6644,9 +6773,11 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-PA-02,D,Brendan Boyle,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-PA-02,R,Haroon Bashir,AP,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-PA-04,D,Madeleine Dean,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/PA_candidates_cleaned.csv,다른 해 자료의 같은 사람
+2024-H-PA-04,R,David Winkler,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-PA-05,D,Mary Gay Scanlon,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-PA-05,R,Alfeia DeVaughn-Goodwin,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-PA-06,D,Chrissy Houlahan,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2024-H-PA-06,R,Neil Young Jr.,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-PA-07,D,Susan Wild,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-PA-07,R,Ryan Mackenzie,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/PA_candidates_cleaned.csv,다른 해 자료의 같은 사람
 2024-H-PA-08,D,Matt Cartwright,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
@@ -6655,12 +6786,15 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-PA-09,R,Dan Meuser,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-PA-10,D,Janelle Stelson,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-PA-10,R,Scott Perry,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2024-H-PA-11,D,Jim Atkinson,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-PA-11,R,Lloyd Smucker,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-PA-12,D,Summer Lee,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-PA-12,R,James Hayes,B,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/PA_candidates_cleaned.csv,다른 해 자료의 같은 사람
 2024-H-PA-13,D,Beth Farnham,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-PA-13,R,John Joyce,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-PA-14,D,Chris Dziados,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-PA-14,R,Guy Reschenthaler,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-PA-15,D,Zacheray Womer,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-PA-15,R,Glenn Thompson,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-PA-16,D,Preston Nouri,MENA,file,NALAF / New American Candidate Database,https://www.nalaf.org/nalaf-new-american-candidate-database,
 2024-H-PA-16,R,Mike Kelly,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
@@ -6669,10 +6803,12 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-RI-01,D,Gabe Amo,B,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-RI-01,R,Allen Waters,B,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-RI-02,D,Seth Magaziner,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-RI-02,R,Steve Corvi,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-SC-01,D,Michael B. Moore,B,file,theGrio,https://thegrio.com/2023/10/13/descendant-of-civil-war-hero-wants-to-unseat-sc-house-rep-nancy-mace/,다른 자료(주의회·주 선거 등)에서 연결한 같은 사람
 2024-H-SC-01,R,Nancy Mace,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-SC-02,D,David Robinson,B,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/SC_candidates_cleaned.csv,다른 해 자료의 같은 사람
 2024-H-SC-02,R,Joe Wilson,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-SC-03,D,Bryon Best,B,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 흑인); 근거는 적지 않음
 2024-H-SC-03,R,Sheri Biggs,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-SC-04,D,Kathryn Harvey,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-SC-04,R,William Timmons,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
@@ -6684,9 +6820,11 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-SC-07,R,Russell Fry,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-SD-00,D,Sheryl Johnson,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-SD-00,R,Dusty Johnson,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-TN-01,D,Kevin Jenkins,B,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 흑인); 근거는 적지 않음
 2024-H-TN-01,R,Diana Harshbarger,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-TN-02,D,Jane George,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-TN-02,R,Tim Burchett,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-TN-03,D,Jack Allen,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-TN-03,R,Chuck Fleischmann,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-TN-04,D,Victoria Broderick,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-TN-04,R,Scott DesJarlais,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
@@ -6704,6 +6842,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-TX-02,R,Dan Crenshaw,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-TX-03,D,Sandeep Srivastava,AP,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-TX-03,R,Keith Self,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-TX-04,D,Simon Cardell,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-TX-04,R,Pat Fallon,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-TX-05,D,Ruth Torres,W/H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-TX-05,R,Lance Gooden,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
@@ -6723,6 +6862,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-TX-15,R,Monica De La Cruz,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,다른 해 자료의 같은 사람
 2024-H-TX-16,D,Veronica Escobar,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-TX-16,R,Irene Armendariz-Jackson,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2024-H-TX-17,D,Mark Lorenzen,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-TX-17,R,Pete Sessions,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-TX-18,D,Sylvester Turner,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
 2024-H-TX-18,R,Lana Centonze,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -6732,6 +6872,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-TX-22,R,Troy Nehls,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-TX-23,D,Santos Limon,H,surname,이름 기반 추정: 미국 인구조사 2010 성씨표 × Tzioumis(2018) 이름표,https://www.census.gov/topics/population/genealogy/data/2010_surnames.html | https://doi.org/10.7910/DVN/TYJKEZ,"히스패닉(추정): 성과 이름으로 본 확률 1.000 (성 0.91, 이름 0.96); 본인·자료의 인종 기재는 찾지 못함"
 2024-H-TX-23,R,Tony Gonzales,H,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-TX-24,D,Sam Eppler,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-TX-24,R,Beth Van Duyne,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-TX-26,D,Ernest Lineberger,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/2026_candidates_cleaned.csv,다른 해 자료의 같은 사람
 2024-H-TX-27,D,Tanya Lloyd,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -6739,6 +6880,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-TX-28,D,Henry Cuellar,H,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-TX-28,R,Jay Furman,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/2026_candidates_cleaned.csv,다른 해 자료의 같은 사람
 2024-H-TX-29,D,Sylvia Garcia,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2024-H-TX-29,R,Alan Garza,H,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 히스패닉); 근거는 적지 않음
 2024-H-TX-31,D,Stuart Whitlow,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/2026_candidates_cleaned.csv,다른 해 자료의 같은 사람
 2024-H-TX-31,R,John Carter,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-TX-32,D,Julie Johnson,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -6755,7 +6897,9 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-TX-37,R,Jenny Garcia Sharon,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-TX-38,D,Melissa McDonough,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-TX-38,R,Wesley Hunt,B,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-UT-01,D,Bill Campbell,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-UT-01,R,Blake Moore,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-UT-02,D,Nathaniel Woodward,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-UT-02,R,Celeste Maloy,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-UT-03,D,Glenn Wright,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-UT-03,R,Mike Kennedy,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/UT_candidates_cleaned.csv,다른 해 자료의 같은 사람
@@ -6766,9 +6910,12 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-VA-02,D,Missy Cotter Smasal,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-VA-02,R,Jen Kiggans,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-VA-03,D,Bobby Scott,B,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2024-H-VA-03,R,John Sitka III,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-VA-04,D,Jennifer McClellan,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2024-H-VA-04,R,Bill Moher,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-VA-05,D,Gloria Witt,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-VA-05,R,John McGuire,W,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,다른 해 자료의 같은 사람
+2024-H-VA-06,D,Ken Mitchell,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-VA-06,R,Ben Cline,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-VA-07,D,Eugene Vindman,W,file,High-stakes House primaries in Virginia show fissures across both parties - ABC News,https://abcnews.com/Politics/high-stakes-house-primaries-virginia-show-fissures-parties/story?id=111138645,
 2024-H-VA-07,R,Derrick Anderson,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
@@ -6779,8 +6926,11 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-VA-10,D,Suhas Subramanyam,AP,file,Individual verification,https://subramanyam.house.gov/media/press-releases/suhas-subramanyam-sworn-represent-virginias-10th-district,다른 해 자료의 같은 사람
 2024-H-VA-10,R,Mike Clancy,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-VA-11,D,Gerry Connolly,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-VA-11,R,Michael Van Meter,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-VT-00,D,Becca Balint,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2024-H-VT-00,R,Mark Coester,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-WA-01,D,Suzan DelBene,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2024-H-WA-01,R,Jeb Brewer,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-WA-02,D,Rick Larsen,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-WA-02,R,Cody Hart,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2024-H-WA-03,D,Marie Gluesenkamp Perez,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -6790,6 +6940,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-WA-06,D,Emily Randall,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-WA-06,R,Drew MacEwen,W,file,Candidate Characteristics Cooperative (C3),https://doi.org/10.7910/DVN/VHAPHV,다른 해 자료의 같은 사람
 2024-H-WA-07,D,Pramila Jayapal,AP,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2024-H-WA-07,R,Dan Alexander,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-WA-08,D,Kim Schrier,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-WA-08,R,Carmen Goers,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-WA-10,D,Marilyn Strickland,B/AP,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
@@ -6802,10 +6953,14 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-WI-03,R,Derrick Van Orden,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-WI-04,D,Gwen Moore,B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-WI-04,R,Tim Rogers,B,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2024-H-WI-05,D,Ben Steinhoff,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-WI-05,R,Scott Fitzgerald,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-WI-06,D,John Zarbano,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-WI-06,R,Glenn Grothman,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
+2024-H-WI-07,D,Kyle Kilbourn,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-WI-07,R,Tom Tiffany,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,
 2024-H-WI-08,D,Kristin Lyerly,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
+2024-H-WV-01,D,Chris Reed,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2024-H-WV-01,R,Carol Miller,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2024-H-WV-02,D,Steven Wendelin,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/WV_candidates_cleaned.csv,다른 해 자료의 같은 사람
 2024-H-WV-02,R,Riley Moore,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/WV_candidates_cleaned.csv,다른 해 자료의 같은 사람
@@ -6813,6 +6968,7 @@ race_id,party,name,race,src,source,source_url,note
 2024-H-WY-00,R,Harriet Hageman,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,
 2026-H-AK-00,D,Eric Hafner,W,file,National Political Prisoner Coalition / Eric Hafner profile,https://politicalprisonercoalition.org/prisoner/eric-hafner,다른 자료(주의회·주 선거 등)에서 연결한 같은 사람
 2026-H-AK-00,R,Nick Begich III,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2026-H-AL-01,D,Clyde Jones,B,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 흑인); 근거는 적지 않음
 2026-H-AL-01,R,Jerry Carl,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/AL_candidates_cleaned.csv,
 2026-H-AL-02,D,Shomari Figures,B,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/AL_candidates_cleaned.csv,
 2026-H-AL-02,R,Rhett Marques,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/AL_candidates_cleaned.csv,
@@ -6835,9 +6991,11 @@ race_id,party,name,race,src,source,source_url,note
 2026-H-AR-04,D,James Russell,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/2026_candidates_cleaned.csv,
 2026-H-AR-04,R,Bruce Westerman,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/2026_candidates_cleaned.csv,
 2026-H-AZ-01,D,Amish Shah,AP,file,Individual verification,https://capac.house.gov/press-release/capac-announces-largest-aapi-membership-history,
+2026-H-AZ-01,R,Jay Feely,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-AZ-02,D,Jonathan Nez,NA,file,Individual verification,https://www.jonathannezforaz.com/about,
 2026-H-AZ-02,R,Eli Crane,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-AZ-03,D,Yassamin Ansari,MENA,file,Individual verification,https://ansari.house.gov/about/meet-yassamin,다른 해 자료의 같은 사람
+2026-H-AZ-03,R,Jacob Parkman,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-AZ-04,D,Greg Stanton,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-AZ-04,R,Zuhdi Jasser,MENA,file,"Dr. Zuhdi Jasser (President, American Islamic Forum for Democracy) at the Public Safety and National Security Committee | openparliament.ca",https://openparliament.ca/committees/public-safety/41-2/59/dr-zuhdi-jasser-1/only/,
 2026-H-AZ-05,D,Elizabeth Lee,W,file,Rutgers Center for American Women and Politics (CAWP),https://cawp.rutgers.edu/blog/results-july-21st-primary-arizona,
@@ -6852,6 +7010,7 @@ race_id,party,name,race,src,source,source_url,note
 2026-H-AZ-09,R,Paul Gosar,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-CA-01,D,Mike McGuire,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/CA_candidates_cleaned.csv,
 2026-H-CA-01,R,James Gallagher,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/CA_candidates_cleaned.csv,트래커 본선 자료의 이름(Jot Thiara)과 다름: 사용자 파일의 후보
+2026-H-CA-01,R,Jot Thiara,AP,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 아시안(인도계)); 근거는 적지 않음
 2026-H-CA-02,D,Jared Huffman,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/CA_candidates_cleaned.csv,
 2026-H-CA-02,R,Robin Littau,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/CA_candidates_cleaned.csv,
 2026-H-CA-03,D,Ami Bera,AP,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/CA_candidates_cleaned.csv,
@@ -6866,6 +7025,7 @@ race_id,party,name,race,src,source,source_url,note
 2026-H-CA-09,D,Josh Harder,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/CA_candidates_cleaned.csv,
 2026-H-CA-09,R,John McBride,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/CA_candidates_cleaned.csv,
 2026-H-CA-10,D,Mark DeSaulnier,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/CA_candidates_cleaned.csv,
+2026-H-CA-10,R,Jeff Frese,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-CA-11,D,Scott Wiener,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/CA_candidates_cleaned.csv,
 2026-H-CA-12,D,Lateefah Simon,B,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
 2026-H-CA-13,D,Adam Gray,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/CA_candidates_cleaned.csv,
@@ -6892,6 +7052,7 @@ race_id,party,name,race,src,source,source_url,note
 2026-H-CA-24,D,Salud Carbajal,H,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/CA_candidates_cleaned.csv,
 2026-H-CA-24,R,Bob Smith,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/CA_candidates_cleaned.csv,
 2026-H-CA-25,D,Raul Ruiz,H,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/CA_candidates_cleaned.csv,
+2026-H-CA-25,R,Joe Males,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-CA-26,D,Jacqui Irwin,W,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
 2026-H-CA-26,R,Sam Gallucci,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/CA_candidates_cleaned.csv,
 2026-H-CA-27,D,George Whitesides,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/CA_candidates_cleaned.csv,
@@ -6946,47 +7107,69 @@ race_id,party,name,race,src,source,source_url,note
 2026-H-CO-01,R,Christy Peterson,W,file,Rutgers Center for American Women and Politics (CAWP),https://cawp.rutgers.edu/blog/results-june-30th-primary-colorado,
 2026-H-CO-02,D,Joe Neguse,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
 2026-H-CO-02,R,Kelley Dennison,W,file,Rutgers Center for American Women and Politics (CAWP),https://cawp.rutgers.edu/blog/results-june-30th-primary-colorado,
+2026-H-CO-03,D,Dwayne Romero,H,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 히스패닉); 근거는 적지 않음
 2026-H-CO-04,D,Eileen Laubacher,W,file,Rutgers Center for American Women and Politics (CAWP),https://cawp.rutgers.edu/blog/results-june-30th-primary-colorado,
 2026-H-CO-04,R,Lauren Boebert,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,다른 해 자료의 같은 사람
 2026-H-CO-05,D,Jessica Killin,W,file,Rutgers Center for American Women and Politics (CAWP),https://cawp.rutgers.edu/blog/results-june-30th-primary-colorado,
 2026-H-CO-05,R,Jeff Crank,W,file,Grumbach & Sahn / hand coding,https://doi.org/10.7910/DVN/PUIJIU,다른 해 자료의 같은 사람
 2026-H-CO-06,D,Jason Crow,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2026-H-CO-06,R,Jason Clark,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-CO-07,D,Brittany Pettersen,W,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
+2026-H-CO-07,R,Tim Bennett,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-CO-08,D,Manny Rutinel,H,file,These three Dems hope to take back Colorado’s swingiest district,https://www.cpr.org/2026/04/21/8th-congressional-district-up-for-grabs/,
 2026-H-CO-08,R,Gabe Evans,H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
 2026-H-CT-01,D,Luke Bronin,W,file,Connecticut Mirror,https://ctmirror.org/2015/11/03/bronin-wins-hartford-tells-supporters-there-are-no-easy-answers-ahead/,다른 자료(주의회·주 선거 등)에서 연결한 같은 사람
 2026-H-CT-01,R,Amy Chai,W,file,Invisible white mother feels demographic betrayal - The Race Card Project,https://theracecardproject.com/invisible-white-mother-feels-demographic-betrayal/,다른 자료(주의회·주 선거 등)에서 연결한 같은 사람
 2026-H-CT-02,D,Joe Courtney,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2026-H-CT-02,R,George Austin,H,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 히스패닉); 근거는 적지 않음
 2026-H-CT-03,D,Rosa DeLauro,W,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
+2026-H-CT-03,R,Chris Lancia,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-CT-04,D,Jim Himes,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-CT-04,R,Michael Goldstein,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-CT-05,D,Jahana Hayes,B,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
+2026-H-CT-05,R,Chris Shea,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-DE-00,D,Sarah McBride,W,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
+2026-H-DE-00,R,Joseph Arminio,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-FL-01,D,Gay Valimont,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,다른 해 자료의 같은 사람
 2026-H-FL-01,R,Jimmy Patronis,W,file,Lublin et al. / State Legislative Database,https://doi.org/10.7910/DVN/NYOXTE,다른 해 자료의 같은 사람
 2026-H-FL-02,D,Amanda Green,W,file,Rutgers Center for American Women and Politics (CAWP),https://cawp.rutgers.edu/blog/results-august-18th-primaries-alaska-florida-and-wyoming,
+2026-H-FL-02,R,Austin Rogers,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
+2026-H-FL-03,D,Seth Harp,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-FL-03,R,Kat Cammack,W,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
 2026-H-FL-04,D,"LaShonda ""L.J."" Holloway",B,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,다른 해 자료의 같은 사람
 2026-H-FL-04,R,Aaron Bean,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-FL-05,D,Rachel Grage,W,file,Rutgers Center for American Women and Politics (CAWP),https://cawp.rutgers.edu/blog/results-august-18th-primaries-alaska-florida-and-wyoming,
 2026-H-FL-05,R,John Rutherford,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2026-H-FL-06,D,Eric Yonce,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-FL-06,R,Randy Fine,W,file,Candidate Characteristics Cooperative (C3),https://doi.org/10.7910/DVN/VHAPHV,다른 해 자료의 같은 사람
+2026-H-FL-07,D,Bale Dalton,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
+2026-H-FL-07,R,Ryan Elijah,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-FL-08,D,Jennifer Jenkins,W,file,Rutgers Center for American Women and Politics (CAWP),https://cawp.rutgers.edu/blog/results-august-18th-primaries-alaska-florida-and-wyoming,
 2026-H-FL-08,R,Mike Haridopolos,W,file,NALAF / New American Candidate Database,https://www.nalaf.org/nalaf-new-american-candidate-database,
 2026-H-FL-09,D,Darren Soto,H,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2026-H-FL-09,R,Dan Green,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-FL-10,D,Maxwell Frost,B/H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/ | https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
+2026-H-FL-11,D,James Pericola,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
+2026-H-FL-11,R,Joe Strada,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-FL-12,D,Kimberly Overman,W,file,Rutgers Center for American Women and Politics (CAWP),https://cawp.rutgers.edu/blog/results-august-18th-primaries-alaska-florida-and-wyoming,
 2026-H-FL-12,R,Gus Bilirakis,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-FL-13,D,Leela Gray,W,file,Rutgers Center for American Women and Politics (CAWP),https://cawp.rutgers.edu/blog/results-august-18th-primaries-alaska-florida-and-wyoming,
 2026-H-FL-13,R,Anna Paulina Luna,W/H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,다른 해 자료의 같은 사람
 2026-H-FL-14,D,Kathy Castor,W,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
 2026-H-FL-14,R,Mike Beltran,W,file,Candidate Characteristics Cooperative (C3),https://doi.org/10.7910/DVN/VHAPHV,다른 해 자료의 같은 사람
+2026-H-FL-15,D,Robert People,B,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 흑인); 근거는 적지 않음
 2026-H-FL-15,R,Laurel Lee,W,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
+2026-H-FL-16,D,Kelly Kirschner,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-FL-16,R,Sydney Gruters,W,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
+2026-H-FL-17,D,Matthew Montavon,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-FL-17,R,Greg Steube,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2026-H-FL-18,D,Curtis Gibson,B,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 흑인); 근거는 적지 않음
 2026-H-FL-18,R,Scott Franklin,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-FL-19,D,Victor Arias,MU,file,NALAF / New American Candidate Database,https://www.nalaf.org/nalaf-new-american-candidate-database,
+2026-H-FL-19,R,Jim Schwartzel,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-FL-20,D,Debbie Wasserman Schultz,W,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
+2026-H-FL-20,R,Brent Andersen,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
+2026-H-FL-21,D,James Martin,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-FL-21,R,Brian Mast,H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
 2026-H-FL-22,D,Pia Dandiya,AP,file,Individual verification,https://capac.house.gov/press-release/capac-announces-largest-aapi-membership-history,
 2026-H-FL-22,R,Casey Askar,AP,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,다른 해 자료의 같은 사람
@@ -6995,6 +7178,7 @@ race_id,party,name,race,src,source,source_url,note
 2026-H-FL-24,D,Oliver Gilbert,B,file,"City of Miami Gardens Mayor Oliver Gilbert | Profiles | Black PR Wire, Inc.",https://www.blackprwire.com/profiler/78-city_of_miami_gardens_mayor_oliver_gilbert,
 2026-H-FL-24,R,Mayonna Te Brown,B,file,Rutgers Center for American Women and Politics (CAWP),https://cawp.rutgers.edu/blog/results-august-18th-primaries-alaska-florida-and-wyoming,
 2026-H-FL-25,D,Jared Moskowitz,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2026-H-FL-25,R,Scott Singer,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-FL-26,D,Nicole Locklin,W,file,Rutgers Center for American Women and Politics (CAWP),https://cawp.rutgers.edu/blog/results-august-18th-primaries-alaska-florida-and-wyoming,
 2026-H-FL-26,R,Mario Díaz-Balart,H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
 2026-H-FL-27,D,Eliott Rodriguez,H,file,Ex-anchorman Eliott Rodriguez 'seriously considering' Congress run | WLRN,https://www.wlrn.org/government-politics/2026-02-10/eliott-rodriguez-salazar-congress-seat,
@@ -7008,9 +7192,11 @@ race_id,party,name,race,src,source,source_url,note
 2026-H-GA-03,D,Maura Keller,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/GA_candidates_cleaned.csv,
 2026-H-GA-03,R,Brian Jack,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/GA_candidates_cleaned.csv,
 2026-H-GA-04,D,Hank Johnson,B,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/GA_candidates_cleaned.csv,
+2026-H-GA-04,R,James Duffie,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-GA-05,D,Nikema Williams,B,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
 2026-H-GA-05,R,John Salvesen,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/GA_candidates_cleaned.csv,
 2026-H-GA-06,D,Lucy McBath,B,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
+2026-H-GA-06,R,Kevin Martin,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-GA-07,D,Anthony Kozycki,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/GA_candidates_cleaned.csv,
 2026-H-GA-07,R,Rich McCormick,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/GA_candidates_cleaned.csv,
 2026-H-GA-08,D,Kelly Esti,B,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/GA_candidates_cleaned.csv,
@@ -7028,6 +7214,7 @@ race_id,party,name,race,src,source,source_url,note
 2026-H-GA-14,D,Shawn Harris,B,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/GA_candidates_cleaned.csv,
 2026-H-GA-14,R,Clay Fuller,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/GA_candidates_cleaned.csv,
 2026-H-HI-01,D,Ed Case,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2026-H-HI-01,R,Adriel Lam,AP,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 아시안(중국계)); 근거는 적지 않음
 2026-H-HI-02,D,Jill Tokuda,AP,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-HI-02,R,Brenton Awa,AP,file,At Issue In Tokuda Vs. Awa: Who’s Better for Native Hawaiians? - Honolulu Civil Beat,https://www.civilbeat.org/2026/09/in-this-race-for-congress-candidates-are-courting-the-hawaiian-vote/,
 2026-H-IA-01,D,Christina Bohannan,W,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
@@ -7043,7 +7230,9 @@ race_id,party,name,race,src,source,source_url,note
 2026-H-ID-02,D,Elinor Gilbreath,W,file,Rutgers Center for American Women and Politics (CAWP),https://cawp.rutgers.edu/blog/results-may-16th-primary-louisiana-and-may-19th-primaries-alabama-georgia-idaho-kentucky,
 2026-H-ID-02,R,Mike Simpson,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-IL-01,D,Jonathan Jackson,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
+2026-H-IL-01,R,Christian Maxwell,B,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 흑인); 근거는 적지 않음
 2026-H-IL-02,D,Donna Miller,B,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
+2026-H-IL-02,R,Michael Noack,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-IL-03,D,Delia Ramirez,H,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
 2026-H-IL-03,R,Angel Oakley,W,file,Rutgers Center for American Women and Politics (CAWP),https://cawp.rutgers.edu/blog/results-march-17th-primary-illinois,
 2026-H-IL-04,D,Patty Garcia,H,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
@@ -7059,16 +7248,21 @@ race_id,party,name,race,src,source,source_url,note
 2026-H-IL-09,D,Daniel Biss,W,file,Lublin et al. / State Legislative Database,https://doi.org/10.7910/DVN/NYOXTE,다른 해 자료의 같은 사람
 2026-H-IL-09,R,John Elleson,W,rdc,Reflective Democracy Campaign (사용자 파일의 기관 분류),https://wholeads.us/wp-content/uploads/2019/08/CTCL-2019-Reflective-Democracy.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
 2026-H-IL-10,D,Brad Schneider,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2026-H-IL-10,R,Carl Lambrecht,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-IL-11,D,Bill Foster,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2026-H-IL-11,R,Jeff Walter,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-IL-12,D,Julie Fortier,W,file,Rutgers Center for American Women and Politics (CAWP),https://cawp.rutgers.edu/blog/results-march-17th-primary-illinois,
 2026-H-IL-12,R,Mike Bost,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-IL-13,D,Nikki Budzinski,W,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
+2026-H-IL-13,R,Jeff Wilson,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-IL-14,D,Lauren Underwood,B,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
 2026-H-IL-14,R,James Marter,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-IL-15,D,Jennifer Todd,W,file,Rutgers Center for American Women and Politics (CAWP),https://cawp.rutgers.edu/blog/results-march-17th-primary-illinois,
 2026-H-IL-15,R,Mary Miller,W,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
+2026-H-IL-16,D,Paul Nolley,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-IL-16,R,Darin LaHood,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-IL-17,D,Eric Sorensen,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2026-H-IL-17,R,Dillan Vancil,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-IN-01,D,Frank Mrvan,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/IN_candidates_cleaned.csv,
 2026-H-IN-01,R,Barb Regnitz,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/IN_candidates_cleaned.csv,
 2026-H-IN-02,D,Jamee Decio,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/IN_candidates_cleaned.csv,
@@ -7082,14 +7276,17 @@ race_id,party,name,race,src,source,source_url,note
 2026-H-IN-06,D,Cinde Wirth,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,다른 해 자료의 같은 사람
 2026-H-IN-06,R,Jefferson Shreve,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/IN_candidates_cleaned.csv,
 2026-H-IN-07,D,André Carson,B,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/IN_candidates_cleaned.csv,
+2026-H-IN-07,R,Patrick McAuley,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-IN-08,D,Mary Allen,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/IN_candidates_cleaned.csv,
 2026-H-IN-08,R,Mark Messmer,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/IN_candidates_cleaned.csv,
 2026-H-IN-09,D,Brad Meyer,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/IN_candidates_cleaned.csv,
 2026-H-IN-09,R,Erin Houchin,W,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
 2026-H-KS-01,D,Lauren Reinhold,W,file,Rutgers Center for American Women and Politics (CAWP),https://cawp.rutgers.edu/blog/results-august-4th-primaries-kansas-michigan-missouri-washington-and-virginia,
 2026-H-KS-01,R,Tracey Mann,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2026-H-KS-02,D,Don Coover,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-KS-02,R,Derek Schmidt,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 자료(주의회·주 선거 등)에서 연결한 같은 사람
 2026-H-KS-03,D,Sharice Davids,NA,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
+2026-H-KS-03,R,Eric Jenkins,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-KS-04,D,Katy Tyndell,W,file,Rutgers Center for American Women and Politics (CAWP),https://cawp.rutgers.edu/blog/results-august-4th-primaries-kansas-michigan-missouri-washington-and-virginia,
 2026-H-KS-04,R,Ron Estes,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-KY-01,D,"John ""Drew"" Williams",W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/2026_candidates_cleaned.csv,
@@ -7119,13 +7316,17 @@ race_id,party,name,race,src,source,source_url,note
 2026-H-MA-01,D,Richard Neal,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-MA-02,D,Jim McGovern,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-MA-03,D,Lori Trahan,H,file,U.S. House Historian,"https://history.house.gov/Exhibitions-and-Publications/HAIC/Historical-Data/Hispanic-American-Representatives,-Senators,-Delegates,-and-Resident-Commissioners-by-Congress/",다른 해 자료의 같은 사람
+2026-H-MA-03,R,Gary Grossi,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-MA-04,D,Jake Auchincloss,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2026-H-MA-04,R,Tom Stalcup,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-MA-05,D,Katherine Clark,W,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
 2026-H-MA-06,D,Dan Koh,AP/MENA,file,Individual verification,https://capac.house.gov/press-release/capac-announces-largest-aapi-membership-history,
+2026-H-MA-06,R,Micah Jones,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-MA-07,D,Ayanna Pressley,B,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
 2026-H-MA-08,D,Stephen Lynch,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-MA-08,R,Robert Burke,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-MA-09,D,Bill Keating,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2026-H-MA-09,R,Tyler MacAllister,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-MD-01,D,Dan Schwartz,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/MD_candidates_cleaned.csv,
 2026-H-MD-01,R,Andy Harris,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/MD_candidates_cleaned.csv,
 2026-H-MD-02,D,Johnny Olszewski,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/MD_candidates_cleaned.csv,
@@ -7148,6 +7349,7 @@ race_id,party,name,race,src,source,source_url,note
 2026-H-ME-02,R,Paul LePage,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/ME_candidates_cleaned.csv,
 2026-H-MI-01,D,Callie Barr,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,다른 해 자료의 같은 사람
 2026-H-MI-01,R,Jack Bergman,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2026-H-MI-02,D,Benjamin Ambrose,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-MI-02,R,John Moolenaar,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-MI-03,D,Hillary Scholten,W,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
 2026-H-MI-03,R,Terri DeBoer,W,file,Rutgers Center for American Women and Politics (CAWP),https://cawp.rutgers.edu/blog/results-august-4th-primaries-kansas-michigan-missouri-washington-and-virginia,
@@ -7157,22 +7359,33 @@ race_id,party,name,race,src,source,source_url,note
 2026-H-MI-05,R,Tim Walberg,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-MI-06,D,Debbie Dingell,W,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
 2026-H-MI-06,R,Heather Smiley,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,다른 해 자료의 같은 사람
+2026-H-MI-07,D,William Lawrence,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-MI-07,R,Tom Barrett,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-MI-08,D,Kristen McDonald Rivet,W,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
+2026-H-MI-08,R,Thomas J. Smith (suspended campaign),W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
+2026-H-MI-09,D,Ray Pooley,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-MI-09,R,Lisa McClain,W,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
 2026-H-MI-10,D,Christina Hines,W,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
 2026-H-MI-10,R,Michael Bouchard Jr.,MENA,file,Randa Fahmy / public event host description,https://www.linkedin.com/posts/randa-fahmy-j-d-3491236_proud-to-host-michael-bouchard-who-is-running-activity-7401961227901362176-WdVT,다른 자료(주의회·주 선거 등)에서 연결한 같은 사람
 2026-H-MI-11,D,Jeremy Moss,W,file,Candidate Characteristics Cooperative (C3),https://doi.org/10.7910/DVN/VHAPHV,다른 해 자료의 같은 사람
+2026-H-MI-11,R,Ethan Baker,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-MI-12,D,Rashida Tlaib,MENA,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
 2026-H-MI-12,R,James D. Hooper,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-MI-13,D,Donavan McKinney,B,file,Legislator Details - Legislators,https://mdoe.state.mi.us/legislators/Legislator/LegislatorDetail/5603,
+2026-H-MI-13,R,T.P. Nykoriak,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
+2026-H-MN-01,D,Jake Johnson,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-MN-01,R,Brad Finstad,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-MN-02,D,Matt Little,W,file,Lublin et al. / State Legislative Database,https://doi.org/10.7910/DVN/NYOXTE,다른 해 자료의 같은 사람
 2026-H-MN-02,R,Eric Pratt,W,file,Lublin et al. / State Legislative Database,https://doi.org/10.7910/DVN/NYOXTE,다른 해 자료의 같은 사람; 트래커 본선 자료의 이름(Joe Teirab)과 다름: 사용자 파일의 후보
 2026-H-MN-03,D,Kelly Morrison,W,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
+2026-H-MN-03,R,Tyler Bass,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-MN-04,D,Betty McCollum,W,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
+2026-H-MN-04,R,Paul Wikstrom,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-MN-05,D,Ilhan Omar,B,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
+2026-H-MN-05,R,Joe Nagel,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
+2026-H-MN-06,D,Doug Chapin,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-MN-06,R,Tom Emmer,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2026-H-MN-07,D,Erik Osberg,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-MN-07,R,Michelle Fischbach,W,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
 2026-H-MN-08,D,Trina Swanson,W,file,Rutgers Center for American Women and Politics (CAWP),https://cawp.rutgers.edu/blog/results-august-11th-primaries-alabama-connecticut-minnesota-vermont-and-wisconsin-and,트래커 본선 자료의 이름(Jeanne Hendricks)과 다름: 사용자 파일의 후보
 2026-H-MN-08,R,Pete Stauber,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
@@ -7186,8 +7399,11 @@ race_id,party,name,race,src,source,source_url,note
 2026-H-MO-04,R,Mark Alford,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-MO-05,D,Emanuel Cleaver,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
 2026-H-MO-05,R,Rick Brattin,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2026-H-MO-06,D,Josh Smead,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
+2026-H-MO-06,R,Chris Stigall,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-MO-07,D,Missi Hesketh,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,다른 해 자료의 같은 사람
 2026-H-MO-07,R,Eric Burlison,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2026-H-MO-08,D,Christopher Reichard,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-MO-08,R,Jason Smith,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-MS-01,D,Cliff Johnson,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/2026_candidates_cleaned.csv,
 2026-H-MS-01,R,Trent Kelly,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
@@ -7238,6 +7454,7 @@ race_id,party,name,race,src,source,source_url,note
 2026-H-NE-03,D,Becky Stille,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/NE_candidates_cleaned.csv,
 2026-H-NE-03,R,Adrian Smith,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/NE_candidates_cleaned.csv,
 2026-H-NH-01,D,Stefany Shaheen,W,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
+2026-H-NH-01,R,Anthony DiLorenzo,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-NH-02,D,Maggie Goodlander,W,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
 2026-H-NH-02,R,Lily Tang Williams,AP,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-NJ-01,D,Donald Norcross,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/NJ_candidates_cleaned.csv,
@@ -7266,6 +7483,7 @@ race_id,party,name,race,src,source,source_url,note
 2026-H-NM-01,D,Melanie Stansbury,W,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
 2026-H-NM-01,R,Didi Okpareke,B,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-potential-milestones-and-firsts,
 2026-H-NM-02,D,Gabe Vasquez,H,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,다른 해 자료의 같은 사람
+2026-H-NM-02,R,Greg Cunningham,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-NM-03,D,Teresa Leger Fernández,H,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
 2026-H-NM-03,R,Martin Zamora,H,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/NM_candidates_cleaned.csv,
 2026-H-NV-01,D,Dina Titus,W,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
@@ -7276,29 +7494,38 @@ race_id,party,name,race,src,source,source_url,note
 2026-H-NV-03,R,Martin O'Donnell,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/NV_candidates_cleaned.csv,
 2026-H-NV-04,D,Steven Horsford,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
 2026-H-NV-04,R,Cody Whipple,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/NV_candidates_cleaned.csv,
+2026-H-NY-01,D,Chris Gallant,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-NY-01,R,Nick LaLota,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2026-H-NY-02,D,Patrick Halpin,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-NY-02,R,Andrew Garbarino,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-NY-03,D,Tom Suozzi,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,다른 해 자료의 같은 사람
 2026-H-NY-03,R,Mike LiPetri,W,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,다른 해 자료의 같은 사람
 2026-H-NY-04,D,Laura Gillen,W,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
 2026-H-NY-04,R,Jeanine Driscoll,MU,file,NALAF / New American Candidate Database,https://www.nalaf.org/nalaf-new-american-candidate-database,
 2026-H-NY-05,D,Gregory Meeks,B,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2026-H-NY-05,R,George Marsh,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-NY-06,D,Grace Meng,AP,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-NY-06,R,Joseph Chou,AP,file,CJS Reporting Insider / candidate profile,https://medium.com/%40CJSReportingInsider/joseph-chou-takes-a-stand-an-immigrants-vision-for-change-in-queens-a1510ac9fe03,다른 자료(주의회·주 선거 등)에서 연결한 같은 사람
 2026-H-NY-07,D,Claire Valdez,H/NA,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
+2026-H-NY-07,R,Melvin Rivera,H,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 히스패닉); 근거는 적지 않음
 2026-H-NY-08,D,Hakeem Jeffries,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
+2026-H-NY-08,R,Lewis Mizrahi,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-NY-09,D,Yvette Clarke,B,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
 2026-H-NY-09,R,Joel Anabilah-Azumah,B,file,Ballotpedia / Candidate Connection,https://ballotpedia.org/Joel_Anabilah-Azumah,
 2026-H-NY-10,D,Brad Lander,W,file,Brad Lander: ‘I don’t think this is a moment about lanes or ideology’ - City & State New York,https://www.cityandstateny.com/personality/2024/07/brad-lander-i-dont-think-moment-about-lanes-or-ideology/398446/,
+2026-H-NY-10,R,Jennifer Moore,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
+2026-H-NY-11,D,Michael DeCillis,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-NY-11,R,Nicole Malliotakis,W/H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,다른 해 자료의 같은 사람
 2026-H-NY-12,D,Micah Lasher,W,file,Jews for Racial & Economic Justice / 2024 NY Assembly election commentary,https://www.jfrej.org/news/2024/06/the-assembly-district-69-race-comes-down-to-charter-schools,다른 자료(주의회·주 선거 등)에서 연결한 같은 사람
 2026-H-NY-12,R,Caroline Shinkle,W,file,Rutgers Center for American Women and Politics (CAWP),https://cawp.rutgers.edu/blog/results-june-23rd-primaries-maryland-new-york-and-utah,
 2026-H-NY-13,D,Darializa Avila Chevalier,B/H,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
+2026-H-NY-13,R,Jomo Williams,B,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 흑인); 근거는 적지 않음
 2026-H-NY-14,D,Alexandria Ocasio-Cortez,H,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
 2026-H-NY-14,R,Diamant Hysenaj,W,file,NALAF / New American Candidate Database,https://www.nalaf.org/nalaf-new-american-candidate-database,
 2026-H-NY-15,D,Ritchie Torres,B/H,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-NY-15,R,Stylo Sapaskis,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-NY-16,D,George Latimer,W,file,Lublin et al. / State Legislative Database,https://doi.org/10.7910/DVN/NYOXTE,다른 해 자료의 같은 사람
+2026-H-NY-16,R,Joseph Cinquemani,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-NY-17,D,Cait Conley,W,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
 2026-H-NY-17,R,Mike Lawler,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-NY-18,D,Pat Ryan,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
@@ -7306,14 +7533,19 @@ race_id,party,name,race,src,source,source_url,note
 2026-H-NY-19,D,Josh Riley,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-NY-19,R,Peter Oberacker,W,file,Lublin et al. / State Legislative Database,https://doi.org/10.7910/DVN/NYOXTE,다른 해 자료의 같은 사람
 2026-H-NY-20,D,Paul Tonko,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2026-H-NY-20,R,Ralph Ambrosio,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
+2026-H-NY-21,D,Blake Gendebien,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
+2026-H-NY-21,R,Anthony Constantino,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-NY-22,D,John Mannion,W,file,Candidate Characteristics Cooperative (C3),https://doi.org/10.7910/DVN/VHAPHV,다른 해 자료의 같은 사람
 2026-H-NY-22,R,Kailee Buller,W,file,Rutgers Center for American Women and Politics (CAWP),https://cawp.rutgers.edu/blog/results-june-23rd-primaries-maryland-new-york-and-utah,
+2026-H-NY-23,D,Aaron Gies,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-NY-23,R,Nick Langworthy,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-NY-24,D,Alissa Ellman,W,file,Rutgers Center for American Women and Politics (CAWP),https://cawp.rutgers.edu/blog/results-june-23rd-primaries-maryland-new-york-and-utah,
 2026-H-NY-24,R,Claudia Tenney,W,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
 2026-H-NY-25,D,Joseph Morelle,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-NY-25,R,Virginia McIntyre,W,file,Rutgers Center for American Women and Politics (CAWP),https://cawp.rutgers.edu/blog/results-june-23rd-primaries-maryland-new-york-and-utah,
 2026-H-NY-26,D,Tim Kennedy,W,file,CandiData 2024,https://github.com/AlgorithmicTransparencyInstitute/candidata-data,다른 해 자료의 같은 사람
+2026-H-NY-26,R,Dennis Hannon,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-OH-01,D,Greg Landsman,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/OH_candidates_cleaned.csv,
 2026-H-OH-01,R,Eric Conroy,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/OH_candidates_cleaned.csv,
 2026-H-OH-02,D,Jennifer Mazzuckelli,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/OH_candidates_cleaned.csv,
@@ -7335,6 +7567,7 @@ race_id,party,name,race,src,source,source_url,note
 2026-H-OH-10,D,Kristina Knickerbocker,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/OH_candidates_cleaned.csv,
 2026-H-OH-10,R,Mike Turner,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/OH_candidates_cleaned.csv,
 2026-H-OH-11,D,Shontel Brown,B,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
+2026-H-OH-11,R,Mike Kirchner,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-OH-12,D,Jerrad Christian,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/OH_candidates_cleaned.csv,
 2026-H-OH-12,R,Troy Balderson,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/OH_candidates_cleaned.csv,
 2026-H-OH-13,D,Emilia Sykes,B,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
@@ -7358,6 +7591,7 @@ race_id,party,name,race,src,source,source_url,note
 2026-H-OR-02,D,Chris Beck,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/OR_candidates_cleaned.csv,
 2026-H-OR-02,R,Cliff Bentz,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/OR_candidates_cleaned.csv,
 2026-H-OR-03,D,Maxine Dexter,W,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
+2026-H-OR-03,R,Loran Ayles,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-OR-04,D,Val Hoyle,W,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
 2026-H-OR-04,R,Monique DeSpain,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,다른 해 자료의 같은 사람
 2026-H-OR-05,D,Janelle Bynum,B,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
@@ -7400,6 +7634,7 @@ race_id,party,name,race,src,source,source_url,note
 2026-H-RI-01,D,Gabe Amo,B,file,U.S. House Historian,https://history.house.gov/Exhibitions-and-Publications/BAIC/Historical-Data/Black-American-Representatives-and-Senators-by-Congress/,다른 해 자료의 같은 사람
 2026-H-RI-01,R,Kellie Keenan,W,file,Rutgers Center for American Women and Politics (CAWP),https://cawp.rutgers.edu/blog/results-september-8th-primary-new-hampshire-and-september-9th-primary-rhode-island,
 2026-H-RI-02,D,Seth Magaziner,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2026-H-RI-02,R,Victor Mellor,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-SC-01,D,Nancy Lacore,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/SC_candidates_cleaned.csv,
 2026-H-SC-01,R,Jenny Costa Honeycutt,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/SC_candidates_cleaned.csv,
 2026-H-SC-02,D,Zyon Khalifa,B,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/SC_candidates_cleaned.csv,
@@ -7412,6 +7647,7 @@ race_id,party,name,race,src,source,source_url,note
 2026-H-SC-05,R,Wes Climer,W,file,Lublin et al. / State Legislative Database,https://doi.org/10.7910/DVN/NYOXTE,다른 해 자료의 같은 사람
 2026-H-SC-06,D,Jim Clyburn,B,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/SC_candidates_cleaned.csv,
 2026-H-SC-06,R,John Peterson,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/SC_candidates_cleaned.csv,
+2026-H-SC-07,D,John Vincent,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-SC-07,R,Russell Fry,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/SC_candidates_cleaned.csv,
 2026-H-SD-00,D,Nicole Gronli,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/SD_candidates_cleaned.csv,
 2026-H-SD-00,R,Marty Jackley,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/SD_candidates_cleaned.csv,
@@ -7423,6 +7659,9 @@ race_id,party,name,race,src,source,source_url,note
 2026-H-TN-03,R,Chuck Fleischmann,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-TN-04,D,Victoria Broderick,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,다른 해 자료의 같은 사람
 2026-H-TN-04,R,Scott DesJarlais,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2026-H-TN-05,D,Chaz Molder,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
+2026-H-TN-05,R,Charlie Hatcher,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
+2026-H-TN-06,D,Mike Croley,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-TN-06,R,Johnny Garrett,W,file,Candidate Characteristics Cooperative (C3),https://doi.org/10.7910/DVN/VHAPHV,다른 해 자료의 같은 사람
 2026-H-TN-07,D,Darden Copeland,W,file,Three candidates put in $1 million of self funding for Middle Tennessee U.S. Congressional primary • Tennessee Lookout,https://tennesseelookout.com/2025/09/26/three-candidates-put-in-1-million-of-their-own-money-for-oct-7-middle-tennessee-u-s-congressional-primary/,언론사 사진 설명(대체텍스트)에 적힌 인종
 2026-H-TN-08,D,Heidi Kuhn,W,file,Rutgers Center for American Women and Politics (CAWP),https://cawp.rutgers.edu/blog/results-august-11th-primaries-alabama-connecticut-minnesota-vermont-and-wisconsin-and,
@@ -7463,6 +7702,7 @@ Whereas, on November 8, 2022, the people of Hou",https://www.govinfo.gov/content
 2026-H-TX-15,R,Monica De La Cruz,H,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,다른 해 자료의 같은 사람
 2026-H-TX-16,D,Veronica Escobar,H,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
 2026-H-TX-16,R,Adam Bauman,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/2026_candidates_cleaned.csv,
+2026-H-TX-17,D,Casey Shepard,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-TX-17,R,Pete Sessions,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-TX-18,D,Christian Menefee,B,file,Individual verification,https://christianmenefee.com/about/,다른 해 자료의 같은 사람
 2026-H-TX-18,R,Ronald Whitfield,B,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/2026_candidates_cleaned.csv,
@@ -7520,11 +7760,13 @@ Whereas, on November 8, 2022, the people of Hou",https://www.govinfo.gov/content
 2026-H-VA-03,D,Bobby Scott,B,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-VA-03,R,Edwin Rivera,H,file,STATE OF THE RACE: Scott vs. Rivera in VA-03,https://virginiafreepress.com/state-of-the-race-scott-vs-rivera-in-va-03/,
 2026-H-VA-04,D,Jennifer McClellan,B,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
+2026-H-VA-04,R,Robert Murray,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-VA-05,D,Tom Perriello,W,file,Hassell & Visalvanich,https://doi.org/10.7910/DVN/OKZMIY,다른 해 자료의 같은 사람
 2026-H-VA-05,R,John McGuire,W,file,Lempert,https://doi.org/10.7910/DVN/SBQJS4,다른 해 자료의 같은 사람
 2026-H-VA-06,D,Beth Macy,W,file,Rutgers Center for American Women and Politics (CAWP),https://cawp.rutgers.edu/blog/results-august-4th-primaries-kansas-michigan-missouri-washington-and-virginia,
 2026-H-VA-06,R,Ben Cline,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-VA-07,D,Eugene Vindman,W,file,High-stakes House primaries in Virginia show fissures across both parties - ABC News,https://abcnews.com/Politics/high-stakes-house-primaries-virginia-show-fissures-parties/story?id=111138645,
+2026-H-VA-07,R,Doug Ollivant,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-VA-08,D,Don Beyer,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-VA-08,R,Tony Sabio,H/AP,file,Tony Sabio launches a campaign challenging Rep. Don Beyer - Annandale Today,https://annandaletoday.com/tony-sabio-launches-a-campaign-challenging-rep-don-beyer/,
 2026-H-VA-09,D,Joy Powers,W,file,Rutgers Center for American Women and Politics (CAWP),https://cawp.rutgers.edu/blog/results-august-4th-primaries-kansas-michigan-missouri-washington-and-virginia,
@@ -7532,13 +7774,16 @@ Whereas, on November 8, 2022, the people of Hou",https://www.govinfo.gov/content
 2026-H-VA-10,D,Suhas Subramanyam,AP,file,Individual verification,https://subramanyam.house.gov/media/press-releases/suhas-subramanyam-sworn-represent-virginias-10th-district,다른 해 자료의 같은 사람
 2026-H-VA-10,R,Dave Beckwith,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-VA-11,D,James Walkinshaw,W,rdc,Reflective Democracy Campaign (사용자 파일의 기관 분류),https://wholeads.us/wp-content/uploads/2021/05/RDC-AAPI-Leadership-Report-Data-Analysis-May-2021.zip,기관 분류만 확인(개별 기록의 조사·추정 방식은 구분되지 않음)
+2026-H-VA-11,R,Arthur Purves,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-VT-00,D,Becca Balint,W,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
 2026-H-VT-00,R,Gerald Malloy,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-WA-01,D,Suzan DelBene,W,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
 2026-H-WA-01,R,Mary Silva,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,다른 해 자료의 같은 사람
 2026-H-WA-02,D,Rick Larsen,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2026-H-WA-02,R,Edwin H. Feller,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-WA-03,D,Marie Gluesenkamp Perez,H,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
 2026-H-WA-03,R,John Braun,W,file,Lublin et al. / State Legislative Database,https://doi.org/10.7910/DVN/NYOXTE,다른 해 자료의 같은 사람
+2026-H-WA-04,D,John Duresky,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-WA-04,R,Amanda McKinney,W,file,Rutgers Center for American Women and Politics (CAWP),https://cawp.rutgers.edu/blog/results-august-4th-primaries-kansas-michigan-missouri-washington-and-virginia,
 2026-H-WA-05,D,Carmela Conroy,W,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,다른 해 자료의 같은 사람
 2026-H-WA-05,R,Michael Baumgartner,W,file,Lublin et al. / State Legislative Database,https://doi.org/10.7910/DVN/NYOXTE,다른 해 자료의 같은 사람
@@ -7547,20 +7792,25 @@ Whereas, on November 8, 2022, the people of Hou",https://www.govinfo.gov/content
 2026-H-WA-07,D,Pramila Jayapal,AP,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-WA-07,R,Nirav Sheth,AP,file,"US midterms: Two Indian-origin face-offs to watch, and why they matter",https://m.economictimes.com/nri/latest-updates/indian-americans-in-us-midtermstwo-indian-origin-face-offs-to-watch-and-why-they-matter/articleshow/135230348.cms,
 2026-H-WA-08,D,Kim Schrier,W,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
+2026-H-WA-08,R,Spencer Meline,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-WA-09,D,Adam Smith,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-WA-09,R,Doug Basler,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-WA-10,D,Marilyn Strickland,B/AP,file,CAWP,https://cawp.rutgers.edu/candidates-historic-congress,다른 해 자료의 같은 사람
 2026-H-WA-10,R,Chris D. Chung,AP,file,"Korean American candidates vie for congressional, gubernatorial seats in U.S. midterms | Yonhap News Agency",https://en.yna.co.kr/view/AEN20261103006900315,
+2026-H-WI-01,D,Mitchell Berman,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-WI-01,R,Bryan Steil,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-WI-02,D,Mark Pocan,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-WI-03,D,Rebecca Cooke,W,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
 2026-H-WI-03,R,Derrick Van Orden,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-WI-04,D,Gwen Moore,B,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
 2026-H-WI-04,R,Tim Rogers,B,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2026-H-WI-05,D,Andrew Beck,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-WI-05,R,Scott Fitzgerald,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
+2026-H-WI-06,D,Brad Smith,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-H-WI-06,R,Glenn Grothman,W,file,Fraga & Rendleman / FiveThirtyEight,https://github.com/fivethirtyeight/data/tree/master/primary-project-2022,다른 해 자료의 같은 사람
 2026-H-WI-07,D,Fred Clark,W,file,"Fraga, Juenke & Shah / 2012 Wisconsin Assembly District 81",https://doi.org/10.7910/DVN/IUXG2I,다른 자료(주의회·주 선거 등)에서 연결한 같은 사람
 2026-H-WI-07,R,Michael Alfonso,H,file,PBS Wisconsin / Michael Alfonso candidate statement,https://video.gpb.org/video/2026-candidate-statement-michael-alfonso-us-house-7th-congressional-district-ioarox/,
+2026-H-WI-08,D,Rick Crosson,B,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 흑인); 근거는 적지 않음
 2026-H-WV-01,D,Vince George,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/WV_candidates_cleaned.csv,
 2026-H-WV-01,R,Carol Miller,W,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
 2026-H-WV-02,D,Ace Parsi,MENA,file,"U.S. House of Representatives, District 2 | Voter Guide: 2026 Primary Election • West Virginia Watch",https://westvirginiawatch.com/voter-guides/contests/2026-house-of-representatives-district-2/,
@@ -7574,6 +7824,7 @@ Whereas, on November 8, 2022, the people of Hou",https://www.govinfo.gov/content
 2026-S-CO-00,D,John Hickenlooper,W,file,CTCL / CandiData federal officeholders,https://github.com/AlgorithmicTransparencyInstitute/candidata/blob/main/data/Federal_People.csv,다른 해 자료의 같은 사람
 2026-S-CO-00,R,Mark Baisley,W,file,Candidate Characteristics Cooperative (C3),https://doi.org/10.7910/DVN/VHAPHV,다른 해 자료의 같은 사람
 2026-S-DE-00,D,Chris Coons,W,file,CTCL / CandiData federal officeholders,https://github.com/AlgorithmicTransparencyInstitute/candidata/blob/main/data/Federal_People.csv,다른 해 자료의 같은 사람
+2026-S-DE-00,R,Michael Katz,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-S-FL-00-sp,D,Angie Nixon,B,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-potential-milestones-and-firsts,
 2026-S-FL-00-sp,R,Ashley Moody,W,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
 2026-S-GA-00,D,Jon Ossoff,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/GA_candidates_cleaned.csv,
@@ -7582,6 +7833,7 @@ Whereas, on November 8, 2022, the people of Hou",https://www.govinfo.gov/content
 2026-S-IA-00,R,Ashley Hinson,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/IA_candidates_cleaned.csv,
 2026-S-ID-00,R,Jim Risch,W,file,CTCL / CandiData federal officeholders,https://github.com/AlgorithmicTransparencyInstitute/candidata/blob/main/data/Federal_People.csv,다른 해 자료의 같은 사람
 2026-S-IL-00,D,Juliana Stratton,B,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-potential-milestones-and-firsts,
+2026-S-IL-00,R,Don Tracy,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-S-KS-00,D,Adam Hamilton,W,file,Daily Kos / Kansas Senate candidate profile,https://www.dailykos.com/stories/2026/8/16/800084319/series/kansas-senate-midterms-hamilton-marshall/,
 2026-S-KS-00,R,Roger Marshall,W,file,CTCL / CandiData federal officeholders,https://github.com/AlgorithmicTransparencyInstitute/candidata/blob/main/data/Federal_People.csv,다른 해 자료의 같은 사람
 2026-S-KY-00,D,Charles Booker,B,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/2026_candidates_cleaned.csv,
@@ -7608,6 +7860,7 @@ Whereas, on November 8, 2022, the people of Hou",https://www.govinfo.gov/content
 2026-S-NJ-00,D,Cory Booker,B,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/NJ_candidates_cleaned.csv,
 2026-S-NJ-00,R,Justin Murphy,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/NJ_candidates_cleaned.csv,
 2026-S-NM-00,D,Ben Ray Luján,H,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/NM_candidates_cleaned.csv,
+2026-S-NM-00,R,Larry Marker,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-S-OH-00-sp,D,Sherrod Brown,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/OH_candidates_cleaned.csv,
 2026-S-OH-00-sp,R,Jon Husted,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/OH_candidates_cleaned.csv,
 2026-S-OK-00,D,N'Kiyla Jasmine Thomas,B/NA,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-potential-milestones-and-firsts,
@@ -7615,6 +7868,7 @@ Whereas, on November 8, 2022, the people of Hou",https://www.govinfo.gov/content
 2026-S-OR-00,D,Jeff Merkley,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/OR_candidates_cleaned.csv,
 2026-S-OR-00,R,David Brock Smith,W,file,CandiData 2026,https://raw.githubusercontent.com/AlgorithmicTransparencyInstitute/candidata/main/data/2026_states/cleaned/OR_candidates_cleaned.csv,
 2026-S-RI-00,D,Jack Reed,W,file,CTCL / CandiData federal officeholders,https://github.com/AlgorithmicTransparencyInstitute/candidata/blob/main/data/Federal_People.csv,다른 해 자료의 같은 사람
+2026-S-RI-00,R,Raymond McKay,W,user,사용자 입력(2026-11-06),,사용자가 직접 채운 코드(표기: 백인); 근거는 적지 않음
 2026-S-SC-00,D,Annie Andrews,W,file,CAWP 2026,https://cawp.rutgers.edu/candidates-2026-election-results-tracker/women-120th-congress,
 2026-S-SC-00,R,Darline Graham,W,file,National View South Carolina 2026,https://cawp.rutgers.edu/node/151771,
 2026-S-SD-00,R,Mike Rounds,W,file,CTCL / CandiData federal officeholders,https://github.com/AlgorithmicTransparencyInstitute/candidata/blob/main/data/Federal_People.csv,다른 해 자료의 같은 사람
