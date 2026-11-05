@@ -98,6 +98,8 @@ def write(extra=None):
     idx.update(extra or {})
     with open(os.path.join(SITE, "index.json"), "w", encoding="utf-8") as f:
         json.dump(idx, f, ensure_ascii=False, indent=1)
+    import codebook
+    codebook.write()  # docs/data/codebook.json and .csv (variable meanings for the downloads)
     print("site data:", len(years), "years")
 
 

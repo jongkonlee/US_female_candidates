@@ -42,6 +42,8 @@
 | `pipeline/maps.py` | 실제 지도 자료(`docs/data/maps/`) 만들기. 경계는 날마다 바뀌지 않아 손으로 한 번 돌립니다(파일 첫머리에 방법) |
 | `pipeline/lineage.py` | 선거구 사이 주민 겹침(1990–2026년 선거구 × 101~119대 의회 선거구, 2020년 블록그룹 인구) → `data/static/lineage_overlap.csv.gz`. 손으로 한 번 돌립니다 |
 | `pipeline/linked.py` | 매일: 이어지는 선거구(주민 2/3, 없으면 같은 의원)와 1990년부터의 기존 여성 의원 수, 선거구 정렬 자료(`docs/data/lineage/`) |
+| `pipeline/codebook.py` | 변수 설명(코드북) `docs/data/codebook.csv`·`.json`. 변수를 더하거나 바꾸면 여기도 고칩니다 |
+| `pipeline/fetch_population.py`, `pipeline/fetch_codebooks.py` | 한 번만: 인구조사국 블록그룹 인구 중심점, 하원 경선 자료의 원래 코드북(작업 흐름으로 실행) |
 | `data/static/` | 자주 바뀌지 않는 입력: CAWP 파일과 2026 후보 목록, MEDSL 하원 결과, 하원 경선 자료 요약, 지역구 특징, 이름 성별표, 위키 문서 대명사 확인 결과 |
 | `docs/` | 페이지 |
 

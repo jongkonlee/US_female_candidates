@@ -682,6 +682,18 @@ async function download(kind) {
   setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 1000);
   if (btn) btn.textContent = kind === 'csv' ? 'CSV' : 'Stata (.dta)';
 }
+async function codebookHtml() {
+  let cb;
+  try { cb = S.codebook || (S.codebook = await getJSON('data/codebook.json')); } catch (e) { return ''; }
+  const tbl = rows => `<div class="tbl-wrap"><table class="codebook"><thead><tr><th>변수</th><th>뜻</th><th>값·단위</th></tr></thead><tbody>
+    ${rows.map(v => `<tr><td><code>${esc(v.name)}</code></td><td>${esc(v.label)}</td><td>${esc(v.values)}</td></tr>`).join('')}</tbody></table></div>`;
+  let h = `<h2>변수 설명(코드북)</h2>
+  <p>위 자료들의 변수 이름이 무엇을 뜻하는지, 값은 어떻게 적었는지 정리했습니다. .dta 파일에는 변수마다 짧은 한글 설명도 붙어 있습니다.</p>
+  <div class="btns"><a class="btn" href="data/codebook.csv" download>코드북 CSV</a></div>`;
+  for (const t of cb.tables) h += `<details class="cb"><summary><b>${esc(t.title)}</b> <span class="muted">${esc(t.unit)}</span></summary>${tbl(cb.vars.filter(v => v.table === t.table))}</details>`;
+  if (cb.office && cb.office.length) h += `<details class="cb"><summary><b>이전 경력 코드</b> <span class="muted">후보의 office(하원 경선 후보, 1990–2018)</span></summary>${tbl(cb.office.map(o => ({ name: o.code, label: o.meaning, values: '' })))}</details>`;
+  return h;
+}
 async function viewDownload() {
   const base = 'https://github.com/jongkonlee/US_female_candidates/raw/main/data/';
   return `<h2>골라서 내려받기</h2>
@@ -702,6 +714,7 @@ async function viewDownload() {
       <div class="btns"><a class="btn" href="data/lineage/lineage_all.csv" download>CSV</a><a class="btn" href="data/lineage/lineage_all.dta" download>Stata (.dta)</a></div></div>
   </div>
   <p class="note">이은 방법: ① 그해 선거구 주민(2020년 인구조사 블록그룹 인구)의 2/3 이상이 살던 예전 선거구('인구 2/3') ② 그런 선거구가 없으면, 예전 선거구의 의원이 이번 선거에 나왔을 때 그 의원의 선거구('같은 의원') ③ 둘 다 없으면 빈칸. 선거구 번호 0은 주 전체가 한 석인 곳입니다. 1988년 줄은 1990년 선거 때 의원(101대 의회)이고, 각 예전 선거 연도는 그 선거로 뽑힌 의회(다음 해 1월부터 2년)를 뜻합니다. 자세한 설명은 <a href="https://github.com/jongkonlee/US_female_candidates/blob/main/data/README.md">data/README.md</a>.</p>
+  ${await codebookHtml()}
   <h2>전체 파일(저장소)</h2>
   <ul><li><a href="${base}candidates.csv">candidates.csv</a> — 후보 전체(메모 포함)</li><li><a href="${base}primaries.csv">primaries.csv</a> — 경선 전체</li><li><a href="${base}races.csv">races.csv</a> — 선거 전체</li>
   <li><a href="${base}cawp_unmatched.csv">cawp_unmatched.csv</a> — 득표 자료에서 짝을 찾지 못한 CAWP 여성 후보</li><li><a href="https://github.com/jongkonlee/US_female_candidates/blob/main/data/README.md">data/README.md</a> — 변수 설명과 규칙</li></ul>`;

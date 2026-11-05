@@ -11,6 +11,10 @@
 | `races.csv` | 선거 하나. 현직 출마, 양당 후보와 성별, 당선자 성별, 선거일 의원이 여성이었는지, 지역구 특징 |
 | `cawp_unmatched.csv` | CAWP 여성 후보 가운데 득표 자료에서 짝을 찾지 못한 사람(경선 낙선자는 득표 없이 `candidates`에 넣음) |
 | `coverage.csv` | 연도·원별 자료 출처와 줄 수 |
+| `../docs/data/lineage/lineage_2026.csv`·`lineage_all.csv`(+ .dta) | 선거구 정렬 자료(이어지는 선거구, 아래 규칙) |
+| `../docs/data/codebook.csv` | 변수 설명(코드북): 위 모든 파일의 변수 뜻과 값. 페이지 '내려받기'에도 표로 있음(`pipeline/codebook.py`) |
+
+하원 경선 자료의 원래 코드북(Pettigrew 외, Miller & Camberg)은 `static/codebooks/`에 사본이 있습니다(`qual`·`office` 코드의 근거).
 
 Stata 파일(.dta, 한글 변수 설명)은 페이지의 '내려받기' 탭에서 원하는 연도만 골라 받을 수 있습니다. 내 컴퓨터에서 이 폴더의 CSV를 .dta로 바꾸려면 `python pipeline/export.py`를 실행합니다.
 
