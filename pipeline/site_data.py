@@ -17,7 +17,7 @@ PRIM = ["race_id", "chamber", "state", "district", "special", "system", "party",
         "n_unknown", "incumbent_running", "incumbent_gender", "winner", "winner_gender", "winner_pct", "woman_won",
         "top_woman_pct", "top_man_pct", "mixed", "src"]
 RACE = ["race_id", "chamber", "state", "district", "special", "system", "n_general", "incumbent_running", "incumbent_party",
-        "incumbent_gender", "open_seat", "seat_member_on_eday", "seat_member_female", "women_members_same_map",
+        "incumbent_gender", "open_seat", "seat_member_on_eday", "seat_member_female", "women_members_same_map", "women_members_since_1990",
         "d_primary_women", "r_primary_women", "d_primary_woman_won", "r_primary_woman_won", "d_nominee", "d_nominee_gender",
         "r_nominee", "r_nominee_gender", "matchup", "winner", "winner_party", "winner_gender", "woman_won_general",
         "d_share_2party", "pres_d_2party", "pvi", "rural", "white_nh", "black_nh", "hisp", "asian_nh", "ba_plus", "med_income",

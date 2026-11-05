@@ -65,6 +65,9 @@ tr.click:hover td { background: var(--accent-soft); }
 .bar .val { width: 92px; flex: none; text-align: right; font-variant-numeric: tabular-nums; color: var(--muted); }
 .chart-block { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 10px 14px; margin: 8px 0 14px; }
 .chart-block .cap { color: var(--muted); font-size: .82rem; margin-top: 4px; }
+.chart-block .cap.top { margin: 2px 0 8px; }
+.bar-head { font-size: .78rem; font-weight: 600; color: var(--muted); margin: 0 0 2px; }
+.bar.wide .val { width: 128px; }
 .pgroup { font-weight: 600; margin: 8px 0 2px; font-size: .9rem; }
 .panel { position: fixed; inset: 0; background: rgba(0,0,0,.35); z-index: 20; display: flex; justify-content: flex-end; }
 .panel[hidden] { display: none; }
@@ -81,7 +84,7 @@ details { margin: 8px 0; } summary { cursor: pointer; color: var(--accent); }
 .foot { color: var(--muted); font-size: .82rem; padding-bottom: 30px; border-top: 1px solid var(--line); padding-top: 12px; }
 .about p, .about li { max-width: 820px; }
 @media (max-width: 640px) {
-  .bar .lab { width: 120px; } .bar .val { width: 70px; }
+  .bar .lab { width: 120px; } .bar .val { width: 70px; } .bar.wide .val { width: 106px; }
   .kv { grid-template-columns: 110px 1fr; }
   .top h1 { font-size: 1.25rem; }
 }

@@ -29,7 +29,7 @@ const RSRC = { 'FEC': 'FEC 공식 결과', 'MEDSL': 'MEDSL(MIT 선거연구소�
 const C = { d: 'var(--d)', r: 'var(--r)', w: 'var(--w)', none: 'var(--none)', na: 'var(--na)', dl: '#b9cfe9', rl: '#f0c1bd', open: '#efe2b0', ff: 'var(--ff)', fm: 'var(--fm)', mf: 'var(--mf)', mm: 'var(--mm)' };
 
 const S = { ch: 'H', year: null, tab: 'summary', period: 'year', partyOnly: false, layer: 'gen', target: 'D', unit: 'district', crit: 'lean',
-  q: '', onlyWomen: false, open: null, idx: null, cache: {}, ds: 'candidates', dlScope: 'year', mapKind: 'tile', zoom: null };
+  q: '', onlyWomen: false, open: null, idx: null, cache: {}, ds: 'candidates', dlScope: 'year', mapKind: 'tile', zoom: null, priorMode: 'map' };
 const MAPS = { idx: null, c: {}, s: {} };
 
 /* ---------- data ---------- */
@@ -84,7 +84,7 @@ function writeHash() {
   p.set('c', S.ch); p.set('y', S.year); if (S.tab !== 'summary') p.set('t', S.tab); if (S.period !== 'year') p.set('p', S.period);
   if (S.partyOnly) p.set('po', '1'); if (S.layer !== 'gen') p.set('l', S.layer); if (S.target !== 'D') p.set('tg', S.target);
   if (S.unit !== 'district') p.set('u', S.unit); if (S.crit !== 'lean') p.set('k', S.crit); if (S.open) p.set('open', S.open);
-  if (S.mapKind !== 'tile') p.set('mk', S.mapKind); if (S.zoom) p.set('z', S.zoom);
+  if (S.mapKind !== 'tile') p.set('mk', S.mapKind); if (S.zoom) p.set('z', S.zoom); if (S.priorMode !== 'map') p.set('pm', S.priorMode);
   history.replaceState(null, '', '#' + p.toString());
 }
 function readHash() {
@@ -94,7 +94,7 @@ function readHash() {
   if (p.get('t')) S.tab = p.get('t'); if (p.get('p')) S.period = p.get('p'); S.partyOnly = p.get('po') === '1';
   if (p.get('l')) S.layer = p.get('l'); if (p.get('tg')) S.target = p.get('tg'); if (p.get('u')) S.unit = p.get('u'); if (p.get('k')) S.crit = p.get('k');
   S.open = p.get('open');
-  if (p.get('mk') === 'real') S.mapKind = 'real'; if (p.get('z') && STATE_KO[p.get('z')]) S.zoom = p.get('z');
+  if (p.get('mk') === 'real') S.mapKind = 'real'; if (p.get('z') && STATE_KO[p.get('z')]) S.zoom = p.get('z'); if (p.get('pm') === 'cum') S.priorMode = 'cum';
 }
 function syncControls() {
   document.querySelectorAll('#chamberSeg button').forEach(b => b.classList.toggle('on', b.dataset.ch === S.ch));
@@ -122,10 +122,11 @@ function lineChart(series, opt) {
   return `<div class="chart-block"><b>${esc(opt.title)}</b><div class="legend">${leg}</div><div class="chart"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(opt.title)}">${g}</svg></div>${opt.cap ? `<div class="cap">${opt.cap}</div>` : ''}</div>`;
 }
 function bars(items, opt) {
-  // items: [{lab, v (0-100 or null), n, sub, color}]
-  return items.map(it => `<div class="bar"><div class="lab" title="${esc(it.lab)}">${esc(it.lab)} <span class="muted">(${it.n})</span></div>
+  // items: [{lab, v (0-100 or null), n, color, vt (value text, optional)}]; opt: {max, head (title over the labels), wide}
+  const head = opt.head ? `<div class="bar-head">${esc(opt.head)}</div>` : '';
+  return head + items.map(it => `<div class="bar${opt.wide ? ' wide' : ''}"><div class="lab" title="${esc(it.lab)}">${esc(it.lab)} <span class="muted">(${it.n})</span></div>
     <div class="track"><div class="fill" style="width:${it.v === null ? 0 : Math.max(0, Math.min(100, it.v * 100 / (opt.max || 100)))}%;background:${it.color || 'var(--w)'}"></div></div>
-    <div class="val">${it.v === null ? '–' : fmt(it.v) + '%'}</div></div>`).join('');
+    <div class="val">${it.vt !== undefined ? esc(it.vt) : it.v === null ? '–' : fmt(it.v) + '%'}</div></div>`).join('');
 }
 
 /* ---------- views ---------- */
@@ -360,18 +361,33 @@ function leanBin(x) { if (x === null) return '자료 없음'; return x >= 15 ? L
 // first House election under a new census map: there is no earlier member "within the same map" to count
 const MAP_FIRST = new Set([1992, 2002, 2012, 2022]);
 const PRIOR_ORDER = ['없음', '1명', '2명 이상', '새 지도의 첫 선거', '자료 없음'];
+const CUM_ORDER = ['없음', '1명', '2명', '3명 이상', '자료 없음'];
 function priorMap(u) {
   if (u.r.chamber === 'H' && MAP_FIRST.has(u.Y.year)) return '새 지도의 첫 선거';
   const v = num(u.r.women_members_same_map);
   return v === null ? '자료 없음' : v === 0 ? '없음' : v === 1 ? '1명' : '2명 이상';
 }
-function priorCaution() {
+function priorCum(u) {
+  const v = u.r.chamber === 'H' ? num(u.r.women_members_since_1990) : null;
+  return v === null ? '자료 없음' : v === 0 ? '없음' : v === 1 ? '1명' : v === 2 ? '2명' : '3명 이상';
+}
+function priorCaution(mode) {
   const house = S.ch === 'H';
+  if (house && mode === 'cum') return `<div class="note caution"><b>이 항목을 볼 때 주의할 점: 선거구를 이은 방법</b><ol>
+    <li>그해 선거구를 기준으로, 그 주민의 2/3 이상이 살던 예전 선거구를 같은 선거구로 봅니다. 주민은 2020년 인구조사 블록그룹(약 1,500명 단위) 인구로 재고, 1990년 선거 때 의회(101대, 1989년 1월~)부터 선거일의 의회까지 의회마다 따로 찾습니다.</li>
+    <li>2/3을 넘는 예전 선거구가 없으면, 그 예전 선거구의 의원이 이번 선거에 나왔을 때(경선·본선, 낙선 포함) 그 의원의 선거구를 같은 선거구로 봅니다. 의원이 다른 곳으로 옮겨 나오면 주민이 거의 겹치지 않아도 이어집니다(예: 1992년 조지아 6구의 깅리치).</li>
+    <li>둘 다 없으면 그 의회에는 이어지는 선거구가 없어 세지 않습니다. 예전 의회로 갈수록 이렇게 빠지는 경우가 많습니다.</li>
+    <li>'1명', '2명'은 이어진 선거구들을 맡은 서로 다른 여성 의원 수입니다. 같은 여성이 여러 번 당선돼도 1명이고, 지금 의원도 들어갑니다. 10년마다 0으로 돌아가지 않고 1990년부터 계속 쌓입니다.</li>
+    <li>주민 겹침은 블록그룹의 인구 중심점으로 잰 근사값이고, 1990년대 지도에도 2020년 인구 분포를 씁니다. 1990년 뉴욕 33구는 경계 자료가 없어 빠집니다. 선거구별로 어느 선거구와 이었는지는 '내려받기'의 '선거구 정렬 자료'에 있습니다.</li></ol></div>`;
   return `<div class="note caution"><b>이 항목을 볼 때 주의할 점</b><ol>
     <li>'1명', '2명 이상'은 서로 다른 사람의 수입니다. 같은 여성이 여러 번 당선돼도 1명으로 셉니다. 지금 의원도 들어갑니다.</li>
-    ${house ? `<li>선거구를 인구조사에 따라 10년마다 다시 그리기 때문에, 이 항목은 새 지도를 쓰기 시작할 때(1993·2003·2013·2023년 1월)마다 0부터 다시 셉니다. 그래서 같은 '1명'이라도 10년 가운데 몇 번째 선거인지에 따라 뜻이 다릅니다. 첫 선거(1992·2002·2012·2022년)는 셀 의원이 없어 '새 지도의 첫 선거'로 따로 묶었고, 두 번째 선거의 '1명'은 대부분 지금 의원입니다.</li>
+    ${house ? `<li>선거구를 인구조사에 따라 10년마다 다시 그리기 때문에, 이 항목은 새 지도를 쓰기 시작할 때(1993·2003·2013·2023년 1월)마다 0부터 다시 셉니다. 그래서 같은 '1명'이라도 10년 가운데 몇 번째 선거인지에 따라 뜻이 다릅니다. 첫 선거(1992·2002·2012·2022년)는 셀 의원이 없어 '새 지도의 첫 선거'로 따로 묶었고, 두 번째 선거의 '1명'은 대부분 지금 의원입니다. 10년을 넘어 이어 세려면 위의 '1990년부터 누적'을 누르세요.</li>
     <li>10년 중간에 선거구를 다시 그린 주에서는 번호만 같은 다른 지역의 의원이 섞일 수 있습니다(예: 2020년 펜실베이니아 7구, 2026년에 새 지도를 쓴 10개 주).</li>`
     : `<li>상원은 주 전체가 선거구라 다시 그리지 않으므로, 1985년부터 그 주의 두 자리를 맡은 여성 의원을 끊지 않고 셉니다.</li>`}</ol></div>`;
+}
+function priorToggle() {
+  if (S.ch !== 'H') return '';
+  return `<div class="seg" style="margin:6px 0">${[['map', '같은 지도 안(10년마다 새로 셈)'], ['cum', '1990년부터 누적(이어지는 선거구)']].map(([k, l]) => `<button data-pm="${k}" class="${S.priorMode === k ? 'on' : ''}">${l}</button>`).join('')}</div>`;
 }
 function raceEth(code) {
   if (!code) return '자료 없음';
@@ -381,7 +397,8 @@ function raceEth(code) {
 const CRIT = {
   district: {
     lean: { label: '지역구 당파 성향', order: LEAN_ORDER, f: u => leanBin(lean(u.r, u.Y)) },
-    prior_map: { label: '같은 선거구 지도 안에서 이전 여성 의원', order: PRIOR_ORDER, f: priorMap },
+    prior_map: { label: '같은 선거구 지도 안에서 기존 여성 의원', head: '기존 여성 의원 수', order: PRIOR_ORDER, f: priorMap },
+    prior_cum: { label: '이어지는 선거구의 기존 여성 의원(1990년부터 누적)', head: '기존 여성 의원 수', order: CUM_ORDER, f: priorCum, house: true },
     seat_female: { label: '선거일에 그 선거구 의원이 여성', order: ['여성', '남성', '자료 없음'], f: u => u.r.seat_member_female === 1 ? '여성' : u.r.seat_member_female === 0 ? '남성' : '자료 없음' },
     incumbent: { label: '현직 출마', order: ['여성 현직 출마', '남성 현직 출마', '현직 없음'], f: u => {
       const run = u.p ? u.p.incumbent_running : u.r.incumbent_running, g = u.p ? u.p.incumbent_gender : u.r.incumbent_gender;
@@ -404,7 +421,8 @@ const CRIT = {
     field: { label: '경선 후보 수', order: ['1명', '2명', '3명', '4명 이상'], only: 'primary', f: u => { const n = num(u.p && u.p.n_cand); return n === null ? '자료 없음' : n >= 4 ? '4명 이상' : `${n}명`; } },
     rivals: { label: '같은 경선의 다른 여성', order: ['여성은 혼자', '다른 여성도 출마'], only: 'primary', f: u => (u.p && u.p.n_women > 1) ? '다른 여성도 출마' : '여성은 혼자' },
     lean: { label: '지역구 당파 성향', order: LEAN_ORDER, f: u => leanBin(lean(u.r, u.Y)) },
-    prior_map: { label: '같은 선거구 지도 안에서 이전 여성 의원', order: PRIOR_ORDER, f: priorMap },
+    prior_map: { label: '같은 선거구 지도 안에서 기존 여성 의원', head: '기존 여성 의원 수', order: PRIOR_ORDER, f: priorMap },
+    prior_cum: { label: '이어지는 선거구의 기존 여성 의원(1990년부터 누적)', head: '기존 여성 의원 수', order: CUM_ORDER, f: priorCum, house: true },
   },
 };
 function units(Ys, target, unit) {
@@ -469,30 +487,33 @@ function compareBlock(Ys, target, unit, crit, title) {
   const color = target === 'D' ? C.d : target === 'R' ? C.r : C.w;
   const tname = target === 'D' ? '민주당 경선' : target === 'R' ? '공화당 경선' : '본선';
   if (!us.length) return `<p class="muted">해당하는 선거가 없습니다.</p>`;
+  const head = def.head || def.label;
   if (unit === 'woman') {
     return `<div class="chart-block"><b>${esc(title || def.label)}: 여성 후보가 ${target === 'G' ? '본선에서 당선된' : '경선에서 이긴'} 비율</b>
-      ${bars(res.map(x => ({ lab: x.k, n: x.n, v: x.rate, color })), {})}
-      <div class="cap">${periodLabel()} ${chName(S.ch)} ${tname}의 여성 후보 ${us.length}명. 괄호는 여성 후보 수입니다.</div></div>`;
+      <div class="cap top">${periodLabel()} ${chName(S.ch)} ${tname}의 여성 후보 ${us.length}명. 괄호는 여성 후보 수입니다.</div>
+      ${bars(res.map(x => ({ lab: x.k, n: x.n, v: x.rate, color })), { head })}</div>`;
   }
-  const what = target === 'G' ? ['여성 후보가 본선에 나간 비율', '여성이 당선된 비율', '여성 후보가 나간 선거에서 여성이 이긴 비율'] : ['여성이 출마한 비율', '여성이 이긴 비율', '여성이 출마했을 때 이긴 비율'];
-  const tbl = `<div class="tbl-wrap"><table><thead><tr><th>${esc(def.label)}</th><th class="num">${target === 'G' ? '선거' : '경선'}</th><th class="num">${what[0]}</th><th class="num">${what[1]}</th><th class="num">${what[2]}</th></tr></thead><tbody>
-    ${res.map(x => `<tr><td>${esc(x.k)}</td><td class="num">${x.n}</td><td class="num">${fmt(x.rRan)}% <span class="muted">(${x.ran})</span></td><td class="num">${fmt(x.rWon)}% <span class="muted">(${x.won})</span></td><td class="num">${x.rCond === null ? '–' : fmt(x.rCond) + '%'}</td></tr>`).join('')}</tbody></table></div>`;
+  const W = target === 'G' ? '선거' : '경선';
+  const what = [target === 'G' ? '여성 후보가 본선에 나간 비율' : '여성이 출마한 비율', '전체 지역구 중 이긴 비율', '여성이 출마한 지역구에서 여성이 이긴 비율'];
+  const cond = x => x.rCond === null ? '–' : `${fmt(x.rCond)}% (${x.won}/${x.ran})`;
+  const tbl = `<div class="tbl-wrap"><table><thead><tr><th>${esc(head)}</th><th class="num">${W}</th><th class="num">${what[0]}</th><th class="num">${what[1]}</th><th class="num">${what[2]}</th></tr></thead><tbody>
+    ${res.map(x => `<tr><td>${esc(x.k)}</td><td class="num">${x.n}</td><td class="num">${fmt(x.rRan)}% <span class="muted">(${x.ran})</span></td><td class="num">${fmt(x.rWon)}% <span class="muted">(${x.won})</span></td><td class="num">${cond(x)}</td></tr>`).join('')}</tbody></table></div>`;
   const why = [target === 'G' && Ys.some(Y => isCurrent(Y.year)) ? '올해는 당선이 확인된 곳만' : '', target !== 'G' ? '그 당 후보가 없던 곳 등은 빠짐' : '',
     S.partyOnly ? '정당 경선을 하지 않는 주는 뺌' : ''].filter(Boolean).join(', ');
-  const cnt = `${periodLabel()} ${chName(S.ch)} ${tname} ${us.length}곳${why ? `(${why})` : ''}. 괄호는 ${target === 'G' ? '선거' : '경선'} 수입니다.`;
-  return `<div class="grid2"><div class="chart-block"><b>${what[1]}</b>${bars(res.map(x => ({ lab: x.k, n: x.n, v: x.rWon, color })), {})}<div class="cap">${cnt}</div></div>
-    <div class="chart-block"><b>${what[2]}</b>${bars(res.map(x => ({ lab: x.k, n: x.ran, v: x.rCond, color })), {})}<div class="cap">괄호는 여성이 출마한 ${target === 'G' ? '선거' : '경선'} 수입니다.</div></div></div>${tbl}`;
+  const cnt = `${periodLabel()} ${chName(S.ch)} ${tname} ${us.length}곳${why ? `(${why})` : ''}. 괄호는 ${W} 수입니다.`;
+  return `<div class="grid2"><div class="chart-block"><b>${what[1]}</b><div class="cap top">${cnt}</div>${bars(res.map(x => ({ lab: x.k, n: x.n, v: x.rWon, color })), { head })}</div>
+    <div class="chart-block"><b>${what[2]}</b><div class="cap top">이름 옆 괄호는 여성이 출마한 ${W} 수, 값 옆 괄호는 (여성이 이긴 곳/여성이 출마한 곳)입니다.</div>${bars(res.map(x => ({ lab: x.k, n: x.ran, v: x.rCond, color, vt: cond(x) })), { head, wide: true })}</div></div>${tbl}`;
 }
 async function viewWhere() {
   const Ys = await loadPeriod();
-  const opts = Object.entries(CRIT[S.unit]).filter(([k, v]) => !(v.only === 'primary' && S.target === 'G'));
+  const opts = Object.entries(CRIT[S.unit]).filter(([k, v]) => !(v.only === 'primary' && S.target === 'G') && !(v.house && S.ch !== 'H'));
   if (!opts.some(([k]) => k === S.crit)) S.crit = opts[0][0];
   return `<div class="btns" style="align-items:center">
     <div class="seg">${[['D', '민주당 경선'], ['R', '공화당 경선'], ['G', '본선']].map(([k, l]) => `<button data-target="${k}" class="${S.target === k ? 'on' : ''}">${l}</button>`).join('')}</div>
     <div class="seg">${[['district', '선거구 기준'], ['woman', '여성 후보 기준']].map(([k, l]) => `<button data-unit="${k}" class="${S.unit === k ? 'on' : ''}">${l}</button>`).join('')}</div>
     <label class="fld">기준 <select data-crit>${opts.map(([k, v]) => `<option value="${k}" ${S.crit === k ? 'selected' : ''}>${esc(v.label)}</option>`).join('')}</select></label></div>
     <p class="muted">${periodLabel()} · ${chName(S.ch)}. 기간은 위쪽 '비교 기간'에서 바꿉니다. ${S.unit === 'district' ? '선거구 기준은 "여성이 나왔는지(출마)"와 "나왔을 때 이겼는지(성공)"를 나눠 봅니다.' : '여성 후보 기준은 여성 후보 한 명 한 명이 이겼는지를 봅니다.'}</p>
-    ${S.crit === 'prior_map' ? priorCaution() : ''}${compareBlock(Ys, S.target, S.unit, S.crit)}
+    ${S.crit === 'prior_map' ? priorCaution('map') : S.crit === 'prior_cum' ? priorCaution('cum') : ''}${compareBlock(Ys, S.target, S.unit, S.crit)}
     <p class="note">집단 사이의 단순 비교입니다. 예를 들어 여성은 이기기 쉬운 곳에 더 많이 출마할 수 있어서(선택 효과), 차이를 원인으로 읽으면 안 됩니다. 회귀분석은 '내려받기'의 자료로 하실 수 있습니다. 당파 성향은 2008년부터 Cook 방식 당파 지수, 그 전 하원은 직전 대선 득표율을 그해 선거구 중앙값과 비교한 값입니다. 2026년 선거구의 당파 성향·인구 자료는 아직 없어 '자료 없음'으로 들어갑니다. 괄호 안 수가 작은 집단은 비율이 크게 흔들립니다.</p>`;
 }
 
@@ -557,9 +578,11 @@ async function viewVsMen() {
 
 async function viewPrior() {
   const Ys = await loadPeriod();
-  let h = `<p class="muted">${periodLabel()} · ${chName(S.ch)}. 이전에 여성 의원이 있었던 선거구와 아닌 선거구를 비교합니다.</p>`;
-  for (const [crit, title] of [['prior_map', '같은 선거구 지도 안에서 이전 여성 의원(인구조사 주기 기준)'], ['seat_female', '선거일에 그 선거구 의원이 여성이었나'], ['incumbent', '현직이 출마했나']]) {
-    h += `<h2>${esc(title)}</h2>${crit === 'prior_map' ? priorCaution() : ''}`;
+  let h = `<p class="muted">${periodLabel()} · ${chName(S.ch)}. 기존에 여성 의원이 있었던 선거구와 아닌 선거구를 비교합니다.</p>`;
+  const mode = S.ch === 'H' ? S.priorMode : 'map';
+  const first = mode === 'cum' ? ['prior_cum', '이어지는 선거구의 기존 여성 의원(1990년부터 누적)'] : ['prior_map', '같은 선거구 지도 안에서 기존 여성 의원(인구조사 주기 기준)'];
+  for (const [crit, title] of [first, ['seat_female', '선거일에 그 선거구 의원이 여성이었나'], ['incumbent', '현직이 출마했나']]) {
+    h += `<h2>${esc(title)}</h2>${crit === first[0] ? priorToggle() + priorCaution(mode) : ''}`;
     for (const [t, l] of [['D', '민주당 경선'], ['R', '공화당 경선'], ['G', '본선']]) h += `<h3>${l}</h3>${compareBlock(Ys, t, 'district', crit)}`;
   }
   return h + `<p class="note">선거구를 다시 그린 해에는 같은 번호라도 다른 지역입니다.</p>`;
@@ -592,7 +615,7 @@ function racePanel(id) {
   <div class="kv"><div>경선 방식</div><div>${esc(SYSTEM[r.system] || r.system)}</div>
   <div>현직</div><div>${r.incumbent_running === 1 ? `${PARTY[r.incumbent_party] || ''} ${r.incumbent_gender === 'F' ? '여성' : '남성'} 현직 출마` : '현직 없음'}</div>
   <div>선거일 의원</div><div>${esc(r.seat_member_on_eday || '–')}${r.seat_member_female === 1 ? ' (여성)' : ''}</div>
-  <div>이전 여성 의원</div><div>같은 지도 안 ${r.women_members_same_map ?? '–'}명</div>
+  <div>기존 여성 의원</div><div>같은 지도 안 ${r.women_members_same_map ?? '–'}명${r.chamber === 'H' ? ` · 이어지는 선거구 1990년부터 누적 ${r.women_members_since_1990 ?? '–'}명` : ''}</div>
   <div>지역구</div><div>당파 성향 ${esc(leanLabel(lx) || '–')}${num(r.rural) !== null ? ` · 농촌 ${fmt(r.rural)}%` : ''}${num(r.white_nh) !== null ? ` · 비히스패닉 백인 ${fmt(r.white_nh)}% · 흑인 ${fmt(r.black_nh)}% · 히스패닉 ${fmt(r.hisp)}% · 대졸 ${fmt(r.ba_plus)}%` : ''}</div>
   <div>당선</div><div>${r.winner ? `${esc(r.winner)} (${PARTY[r.winner_party] || '?'}${r.winner_gender === 'F' ? ', 여성' : ''})` : '<span class="prov">아직 모름</span>'}</div></div>`;
   for (const p of ps.sort((a, b) => a.party.localeCompare(b.party))) {
@@ -627,7 +650,7 @@ const LABELS = { race_id: '선거 ID', year: '선거 연도', chamber: '원(H �
   cawp_primary: 'CAWP 경선 결과', cawp_general: 'CAWP 본선 결과', cawp_seat: 'CAWP 경선 위치', link: '위키백과 문서', contest: '경선 종류', n_cand: '후보 수', n_women: '여성 후보 수', n_men: '남성 후보 수',
   n_unknown: '성별 모름 후보 수', incumbent_running: '현직 출마(1)', incumbent_gender: '현직 성별', winner: '승자', winner_gender: '승자 성별', winner_pct: '승자 득표율(%)', woman_won: '여성이 이김(1)',
   top_woman_pct: '여성 최고 득표율(%)', top_man_pct: '남성 최고 득표율(%)', mixed: '남녀 함께 출마(1)', src: '출처', n_general: '본선 후보 수', incumbent_party: '현직 정당', open_seat: '현직 없는 선거(1)',
-  seat_member_on_eday: '선거일 의원', seat_member_female: '선거일 의원이 여성(1)', women_members_same_map: '같은 지도 안 이전 여성 의원 수', d_primary_women: '민주 경선 여성 수', r_primary_women: '공화 경선 여성 수',
+  seat_member_on_eday: '선거일 의원', seat_member_female: '선거일 의원이 여성(1)', women_members_same_map: '같은 지도 안 기존 여성 의원 수', women_members_since_1990: '이어지는 선거구의 기존 여성 의원 수(1990년부터)', d_primary_women: '민주 경선 여성 수', r_primary_women: '공화 경선 여성 수',
   d_primary_woman_won: '민주 경선 여성 승리(1)', r_primary_woman_won: '공화 경선 여성 승리(1)', d_nominee: '민주 후보', d_nominee_gender: '민주 후보 성별', r_nominee: '공화 후보', r_nominee_gender: '공화 후보 성별',
   matchup: '본선 대결(민주-공화 성별)', winner_party: '당선자 정당', woman_won_general: '여성 당선(1)', d_share_2party: '본선 민주 양당 득표율(%)', pres_d_2party: '직전 대선 민주 양당 득표율(%)',
   pvi: '당파 지수(+민주)', rural: '농촌 인구 비율(%)', white_nh: '비히스패닉 백인(%)', black_nh: '흑인(%)', hisp: '히스패닉(%)', asian_nh: '아시아계(%)', ba_plus: '대졸(%)', med_income: '가구 소득 중앙값(달러)', src_general: '본선 자료 출처' };
@@ -668,6 +691,17 @@ async function viewDownload() {
     <label class="chk"><input type="checkbox" data-dlboth ${S.dlBoth ? 'checked' : ''}> 하원·상원 모두</label></div>
   <div class="btns"><button class="btn" data-dl="csv">CSV</button><button class="btn" data-dl="dta">Stata (.dta)</button></div>
   <p class="note">CSV는 UTF-8(BOM)이라 엑셀에서 한글이 그대로 보입니다. .dta는 Stata 14 이상에서 열리며 변수 설명이 한글로 붙어 있습니다. 메모(note) 열은 아래 전체 파일에만 있습니다.</p>
+  <h2>선거구 정렬 자료(이어지는 선거구)</h2>
+  <p>하원 선거구를 1990년 선거까지 거슬러 이은 표입니다. '기존 여성 의원' 탭의 '1990년부터 누적'이 이 표로 셉니다.</p>
+  <div class="grid2">
+    <div class="chart-block"><b>2026년 선거구 기준</b> <span class="muted">(한 줄 = 2026년 선거구, 435줄)</span>
+      <div class="cap top">2024년부터 1988년까지 선거마다 이어지는 선거구 번호(d연도), 2026년 선거구 주민 중 그 선거구에 살던 비율(s연도), 이은 방법(r연도), 이어진 의회 수, 서로 다른 여성 의원 수와 이름</div>
+      <div class="btns"><a class="btn" href="data/lineage/lineage_2026.csv" download>CSV</a><a class="btn" href="data/lineage/lineage_2026.dta" download>Stata (.dta)</a></div></div>
+    <div class="chart-block"><b>모든 하원 선거(1990–2026)</b> <span class="muted">(한 줄 = 선거 × 예전 의회, 약 8만 줄)</span>
+      <div class="cap top">예전 선거 연도·의회 대수, 이어지는 선거구와 선거 번호, 주민 겹침 비율, 이은 방법, 주민이 가장 많이 겹친 선거구, 그 의회의 의원과 여성 의원, 여기까지 쌓인 여성 의원 수</div>
+      <div class="btns"><a class="btn" href="data/lineage/lineage_all.csv" download>CSV</a><a class="btn" href="data/lineage/lineage_all.dta" download>Stata (.dta)</a></div></div>
+  </div>
+  <p class="note">이은 방법: ① 그해 선거구 주민(2020년 인구조사 블록그룹 인구)의 2/3 이상이 살던 예전 선거구('인구 2/3') ② 그런 선거구가 없으면, 예전 선거구의 의원이 이번 선거에 나왔을 때 그 의원의 선거구('같은 의원') ③ 둘 다 없으면 빈칸. 선거구 번호 0은 주 전체가 한 석인 곳입니다. 1988년 줄은 1990년 선거 때 의원(101대 의회)이고, 각 예전 선거 연도는 그 선거로 뽑힌 의회(다음 해 1월부터 2년)를 뜻합니다. 자세한 설명은 <a href="https://github.com/jongkonlee/US_female_candidates/blob/main/data/README.md">data/README.md</a>.</p>
   <h2>전체 파일(저장소)</h2>
   <ul><li><a href="${base}candidates.csv">candidates.csv</a> — 후보 전체(메모 포함)</li><li><a href="${base}primaries.csv">primaries.csv</a> — 경선 전체</li><li><a href="${base}races.csv">races.csv</a> — 선거 전체</li>
   <li><a href="${base}cawp_unmatched.csv">cawp_unmatched.csv</a> — 득표 자료에서 짝을 찾지 못한 CAWP 여성 후보</li><li><a href="https://github.com/jongkonlee/US_female_candidates/blob/main/data/README.md">data/README.md</a> — 변수 설명과 규칙</li></ul>`;
@@ -685,7 +719,8 @@ function viewAbout() {
   <li>1990–2000년 상원, 2024년 이후 하원 경선과 상원, 2026년 하원 본선: 위키백과 선거 문서(비공식, CC BY-SA)</li>
   <li>여성 후보: Center for American Women and Politics(CAWP), Eagleton Institute of Politics, Rutgers University, Congressional Women Candidates Database ${S.idx.years[0]}–${S.idx.cawp_last_year}${listYear() ? ` · CAWP "Women Candidates ${listYear()}" 후보 목록(Congress and Statewide, ${esc(S.idx.cawp_list.downloaded)}에 내려받은 판)` : ''}</li>
   <li>의원 성별·임기: congress-legislators(unitedstates 프로젝트) · 지역구 특징(2008–2024): 인구조사국 원본 파일과 Cook 방식으로 계산한 당파 지수(여성정책 트래커와 같은 값)</li>
-  <li>실제 지도의 선거구 경계: Jeffrey B. Lewis, Brandon DeVine, Lincoln Pitcher, Kenneth C. Martis, "Digital Boundary Definitions of U.S. Congressional Districts, 1789–2012"(저자들이 119대 의회까지 갱신, GitHub, MIT 사용 허가, 2026-11-05 내려받음). 2026년에 선거구를 새로 그린 주는 위키미디어 공용 지도 자료 "Data:…congressional district (2027–).map"(CC0)</li></ul>
+  <li>실제 지도의 선거구 경계: Jeffrey B. Lewis, Brandon DeVine, Lincoln Pitcher, Kenneth C. Martis, "Digital Boundary Definitions of U.S. Congressional Districts, 1789–2012"(저자들이 119대 의회까지 갱신, GitHub, MIT 사용 허가, 2026-11-05 내려받음). 2026년에 선거구를 새로 그린 주는 위키미디어 공용 지도 자료 "Data:…congressional district (2027–).map"(CC0)</li>
+  <li>선거구를 이을 때의 주민 수: 미국 인구조사국, 2020년 인구조사 블록그룹별 인구 중심점(Centers of Population by Block Group, 2020, 2026-11-05 내려받음)</li></ul>
   <h2>성별을 정한 방법</h2><ul>
   <li>${S.idx.cawp_last_year}년까지: CAWP 명단에 있으면 여성, 없는 민주·공화 후보는 남성(CAWP는 주요 정당 경선에 이름을 올린 여성을 모두 실음)</li>
   ${listYear() ? `<li>${listYear()}년: 같은 방식으로 CAWP ${listYear()} 후보 목록을 씁니다. 다만 이 목록은 경선 기간 내내 고쳐지는 목록이라 빠진 사람이 있을 수 있어서, 목록에 없는 민주·공화 후보라도 위키백과 본인 문서가 '그녀(she)'로 쓰거나 예전 CAWP·의원 명부에 여성으로 나오면 여성으로, 이름만 여성 이름이면 '모름'으로 둡니다. 민주·공화 밖 후보는 아래 방법으로 정합니다</li>` : ''}
@@ -694,6 +729,7 @@ function viewAbout() {
   <li>경선 승리: 결선이 있으면 결선 승자, 없으면 최다 득표자. 단독 후보·전당대회·경선 기록이 없으면 본선에 나간 그 당 후보</li>
   <li>'정당 경선만'은 처음에 꺼져 있습니다. 켜면 정당별 경선을 하지 않는 캘리포니아·워싱턴(상위 2인 경선), 알래스카(상위 4인 경선, 2022년부터), 루이지애나(정당 구분 없는 1차 투표를 한 해)를 경선과 본선 비교에서 모두 뺍니다. 끈 상태에서 이런 곳의 '그 당 경선 승리'는 그 당 후보 가운데 본선에 나간 사람(둘 이상 나가면 1차 투표 득표가 가장 많은 사람, 루이지애나는 그 당 최다 득표자)이 여성인지로 봅니다. '여성 후보가 본선에 나감'은 본선에 오른 민주·공화 후보를 모두 봅니다(민주 대 민주처럼 같은 당끼리 붙은 본선 포함)</li>
   <li>하원 특별선거(잔여 임기)는 뺐고, 상원은 본선 날 치른 특별선거를 따로 셉니다</li>
+  <li>기존 여성 의원(하원): '같은 지도 안'은 지금 선거구 지도가 쓰인 뒤 선거일까지 그 번호 선거구를 맡은 서로 다른 여성 의원 수로, 10년마다 0부터 다시 셉니다. '1990년부터 누적'은 이어지는 선거구를 맡은 서로 다른 여성 의원 수입니다. 이어지는 선거구는 의회마다 ① 그해 선거구 주민(2020년 인구 기준)의 2/3 이상이 살던 예전 선거구, ② 없으면 이번 선거에 나온 예전 의원의 선거구, ③ 둘 다 없으면 없음으로 정합니다(1990년 선거 때 의회부터). 상원은 1985년부터 그 주의 두 자리를 셉니다</li>
   <li>당파 성향: 2008년부터는 Cook 방식 당파 지수, 그 전 하원은 직전 대선 민주 양당 득표율에서 그해 선거구 중앙값을 뺀 값</li></ul>
   <h2>점검</h2><ul><li>여성 당선자 수는 1990–2024년 하원·상원 모두 CAWP 집계와 같습니다(CAWP 파일의 정당 표기가 다른 2명 제외)</li>
   <li>2024년 하원 본선 승자는 위키백과와 MEDSL이 435곳 모두 같았습니다. 1990–2000년은 MEDSL로 바꾸면서 위키백과 전체 표의 잘못 2곳(1992년 뉴욕 17구, 1996년 테네시 7구 당선자)을 바로잡았습니다</li>
@@ -718,6 +754,7 @@ function bindMain() {
   bindRealMap();
   on('[data-target]', 'click', e => { S.target = e.currentTarget.dataset.target; render(); });
   on('[data-unit]', 'click', e => { S.unit = e.currentTarget.dataset.unit; render(); });
+  on('[data-pm]', 'click', e => { S.priorMode = e.currentTarget.dataset.pm; render(); });
   on('[data-crit]', 'change', e => { S.crit = e.target.value; render(); });
   on('[data-onlywomen]', 'change', e => { S.onlyWomen = e.target.checked; render(); });
   on('[data-q]', 'change', e => { S.q = e.target.value.trim(); render(); });
