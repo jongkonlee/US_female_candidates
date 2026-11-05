@@ -365,6 +365,14 @@ function priorMap(u) {
   const v = num(u.r.women_members_same_map);
   return v === null ? '자료 없음' : v === 0 ? '없음' : v === 1 ? '1명' : '2명 이상';
 }
+function priorCaution() {
+  const house = S.ch === 'H';
+  return `<div class="note caution"><b>이 항목을 볼 때 주의할 점</b><ol>
+    <li>'1명', '2명 이상'은 서로 다른 사람의 수입니다. 같은 여성이 여러 번 당선돼도 1명으로 셉니다. 지금 의원도 들어갑니다.</li>
+    ${house ? `<li>선거구를 인구조사에 따라 10년마다 다시 그리기 때문에, 이 항목은 새 지도를 쓰기 시작할 때(1993·2003·2013·2023년 1월)마다 0부터 다시 셉니다. 그래서 같은 '1명'이라도 10년 가운데 몇 번째 선거인지에 따라 뜻이 다릅니다. 첫 선거(1992·2002·2012·2022년)는 셀 의원이 없어 '새 지도의 첫 선거'로 따로 묶었고, 두 번째 선거의 '1명'은 대부분 지금 의원입니다.</li>
+    <li>10년 중간에 선거구를 다시 그린 주에서는 번호만 같은 다른 지역의 의원이 섞일 수 있습니다(예: 2020년 펜실베이니아 7구, 2026년에 새 지도를 쓴 10개 주).</li>`
+    : `<li>상원은 주 전체가 선거구라 다시 그리지 않으므로, 1985년부터 그 주의 두 자리를 맡은 여성 의원을 끊지 않고 셉니다.</li>`}</ol></div>`;
+}
 function raceEth(code) {
   if (!code) return '자료 없음';
   const parts = String(code).split('/');
@@ -484,7 +492,7 @@ async function viewWhere() {
     <div class="seg">${[['district', '선거구 기준'], ['woman', '여성 후보 기준']].map(([k, l]) => `<button data-unit="${k}" class="${S.unit === k ? 'on' : ''}">${l}</button>`).join('')}</div>
     <label class="fld">기준 <select data-crit>${opts.map(([k, v]) => `<option value="${k}" ${S.crit === k ? 'selected' : ''}>${esc(v.label)}</option>`).join('')}</select></label></div>
     <p class="muted">${periodLabel()} · ${chName(S.ch)}. 기간은 위쪽 '비교 기간'에서 바꿉니다. ${S.unit === 'district' ? '선거구 기준은 "여성이 나왔는지(출마)"와 "나왔을 때 이겼는지(성공)"를 나눠 봅니다.' : '여성 후보 기준은 여성 후보 한 명 한 명이 이겼는지를 봅니다.'}</p>
-    ${compareBlock(Ys, S.target, S.unit, S.crit)}
+    ${S.crit === 'prior_map' ? priorCaution() : ''}${compareBlock(Ys, S.target, S.unit, S.crit)}
     <p class="note">집단 사이의 단순 비교입니다. 예를 들어 여성은 이기기 쉬운 곳에 더 많이 출마할 수 있어서(선택 효과), 차이를 원인으로 읽으면 안 됩니다. 회귀분석은 '내려받기'의 자료로 하실 수 있습니다. 당파 성향은 2008년부터 Cook 방식 당파 지수, 그 전 하원은 직전 대선 득표율을 그해 선거구 중앙값과 비교한 값입니다. 2026년 선거구의 당파 성향·인구 자료는 아직 없어 '자료 없음'으로 들어갑니다. 괄호 안 수가 작은 집단은 비율이 크게 흔들립니다.</p>`;
 }
 
@@ -551,10 +559,10 @@ async function viewPrior() {
   const Ys = await loadPeriod();
   let h = `<p class="muted">${periodLabel()} · ${chName(S.ch)}. 이전에 여성 의원이 있었던 선거구와 아닌 선거구를 비교합니다.</p>`;
   for (const [crit, title] of [['prior_map', '같은 선거구 지도 안에서 이전 여성 의원(인구조사 주기 기준)'], ['seat_female', '선거일에 그 선거구 의원이 여성이었나'], ['incumbent', '현직이 출마했나']]) {
-    h += `<h2>${esc(title)}</h2>`;
+    h += `<h2>${esc(title)}</h2>${crit === 'prior_map' ? priorCaution() : ''}`;
     for (const [t, l] of [['D', '민주당 경선'], ['R', '공화당 경선'], ['G', '본선']]) h += `<h3>${l}</h3>${compareBlock(Ys, t, 'district', crit)}`;
   }
-  return h + `<p class="note">'같은 선거구 지도 안에서 이전 여성 의원'은 하원의 경우 지금 선거구 지도가 쓰이기 시작한 때(1993·2003·2013·2023년 1월)부터 이번 선거일까지 그 선거구를 맡았던 여성 의원 수입니다. 지금 의원도 들어갑니다. 1992·2002·2012·2022년은 새 지도의 첫 선거라 셀 의원이 없어서 '새 지도의 첫 선거'로 따로 묶었습니다. 상원은 1985년부터 그 주의 두 자리를 맡은 여성 의원을 셉니다. 선거구를 다시 그린 해에는 같은 번호라도 다른 지역이고, 이 기준은 인구조사 뒤 10년 동안의 지도를 한 묶음으로 보므로 10년 중간에 선거구를 바꾼 주에서는 부정확합니다.</p>`;
+  return h + `<p class="note">선거구를 다시 그린 해에는 같은 번호라도 다른 지역입니다.</p>`;
 }
 
 async function viewList() {

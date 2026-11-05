@@ -41,6 +41,10 @@ h3 { font-size: 1rem; margin: 16px 0 6px; }
 .card .k { color: var(--muted); font-size: .82rem; }
 .card .v { font-size: 1.35rem; font-weight: 650; }
 .note { background: var(--soft); border-radius: 8px; padding: 8px 12px; font-size: .88rem; color: var(--muted); margin: 8px 0; }
+.note.caution { border-left: 3px solid var(--minus); color: var(--fg); }
+.note.caution b { color: var(--minus); }
+.note.caution ol { margin: 4px 0 0; padding-left: 1.3em; }
+.note.caution li + li { margin-top: 2px; }
 .tbl-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 10px; background: var(--card); }
 table { border-collapse: collapse; width: 100%; font-size: .88rem; }
 th, td { padding: 6px 9px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
