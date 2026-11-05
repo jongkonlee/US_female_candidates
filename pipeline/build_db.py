@@ -273,15 +273,15 @@ def general_ballot_party(rows):
     third-party or independent lines is O in the general (only D and R candidates count, user's decision 2026-11-05):
     Sanders 2006 and 2018 (won the Democratic primary, ran as an independent), Crowley 2018 NY-14 (Working Families line),
     Hoffman 2010 NY-23 (Conservative line) ... From the FEC per-line votes (data/static/fec_line_votes.csv, 2002-2022) or an
-    FEC note saying so (Haugen 2008 OR-1). Write-in lines do not count as third-party lines. The primary party and result
-    stay as they are."""
+    FEC note saying so (Haugen 2008 OR-1). A general write-in line (W) does not count as a third-party line; a D or R
+    write-in line in the primary (W(D)) counts as a D or R line. The primary party and result stay as they are."""
     switch = {}
     if os.path.exists(FEC_LINES):
         t = pd.read_csv(FEC_LINES, keep_default_na=False, na_values=[""], dtype={"fec_id": str})
         t["mp"] = [F.main_party(re.sub(r"^W\((.*)\)$", r"\1", str(x))) for x in t["line"]]
         for key, g in t[t.fec_id.fillna("") != ""].groupby(["year", "chamber", "state", "district", "special", "fec_id"]):
-            dr = g[g.mp.isin(["D", "R"]) & (g.writein == 0)]
-            if dr.empty or dr.mp.nunique() > 1 or dr.g_votes.fillna(0).sum() + dr.g_unopposed.fillna(0).sum() > 0:
+            dr = g[g.mp.isin(["D", "R"])]  # D or R lines, write-in lines like W(D) included (Peacock 2018 VT)
+            if dr.empty or dr.g_votes.fillna(0).sum() + dr.g_unopposed.fillna(0).sum() > 0:
                 continue
             oth = g[~g.mp.isin(["D", "R"]) & (g.writein == 0) & (g.g_votes.fillna(0) > 0)]
             if len(oth):
@@ -319,7 +319,8 @@ def party_overrides(rows):
         for r in rows:
             if r["race_id"] == o["race_id"] and N.same_person(r["name"], o["name"]) and r["party"] != o["party"]:
                 r["p_party"] = r.get("p_party") or ""
-                r["note"] = (str(r.get("note") or "") + f" | general party {o['party']} from research (was {r['party']}): " + o["evidence"]).strip(" |")
+                r["note"] = (str(r.get("note") or "") + f" | general party {o['party']} from research (was {r['party']}"
+                             + ("; not counted as D or R" if o["party"] not in ("D", "R") else "") + "): " + o["evidence"]).strip(" |")
                 r["party"] = o["party"]
                 n += 1
     return n
@@ -859,7 +860,7 @@ def apply_cawp(rows, cawp):
             continue
         x = cand[i]
         x["gender"], x["gender_src"] = "F", csrc
-        if x["party"] == "O" and c["Party"] in ("D", "R"):
+        if x["party"] == "O" and c["Party"] in ("D", "R") and "not counted as D or R" not in str(x["note"] or ""):
             x["party"] = c["Party"]
             x["note"] = (str(x["note"] or "") + " | party from CAWP").strip(" |")
         race = str(c["Race"]) if ok(c["Race"]) and str(c["Race"]) != "unavailable" else ""
@@ -1323,7 +1324,13 @@ def derive(cand, legis):
             if x.empty:
                 return None
             key = x.g_votes.fillna(-1) if x.g_votes.notna().any() else x.g_pct.fillna(-1)
-            return x.loc[key.idxmax()]
+            best = x.loc[key.idxmax()]
+            # the party's primary winner ran under another label (Sanders 2006/2018 as an independent): a stray write-in
+            # (Hillary Clinton, 7 votes, VT 2018) does not stand in as the nominee; someone with 1%+ of the vote still does
+            if not (x.p_won == 1).any() and ((g.p_party == party) & (g.p_won == 1) & (g.party != party)).any() \
+                    and not (ok(best["g_pct"]) and best["g_pct"] >= 1):
+                return None
+            return best
         dn, rn = nominee("D"), nominee("R")
         win = gen[gen.g_won == 1]
         wr = win.iloc[0] if len(win) else None
