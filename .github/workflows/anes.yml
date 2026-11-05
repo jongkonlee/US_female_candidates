@@ -1,0 +1,38 @@
+name: fetch ANES House votes
+
+# one-off: checks that the ANES cumulative file downloads without a login and saves House vote counts of women and
+# men respondents by district (no individual rows) to data/static/anes
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: install
+        run: pip install pandas
+      - name: fetch and count
+        run: python pipeline/fetch_anes.py
+      - name: commit
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/static/anes || true
+          if ! git diff --cached --quiet; then
+            git commit -m "ANES House votes by district and respondent gender (counts only)"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
