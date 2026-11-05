@@ -361,7 +361,7 @@
   },
   "missing": {
    "copart": 281,
-   "same_race": 1762,
+   "same_race_w": 1762,
    "rrace": 0,
    "college": 0,
    "age": 0,
@@ -369,6 +369,39 @@
    "pvi": 0,
    "rural": 3051,
    "med_income": 0
+  },
+  "man_race_races": {
+   "의원이었고 명단에 없음(백인으로 봄)": 691,
+   "의회에 없었음(모름)": 539,
+   "의원 명단(소수 인종)": 114
+  },
+  "man_race_codes": {
+   "W": 691,
+   "모름": 539,
+   "H": 48,
+   "B": 37,
+   "AP": 13,
+   "NA": 8,
+   "B/H": 5,
+   "MENA": 3
+  },
+  "woman_race_codes": {
+   "W": 913,
+   "B": 217,
+   "H": 102,
+   "AP": 62,
+   "모름": 18,
+   "H/W": 9,
+   "MENA": 8,
+   "AP/B": 4,
+   "B/W": 3,
+   "NA/W": 2,
+   "B/H/W": 1,
+   "MU": 1,
+   "AP/MENA": 1,
+   "B/NA": 1,
+   "B/NA/W": 1,
+   "H/MENA/W": 1
   }
  },
  "individual_rows": 120398
