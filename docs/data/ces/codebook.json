@@ -451,7 +451,7 @@
 "table": "ces_individual",
 "name": "d_race",
 "label": "민주 후보 인종",
-"values": "여성은 CAWP 코드, 그 밖은 의회에 있었으면 소수 인종 의원 명단의 코드(명단에 없으면 W, 추정), 빈칸 = 모름"
+"values": "순서대로 ① 여성은 CAWP 코드 ② 출판된 후보 인종 코드 모음(사용자 제공 파일, 원출처는 data/static/nominee_race.csv) ③ 출처를 남긴 웹 조사 ④ 의회에 있었으면 소수 인종 의원 명단의 코드 ⑤ 명단에 없는 의원은 W(추정). 빈칸 = 모름"
 },
 {
 "table": "ces_individual",
@@ -463,7 +463,7 @@
 "table": "ces_individual",
 "name": "d_race_src",
 "label": "민주 후보 인종의 근거",
-"values": "cawp = CAWP, list = 소수 인종 의원 명단, member = 의원이었고 명단에 없음(백인으로 봄), none = 모름"
+"values": "cawp = CAWP, file = 출판 코드 모음, research = 웹 조사, list = 소수 인종 의원 명단, member = 의원이었고 명단에 없음(백인으로 봄), none = 모름"
 },
 {
 "table": "ces_individual",
@@ -577,13 +577,13 @@
 "table": "ces_individual",
 "name": "m_race",
 "label": "남성 후보 인종",
-"values": "의회에 있었던 남성: 위키백과 소수 인종 의원 명단(흑인·히스패닉·아시아계·원주민·중동계)의 코드, 명단에 없으면 W(백인으로 봄, 추정). 빈칸 = 의회에 없었음(모름)"
+"values": "d_race 또는 r_race 가운데 남성 쪽(여성 대 남성 선거만; 빈칸 = 모름)"
 },
 {
 "table": "ces_individual",
 "name": "m_race_src",
 "label": "남성 후보 인종의 근거",
-"values": "list = 소수 인종 의원 명단, member = 의원이었고 명단에 없음(백인으로 봄), none = 의회에 없었음"
+"values": "file, research, list, member, none(d_race_src와 같은 코드)"
 },
 {
 "table": "ces_individual",
@@ -601,7 +601,7 @@
 "table": "ces_individual",
 "name": "m_race_unk",
 "label": "남성 후보 인종 모름",
-"values": "1 = 의회에 없었던 남성 후보(대개 약한 도전자라 후보 경쟁력도 함께 담김)"
+"values": "1 = 어느 자료에서도 인종을 찾지 못한 남성 후보(대개 약한 도전자라 후보 경쟁력도 함께 담김)"
 },
 {
 "table": "ces_individual",

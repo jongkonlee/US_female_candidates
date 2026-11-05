@@ -21,10 +21,13 @@ women_prior_since_1990_excl > 0):
   estimated as a linear probability model (weighted least squares) and a logit (weighted pseudo-likelihood), with the
   survey weight (weight_post, else weight) and standard errors clustered by race, small-sample factors as in Stata
   (regress: G/(G-1)*(N-1)/(N-K); logit: G/(G-1)); p values from t(G-1) for the linear model, normal for the logit.
-Candidate race: the woman's from CAWP (race_eth); the man's from Wikipedia's lists of minority members of Congress
-(data/static/member_race.csv, pipeline/fetch_member_race.py) when he served in Congress at any time (matched within the
-state by FEC number, Wikipedia page or name), white when he served but is on none of the lists (an inference), and
-unknown when he never served (m_race_unk = 1, and then same_race_m = 0 and m_nonwhite = 0).
+Candidate race, in this order: (1) a woman's CAWP code (race_eth); (2) data/static/nominee_race.csv: published codes
+from a file of candidate race codes the user supplied (src 'file'; each row names its original source, e.g. Hassell &
+Visalvanich, Grumbach & Sahn, Fraga & Rendleman / FiveThirtyEight, Daily Kos Elections, CAWP, U.S. House Historian) and
+web research with a cited source (src 'research'); (3) Wikipedia's lists of minority members of Congress
+(data/static/member_race.csv, pipeline/fetch_member_race.py) for anyone who served in Congress (matched within the state
+by FEC number, Wikipedia page or name); (4) white when he or she served but is on none of the lists (an inference);
+(5) unknown (then the match and non-white variables are 0 and the *_race_unk flag is 1).
 Adjusted predictions: the weighted mean prediction with every respondent set to female/male and prior yes/no (other
 variables as observed), their differences and the difference in differences, standard errors by the delta method.
 
@@ -229,8 +232,9 @@ def races():
         h = h.merge(x.drop_duplicates(["race_id", f"{p}_nominee"]), on=["race_id", f"{p}_nominee"], how="left")
     h = h.drop_duplicates("race_id")
     idx, mrace = member_index()
+    nrace = nominee_race()
     for p in ("d", "r"):
-        found = [cand_race(row, p, idx, mrace) for row in h.itertuples(index=False)]
+        found = [cand_race(row, p, idx, mrace, nrace) for row in h.itertuples(index=False)]
         h[f"{p}_bioguide"] = [f[0] for f in found]
         h[f"{p}_race"] = [f[1] for f in found]
         h[f"{p}_race_src"] = [f[2] for f in found]
@@ -272,9 +276,22 @@ def member_index():
     return idx, mrace
 
 
-def cand_race(r, p, idx, mrace):
-    """(bioguide, race codes, source) of the party's nominee: cawp = CAWP's code (women), list = the minority lists,
-    member = served in Congress but on none of the lists (white, an inference), none = unknown"""
+def nominee_race():
+    """(race_id, party) -> (codes, source tag, name) from data/static/nominee_race.csv"""
+    out = {}
+    p = os.path.join(ROOT, "data", "static", "nominee_race.csv")
+    if os.path.exists(p):
+        with open(p, encoding="utf-8") as f:
+            for r in csv.DictReader(f):
+                if r["race"]:
+                    out[(r["race_id"], r["party"])] = (r["race"], r["src"], r["name"])
+    return out
+
+
+def cand_race(r, p, idx, mrace, nrace):
+    """(bioguide, race codes, source) of the party's nominee: cawp = CAWP's code (women), file = published codes from
+    the user's file, research = web research with a source, list = the minority lists, member = served in Congress but
+    on none of the lists (white, an inference), none = unknown"""
     name = getattr(r, f"{p}_nominee")
     name = name if isinstance(name, str) else ""
     gender, cawp = getattr(r, f"{p}_gen"), getattr(r, f"{p}_cawp")
@@ -293,6 +310,9 @@ def cand_race(r, p, idx, mrace):
             break
     if gender == "F" and isinstance(cawp, str) and cawp and cawp != "unavailable":
         return b, cawp, "cawp"
+    f = nrace.get((r.race_id, p.upper()))
+    if f and (N.same_person(f[2], name) or ({t for t in N.tokens(f[2]) if len(t) > 1} & toks)):
+        return b, f[0], f[1]
     if b:
         return (b, mrace[b], "list") if b in mrace else (b, "W", "member")
     return "", None, "none"
@@ -464,7 +484,7 @@ IND_LABELS = dict(
     pid="정당 일체감(D/R 쪽, 기우는 무당파 포함; I = 무당파·모름)",
     d_female="민주 후보가 여성(1)", r_female="공화 후보가 여성(1)",
     d_race="민주 후보 인종(빈칸 = 모름)", r_race="공화 후보 인종(빈칸 = 모름)",
-    d_race_src="민주 후보 인종 근거: cawp, list 소수 인종 의원 명단, member 의원(백인으로 봄), none", r_race_src="공화 후보 인종 근거(같은 코드)",
+    d_race_src="민주 후보 인종 근거: cawp, file 출판 코드 모음, research 웹 조사, list 의원 명단, member 의원(백인으로 봄), none", r_race_src="공화 후보 인종 근거(같은 코드)",
     same_race_d="민주 후보와 같은 인종(1, 모르면 0)", same_race_r="공화 후보와 같은 인종(1, 모르면 0)",
     d_race_unk="민주 후보 인종 모름(1)", r_race_unk="공화 후보 인종 모름(1)", d_nonwhite="민주 후보가 백인 아님(1, 모르면 0)", r_nonwhite="공화 후보가 백인 아님(1, 모르면 0)",
     d_inc="민주 후보가 현직(1)", r_inc="공화 후보가 현직(1)",
@@ -472,7 +492,7 @@ IND_LABELS = dict(
     wparty="여성 후보의 정당(D/R, 여성 대 남성 선거만)", vote_woman="여성 후보를 찍음(1) / 남성 후보(0), 여성 대 남성 선거만",
     copart="여성 후보와 같은 정당 지지(1, 여성 대 남성 선거만)", outpart="여성 후보와 반대 정당 지지(1, 여성 대 남성 선거만)",
     w_race="여성 후보 인종(여성 대 남성 선거만)", m_race="남성 후보 인종(여성 대 남성 선거만, 빈칸 = 모름)",
-    m_race_src="남성 후보 인종 근거(list, member, none; 여성 대 남성 선거만)",
+    m_race_src="남성 후보 인종 근거(file, research, list, member, none; 여성 대 남성 선거만)",
     same_race_w="여성 후보와 같은 인종(1, 여성 대 남성 선거만)", same_race_m="남성 후보와 같은 인종(1, 모르면 0, 여성 대 남성 선거만)",
     m_race_unk="남성 후보 인종 모름(1, 여성 대 남성 선거만)", w_nonwhite="여성 후보가 백인 아님(1, 여성 대 남성 선거만)",
     m_nonwhite="남성 후보가 백인 아님(1, 모르면 0, 여성 대 남성 선거만)", w_inc="여성 후보가 현직(1, 여성 대 남성 선거만)", m_inc="남성 후보가 현직(1, 여성 대 남성 선거만)",
