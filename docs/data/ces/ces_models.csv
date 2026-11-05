@@ -1,300 +1,300 @@
 ﻿model,woman_party,prior_var,estimator,term,label,coef,se,stat,p,ci_lo,ci_hi,n,n_races,fit
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,female,여성 유권자,0.00343656,0.00408821,0.840604,0.400771,-0.00458592,0.011459,89890,997,0.720669
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,prior,기존 여성 있음,0.00486535,0.00601944,0.808273,0.419126,-0.00694689,0.0166776,89890,997,0.720669
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,female_x_prior,여성 유권자 × 기존 여성 있음,0.00991827,0.00576457,1.72056,0.0856418,-0.00139382,0.0212304,89890,997,0.720669
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,copart,여성 후보와 같은 정당 지지(기우는 무당파 포함),0.415894,0.00933348,44.5594,2.25222e-239,0.397579,0.43421,89890,997,0.720669
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,outpart,여성 후보와 반대 정당 지지,-0.283769,0.00903917,-31.3933,6.02412e-151,-0.301507,-0.266031,89890,997,0.720669
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,same_race_w,여성 후보와 같은 인종,0.00756915,0.00516918,1.46428,0.143432,-0.00257459,0.0177129,89890,997,0.720669
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,same_race_m,남성 후보와 같은 인종,-0.00438084,0.00667983,-0.655832,0.512084,-0.017489,0.00872731,89890,997,0.720669
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,m_race_unk,남성 후보 인종 모름,0.00974233,0.00840995,1.15843,0.246966,-0.00676092,0.0262456,89890,997,0.720669
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,w_nonwhite,여성 후보가 백인 아님,0.00946135,0.00567651,1.66676,0.0958773,-0.00167793,0.0206006,89890,997,0.720669
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,m_nonwhite,남성 후보가 백인 아님,-0.00215962,0.00677998,-0.318528,0.750151,-0.0154643,0.0111451,89890,997,0.720669
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,r_black,응답자 흑인(기준: 백인),0.0937593,0.00832843,11.2577,9.28481e-28,0.077416,0.110103,89890,997,0.720669
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,r_hisp,응답자 히스패닉,0.032931,0.00827367,3.98021,7.38505e-05,0.0166952,0.0491668,89890,997,0.720669
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,r_asian,응답자 아시아계,0.0311532,0.0106253,2.93198,0.00344509,0.0103026,0.0520037,89890,997,0.720669
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,r_other,응답자 그 밖 인종,0.000879578,0.00935509,0.0940214,0.925111,-0.0174784,0.0192375,89890,997,0.720669
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,college,4년제 대졸 이상,0.0100104,0.0027734,3.60945,0.000322127,0.00456805,0.0154528,89890,997,0.720669
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,age10,나이(10세),-9.76625e-05,0.000979195,-0.0997375,0.920573,-0.00201918,0.00182386,89890,997,0.720669
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,lib,진보(기준: 중도),0.0962584,0.00472363,20.3781,1.97364e-77,0.086989,0.105528,89890,997,0.720669
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,con,보수,-0.138291,0.00537933,-25.7079,3.35411e-112,-0.148848,-0.127735,89890,997,0.720669
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,ideo_ns,이념 모름,-0.0253857,0.0139381,-1.82132,0.0688581,-0.052737,0.00196567,89890,997,0.720669
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,pvi,당파 지수(+민주),0.000558467,0.000238018,2.34632,0.0191552,9.13917e-05,0.00102554,89890,997,0.720669
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,rural,농촌 인구 비율(%),-4.92432e-05,0.000136067,-0.361904,0.7175,-0.000316254,0.000217768,89890,997,0.720669
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,black_nh,선거구 흑인 비율(%),-0.000653479,0.000216038,-3.02483,0.00255156,-0.00107742,-0.000229536,89890,997,0.720669
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,hisp_d,선거구 히스패닉 비율(%),-0.00016284,0.000195546,-0.832744,0.405189,-0.000546568,0.000220889,89890,997,0.720669
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,asian_nh,선거구 아시아계 비율(%),-0.000239978,0.000401146,-0.598231,0.549822,-0.00102717,0.00054721,89890,997,0.720669
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,ba_plus,선거구 대졸 비율(%),0.000269321,0.000344362,0.782089,0.434348,-0.000406436,0.000945079,89890,997,0.720669
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,inc10k,선거구 가구 소득 중앙값(만 달러),-0.00285019,0.00177576,-1.60506,0.108799,-0.00633485,0.000634466,89890,997,0.720669
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,w_inc,여성 후보가 현직,0.0203683,0.00684963,2.97363,0.00301385,0.00692693,0.0338096,89890,997,0.720669
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,m_inc,남성 후보가 현직,-0.0260891,0.0048184,-5.41447,7.7048e-08,-0.0355445,-0.0166337,89890,997,0.720669
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,y2010,2010년(기준: 2008년),-0.0126969,0.0101152,-1.25522,0.209692,-0.0325464,0.00715272,89890,997,0.720669
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,y2012,2012년(기준: 2008년),0.00792355,0.0114598,0.691423,0.489461,-0.0145645,0.0304116,89890,997,0.720669
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,y2014,2014년(기준: 2008년),-0.0124777,0.0121568,-1.02639,0.304957,-0.0363336,0.0113783,89890,997,0.720669
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,y2016,2016년(기준: 2008년),-0.00887091,0.0108745,-0.81575,0.414838,-0.0302105,0.0124687,89890,997,0.720669
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,y2018,2018년(기준: 2008년),0.029599,0.00987699,2.99676,0.00279626,0.0102169,0.0489811,89890,997,0.720669
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,y2020,2020년(기준: 2008년),0.0161558,0.0100499,1.60756,0.108248,-0.00356558,0.0358773,89890,997,0.720669
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,y2022,2022년(기준: 2008년),-0.00284329,0.0112105,-0.253629,0.799835,-0.0248421,0.0191555,89890,997,0.720669
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,y2024,2024년(기준: 2008년),0.005712,0.0109447,0.521898,0.601857,-0.0157653,0.0271893,89890,997,0.720669
-D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,const,상수,0.449823,0.0196919,22.8431,3.31839e-93,0.411181,0.488466,89890,997,0.720669
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,female,여성 유권자,0.0323171,0.0608992,0.530666,0.59565,-0.0870431,0.151677,89890,997,0.657384
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,prior,기존 여성 있음,0.0378376,0.0884612,0.427731,0.668847,-0.135543,0.211218,89890,997,0.657384
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,female_x_prior,여성 유권자 × 기존 여성 있음,0.191157,0.0860833,2.2206,0.0263779,0.0224366,0.359877,89890,997,0.657384
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,copart,여성 후보와 같은 정당 지지(기우는 무당파 포함),2.3038,0.0574763,40.0826,0,2.19115,2.41645,89890,997,0.657384
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,outpart,여성 후보와 반대 정당 지지,-1.95074,0.0587238,-33.219,5.73218e-242,-2.06584,-1.83565,89890,997,0.657384
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,same_race_w,여성 후보와 같은 인종,0.095433,0.0784602,1.21632,0.223862,-0.0583462,0.249212,89890,997,0.657384
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,same_race_m,남성 후보와 같은 인종,-0.0490949,0.0988155,-0.496834,0.619306,-0.24277,0.14458,89890,997,0.657384
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,m_race_unk,남성 후보 인종 모름,0.14733,0.126944,1.16059,0.245807,-0.101475,0.396136,89890,997,0.657384
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,w_nonwhite,여성 후보가 백인 아님,0.14167,0.0823512,1.72031,0.0853762,-0.0197358,0.303075,89890,997,0.657384
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,m_nonwhite,남성 후보가 백인 아님,-0.0196798,0.100251,-0.196305,0.844371,-0.216168,0.176808,89890,997,0.657384
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,r_black,응답자 흑인(기준: 백인),1.21341,0.137224,8.84254,9.35688e-19,0.944453,1.48236,89890,997,0.657384
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,r_hisp,응답자 히스패닉,0.39416,0.114928,3.42962,0.000604423,0.168905,0.619414,89890,997,0.657384
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,r_asian,응답자 아시아계,0.356717,0.152134,2.34476,0.0190394,0.0585403,0.654894,89890,997,0.657384
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,r_other,응답자 그 밖 인종,0.0553679,0.124781,0.443721,0.657245,-0.189198,0.299934,89890,997,0.657384
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,college,4년제 대졸 이상,0.13041,0.0407595,3.19949,0.00137671,0.0505225,0.210297,89890,997,0.657384
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,age10,나이(10세),0.0064821,0.0147819,0.438515,0.661013,-0.0224899,0.0354541,89890,997,0.657384
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,lib,진보(기준: 중도),1.25379,0.0613823,20.426,9.82206e-93,1.13349,1.3741,89890,997,0.657384
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,con,보수,-1.43131,0.0507055,-28.2278,2.66484e-175,-1.53069,-1.33193,89890,997,0.657384
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,ideo_ns,이념 모름,-0.189829,0.109561,-1.73263,0.0831607,-0.404564,0.0249064,89890,997,0.657384
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,pvi,당파 지수(+민주),0.00906438,0.00354495,2.55699,0.0105583,0.00211642,0.0160123,89890,997,0.657384
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,rural,농촌 인구 비율(%),-0.000579493,0.00197472,-0.293456,0.769174,-0.00444987,0.00329089,89890,997,0.657384
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,black_nh,선거구 흑인 비율(%),-0.0099804,0.0033055,-3.01933,0.00253335,-0.0164591,-0.00350173,89890,997,0.657384
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,hisp_d,선거구 히스패닉 비율(%),-0.00335176,0.00282392,-1.18692,0.23526,-0.00888655,0.00218303,89890,997,0.657384
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,asian_nh,선거구 아시아계 비율(%),-0.00606415,0.0055803,-1.08671,0.277167,-0.0170013,0.00487304,89890,997,0.657384
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,ba_plus,선거구 대졸 비율(%),0.0046624,0.0051125,0.911961,0.361789,-0.00535791,0.0146827,89890,997,0.657384
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,inc10k,선거구 가구 소득 중앙값(만 달러),-0.0380107,0.0258931,-1.46799,0.142108,-0.0887602,0.0127388,89890,997,0.657384
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,w_inc,여성 후보가 현직,0.287865,0.097085,2.96509,0.00302598,0.0975823,0.478148,89890,997,0.657384
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,m_inc,남성 후보가 현직,-0.362418,0.0703208,-5.15377,2.55296e-07,-0.500244,-0.224591,89890,997,0.657384
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,y2010,2010년(기준: 2008년),-0.191664,0.148322,-1.29222,0.196282,-0.48237,0.0990418,89890,997,0.657384
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,y2012,2012년(기준: 2008년),0.101111,0.162767,0.6212,0.534468,-0.217906,0.420128,89890,997,0.657384
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,y2014,2014년(기준: 2008년),-0.145669,0.17373,-0.838481,0.40176,-0.486173,0.194835,89890,997,0.657384
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,y2016,2016년(기준: 2008년),-0.0918309,0.154684,-0.593669,0.552734,-0.395006,0.211344,89890,997,0.657384
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,y2018,2018년(기준: 2008년),0.446782,0.144508,3.09174,0.00198989,0.163551,0.730013,89890,997,0.657384
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,y2020,2020년(기준: 2008년),0.201138,0.147022,1.36808,0.171286,-0.0870193,0.489296,89890,997,0.657384
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,y2022,2022년(기준: 2008년),-0.0736163,0.164175,-0.448402,0.653863,-0.395393,0.24816,89890,997,0.657384
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,y2024,2024년(기준: 2008년),0.0444187,0.161332,0.275325,0.783066,-0.271786,0.360623,89890,997,0.657384
-D_women_members_since_1990_logit,D,women_members_since_1990,logit,const,상수,-0.167292,0.264571,-0.632315,0.527181,-0.685842,0.351257,89890,997,0.657384
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,female,여성 유권자,0.0100822,0.00329797,3.05711,0.00229447,0.00361048,0.016554,89890,997,0.720637
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,prior,기존 여성 있음,0.00990085,0.005494,1.80212,0.0718286,-0.000880288,0.020682,89890,997,0.720637
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,female_x_prior,여성 유권자 × 기존 여성 있음,-0.00864611,0.00693471,-1.24679,0.212769,-0.0222544,0.00496221,89890,997,0.720637
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,copart,여성 후보와 같은 정당 지지(기우는 무당파 포함),0.41593,0.00932845,44.5873,1.48602e-239,0.397625,0.434236,89890,997,0.720637
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,outpart,여성 후보와 반대 정당 지지,-0.283751,0.009033,-31.4127,4.42957e-151,-0.301477,-0.266025,89890,997,0.720637
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,same_race_w,여성 후보와 같은 인종,0.00764838,0.00517903,1.4768,0.140046,-0.00251468,0.0178114,89890,997,0.720637
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,same_race_m,남성 후보와 같은 인종,-0.00414578,0.0066956,-0.61918,0.535939,-0.0172849,0.00899332,89890,997,0.720637
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,m_race_unk,남성 후보 인종 모름,0.00990263,0.00844574,1.1725,0.241277,-0.00667085,0.0264761,89890,997,0.720637
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,w_nonwhite,여성 후보가 백인 아님,0.00947913,0.00567026,1.67173,0.0948918,-0.00164788,0.0206062,89890,997,0.720637
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,m_nonwhite,남성 후보가 백인 아님,-0.00155393,0.00678952,-0.228871,0.819016,-0.0148773,0.0117695,89890,997,0.720637
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,r_black,응답자 흑인(기준: 백인),0.0939465,0.00833224,11.2751,7.79855e-28,0.0775958,0.110297,89890,997,0.720637
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,r_hisp,응답자 히스패닉,0.0331802,0.00828219,4.00621,6.6294e-05,0.0169276,0.0494327,89890,997,0.720637
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,r_asian,응답자 아시아계,0.0311958,0.0106374,2.93264,0.00343782,0.0103214,0.0520701,89890,997,0.720637
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,r_other,응답자 그 밖 인종,0.00121031,0.00934353,0.129535,0.89696,-0.0171249,0.0195456,89890,997,0.720637
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,college,4년제 대졸 이상,0.0100853,0.00277752,3.63106,0.000296636,0.00463488,0.0155358,89890,997,0.720637
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,age10,나이(10세),-5.63164e-05,0.000980168,-0.0574558,0.954194,-0.00197975,0.00186712,89890,997,0.720637
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,lib,진보(기준: 중도),0.0963587,0.00472611,20.3886,1.69629e-77,0.0870844,0.105633,89890,997,0.720637
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,con,보수,-0.138218,0.00537647,-25.7079,3.35274e-112,-0.148768,-0.127667,89890,997,0.720637
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,ideo_ns,이념 모름,-0.0251571,0.0139228,-1.80691,0.0710787,-0.0524785,0.0021642,89890,997,0.720637
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,pvi,당파 지수(+민주),0.000577534,0.0002382,2.42458,0.0155033,0.000110103,0.00104497,89890,997,0.720637
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,rural,농촌 인구 비율(%),-6.31552e-05,0.000135622,-0.465672,0.641552,-0.000329292,0.000202982,89890,997,0.720637
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,black_nh,선거구 흑인 비율(%),-0.000661946,0.000215121,-3.07709,0.00214747,-0.00108409,-0.000239804,89890,997,0.720637
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,hisp_d,선거구 히스패닉 비율(%),-0.000190144,0.000193454,-0.982892,0.325899,-0.000569767,0.000189479,89890,997,0.720637
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,asian_nh,선거구 아시아계 비율(%),-0.000245778,0.000401269,-0.612502,0.540345,-0.00103321,0.000541652,89890,997,0.720637
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,ba_plus,선거구 대졸 비율(%),0.000232365,0.000342895,0.677659,0.498146,-0.000440513,0.000905244,89890,997,0.720637
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,inc10k,선거구 가구 소득 중앙값(만 달러),-0.00273671,0.00179132,-1.52776,0.126889,-0.0062519,0.000778484,89890,997,0.720637
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,w_inc,여성 후보가 현직,0.0276117,0.00587916,4.69654,3.0168e-06,0.0160747,0.0391486,89890,997,0.720637
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,m_inc,남성 후보가 현직,-0.0263716,0.00483234,-5.45732,6.10105e-08,-0.0358543,-0.0168889,89890,997,0.720637
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,y2010,2010년(기준: 2008년),-0.012672,0.01019,-1.24358,0.213948,-0.0326682,0.00732424,89890,997,0.720637
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,y2012,2012년(기준: 2008년),0.00800145,0.0115522,0.692637,0.488699,-0.0146679,0.0306708,89890,997,0.720637
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,y2014,2014년(기준: 2008년),-0.012876,0.0122117,-1.0544,0.291954,-0.0368395,0.0110875,89890,997,0.720637
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,y2016,2016년(기준: 2008년),-0.00928865,0.0109219,-0.850458,0.395275,-0.0307213,0.012144,89890,997,0.720637
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,y2018,2018년(기준: 2008년),0.0294755,0.00994308,2.96443,0.00310471,0.00996373,0.0489873,89890,997,0.720637
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,y2020,2020년(기준: 2008년),0.0157029,0.0101038,1.55416,0.120465,-0.0041243,0.0355302,89890,997,0.720637
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,y2022,2022년(기준: 2008년),-0.00320494,0.0112615,-0.284593,0.776015,-0.0253039,0.018894,89890,997,0.720637
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,y2024,2024년(기준: 2008년),0.00534043,0.0110112,0.484999,0.627784,-0.0162674,0.0269483,89890,997,0.720637
-D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,const,상수,0.448567,0.0195644,22.9277,9.30843e-94,0.410175,0.486959,89890,997,0.720637
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,female,여성 유권자,0.147896,0.0494828,2.98883,0.00280048,0.0509112,0.24488,89890,997,0.65725
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,prior,기존 여성 있음,0.12305,0.0776007,1.58568,0.112811,-0.0290446,0.275145,89890,997,0.65725
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,female_x_prior,여성 유권자 × 기존 여성 있음,-0.111957,0.101576,-1.10219,0.270378,-0.311043,0.0871291,89890,997,0.65725
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,copart,여성 후보와 같은 정당 지지(기우는 무당파 포함),2.3021,0.057176,40.2634,0,2.19004,2.41416,89890,997,0.65725
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,outpart,여성 후보와 반대 정당 지지,-1.94945,0.058628,-33.2512,1.9615e-242,-2.06436,-1.83454,89890,997,0.65725
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,same_race_w,여성 후보와 같은 인종,0.0968077,0.0785905,1.2318,0.218024,-0.0572269,0.250842,89890,997,0.65725
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,same_race_m,남성 후보와 같은 인종,-0.0456367,0.098776,-0.462022,0.644065,-0.239234,0.147961,89890,997,0.65725
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,m_race_unk,남성 후보 인종 모름,0.148578,0.127179,1.16826,0.242703,-0.100689,0.397846,89890,997,0.65725
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,w_nonwhite,여성 후보가 백인 아님,0.142389,0.0822925,1.73027,0.0835812,-0.0189017,0.303679,89890,997,0.65725
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,m_nonwhite,남성 후보가 백인 아님,-0.0104067,0.0998598,-0.104213,0.917001,-0.206128,0.185315,89890,997,0.65725
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,r_black,응답자 흑인(기준: 백인),1.21419,0.137203,8.84957,8.78538e-19,0.945276,1.4831,89890,997,0.65725
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,r_hisp,응답자 히스패닉,0.396296,0.114815,3.45162,0.000557234,0.171264,0.621329,89890,997,0.65725
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,r_asian,응답자 아시아계,0.357998,0.152102,2.35368,0.0185887,0.0598846,0.656112,89890,997,0.65725
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,r_other,응답자 그 밖 인종,0.0614857,0.124236,0.494909,0.620664,-0.182013,0.304985,89890,997,0.65725
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,college,4년제 대졸 이상,0.130437,0.0407921,3.19761,0.00138572,0.0504861,0.210388,89890,997,0.65725
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,age10,나이(10세),0.00746062,0.0147899,0.50444,0.613952,-0.0215271,0.0364483,89890,997,0.65725
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,lib,진보(기준: 중도),1.25433,0.0613188,20.456,5.31677e-93,1.13415,1.37452,89890,997,0.65725
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,con,보수,-1.43234,0.0508134,-28.1882,8.1478e-175,-1.53193,-1.33275,89890,997,0.65725
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,ideo_ns,이념 모름,-0.184187,0.109069,-1.68871,0.0912747,-0.397959,0.0295853,89890,997,0.65725
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,pvi,당파 지수(+민주),0.00933335,0.00354361,2.63386,0.00844213,0.00238801,0.0162787,89890,997,0.65725
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,rural,농촌 인구 비율(%),-0.000807183,0.00196895,-0.409957,0.681838,-0.00466625,0.00305188,89890,997,0.65725
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,black_nh,선거구 흑인 비율(%),-0.0101286,0.00330279,-3.06667,0.00216454,-0.0166019,-0.00365523,89890,997,0.65725
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,hisp_d,선거구 히스패닉 비율(%),-0.00372125,0.00279756,-1.33017,0.183461,-0.00920437,0.00176188,89890,997,0.65725
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,asian_nh,선거구 아시아계 비율(%),-0.00623396,0.00560127,-1.11295,0.265728,-0.0172123,0.00474433,89890,997,0.65725
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,ba_plus,선거구 대졸 비율(%),0.0040527,0.00508372,0.797193,0.425339,-0.0059112,0.0140166,89890,997,0.65725
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,inc10k,선거구 가구 소득 중앙값(만 달러),-0.036184,0.0260365,-1.38974,0.164608,-0.0872147,0.0148466,89890,997,0.65725
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,w_inc,여성 후보가 현직,0.382429,0.0831455,4.59951,4.23479e-06,0.219467,0.545391,89890,997,0.65725
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,m_inc,남성 후보가 현직,-0.367451,0.0707336,-5.19486,2.04879e-07,-0.506086,-0.228816,89890,997,0.65725
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,y2010,2010년(기준: 2008년),-0.191443,0.149772,-1.27822,0.20117,-0.484991,0.102106,89890,997,0.65725
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,y2012,2012년(기준: 2008년),0.101409,0.16477,0.615457,0.538253,-0.221534,0.424352,89890,997,0.65725
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,y2014,2014년(기준: 2008년),-0.152148,0.174944,-0.869692,0.384469,-0.495033,0.190737,89890,997,0.65725
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,y2016,2016년(기준: 2008년),-0.0991095,0.155652,-0.636739,0.524295,-0.404181,0.205962,89890,997,0.65725
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,y2018,2018년(기준: 2008년),0.445826,0.145729,3.05928,0.00221871,0.160202,0.73145,89890,997,0.65725
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,y2020,2020년(기준: 2008년),0.195244,0.148091,1.31841,0.187368,-0.0950088,0.485497,89890,997,0.65725
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,y2022,2022년(기준: 2008년),-0.0795956,0.165082,-0.482157,0.629694,-0.403151,0.24396,89890,997,0.65725
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,y2024,2024년(기준: 2008년),0.0402151,0.162339,0.247722,0.804349,-0.277964,0.358394,89890,997,0.65725
-D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,const,상수,-0.192434,0.26247,-0.733164,0.463458,-0.706866,0.321999,89890,997,0.65725
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,female,여성 유권자,-0.00141016,0.00883056,-0.159691,0.873157,-0.0187388,0.0159185,89890,997,0.72063
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,prior,기존 여성 있음,-0.0116793,0.00801037,-1.45802,0.145151,-0.0273984,0.00403987,89890,997,0.72063
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,female_x_prior,여성 유권자 × 기존 여성 있음,0.0109033,0.00937056,1.16357,0.244878,-0.00748503,0.0292916,89890,997,0.72063
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,copart,여성 후보와 같은 정당 지지(기우는 무당파 포함),0.41582,0.00933636,44.5377,3.11243e-239,0.397499,0.434141,89890,997,0.72063
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,outpart,여성 후보와 반대 정당 지지,-0.283845,0.00903302,-31.423,3.76553e-151,-0.301571,-0.266119,89890,997,0.72063
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,same_race_w,여성 후보와 같은 인종,0.00792159,0.00517223,1.53156,0.125948,-0.00222813,0.0180713,89890,997,0.72063
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,same_race_m,남성 후보와 같은 인종,-0.00423705,0.00670981,-0.631471,0.527878,-0.017404,0.00892994,89890,997,0.72063
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,m_race_unk,남성 후보 인종 모름,0.00940476,0.00841586,1.1175,0.264048,-0.00711008,0.0259196,89890,997,0.72063
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,w_nonwhite,여성 후보가 백인 아님,0.00938088,0.00567806,1.65213,0.0988239,-0.00176146,0.0205232,89890,997,0.72063
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,m_nonwhite,남성 후보가 백인 아님,-0.00126732,0.00684024,-0.185274,0.853051,-0.0146903,0.0121556,89890,997,0.72063
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,r_black,응답자 흑인(기준: 백인),0.0940743,0.0083493,11.2673,8.43073e-28,0.0776901,0.110459,89890,997,0.72063
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,r_hisp,응답자 히스패닉,0.0333563,0.00827277,4.03206,5.95106e-05,0.0171222,0.0495904,89890,997,0.72063
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,r_asian,응답자 아시아계,0.0315188,0.0106479,2.9601,0.00314827,0.0106239,0.0524136,89890,997,0.72063
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,r_other,응답자 그 밖 인종,0.0017623,0.00936195,0.188241,0.850726,-0.0166091,0.0201337,89890,997,0.72063
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,college,4년제 대졸 이상,0.00999628,0.00277603,3.60092,0.000332735,0.00454873,0.0154438,89890,997,0.72063
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,age10,나이(10세),-4.60885e-05,0.000979648,-0.047046,0.962486,-0.0019685,0.00187632,89890,997,0.72063
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,lib,진보(기준: 중도),0.096286,0.00472785,20.3657,2.35857e-77,0.0870083,0.105564,89890,997,0.72063
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,con,보수,-0.13827,0.00538113,-25.6953,4.0746e-112,-0.14883,-0.12771,89890,997,0.72063
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,ideo_ns,이념 모름,-0.0255346,0.0139271,-1.83345,0.0670339,-0.0528645,0.00179518,89890,997,0.72063
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,pvi,당파 지수(+민주),0.000593413,0.000240482,2.4676,0.0137694,0.000121504,0.00106532,89890,997,0.72063
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,rural,농촌 인구 비율(%),-8.92581e-05,0.000135992,-0.656349,0.511751,-0.000356121,0.000177605,89890,997,0.72063
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,black_nh,선거구 흑인 비율(%),-0.000701041,0.000216979,-3.23091,0.00127438,-0.00112683,-0.000275252,89890,997,0.72063
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,hisp_d,선거구 히스패닉 비율(%),-0.000212166,0.000196505,-1.0797,0.280538,-0.000597777,0.000173445,89890,997,0.72063
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,asian_nh,선거구 아시아계 비율(%),-0.000246947,0.000397887,-0.620645,0.534975,-0.00102774,0.000533846,89890,997,0.72063
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,ba_plus,선거구 대졸 비율(%),0.000199459,0.000347242,0.57441,0.56582,-0.000481951,0.00088087,89890,997,0.72063
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,inc10k,선거구 가구 소득 중앙값(만 달러),-0.00269059,0.00179193,-1.5015,0.133543,-0.00620698,0.000825808,89890,997,0.72063
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,w_inc,여성 후보가 현직,0.0285677,0.00597811,4.77871,2.02948e-06,0.0168365,0.0402988,89890,997,0.72063
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,m_inc,남성 후보가 현직,-0.0263636,0.00487565,-5.40721,8.01467e-08,-0.0359313,-0.0167959,89890,997,0.72063
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,y2010,2010년(기준: 2008년),-0.0123391,0.0101812,-1.21195,0.225818,-0.0323181,0.00763991,89890,997,0.72063
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,y2012,2012년(기준: 2008년),0.00783134,0.0115496,0.678064,0.497889,-0.0148329,0.0304956,89890,997,0.72063
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,y2014,2014년(기준: 2008년),-0.0127979,0.0122017,-1.04886,0.294497,-0.0367419,0.0111461,89890,997,0.72063
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,y2016,2016년(기준: 2008년),-0.00874172,0.0108572,-0.805156,0.420922,-0.0300473,0.0125639,89890,997,0.72063
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,y2018,2018년(기준: 2008년),0.0300856,0.0099127,3.03505,0.00246739,0.0106334,0.0495377,89890,997,0.72063
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,y2020,2020년(기준: 2008년),0.0170055,0.0101011,1.68353,0.0925857,-0.00281636,0.0368273,89890,997,0.72063
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,y2022,2022년(기준: 2008년),-0.00232118,0.0112221,-0.20684,0.836177,-0.0243429,0.0197006,89890,997,0.72063
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,y2024,2024년(기준: 2008년),0.00680297,0.0110067,0.618077,0.536666,-0.0147959,0.0284019,89890,997,0.72063
-D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,const,상수,0.462006,0.0214576,21.5311,9.94e-85,0.419899,0.504113,89890,997,0.72063
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,female,여성 유권자,-0.0262407,0.135698,-0.193376,0.846665,-0.292204,0.239722,89890,997,0.657276
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,prior,기존 여성 있음,-0.196818,0.122139,-1.61142,0.107088,-0.436207,0.042571,89890,997,0.657276
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,female_x_prior,여성 유권자 × 기존 여성 있음,0.17007,0.143344,1.18644,0.235447,-0.11088,0.45102,89890,997,0.657276
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,copart,여성 후보와 같은 정당 지지(기우는 무당파 포함),2.30064,0.0572425,40.1912,0,2.18845,2.41284,89890,997,0.657276
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,outpart,여성 후보와 반대 정당 지지,-1.95095,0.058764,-33.1998,1.08319e-241,-2.06613,-1.83578,89890,997,0.657276
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,same_race_w,여성 후보와 같은 인종,0.101701,0.0786015,1.29388,0.195708,-0.0523555,0.255757,89890,997,0.657276
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,same_race_m,남성 후보와 같은 인종,-0.0448613,0.0992008,-0.452227,0.651106,-0.239291,0.149569,89890,997,0.657276
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,m_race_unk,남성 후보 인종 모름,0.141786,0.126872,1.11755,0.263758,-0.106878,0.39045,89890,997,0.657276
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,w_nonwhite,여성 후보가 백인 아님,0.142153,0.0825832,1.72133,0.0851917,-0.0197075,0.304013,89890,997,0.657276
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,m_nonwhite,남성 후보가 백인 아님,-0.00659041,0.101004,-0.065249,0.947976,-0.204555,0.191374,89890,997,0.657276
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,r_black,응답자 흑인(기준: 백인),1.21693,0.137705,8.83724,9.81106e-19,0.947036,1.48683,89890,997,0.657276
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,r_hisp,응답자 히스패닉,0.402378,0.11477,3.50596,0.000454965,0.177434,0.627323,89890,997,0.657276
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,r_asian,응답자 아시아계,0.362095,0.152457,2.37506,0.017546,0.0632848,0.660905,89890,997,0.657276
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,r_other,응답자 그 밖 인종,0.0720626,0.125043,0.576302,0.564411,-0.173017,0.317143,89890,997,0.657276
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,college,4년제 대졸 이상,0.130645,0.0408059,3.20163,0.00136654,0.0506672,0.210624,89890,997,0.657276
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,age10,나이(10세),0.0079665,0.0147252,0.541011,0.5885,-0.0208944,0.0368274,89890,997,0.657276
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,lib,진보(기준: 중도),1.25471,0.0613456,20.4532,5.62431e-93,1.13448,1.37495,89890,997,0.657276
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,con,보수,-1.43297,0.0507567,-28.2322,2.35275e-175,-1.53245,-1.33349,89890,997,0.657276
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,ideo_ns,이념 모름,-0.189305,0.109153,-1.73431,0.0828636,-0.40324,0.0246311,89890,997,0.657276
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,pvi,당파 지수(+민주),0.00972838,0.00356196,2.73119,0.00631059,0.00274708,0.0167097,89890,997,0.657276
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,rural,농촌 인구 비율(%),-0.0011878,0.00198222,-0.599228,0.549021,-0.00507288,0.00269728,89890,997,0.657276
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,black_nh,선거구 흑인 비율(%),-0.01073,0.00332739,-3.22474,0.00126086,-0.0172516,-0.00420842,89890,997,0.657276
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,hisp_d,선거구 히스패닉 비율(%),-0.00404528,0.00283615,-1.42633,0.153773,-0.00960403,0.00151347,89890,997,0.657276
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,asian_nh,선거구 아시아계 비율(%),-0.0063343,0.00550977,-1.14965,0.250288,-0.0171333,0.00446465,89890,997,0.657276
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,ba_plus,선거구 대졸 비율(%),0.00355867,0.00514107,0.692203,0.48881,-0.00651765,0.013635,89890,997,0.657276
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,inc10k,선거구 가구 소득 중앙값(만 달러),-0.0351231,0.0261101,-1.34519,0.178564,-0.086298,0.0160519,89890,997,0.657276
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,w_inc,여성 후보가 현직,0.4004,0.0843665,4.74597,2.07514e-06,0.235045,0.565756,89890,997,0.657276
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,m_inc,남성 후보가 현직,-0.365071,0.071324,-5.11848,3.08e-07,-0.504863,-0.225278,89890,997,0.657276
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,y2010,2010년(기준: 2008년),-0.183659,0.149476,-1.22869,0.219189,-0.476626,0.109308,89890,997,0.657276
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,y2012,2012년(기준: 2008년),0.100958,0.164502,0.61372,0.5394,-0.22146,0.423376,89890,997,0.657276
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,y2014,2014년(기준: 2008년),-0.151926,0.174083,-0.872721,0.382815,-0.493123,0.189271,89890,997,0.657276
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,y2016,2016년(기준: 2008년),-0.0880436,0.154429,-0.570125,0.568593,-0.390718,0.214631,89890,997,0.657276
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,y2018,2018년(기준: 2008년),0.45635,0.145305,3.14063,0.00168586,0.171557,0.741144,89890,997,0.657276
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,y2020,2020년(기준: 2008년),0.218928,0.148055,1.4787,0.139221,-0.0712537,0.50911,89890,997,0.657276
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,y2022,2022년(기준: 2008년),-0.0637796,0.164523,-0.387664,0.698265,-0.386239,0.258679,89890,997,0.657276
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,y2024,2024년(기준: 2008년),0.0648541,0.162299,0.399596,0.689454,-0.253247,0.382955,89890,997,0.657276
-D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,const,상수,0.0104823,0.292705,0.0358116,0.971433,-0.56321,0.584174,89890,997,0.657276
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,female,여성 유권자,0.0124843,0.00581081,2.14846,0.0319179,0.00108145,0.0238871,89890,997,0.720615
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,prior,기존 여성 있음,0.000507615,0.00593168,0.085577,0.93182,-0.0111324,0.0121476,89890,997,0.720615
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,female_x_prior,여성 유권자 × 기존 여성 있음,-0.00555129,0.00673146,-0.824677,0.409752,-0.0187608,0.00765819,89890,997,0.720615
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,copart,여성 후보와 같은 정당 지지(기우는 무당파 포함),0.415828,0.00933493,44.5454,2.77384e-239,0.39751,0.434146,89890,997,0.720615
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,outpart,여성 후보와 반대 정당 지지,-0.283853,0.00903958,-31.4012,5.31946e-151,-0.301592,-0.266114,89890,997,0.720615
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,same_race_w,여성 후보와 같은 인종,0.00784313,0.00518398,1.51296,0.130608,-0.00232965,0.0180159,89890,997,0.720615
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,same_race_m,남성 후보와 같은 인종,-0.00424619,0.006704,-0.633381,0.52663,-0.0174018,0.00890939,89890,997,0.720615
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,m_race_unk,남성 후보 인종 모름,0.00968883,0.0083964,1.15393,0.248807,-0.00678784,0.0261655,89890,997,0.720615
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,w_nonwhite,여성 후보가 백인 아님,0.00925471,0.0056661,1.63335,0.102712,-0.00186416,0.0203736,89890,997,0.720615
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,m_nonwhite,남성 후보가 백인 아님,-0.00121369,0.00683987,-0.177444,0.859196,-0.0146359,0.0122085,89890,997,0.720615
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,r_black,응답자 흑인(기준: 백인),0.0939756,0.00834207,11.2653,8.60845e-28,0.0776055,0.110346,89890,997,0.720615
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,r_hisp,응답자 히스패닉,0.033211,0.00827638,4.01275,6.45123e-05,0.0169699,0.0494521,89890,997,0.720615
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,r_asian,응답자 아시아계,0.03132,0.010646,2.94196,0.00333695,0.0104289,0.0522111,89890,997,0.720615
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,r_other,응답자 그 밖 인종,0.00160335,0.00936484,0.171209,0.864094,-0.0167737,0.0199804,89890,997,0.720615
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,college,4년제 대졸 이상,0.0100259,0.00277674,3.61066,0.000320639,0.00457694,0.0154748,89890,997,0.720615
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,age10,나이(10세),-4.52649e-05,0.000978435,-0.0462625,0.96311,-0.0019653,0.00187477,89890,997,0.720615
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,lib,진보(기준: 중도),0.0963162,0.00472701,20.3757,2.04188e-77,0.0870401,0.105592,89890,997,0.720615
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,con,보수,-0.138276,0.00538055,-25.6992,3.83927e-112,-0.148834,-0.127717,89890,997,0.720615
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,ideo_ns,이념 모름,-0.0255275,0.0139344,-1.83198,0.0672533,-0.0528716,0.00181665,89890,997,0.720615
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,pvi,당파 지수(+민주),0.000586134,0.000241544,2.42661,0.0154172,0.00011214,0.00106013,89890,997,0.720615
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,rural,농촌 인구 비율(%),-8.11104e-05,0.000136206,-0.595496,0.551647,-0.000348395,0.000186174,89890,997,0.720615
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,black_nh,선거구 흑인 비율(%),-0.000695363,0.000218064,-3.1888,0.0014732,-0.00112328,-0.000267446,89890,997,0.720615
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,hisp_d,선거구 히스패닉 비율(%),-0.000198253,0.00019526,-1.01533,0.310195,-0.000581422,0.000184915,89890,997,0.720615
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,asian_nh,선거구 아시아계 비율(%),-0.000239318,0.000401264,-0.596411,0.551036,-0.00102674,0.000548102,89890,997,0.720615
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,ba_plus,선거구 대졸 비율(%),0.000226631,0.000344466,0.65792,0.510741,-0.000449331,0.000902594,89890,997,0.720615
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,inc10k,선거구 가구 소득 중앙값(만 달러),-0.00274238,0.00179623,-1.52674,0.127142,-0.0062672,0.000782444,89890,997,0.720615
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,w_inc,여성 후보가 현직,0.0271731,0.00593099,4.58155,5.20018e-06,0.0155345,0.0388118,89890,997,0.720615
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,m_inc,남성 후보가 현직,-0.0266187,0.00487556,-5.45962,6.02478e-08,-0.0361863,-0.0170512,89890,997,0.720615
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,y2010,2010년(기준: 2008년),-0.0124835,0.0101649,-1.22811,0.219697,-0.0324305,0.00746347,89890,997,0.720615
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,y2012,2012년(기준: 2008년),0.00793477,0.0115312,0.688115,0.491541,-0.0146934,0.0305629,89890,997,0.720615
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,y2014,2014년(기준: 2008년),-0.0127605,0.0122248,-1.04382,0.296822,-0.0367499,0.0112289,89890,997,0.720615
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,y2016,2016년(기준: 2008년),-0.00918793,0.0108744,-0.844911,0.398363,-0.0305274,0.0121515,89890,997,0.720615
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,y2018,2018년(기준: 2008년),0.0300015,0.00988847,3.03399,0.00247604,0.0105969,0.0494061,89890,997,0.720615
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,y2020,2020년(기준: 2008년),0.0165796,0.0100674,1.64687,0.0999011,-0.00317609,0.0363353,89890,997,0.720615
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,y2022,2022년(기준: 2008년),-0.00259619,0.0112126,-0.231541,0.816942,-0.0245993,0.0194069,89890,997,0.720615
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,y2024,2024년(기준: 2008년),0.0062338,0.0109707,0.568223,0.570012,-0.0152945,0.0277621,89890,997,0.720615
-D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,const,상수,0.451127,0.0203873,22.1278,1.45548e-88,0.41112,0.491134,89890,997,0.720615
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,female,여성 유권자,0.197242,0.0902366,2.18583,0.0288279,0.0203816,0.374103,89890,997,0.657227
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,prior,기존 여성 있음,0.00291965,0.0897559,0.0325288,0.97405,-0.172999,0.178838,89890,997,0.657227
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,female_x_prior,여성 유권자 × 기존 여성 있음,-0.0969223,0.103375,-0.937583,0.348459,-0.299533,0.105688,89890,997,0.657227
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,copart,여성 후보와 같은 정당 지지(기우는 무당파 포함),2.3002,0.0574228,40.0573,0,2.18765,2.41274,89890,997,0.657227
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,outpart,여성 후보와 반대 정당 지지,-1.95063,0.0587865,-33.1816,1.98261e-241,-2.06585,-1.83541,89890,997,0.657227
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,same_race_w,여성 후보와 같은 인종,0.10017,0.0787312,1.27231,0.203263,-0.0541399,0.254481,89890,997,0.657227
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,same_race_m,남성 후보와 같은 인종,-0.0468059,0.0989935,-0.472818,0.636343,-0.24083,0.147218,89890,997,0.657227
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,m_race_unk,남성 후보 인종 모름,0.146888,0.12641,1.16199,0.245238,-0.100872,0.394647,89890,997,0.657227
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,w_nonwhite,여성 후보가 백인 아님,0.13841,0.0822677,1.68243,0.0924845,-0.0228317,0.299652,89890,997,0.657227
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,m_nonwhite,남성 후보가 백인 아님,-0.00521256,0.10093,-0.0516451,0.958811,-0.203033,0.192607,89890,997,0.657227
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,r_black,응답자 흑인(기준: 백인),1.2162,0.137687,8.83308,1.01836e-18,0.946335,1.48606,89890,997,0.657227
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,r_hisp,응답자 히스패닉,0.397772,0.114815,3.46445,0.000531311,0.172738,0.622806,89890,997,0.657227
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,r_asian,응답자 아시아계,0.3586,0.152343,2.35391,0.0185773,0.0600142,0.657186,89890,997,0.657227
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,r_other,응답자 그 밖 인종,0.0699077,0.124935,0.559551,0.575786,-0.174961,0.314776,89890,997,0.657227
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,college,4년제 대졸 이상,0.130817,0.0407961,3.2066,0.00134315,0.0508578,0.210776,89890,997,0.657227
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,age10,나이(10세),0.00765672,0.0147084,0.520566,0.602669,-0.0211713,0.0364847,89890,997,0.657227
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,lib,진보(기준: 중도),1.25491,0.0612465,20.4895,2.67239e-93,1.13487,1.37495,89890,997,0.657227
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,con,보수,-1.43314,0.0508994,-28.1564,1.99981e-174,-1.5329,-1.33338,89890,997,0.657227
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,ideo_ns,이념 모름,-0.18926,0.109003,-1.73629,0.0825132,-0.402901,0.0243814,89890,997,0.657227
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,pvi,당파 지수(+민주),0.00950587,0.00357527,2.65878,0.00784236,0.00249847,0.0165133,89890,997,0.657227
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,rural,농촌 인구 비율(%),-0.00105033,0.00198267,-0.529756,0.596281,-0.00493629,0.00283563,89890,997,0.657227
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,black_nh,선거구 흑인 비율(%),-0.0106224,0.00334477,-3.17582,0.00149413,-0.017178,-0.00406676,89890,997,0.657227
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,hisp_d,선거구 히스패닉 비율(%),-0.00379369,0.00281654,-1.34693,0.178003,-0.00931401,0.00172664,89890,997,0.657227
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,asian_nh,선거구 아시아계 비율(%),-0.00611843,0.00558807,-1.09491,0.273556,-0.0170709,0.00483399,89890,997,0.657227
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,ba_plus,선거구 대졸 비율(%),0.00401818,0.00510419,0.787232,0.431146,-0.00598585,0.0140222,89890,997,0.657227
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,inc10k,선거구 가구 소득 중앙값(만 달러),-0.0361113,0.0262123,-1.37765,0.168312,-0.0874864,0.0152638,89890,997,0.657227
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,w_inc,여성 후보가 현직,0.375908,0.0836801,4.4922,7.04919e-06,0.211898,0.539918,89890,997,0.657227
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,m_inc,남성 후보가 현직,-0.369316,0.0712507,-5.18333,2.17954e-07,-0.508965,-0.229667,89890,997,0.657227
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,y2010,2010년(기준: 2008년),-0.187804,0.149287,-1.25801,0.208387,-0.480401,0.104792,89890,997,0.657227
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,y2012,2012년(기준: 2008년),0.102706,0.164119,0.6258,0.531446,-0.218961,0.424372,89890,997,0.657227
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,y2014,2014년(기준: 2008년),-0.150064,0.174826,-0.858361,0.390693,-0.492716,0.192588,89890,997,0.657227
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,y2016,2016년(기준: 2008년),-0.0976492,0.154779,-0.630895,0.528109,-0.40101,0.205712,89890,997,0.657227
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,y2018,2018년(기준: 2008년),0.453396,0.144961,3.12771,0.00176173,0.169278,0.737514,89890,997,0.657227
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,y2020,2020년(기준: 2008년),0.21023,0.147593,1.42439,0.154332,-0.0790461,0.499506,89890,997,0.657227
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,y2022,2022년(기준: 2008년),-0.0699127,0.164427,-0.42519,0.670698,-0.392183,0.252358,89890,997,0.657227
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,y2024,2024년(기준: 2008년),0.0539607,0.161967,0.333158,0.739015,-0.263489,0.371411,89890,997,0.657227
-D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,const,상수,-0.163117,0.274726,-0.593744,0.552683,-0.701571,0.375337,89890,997,0.657227
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,female,여성 유권자,0.00342746,0.00408779,0.838462,0.401973,-0.00459422,0.0114491,89838,996,0.720556
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,prior,기존 여성 있음,0.00487416,0.00602345,0.809198,0.418595,-0.00694596,0.0166943,89838,996,0.720556
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,female_x_prior,여성 유권자 × 기존 여성 있음,0.00979338,0.00576741,1.69806,0.0898097,-0.00152429,0.0211111,89838,996,0.720556
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,copart,여성 후보와 같은 정당 지지(기우는 무당파 포함),0.416393,0.00933286,44.6158,1.20649e-239,0.398079,0.434707,89838,996,0.720556
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,outpart,여성 후보와 반대 정당 지지,-0.283379,0.00903589,-31.3615,1.0951e-150,-0.30111,-0.265647,89838,996,0.720556
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,same_race_w,여성 후보와 같은 인종,0.00739408,0.0051728,1.42942,0.153199,-0.00275677,0.0175449,89838,996,0.720556
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,same_race_m,남성 후보와 같은 인종,-0.00417941,0.00670092,-0.623707,0.532963,-0.017329,0.00897015,89838,996,0.720556
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,m_race_unk,남성 후보 인종 모름,0.00705241,0.00854306,0.825514,0.409278,-0.00971206,0.0238169,89838,996,0.720556
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,w_nonwhite,여성 후보가 백인 아님,0.00937873,0.00567726,1.65198,0.0988536,-0.00176204,0.0205195,89838,996,0.720556
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,m_nonwhite,남성 후보가 백인 아님,-0.00246701,0.00677,-0.364403,0.715634,-0.0157521,0.0108181,89838,996,0.720556
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,r_black,응답자 흑인(기준: 백인),0.0937667,0.00835596,11.2215,1.34074e-27,0.0773694,0.110164,89838,996,0.720556
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,r_hisp,응답자 히스패닉,0.0327762,0.00833233,3.93361,8.94852e-05,0.0164252,0.0491271,89838,996,0.720556
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,r_asian,응답자 아시아계,0.0310095,0.0106615,2.90853,0.00371202,0.0100878,0.0519311,89838,996,0.720556
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,r_other,응답자 그 밖 인종,0.000971916,0.00939234,0.10348,0.917603,-0.0174591,0.019403,89838,996,0.720556
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,college,4년제 대졸 이상,0.0100423,0.00277536,3.61837,0.000311381,0.00459604,0.0154885,89838,996,0.720556
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,age10,나이(10세),-9.61099e-05,0.000980629,-0.0980084,0.921945,-0.00202045,0.00182823,89838,996,0.720556
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,lib,진보(기준: 중도),0.0962957,0.00472877,20.3638,2.49135e-77,0.0870162,0.105575,89838,996,0.720556
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,con,보수,-0.13822,0.00537941,-25.6943,4.37368e-112,-0.148777,-0.127664,89838,996,0.720556
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,ideo_ns,이념 모름,-0.0258831,0.0139485,-1.85562,0.0638032,-0.053255,0.00148873,89838,996,0.720556
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,pvi,당파 지수(+민주),0.000567653,0.000237886,2.38624,0.0172077,0.000100837,0.00103447,89838,996,0.720556
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,rural,농촌 인구 비율(%),-4.85125e-05,0.000136017,-0.356664,0.721419,-0.000315426,0.000218401,89838,996,0.720556
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,black_nh,선거구 흑인 비율(%),-0.000667246,0.000216405,-3.08331,0.00210351,-0.00109191,-0.000242582,89838,996,0.720556
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,hisp_d,선거구 히스패닉 비율(%),-0.00015792,0.000195447,-0.807992,0.419288,-0.000541455,0.000225616,89838,996,0.720556
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,asian_nh,선거구 아시아계 비율(%),-0.0002467,0.000401802,-0.613985,0.539366,-0.00103518,0.000541776,89838,996,0.720556
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,ba_plus,선거구 대졸 비율(%),0.000265692,0.00034408,0.772179,0.440192,-0.000409515,0.000940898,89838,996,0.720556
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,inc10k,선거구 가구 소득 중앙값(만 달러),-0.00278749,0.00178463,-1.56194,0.118621,-0.00628957,0.000714591,89838,996,0.720556
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,w_inc,여성 후보가 현직,0.0207335,0.00684928,3.0271,0.00253268,0.00729277,0.0341741,89838,996,0.720556
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,m_inc,남성 후보가 현직,-0.026194,0.00482307,-5.43097,7.04554e-08,-0.0356585,-0.0167294,89838,996,0.720556
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,y2010,2010년(기준: 2008년),-0.0130442,0.0101195,-1.28901,0.197695,-0.0329023,0.00681391,89838,996,0.720556
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,y2012,2012년(기준: 2008년),0.0077469,0.0114623,0.67586,0.499287,-0.0147461,0.0302399,89838,996,0.720556
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,y2014,2014년(기준: 2008년),-0.0127696,0.012166,-1.04961,0.294152,-0.0366436,0.0111044,89838,996,0.720556
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,y2016,2016년(기준: 2008년),-0.00869986,0.010889,-0.798958,0.424506,-0.0300679,0.0126682,89838,996,0.720556
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,y2018,2018년(기준: 2008년),0.0297366,0.00988305,3.00885,0.00268844,0.0103426,0.0491306,89838,996,0.720556
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,y2020,2020년(기준: 2008년),0.0159239,0.0100574,1.5833,0.11367,-0.00381222,0.03566,89838,996,0.720556
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,y2022,2022년(기준: 2008년),-0.00355202,0.0112283,-0.316345,0.751807,-0.0255859,0.0184819,89838,996,0.720556
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,y2024,2024년(기준: 2008년),0.00607227,0.0109419,0.554957,0.579049,-0.0153995,0.0275441,89838,996,0.720556
+D_women_members_since_1990_lpm,D,women_members_since_1990,lpm,const,상수,0.449452,0.0197321,22.7777,9.2071e-93,0.410731,0.488174,89838,996,0.720556
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,female,여성 유권자,0.0324902,0.0608812,0.533665,0.593573,-0.0868348,0.151815,89838,996,0.657179
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,prior,기존 여성 있음,0.0377862,0.0884793,0.427062,0.669334,-0.13563,0.211202,89838,996,0.657179
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,female_x_prior,여성 유권자 × 기존 여성 있음,0.189927,0.0860756,2.20651,0.0273482,0.0212217,0.358632,89838,996,0.657179
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,copart,여성 후보와 같은 정당 지지(기우는 무당파 포함),2.30448,0.0574914,40.0839,0,2.1918,2.41716,89838,996,0.657179
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,outpart,여성 후보와 반대 정당 지지,-1.94925,0.0587117,-33.2003,1.06614e-241,-2.06432,-1.83417,89838,996,0.657179
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,same_race_w,여성 후보와 같은 인종,0.0938751,0.0783865,1.19759,0.231075,-0.0597595,0.24751,89838,996,0.657179
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,same_race_m,남성 후보와 같은 인종,-0.0478716,0.098937,-0.483859,0.628486,-0.241784,0.146041,89838,996,0.657179
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,m_race_unk,남성 후보 인종 모름,0.105195,0.128222,0.820412,0.411981,-0.146116,0.356507,89838,996,0.657179
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,w_nonwhite,여성 후보가 백인 아님,0.140743,0.0822967,1.71019,0.0872311,-0.0205557,0.302042,89838,996,0.657179
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,m_nonwhite,남성 후보가 백인 아님,-0.025414,0.100029,-0.254065,0.799445,-0.221468,0.17064,89838,996,0.657179
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,r_black,응답자 흑인(기준: 백인),1.21292,0.137401,8.82758,1.0697e-18,0.943618,1.48222,89838,996,0.657179
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,r_hisp,응답자 히스패닉,0.391451,0.115452,3.39058,0.000697441,0.165168,0.617733,89838,996,0.657179
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,r_asian,응답자 아시아계,0.355029,0.152426,2.32919,0.0198489,0.05628,0.653778,89838,996,0.657179
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,r_other,응답자 그 밖 인종,0.0557271,0.125198,0.445111,0.656239,-0.189657,0.301111,89838,996,0.657179
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,college,4년제 대졸 이상,0.130919,0.0407639,3.21164,0.00131979,0.0510233,0.210815,89838,996,0.657179
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,age10,나이(10세),0.00631895,0.014789,0.427272,0.669181,-0.022667,0.0353049,89838,996,0.657179
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,lib,진보(기준: 중도),1.25361,0.0613771,20.4248,1.00692e-92,1.13332,1.37391,89838,996,0.657179
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,con,보수,-1.43042,0.0506847,-28.222,3.14141e-175,-1.52976,-1.33108,89838,996,0.657179
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,ideo_ns,이념 모름,-0.190455,0.109645,-1.73702,0.0823834,-0.405355,0.0244445,89838,996,0.657179
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,pvi,당파 지수(+민주),0.00920102,0.00354045,2.59883,0.00935414,0.00226188,0.0161402,89838,996,0.657179
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,rural,농촌 인구 비율(%),-0.000572982,0.00197378,-0.290297,0.771589,-0.00444152,0.00329556,89838,996,0.657179
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,black_nh,선거구 흑인 비율(%),-0.0101511,0.00330934,-3.06742,0.00215913,-0.0166373,-0.00366495,89838,996,0.657179
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,hisp_d,선거구 히스패닉 비율(%),-0.00328981,0.00282207,-1.16574,0.243718,-0.00882096,0.00224134,89838,996,0.657179
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,asian_nh,선거구 아시아계 비율(%),-0.00613703,0.00558897,-1.09806,0.272178,-0.0170912,0.00481716,89838,996,0.657179
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,ba_plus,선거구 대졸 비율(%),0.00461905,0.00510524,0.904765,0.36559,-0.00538705,0.0146251,89838,996,0.657179
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,inc10k,선거구 가구 소득 중앙값(만 달러),-0.0371824,0.0259919,-1.43054,0.152563,-0.0881257,0.0137608,89838,996,0.657179
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,w_inc,여성 후보가 현직,0.293475,0.0970749,3.02318,0.0025013,0.103212,0.483739,89838,996,0.657179
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,m_inc,남성 후보가 현직,-0.363602,0.0703672,-5.16721,2.37615e-07,-0.501519,-0.225685,89838,996,0.657179
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,y2010,2010년(기준: 2008년),-0.196474,0.148316,-1.3247,0.185271,-0.487167,0.0942198,89838,996,0.657179
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,y2012,2012년(기준: 2008년),0.0986873,0.162746,0.606388,0.544257,-0.220289,0.417664,89838,996,0.657179
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,y2014,2014년(기준: 2008년),-0.14955,0.173811,-0.860417,0.389559,-0.490214,0.191114,89838,996,0.657179
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,y2016,2016년(기준: 2008년),-0.0891614,0.154801,-0.575973,0.564633,-0.392566,0.214244,89838,996,0.657179
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,y2018,2018년(기준: 2008년),0.449037,0.14454,3.10667,0.0018921,0.165744,0.73233,89838,996,0.657179
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,y2020,2020년(기준: 2008년),0.198115,0.147086,1.34693,0.178001,-0.0901679,0.486397,89838,996,0.657179
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,y2022,2022년(기준: 2008년),-0.0823161,0.164415,-0.500659,0.616611,-0.404564,0.239932,89838,996,0.657179
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,y2024,2024년(기준: 2008년),0.0506031,0.161144,0.314023,0.753503,-0.265234,0.36644,89838,996,0.657179
+D_women_members_since_1990_logit,D,women_members_since_1990,logit,const,상수,-0.166606,0.264858,-0.629038,0.529324,-0.685719,0.352507,89838,996,0.657179
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,female,여성 유권자,0.00999244,0.00329967,3.02832,0.00252261,0.00351734,0.0164675,89838,996,0.720525
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,prior,기존 여성 있음,0.00983024,0.00549682,1.78835,0.0740235,-0.000956444,0.0206169,89838,996,0.720525
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,female_x_prior,여성 유권자 × 기존 여성 있음,-0.00856256,0.00693734,-1.23427,0.217393,-0.0221761,0.00505093,89838,996,0.720525
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,copart,여성 후보와 같은 정당 지지(기우는 무당파 포함),0.416431,0.00932784,44.6439,7.94607e-240,0.398127,0.434736,89838,996,0.720525
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,outpart,여성 후보와 반대 정당 지지,-0.283359,0.0090297,-31.3808,8.0689e-151,-0.301079,-0.26564,89838,996,0.720525
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,same_race_w,여성 후보와 같은 인종,0.00746998,0.00518247,1.44139,0.149788,-0.00269984,0.0176398,89838,996,0.720525
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,same_race_m,남성 후보와 같은 인종,-0.00393705,0.00671615,-0.586207,0.55787,-0.0171165,0.00924239,89838,996,0.720525
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,m_race_unk,남성 후보 인종 모름,0.00712893,0.00857265,0.83159,0.40584,-0.00969362,0.0239515,89838,996,0.720525
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,w_nonwhite,여성 후보가 백인 아님,0.00939354,0.00567076,1.65649,0.0979388,-0.00173449,0.0205216,89838,996,0.720525
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,m_nonwhite,남성 후보가 백인 아님,-0.00187324,0.00677933,-0.276316,0.782363,-0.0151767,0.0114302,89838,996,0.720525
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,r_black,응답자 흑인(기준: 백인),0.0939574,0.0083595,11.2396,1.11828e-27,0.0775532,0.110362,89838,996,0.720525
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,r_hisp,응답자 히스패닉,0.0330313,0.00834033,3.96043,8.01451e-05,0.0166646,0.049398,89838,996,0.720525
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,r_asian,응답자 아시아계,0.0310567,0.0106735,2.9097,0.00369832,0.0101115,0.0520018,89838,996,0.720525
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,r_other,응답자 그 밖 인종,0.00130677,0.00938029,0.139311,0.889233,-0.0171006,0.0197142,89838,996,0.720525
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,college,4년제 대졸 이상,0.010116,0.0027795,3.63951,0.000287211,0.00466165,0.0155704,89838,996,0.720525
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,age10,나이(10세),-5.49346e-05,0.000981608,-0.0559639,0.955382,-0.00198119,0.00187132,89838,996,0.720525
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,lib,진보(기준: 중도),0.0963949,0.00473125,20.3741,2.14797e-77,0.0871105,0.105679,89838,996,0.720525
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,con,보수,-0.138147,0.00537654,-25.6944,4.36755e-112,-0.148698,-0.127596,89838,996,0.720525
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,ideo_ns,이념 모름,-0.0256592,0.0139328,-1.84164,0.065826,-0.0530004,0.00168192,89838,996,0.720525
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,pvi,당파 지수(+민주),0.000586903,0.000238068,2.46528,0.0138586,0.000119731,0.00105408,89838,996,0.720525
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,rural,농촌 인구 비율(%),-6.23427e-05,0.000135567,-0.459866,0.645713,-0.000328373,0.000203688,89838,996,0.720525
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,black_nh,선거구 흑인 비율(%),-0.000675797,0.000215495,-3.13602,0.00176282,-0.00109867,-0.00025292,89838,996,0.720525
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,hisp_d,선거구 히스패닉 비율(%),-0.000185071,0.000193346,-0.957198,0.3387,-0.000564484,0.000194343,89838,996,0.720525
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,asian_nh,선거구 아시아계 비율(%),-0.000252337,0.000401937,-0.627801,0.530278,-0.00104108,0.000536406,89838,996,0.720525
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,ba_plus,선거구 대졸 비율(%),0.000228909,0.000342635,0.668083,0.504236,-0.000443462,0.000901279,89838,996,0.720525
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,inc10k,선거구 가구 소득 중앙값(만 달러),-0.00267456,0.00179989,-1.48596,0.137606,-0.00620657,0.000857447,89838,996,0.720525
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,w_inc,여성 후보가 현직,0.0279464,0.00587892,4.75366,2.29202e-06,0.0164099,0.0394829,89838,996,0.720525
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,m_inc,남성 후보가 현직,-0.0264761,0.00483656,-5.47415,5.56524e-08,-0.0359671,-0.016985,89838,996,0.720525
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,y2010,2010년(기준: 2008년),-0.0130306,0.0101933,-1.27834,0.201426,-0.0330334,0.00697229,89838,996,0.720525
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,y2012,2012년(기준: 2008년),0.00781813,0.0115539,0.676668,0.498774,-0.0148546,0.0304909,89838,996,0.720525
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,y2014,2014년(기준: 2008년),-0.0131741,0.0122209,-1.07799,0.281298,-0.0371559,0.0108077,89838,996,0.720525
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,y2016,2016년(기준: 2008년),-0.00910849,0.0109356,-0.83292,0.40509,-0.030568,0.012351,89838,996,0.720525
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,y2018,2018년(기준: 2008년),0.0296185,0.00994855,2.97717,0.00297967,0.010096,0.0491411,89838,996,0.720525
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,y2020,2020년(기준: 2008년),0.0154689,0.0101111,1.5299,0.126359,-0.00437252,0.0353104,89838,996,0.720525
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,y2022,2022년(기준: 2008년),-0.00392234,0.0112792,-0.347751,0.728101,-0.026056,0.0182113,89838,996,0.720525
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,y2024,2024년(기준: 2008년),0.00571216,0.0110075,0.518932,0.603924,-0.0158885,0.0273128,89838,996,0.720525
+D_women_members_since_1990_excl_lpm,D,women_members_since_1990_excl,lpm,const,상수,0.448225,0.0196021,22.8662,2.43918e-93,0.409759,0.486691,89838,996,0.720525
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,female,여성 유권자,0.147291,0.0494798,2.97679,0.00291285,0.0503122,0.244269,89838,996,0.657047
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,prior,기존 여성 있음,0.12224,0.0776058,1.57514,0.115225,-0.0298648,0.274344,89838,996,0.657047
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,female_x_prior,여성 유권자 × 기존 여성 있음,-0.111205,0.101551,-1.09506,0.273489,-0.310242,0.0878317,89838,996,0.657047
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,copart,여성 후보와 같은 정당 지지(기우는 무당파 포함),2.30282,0.0571931,40.2639,0,2.19072,2.41492,89838,996,0.657047
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,outpart,여성 후보와 반대 정당 지지,-1.94795,0.0586161,-33.2323,3.67838e-242,-2.06283,-1.83306,89838,996,0.657047
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,same_race_w,여성 후보와 같은 인종,0.0951834,0.0785149,1.2123,0.225399,-0.058703,0.24907,89838,996,0.657047
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,same_race_m,남성 후보와 같은 인종,-0.0443804,0.0988907,-0.448782,0.653589,-0.238203,0.149442,89838,996,0.657047
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,m_race_unk,남성 후보 인종 모름,0.105408,0.128388,0.821013,0.411639,-0.146227,0.357043,89838,996,0.657047
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,w_nonwhite,여성 후보가 백인 아님,0.141401,0.0822354,1.71947,0.0855291,-0.0197773,0.30258,89838,996,0.657047
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,m_nonwhite,남성 후보가 백인 아님,-0.0162823,0.0996395,-0.163412,0.870194,-0.211572,0.179008,89838,996,0.657047
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,r_black,응답자 흑인(기준: 백인),1.21367,0.137385,8.83406,1.00945e-18,0.944396,1.48293,89838,996,0.657047
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,r_hisp,응답자 히스패닉,0.393583,0.115333,3.41258,0.000643521,0.167534,0.619632,89838,996,0.657047
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,r_asian,응답자 아시아계,0.356349,0.152399,2.33826,0.0193736,0.0576524,0.655045,89838,996,0.657047
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,r_other,응답자 그 밖 인종,0.0618729,0.124651,0.496369,0.619634,-0.182439,0.306184,89838,996,0.657047
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,college,4년제 대졸 이상,0.13094,0.0407962,3.20961,0.00132914,0.0509809,0.210899,89838,996,0.657047
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,age10,나이(10세),0.00728881,0.0147967,0.492597,0.622297,-0.0217122,0.0362898,89838,996,0.657047
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,lib,진보(기준: 중도),1.25414,0.0613123,20.4549,5.43647e-93,1.13397,1.37431,89838,996,0.657047
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,con,보수,-1.43144,0.050791,-28.183,9.45212e-175,-1.53099,-1.33189,89838,996,0.657047
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,ideo_ns,이념 모름,-0.184948,0.109152,-1.6944,0.090189,-0.398882,0.0289868,89838,996,0.657047
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,pvi,당파 지수(+민주),0.00947212,0.0035389,2.67657,0.00743805,0.00253599,0.0164082,89838,996,0.657047
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,rural,농촌 인구 비율(%),-0.00079983,0.00196801,-0.406415,0.684437,-0.00465706,0.0030574,89838,996,0.657047
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,black_nh,선거구 흑인 비율(%),-0.0103016,0.00330668,-3.1154,0.00183696,-0.0167826,-0.00382065,89838,996,0.657047
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,hisp_d,선거구 히스패닉 비율(%),-0.00365724,0.00279577,-1.30813,0.190828,-0.00913686,0.00182237,89838,996,0.657047
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,asian_nh,선거구 아시아계 비율(%),-0.0063031,0.00561044,-1.12346,0.261242,-0.0172994,0.00469315,89838,996,0.657047
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,ba_plus,선거구 대졸 비율(%),0.00400998,0.00507673,0.789876,0.4296,-0.00594022,0.0139602,89838,996,0.657047
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,inc10k,선거구 가구 소득 중앙값(만 달러),-0.0353654,0.0261292,-1.35348,0.175901,-0.0865777,0.0158469,89838,996,0.657047
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,w_inc,여성 후보가 현직,0.387655,0.0831631,4.66138,3.14094e-06,0.224658,0.550651,89838,996,0.657047
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,m_inc,남성 후보가 현직,-0.368638,0.0707739,-5.20867,1.90196e-07,-0.507352,-0.229924,89838,996,0.657047
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,y2010,2010년(기준: 2008년),-0.196407,0.149751,-1.31156,0.18967,-0.489915,0.0971,89838,996,0.657047
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,y2012,2012년(기준: 2008년),0.0988895,0.164736,0.600291,0.548312,-0.223987,0.421766,89838,996,0.657047
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,y2014,2014년(기준: 2008년),-0.156126,0.175024,-0.892023,0.37238,-0.499167,0.186915,89838,996,0.657047
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,y2016,2016년(기준: 2008년),-0.0963166,0.155754,-0.618389,0.536319,-0.401589,0.208956,89838,996,0.657047
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,y2018,2018년(기준: 2008년),0.44813,0.145752,3.07461,0.00210781,0.162461,0.733799,89838,996,0.657047
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,y2020,2020년(기준: 2008년),0.192196,0.14815,1.2973,0.194526,-0.0981729,0.482564,89838,996,0.657047
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,y2022,2022년(기준: 2008년),-0.0884204,0.165317,-0.534855,0.59275,-0.412435,0.235594,89838,996,0.657047
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,y2024,2024년(기준: 2008년),0.0465226,0.162142,0.286925,0.77417,-0.27127,0.364315,89838,996,0.657047
+D_women_members_since_1990_excl_logit,D,women_members_since_1990_excl,logit,const,상수,-0.191284,0.262766,-0.727964,0.466636,-0.706296,0.323728,89838,996,0.657047
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,female,여성 유권자,-0.00139801,0.00883331,-0.158266,0.874279,-0.0187321,0.015936,89838,996,0.720518
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,prior,기존 여성 있음,-0.0117382,0.00801761,-1.46405,0.143496,-0.0274716,0.00399517,89838,996,0.720518
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,female_x_prior,여성 유권자 × 기존 여성 있음,0.0108072,0.00937435,1.15285,0.249248,-0.00758853,0.029203,89838,996,0.720518
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,copart,여성 후보와 같은 정당 지지(기우는 무당파 포함),0.41632,0.00933568,44.5945,1.65577e-239,0.398,0.43464,89838,996,0.720518
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,outpart,여성 후보와 반대 정당 지지,-0.283452,0.00902966,-31.3912,6.85387e-151,-0.301171,-0.265732,89838,996,0.720518
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,same_race_w,여성 후보와 같은 인종,0.00774556,0.00517576,1.49651,0.134839,-0.00241109,0.0179022,89838,996,0.720518
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,same_race_m,남성 후보와 같은 인종,-0.00402787,0.00673081,-0.598422,0.549695,-0.0172361,0.00918035,89838,996,0.720518
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,m_race_unk,남성 후보 인종 모름,0.00674432,0.008548,0.788994,0.430304,-0.0100299,0.0235185,89838,996,0.720518
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,w_nonwhite,여성 후보가 백인 아님,0.00929475,0.00567906,1.63667,0.102016,-0.00184956,0.0204391,89838,996,0.720518
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,m_nonwhite,남성 후보가 백인 아님,-0.0015635,0.00683,-0.228916,0.818981,-0.0149664,0.0118394,89838,996,0.720518
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,r_black,응답자 흑인(기준: 백인),0.0940852,0.00837693,11.2315,1.21353e-27,0.0776467,0.110524,89838,996,0.720518
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,r_hisp,응답자 히스패닉,0.0332094,0.00833143,3.98604,7.20937e-05,0.0168602,0.0495586,89838,996,0.720518
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,r_asian,응답자 아시아계,0.0313823,0.0106846,2.93715,0.00338881,0.0104153,0.0523492,89838,996,0.720518
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,r_other,응답자 그 밖 인종,0.0018619,0.00939902,0.198095,0.843011,-0.0165823,0.0203061,89838,996,0.720518
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,college,4년제 대졸 이상,0.0100267,0.00277798,3.60936,0.000322251,0.00457535,0.0154781,89838,996,0.720518
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,age10,나이(10세),-4.45091e-05,0.000981122,-0.0453655,0.963825,-0.00196982,0.0018808,89838,996,0.720518
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,lib,진보(기준: 중도),0.0963226,0.00473301,20.3512,2.98524e-77,0.0870348,0.10561,89838,996,0.720518
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,con,보수,-0.138201,0.00538121,-25.6821,5.28426e-112,-0.148761,-0.127641,89838,996,0.720518
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,ideo_ns,이념 모름,-0.0260399,0.0139369,-1.86841,0.0619983,-0.0533889,0.00130921,89838,996,0.720518
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,pvi,당파 지수(+민주),0.0006028,0.000240345,2.50806,0.0122978,0.000131159,0.00107444,89838,996,0.720518
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,rural,농촌 인구 비율(%),-8.85208e-05,0.000135915,-0.651297,0.515005,-0.000355233,0.000178191,89838,996,0.720518
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,black_nh,선거구 흑인 비율(%),-0.000714958,0.00021738,-3.28897,0.00104078,-0.00114153,-0.000288381,89838,996,0.720518
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,hisp_d,선거구 히스패닉 비율(%),-0.000207378,0.000196395,-1.05592,0.291261,-0.000592774,0.000178018,89838,996,0.720518
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,asian_nh,선거구 아시아계 비율(%),-0.000253705,0.000398556,-0.63656,0.524558,-0.00103581,0.000528402,89838,996,0.720518
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,ba_plus,선거구 대졸 비율(%),0.000195678,0.000346966,0.563969,0.572903,-0.000485191,0.000876548,89838,996,0.720518
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,inc10k,선거구 가구 소득 중앙값(만 달러),-0.0026285,0.00180026,-1.46007,0.144587,-0.00616124,0.000904242,89838,996,0.720518
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,w_inc,여성 후보가 현직,0.0289082,0.00597774,4.83598,1.53431e-06,0.0171778,0.0406387,89838,996,0.720518
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,m_inc,남성 후보가 현직,-0.0264548,0.00487969,-5.42141,7.42158e-08,-0.0360305,-0.0168792,89838,996,0.720518
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,y2010,2010년(기준: 2008년),-0.0126777,0.0101848,-1.24476,0.213514,-0.0326639,0.00730857,89838,996,0.720518
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,y2012,2012년(기준: 2008년),0.00765702,0.0115512,0.662877,0.507563,-0.0150105,0.0303245,89838,996,0.720518
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,y2014,2014년(기준: 2008년),-0.0130909,0.0122101,-1.07213,0.283921,-0.0370514,0.0108697,89838,996,0.720518
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,y2016,2016년(기준: 2008년),-0.00856289,0.0108699,-0.787763,0.431023,-0.0298934,0.0127676,89838,996,0.720518
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,y2018,2018년(기준: 2008년),0.0302253,0.00991781,3.04758,0.00236785,0.0107631,0.0496875,89838,996,0.720518
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,y2020,2020년(기준: 2008년),0.0167901,0.0101072,1.66121,0.0969867,-0.00304371,0.036624,89838,996,0.720518
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,y2022,2022년(기준: 2008년),-0.00301928,0.0112381,-0.268665,0.788243,-0.0250723,0.0190338,89838,996,0.720518
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,y2024,2024년(기준: 2008년),0.00717043,0.0110028,0.651691,0.514751,-0.0144209,0.0287618,89838,996,0.720518
+D_women_prior_since_1990_lpm,D,women_prior_since_1990,lpm,const,상수,0.461691,0.0215008,21.4732,2.40587e-84,0.419499,0.503883,89838,996,0.720518
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,female,여성 유권자,-0.0259675,0.135714,-0.191339,0.84826,-0.291963,0.240028,89838,996,0.657075
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,prior,기존 여성 있음,-0.197874,0.122205,-1.6192,0.105405,-0.437393,0.0416437,89838,996,0.657075
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,female_x_prior,여성 유권자 × 기존 여성 있음,0.169251,0.143358,1.18062,0.237754,-0.111725,0.450228,89838,996,0.657075
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,copart,여성 후보와 같은 정당 지지(기우는 무당파 포함),2.30136,0.0572588,40.1923,0,2.18914,2.41359,89838,996,0.657075
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,outpart,여성 후보와 반대 정당 지지,-1.94946,0.0587531,-33.1805,2.05527e-241,-2.06461,-1.83431,89838,996,0.657075
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,same_race_w,여성 후보와 같은 인종,0.100093,0.0785297,1.27459,0.202454,-0.053822,0.254009,89838,996,0.657075
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,same_race_m,남성 후보와 같은 인종,-0.0436362,0.0993263,-0.439322,0.660428,-0.238312,0.15104,89838,996,0.657075
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,m_race_unk,남성 후보 인종 모름,0.100122,0.12816,0.781229,0.434668,-0.151067,0.351312,89838,996,0.657075
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,w_nonwhite,여성 후보가 백인 아님,0.141155,0.0825361,1.71022,0.0872254,-0.020613,0.302923,89838,996,0.657075
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,m_nonwhite,남성 후보가 백인 아님,-0.0121559,0.100785,-0.120613,0.903998,-0.20969,0.185378,89838,996,0.657075
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,r_black,응답자 흑인(기준: 백인),1.21638,0.137895,8.82109,1.13354e-18,0.946115,1.48665,89838,996,0.657075
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,r_hisp,응답자 히스패닉,0.399681,0.115302,3.4664,0.000527482,0.173694,0.625668,89838,996,0.657075
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,r_asian,응답자 아시아계,0.360443,0.152768,2.35942,0.0183037,0.0610236,0.659863,89838,996,0.657075
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,r_other,응답자 그 밖 인종,0.0724304,0.125468,0.577284,0.563747,-0.173481,0.318342,89838,996,0.657075
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,college,4년제 대졸 이상,0.131132,0.0408097,3.21326,0.00131237,0.0511467,0.211118,89838,996,0.657075
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,age10,나이(10세),0.00779749,0.0147321,0.529287,0.596606,-0.0210768,0.0366718,89838,996,0.657075
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,lib,진보(기준: 중도),1.25452,0.0613397,20.452,5.77185e-93,1.13429,1.37474,89838,996,0.657075
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,con,보수,-1.43212,0.0507349,-28.2275,2.691e-175,-1.53156,-1.33268,89838,996,0.657075
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,ideo_ns,이념 모름,-0.190118,0.109238,-1.7404,0.0817882,-0.404221,0.0239844,89838,996,0.657075
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,pvi,당파 지수(+민주),0.00986695,0.00355719,2.7738,0.00554051,0.00289498,0.0168389,89838,996,0.657075
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,rural,농촌 인구 비율(%),-0.00118119,0.00198096,-0.59627,0.550995,-0.0050638,0.00270142,89838,996,0.657075
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,black_nh,선거구 흑인 비율(%),-0.0109037,0.0033315,-3.27291,0.00106446,-0.0174333,-0.00437408,89838,996,0.657075
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,hisp_d,선거구 히스패닉 비율(%),-0.00398536,0.00283434,-1.4061,0.159696,-0.00954057,0.00156985,89838,996,0.657075
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,asian_nh,선거구 아시아계 비율(%),-0.00640612,0.00551888,-1.16076,0.245737,-0.0172229,0.00441068,89838,996,0.657075
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,ba_plus,선거구 대졸 비율(%),0.00351103,0.00513378,0.683907,0.494034,-0.006551,0.0135731,89838,996,0.657075
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,inc10k,선거구 가구 소득 중앙값(만 달러),-0.0343012,0.0262005,-1.30918,0.190473,-0.0856533,0.0170508,89838,996,0.657075
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,w_inc,여성 후보가 현직,0.405718,0.0843856,4.8079,1.52526e-06,0.240325,0.57111,89838,996,0.657075
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,m_inc,남성 후보가 현직,-0.366075,0.0713605,-5.12994,2.89833e-07,-0.505939,-0.226211,89838,996,0.657075
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,y2010,2010년(기준: 2008년),-0.188373,0.149463,-1.26034,0.207548,-0.481314,0.104568,89838,996,0.657075
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,y2012,2012년(기준: 2008년),0.0985421,0.164473,0.59914,0.54908,-0.223818,0.420902,89838,996,0.657075
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,y2014,2014년(기준: 2008년),-0.15587,0.174155,-0.895008,0.370783,-0.497208,0.185468,89838,996,0.657075
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,y2016,2016년(기준: 2008년),-0.0853047,0.154522,-0.552057,0.580909,-0.388162,0.217552,89838,996,0.657075
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,y2018,2018년(기준: 2008년),0.458603,0.145326,3.15568,0.00160124,0.173769,0.743437,89838,996,0.657075
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,y2020,2020년(기준: 2008년),0.216101,0.148096,1.4592,0.14451,-0.0741612,0.506363,89838,996,0.657075
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,y2022,2022년(기준: 2008년),-0.0723623,0.164735,-0.439266,0.660469,-0.395236,0.250512,89838,996,0.657075
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,y2024,2024년(기준: 2008년),0.0710387,0.162099,0.438242,0.661211,-0.24667,0.388747,89838,996,0.657075
+D_women_prior_since_1990_logit,D,women_prior_since_1990,logit,const,상수,0.0123145,0.29298,0.0420318,0.966473,-0.561917,0.586546,89838,996,0.657075
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,female,여성 유권자,0.0123937,0.00578757,2.14144,0.0324809,0.00103649,0.023751,89838,996,0.720503
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,prior,기존 여성 있음,0.000386187,0.00593943,0.0650208,0.948171,-0.0112691,0.0120414,89838,996,0.720503
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,female_x_prior,여성 유권자 × 기존 여성 있음,-0.00553776,0.00671518,-0.824663,0.40976,-0.0187153,0.00763978,89838,996,0.720503
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,copart,여성 후보와 같은 정당 지지(기우는 무당파 포함),0.416327,0.00933493,44.5988,1.55374e-239,0.398009,0.434645,89838,996,0.720503
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,outpart,여성 후보와 반대 정당 지지,-0.283462,0.0090363,-31.3693,9.67766e-151,-0.301195,-0.26573,89838,996,0.720503
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,same_race_w,여성 후보와 같은 인종,0.00767141,0.00518782,1.47873,0.139528,-0.00250892,0.0178517,89838,996,0.720503
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,same_race_m,남성 후보와 같은 인종,-0.00404283,0.00672532,-0.601135,0.547887,-0.0172403,0.00915461,89838,996,0.720503
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,m_race_unk,남성 후보 인종 모름,0.00711193,0.00853875,0.8329,0.405101,-0.0096441,0.023868,89838,996,0.720503
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,w_nonwhite,여성 후보가 백인 아님,0.0091651,0.00566651,1.61741,0.106106,-0.00195459,0.0202848,89838,996,0.720503
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,m_nonwhite,남성 후보가 백인 아님,-0.00149663,0.00683295,-0.219032,0.82667,-0.0149053,0.011912,89838,996,0.720503
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,r_black,응답자 흑인(기준: 백인),0.0939838,0.00837012,11.2285,1.25034e-27,0.0775587,0.110409,89838,996,0.720503
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,r_hisp,응답자 히스패닉,0.0330677,0.00833583,3.96693,7.8025e-05,0.0167098,0.0494255,89838,996,0.720503
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,r_asian,응답자 아시아계,0.0311866,0.0106836,2.91912,0.00358933,0.0102217,0.0521515,89838,996,0.720503
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,r_other,응답자 그 밖 인종,0.00170443,0.00940198,0.181284,0.856182,-0.0167456,0.0201544,89838,996,0.720503
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,college,4년제 대졸 이상,0.0100557,0.00277861,3.61898,0.000310651,0.00460313,0.0155084,89838,996,0.720503
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,age10,나이(10세),-4.29949e-05,0.0009798,-0.0438813,0.965008,-0.00196571,0.00187972,89838,996,0.720503
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,lib,진보(기준: 중도),0.0963545,0.0047321,20.3619,2.56184e-77,0.0870684,0.105641,89838,996,0.720503
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,con,보수,-0.138206,0.00538053,-25.6863,4.95077e-112,-0.148764,-0.127647,89838,996,0.720503
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,ideo_ns,이념 모름,-0.0260269,0.0139446,-1.86645,0.0622722,-0.0533912,0.00133728,89838,996,0.720503
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,pvi,당파 지수(+민주),0.000595825,0.000241383,2.46838,0.01374,0.000122146,0.0010695,89838,996,0.720503
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,rural,농촌 인구 비율(%),-7.99843e-05,0.000136147,-0.587484,0.557012,-0.000347153,0.000187185,89838,996,0.720503
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,black_nh,선거구 흑인 비율(%),-0.000709021,0.000218437,-3.24588,0.00120993,-0.00113767,-0.000280371,89838,996,0.720503
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,hisp_d,선거구 히스패닉 비율(%),-0.000193098,0.000195145,-0.98951,0.322654,-0.000576042,0.000189845,89838,996,0.720503
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,asian_nh,선거구 아시아계 비율(%),-0.000245952,0.00040207,-0.611713,0.540867,-0.00103495,0.000543051,89838,996,0.720503
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,ba_plus,선거구 대졸 비율(%),0.000223847,0.000344132,0.650468,0.51554,-0.000451461,0.000899156,89838,996,0.720503
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,inc10k,선거구 가구 소득 중앙값(만 달러),-0.00268195,0.00180462,-1.48616,0.137553,-0.00622325,0.00085934,89838,996,0.720503
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,w_inc,여성 후보가 현직,0.027462,0.00593289,4.62877,4.16486e-06,0.0158196,0.0391044,89838,996,0.720503
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,m_inc,남성 후보가 현직,-0.0267032,0.00488127,-5.47054,5.67668e-08,-0.0362819,-0.0171244,89838,996,0.720503
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,y2010,2010년(기준: 2008년),-0.012823,0.0101707,-1.26077,0.207687,-0.0327815,0.0071356,89838,996,0.720503
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,y2012,2012년(기준: 2008년),0.00773518,0.0115369,0.670475,0.502711,-0.0149042,0.0303746,89838,996,0.720503
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,y2014,2014년(기준: 2008년),-0.01305,0.0122314,-1.06693,0.286263,-0.0370522,0.0109522,89838,996,0.720503
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,y2016,2016년(기준: 2008년),-0.00902336,0.0108891,-0.828662,0.407494,-0.0303915,0.0123448,89838,996,0.720503
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,y2018,2018년(기준: 2008년),0.0301359,0.0098943,3.04578,0.00238187,0.0107198,0.049552,89838,996,0.720503
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,y2020,2020년(기준: 2008년),0.0163697,0.010074,1.62495,0.10449,-0.003399,0.0361385,89838,996,0.720503
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,y2022,2022년(기준: 2008년),-0.0032777,0.0112294,-0.291885,0.770435,-0.0253137,0.0187583,89838,996,0.720503
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,y2024,2024년(기준: 2008년),0.00659479,0.0109675,0.6013,0.547777,-0.0149274,0.028117,89838,996,0.720503
+D_women_prior_since_1990_excl_lpm,D,women_prior_since_1990_excl,lpm,const,상수,0.450824,0.0204172,22.0806,3.04257e-88,0.410758,0.490889,89838,996,0.720503
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,female,여성 유권자,0.197605,0.0898173,2.20007,0.0278017,0.021566,0.373643,89838,996,0.657027
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,prior,기존 여성 있음,0.00180171,0.089798,0.0200641,0.983992,-0.174199,0.177802,89838,996,0.657027
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,female_x_prior,여성 유권자 × 기존 여성 있음,-0.0981734,0.103052,-0.952657,0.340764,-0.300152,0.103805,89838,996,0.657027
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,copart,여성 후보와 같은 정당 지지(기우는 무당파 포함),2.30092,0.0574553,40.0471,0,2.18831,2.41353,89838,996,0.657027
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,outpart,여성 후보와 반대 정당 지지,-1.94916,0.0587777,-33.1616,3.84807e-241,-2.06437,-1.83396,89838,996,0.657027
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,same_race_w,여성 후보와 같은 인종,0.0986684,0.0786637,1.25431,0.209731,-0.0555096,0.252846,89838,996,0.657027
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,same_race_m,남성 후보와 같은 인종,-0.0456629,0.0991241,-0.460664,0.645039,-0.239943,0.148617,89838,996,0.657027
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,m_race_unk,남성 후보 인종 모름,0.106837,0.127977,0.834811,0.403824,-0.143993,0.357666,89838,996,0.657027
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,w_nonwhite,여성 후보가 백인 아님,0.137404,0.0822056,1.67147,0.0946293,-0.023716,0.298524,89838,996,0.657027
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,m_nonwhite,남성 후보가 백인 아님,-0.0105307,0.10078,-0.104492,0.916779,-0.208055,0.186994,89838,996,0.657027
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,r_black,응답자 흑인(기준: 백인),1.21564,0.137884,8.81642,1.18179e-18,0.945392,1.48589,89838,996,0.657027
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,r_hisp,응답자 히스패닉,0.395158,0.11536,3.42544,0.00061381,0.169057,0.621259,89838,996,0.657027
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,r_asian,응답자 아시아계,0.357053,0.15266,2.33888,0.0193416,0.0578454,0.65626,89838,996,0.657027
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,r_other,응답자 그 밖 인종,0.0702631,0.125347,0.56055,0.575104,-0.175412,0.315938,89838,996,0.657027
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,college,4년제 대졸 이상,0.131278,0.0408021,3.21742,0.00129349,0.0513069,0.211248,89838,996,0.657027
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,age10,나이(10세),0.00749233,0.0147155,0.509144,0.610651,-0.0213496,0.0363342,89838,996,0.657027
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,lib,진보(기준: 중도),1.25476,0.0612352,20.4908,2.60187e-93,1.13474,1.37478,89838,996,0.657027
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,con,보수,-1.43226,0.0508703,-28.1552,2.06976e-174,-1.53197,-1.33256,89838,996,0.657027
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,ideo_ns,이념 모름,-0.189937,0.109084,-1.74119,0.0816502,-0.403738,0.0238648,89838,996,0.657027
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,pvi,당파 지수(+민주),0.00965011,0.00357009,2.70305,0.00687074,0.00265287,0.0166474,89838,996,0.657027
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,rural,농촌 인구 비율(%),-0.00103835,0.00198163,-0.523989,0.600286,-0.00492226,0.00284557,89838,996,0.657027
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,black_nh,선거구 흑인 비율(%),-0.0107931,0.00334865,-3.22313,0.00126799,-0.0173564,-0.0042299,89838,996,0.657027
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,hisp_d,선거구 히스패닉 비율(%),-0.0037282,0.00281457,-1.32461,0.185302,-0.00924467,0.00178826,89838,996,0.657027
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,asian_nh,선거구 아시아계 비율(%),-0.00619106,0.00559933,-1.10568,0.268866,-0.0171656,0.00478343,89838,996,0.657027
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,ba_plus,선거구 대졸 비율(%),0.00398581,0.00509621,0.782114,0.434148,-0.00600257,0.0139742,89838,996,0.657027
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,inc10k,선거구 가구 소득 중앙값(만 달러),-0.0353162,0.0263047,-1.34258,0.179408,-0.0868726,0.0162401,89838,996,0.657027
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,w_inc,여성 후보가 현직,0.380399,0.0837447,4.54237,5.56266e-06,0.216262,0.544535,89838,996,0.657027
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,m_inc,남성 후보가 현직,-0.370199,0.0713097,-5.19143,2.08684e-07,-0.509964,-0.230435,89838,996,0.657027
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,y2010,2010년(기준: 2008년),-0.192575,0.149313,-1.28974,0.19714,-0.485223,0.100072,89838,996,0.657027
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,y2012,2012년(기준: 2008년),0.0998746,0.164133,0.6085,0.542856,-0.221819,0.421568,89838,996,0.657027
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,y2014,2014년(기준: 2008년),-0.153929,0.174867,-0.880261,0.378718,-0.496663,0.188805,89838,996,0.657027
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,y2016,2016년(기준: 2008년),-0.0951312,0.154899,-0.614152,0.539115,-0.398727,0.208464,89838,996,0.657027
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,y2018,2018년(기준: 2008년),0.455576,0.144989,3.14214,0.00167717,0.171403,0.739749,89838,996,0.657027
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,y2020,2020년(기준: 2008년),0.207532,0.147648,1.40559,0.159847,-0.0818529,0.496917,89838,996,0.657027
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,y2022,2022년(기준: 2008년),-0.0781946,0.164659,-0.474887,0.634867,-0.400921,0.244531,89838,996,0.657027
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,y2024,2024년(기준: 2008년),0.0600722,0.16178,0.37132,0.710399,-0.257011,0.377155,89838,996,0.657027
+D_women_prior_since_1990_excl_logit,D,women_prior_since_1990_excl,logit,const,상수,-0.161826,0.274974,-0.588512,0.556189,-0.700766,0.377114,89838,996,0.657027
 R_women_members_since_1990_lpm,R,women_members_since_1990,lpm,female,여성 유권자,-0.015504,0.00755602,-2.05188,0.0410029,-0.0303703,-0.000637727,26937,318,0.689111
 R_women_members_since_1990_lpm,R,women_members_since_1990,lpm,prior,기존 여성 있음,-0.0296002,0.0108553,-2.72679,0.0067513,-0.0509578,-0.00824262,26937,318,0.689111
 R_women_members_since_1990_lpm,R,women_members_since_1990,lpm,female_x_prior,여성 유권자 × 기존 여성 있음,0.022862,0.01102,2.0746,0.0388304,0.00118049,0.0445436,26937,318,0.689111
@@ -443,151 +443,151 @@ R_women_members_since_1990_excl_logit,R,women_members_since_1990_excl,logit,y202
 R_women_members_since_1990_excl_logit,R,women_members_since_1990_excl,logit,y2022,2022년(기준: 2008년),-0.0357005,0.203521,-0.175415,0.860754,-0.434594,0.363193,26937,318,0.622455
 R_women_members_since_1990_excl_logit,R,women_members_since_1990_excl,logit,y2024,2024년(기준: 2008년),-0.010554,0.226366,-0.0466238,0.962813,-0.454223,0.433115,26937,318,0.622455
 R_women_members_since_1990_excl_logit,R,women_members_since_1990_excl,logit,const,상수,0.168727,0.373582,0.451646,0.651524,-0.563481,0.900935,26937,318,0.622455
-R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,female,여성 유권자,-0.00892069,0.0154241,-0.578359,0.563433,-0.0392673,0.0214259,26937,318,0.688931
-R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,prior,기존 여성 있음,-0.0175488,0.0134159,-1.30806,0.191802,-0.0439444,0.00884673,26937,318,0.688931
-R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,female_x_prior,여성 유권자 × 기존 여성 있음,0.00554037,0.0166496,0.332764,0.739533,-0.0272172,0.038298,26937,318,0.688931
-R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,copart,여성 후보와 같은 정당 지지(기우는 무당파 포함),0.271625,0.0152184,17.8484,8.25123e-50,0.241683,0.301567,26937,318,0.688931
-R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,outpart,여성 후보와 반대 정당 지지,-0.408174,0.0162702,-25.0871,2.82906e-77,-0.440185,-0.376162,26937,318,0.688931
-R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,same_race_w,여성 후보와 같은 인종,0.00127533,0.00817855,0.155936,0.876183,-0.0148158,0.0173664,26937,318,0.688931
-R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,same_race_m,남성 후보와 같은 인종,0.00525431,0.00784005,0.670189,0.503225,-0.0101708,0.0206794,26937,318,0.688931
-R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,m_race_unk,남성 후보 인종 모름,0.0260162,0.0155205,1.67624,0.0946767,-0.0045201,0.0565525,26937,318,0.688931
-R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,w_nonwhite,여성 후보가 백인 아님,-0.0044481,0.00878516,-0.50632,0.612984,-0.0217327,0.0128365,26937,318,0.688931
-R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,m_nonwhite,남성 후보가 백인 아님,0.0177829,0.0096661,1.83972,0.066745,-0.00123495,0.0368007,26937,318,0.688931
-R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,r_black,응답자 흑인(기준: 백인),-0.0994111,0.0106603,-9.32538,1.96131e-18,-0.120385,-0.0784373,26937,318,0.688931
-R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,r_hisp,응답자 히스패닉,-0.0218274,0.0128097,-1.70398,0.0893647,-0.0470302,0.00337529,26937,318,0.688931
-R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,r_asian,응답자 아시아계,0.00274052,0.0174966,0.156632,0.875635,-0.0316835,0.0371646,26937,318,0.688931
-R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,r_other,응답자 그 밖 인종,0.00597612,0.0187648,0.318475,0.750334,-0.0309432,0.0428954,26937,318,0.688931
-R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,college,4년제 대졸 이상,-0.0190057,0.00497155,-3.82288,0.00015878,-0.0287871,-0.00922425,26937,318,0.688931
-R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,age10,나이(10세),0.00217689,0.00156882,1.3876,0.166233,-0.000909716,0.0052635,26937,318,0.688931
-R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,lib,진보(기준: 중도),-0.0965824,0.00824638,-11.7121,1.43282e-26,-0.112807,-0.0803579,26937,318,0.688931
-R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,con,보수,0.142085,0.0101382,14.0148,4.6354e-35,0.122138,0.162032,26937,318,0.688931
-R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,ideo_ns,이념 모름,0.0523754,0.025777,2.03187,0.0430008,0.0016598,0.103091,26937,318,0.688931
-R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,pvi,당파 지수(+민주),-0.000441295,0.000516292,-0.854739,0.393341,-0.00145709,0.000574497,26937,318,0.688931
-R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,rural,농촌 인구 비율(%),0.000346313,0.000310185,1.11647,0.265066,-0.000263968,0.000956593,26937,318,0.688931
-R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,black_nh,선거구 흑인 비율(%),0.000253756,0.00033358,0.760706,0.447398,-0.000402554,0.000910066,26937,318,0.688931
-R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,hisp_d,선거구 히스패닉 비율(%),0.000247894,0.000278271,0.890836,0.373693,-0.000299597,0.000795384,26937,318,0.688931
-R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,asian_nh,선거구 아시아계 비율(%),-8.77179e-05,0.000654027,-0.13412,0.893393,-0.0013745,0.00119906,26937,318,0.688931
-R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,ba_plus,선거구 대졸 비율(%),0.000904667,0.000594414,1.52195,0.129019,-0.000264829,0.00207416,26937,318,0.688931
-R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,inc10k,선거구 가구 소득 중앙값(만 달러),-0.00293165,0.00336653,-0.870822,0.384511,-0.00955522,0.00369192,26937,318,0.688931
-R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,w_inc,여성 후보가 현직,0.030413,0.0111976,2.71604,0.00696932,0.00838206,0.0524439,26937,318,0.688931
-R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,m_inc,남성 후보가 현직,-0.0283611,0.0110164,-2.57445,0.0104935,-0.0500355,-0.00668664,26937,318,0.688931
-R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,y2010,2010년(기준: 2008년),-0.00647575,0.0153065,-0.423071,0.67253,-0.0365909,0.0236395,26937,318,0.688931
-R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,y2012,2012년(기준: 2008년),0.00391223,0.0164847,0.237324,0.812558,-0.028521,0.0363455,26937,318,0.688931
-R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,y2014,2014년(기준: 2008년),-0.0010585,0.0160975,-0.0657556,0.947614,-0.03273,0.030613,26937,318,0.688931
-R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,y2016,2016년(기준: 2008년),-0.0176993,0.015155,-1.16788,0.243731,-0.0475163,0.0121178,26937,318,0.688931
-R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,y2018,2018년(기준: 2008년),-0.0260619,0.0160816,-1.62061,0.106096,-0.0577021,0.00557822,26937,318,0.688931
-R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,y2020,2020년(기준: 2008년),-0.00128548,0.0148229,-0.0867225,0.930947,-0.0304491,0.0278782,26937,318,0.688931
-R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,y2022,2022년(기준: 2008년),-0.00527675,0.0155458,-0.339434,0.734508,-0.0358626,0.0253091,26937,318,0.688931
-R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,y2024,2024년(기준: 2008년),-0.00576822,0.0175977,-0.327783,0.743292,-0.0403912,0.0288548,26937,318,0.688931
-R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,const,상수,0.540633,0.0331541,16.3067,7.76791e-44,0.475403,0.605863,26937,318,0.688931
-R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,female,여성 유권자,-0.060844,0.212378,-0.286489,0.774503,-0.477097,0.355409,26937,318,0.622395
-R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,prior,기존 여성 있음,-0.216503,0.183317,-1.18103,0.237589,-0.575798,0.142791,26937,318,0.622395
-R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,female_x_prior,여성 유권자 × 기존 여성 있음,0.016423,0.227996,0.0720318,0.942577,-0.430441,0.463287,26937,318,0.622395
-R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,copart,여성 후보와 같은 정당 지지(기우는 무당파 포함),1.73107,0.0932282,18.5681,5.82659e-77,1.54834,1.91379,26937,318,0.622395
-R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,outpart,여성 후보와 반대 정당 지지,-2.28844,0.0960456,-23.8266,1.77011e-125,-2.47669,-2.1002,26937,318,0.622395
-R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,same_race_w,여성 후보와 같은 인종,-0.000588742,0.114217,-0.0051546,0.995887,-0.22445,0.223272,26937,318,0.622395
-R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,same_race_m,남성 후보와 같은 인종,0.0710784,0.107357,0.662077,0.507922,-0.139337,0.281494,26937,318,0.622395
-R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,m_race_unk,남성 후보 인종 모름,0.303807,0.199466,1.52311,0.127732,-0.0871378,0.694753,26937,318,0.622395
-R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,w_nonwhite,여성 후보가 백인 아님,-0.0571776,0.114187,-0.500735,0.616558,-0.280981,0.166626,26937,318,0.622395
-R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,m_nonwhite,남성 후보가 백인 아님,0.237255,0.12705,1.86742,0.0618428,-0.0117576,0.486267,26937,318,0.622395
-R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,r_black,응답자 흑인(기준: 백인),-1.26674,0.165862,-7.6373,2.21818e-14,-1.59182,-0.941656,26937,318,0.622395
-R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,r_hisp,응답자 히스패닉,-0.23345,0.148784,-1.56905,0.116636,-0.525062,0.0581615,26937,318,0.622395
-R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,r_asian,응답자 아시아계,0.0804471,0.201352,0.399534,0.6895,-0.314196,0.47509,26937,318,0.622395
-R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,r_other,응답자 그 밖 인종,0.0527481,0.198935,0.265152,0.790892,-0.337158,0.442654,26937,318,0.622395
-R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,college,4년제 대졸 이상,-0.243505,0.0646964,-3.76381,0.000167347,-0.370307,-0.116702,26937,318,0.622395
-R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,age10,나이(10세),0.00811523,0.0214277,0.378726,0.704891,-0.0338822,0.0501127,26937,318,0.622395
-R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,lib,진보(기준: 중도),-1.28651,0.104681,-12.2898,1.02711e-34,-1.49168,-1.08134,26937,318,0.622395
-R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,con,보수,1.2763,0.0822823,15.5112,2.91377e-54,1.11503,1.43757,26937,318,0.622395
-R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,ideo_ns,이념 모름,0.368364,0.188686,1.95226,0.0509069,-0.0014529,0.738181,26937,318,0.622395
-R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,pvi,당파 지수(+민주),-0.00722623,0.00695049,-1.03967,0.298493,-0.0208489,0.00639649,26937,318,0.622395
-R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,rural,농촌 인구 비율(%),0.00341893,0.00396746,0.861744,0.388828,-0.00435714,0.011195,26937,318,0.622395
-R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,black_nh,선거구 흑인 비율(%),0.00339409,0.00435385,0.779561,0.435649,-0.0051393,0.0119275,26937,318,0.622395
-R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,hisp_d,선거구 히스패닉 비율(%),0.00282851,0.00341552,0.828133,0.407595,-0.00386579,0.0095228,26937,318,0.622395
-R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,asian_nh,선거구 아시아계 비율(%),0.00112076,0.00804367,0.139334,0.889186,-0.0146446,0.0168861,26937,318,0.622395
-R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,ba_plus,선거구 대졸 비율(%),0.0114342,0.00785915,1.45489,0.1457,-0.00396947,0.0268378,26937,318,0.622395
-R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,inc10k,선거구 가구 소득 중앙값(만 달러),-0.0449755,0.0448038,-1.00383,0.315459,-0.132789,0.0428383,26937,318,0.622395
-R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,w_inc,여성 후보가 현직,0.368089,0.153001,2.40579,0.0161373,0.0682126,0.667966,26937,318,0.622395
-R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,m_inc,남성 후보가 현직,-0.371139,0.145599,-2.54905,0.0108018,-0.656509,-0.0857698,26937,318,0.622395
-R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,y2010,2010년(기준: 2008년),-0.101309,0.19852,-0.51032,0.609827,-0.490401,0.287784,26937,318,0.622395
-R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,y2012,2012년(기준: 2008년),0.0198529,0.207806,0.0955357,0.923889,-0.387439,0.427145,26937,318,0.622395
-R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,y2014,2014년(기준: 2008년),-0.036583,0.201687,-0.181385,0.856065,-0.431881,0.358715,26937,318,0.622395
-R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,y2016,2016년(기준: 2008년),-0.252344,0.186035,-1.35643,0.174961,-0.616965,0.112278,26937,318,0.622395
-R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,y2018,2018년(기준: 2008년),-0.372133,0.213238,-1.74515,0.0809589,-0.790073,0.0458068,26937,318,0.622395
-R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,y2020,2020년(기준: 2008년),0.0235319,0.189821,0.123969,0.90134,-0.34851,0.395574,26937,318,0.622395
-R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,y2022,2022년(기준: 2008년),-0.0249044,0.205148,-0.121397,0.903376,-0.426987,0.377178,26937,318,0.622395
-R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,y2024,2024년(기준: 2008년),-0.00222622,0.228856,-0.00972758,0.992239,-0.450776,0.446324,26937,318,0.622395
-R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,const,상수,0.284945,0.398249,0.715494,0.474304,-0.495609,1.0655,26937,318,0.622395
-R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,female,여성 유권자,-0.0129013,0.0100574,-1.28277,0.200511,-0.0326889,0.00688639,26937,318,0.689225
-R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,prior,기존 여성 있음,-0.028637,0.0101926,-2.80957,0.00526892,-0.0486908,-0.00858318,26937,318,0.689225
-R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,female_x_prior,여성 유권자 × 기존 여성 있음,0.0117374,0.0120548,0.973676,0.33096,-0.01198,0.0354549,26937,318,0.689225
-R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,copart,여성 후보와 같은 정당 지지(기우는 무당파 포함),0.27144,0.0151633,17.9011,5.15663e-50,0.241606,0.301273,26937,318,0.689225
-R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,outpart,여성 후보와 반대 정당 지지,-0.408364,0.0161953,-25.2149,9.65692e-78,-0.440228,-0.3765,26937,318,0.689225
-R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,same_race_w,여성 후보와 같은 인종,0.000634908,0.00812915,0.0781027,0.937796,-0.015359,0.0166288,26937,318,0.689225
-R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,same_race_m,남성 후보와 같은 인종,0.00608127,0.00780673,0.778978,0.436574,-0.00927828,0.0214408,26937,318,0.689225
-R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,m_race_unk,남성 후보 인종 모름,0.0262547,0.0153775,1.70735,0.088737,-0.00400015,0.0565095,26937,318,0.689225
-R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,w_nonwhite,여성 후보가 백인 아님,-0.00507961,0.00865602,-0.58683,0.557736,-0.0221101,0.0119509,26937,318,0.689225
-R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,m_nonwhite,남성 후보가 백인 아님,0.0175135,0.00952287,1.8391,0.0668361,-0.00122254,0.0362495,26937,318,0.689225
-R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,r_black,응답자 흑인(기준: 백인),-0.0997413,0.0106835,-9.33598,1.81335e-18,-0.120761,-0.0787217,26937,318,0.689225
-R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,r_hisp,응답자 히스패닉,-0.0218406,0.0128061,-1.70549,0.0890827,-0.0470362,0.00335501,26937,318,0.689225
-R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,r_asian,응답자 아시아계,0.00236434,0.017521,0.134943,0.892742,-0.0321078,0.0368365,26937,318,0.689225
-R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,r_other,응답자 그 밖 인종,0.00616153,0.0187769,0.328144,0.743019,-0.0307816,0.0431046,26937,318,0.689225
-R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,college,4년제 대졸 이상,-0.0190471,0.00495482,-3.84415,0.000146183,-0.0287956,-0.0092986,26937,318,0.689225
-R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,age10,나이(10세),0.00217474,0.00156229,1.39202,0.164892,-0.000899029,0.00524852,26937,318,0.689225
-R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,lib,진보(기준: 중도),-0.0962687,0.00819704,-11.7443,1.0989e-26,-0.112396,-0.0801412,26937,318,0.689225
-R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,con,보수,0.142106,0.0101217,14.0397,3.73289e-35,0.122192,0.16202,26937,318,0.689225
-R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,ideo_ns,이념 모름,0.0521551,0.0257777,2.02326,0.043885,0.00143804,0.102872,26937,318,0.689225
-R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,pvi,당파 지수(+민주),-0.000304449,0.000511746,-0.594922,0.55232,-0.0013113,0.000702399,26937,318,0.689225
-R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,rural,농촌 인구 비율(%),0.000376983,0.000308861,1.22056,0.223161,-0.000230695,0.00098466,26937,318,0.689225
-R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,black_nh,선거구 흑인 비율(%),6.59778e-05,0.000341606,0.19314,0.846973,-0.000606124,0.000738079,26937,318,0.689225
-R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,hisp_d,선거구 히스패닉 비율(%),0.000212977,0.000280431,0.759463,0.44814,-0.000338764,0.000764717,26937,318,0.689225
-R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,asian_nh,선거구 아시아계 비율(%),-0.000191542,0.000635639,-0.301338,0.763355,-0.00144215,0.00105906,26937,318,0.689225
-R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,ba_plus,선거구 대졸 비율(%),0.000930972,0.0005764,1.61515,0.107273,-0.000203081,0.00206503,26937,318,0.689225
-R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,inc10k,선거구 가구 소득 중앙값(만 달러),-0.00366146,0.00327045,-1.11956,0.263749,-0.010096,0.00277306,26937,318,0.689225
-R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,w_inc,여성 후보가 현직,0.0283335,0.011102,2.5521,0.0111763,0.00649051,0.0501764,26937,318,0.689225
-R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,m_inc,남성 후보가 현직,-0.0275754,0.0112045,-2.4611,0.0143836,-0.0496199,-0.00553083,26937,318,0.689225
-R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,y2010,2010년(기준: 2008년),-0.00398482,0.0153218,-0.260075,0.794975,-0.0341301,0.0261604,26937,318,0.689225
-R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,y2012,2012년(기준: 2008년),0.00735689,0.0162567,0.452546,0.651185,-0.0246277,0.0393415,26937,318,0.689225
-R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,y2014,2014년(기준: 2008년),0.000291837,0.0163662,0.0178317,0.985784,-0.0319082,0.0324919,26937,318,0.689225
-R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,y2016,2016년(기준: 2008년),-0.0129751,0.0151162,-0.858352,0.391347,-0.0427159,0.0167658,26937,318,0.689225
-R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,y2018,2018년(기준: 2008년),-0.0220039,0.0159663,-1.37815,0.16913,-0.0534172,0.00940943,26937,318,0.689225
-R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,y2020,2020년(기준: 2008년),0.0045904,0.0150672,0.304663,0.760823,-0.0250539,0.0342347,26937,318,0.689225
-R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,y2022,2022년(기준: 2008년),0.000291105,0.0155012,0.0187795,0.985029,-0.0302071,0.0307894,26937,318,0.689225
-R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,y2024,2024년(기준: 2008년),0.00213854,0.017919,0.119344,0.905078,-0.0331167,0.0373938,26937,318,0.689225
-R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,const,상수,0.549443,0.0328964,16.7022,2.29086e-45,0.48472,0.614165,26937,318,0.689225
-R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,female,여성 유권자,-0.156625,0.136498,-1.14745,0.251195,-0.424156,0.110906,26937,318,0.623057
-R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,prior,기존 여성 있음,-0.373275,0.136006,-2.74455,0.00605939,-0.639841,-0.106708,26937,318,0.623057
-R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,female_x_prior,여성 유권자 × 기존 여성 있음,0.142097,0.162633,0.87373,0.382266,-0.176657,0.460851,26937,318,0.623057
-R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,copart,여성 후보와 같은 정당 지지(기우는 무당파 포함),1.73048,0.0930933,18.5887,3.96674e-77,1.54802,1.91294,26937,318,0.623057
-R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,outpart,여성 후보와 반대 정당 지지,-2.29496,0.0952065,-24.1051,2.21226e-128,-2.48156,-2.10836,26937,318,0.623057
-R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,same_race_w,여성 후보와 같은 인종,-0.00784508,0.113735,-0.0689765,0.945008,-0.230762,0.215072,26937,318,0.623057
-R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,same_race_m,남성 후보와 같은 인종,0.079766,0.106678,0.747728,0.454624,-0.129319,0.288851,26937,318,0.623057
-R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,m_race_unk,남성 후보 인종 모름,0.290191,0.199795,1.45245,0.146377,-0.101399,0.681782,26937,318,0.623057
-R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,w_nonwhite,여성 후보가 백인 아님,-0.0669865,0.112391,-0.596015,0.551165,-0.287268,0.153295,26937,318,0.623057
-R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,m_nonwhite,남성 후보가 백인 아님,0.230647,0.124838,1.84756,0.0646654,-0.0140318,0.475326,26937,318,0.623057
-R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,r_black,응답자 흑인(기준: 백인),-1.27558,0.166158,-7.67689,1.62992e-14,-1.60124,-0.949914,26937,318,0.623057
-R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,r_hisp,응답자 히스패닉,-0.230474,0.149271,-1.544,0.122587,-0.52304,0.0620906,26937,318,0.623057
-R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,r_asian,응답자 아시아계,0.0682715,0.202235,0.337585,0.735676,-0.328102,0.464645,26937,318,0.623057
-R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,r_other,응답자 그 밖 인종,0.0595734,0.199303,0.298908,0.76501,-0.331054,0.450201,26937,318,0.623057
-R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,college,4년제 대졸 이상,-0.242134,0.064435,-3.7578,0.000171414,-0.368424,-0.115844,26937,318,0.623057
-R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,age10,나이(10세),0.00758258,0.0213456,0.355229,0.722418,-0.0342541,0.0494192,26937,318,0.623057
-R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,lib,진보(기준: 중도),-1.28338,0.104236,-12.3122,7.7895e-35,-1.48767,-1.07908,26937,318,0.623057
-R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,con,보수,1.28175,0.0823246,15.5694,1.17458e-54,1.12039,1.4431,26937,318,0.623057
-R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,ideo_ns,이념 모름,0.359311,0.188679,1.90435,0.0568641,-0.0104925,0.729115,26937,318,0.623057
-R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,pvi,당파 지수(+민주),-0.00546448,0.00689859,-0.792115,0.428294,-0.0189855,0.00805652,26937,318,0.623057
-R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,rural,농촌 인구 비율(%),0.00373756,0.00394368,0.947733,0.343265,-0.00399192,0.011467,26937,318,0.623057
-R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,black_nh,선거구 흑인 비율(%),0.000983692,0.00444594,0.221256,0.824893,-0.00773019,0.00969758,26937,318,0.623057
-R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,hisp_d,선거구 히스패닉 비율(%),0.00232594,0.00345559,0.673095,0.500887,-0.00444689,0.00909877,26937,318,0.623057
-R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,asian_nh,선거구 아시아계 비율(%),-0.000334089,0.00785267,-0.0425446,0.966065,-0.015725,0.0150569,26937,318,0.623057
-R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,ba_plus,선거구 대졸 비율(%),0.0120683,0.00758711,1.59064,0.111692,-0.00280213,0.0269388,26937,318,0.623057
-R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,inc10k,선거구 가구 소득 중앙값(만 달러),-0.0569607,0.0434613,-1.31061,0.18999,-0.142143,0.0282219,26937,318,0.623057
-R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,w_inc,여성 후보가 현직,0.336332,0.153378,2.19283,0.0283197,0.0357163,0.636947,26937,318,0.623057
-R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,m_inc,남성 후보가 현직,-0.366702,0.148289,-2.47289,0.0134025,-0.657343,-0.0760615,26937,318,0.623057
-R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,y2010,2010년(기준: 2008년),-0.0646879,0.199207,-0.324727,0.745388,-0.455127,0.325751,26937,318,0.623057
-R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,y2012,2012년(기준: 2008년),0.0657148,0.204903,0.320711,0.748429,-0.335888,0.467318,26937,318,0.623057
-R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,y2014,2014년(기준: 2008년),-0.0162098,0.204784,-0.0791557,0.936909,-0.41758,0.38516,26937,318,0.623057
-R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,y2016,2016년(기준: 2008년),-0.18701,0.186337,-1.00361,0.315567,-0.552224,0.178204,26937,318,0.623057
-R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,y2018,2018년(기준: 2008년),-0.317643,0.209023,-1.51966,0.128597,-0.72732,0.092034,26937,318,0.623057
-R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,y2020,2020년(기준: 2008년),0.102333,0.193504,0.528844,0.596914,-0.276928,0.481594,26937,318,0.623057
-R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,y2022,2022년(기준: 2008년),0.0535436,0.205027,0.261154,0.793973,-0.348301,0.455389,26937,318,0.623057
-R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,y2024,2024년(기준: 2008년),0.112857,0.232717,0.484955,0.627708,-0.343259,0.568974,26937,318,0.623057
-R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,const,상수,0.428173,0.389466,1.09938,0.2716,-0.335167,1.19151,26937,318,0.623057
+R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,female,여성 유권자,-0.00584856,0.0154592,-0.378323,0.705444,-0.0362641,0.024567,26937,318,0.688965
+R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,prior,기존 여성 있음,-0.0184987,0.0132825,-1.39271,0.164682,-0.0446316,0.00763426,26937,318,0.688965
+R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,female_x_prior,여성 유권자 × 기존 여성 있음,0.001901,0.0167089,0.113772,0.909491,-0.0309733,0.0347753,26937,318,0.688965
+R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,copart,여성 후보와 같은 정당 지지(기우는 무당파 포함),0.271646,0.0152194,17.8486,8.23639e-50,0.241702,0.30159,26937,318,0.688965
+R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,outpart,여성 후보와 반대 정당 지지,-0.408231,0.0162638,-25.1005,2.52742e-77,-0.440229,-0.376232,26937,318,0.688965
+R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,same_race_w,여성 후보와 같은 인종,0.00126789,0.00816713,0.155243,0.876729,-0.0148007,0.0173365,26937,318,0.688965
+R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,same_race_m,남성 후보와 같은 인종,0.00515654,0.0078246,0.659016,0.510364,-0.0102382,0.0205513,26937,318,0.688965
+R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,m_race_unk,남성 후보 인종 모름,0.0259918,0.015532,1.67343,0.0952282,-0.00456704,0.0565506,26937,318,0.688965
+R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,w_nonwhite,여성 후보가 백인 아님,-0.0045159,0.00875122,-0.51603,0.606193,-0.0217337,0.0127019,26937,318,0.688965
+R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,m_nonwhite,남성 후보가 백인 아님,0.0175092,0.009649,1.81461,0.0705283,-0.00147496,0.0364934,26937,318,0.688965
+R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,r_black,응답자 흑인(기준: 백인),-0.0995075,0.0106605,-9.33423,1.8369e-18,-0.120482,-0.0785333,26937,318,0.688965
+R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,r_hisp,응답자 히스패닉,-0.0218478,0.0127994,-1.70694,0.0888126,-0.0470303,0.00333471,26937,318,0.688965
+R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,r_asian,응답자 아시아계,0.00272084,0.0174981,0.155493,0.876531,-0.0317062,0.0371479,26937,318,0.688965
+R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,r_other,응답자 그 밖 인종,0.00595457,0.0187589,0.317427,0.751128,-0.030953,0.0428622,26937,318,0.688965
+R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,college,4년제 대졸 이상,-0.0190281,0.00497148,-3.82746,0.000155988,-0.0288094,-0.00924685,26937,318,0.688965
+R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,age10,나이(10세),0.00217999,0.00156873,1.38966,0.165609,-0.000906444,0.00526643,26937,318,0.688965
+R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,lib,진보(기준: 중도),-0.0964776,0.00824528,-11.701,1.57056e-26,-0.1127,-0.0802553,26937,318,0.688965
+R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,con,보수,0.142055,0.0101402,14.009,4.87504e-35,0.122104,0.162005,26937,318,0.688965
+R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,ideo_ns,이념 모름,0.0522626,0.02571,2.03278,0.0429081,0.00167891,0.102846,26937,318,0.688965
+R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,pvi,당파 지수(+민주),-0.000428424,0.000513905,-0.833663,0.405098,-0.00143952,0.000582672,26937,318,0.688965
+R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,rural,농촌 인구 비율(%),0.000342787,0.000309052,1.10916,0.268204,-0.000265265,0.00095084,26937,318,0.688965
+R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,black_nh,선거구 흑인 비율(%),0.00025355,0.000333778,0.759637,0.448036,-0.000403151,0.000910251,26937,318,0.688965
+R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,hisp_d,선거구 히스패닉 비율(%),0.00023261,0.000275331,0.844838,0.398839,-0.000309097,0.000774317,26937,318,0.688965
+R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,asian_nh,선거구 아시아계 비율(%),-9.08868e-05,0.000654478,-0.138869,0.889642,-0.00137856,0.00119678,26937,318,0.688965
+R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,ba_plus,선거구 대졸 비율(%),0.000894651,0.000592967,1.50877,0.132354,-0.000271998,0.0020613,26937,318,0.688965
+R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,inc10k,선거구 가구 소득 중앙값(만 달러),-0.0029077,0.00336863,-0.863169,0.388697,-0.0095354,0.00372,26937,318,0.688965
+R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,w_inc,여성 후보가 현직,0.0317038,0.0111547,2.84219,0.00477085,0.00975723,0.0536504,26937,318,0.688965
+R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,m_inc,남성 후보가 현직,-0.0277737,0.0110268,-2.51874,0.0122694,-0.0494687,-0.00607868,26937,318,0.688965
+R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,y2010,2010년(기준: 2008년),-0.00664439,0.0153748,-0.432161,0.665918,-0.0368939,0.0236052,26937,318,0.688965
+R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,y2012,2012년(기준: 2008년),0.00395709,0.0164742,0.240199,0.810331,-0.0284556,0.0363697,26937,318,0.688965
+R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,y2014,2014년(기준: 2008년),-0.00106137,0.0160897,-0.065966,0.947446,-0.0327175,0.0305947,26937,318,0.688965
+R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,y2016,2016년(기준: 2008년),-0.0177795,0.0151752,-1.17162,0.242231,-0.0476364,0.0120773,26937,318,0.688965
+R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,y2018,2018년(기준: 2008년),-0.0261758,0.0160866,-1.62718,0.104693,-0.0578258,0.00547421,26937,318,0.688965
+R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,y2020,2020년(기준: 2008년),-0.00121573,0.0148632,-0.0817946,0.934862,-0.0304588,0.0280273,26937,318,0.688965
+R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,y2022,2022년(기준: 2008년),-0.00507167,0.0155787,-0.325552,0.744978,-0.0357223,0.025579,26937,318,0.688965
+R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,y2024,2024년(기준: 2008년),-0.00567829,0.0176477,-0.321757,0.747849,-0.0403998,0.0290432,26937,318,0.688965
+R_women_prior_since_1990_lpm,R,women_prior_since_1990,lpm,const,상수,0.541276,0.0330838,16.3608,4.79785e-44,0.476185,0.606368,26937,318,0.688965
+R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,female,여성 유권자,-0.0157821,0.211073,-0.074771,0.940397,-0.429478,0.397913,26937,318,0.622495
+R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,prior,기존 여성 있음,-0.22814,0.180351,-1.26498,0.205878,-0.581621,0.125341,26937,318,0.622495
+R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,female_x_prior,여성 유권자 × 기존 여성 있음,-0.0367243,0.22706,-0.161738,0.871512,-0.481753,0.408305,26937,318,0.622495
+R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,copart,여성 후보와 같은 정당 지지(기우는 무당파 포함),1.73189,0.0932929,18.564,6.28693e-77,1.54904,1.91474,26937,318,0.622495
+R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,outpart,여성 후보와 반대 정당 지지,-2.29011,0.0958342,-23.8965,3.32691e-126,-2.47794,-2.10227,26937,318,0.622495
+R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,same_race_w,여성 후보와 같은 인종,-0.00193409,0.113553,-0.0170326,0.986411,-0.224493,0.220625,26937,318,0.622495
+R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,same_race_m,남성 후보와 같은 인종,0.0677774,0.106883,0.634129,0.525996,-0.141709,0.277264,26937,318,0.622495
+R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,m_race_unk,남성 후보 인종 모름,0.302083,0.199758,1.51225,0.130471,-0.0894351,0.693602,26937,318,0.622495
+R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,w_nonwhite,여성 후보가 백인 아님,-0.0589527,0.113362,-0.52004,0.603036,-0.281138,0.163233,26937,318,0.622495
+R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,m_nonwhite,남성 후보가 백인 아님,0.232604,0.126807,1.83432,0.0666065,-0.0159325,0.481141,26937,318,0.622495
+R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,r_black,응답자 흑인(기준: 백인),-1.27005,0.165785,-7.66085,1.847e-14,-1.59498,-0.94512,26937,318,0.622495
+R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,r_hisp,응답자 히스패닉,-0.235884,0.14791,-1.59478,0.110761,-0.525782,0.0540139,26937,318,0.622495
+R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,r_asian,응답자 아시아계,0.078155,0.201015,0.388801,0.697423,-0.315828,0.472138,26937,318,0.622495
+R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,r_other,응답자 그 밖 인종,0.0502048,0.198498,0.252924,0.800327,-0.338844,0.439253,26937,318,0.622495
+R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,college,4년제 대졸 이상,-0.243792,0.0647155,-3.76714,0.000165128,-0.370632,-0.116952,26937,318,0.622495
+R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,age10,나이(10세),0.00803336,0.0214289,0.374885,0.707746,-0.0339664,0.0500331,26937,318,0.622495
+R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,lib,진보(기준: 중도),-1.28514,0.104707,-12.2737,1.25354e-34,-1.49036,-1.07992,26937,318,0.622495
+R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,con,보수,1.27663,0.0823041,15.5111,2.9184e-54,1.11531,1.43794,26937,318,0.622495
+R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,ideo_ns,이념 모름,0.366749,0.187427,1.95676,0.0503763,-0.000601419,0.7341,26937,318,0.622495
+R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,pvi,당파 지수(+민주),-0.00705805,0.00691536,-1.02063,0.307428,-0.0206119,0.0064958,26937,318,0.622495
+R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,rural,농촌 인구 비율(%),0.00334156,0.00394661,0.846693,0.397166,-0.00439364,0.0110768,26937,318,0.622495
+R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,black_nh,선거구 흑인 비율(%),0.0033933,0.00435617,0.778964,0.436001,-0.00514463,0.0119312,26937,318,0.622495
+R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,hisp_d,선거구 히스패닉 비율(%),0.00259975,0.00337318,0.770713,0.440877,-0.00401156,0.00921105,26937,318,0.622495
+R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,asian_nh,선거구 아시아계 비율(%),0.00108553,0.00804305,0.134964,0.89264,-0.0146786,0.0168496,26937,318,0.622495
+R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,ba_plus,선거구 대졸 비율(%),0.0112351,0.00783994,1.43306,0.151841,-0.00413091,0.0266011,26937,318,0.622495
+R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,inc10k,선거구 가구 소득 중앙값(만 달러),-0.0444297,0.0448773,-0.990026,0.322162,-0.132388,0.0435282,26937,318,0.622495
+R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,w_inc,여성 후보가 현직,0.385629,0.152334,2.53146,0.0113588,0.0870587,0.684198,26937,318,0.622495
+R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,m_inc,남성 후보가 현직,-0.363779,0.145513,-2.49998,0.0124199,-0.648978,-0.0785797,26937,318,0.622495
+R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,y2010,2010년(기준: 2008년),-0.103911,0.19949,-0.520885,0.602447,-0.494905,0.287082,26937,318,0.622495
+R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,y2012,2012년(기준: 2008년),0.0209008,0.207828,0.100568,0.919893,-0.386434,0.428235,26937,318,0.622495
+R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,y2014,2014년(기준: 2008년),-0.0383274,0.201515,-0.190196,0.849156,-0.43329,0.356635,26937,318,0.622495
+R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,y2016,2016년(기준: 2008년),-0.253665,0.186393,-1.36091,0.173542,-0.618989,0.11166,26937,318,0.622495
+R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,y2018,2018년(기준: 2008년),-0.375152,0.21316,-1.75996,0.0784149,-0.792937,0.0426332,26937,318,0.622495
+R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,y2020,2020년(기준: 2008년),0.0234871,0.190229,0.123468,0.901737,-0.349354,0.396329,26937,318,0.622495
+R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,y2022,2022년(기준: 2008년),-0.022411,0.2056,-0.109003,0.9132,-0.42538,0.380558,26937,318,0.622495
+R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,y2024,2024년(기준: 2008년),-0.000790475,0.229478,-0.00344466,0.997252,-0.450559,0.448978,26937,318,0.622495
+R_women_prior_since_1990_logit,R,women_prior_since_1990,logit,const,상수,0.29855,0.397078,0.751866,0.452132,-0.47971,1.07681,26937,318,0.622495
+R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,female,여성 유권자,-0.0112284,0.0100723,-1.11478,0.265788,-0.0310454,0.00858855,26937,318,0.68927
+R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,prior,기존 여성 있음,-0.0290446,0.0101358,-2.86554,0.0044412,-0.0489866,-0.00910259,26937,318,0.68927
+R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,female_x_prior,여성 유권자 × 기존 여성 있음,0.0094241,0.0120839,0.779889,0.436038,-0.0143507,0.0331989,26937,318,0.68927
+R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,copart,여성 후보와 같은 정당 지지(기우는 무당파 포함),0.271486,0.0151626,17.9049,4.98292e-50,0.241654,0.301318,26937,318,0.68927
+R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,outpart,여성 후보와 반대 정당 지지,-0.408427,0.016188,-25.2302,8.49313e-78,-0.440277,-0.376578,26937,318,0.68927
+R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,same_race_w,여성 후보와 같은 인종,0.0004895,0.00809804,0.0604467,0.951838,-0.0154432,0.0164222,26937,318,0.68927
+R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,same_race_m,남성 후보와 같은 인종,0.00605353,0.00780315,0.77578,0.438457,-0.00929898,0.021406,26937,318,0.68927
+R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,m_race_unk,남성 후보 인종 모름,0.0261795,0.0153848,1.70164,0.0898032,-0.00408983,0.0564488,26937,318,0.68927
+R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,w_nonwhite,여성 후보가 백인 아님,-0.00531454,0.00861131,-0.617157,0.537574,-0.0222571,0.011628,26937,318,0.68927
+R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,m_nonwhite,남성 후보가 백인 아님,0.0173028,0.00949775,1.82177,0.0694316,-0.00138384,0.0359894,26937,318,0.68927
+R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,r_black,응답자 흑인(기준: 백인),-0.0998711,0.0106837,-9.34797,1.65918e-18,-0.120891,-0.0788512,26937,318,0.68927
+R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,r_hisp,응답자 히스패닉,-0.0219164,0.0127907,-1.71346,0.0876056,-0.0470819,0.00324905,26937,318,0.68927
+R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,r_asian,응답자 아시아계,0.00228294,0.0175157,0.130337,0.896383,-0.0321788,0.0367447,26937,318,0.68927
+R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,r_other,응답자 그 밖 인종,0.0060791,0.0187752,0.323784,0.746315,-0.0308606,0.0430188,26937,318,0.68927
+R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,college,4년제 대졸 이상,-0.0190501,0.00495363,-3.8457,0.000145307,-0.0287963,-0.00930401,26937,318,0.68927
+R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,age10,나이(10세),0.00218111,0.0015622,1.39618,0.163637,-0.00089248,0.00525471,26937,318,0.68927
+R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,lib,진보(기준: 중도),-0.0961497,0.00819317,-11.7353,1.18322e-26,-0.11227,-0.0800298,26937,318,0.68927
+R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,con,보수,0.142075,0.0101229,14.035,3.89005e-35,0.122158,0.161991,26937,318,0.68927
+R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,ideo_ns,이념 모름,0.0519667,0.0257153,2.02085,0.044136,0.00137246,0.102561,26937,318,0.68927
+R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,pvi,당파 지수(+민주),-0.000284967,0.000509396,-0.559422,0.576269,-0.00128719,0.000717257,26937,318,0.68927
+R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,rural,농촌 인구 비율(%),0.00037389,0.000307834,1.21458,0.225428,-0.000231765,0.000979546,26937,318,0.68927
+R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,black_nh,선거구 흑인 비율(%),5.31189e-05,0.000342116,0.155266,0.876711,-0.000619986,0.000726223,26937,318,0.68927
+R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,hisp_d,선거구 히스패닉 비율(%),0.000196298,0.000277814,0.706579,0.480347,-0.000350295,0.00074289,26937,318,0.68927
+R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,asian_nh,선거구 아시아계 비율(%),-0.000194281,0.000634976,-0.305966,0.759832,-0.00144358,0.00105502,26937,318,0.68927
+R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,ba_plus,선거구 대졸 비율(%),0.000920406,0.000574769,1.60135,0.110295,-0.000210438,0.00205125,26937,318,0.68927
+R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,inc10k,선거구 가구 소득 중앙값(만 달러),-0.0036808,0.0032704,-1.12549,0.261233,-0.0101152,0.00275364,26937,318,0.68927
+R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,w_inc,여성 후보가 현직,0.0287461,0.0110583,2.59951,0.00977256,0.00698916,0.050503,26937,318,0.68927
+R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,m_inc,남성 후보가 현직,-0.0273644,0.0112108,-2.4409,0.0151978,-0.0494214,-0.00530743,26937,318,0.68927
+R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,y2010,2010년(기준: 2008년),-0.00382533,0.0153517,-0.249179,0.803383,-0.0340295,0.0263788,26937,318,0.68927
+R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,y2012,2012년(기준: 2008년),0.00763739,0.0162273,0.470651,0.638214,-0.0242894,0.0395642,26937,318,0.68927
+R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,y2014,2014년(기준: 2008년),0.000409963,0.016392,0.02501,0.980063,-0.0318409,0.0326608,26937,318,0.68927
+R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,y2016,2016년(기준: 2008년),-0.0126581,0.0151374,-0.836211,0.403666,-0.0424406,0.0171244,26937,318,0.68927
+R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,y2018,2018년(기준: 2008년),-0.0217511,0.0159787,-1.36126,0.1744,-0.0531888,0.00968661,26937,318,0.68927
+R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,y2020,2020년(기준: 2008년),0.00487099,0.0150843,0.322919,0.74697,-0.0248069,0.0345489,26937,318,0.68927
+R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,y2022,2022년(기준: 2008년),0.000821309,0.0155152,0.0529359,0.957816,-0.0297044,0.031347,26937,318,0.68927
+R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,y2024,2024년(기준: 2008년),0.00277088,0.0179769,0.154136,0.877601,-0.0325983,0.03814,26937,318,0.68927
+R_women_prior_since_1990_excl_lpm,R,women_prior_since_1990_excl,lpm,const,상수,0.550283,0.0328281,16.7625,1.33747e-45,0.485694,0.614871,26937,318,0.68927
+R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,female,여성 유권자,-0.132226,0.136445,-0.969082,0.332504,-0.399653,0.135201,26937,318,0.623167
+R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,prior,기존 여성 있음,-0.377828,0.134725,-2.80443,0.00504056,-0.641884,-0.113771,26937,318,0.623167
+R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,female_x_prior,여성 유권자 × 기존 여성 있음,0.108627,0.162895,0.666853,0.504866,-0.210641,0.427895,26937,318,0.623167
+R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,copart,여성 후보와 같은 정당 지지(기우는 무당파 포함),1.73145,0.0931708,18.5836,4.36259e-77,1.54884,1.91406,26937,318,0.623167
+R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,outpart,여성 후보와 반대 정당 지지,-2.29706,0.0950348,-24.1707,4.52373e-129,-2.48332,-2.11079,26937,318,0.623167
+R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,same_race_w,여성 후보와 같은 인종,-0.0114363,0.112814,-0.101373,0.919255,-0.232548,0.209675,26937,318,0.623167
+R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,same_race_m,남성 후보와 같은 인종,0.0770621,0.106293,0.724999,0.468453,-0.131268,0.285392,26937,318,0.623167
+R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,m_race_unk,남성 후보 인종 모름,0.285664,0.200051,1.42795,0.153305,-0.106429,0.677757,26937,318,0.623167
+R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,w_nonwhite,여성 후보가 백인 아님,-0.0712976,0.111422,-0.639889,0.522245,-0.28968,0.147085,26937,318,0.623167
+R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,m_nonwhite,남성 후보가 백인 아님,0.226,0.124312,1.818,0.0690635,-0.0176473,0.469647,26937,318,0.623167
+R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,r_black,응답자 흑인(기준: 백인),-1.27972,0.1661,-7.70453,1.31322e-14,-1.60527,-0.954172,26937,318,0.623167
+R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,r_hisp,응답자 히스패닉,-0.233938,0.148331,-1.57713,0.114766,-0.524661,0.0567863,26937,318,0.623167
+R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,r_asian,응답자 아시아계,0.0638124,0.201679,0.316406,0.751694,-0.33147,0.459095,26937,318,0.623167
+R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,r_other,응답자 그 밖 인종,0.0555998,0.198858,0.279595,0.779788,-0.334155,0.445354,26937,318,0.623167
+R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,college,4년제 대졸 이상,-0.241976,0.0644236,-3.75602,0.000172639,-0.368244,-0.115708,26937,318,0.623167
+R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,age10,나이(10세),0.00767482,0.0213512,0.359456,0.719254,-0.0341728,0.0495224,26937,318,0.623167
+R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,lib,진보(기준: 중도),-1.28145,0.104235,-12.2939,9.76668e-35,-1.48575,-1.07716,26937,318,0.623167
+R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,con,보수,1.28195,0.0823475,15.5675,1.21015e-54,1.12055,1.44334,26937,318,0.623167
+R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,ideo_ns,이념 모름,0.356405,0.187373,1.90211,0.0571562,-0.0108395,0.723649,26937,318,0.623167
+R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,pvi,당파 지수(+민주),-0.00519834,0.00686763,-0.756933,0.44909,-0.0186586,0.00826197,26937,318,0.623167
+R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,rural,농촌 인구 비율(%),0.00366765,0.00392534,0.934353,0.350122,-0.00402587,0.0113612,26937,318,0.623167
+R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,black_nh,선거구 흑인 비율(%),0.00082576,0.0044509,0.185527,0.852816,-0.00789784,0.00954936,26937,318,0.623167
+R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,hisp_d,선거구 히스패닉 비율(%),0.00208615,0.00341769,0.610398,0.541598,-0.0046124,0.0087847,26937,318,0.623167
+R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,asian_nh,선거구 아시아계 비율(%),-0.000350012,0.00784224,-0.0446316,0.964401,-0.0157205,0.0150205,26937,318,0.623167
+R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,ba_plus,선거구 대졸 비율(%),0.0119002,0.00756858,1.57232,0.115877,-0.00293394,0.0267344,26937,318,0.623167
+R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,inc10k,선거구 가구 소득 중앙값(만 달러),-0.0572417,0.0435214,-1.31526,0.188424,-0.142542,0.0280586,26937,318,0.623167
+R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,w_inc,여성 후보가 현직,0.342261,0.152553,2.24356,0.024861,0.0432627,0.64126,26937,318,0.623167
+R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,m_inc,남성 후보가 현직,-0.3647,0.148196,-2.46092,0.0138581,-0.655159,-0.0742399,26937,318,0.623167
+R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,y2010,2010년(기준: 2008년),-0.06248,0.199708,-0.312857,0.754389,-0.4539,0.32894,26937,318,0.623167
+R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,y2012,2012년(기준: 2008년),0.0697649,0.204692,0.340829,0.733232,-0.331424,0.470953,26937,318,0.623167
+R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,y2014,2014년(기준: 2008년),-0.0157661,0.205167,-0.0768453,0.938747,-0.417886,0.386354,26937,318,0.623167
+R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,y2016,2016년(기준: 2008년),-0.1836,0.186778,-0.982985,0.325615,-0.549678,0.182478,26937,318,0.623167
+R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,y2018,2018년(기준: 2008년),-0.31533,0.209151,-1.50767,0.13164,-0.725259,0.0945982,26937,318,0.623167
+R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,y2020,2020년(기준: 2008년),0.104908,0.193605,0.541868,0.58791,-0.27455,0.484367,26937,318,0.623167
+R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,y2022,2022년(기준: 2008년),0.0606239,0.205391,0.295164,0.767869,-0.341935,0.463183,26937,318,0.623167
+R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,y2024,2024년(기준: 2008년),0.12225,0.233573,0.523392,0.600702,-0.335545,0.580045,26937,318,0.623167
+R_women_prior_since_1990_excl_logit,R,women_prior_since_1990_excl,logit,const,상수,0.44501,0.387959,1.14705,0.251359,-0.315376,1.2054,26937,318,0.623167
