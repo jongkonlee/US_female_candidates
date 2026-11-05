@@ -399,7 +399,7 @@ const CRIT = {
     lean: { label: '지역구 당파 성향', order: LEAN_ORDER, f: u => leanBin(lean(u.r, u.Y)) },
     prior_map: { label: '같은 선거구 지도 안에서 기존 여성 의원', head: '기존 여성 의원 수', order: PRIOR_ORDER, f: priorMap },
     prior_cum: { label: '이어지는 선거구의 기존 여성 의원(1990년부터 누적)', head: '기존 여성 의원 수', order: CUM_ORDER, f: priorCum, house: true },
-    seat_female: { label: '선거일에 그 선거구 의원이 여성', order: ['여성', '남성', '자료 없음'], f: u => u.r.seat_member_female === 1 ? '여성' : u.r.seat_member_female === 0 ? '남성' : '자료 없음' },
+    seat_female: { label: '현직자가 여성', head: '현직자 성별', order: ['여성', '남성', '자료 없음'], f: u => u.r.seat_member_female === 1 ? '여성' : u.r.seat_member_female === 0 ? '남성' : '자료 없음' },
     incumbent: { label: '현직 출마', order: ['여성 현직 출마', '남성 현직 출마', '현직 없음'], f: u => {
       const run = u.p ? u.p.incumbent_running : u.r.incumbent_running, g = u.p ? u.p.incumbent_gender : u.r.incumbent_gender;
       return run === 1 ? (g === 'F' ? '여성 현직 출마' : '남성 현직 출마') : '현직 없음'; } },
@@ -581,7 +581,7 @@ async function viewPrior() {
   let h = `<p class="muted">${periodLabel()} · ${chName(S.ch)}. 기존에 여성 의원이 있었던 선거구와 아닌 선거구를 비교합니다.</p>`;
   const mode = S.ch === 'H' ? S.priorMode : 'map';
   const first = mode === 'cum' ? ['prior_cum', '이어지는 선거구의 기존 여성 의원(1990년부터 누적)'] : ['prior_map', '같은 선거구 지도 안에서 기존 여성 의원(인구조사 주기 기준)'];
-  for (const [crit, title] of [first, ['seat_female', '선거일에 그 선거구 의원이 여성이었나'], ['incumbent', '현직이 출마했나']]) {
+  for (const [crit, title] of [first, ['seat_female', S.ch === 'S' ? '현직자가 여성이었나(그 주 상원의원 두 명 중 한 명이라도)' : '현직자가 여성이었나'], ['incumbent', '현직이 출마했나']]) {
     h += `<h2>${esc(title)}</h2>${crit === first[0] ? priorToggle() + priorCaution(mode) : ''}`;
     for (const [t, l] of [['D', '민주당 경선'], ['R', '공화당 경선'], ['G', '본선']]) h += `<h3>${l}</h3>${compareBlock(Ys, t, 'district', crit)}`;
   }
@@ -614,7 +614,7 @@ function racePanel(id) {
   let h = `<h2>${y}년 ${esc(raceLabel(r))}</h2>
   <div class="kv"><div>경선 방식</div><div>${esc(SYSTEM[r.system] || r.system)}</div>
   <div>현직</div><div>${r.incumbent_running === 1 ? `${PARTY[r.incumbent_party] || ''} ${r.incumbent_gender === 'F' ? '여성' : '남성'} 현직 출마` : '현직 없음'}</div>
-  <div>선거일 의원</div><div>${esc(r.seat_member_on_eday || '–')}${r.seat_member_female === 1 ? ' (여성)' : ''}</div>
+  <div>현직자</div><div>${esc(r.seat_member_on_eday || '–')}${r.seat_member_female === 1 ? ' (여성)' : ''}</div>
   <div>기존 여성 의원</div><div>같은 지도 안 ${r.women_members_same_map ?? '–'}명${r.chamber === 'H' ? ` · 이어지는 선거구 1990년부터 누적 ${r.women_members_since_1990 ?? '–'}명` : ''}</div>
   <div>지역구</div><div>당파 성향 ${esc(leanLabel(lx) || '–')}${num(r.rural) !== null ? ` · 농촌 ${fmt(r.rural)}%` : ''}${num(r.white_nh) !== null ? ` · 비히스패닉 백인 ${fmt(r.white_nh)}% · 흑인 ${fmt(r.black_nh)}% · 히스패닉 ${fmt(r.hisp)}% · 대졸 ${fmt(r.ba_plus)}%` : ''}</div>
   <div>당선</div><div>${r.winner ? `${esc(r.winner)} (${PARTY[r.winner_party] || '?'}${r.winner_gender === 'F' ? ', 여성' : ''})` : '<span class="prov">아직 모름</span>'}</div></div>`;
@@ -650,7 +650,7 @@ const LABELS = { race_id: '선거 ID', year: '선거 연도', chamber: '원(H �
   cawp_primary: 'CAWP 경선 결과', cawp_general: 'CAWP 본선 결과', cawp_seat: 'CAWP 경선 위치', link: '위키백과 문서', contest: '경선 종류', n_cand: '후보 수', n_women: '여성 후보 수', n_men: '남성 후보 수',
   n_unknown: '성별 모름 후보 수', incumbent_running: '현직 출마(1)', incumbent_gender: '현직 성별', winner: '승자', winner_gender: '승자 성별', winner_pct: '승자 득표율(%)', woman_won: '여성이 이김(1)',
   top_woman_pct: '여성 최고 득표율(%)', top_man_pct: '남성 최고 득표율(%)', mixed: '남녀 함께 출마(1)', src: '출처', n_general: '본선 후보 수', incumbent_party: '현직 정당', open_seat: '현직 없는 선거(1)',
-  seat_member_on_eday: '선거일 의원', seat_member_female: '선거일 의원이 여성(1)', women_members_same_map: '같은 지도 안 기존 여성 의원 수', women_members_since_1990: '이어지는 선거구의 기존 여성 의원 수(1990년부터)', d_primary_women: '민주 경선 여성 수', r_primary_women: '공화 경선 여성 수',
+  seat_member_on_eday: '현직자(선거일에 그 선거구 의원)', seat_member_female: '현직자가 여성(1)', women_members_same_map: '같은 지도 안 기존 여성 의원 수', women_members_since_1990: '이어지는 선거구의 기존 여성 의원 수(1990년부터)', d_primary_women: '민주 경선 여성 수', r_primary_women: '공화 경선 여성 수',
   d_primary_woman_won: '민주 경선 여성 승리(1)', r_primary_woman_won: '공화 경선 여성 승리(1)', d_nominee: '민주 후보', d_nominee_gender: '민주 후보 성별', r_nominee: '공화 후보', r_nominee_gender: '공화 후보 성별',
   matchup: '본선 대결(민주-공화 성별)', winner_party: '당선자 정당', woman_won_general: '여성 당선(1)', d_share_2party: '본선 민주 양당 득표율(%)', pres_d_2party: '직전 대선 민주 양당 득표율(%)',
   pvi: '당파 지수(+민주)', rural: '농촌 인구 비율(%)', white_nh: '비히스패닉 백인(%)', black_nh: '흑인(%)', hisp: '히스패닉(%)', asian_nh: '아시아계(%)', ba_plus: '대졸(%)', med_income: '가구 소득 중앙값(달러)', src_general: '본선 자료 출처' };

@@ -22,7 +22,7 @@ LABELS = {
     "winner_pct": "승자 득표율(%)", "woman_won": "여성이 이김(1)", "top_woman_pct": "여성 최고 득표율(%)",
     "top_man_pct": "남성 최고 득표율(%)", "mixed": "남녀 함께 출마(1)", "src": "출처",
     "n_general": "본선 후보 수", "incumbent_party": "현직 정당", "open_seat": "현직 없는 선거(1)",
-    "seat_member_on_eday": "선거일 의원(같은 번호 선거구)", "seat_member_female": "선거일 의원이 여성(1)",
+    "seat_member_on_eday": "현직자(선거일에 같은 번호 선거구 의원)", "seat_member_female": "현직자가 여성(1)",
     "women_members_same_map": "같은 선거구 지도 안 이전 여성 의원 수", "d_primary_women": "민주 경선 여성 수",
     "r_primary_women": "공화 경선 여성 수", "d_primary_woman_won": "민주 경선 여성 승리(1)", "r_primary_woman_won": "공화 경선 여성 승리(1)",
     "d_nominee": "민주 후보", "d_nominee_gender": "민주 후보 성별", "r_nominee": "공화 후보", "r_nominee_gender": "공화 후보 성별",
