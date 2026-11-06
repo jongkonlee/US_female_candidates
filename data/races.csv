@@ -8457,25 +8457,25 @@ race_id,year,chamber,state,district,special,system,n_general,incumbent_running,i
 2024-S-WV-00,2024,S,WV,0,0,party,3,0,,,1,"Shelley Moore Capito;Joe Manchin, III",1.0,1,0.0,1.0,0.0,0.0,Glenn Elliott,M,Jim Justice,M,M-M,Jim Justice,R,M,0.0,28.76111897143538,,-20.96,55.35,88.9,3.1,2.3,0.7,24.4,60798.0,Wikipedia,,,,
 2024-S-WY-00,2024,S,WY,0,0,party,2,1,R,M,0,John Barrasso;Cynthia M. Lummis,1.0,1,0.0,0.0,0.0,0.0,Scott Morrow,M,John Barrasso,M,M-M,John Barrasso,R,M,0.0,24.309828530012016,,-23.23,37.98,80.5,0.7,11.1,0.9,32.3,75532.0,Wikipedia,,,,
 2026-H-AK-00,2026,H,AK,0,0,top4,4,1,R,M,0,Nicholas J. Begich III,0.0,1,1.0,0.0,0.0,0.0,Eric Hafner,M,Nick Begich III,M,M-M,,,,,,,,,,,,,,,Wikipedia overview,1.0,1.0,6.0,6.0
-2026-H-AL-01,2026,H,AL,1,0,party,2,0,,,1,Barry Moore,0.0,0,0.0,0.0,0.0,0.0,Clyde Jones,M,Jerry Carl,M,M-M,Jerry Carl,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,2.0,2.0
-2026-H-AL-02,2026,H,AL,2,0,party,2,1,D,M,0,Shomari Figures,0.0,0,0.0,0.0,0.0,0.0,Shomari Figures,M,Rhett Marques,M,M-M,Shomari Figures,D,M,0.0,,,,,,,,,,,Wikipedia overview,1.0,1.0,6.0,6.0
+2026-H-AL-01,2026,H,AL,1,0,party,2,0,,,1,Barry Moore,0.0,0,0.0,0.0,0.0,0.0,Clyde Jones,M,Jerry Carl,M,M-M,,,,,40.92858836462398,,,,,,,,,,Wikipedia,0.0,0.0,2.0,2.0
+2026-H-AL-02,2026,H,AL,2,0,party,2,1,D,M,0,Shomari Figures,0.0,0,0.0,0.0,0.0,0.0,Shomari Figures,M,Rhett Marques,M,M-M,,,,,53.7527379239732,,,,,,,,,,Wikipedia,1.0,1.0,6.0,6.0
 2026-H-AL-03,2026,H,AL,3,0,party,2,1,R,M,0,Mike Rogers,0.0,0,0.0,1.0,0.0,0.0,Lee McInnis,M,Mike Rogers,M,M-M,Mike Rogers,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,3.0,3.0
 2026-H-AL-04,2026,H,AL,4,0,party,2,1,R,M,0,Robert B. Aderholt,0.0,0,1.0,0.0,1.0,0.0,Amanda N. Pusczek,F,Robert Aderholt,M,F-M,Robert Aderholt,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,3.0,3.0
 2026-H-AL-05,2026,H,AL,5,0,party,2,1,R,M,0,Dale W. Strong,0.0,0,1.0,0.0,0.0,0.0,Andrew Sneed,M,Dale Strong,M,M-M,Dale Strong,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,1.0,1.0
 2026-H-AL-06,2026,H,AL,6,0,party,2,1,R,M,0,Gary J. Palmer,0.0,0,1.0,0.0,0.0,0.0,Maurice Mercer,M,Gary Palmer,M,M-M,Gary Palmer,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,4.0,4.0
 2026-H-AL-07,2026,H,AL,7,0,party,2,1,D,F,0,Terri A. Sewell,1.0,1,1.0,1.0,1.0,1.0,Terri Sewell,F,Ammie Akin,F,F-F,Terri Sewell,D,F,1.0,,,,,,,,,,,Wikipedia overview,1.0,0.0,3.0,2.0
 2026-H-AR-01,2026,H,AR,1,0,party,4,1,R,M,0,"Eric A. ""Rick"" Crawford",0.0,0,1.0,0.0,,0.0,Terri Yarbrough,,Rick Crawford,M,?-M,Rick Crawford,R,M,0.0,,,,,,,,,,,Wikipedia;Wikipedia overview,1.0,1.0,2.0,2.0
-2026-H-AR-02,2026,H,AR,2,0,party,2,1,R,M,0,J. French Hill,0.0,0,0.0,0.0,0.0,0.0,Chris Jones,M,French Hill,M,M-M,,,,,,,,,,,,,,,Wikipedia overview,0.0,0.0,3.0,3.0
+2026-H-AR-02,2026,H,AR,2,0,party,2,1,R,M,0,J. French Hill,0.0,0,0.0,0.0,0.0,0.0,Chris Jones,M,French Hill,M,M-M,French Hill,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,3.0,3.0
 2026-H-AR-03,2026,H,AR,3,0,party,3,1,R,M,0,Steve Womack,0.0,0,0.0,0.0,0.0,0.0,Robb Ryerse,M,Steve Womack,M,M-M,Steve Womack,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,6.0,6.0
 2026-H-AR-04,2026,H,AR,4,0,party,2,1,R,M,0,Bruce Westerman,0.0,0,0.0,0.0,0.0,0.0,James Russell,M,Bruce Westerman,M,M-M,Bruce Westerman,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,4.0,4.0
-2026-H-AZ-01,2026,H,AZ,1,0,party,3,0,,,1,David Schweikert,0.0,0,1.0,0.0,0.0,0.0,Amish Shah,M,Jay Feely,M,M-M,,,,,,,,,,,,,,,Wikipedia overview,0.0,0.0,2.0,2.0
+2026-H-AZ-01,2026,H,AZ,1,0,party,3,0,,,1,David Schweikert,0.0,0,1.0,0.0,0.0,0.0,Amish Shah,M,Jay Feely,M,M-M,Amish Shah,D,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,2.0,2.0
 2026-H-AZ-02,2026,H,AZ,2,0,party,3,1,R,M,0,Elijah Crane,0.0,0,0.0,0.0,0.0,0.0,Jonathan Nez,M,Eli Crane,M,M-M,,,,,,,,,,,,,,,Wikipedia overview,1.0,1.0,3.0,3.0
 2026-H-AZ-03,2026,H,AZ,3,0,party,4,1,D,F,0,Yassamin Ansari,1.0,1,1.0,0.0,1.0,0.0,Yassamin Ansari,F,Jacob Parkman,M,F-M,Yassamin Ansari,D,F,1.0,,,,,,,,,,,Wikipedia;Wikipedia overview,1.0,0.0,3.0,2.0
 2026-H-AZ-04,2026,H,AZ,4,0,party,3,1,D,M,0,Greg Stanton,0.0,0,0.0,0.0,0.0,0.0,Greg Stanton,M,Zuhdi Jasser,M,M-M,Greg Stanton,D,M,0.0,,,,,,,,,,,Wikipedia overview,1.0,1.0,2.0,2.0
-2026-H-AZ-05,2026,H,AZ,5,0,party,2,0,,,1,Andy Biggs,0.0,0,1.0,0.0,1.0,0.0,Elizabeth Lee,F,Mark Lamb,M,F-M,,,,,,,,,,,,,,,Wikipedia overview,1.0,1.0,6.0,6.0
+2026-H-AZ-05,2026,H,AZ,5,0,party,2,0,,,1,Andy Biggs,0.0,0,1.0,0.0,1.0,0.0,Elizabeth Lee,F,Mark Lamb,M,F-M,Mark Lamb,R,M,0.0,,,,,,,,,,,Wikipedia overview,1.0,1.0,6.0,6.0
 2026-H-AZ-06,2026,H,AZ,6,0,party,4,1,R,M,0,Juan Ciscomani,0.0,0,1.0,0.0,1.0,0.0,JoAnna Mendoza,F,Juan Ciscomani,M,F-M,JoAnna Mendoza,D,F,1.0,,,,,,,,,,,Wikipedia overview,3.0,3.0,7.0,7.0
 2026-H-AZ-07,2026,H,AZ,7,0,party,2,1,D,F,0,Adelita S. Grijalva,1.0,1,1.0,0.0,1.0,0.0,Adelita Grijalva,F,Daniel Butierez,M,F-M,Adelita Grijalva,D,F,1.0,,,,,,,,,,,Wikipedia overview,1.0,0.0,3.0,2.0
-2026-H-AZ-08,2026,H,AZ,8,0,party,2,1,R,M,0,Abraham J. Hamadeh,0.0,1,1.0,0.0,1.0,0.0,Bernadette Greene-Placentia,F,Abraham Hamadeh,M,F-M,,,,,,,,,,,,,,,Wikipedia overview,1.0,1.0,2.0,2.0
+2026-H-AZ-08,2026,H,AZ,8,0,party,2,1,R,M,0,Abraham J. Hamadeh,0.0,1,1.0,0.0,1.0,0.0,Bernadette Greene-Placentia,F,Abraham Hamadeh,M,F-M,Abraham Hamadeh,R,M,0.0,,,,,,,,,,,Wikipedia overview,1.0,1.0,2.0,2.0
 2026-H-AZ-09,2026,H,AZ,9,0,party,2,1,R,M,0,Paul A. Gosar,0.0,0,1.0,0.0,1.0,0.0,Danielle Sterbinsky,F,Paul Gosar,M,F-M,Paul Gosar,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,1.0,1.0
 2026-H-CA-01,2026,H,CA,1,0,top2,5,1,R,M,0,James Gallagher,0.0,0,2.0,0.0,0.0,0.0,Mike McGuire,M,Jot Thiara,M,M-M,Mike McGuire,D,M,0.0,98.81422924901186,,,,,,,,,,Wikipedia overview,0.0,0.0,1.0,1.0
 2026-H-CA-02,2026,H,CA,2,0,top2,2,1,D,M,0,Jared Huffman,0.0,0,1.0,2.0,0.0,1.0,Jared Huffman,M,Robin Littau,F,M-F,Jared Huffman,D,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,0.0,0.0
@@ -8487,7 +8487,7 @@ race_id,year,chamber,state,district,special,system,n_general,incumbent_running,i
 2026-H-CA-08,2026,H,CA,8,0,top2,2,1,D,M,0,John Garamendi,0.0,0,0.0,0.0,0.0,0.0,John Garamendi,M,Rudy Recile,M,M-M,John Garamendi,D,M,0.0,,,,,,,,,,,Wikipedia overview,1.0,1.0,3.0,3.0
 2026-H-CA-09,2026,H,CA,9,0,top2,2,1,D,M,0,Josh Harder,0.0,0,0.0,0.0,0.0,0.0,Josh Harder,M,John McBride,M,M-M,Josh Harder,D,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,1.0,1.0
 2026-H-CA-10,2026,H,CA,10,0,top2,2,1,D,M,0,Mark DeSaulnier,0.0,0,0.0,2.0,0.0,0.0,Mark DeSaulnier,M,Jeff Frese,M,M-M,Mark DeSaulnier,D,M,0.0,,,,,,,,,,,Wikipedia overview,1.0,1.0,4.0,4.0
-2026-H-CA-11,2026,H,CA,11,0,top2,2,0,,,1,Nancy Pelosi,1.0,1,2.0,0.0,0.0,,Scott Wiener,M,,,D only,,,,,,,,,,,,,,,Wikipedia overview,1.0,1.0,5.0,5.0
+2026-H-CA-11,2026,H,CA,11,0,top2,2,0,,,1,Nancy Pelosi,1.0,1,2.0,0.0,0.0,,Scott Wiener,M,,,D only,Scott Wiener,D,M,0.0,,,,,,,,,,,Wikipedia overview,1.0,1.0,5.0,5.0
 2026-H-CA-12,2026,H,CA,12,0,top2,2,1,D,F,0,Lateefah Simon,1.0,2,2.0,,1.0,,Lateefah Simon,F,,,D only,Lateefah Simon,D,F,1.0,,,,,,,,,,,Wikipedia overview,2.0,1.0,7.0,6.0
 2026-H-CA-13,2026,H,CA,13,0,top2,2,1,D,M,0,Adam Gray,0.0,0,0.0,0.0,0.0,0.0,Adam Gray,M,Kevin Lincoln,M,M-M,Adam Gray,D,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,0.0,0.0
 2026-H-CA-14,2026,H,CA,14,0,top2,2,1,D,F,0,Aisha Wahab,1.0,1,4.0,2.0,1.0,,Aisha Wahab,F,,,D only,,,,,,,,,,,,,,,Wikipedia overview,1.0,0.0,2.0,1.0
@@ -8505,7 +8505,7 @@ race_id,year,chamber,state,district,special,system,n_general,incumbent_running,i
 2026-H-CA-26,2026,H,CA,26,0,top2,2,0,,,1,Julia Brownley,1.0,1,2.0,0.0,1.0,0.0,Jacqui Irwin,F,Sam Gallucci,M,F-M,Jacqui Irwin,D,F,1.0,,,,,,,,,,,Wikipedia overview,1.0,1.0,2.0,2.0
 2026-H-CA-27,2026,H,CA,27,0,top2,2,1,D,M,0,George Whitesides,0.0,0,0.0,0.0,0.0,0.0,George Whitesides,M,Jason Gibbs,M,M-M,George Whitesides,D,M,0.0,,,,,,,,,,,Wikipedia overview,1.0,1.0,4.0,4.0
 2026-H-CA-28,2026,H,CA,28,0,top2,2,1,D,F,0,Judy Chu,1.0,1,1.0,1.0,1.0,1.0,Judy Chu,F,April Verlato,F,F-F,Judy Chu,D,F,1.0,,,,,,,,,,,Wikipedia overview,2.0,1.0,3.0,1.0
-2026-H-CA-29,2026,H,CA,29,0,top2,2,1,D,F,0,Luz M. Rivas,1.0,1,2.0,0.0,1.0,,Luz Maria Rivas,F,,,D only,,,,,,,,,,,,,,,Wikipedia overview,1.0,0.0,2.0,0.0
+2026-H-CA-29,2026,H,CA,29,0,top2,2,1,D,F,0,Luz M. Rivas,1.0,1,2.0,0.0,1.0,,Luz Maria Rivas,F,,,D only,Luz Maria Rivas,D,F,1.0,,,,,,,,,,,Wikipedia overview,1.0,0.0,2.0,0.0
 2026-H-CA-30,2026,H,CA,30,0,top2,2,1,D,F,0,Laura Friedman,1.0,1,1.0,0.0,1.0,0.0,Laura Friedman,F,Scott Alan Meyers,M,F-M,Laura Friedman,D,F,1.0,,,,,,,,,,,Wikipedia overview,1.0,0.0,2.0,1.0
 2026-H-CA-31,2026,H,CA,31,0,top2,2,1,D,M,0,"Gilbert Ray Cisneros, Jr.",0.0,1,0.0,0.0,0.0,0.0,Gil Cisneros,M,Eric Ching,M,M-M,Gil Cisneros,D,M,0.0,,,,,,,,,,,Wikipedia overview,1.0,1.0,2.0,2.0
 2026-H-CA-32,2026,H,CA,32,0,top2,2,1,D,M,0,Brad Sherman,0.0,0,2.0,0.0,0.0,0.0,Brad Sherman,M,Larry Thompson,M,M-M,Brad Sherman,D,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,1.0,1.0
@@ -8531,9 +8531,9 @@ race_id,year,chamber,state,district,special,system,n_general,incumbent_running,i
 2026-H-CA-52,2026,H,CA,52,0,top2,2,1,D,M,0,Juan Vargas,0.0,0,2.0,0.0,0.0,0.0,Juan Vargas,M,Jeff Belle,M,M-M,Juan Vargas,D,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,2.0,2.0
 2026-H-CO-01,2026,H,CO,1,0,party,5,1,D,F,0,Diana DeGette,1.0,1,3.0,1.0,1.0,1.0,Melat Kiros,F,Christy Peterson,F,F-F,Melat Kiros,D,F,1.0,,,,,,,,,,,Wikipedia overview,2.0,2.0,5.0,5.0
 2026-H-CO-02,2026,H,CO,2,0,party,3,1,D,M,0,Joe Neguse,0.0,0,0.0,2.0,0.0,1.0,Joe Neguse,M,Kelley Dennison,F,M-F,Joe Neguse,D,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,0.0,0.0
-2026-H-CO-03,2026,H,CO,3,0,party,4,1,R,M,0,Jeff Hurd,0.0,1,0.0,0.0,0.0,0.0,Dwayne Romero,M,Jeff Hurd,M,M-M,,,,,,,,,,,,,,,Wikipedia overview,1.0,1.0,4.0,4.0
+2026-H-CO-03,2026,H,CO,3,0,party,4,1,R,M,0,Jeff Hurd,0.0,1,0.0,0.0,0.0,0.0,Dwayne Romero,M,Jeff Hurd,M,M-M,Jeff Hurd,R,M,0.0,,,,,,,,,,,Wikipedia overview,1.0,1.0,4.0,4.0
 2026-H-CO-04,2026,H,CO,4,0,party,3,1,R,F,0,Lauren Boebert,1.0,1,1.0,1.0,1.0,1.0,Eileen Laubacher,F,Lauren Boebert,F,F-F,,,,,,,,,,,,,,,Wikipedia overview,1.0,0.0,3.0,2.0
-2026-H-CO-05,2026,H,CO,5,0,party,4,1,R,M,0,Jeff Crank,0.0,0,1.0,0.0,1.0,0.0,Jessica Killin,F,Jeff Crank,M,F-M,,,,,,,,,,,,,,,Wikipedia overview,0.0,0.0,4.0,4.0
+2026-H-CO-05,2026,H,CO,5,0,party,4,1,R,M,0,Jeff Crank,0.0,0,1.0,0.0,1.0,0.0,Jessica Killin,F,Jeff Crank,M,F-M,Jessica Killin,D,F,1.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,4.0,4.0
 2026-H-CO-06,2026,H,CO,6,0,party,5,1,D,M,0,Jason Crow,0.0,0,0.0,0.0,0.0,0.0,Jason Crow,M,Jason Clark,M,M-M,Jason Crow,D,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,1.0,1.0
 2026-H-CO-07,2026,H,CO,7,0,party,6,1,D,F,0,Brittany Pettersen,1.0,1,1.0,0.0,1.0,0.0,Brittany Pettersen,F,Tim Bennett,M,F-M,Brittany Pettersen,D,F,1.0,,,,,,,,,,,Wikipedia overview,1.0,0.0,1.0,0.0
 2026-H-CO-08,2026,H,CO,8,0,party,3,1,R,M,0,Gabe Evans,0.0,1,1.0,0.0,0.0,0.0,Manny Rutinel,M,Gabe Evans,M,M-M,Manny Rutinel,D,M,0.0,,,,,,,,,,,Wikipedia overview,1.0,1.0,2.0,2.0
@@ -8555,7 +8555,7 @@ race_id,year,chamber,state,district,special,system,n_general,incumbent_running,i
 2026-H-FL-10,2026,H,FL,10,0,party,1,1,D,M,0,Maxwell Frost,0.0,0,0.0,,0.0,,Maxwell Frost,M,,,D only,Maxwell Frost,D,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,1.0,1.0
 2026-H-FL-11,2026,H,FL,11,0,party,3,0,,,1,Daniel Webster,0.0,0,0.0,1.0,0.0,0.0,James Pericola,M,Joe Strada,M,M-M,Joe Strada,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,2.0,2.0
 2026-H-FL-12,2026,H,FL,12,0,party,3,1,R,M,0,Gus M. Bilirakis,0.0,0,1.0,0.0,1.0,0.0,Kimberly Overman,F,Gus Bilirakis,M,F-M,Gus Bilirakis,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,4.0,4.0
-2026-H-FL-13,2026,H,FL,13,0,party,3,1,R,F,0,Anna Paulina Luna,1.0,1,1.0,1.0,1.0,1.0,Leela Gray,F,Anna Paulina Luna,F,F-F,,,,,,,,,,,,,,,Wikipedia overview,1.0,0.0,3.0,2.0
+2026-H-FL-13,2026,H,FL,13,0,party,3,1,R,F,0,Anna Paulina Luna,1.0,1,1.0,1.0,1.0,1.0,Leela Gray,F,Anna Paulina Luna,F,F-F,Anna Paulina Luna,R,F,1.0,,,,,,,,,,,Wikipedia overview,1.0,0.0,3.0,2.0
 2026-H-FL-14,2026,H,FL,14,0,party,3,1,D,F,0,Kathy Castor,1.0,1,1.0,1.0,1.0,0.0,Kathy Castor,F,Mike Beltran,M,F-M,Kathy Castor,D,F,1.0,,,,,,,,,,,Wikipedia overview,1.0,0.0,2.0,1.0
 2026-H-FL-15,2026,H,FL,15,0,party,2,1,R,F,0,Laurel M. Lee,1.0,1,0.0,1.0,0.0,1.0,Robert People,M,Laurel Lee,F,M-F,Laurel Lee,R,F,1.0,,,,,,,,,,,Wikipedia overview,1.0,0.0,2.0,1.0
 2026-H-FL-16,2026,H,FL,16,0,party,3,0,,,1,Vern Buchanan,0.0,0,2.0,1.0,0.0,1.0,Kelly Kirschner,M,Sydney Gruters,F,M-F,Sydney Gruters,R,F,1.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,0.0,0.0
@@ -8579,7 +8579,7 @@ race_id,year,chamber,state,district,special,system,n_general,incumbent_running,i
 2026-H-GA-06,2026,H,GA,6,0,party,2,1,D,F,0,Lucy McBath,1.0,1,1.0,0.0,1.0,0.0,Lucy McBath,F,Kevin Martin,M,F-M,Lucy McBath,D,F,1.0,,,,,,,,,,,Wikipedia overview,1.0,0.0,3.0,2.0
 2026-H-GA-07,2026,H,GA,7,0,party,2,1,R,M,0,Richard McCormick,0.0,1,0.0,0.0,0.0,0.0,Anthony Kozycki,M,Rich McCormick,M,M-M,Rich McCormick,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,0.0,0.0
 2026-H-GA-08,2026,H,GA,8,0,party,2,1,R,M,0,Austin Scott,0.0,0,0.0,0.0,0.0,0.0,Kelly Esti,M,Austin Scott,M,M-M,Austin Scott,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,0.0,0.0
-2026-H-GA-09,2026,H,GA,9,0,party,3,1,R,M,0,Andrew S. Clyde,0.0,0,2.0,0.0,1.0,0.0,Caitlyn Gegen,F,Andrew Clyde,M,F-M,Andrew Clyde,R,M,0.0,,,,,,,,,,,Wikipedia;Wikipedia overview,0.0,0.0,1.0,1.0
+2026-H-GA-09,2026,H,GA,9,0,party,2,1,R,M,0,Andrew S. Clyde,0.0,0,2.0,0.0,1.0,0.0,Caitlyn Gegan,F,Andrew Clyde,M,F-M,,,,,40.700750943543056,,,,,,,,,,Wikipedia,0.0,0.0,1.0,1.0
 2026-H-GA-10,2026,H,GA,10,0,party,2,0,,,1,Mike Collins,0.0,0,2.0,0.0,1.0,0.0,Pamela DeLancy,F,Houston Gaines,M,F-M,Houston Gaines,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,2.0,2.0
 2026-H-GA-11,2026,H,GA,11,0,party,2,0,,,1,Barry Loudermilk,0.0,0,0.0,3.0,0.0,0.0,Chris Harden,M,John Cowan,M,M-M,John Cowan,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,1.0,1.0
 2026-H-GA-12,2026,H,GA,12,0,party,2,1,R,M,0,Rick W. Allen,0.0,0,4.0,1.0,1.0,0.0,Ceretta Smith,F,Rick Allen,M,F-M,Rick Allen,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,3.0,3.0
@@ -8653,20 +8653,20 @@ race_id,year,chamber,state,district,special,system,n_general,incumbent_running,i
 2026-H-MD-07,2026,H,MD,7,0,party,2,1,D,M,0,Kweisi Mfume,0.0,0,0.0,0.0,0.0,0.0,Kweisi Mfume,M,Scott Collier,M,M-M,Kweisi Mfume,D,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,1.0,1.0
 2026-H-MD-08,2026,H,MD,8,0,party,3,1,D,M,0,Jamie Raskin,0.0,0,0.0,2.0,0.0,1.0,Jamie Raskin,M,Cheryl Riley,F,M-F,Jamie Raskin,D,M,0.0,,,,,,,,,,,Wikipedia overview,1.0,1.0,4.0,3.0
 2026-H-ME-01,2026,H,ME,1,0,party,2,1,D,F,0,Chellie Pingree,1.0,1,1.0,0.0,1.0,0.0,Chellie Pingree,F,Ronald Russell,M,F-M,Chellie Pingree,D,F,1.0,,,,,,,,,,,Wikipedia overview,1.0,0.0,4.0,3.0
-2026-H-ME-02,2026,H,ME,2,0,party,2,0,,,1,Jared F. Golden,0.0,0,1.0,0.0,0.0,0.0,Matthew Dunlap,M,Paul LePage,M,M-M,,,,,,,,,,,,,,,Wikipedia overview,1.0,1.0,2.0,2.0
-2026-H-MI-01,2026,H,MI,1,0,party,7,1,R,M,0,Jack Bergman,0.0,0,1.0,0.0,1.0,0.0,Callie Barr,F,Jack Bergman,M,F-M,Jack Bergman,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,3.0,2.0
-2026-H-MI-02,2026,H,MI,2,0,party,4,1,R,M,0,John R. Moolenaar,0.0,0,0.0,0.0,0.0,0.0,Benjamin Ambrose,M,John Moolenaar,M,M-M,John Moolenaar,R,M,0.0,,,,,,,,,,,Wikipedia;Wikipedia overview,0.0,0.0,1.0,1.0
-2026-H-MI-03,2026,H,MI,3,0,party,3,1,D,F,0,Hillary J. Scholten,1.0,1,1.0,1.0,1.0,1.0,Hillary Scholten,F,Terri DeBoer,F,F-F,Hillary Scholten,D,F,1.0,,,,,,,,,,,Wikipedia overview,1.0,0.0,4.0,3.0
-2026-H-MI-04,2026,H,MI,4,0,party,3,1,R,M,0,Bill Huizenga,0.0,0,0.0,0.0,0.0,0.0,Sean McCann,M,Bill Huizenga,M,M-M,Sean McCann,D,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,1.0,1.0
-2026-H-MI-05,2026,H,MI,5,0,party,6,1,R,M,0,Tim Walberg,0.0,0,0.0,0.0,0.0,0.0,Christian Vukasovich,M,Tim Walberg,M,M-M,Tim Walberg,R,M,0.0,,,,,,,,,,,Wikipedia;Wikipedia overview,0.0,0.0,4.0,4.0
+2026-H-ME-02,2026,H,ME,2,0,party,2,0,,,1,Jared F. Golden,0.0,0,1.0,0.0,0.0,0.0,Matthew Dunlap,M,Paul LePage,M,M-M,Paul LePage,R,M,0.0,,,,,,,,,,,Wikipedia overview,1.0,1.0,2.0,2.0
+2026-H-MI-01,2026,H,MI,1,0,party,7,1,R,M,0,Jack Bergman,0.0,0,1.0,0.0,1.0,0.0,Callie Barr,F,Jack Bergman,M,F-M,,,,,45.12079445339593,,,,,,,,,,Wikipedia,0.0,0.0,3.0,2.0
+2026-H-MI-02,2026,H,MI,2,0,party,4,1,R,M,0,John R. Moolenaar,0.0,0,0.0,0.0,0.0,0.0,Benjamin Ambrose,M,John Moolenaar,M,M-M,,,,,37.551296479441625,,,,,,,,,,Wikipedia,0.0,0.0,1.0,1.0
+2026-H-MI-03,2026,H,MI,3,0,party,3,1,D,F,0,Hillary J. Scholten,1.0,1,1.0,1.0,1.0,1.0,Hillary Scholten,F,Terri DeBoer,F,F-F,,,,,57.97598674903653,,,,,,,,,,Wikipedia,1.0,0.0,4.0,3.0
+2026-H-MI-04,2026,H,MI,4,0,party,3,1,R,M,0,Bill Huizenga,0.0,0,0.0,0.0,0.0,0.0,Sean McCann,M,Bill Huizenga,M,M-M,Sean McCann,D,M,0.0,50.89831772602967,,,,,,,,,,Wikipedia,0.0,0.0,1.0,1.0
+2026-H-MI-05,2026,H,MI,5,0,party,3,1,R,M,0,Tim Walberg,0.0,0,0.0,0.0,0.0,0.0,Christian Vukasovich,M,Tim Walberg,M,M-M,,,,,39.50889731710732,,,,,,,,,,Wikipedia,0.0,0.0,4.0,4.0
 2026-H-MI-06,2026,H,MI,6,0,party,7,1,D,F,0,Debbie Dingell,1.0,1,1.0,1.0,1.0,1.0,Debbie Dingell,F,Heather Smiley,F,F-F,Debbie Dingell,D,F,1.0,,,,,,,,,,,Wikipedia;Wikipedia overview,1.0,0.0,3.0,1.0
-2026-H-MI-07,2026,H,MI,7,0,party,3,1,R,M,0,Tom Barrett,0.0,1,1.0,0.0,0.0,0.0,William Lawrence,M,Tom Barrett,M,M-M,William Lawrence,D,M,0.0,,,,,,,,,,,Wikipedia overview,1.0,1.0,1.0,1.0
-2026-H-MI-08,2026,H,MI,8,0,party,5,1,D,F,0,Kristen McDonald Rivet,1.0,1,1.0,0.0,1.0,0.0,Kristen McDonald Rivet,F,Thomas J. Smith (suspended campaign),M,F-M,Kristen McDonald Rivet,D,F,1.0,,,,,,,,,,,Wikipedia overview,1.0,0.0,2.0,1.0
-2026-H-MI-09,2026,H,MI,9,0,party,6,1,R,F,0,Lisa C. McClain,1.0,1,0.0,1.0,0.0,1.0,Ray Pooley,M,Lisa McClain,F,M-F,Lisa McClain,R,F,1.0,,,,,,,,,,,Wikipedia overview,2.0,1.0,3.0,2.0
-2026-H-MI-10,2026,H,MI,10,0,party,5,0,,,1,John James,0.0,0,1.0,0.0,1.0,0.0,Christina Hines,F,Michael Bouchard Jr.,M,F-M,Christina Hines,D,F,1.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,0.0,0.0
-2026-H-MI-11,2026,H,MI,11,0,party,5,0,,,1,Haley M. Stevens,1.0,1,1.0,0.0,0.0,0.0,Jeremy Moss,M,Ethan Baker,M,M-M,Jeremy Moss,D,M,0.0,,,,,,,,,,,Wikipedia overview,1.0,1.0,2.0,2.0
-2026-H-MI-12,2026,H,MI,12,0,party,5,1,D,F,0,Rashida Tlaib,1.0,1,2.0,0.0,1.0,0.0,Rashida Tlaib,F,James D. Hooper,M,F-M,Rashida Tlaib,D,F,1.0,,,,,,,,,,,Wikipedia overview,1.0,0.0,2.0,1.0
-2026-H-MI-13,2026,H,MI,13,0,party,5,1,D,M,0,Shri Thanedar,0.0,0,0.0,0.0,0.0,0.0,Donavan McKinney,M,T.P. Nykoriak,M,M-M,Donavan McKinney,D,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,1.0,1.0
+2026-H-MI-07,2026,H,MI,7,0,party,3,1,R,M,0,Tom Barrett,0.0,1,1.0,0.0,0.0,0.0,William Lawrence,M,Tom Barrett,M,M-M,,,,,51.67988901894481,,,,,,,,,,Wikipedia,1.0,1.0,1.0,1.0
+2026-H-MI-08,2026,H,MI,8,0,party,5,1,D,F,0,Kristen McDonald Rivet,1.0,1,1.0,0.0,1.0,0.0,Kristen McDonald Rivet,F,Thomas J. Smith (suspended campaign),M,F-M,,,,,56.98254291533314,,,,,,,,,,Wikipedia,1.0,0.0,2.0,1.0
+2026-H-MI-09,2026,H,MI,9,0,party,6,1,R,F,0,Lisa C. McClain,1.0,1,0.0,1.0,0.0,1.0,Ray Pooley,M,Lisa McClain,F,M-F,,,,,35.64732583382672,,,,,,,,,,Wikipedia,2.0,1.0,3.0,2.0
+2026-H-MI-10,2026,H,MI,10,0,party,5,0,,,1,John James,0.0,0,1.0,0.0,1.0,0.0,Christina Hines,F,Michael Bouchard Jr.,M,F-M,,,,,53.6713990154812,,,,,,,,,,Wikipedia,0.0,0.0,0.0,0.0
+2026-H-MI-11,2026,H,MI,11,0,party,5,0,,,1,Haley M. Stevens,1.0,1,1.0,0.0,0.0,0.0,Jeremy Moss,M,Ethan Baker,M,M-M,,,,,62.29143782988371,,,,,,,,,,Wikipedia,1.0,1.0,2.0,2.0
+2026-H-MI-12,2026,H,MI,12,0,party,5,1,D,F,0,Rashida Tlaib,1.0,1,2.0,0.0,1.0,0.0,Rashida Tlaib,F,James D. Hooper,M,F-M,,,,,78.18722421673598,,,,,,,,,,Wikipedia,1.0,0.0,2.0,1.0
+2026-H-MI-13,2026,H,MI,13,0,party,5,1,D,M,0,Shri Thanedar,0.0,0,0.0,0.0,0.0,0.0,Donavan McKinney,M,T.P. Nykoriak,M,M-M,,,,,79.39069320563159,,,,,,,,,,Wikipedia,0.0,0.0,1.0,1.0
 2026-H-MN-01,2026,H,MN,1,0,party,2,1,R,M,0,Brad Finstad,0.0,0,0.0,0.0,0.0,0.0,Jake Johnson,M,Brad Finstad,M,M-M,Jake Johnson,D,M,0.0,50.049571962220945,,,,,,,,,,Wikipedia,0.0,0.0,2.0,2.0
 2026-H-MN-02,2026,H,MN,2,0,party,2,0,,,1,Angie Craig,1.0,1,1.0,0.0,0.0,0.0,Matt Little,M,Joe Teirab,M,M-M,Matt Little,D,M,0.0,57.15127863832421,,,,,,,,,,Wikipedia,1.0,1.0,4.0,4.0
 2026-H-MN-03,2026,H,MN,3,0,party,2,1,D,F,0,Kelly Morrison,1.0,1,1.0,0.0,1.0,0.0,Kelly Morrison,F,Tyler Bass,M,F-M,Kelly Morrison,D,F,1.0,64.1126212975126,,,,,,,,,,Wikipedia,1.0,0.0,6.0,5.0
@@ -8687,7 +8687,7 @@ race_id,year,chamber,state,district,special,system,n_general,incumbent_running,i
 2026-H-MS-02,2026,H,MS,2,0,party,3,1,D,M,0,Bennie G. Thompson,0.0,0,0.0,0.0,0.0,0.0,Bennie Thompson,M,Ron Eller,M,M-M,Bennie Thompson,D,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,2.0,2.0
 2026-H-MS-03,2026,H,MS,3,0,party,3,1,R,M,0,Michael Guest,0.0,0,0.0,0.0,0.0,0.0,Michael Chiaradio,M,Michael Guest,M,M-M,Michael Guest,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,1.0,1.0
 2026-H-MS-04,2026,H,MS,4,0,party,3,1,R,M,0,Mike Ezell,0.0,0,0.0,0.0,0.0,0.0,Jeffrey Hulum III,M,Mike Ezell,M,M-M,Mike Ezell,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,1.0,1.0
-2026-H-MT-01,2026,H,MT,1,0,party,3,0,,,1,Ryan K. Zinke,0.0,0,0.0,1.0,0.0,0.0,Sam Forstag,M,Aaron Flint,M,M-M,Sam Forstag,D,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,7.0,7.0
+2026-H-MT-01,2026,H,MT,1,0,party,3,0,,,1,Ryan K. Zinke,0.0,0,0.0,1.0,0.0,0.0,Sam Forstag,M,Aaron Flint,M,M-M,,,,,51.82746557674413,,,,,,,,,,Wikipedia,0.0,0.0,7.0,7.0
 2026-H-MT-02,2026,H,MT,2,0,party,4,1,R,M,0,Troy Downing,0.0,0,0.0,0.0,0.0,0.0,Brian Miller,M,Troy Downing,M,M-M,Troy Downing,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,7.0,7.0
 2026-H-NC-01,2026,H,NC,1,0,party,3,1,D,M,0,Donald G. Davis,0.0,0,0.0,2.0,0.0,1.0,Don Davis,M,Laurie Buckhout,F,M-F,Don Davis,D,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,2.0,1.0
 2026-H-NC-02,2026,H,NC,2,0,party,4,1,D,F,0,Deborah K. Ross,1.0,1,1.0,0.0,1.0,0.0,Deborah Ross,F,Eugene Douglass,M,F-M,Deborah Ross,D,F,1.0,,,,,,,,,,,Wikipedia;Wikipedia overview,1.0,0.0,4.0,3.0
@@ -8696,16 +8696,16 @@ race_id,year,chamber,state,district,special,system,n_general,incumbent_running,i
 2026-H-NC-05,2026,H,NC,5,0,party,3,1,R,F,0,Virginia Foxx,1.0,1,0.0,1.0,0.0,1.0,Chuck Hubbard,M,Virginia Foxx,F,M-F,,,,,,,,,,,,,,,Wikipedia overview,1.0,0.0,3.0,2.0
 2026-H-NC-06,2026,H,NC,6,0,party,2,1,R,M,0,Addison P. McDowell,0.0,1,1.0,0.0,0.0,0.0,Cyril Jefferson,M,Addison McDowell,M,M-M,Cyril Jefferson,D,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,0.0,0.0
 2026-H-NC-07,2026,H,NC,7,0,party,3,1,R,M,0,David Rouzer,0.0,0,1.0,0.0,1.0,0.0,Kimberly Hardy,F,David Rouzer,M,F-M,,,,,,,,,,,,,,,Wikipedia overview,0.0,0.0,2.0,2.0
-2026-H-NC-08,2026,H,NC,8,0,party,3,1,R,M,0,Mark Harris,0.0,0,0.0,0.0,0.0,0.0,Colby Watson,M,Mark Harris,M,M-M,,,,,,,,,,,,,,,Wikipedia;Wikipedia overview,0.0,0.0,0.0,0.0
-2026-H-NC-09,2026,H,NC,9,0,party,2,1,R,M,0,Richard Hudson,0.0,0,0.0,0.0,0.0,0.0,Richard Ojeda,M,Richard Hudson,M,M-M,Richard Ojeda,D,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,1.0,1.0
+2026-H-NC-08,2026,H,NC,8,0,party,3,1,R,M,0,Mark Harris,0.0,0,0.0,0.0,0.0,0.0,Colby Watson,M,Mark Harris,M,M-M,Mark Harris,R,M,0.0,,,,,,,,,,,Wikipedia;Wikipedia overview,0.0,0.0,0.0,0.0
+2026-H-NC-09,2026,H,NC,9,0,party,2,1,R,M,0,Richard Hudson,0.0,0,0.0,0.0,0.0,0.0,Richard Ojeda,M,Richard Hudson,M,M-M,Richard Ojeda,D,M,0.0,51.1081470454939,,,,,,,,,,Wikipedia,0.0,0.0,1.0,1.0
 2026-H-NC-10,2026,H,NC,10,0,party,3,1,R,M,0,Pat Harrigan,0.0,0,1.0,0.0,1.0,0.0,Ashley Bell,F,Pat Harrigan,M,F-M,,,,,,,,,,,,,,,Wikipedia overview,0.0,0.0,0.0,0.0
 2026-H-NC-11,2026,H,NC,11,0,party,3,1,R,M,0,Chuck Edwards,0.0,0,1.0,1.0,0.0,0.0,Jamie Ager,M,Jennifer Balkcom,F,M-F,Jamie Ager,D,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,3.0,3.0
 2026-H-NC-12,2026,H,NC,12,0,party,2,1,D,F,0,Alma S. Adams,1.0,1,2.0,0.0,1.0,0.0,Alma Adams,F,Jack Codiga,M,F-M,Alma Adams,D,F,1.0,,,,,,,,,,,Wikipedia overview,2.0,1.0,2.0,1.0
 2026-H-NC-13,2026,H,NC,13,0,party,3,1,R,M,0,Brad Knott,0.0,0,0.0,0.0,0.0,0.0,Paul Barringer,M,Brad Knott,M,M-M,Paul Barringer,D,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,1.0,1.0
-2026-H-NC-14,2026,H,NC,14,0,party,2,1,R,M,0,Tim Moore,0.0,0,1.0,1.0,1.0,0.0,LaKesha Womack,F,Tim Moore,M,F-M,LaKesha Womack,D,F,1.0,,,,,,,,,,,Wikipedia overview,1.0,1.0,2.0,2.0
-2026-H-ND-00,2026,H,ND,0,0,party,4,1,R,F,0,Julie Fedorchak,1.0,1,0.0,1.0,0.0,1.0,Trygve Hammer,M,Julie Fedorchak,F,M-F,Julie Fedorchak,R,F,1.0,,,,,,,,,,,Wikipedia overview,1.0,0.0,2.0,1.0
+2026-H-NC-14,2026,H,NC,14,0,party,2,1,R,M,0,Tim Moore,0.0,0,1.0,1.0,1.0,0.0,LaKesha Womack,F,Tim Moore,M,F-M,LaKesha Womack,D,F,1.0,51.11232101428418,,,,,,,,,,Wikipedia,1.0,1.0,2.0,2.0
+2026-H-ND-00,2026,H,ND,0,0,party,4,1,R,F,0,Julie Fedorchak,1.0,1,0.0,1.0,0.0,1.0,Trygve Hammer,M,Julie Fedorchak,F,M-F,Julie Fedorchak,R,F,1.0,38.97644405519833,,,,,,,,,,Wikipedia,1.0,0.0,2.0,1.0
 2026-H-NE-01,2026,H,NE,1,0,party,4,1,R,M,0,Mike Flood,0.0,0,0.0,0.0,0.0,0.0,Chris Backemeyer,M,Mike Flood,M,M-M,Mike Flood,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,6.0,6.0
-2026-H-NE-02,2026,H,NE,2,0,party,3,0,,,1,Don Bacon,0.0,0,4.0,0.0,1.0,0.0,Denise Powell,F,Brinker Harding,M,F-M,Denise Powell,D,F,1.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,4.0,4.0
+2026-H-NE-02,2026,H,NE,2,0,party,3,0,,,1,Don Bacon,0.0,0,4.0,0.0,1.0,0.0,Denise Powell,F,Brinker Harding,M,F-M,,,,,57.89515415560786,,,,,,,,,,Wikipedia,0.0,0.0,4.0,4.0
 2026-H-NE-03,2026,H,NE,3,0,party,5,1,R,M,0,Adrian Smith,0.0,0,1.0,0.0,1.0,0.0,Becky Stille,F,Adrian Smith,M,F-M,Adrian Smith,R,M,0.0,,,,,,,,,,,Wikipedia overview,1.0,1.0,4.0,4.0
 2026-H-NH-01,2026,H,NH,1,0,party,2,0,,,1,Chris Pappas,0.0,0,5.0,2.0,1.0,0.0,Stefany Shaheen,F,Anthony DiLorenzo,M,F-M,Stefany Shaheen,D,F,1.0,,,,,,,,,,,Wikipedia overview,1.0,1.0,3.0,3.0
 2026-H-NH-02,2026,H,NH,2,0,party,3,1,D,F,0,Maggie Goodlander,1.0,2,2.0,1.0,1.0,1.0,Maggie Goodlander,F,Lily Tang Williams,F,F-F,Maggie Goodlander,D,F,1.0,,,,,,,,,,,Wikipedia overview,2.0,1.0,8.0,6.0
@@ -8728,7 +8728,7 @@ race_id,year,chamber,state,district,special,system,n_general,incumbent_running,i
 2026-H-NV-02,2026,H,NV,2,0,party,3,0,,,1,Mark E. Amodei,0.0,0,3.0,2.0,1.0,0.0,Teresa Benitez-Thompson,F,David Flippo,M,F-M,Teresa Benitez-Thompson,D,F,1.0,,,,,,,,,,,Wikipedia overview,1.0,1.0,10.0,10.0
 2026-H-NV-03,2026,H,NV,3,0,party,3,1,D,F,0,Susie Lee,1.0,1,1.0,1.0,1.0,0.0,Susie Lee,F,Martin O'Donnell,M,F-M,Susie Lee,D,F,1.0,,,,,,,,,,,Wikipedia overview,3.0,2.0,7.0,6.0
 2026-H-NV-04,2026,H,NV,4,0,party,4,1,D,M,0,Steven Horsford,0.0,0,0.0,1.0,0.0,0.0,Steven Horsford,M,Cody Whipple,M,M-M,Steven Horsford,D,M,0.0,,,,,,,,,,,Wikipedia overview,2.0,2.0,6.0,6.0
-2026-H-NY-01,2026,H,NY,1,0,party,2,1,R,M,0,Nick LaLota,0.0,0,0.0,0.0,0.0,0.0,Chris Gallant,M,Nick LaLota,M,M-M,,,,,,,,,,,,,,,Wikipedia overview,0.0,0.0,5.0,5.0
+2026-H-NY-01,2026,H,NY,1,0,party,2,1,R,M,0,Nick LaLota,0.0,0,0.0,0.0,0.0,0.0,Chris Gallant,M,Nick LaLota,M,M-M,Nick LaLota,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,5.0,5.0
 2026-H-NY-02,2026,H,NY,2,0,party,2,1,R,M,0,Andrew R. Garbarino,0.0,0,0.0,0.0,0.0,0.0,Patrick Halpin,M,Andrew Garbarino,M,M-M,,,,,,,,,,,,,,,Wikipedia overview,0.0,0.0,5.0,5.0
 2026-H-NY-03,2026,H,NY,3,0,party,2,1,D,M,0,Thomas R. Suozzi,0.0,0,1.0,0.0,0.0,0.0,Tom Suozzi,M,Mike LiPetri,M,M-M,Tom Suozzi,D,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,0.0,0.0
 2026-H-NY-04,2026,H,NY,4,0,party,3,1,D,F,0,Laura Gillen,1.0,1,1.0,1.0,1.0,1.0,Laura Gillen,F,Jeanine Driscoll,F,F-F,Laura Gillen,D,F,1.0,,,,,,,,,,,Wikipedia overview,3.0,2.0,6.0,5.0
@@ -8748,7 +8748,7 @@ race_id,year,chamber,state,district,special,system,n_general,incumbent_running,i
 2026-H-NY-18,2026,H,NY,18,0,party,2,1,D,M,0,Patrick Ryan,0.0,0,0.0,1.0,0.0,1.0,Pat Ryan,M,Jacqueline Auringer,F,M-F,Pat Ryan,D,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,3.0,3.0
 2026-H-NY-19,2026,H,NY,19,0,party,2,1,D,M,0,Josh Riley,0.0,0,0.0,0.0,0.0,0.0,Josh Riley,M,Peter Oberacker,M,M-M,Josh Riley,D,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,0.0,0.0
 2026-H-NY-20,2026,H,NY,20,0,party,2,1,D,M,0,Paul Tonko,0.0,0,0.0,0.0,0.0,0.0,Paul Tonko,M,Ralph Ambrosio,M,M-M,Paul Tonko,D,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,4.0,4.0
-2026-H-NY-21,2026,H,NY,21,0,party,2,0,,,1,Elise M. Stefanik,1.0,1,0.0,0.0,0.0,0.0,Blake Gendebien,M,Anthony Constantino,M,M-M,,,,,,,,,,,,,,,Wikipedia overview,1.0,1.0,3.0,3.0
+2026-H-NY-21,2026,H,NY,21,0,party,2,0,,,1,Elise M. Stefanik,1.0,1,0.0,0.0,0.0,0.0,Blake Gendebien,M,Anthony Constantino,M,M-M,Anthony Constantino,R,M,0.0,,,,,,,,,,,Wikipedia overview,1.0,1.0,3.0,3.0
 2026-H-NY-22,2026,H,NY,22,0,party,2,1,D,M,0,John W. Mannion,0.0,0,0.0,1.0,0.0,1.0,John Mannion,M,Kailee Buller,F,M-F,John Mannion,D,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,6.0,6.0
 2026-H-NY-23,2026,H,NY,23,0,party,2,1,R,M,0,Nicholas A. Langworthy,0.0,0,0.0,0.0,0.0,0.0,Aaron Gies,M,Nick Langworthy,M,M-M,Nick Langworthy,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,0.0,0.0
 2026-H-NY-24,2026,H,NY,24,0,party,2,1,R,F,0,Claudia Tenney,1.0,1,2.0,1.0,1.0,1.0,Alissa Ellman,F,Claudia Tenney,F,F-F,Claudia Tenney,R,F,1.0,,,,,,,,,,,Wikipedia overview,1.0,0.0,2.0,1.0
@@ -8757,7 +8757,7 @@ race_id,year,chamber,state,district,special,system,n_general,incumbent_running,i
 2026-H-OH-01,2026,H,OH,1,0,party,3,1,D,M,0,Greg Landsman,0.0,0,0.0,2.0,0.0,0.0,Greg Landsman,M,Eric Conroy,M,M-M,Greg Landsman,D,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,2.0,2.0
 2026-H-OH-02,2026,H,OH,2,0,party,2,1,R,M,0,David J. Taylor,0.0,0,1.0,0.0,1.0,0.0,Jennifer Mazzuckelli,F,David Taylor,M,F-M,David Taylor,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,1.0,1.0
 2026-H-OH-03,2026,H,OH,3,0,party,2,1,D,F,0,Joyce Beatty,1.0,1,1.0,0.0,1.0,0.0,Joyce Beatty,F,Cleophus Dulaney,M,F-M,Joyce Beatty,D,F,1.0,,,,,,,,,,,Wikipedia overview,1.0,0.0,1.0,0.0
-2026-H-OH-04,2026,H,OH,4,0,party,3,1,R,M,0,Jim Jordan,0.0,0,0.0,0.0,0.0,0.0,Joshua Kolasinski,M,Jim Jordan,M,M-M,Jim Jordan,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,3.0,3.0
+2026-H-OH-04,2026,H,OH,4,0,party,3,1,R,M,0,Jim Jordan,0.0,0,0.0,0.0,0.0,0.0,Joshua Kolasinski,M,Jim Jordan,M,M-M,,,,,32.63950837545842,,,,,,,,,,Wikipedia,0.0,0.0,3.0,3.0
 2026-H-OH-05,2026,H,OH,5,0,party,3,1,R,M,0,Robert E. Latta,0.0,0,0.0,0.0,0.0,0.0,Brian Shaver,M,Bob Latta,M,M-M,Bob Latta,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,2.0,2.0
 2026-H-OH-06,2026,H,OH,6,0,party,2,1,R,M,0,Michael A. Rulli,0.0,0,1.0,1.0,1.0,0.0,Elizabeth Kirtley,F,Michael Rulli,M,F-M,Michael Rulli,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,0.0,0.0
 2026-H-OH-07,2026,H,OH,7,0,party,2,1,R,M,0,Max L. Miller,0.0,0,2.0,0.0,0.0,0.0,Brian Poindexter,M,Max Miller,M,M-M,Brian Poindexter,D,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,0.0,0.0
@@ -8806,16 +8806,16 @@ race_id,year,chamber,state,district,special,system,n_general,incumbent_running,i
 2026-H-SC-05,2026,H,SC,5,0,party,2,0,,,1,Ralph Norman,0.0,0,1.0,0.0,1.0,0.0,Mallory Dittmer,F,Wes Climer,M,F-M,Wes Climer,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,2.0,2.0
 2026-H-SC-06,2026,H,SC,6,0,party,2,1,D,M,0,James E. Clyburn,0.0,0,0.0,0.0,0.0,0.0,Jim Clyburn,M,John Peterson,M,M-M,Jim Clyburn,D,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,2.0,2.0
 2026-H-SC-07,2026,H,SC,7,0,party,2,1,R,M,0,Russell Fry,0.0,0,0.0,0.0,0.0,0.0,John Vincent,M,Russell Fry,M,M-M,Russell Fry,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,2.0,2.0
-2026-H-SD-00,2026,H,SD,0,0,party,3,0,,,1,Dusty Johnson,0.0,0,1.0,0.0,1.0,0.0,Nicole Gronli,F,Marty Jackley,M,F-M,Marty Jackley,R,M,0.0,,,,,,,,,,,Wikipedia;Wikipedia overview,2.0,2.0,5.0,5.0
+2026-H-SD-00,2026,H,SD,0,0,party,2,0,,,1,Dusty Johnson,0.0,0,1.0,0.0,1.0,0.0,Nicole Gronli,F,Marty Jackley,M,F-M,Marty Jackley,R,M,0.0,35.994829504548726,,,,,,,,,,Wikipedia,2.0,2.0,5.0,5.0
 2026-H-TN-01,2026,H,TN,1,0,party,7,1,R,F,0,Diana Harshbarger,1.0,1,1.0,1.0,1.0,1.0,Kristi Burke,F,Diana Harshbarger,F,F-F,Diana Harshbarger,R,F,1.0,,,,,,,,,,,Wikipedia overview,1.0,0.0,4.0,3.0
 2026-H-TN-02,2026,H,TN,2,0,party,4,1,R,M,0,Tim Burchett,0.0,0,1.0,0.0,1.0,0.0,Michaela Barnett,F,Tim Burchett,M,F-M,Tim Burchett,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,2.0,2.0
 2026-H-TN-03,2026,H,TN,3,0,party,7,1,R,M,0,"Charles J. ""Chuck"" Fleischmann",0.0,0,1.0,0.0,1.0,0.0,Anna Golladay,F,Chuck Fleischmann,M,F-M,Chuck Fleischmann,R,M,0.0,,,,,,,,,,,Wikipedia overview,1.0,1.0,6.0,6.0
-2026-H-TN-04,2026,H,TN,4,0,party,3,1,R,M,0,Scott DesJarlais,0.0,0,2.0,0.0,1.0,0.0,Victoria Broderick,F,Scott DesJarlais,M,F-M,Victoria Broderick,D,F,1.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,3.0,2.0
+2026-H-TN-04,2026,H,TN,4,0,party,3,1,R,M,0,Scott DesJarlais,0.0,0,2.0,0.0,1.0,0.0,Victoria Broderick,F,Scott DesJarlais,M,F-M,,,,,,,,,,,,,,,Wikipedia overview,0.0,0.0,3.0,2.0
 2026-H-TN-05,2026,H,TN,5,0,party,4,1,R,M,0,Andrew Ogles,0.0,0,3.0,0.0,0.0,0.0,Chaz Molder,M,Charlie Hatcher,M,M-M,Charlie Hatcher,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,2.0,2.0
 2026-H-TN-06,2026,H,TN,6,0,party,4,0,,,1,John W. Rose,0.0,0,2.0,1.0,0.0,0.0,Mike Croley,M,Johnny Garrett,M,M-M,Johnny Garrett,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,0.0,0.0
-2026-H-TN-07,2026,H,TN,7,0,party,4,1,R,M,0,Matt Van Epps,0.0,0,1.0,0.0,0.0,0.0,Darden Copeland,M,Matt Van Epps,M,M-M,,,,,,,,,,,,,,,Wikipedia overview,0.0,0.0,1.0,1.0
+2026-H-TN-07,2026,H,TN,7,0,party,4,1,R,M,0,Matt Van Epps,0.0,0,1.0,0.0,0.0,0.0,Darden Copeland,M,Matt Van Epps,M,M-M,Matt Van Epps,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,1.0,1.0
 2026-H-TN-08,2026,H,TN,8,0,party,8,1,R,M,0,David Kustoff,0.0,0,1.0,0.0,1.0,0.0,Heidi Kuhn,F,David Kustoff,M,F-M,David Kustoff,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,3.0,3.0
-2026-H-TN-09,2026,H,TN,9,0,party,4,0,,,1,Steve Cohen,0.0,0,1.0,1.0,0.0,0.0,Justin Pearson,M,Brent Taylor,M,M-M,,,,,,,,,,,,,,,Wikipedia overview,0.0,0.0,0.0,0.0
+2026-H-TN-09,2026,H,TN,9,0,party,4,0,,,1,Steve Cohen,0.0,0,1.0,1.0,0.0,0.0,Justin Pearson,M,Brent Taylor,M,M-M,Brent Taylor,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,0.0,0.0
 2026-H-TX-01,2026,H,TX,1,0,party,3,1,R,M,0,Nathaniel Moran,0.0,0,2.0,0.0,1.0,0.0,Yolanda Prince,F,Nathaniel Moran,M,F-M,Nathaniel Moran,R,M,0.0,,,,,,,,,,,Wikipedia;Wikipedia overview,0.0,0.0,1.0,1.0
 2026-H-TX-02,2026,H,TX,2,0,party,2,1,R,M,0,Dan Crenshaw,0.0,0,0.0,0.0,0.0,0.0,Shaun Finnie,M,Steve Toth,M,M-M,Steve Toth,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,3.0,3.0
 2026-H-TX-03,2026,H,TX,3,0,party,2,1,R,M,0,Keith Self,0.0,0,0.0,0.0,0.0,0.0,Evan Hunt,M,Keith Self,M,M-M,Keith Self,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,0.0,0.0
@@ -8824,7 +8824,7 @@ race_id,year,chamber,state,district,special,system,n_general,incumbent_running,i
 2026-H-TX-06,2026,H,TX,6,0,party,2,1,R,M,0,Jake Ellzey,0.0,0,0.0,0.0,0.0,0.0,Danny Minton,M,Jake Ellzey,M,M-M,Jake Ellzey,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,0.0,0.0
 2026-H-TX-07,2026,H,TX,7,0,party,3,1,D,F,0,Lizzie Fletcher,1.0,1,1.0,2.0,1.0,0.0,Lizzie Fletcher,F,Alexander Hale,M,F-M,Lizzie Fletcher,D,F,1.0,,,,,,,,,,,Wikipedia overview,1.0,0.0,2.0,1.0
 2026-H-TX-08,2026,H,TX,8,0,party,2,0,,,1,Morgan Luttrell,0.0,0,1.0,1.0,1.0,1.0,Laura Jones,F,Jessica Steinmann,F,F-F,Jessica Steinmann,R,F,1.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,0.0,0.0
-2026-H-TX-09,2026,H,TX,9,0,party,2,0,,,1,Al Green,0.0,0,1.0,3.0,1.0,1.0,Leticia Gutierrez,F,Alex Mealer,F,F-F,Leticia Gutierrez,D,F,1.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,0.0,0.0
+2026-H-TX-09,2026,H,TX,9,0,party,2,0,,,1,Al Green,0.0,0,1.0,3.0,1.0,1.0,Leticia Gutierrez,F,Alex Mealer,F,F-F,,,,,57.55168144397045,,,,,,,,,,Wikipedia,0.0,0.0,0.0,0.0
 2026-H-TX-10,2026,H,TX,10,0,party,2,0,,,1,Michael T. McCaul,0.0,0,2.0,3.0,1.0,0.0,Caitlin Rourk,F,Chris Gober,M,F-M,Chris Gober,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,0.0,0.0
 2026-H-TX-11,2026,H,TX,11,0,party,2,1,R,M,0,August Pfluger,0.0,0,1.0,0.0,1.0,0.0,Claire Reynolds,F,August Pfluger,M,F-M,August Pfluger,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,1.0,1.0
 2026-H-TX-12,2026,H,TX,12,0,party,2,1,R,M,0,Craig A. Goldman,0.0,1,1.0,0.0,1.0,0.0,Angela Rodriguez Prilliman,F,Craig Goldman,M,F-M,Craig Goldman,R,M,0.0,,,,,,,,,,,Wikipedia overview,1.0,1.0,3.0,3.0
@@ -8854,26 +8854,26 @@ race_id,year,chamber,state,district,special,system,n_general,incumbent_running,i
 2026-H-TX-36,2026,H,TX,36,0,party,2,1,R,M,0,Brian Babin,0.0,0,1.0,0.0,1.0,0.0,Rhonda Hart,F,Brian Babin,M,F-M,Brian Babin,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,1.0,1.0
 2026-H-TX-37,2026,H,TX,37,0,party,2,1,D,M,0,Lloyd Doggett,0.0,0,1.0,3.0,0.0,1.0,Greg Casar,M,Lauren Peña,F,M-F,Greg Casar,D,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,3.0,3.0
 2026-H-TX-38,2026,H,TX,38,0,party,3,0,,,1,Wesley Hunt,0.0,0,3.0,3.0,1.0,0.0,Melissa McDonough,F,Jon Bonck,M,F-M,Jon Bonck,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,1.0,0.0
-2026-H-UT-01,2026,H,UT,1,0,party,4,0,,,1,Blake D. Moore,0.0,0,1.0,0.0,0.0,0.0,Ben McAdams,M,Riley Owen,M,M-M,Ben McAdams,D,M,0.0,,,,,,,,,,,Wikipedia overview,2.0,2.0,5.0,5.0
-2026-H-UT-02,2026,H,UT,2,0,party,5,1,R,M,0,Celeste Maloy,1.0,1,0.0,1.0,0.0,0.0,Peter Crosby,M,Blake Moore,M,M-M,,,,,,,,,,,,,,,Wikipedia overview,0.0,0.0,3.0,3.0
+2026-H-UT-01,2026,H,UT,1,0,party,2,0,,,1,Blake D. Moore,0.0,0,1.0,0.0,0.0,0.0,Ben McAdams,M,Riley Owen,M,M-M,Ben McAdams,D,M,0.0,74.21446986786981,,,,,,,,,,Wikipedia,2.0,2.0,5.0,5.0
+2026-H-UT-02,2026,H,UT,2,0,party,5,1,R,M,0,Celeste Maloy,1.0,1,0.0,1.0,0.0,0.0,Peter Crosby,M,Blake Moore,M,M-M,Blake Moore,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,3.0,3.0
 2026-H-UT-03,2026,H,UT,3,0,party,6,1,R,F,0,Mike Kennedy,0.0,0,0.0,1.0,0.0,1.0,Kent Udell,M,Celeste Maloy,F,M-F,Celeste Maloy,R,F,1.0,,,,,,,,,,,Wikipedia overview,1.0,0.0,2.0,1.0
-2026-H-UT-04,2026,H,UT,4,0,party,4,1,R,M,0,Burgess Owens,0.0,0,0.0,0.0,0.0,0.0,Jonny Larsen,M,Mike Kennedy,M,M-M,,,,,,,,,,,,,,,Wikipedia overview,0.0,0.0,0.0,0.0
+2026-H-UT-04,2026,H,UT,4,0,party,4,1,R,M,0,Burgess Owens,0.0,0,0.0,0.0,0.0,0.0,Jonny Larsen,M,Mike Kennedy,M,M-M,Mike Kennedy,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,0.0,0.0
 2026-H-VA-01,2026,H,VA,1,0,party,2,1,R,M,0,Robert J. Wittman,0.0,0,3.0,0.0,1.0,0.0,Shannon Taylor,F,Rob Wittman,M,F-M,Shannon Taylor,D,F,1.0,,,,,,,,,,,Wikipedia overview,1.0,1.0,4.0,4.0
 2026-H-VA-02,2026,H,VA,2,0,party,5,1,R,F,0,Jennifer A. Kiggans,1.0,1,2.0,1.0,1.0,1.0,Elaine Luria,F,Jen Kiggans,F,F-F,Elaine Luria,D,F,1.0,,,,,,,,,,,Wikipedia;Wikipedia overview,2.0,0.0,3.0,1.0
 2026-H-VA-03,2026,H,VA,3,0,party,4,1,D,M,0,"Robert C. ""Bobby"" Scott",0.0,0,0.0,0.0,0.0,0.0,Bobby Scott,M,Edwin Rivera,M,M-M,Bobby Scott,D,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,2.0,2.0
 2026-H-VA-04,2026,H,VA,4,0,party,3,1,D,F,0,Jennifer L. McClellan,1.0,1,1.0,0.0,1.0,0.0,Jennifer McClellan,F,Robert Murray,M,F-M,Jennifer McClellan,D,F,1.0,,,,,,,,,,,Wikipedia overview,1.0,0.0,1.0,0.0
-2026-H-VA-05,2026,H,VA,5,0,party,3,1,R,M,0,John J. McGuire III,0.0,0,1.0,1.0,0.0,0.0,Tom Perriello,M,John McGuire,M,M-M,,,,,,,,,,,,,,,Wikipedia overview,0.0,0.0,1.0,1.0
+2026-H-VA-05,2026,H,VA,5,0,party,3,1,R,M,0,John J. McGuire III,0.0,0,1.0,1.0,0.0,0.0,Tom Perriello,M,John McGuire,M,M-M,John McGuire,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,1.0,1.0
 2026-H-VA-06,2026,H,VA,6,0,party,2,1,R,M,0,Ben Cline,0.0,0,1.0,0.0,1.0,0.0,Beth Macy,F,Ben Cline,M,F-M,Ben Cline,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,1.0,1.0
 2026-H-VA-07,2026,H,VA,7,0,party,6,1,D,M,0,Eugene Simon Vindman,0.0,1,0.0,0.0,0.0,0.0,Eugene Vindman,M,Doug Ollivant,M,M-M,Eugene Vindman,D,M,0.0,,,,,,,,,,,Wikipedia overview,1.0,1.0,2.0,2.0
 2026-H-VA-08,2026,H,VA,8,0,party,4,1,D,M,0,"Donald S. Beyer, Jr.",0.0,0,1.0,0.0,0.0,0.0,Don Beyer,M,Tony Sabio,M,M-M,Don Beyer,D,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,3.0,3.0
 2026-H-VA-09,2026,H,VA,9,0,party,2,1,R,M,0,H. Morgan Griffith,0.0,0,1.0,0.0,1.0,0.0,Joy Powers,F,Morgan Griffith,M,F-M,Morgan Griffith,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,2.0,2.0
 2026-H-VA-10,2026,H,VA,10,0,party,3,1,D,M,0,Suhas Subramanyam,0.0,1,0.0,1.0,0.0,0.0,Suhas Subramanyam,M,Dave Beckwith,M,M-M,Suhas Subramanyam,D,M,0.0,,,,,,,,,,,Wikipedia overview,2.0,2.0,6.0,6.0
 2026-H-VA-11,2026,H,VA,11,0,party,3,1,D,M,0,James R. Walkinshaw,0.0,0,0.0,0.0,0.0,0.0,James Walkinshaw,M,Arthur Purves,M,M-M,James Walkinshaw,D,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,2.0,2.0
-2026-H-VT-00,2026,H,VT,0,0,party,6,1,D,F,0,Becca Balint,1.0,1,1.0,0.0,1.0,0.0,Becca Balint,F,Gerald Malloy,M,F-M,Becca Balint,D,F,1.0,,,,,,,,,,,Wikipedia overview,1.0,0.0,7.0,6.0
+2026-H-VT-00,2026,H,VT,0,0,party,6,1,D,F,0,Becca Balint,1.0,1,1.0,0.0,1.0,0.0,Becca Balint,F,Gerald Malloy,M,F-M,Becca Balint,D,F,1.0,67.87598561657168,,,,,,,,,,Wikipedia,1.0,0.0,7.0,6.0
 2026-H-WA-01,2026,H,WA,1,0,top2,2,1,D,F,0,Suzan K. DelBene,1.0,1,2.0,1.0,1.0,1.0,Suzan DelBene,F,Mary Silva,F,F-F,Suzan DelBene,D,F,1.0,,,,,,,,,,,Wikipedia overview,1.0,0.0,1.0,0.0
 2026-H-WA-02,2026,H,WA,2,0,top2,2,1,D,M,0,Rick Larsen,0.0,0,0.0,0.0,0.0,0.0,Rick Larsen,M,Edwin H. Feller,M,M-M,Rick Larsen,D,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,4.0,4.0
 2026-H-WA-03,2026,H,WA,3,0,top2,2,1,D,F,0,Marie Gluesenkamp Perez,1.0,1,1.0,0.0,1.0,0.0,Marie Gluesenkamp Perez,F,John Braun,M,F-M,Marie Gluesenkamp Perez,D,F,1.0,,,,,,,,,,,Wikipedia overview,4.0,3.0,5.0,4.0
-2026-H-WA-04,2026,H,WA,4,0,top2,2,0,,,1,Dan Newhouse,0.0,0,0.0,2.0,0.0,1.0,John Duresky,M,Amanda McKinney,F,M-F,,,,,,,,,,,,,,,Wikipedia overview,0.0,0.0,3.0,3.0
+2026-H-WA-04,2026,H,WA,4,0,top2,2,0,,,1,Dan Newhouse,0.0,0,0.0,2.0,0.0,1.0,John Duresky,M,Amanda McKinney,F,M-F,Amanda McKinney,R,F,1.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,3.0,3.0
 2026-H-WA-05,2026,H,WA,5,0,top2,2,1,R,M,0,Michael Baumgartner,0.0,1,1.0,0.0,1.0,0.0,Carmela Conroy,F,Michael Baumgartner,M,F-M,,,,,,,,,,,,,,,Wikipedia overview,1.0,1.0,6.0,5.0
 2026-H-WA-06,2026,H,WA,6,0,top2,2,1,D,F,0,Emily Randall,1.0,1,1.0,1.0,1.0,1.0,Emily Randall,F,Teresa Fox,F,F-F,Emily Randall,D,F,1.0,,,,,,,,,,,Wikipedia overview,1.0,0.0,3.0,2.0
 2026-H-WA-07,2026,H,WA,7,0,top2,2,1,D,F,0,Pramila Jayapal,1.0,1,2.0,0.0,1.0,0.0,Pramila Jayapal,F,Nirav Sheth,M,F-M,Pramila Jayapal,D,F,1.0,,,,,,,,,,,Wikipedia overview,1.0,0.0,2.0,1.0
@@ -8890,40 +8890,40 @@ race_id,year,chamber,state,district,special,system,n_general,incumbent_running,i
 2026-H-WI-08,2026,H,WI,8,0,party,2,1,R,M,0,Tony Wied,0.0,0,1.0,0.0,0.0,0.0,Rick Crosson,M,Tony Wied,M,M-M,Tony Wied,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,5.0,5.0
 2026-H-WV-01,2026,H,WV,1,0,party,3,1,R,F,0,Carol D. Miller,1.0,1,1.0,1.0,0.0,1.0,Vince George,M,Carol Miller,F,M-F,Carol Miller,R,F,1.0,,,,,,,,,,,Wikipedia overview,1.0,0.0,2.0,1.0
 2026-H-WV-02,2026,H,WV,2,0,party,2,1,R,M,0,Riley M. Moore,0.0,0,1.0,0.0,0.0,0.0,Ace Parsi,M,Riley Moore,M,M-M,Riley Moore,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,1.0,1.0
-2026-H-WY-00,2026,H,WY,0,0,party,4,0,,,1,Harriet M. Hageman,1.0,1,2.0,1.0,1.0,0.0,Lisa F. Kinney,F,Chuck Gray,M,F-M,Chuck Gray,R,M,0.0,,,,,,,,,,,Wikipedia overview,4.0,4.0,6.0,6.0
+2026-H-WY-00,2026,H,WY,0,0,party,4,0,,,1,Harriet M. Hageman,1.0,1,2.0,1.0,1.0,0.0,Lisa F. Kinney,F,Chuck Gray,M,F-M,Chuck Gray,R,M,0.0,38.177845993885306,,,,,,,,,,Wikipedia,4.0,4.0,6.0,6.0
 2026-S-AK-00,2026,S,AK,0,0,top4,0,1,R,M,0,Lisa Murkowski;Dan Sullivan,1.0,1,2.0,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,
 2026-S-AL-00,2026,S,AL,0,0,party,2,0,,,1,Tommy Tuberville;Katie Boyd Britt,1.0,1,0.0,0.0,0.0,0.0,Everett Wess,M,Barry Moore,M,M-M,,,,,45.28795561710569,,,,,,,,,,Wikipedia,,,,
 2026-S-AR-00,2026,S,AR,0,0,party,3,1,R,M,0,John Boozman;Tom Cotton,0.0,1,1.0,1.0,1.0,0.0,Hallie Shoffner,F,Tom Cotton,M,F-M,,,,,,,,,,,,,,,Wikipedia,,,,
-2026-S-CO-00,2026,S,CO,0,0,party,6,1,D,M,0,Michael F. Bennet;John W. Hickenlooper,0.0,0,1.0,0.0,0.0,0.0,John Hickenlooper,M,Mark Baisley,M,M-M,,,,,,,,,,,,,,,Wikipedia,,,,
+2026-S-CO-00,2026,S,CO,0,0,party,6,1,D,M,0,Michael F. Bennet;John W. Hickenlooper,0.0,0,1.0,0.0,0.0,0.0,John Hickenlooper,M,Mark Baisley,M,M-M,John Hickenlooper,D,M,0.0,62.511892225093405,,,,,,,,,,Wikipedia,,,,
 2026-S-DE-00,2026,S,DE,0,0,party,2,1,D,M,0,Christopher A. Coons;Lisa Blunt Rochester,1.0,1,1.0,0.0,0.0,0.0,Chris Coons,M,Michael Katz,M,M-M,,,,,,,,,,,,,,,Wikipedia,,,,
 2026-S-FL-00-sp,2026,S,FL,0,1,party,3,1,R,F,0,Rick Scott;Ashley Moody,1.0,2,1.0,2.0,1.0,1.0,Angie Nixon,F,Ashley Moody,F,F-F,,,,,48.535146896327234,,,,,,,,,,Wikipedia,,,,
 2026-S-GA-00,2026,S,GA,0,0,party,2,1,D,M,0,Jon Ossoff;Raphael G. Warnock,0.0,1,0.0,0.0,0.0,0.0,Jon Ossoff,M,Mike Collins,M,M-M,,,,,,,,,,,,,,,Wikipedia,,,,
-2026-S-IA-00,2026,S,IA,0,0,party,3,0,,,1,Chuck Grassley;Joni Ernst,1.0,1,0.0,1.0,0.0,1.0,Josh Turek,M,Ashley Hinson,F,M-F,,,,,,,,,,,,,,,Wikipedia,,,,
+2026-S-IA-00,2026,S,IA,0,0,party,3,0,,,1,Chuck Grassley;Joni Ernst,1.0,1,0.0,1.0,0.0,1.0,Josh Turek,M,Ashley Hinson,F,M-F,Josh Turek,D,M,0.0,52.1209838880997,,,,,,,,,,Wikipedia,,,,
 2026-S-ID-00,2026,S,ID,0,0,party,4,1,R,M,0,James E. Risch;Mike Crapo,0.0,0,0.0,0.0,0.0,0.0,,,Jim Risch,M,R only,Jim Risch,R,M,0.0,,,,,,,,,,,Wikipedia,,,,
 2026-S-IL-00,2026,S,IL,0,0,party,3,0,,,1,Richard J. Durbin;Tammy Duckworth,1.0,2,3.0,2.0,1.0,0.0,Juliana Stratton,F,Don Tracy,M,F-M,,,,,,,,,,,,,,,Wikipedia,,,,
-2026-S-KS-00,2026,S,KS,0,0,party,3,1,R,M,0,Jerry Moran;Roger Marshall,0.0,2,3.0,0.0,0.0,0.0,Adam Hamilton,M,Roger Marshall,M,M-M,,,,,52.57808251855038,,,,,,,,,,Wikipedia,,,,
+2026-S-KS-00,2026,S,KS,0,0,party,3,1,R,M,0,Jerry Moran;Roger Marshall,0.0,2,3.0,0.0,0.0,0.0,Adam Hamilton,M,Roger Marshall,M,M-M,Adam Hamilton,D,M,0.0,52.57808251855038,,,,,,,,,,Wikipedia,,,,
 2026-S-KY-00,2026,S,KY,0,0,party,3,0,,,1,Mitch McConnell;Rand Paul,0.0,0,2.0,2.0,0.0,0.0,Charles Booker,M,Andy Barr,M,M-M,Andy Barr,R,M,0.0,43.826625041331894,,,,,,,,,,Wikipedia,,,,
 2026-S-LA-00,2026,S,LA,0,0,party,2,1,R,M,0,Bill Cassidy;John Kennedy,0.0,1,0.0,1.0,0.0,1.0,Jamie Davis,M,Julia Letlow,F,M-F,Julia Letlow,R,F,1.0,49.11815201058067,,,,,,,,,,Wikipedia,,,,
 2026-S-MA-00,2026,S,MA,0,0,party,4,1,D,M,0,Edward J. Markey;Elizabeth Warren,1.0,1,0.0,0.0,0.0,0.0,Ed Markey,M,John Deaton,M,M-M,,,,,,,,,,,,,,,Wikipedia,,,,
 2026-S-ME-00,2026,S,ME,0,0,party,2,1,R,F,0,"Susan M. Collins;Angus S. King, Jr.",1.0,2,1.0,1.0,0.0,1.0,Troy Jackson,M,Susan Collins,F,M-F,,,,,,,,,,,,,,,Wikipedia,,,,
-2026-S-MI-00,2026,S,MI,0,0,party,6,0,,,1,Gary C. Peters;Elissa Slotkin,1.0,2,2.0,0.0,0.0,0.0,Abdul El-Sayed,M,Mike Rogers,M,M-M,,,,,53.57761899470945,,,,,,,,,,Wikipedia,,,,
+2026-S-MI-00,2026,S,MI,0,0,party,6,0,,,1,Gary C. Peters;Elissa Slotkin,1.0,2,2.0,0.0,0.0,0.0,Abdul El-Sayed,M,Mike Rogers,M,M-M,Abdul El-Sayed,D,M,0.0,53.62267665395149,,,,,,,,,,Wikipedia,,,,
 2026-S-MN-00,2026,S,MN,0,0,party,4,0,,,1,Amy Klobuchar;Tina Smith,1.0,2,2.0,3.0,1.0,1.0,Peggy Flanagan,F,Michele Tafoya,F,F-F,,,,,,,,,,,,,,,Wikipedia,,,,
-2026-S-MS-00,2026,S,MS,0,0,party,3,1,R,F,0,Roger F. Wicker;Cindy Hyde-Smith,1.0,1,1.0,2.0,0.0,1.0,Scott Colom,M,Cindy Hyde-Smith,F,M-F,,,,,,,,,,,,,,,Wikipedia,,,,
+2026-S-MS-00,2026,S,MS,0,0,party,3,1,R,F,0,Roger F. Wicker;Cindy Hyde-Smith,1.0,1,1.0,2.0,0.0,1.0,Scott Colom,M,Cindy Hyde-Smith,F,M-F,,,,,50.097291403046135,,,,,,,,,,Wikipedia,,,,
 2026-S-MT-00,2026,S,MT,0,0,party,4,0,,,1,Steve Daines;Tim Sheehy,0.0,0,2.0,0.0,1.0,0.0,Alani Bankhead,F,Kurt Alme,M,F-M,Kurt Alme,R,M,0.0,19.94812584380683,,,,,,,,,,Wikipedia,,,,
 2026-S-NC-00,2026,S,NC,0,0,party,4,0,,,1,Thom Tillis;Ted Budd,0.0,2,0.0,3.0,0.0,0.0,Roy Cooper,M,Michael Whatley,M,M-M,Roy Cooper,D,M,0.0,60.03241020361946,,,,,,,,,,Wikipedia,,,,
 2026-S-NE-00,2026,S,NE,0,0,party,5,1,R,M,0,Deb Fischer;Pete Ricketts,1.0,1,1.0,1.0,1.0,0.0,,,Pete Ricketts,M,R only,,,,,,,,,,,,,,,Wikipedia,,,,
 2026-S-NH-00,2026,S,NH,0,0,party,3,0,,,1,Jeanne Shaheen;Margaret Wood Hassan,1.0,3,1.0,2.0,0.0,0.0,Chris Pappas,M,John E. Sununu,M,M-M,,,,,,,,,,,,,,,Wikipedia,,,,
 2026-S-NJ-00,2026,S,NJ,0,0,party,5,1,D,M,0,Cory A. Booker;Andy Kim,0.0,0,1.0,1.0,0.0,0.0,Cory Booker,M,Justin Murphy,M,M-M,,,,,,,,,,,,,,,Wikipedia,,,,
-2026-S-NM-00,2026,S,NM,0,0,party,2,1,D,M,0,Martin Heinrich;Ben Ray Luján,0.0,0,0.0,0.0,0.0,0.0,Ben Ray Luján,M,Larry Marker,M,M-M,,,,,,,,,,,,,,,Wikipedia,,,,
-2026-S-OH-00-sp,2026,S,OH,0,1,party,4,1,R,M,0,Bernie Moreno;Jon Husted,0.0,0,0.0,0.0,0.0,0.0,Sherrod Brown,M,Jon Husted,M,M-M,,,,,,,,,,,,,,,Wikipedia,,,,
+2026-S-NM-00,2026,S,NM,0,0,party,2,1,D,M,0,Martin Heinrich;Ben Ray Luján,0.0,0,0.0,0.0,0.0,0.0,Ben Ray Luján,M,Larry Marker,M,M-M,Ben Ray Luján,D,M,0.0,63.237314415816265,,,,,,,,,,Wikipedia,,,,
+2026-S-OH-00-sp,2026,S,OH,0,1,party,4,1,R,M,0,Bernie Moreno;Jon Husted,0.0,0,0.0,0.0,0.0,0.0,Sherrod Brown,M,Jon Husted,M,M-M,Sherrod Brown,D,M,0.0,52.54972264027277,,,,,,,,,,Wikipedia,,,,
 2026-S-OK-00,2026,S,OK,0,0,party,5,0,,,1,James Lankford;Alan Armstrong,0.0,0,1.0,0.0,1.0,0.0,N'Kiyla Jasmine Thomas,F,Kevin Hern,M,F-M,Kevin Hern,R,M,0.0,40.62539836439141,,,,,,,,,,Wikipedia,,,,
 2026-S-OR-00,2026,S,OR,0,0,party,4,1,D,M,0,Jeff Merkley;Ron Wyden,0.0,0,0.0,2.0,0.0,0.0,Jeff Merkley,M,David Brock Smith,M,M-M,,,,,,,,,,,,,,,Wikipedia,,,,
 2026-S-RI-00,2026,S,RI,0,0,party,3,1,D,M,0,Sheldon Whitehouse;Jack Reed,0.0,0,0.0,0.0,0.0,0.0,Jack Reed,M,Raymond McKay,M,M-M,,,,,,,,,,,,,,,Wikipedia,,,,
-2026-S-SC-00,2026,S,SC,0,0,party,4,1,R,M,0,Tim Scott;Darline Graham,1.0,1,1.0,1.0,1.0,0.0,Annie Andrews,F,Darline Graham,F,F-F,,,,,,,,,,,,,,,Wikipedia,,,,
+2026-S-SC-00,2026,S,SC,0,0,party,4,1,R,M,0,Tim Scott;Darline Graham,1.0,1,1.0,1.0,1.0,0.0,Annie Andrews,F,Darline Graham,F,F-F,Annie Andrews,D,F,1.0,52.28732793686767,,,,,,,,,,Wikipedia,,,,
 2026-S-SC-00-sp,2026,S,SC,0,1,party,0,1,R,F,0,Tim Scott;Darline Graham,1.0,1,,2.0,,1.0,,,,,,,,,,,,,,,,,,,,,,,,
 2026-S-SD-00,2026,S,SD,0,0,party,2,1,R,M,0,John Thune;Mike Rounds,0.0,0,,0.0,,0.0,,,Mike Rounds,M,R only,,,,,,,,,,,,,,,Wikipedia,,,,
 2026-S-TN-00,2026,S,TN,0,0,party,11,1,R,M,0,Marsha Blackburn;Bill Hagerty,1.0,1,4.0,0.0,1.0,0.0,Marquita Bradshaw,F,Bill Hagerty,M,F-M,,,,,,,,,,,,,,,Wikipedia,,,,
-2026-S-TX-00,2026,S,TX,0,0,party,3,1,R,M,0,John Cornyn;Ted Cruz,0.0,1,1.0,2.0,0.0,0.0,James Talarico,M,Ken Paxton,M,M-M,James Talarico,D,M,0.0,56.16495440425058,,,,,,,,,,Wikipedia,,,,
+2026-S-TX-00,2026,S,TX,0,0,party,3,1,R,M,0,John Cornyn;Ted Cruz,0.0,1,1.0,2.0,0.0,0.0,James Talarico,M,Ken Paxton,M,M-M,James Talarico,D,M,0.0,56.16504892923809,,,,,,,,,,Wikipedia,,,,
 2026-S-VA-00,2026,S,VA,0,0,party,2,1,D,M,0,Mark R. Warner;Tim Kaine,0.0,0,0.0,1.0,0.0,0.0,Mark Warner,M,Bert Mizusawa,M,M-M,,,,,,,,,,,,,,,Wikipedia,,,,
 2026-S-WV-00,2026,S,WV,0,0,party,3,1,R,F,0,Shelley Moore Capito;James C. Justice,1.0,1,1.0,2.0,1.0,1.0,Rachel Fetty Anderson,F,Shelley Moore Capito,F,F-F,,,,,,,,,,,,,,,Wikipedia,,,,
 2026-S-WY-00,2026,S,WY,0,0,party,2,0,,,1,John Barrasso;Cynthia M. Lummis,1.0,1,0.0,2.0,0.0,1.0,James Byrd,M,Harriet Hageman,F,M-F,,,,,,,,,,,,,,,Wikipedia,,,,
