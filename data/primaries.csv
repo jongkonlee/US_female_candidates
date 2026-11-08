@@ -16049,7 +16049,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2026-H-AL-06,2026,H,AL,6,0,party,R,contested,2,0,2,0,1,M,Gary Palmer,M,80.8,0.0,,80.8,0,Wikipedia
 2026-H-AL-07,2026,H,AL,7,0,party,D,uncontested,1,1,0,0,1,F,Terri Sewell,F,,1.0,,,0,
 2026-H-AL-07,2026,H,AL,7,0,party,R,uncontested,1,1,0,0,0,,Ammie Akin,F,,1.0,,,0,
-2026-H-AR-01,2026,H,AR,1,0,party,D,uncontested,2,1,0,1,0,,,,,,,,0,
+2026-H-AR-01,2026,H,AR,1,0,party,D,uncontested,1,1,0,0,0,,Terri Yarbrough,F,,1.0,,,0,
 2026-H-AR-01,2026,H,AR,1,0,party,R,uncontested,1,0,1,0,1,M,Rick Crawford,M,,0.0,,,0,
 2026-H-AR-02,2026,H,AR,2,0,party,D,contested,2,0,2,0,0,,Chris Jones,M,92.6,0.0,,92.6,0,Wikipedia
 2026-H-AR-02,2026,H,AR,2,0,party,R,contested,2,0,2,0,1,M,French Hill,M,76.8,0.0,,76.8,0,Wikipedia
@@ -16430,7 +16430,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2026-H-MI-03,2026,H,MI,3,0,party,D,uncontested,1,1,0,0,1,F,Hillary Scholten,F,100.0,1.0,100.0,,0,Wikipedia
 2026-H-MI-03,2026,H,MI,3,0,party,R,contested,2,1,1,0,0,,Terri DeBoer,F,78.56,1.0,78.56,21.44,1,Wikipedia
 2026-H-MI-04,2026,H,MI,4,0,party,D,contested,2,0,2,0,0,,Sean McCann,M,65.67,0.0,,65.67,0,Wikipedia
-2026-H-MI-04,2026,H,MI,4,0,party,R,uncontested,1,0,1,0,1,M,Bill Huizenga,M,,0.0,,,0,
+2026-H-MI-04,2026,H,MI,4,0,party,R,contested,2,0,2,0,1,M,Bill Huizenga,M,85.13,0.0,,85.13,0,Wikipedia
 2026-H-MI-05,2026,H,MI,5,0,party,D,uncontested,1,0,1,0,0,,Christian Vukasovich,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-MI-05,2026,H,MI,5,0,party,R,uncontested,1,0,1,0,1,M,Tim Walberg,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-MI-06,2026,H,MI,6,0,party,D,uncontested,1,1,0,0,1,F,Debbie Dingell,F,,1.0,,,0,
