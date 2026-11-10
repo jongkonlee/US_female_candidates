@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T23:23:26Z",
+ "generated": "2026-11-10T23:20:08Z",
  "years": [
   1990,
   1992,
@@ -279,14 +279,14 @@
    "year": 2026,
    "chamber": "H",
    "source": "Wikipedia",
-   "rows": 2526,
+   "rows": 2523,
    "races": 435
   },
   {
    "year": 2026,
    "chamber": "S",
    "source": "Wikipedia",
-   "rows": 348,
+   "rows": 347,
    "races": 36
   }
  ],
@@ -1699,8 +1699,8 @@
    "year": 2026,
    "chamber": "H",
    "races": 435,
-   "decided": 371,
-   "women_won": 121,
+   "decided": 373,
+   "women_won": 122,
    "D": {
     "primaries": 372,
     "with_woman": 232,
@@ -1714,7 +1714,7 @@
     "candidates": 1199,
     "nominees": 434,
     "women_nominees": 194,
-    "seats": 236,
+    "seats": 234,
     "women_seats": 104
    },
    "R": {
@@ -1730,16 +1730,16 @@
     "candidates": 973,
     "nominees": 418,
     "women_nominees": 73,
-    "seats": 135,
-    "women_seats": 17
+    "seats": 139,
+    "women_seats": 18
    }
   },
   {
    "year": 2026,
    "chamber": "S",
    "races": 36,
-   "decided": 24,
-   "women_won": 4,
+   "decided": 27,
+   "women_won": 5,
    "D": {
     "primaries": 33,
     "with_woman": 20,
@@ -1753,7 +1753,7 @@
     "candidates": 128,
     "nominees": 31,
     "women_nominees": 9,
-    "seats": 14,
+    "seats": 16,
     "women_seats": 2
    },
    "R": {
@@ -1769,13 +1769,13 @@
     "candidates": 156,
     "nominees": 34,
     "women_nominees": 9,
-    "seats": 10,
-    "women_seats": 2
+    "seats": 11,
+    "women_seats": 3
    }
   }
  ],
  "counts": {
-  "candidates": 43757,
+  "candidates": 43753,
   "primaries": 16965,
   "races": 8928
  },

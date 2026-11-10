@@ -16519,7 +16519,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2026-H-NC-12,2026,H,NC,12,0,party,R,contested,2,0,2,0,0,,Jack Codiga,M,67.4,0.0,,67.4,0,Wikipedia
 2026-H-NC-13,2026,H,NC,13,0,party,D,contested,3,0,3,0,0,,Paul Barringer,M,59.1,0.0,,59.1,0,Wikipedia
 2026-H-NC-13,2026,H,NC,13,0,party,R,contested,2,0,2,0,1,M,Brad Knott,M,89.9,0.0,,89.9,0,Wikipedia
-2026-H-NC-14,2026,H,NC,14,0,party,D,contested,3,1,2,0,0,,Lakesha Womack,F,52.2,1.0,52.2,41.8,1,Wikipedia
+2026-H-NC-14,2026,H,NC,14,0,party,D,contested,3,1,2,0,0,,LaKesha Womack,F,52.2,1.0,52.2,41.8,1,Wikipedia
 2026-H-NC-14,2026,H,NC,14,0,party,R,contested,2,1,1,0,1,M,Tim Moore,M,83.0,0.0,17.0,83.0,1,Wikipedia
 2026-H-ND-00,2026,H,ND,0,0,party,D,uncontested,1,0,1,0,0,,Trygve Hammer,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-ND-00,2026,H,ND,0,0,party,R,contested,2,1,1,0,1,F,Julie Fedorchak,F,72.9,1.0,72.9,27.1,1,Wikipedia
@@ -16954,7 +16954,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2026-S-SC-00,2026,S,SC,0,0,party,R,contested,7,1,6,0,1,M,Lindsey Graham,M,56.8,0.0,,56.8,1,Wikipedia
 2026-S-SC-00-sp,2026,S,SC,0,1,party,R,runoff,10,2,8,0,1,F,Darline Graham,F,52.4,1.0,32.8,24.6,1,Wikipedia
 2026-S-SD-00,2026,S,SD,0,0,party,R,contested,2,0,2,0,1,M,Mike Rounds,M,75.8,0.0,,75.8,0,Wikipedia
-2026-S-TN-00,2026,S,TN,0,0,party,D,contested,5,4,1,0,0,,Marquita Bradshaw,F,54.8,1.0,54.8,10.1,1,Wikipedia
+2026-S-TN-00,2026,S,TN,0,0,party,D,contested,5,4,1,0,0,,Marquita Bradshaw,F,54.79,1.0,54.79,10.07,1,Wikipedia
 2026-S-TN-00,2026,S,TN,0,0,party,R,uncontested,1,0,1,0,1,M,Bill Hagerty,M,100.0,0.0,,100.0,0,Wikipedia
 2026-S-TX-00,2026,S,TX,0,0,party,D,contested,3,1,2,0,0,,James Talarico,M,52.4,0.0,46.2,52.4,1,Wikipedia
 2026-S-TX-00,2026,S,TX,0,0,party,R,runoff,8,2,6,0,1,M,Ken Paxton,M,63.8,0.0,1.2,42.0,1,Wikipedia
