@@ -8542,7 +8542,7 @@ race_id,year,chamber,state,district,special,system,n_general,incumbent_running,i
 2026-H-CT-03,2026,H,CT,3,0,party,3,0,,,1,Rosa L. DeLauro,1.0,1,1.0,0.0,1.0,0.0,Rosa DeLauro,F,Chris Lancia,M,F-M,Rosa DeLauro,D,F,1.0,,,,,,,,,,,Wikipedia overview,1.0,0.0,5.0,4.0
 2026-H-CT-04,2026,H,CT,4,0,party,3,0,,,1,James A. Himes,0.0,0,0.0,0.0,0.0,0.0,Jim Himes,M,Michael Goldstein,M,M-M,Jim Himes,D,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,3.0,3.0
 2026-H-CT-05,2026,H,CT,5,0,party,2,0,,,1,Jahana Hayes,1.0,1,1.0,0.0,1.0,0.0,Jahana Hayes,F,Chris Shea,M,F-M,Jahana Hayes,D,F,1.0,,,,,,,,,,,Wikipedia overview,3.0,2.0,4.0,3.0
-2026-H-DE-00,2026,H,DE,0,0,party,2,0,,,1,Sarah McBride,1.0,2,1.0,0.0,1.0,0.0,Sarah McBride,F,Joseph Arminio,M,F-M,Sarah McBride,D,F,1.0,,,,,,,,,,,Wikipedia overview,2.0,1.0,5.0,4.0
+2026-H-DE-00,2026,H,DE,0,0,party,2,0,,,1,Sarah McBride,1.0,2,1.0,0.0,1.0,0.0,Sarah McBride,F,Joseph Arminio,M,F-M,Sarah McBride,D,F,1.0,64.36436436436436,,,,,,,,,,Wikipedia overview,2.0,1.0,5.0,4.0
 2026-H-FL-01,2026,H,FL,1,0,party,3,1,R,M,0,Jimmy Patronis,0.0,0,1.0,0.0,1.0,0.0,Gay Valimont,F,Jimmy Patronis,M,F-M,,,,,36.310396852345164,,,,,,,,,,Wikipedia,0.0,0.0,3.0,2.0
 2026-H-FL-02,2026,H,FL,2,0,party,2,0,,,1,Neal P. Dunn,0.0,0,3.0,0.0,1.0,0.0,Amanda Green,F,Austin Rogers,M,F-M,,,,,47.909737104954374,,,,,,,,,,Wikipedia,1.0,1.0,4.0,4.0
 2026-H-FL-03,2026,H,FL,3,0,party,3,1,R,F,0,Kat Cammack,1.0,1,0.0,1.0,0.0,1.0,Seth Harp,M,Kat Cammack,F,M-F,,,,,43.80652252081114,,,,,,,,,,Wikipedia,1.0,0.0,3.0,2.0
@@ -8674,7 +8674,7 @@ race_id,year,chamber,state,district,special,system,n_general,incumbent_running,i
 2026-H-MN-05,2026,H,MN,5,0,party,3,1,D,F,0,Ilhan Omar,1.0,1,4.0,3.0,1.0,0.0,Ilhan Omar,F,Joe Nagel,M,F-M,Ilhan Omar,D,F,1.0,82.48955150769153,,,,,,,,,,Wikipedia,1.0,0.0,6.0,5.0
 2026-H-MN-06,2026,H,MN,6,0,party,2,1,R,M,0,Tom Emmer,0.0,0,0.0,0.0,0.0,0.0,Doug Chapin,M,Tom Emmer,M,M-M,Tom Emmer,R,M,0.0,44.20948492719101,,,,,,,,,,Wikipedia,1.0,1.0,6.0,6.0
 2026-H-MN-07,2026,H,MN,7,0,party,2,1,R,F,0,Michelle Fischbach,1.0,1,0.0,1.0,0.0,1.0,Erik Osberg,M,Michelle Fischbach,F,M-F,Michelle Fischbach,R,F,1.0,35.05970185402715,,,,,,,,,,Wikipedia,1.0,0.0,2.0,1.0
-2026-H-MN-08,2026,H,MN,8,0,party,2,1,R,M,0,Pete Stauber,0.0,0,2.0,0.0,1.0,0.0,Jeanne Hendricks,F,Pete Stauber,M,F-M,Pete Stauber,R,M,0.0,46.881874940823295,,,,,,,,,,Wikipedia,0.0,0.0,2.0,2.0
+2026-H-MN-08,2026,H,MN,8,0,party,2,1,R,M,0,Pete Stauber,0.0,0,1.0,0.0,1.0,0.0,Trina Swanson,F,Pete Stauber,M,F-M,Pete Stauber,R,M,0.0,46.881874940823295,,,,,,,,,,Wikipedia,0.0,0.0,2.0,2.0
 2026-H-MO-01,2026,H,MO,1,0,party,3,1,D,M,0,Wesley Bell,0.0,1,2.0,0.0,0.0,0.0,Wesley Bell,M,Paul Berry,M,M-M,Wesley Bell,D,M,0.0,85.41287593178708,,,,,,,,,,Wikipedia,1.0,1.0,2.0,2.0
 2026-H-MO-02,2026,H,MO,2,0,party,3,1,R,F,0,Ann Wagner,1.0,1,1.0,2.0,0.0,1.0,Fred Wellman,M,Ann Wagner,F,M-F,Fred Wellman,D,M,0.0,52.533252327120444,,,,,,,,,,Wikipedia,1.0,0.0,3.0,2.0
 2026-H-MO-03,2026,H,MO,3,0,party,3,1,R,M,0,"Robert F. Onder, Jr.",0.0,0,1.0,0.0,1.0,0.0,Bethany Mann,F,Bob Onder,M,F-M,Bob Onder,R,M,0.0,17.79594264846018,,,,,,,,,,Wikipedia,0.0,0.0,2.0,1.0
@@ -8908,7 +8908,7 @@ race_id,year,chamber,state,district,special,system,n_general,incumbent_running,i
 2026-S-ME-00,2026,S,ME,0,0,party,2,1,R,F,0,"Susan M. Collins;Angus S. King, Jr.",1.0,2,1.0,1.0,0.0,1.0,Troy Jackson,M,Susan Collins,F,M-F,Troy Jackson,D,M,0.0,53.101752003527395,,,,,,,,,,Wikipedia,,,,
 2026-S-MI-00,2026,S,MI,0,0,party,6,0,,,1,Gary C. Peters;Elissa Slotkin,1.0,2,2.0,0.0,0.0,0.0,Abdul El-Sayed,M,Mike Rogers,M,M-M,Abdul El-Sayed,D,M,0.0,53.613097090147555,,,,,,,,,,Wikipedia,,,,
 2026-S-MN-00,2026,S,MN,0,0,party,4,0,,,1,Amy Klobuchar;Tina Smith,1.0,2,2.0,3.0,1.0,1.0,Peggy Flanagan,F,Michele Tafoya,F,F-F,Peggy Flanagan,D,F,1.0,55.217116797556734,,,,,,,,,,Wikipedia,,,,
-2026-S-MS-00,2026,S,MS,0,0,party,3,1,R,F,0,Roger F. Wicker;Cindy Hyde-Smith,1.0,1,1.0,2.0,0.0,1.0,Scott Colom,M,Cindy Hyde-Smith,F,M-F,Scott Colom,D,M,0.0,50.24393721582778,,,,,,,,,,Wikipedia,,,,
+2026-S-MS-00,2026,S,MS,0,0,party,3,1,R,F,0,Roger F. Wicker;Cindy Hyde-Smith,1.0,1,1.0,2.0,0.0,1.0,Scott Colom,M,Cindy Hyde-Smith,F,M-F,Scott Colom,D,M,0.0,50.297554733546036,,,,,,,,,,Wikipedia,,,,
 2026-S-MT-00,2026,S,MT,0,0,party,4,0,,,1,Steve Daines;Tim Sheehy,0.0,0,2.0,0.0,1.0,0.0,Alani Bankhead,F,Kurt Alme,M,F-M,Kurt Alme,R,M,0.0,20.28771670970122,,,,,,,,,,Wikipedia,,,,
 2026-S-NC-00,2026,S,NC,0,0,party,4,0,,,1,Thom Tillis;Ted Budd,0.0,2,0.0,3.0,0.0,0.0,Roy Cooper,M,Michael Whatley,M,M-M,Roy Cooper,D,M,0.0,60.07572712081951,,,,,,,,,,Wikipedia,,,,
 2026-S-NE-00,2026,S,NE,0,0,party,5,1,R,M,0,Deb Fischer;Pete Ricketts,1.0,1,1.0,1.0,1.0,0.0,,,Pete Ricketts,M,R only,,,,,,,,,,,,,,,Wikipedia,,,,
@@ -8923,7 +8923,7 @@ race_id,year,chamber,state,district,special,system,n_general,incumbent_running,i
 2026-S-SC-00-sp,2026,S,SC,0,1,party,0,1,R,F,0,Tim Scott;Darline Graham,1.0,1,,2.0,,1.0,,,,,,,,,,,,,,,,,,,,,,,,
 2026-S-SD-00,2026,S,SD,0,0,party,2,1,R,M,0,John Thune;Mike Rounds,0.0,0,,0.0,,0.0,,,Mike Rounds,M,R only,Mike Rounds,R,M,0.0,,,,,,,,,,,Wikipedia,,,,
 2026-S-TN-00,2026,S,TN,0,0,party,10,1,R,M,0,Marsha Blackburn;Bill Hagerty,1.0,1,4.0,0.0,1.0,0.0,Marquita Bradshaw,F,Bill Hagerty,M,F-M,Bill Hagerty,R,M,0.0,43.79231859228502,,,,,,,,,,Wikipedia,,,,
-2026-S-TX-00,2026,S,TX,0,0,party,3,1,R,M,0,John Cornyn;Ted Cruz,0.0,1,1.0,2.0,0.0,0.0,James Talarico,M,Ken Paxton,M,M-M,James Talarico,D,M,0.0,56.16847772567053,,,,,,,,,,Wikipedia,,,,
+2026-S-TX-00,2026,S,TX,0,0,party,3,1,R,M,0,John Cornyn;Ted Cruz,0.0,1,1.0,2.0,0.0,0.0,James Talarico,M,Ken Paxton,M,M-M,James Talarico,D,M,0.0,56.168295767362935,,,,,,,,,,Wikipedia,,,,
 2026-S-VA-00,2026,S,VA,0,0,party,2,1,D,M,0,Mark R. Warner;Tim Kaine,0.0,0,0.0,1.0,0.0,0.0,Mark Warner,M,Bert Mizusawa,M,M-M,Mark Warner,D,M,0.0,61.50727319277971,,,,,,,,,,Wikipedia,,,,
 2026-S-WV-00,2026,S,WV,0,0,party,3,1,R,F,0,Shelley Moore Capito;James C. Justice,1.0,1,1.0,2.0,1.0,1.0,Rachel Fetty Anderson,F,Shelley Moore Capito,F,F-F,Shelley Moore Capito,R,F,1.0,39.39096423828388,,,,,,,,,,Wikipedia,,,,
 2026-S-WY-00,2026,S,WY,0,0,party,2,0,,,1,John Barrasso;Cynthia M. Lummis,1.0,1,0.0,2.0,0.0,1.0,James Byrd,M,Harriet Hageman,F,M-F,Harriet Hageman,R,F,1.0,34.763641412010955,,,,,,,,,,Wikipedia,,,,

@@ -16433,7 +16433,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2026-H-MI-04,2026,H,MI,4,0,party,R,contested,2,0,2,0,1,M,Bill Huizenga,M,85.13,0.0,,85.13,0,Wikipedia
 2026-H-MI-05,2026,H,MI,5,0,party,D,uncontested,1,0,1,0,0,,Christian Vukasovich,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-MI-05,2026,H,MI,5,0,party,R,uncontested,1,0,1,0,1,M,Tim Walberg,M,100.0,0.0,,100.0,0,Wikipedia
-2026-H-MI-06,2026,H,MI,6,0,party,D,uncontested,1,1,0,0,1,F,Debbie Dingell,F,,1.0,,,0,
+2026-H-MI-06,2026,H,MI,6,0,party,D,uncontested,1,1,0,0,1,F,Debbie Dingell,F,100.0,1.0,100.0,,0,Wikipedia
 2026-H-MI-06,2026,H,MI,6,0,party,R,uncontested,1,1,0,0,0,,Heather Smiley,F,100.0,1.0,100.0,,0,Wikipedia
 2026-H-MI-07,2026,H,MI,7,0,party,D,contested,3,1,2,0,0,,William Lawrence,M,43.65,0.0,28.79,43.65,1,Wikipedia
 2026-H-MI-07,2026,H,MI,7,0,party,R,uncontested,1,0,1,0,1,M,Tom Barrett,M,100.0,0.0,,100.0,0,Wikipedia
@@ -16463,7 +16463,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2026-H-MN-06,2026,H,MN,6,0,party,R,contested,3,0,3,0,1,M,Tom Emmer,M,80.9,0.0,,80.9,0,Wikipedia
 2026-H-MN-07,2026,H,MN,7,0,party,D,contested,2,0,2,0,0,,Erik Osberg,M,65.7,0.0,,65.7,0,Wikipedia
 2026-H-MN-07,2026,H,MN,7,0,party,R,uncontested,1,1,0,0,1,F,Michelle Fischbach,F,100.0,1.0,100.0,,0,Wikipedia
-2026-H-MN-08,2026,H,MN,8,0,party,D,contested,4,2,2,0,0,,Trina Swanson,F,77.2,1.0,77.2,16.9,1,Wikipedia
+2026-H-MN-08,2026,H,MN,8,0,party,D,contested,3,1,2,0,0,,Trina Swanson,F,77.2,1.0,77.2,16.9,1,Wikipedia
 2026-H-MN-08,2026,H,MN,8,0,party,R,contested,2,0,2,0,1,M,Pete Stauber,M,86.4,0.0,,86.4,0,Wikipedia
 2026-H-MO-01,2026,H,MO,1,0,party,D,contested,5,2,3,0,1,M,Wesley Bell,M,59.2,0.0,36.9,59.2,1,Wikipedia
 2026-H-MO-01,2026,H,MO,1,0,party,R,contested,2,0,2,0,0,,Paul Berry,M,53.4,0.0,,53.4,0,Wikipedia
