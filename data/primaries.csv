@@ -16194,7 +16194,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2026-H-CO-07,2026,H,CO,7,0,party,R,uncontested,1,0,1,0,0,,Tim Bennett,M,100.0,0.0,,100.0,0,Wikipedia
 2026-H-CO-08,2026,H,CO,8,0,party,D,contested,3,1,2,0,0,,Manny Rutinel,M,62.8,0.0,32.5,62.8,1,Wikipedia
 2026-H-CO-08,2026,H,CO,8,0,party,R,uncontested,1,0,1,0,1,M,Gabe Evans,M,100.0,0.0,,100.0,0,Wikipedia
-2026-H-CT-01,2026,H,CT,1,0,party,D,contested,4,2,2,0,1,M,Luke Bronin,M,53.6,0.0,8.2,53.6,1,Wikipedia
+2026-H-CT-01,2026,H,CT,1,0,party,D,contested,4,2,2,0,1,M,Luke Bronin,M,53.64,0.0,8.2,53.64,1,Wikipedia
 2026-H-CT-01,2026,H,CT,1,0,party,R,uncontested,1,1,0,0,0,,Amy Chai,F,,1.0,,,0,
 2026-H-CT-02,2026,H,CT,2,0,party,D,uncontested,1,0,1,0,1,M,Joe Courtney,M,,0.0,,,0,
 2026-H-CT-02,2026,H,CT,2,0,party,R,uncontested,1,0,1,0,0,,George Austin,M,,0.0,,,0,

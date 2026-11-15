@@ -8724,10 +8724,10 @@ race_id,year,chamber,state,district,special,system,n_general,incumbent_running,i
 2026-H-NM-01,2026,H,NM,1,0,party,3,1,D,F,0,Melanie A. Stansbury,1.0,1,1.0,2.0,1.0,1.0,Melanie Stansbury,F,Didi Okpareke,F,F-F,Melanie Stansbury,D,F,1.0,,,,,,,,,,,Wikipedia;Wikipedia overview,4.0,3.0,8.0,7.0
 2026-H-NM-02,2026,H,NM,2,0,party,2,1,D,M,0,Gabe Vasquez,0.0,0,0.0,0.0,0.0,0.0,Gabe Vasquez,M,Greg Cunningham,M,M-M,Gabe Vasquez,D,M,0.0,,,,,,,,,,,Wikipedia overview,2.0,2.0,6.0,6.0
 2026-H-NM-03,2026,H,NM,3,0,party,2,1,D,F,0,Teresa Leger Fernandez,1.0,1,1.0,0.0,1.0,0.0,Teresa Leger Fernández,F,Martin Zamora,M,F-M,Teresa Leger Fernández,D,F,1.0,,,,,,,,,,,Wikipedia overview,1.0,0.0,4.0,3.0
-2026-H-NV-01,2026,H,NV,1,0,party,4,1,D,F,0,Dina Titus,1.0,1,2.0,2.0,1.0,1.0,Dina Titus,F,Carrie Buck,F,F-F,Dina Titus,D,F,1.0,,,,,,,,,,,Wikipedia overview,2.0,1.0,6.0,5.0
-2026-H-NV-02,2026,H,NV,2,0,party,3,0,,,1,Mark E. Amodei,0.0,0,3.0,2.0,1.0,0.0,Teresa Benitez-Thompson,F,David Flippo,M,F-M,Teresa Benitez-Thompson,D,F,1.0,,,,,,,,,,,Wikipedia overview,1.0,1.0,10.0,10.0
-2026-H-NV-03,2026,H,NV,3,0,party,3,1,D,F,0,Susie Lee,1.0,1,1.0,1.0,1.0,0.0,Susie Lee,F,Martin O'Donnell,M,F-M,Susie Lee,D,F,1.0,,,,,,,,,,,Wikipedia overview,3.0,2.0,7.0,6.0
-2026-H-NV-04,2026,H,NV,4,0,party,4,1,D,M,0,Steven Horsford,0.0,0,0.0,1.0,0.0,0.0,Steven Horsford,M,Cody Whipple,M,M-M,Steven Horsford,D,M,0.0,,,,,,,,,,,Wikipedia overview,2.0,2.0,6.0,6.0
+2026-H-NV-01,2026,H,NV,1,0,party,4,1,D,F,0,Dina Titus,1.0,1,2.0,2.0,1.0,1.0,Dina Titus,F,Carrie Buck,F,F-F,Dina Titus,D,F,1.0,61.20641733352294,,,,,,,,,,Wikipedia,2.0,1.0,6.0,5.0
+2026-H-NV-02,2026,H,NV,2,0,party,3,0,,,1,Mark E. Amodei,0.0,0,3.0,2.0,1.0,0.0,Teresa Benitez-Thompson,F,David Flippo,M,F-M,Teresa Benitez-Thompson,D,F,1.0,53.32732026739692,,,,,,,,,,Wikipedia,1.0,1.0,10.0,10.0
+2026-H-NV-03,2026,H,NV,3,0,party,3,1,D,F,0,Susie Lee,1.0,1,1.0,1.0,1.0,0.0,Susie Lee,F,Martin O'Donnell,M,F-M,Susie Lee,D,F,1.0,61.063539596241206,,,,,,,,,,Wikipedia,3.0,2.0,7.0,6.0
+2026-H-NV-04,2026,H,NV,4,0,party,4,1,D,M,0,Steven Horsford,0.0,0,0.0,1.0,0.0,0.0,Steven Horsford,M,Cody Whipple,M,M-M,Steven Horsford,D,M,0.0,61.65508426548551,,,,,,,,,,Wikipedia,2.0,2.0,6.0,6.0
 2026-H-NY-01,2026,H,NY,1,0,party,2,1,R,M,0,Nick LaLota,0.0,0,0.0,0.0,0.0,0.0,Chris Gallant,M,Nick LaLota,M,M-M,Nick LaLota,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,5.0,5.0
 2026-H-NY-02,2026,H,NY,2,0,party,2,1,R,M,0,Andrew R. Garbarino,0.0,0,0.0,0.0,0.0,0.0,Patrick Halpin,M,Andrew Garbarino,M,M-M,Andrew Garbarino,R,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,5.0,5.0
 2026-H-NY-03,2026,H,NY,3,0,party,2,1,D,M,0,Thomas R. Suozzi,0.0,0,1.0,0.0,0.0,0.0,Tom Suozzi,M,Mike LiPetri,M,M-M,Tom Suozzi,D,M,0.0,,,,,,,,,,,Wikipedia overview,0.0,0.0,0.0,0.0
