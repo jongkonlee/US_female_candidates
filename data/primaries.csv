@@ -16378,17 +16378,17 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2026-H-KY-06,2026,H,KY,6,0,party,D,contested,7,2,5,0,0,,Zach Dembo,M,39.6,0.0,31.5,39.6,1,Wikipedia
 2026-H-KY-06,2026,H,KY,6,0,party,R,contested,5,0,5,0,0,,Ralph Alvarado,M,56.5,0.0,,56.5,0,Wikipedia
 2026-H-LA-01,2026,H,LA,1,0,party,D,uncontested,1,1,0,0,0,,Lauren Jewett,F,,1.0,,,0,
-2026-H-LA-01,2026,H,LA,1,0,party,R,uncontested,2,0,2,0,1,M,,,,,,,0,
-2026-H-LA-02,2026,H,LA,2,0,party,D,uncontested,2,0,1,1,1,M,,,,,,,0,
+2026-H-LA-01,2026,H,LA,1,0,party,R,uncontested,2,0,2,0,1,M,Steve Scalise,M,,0.0,,,0,
+2026-H-LA-02,2026,H,LA,2,0,party,D,uncontested,2,0,1,1,1,M,Troy Carter,M,,0.0,,,0,
 2026-H-LA-02,2026,H,LA,2,0,party,R,uncontested,1,0,1,0,0,,Peter Williams,M,,0.0,,,0,
-2026-H-LA-03,2026,H,LA,3,0,party,D,uncontested,3,1,2,0,0,,,,,,,,1,
-2026-H-LA-03,2026,H,LA,3,0,party,R,uncontested,2,1,1,0,1,M,,,,,,,1,
-2026-H-LA-04,2026,H,LA,4,0,party,D,uncontested,2,0,2,0,0,,,,,,,,0,
-2026-H-LA-04,2026,H,LA,4,0,party,R,uncontested,3,0,3,0,1,M,,,,,,,0,
-2026-H-LA-05,2026,H,LA,5,0,party,D,uncontested,3,1,2,0,0,,,,,,,,1,
-2026-H-LA-05,2026,H,LA,5,0,party,R,uncontested,6,1,5,0,0,,,,,,,,1,
-2026-H-LA-06,2026,H,LA,6,0,party,D,uncontested,3,2,1,0,0,,,,,,,,1,
-2026-H-LA-06,2026,H,LA,6,0,party,R,uncontested,6,1,5,0,0,,,,,,,,1,
+2026-H-LA-03,2026,H,LA,3,0,party,D,uncontested,3,1,2,0,0,,John Day,M,,0.0,,,1,
+2026-H-LA-03,2026,H,LA,3,0,party,R,uncontested,2,1,1,0,1,M,Clay Higgins,M,,0.0,,,1,
+2026-H-LA-04,2026,H,LA,4,0,party,D,uncontested,2,0,2,0,0,,Conrad Cable,M,,0.0,,,0,
+2026-H-LA-04,2026,H,LA,4,0,party,R,uncontested,3,0,3,0,1,M,Mike Johnson,M,,0.0,,,0,
+2026-H-LA-05,2026,H,LA,5,0,party,D,uncontested,3,1,2,0,0,,Patricia Moore,F,,1.0,,,1,
+2026-H-LA-05,2026,H,LA,5,0,party,R,uncontested,6,1,5,0,0,,Gabe Firment,M,,0.0,,,1,
+2026-H-LA-06,2026,H,LA,6,0,party,D,uncontested,3,2,1,0,0,,Chauna Banks,F,,1.0,,,1,
+2026-H-LA-06,2026,H,LA,6,0,party,R,uncontested,6,1,5,0,0,,Blake Miguez,M,,0.0,,,1,
 2026-H-MA-01,2026,H,MA,1,0,party,D,contested,2,0,2,0,1,M,Richard Neal,M,54.0,0.0,,54.0,0,Wikipedia
 2026-H-MA-02,2026,H,MA,2,0,party,D,uncontested,1,0,1,0,1,M,Jim McGovern,M,99.6,0.0,,99.6,0,Wikipedia
 2026-H-MA-03,2026,H,MA,3,0,party,D,uncontested,1,1,0,0,1,F,Lori Trahan,F,99.2,1.0,99.2,,0,Wikipedia
@@ -16496,7 +16496,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2026-H-NC-01,2026,H,NC,1,0,party,D,uncontested,1,0,1,0,1,M,Don Davis,M,,0.0,,,0,
 2026-H-NC-01,2026,H,NC,1,0,party,R,contested,5,2,3,0,0,,Laurie Buckhout,F,39.5,1.0,39.5,34.5,1,Wikipedia
 2026-H-NC-02,2026,H,NC,2,0,party,D,uncontested,1,1,0,0,1,F,Deborah Ross,F,,1.0,,,0,
-2026-H-NC-02,2026,H,NC,2,0,party,R,uncontested,1,0,1,0,0,,Eugene Douglass,M,,0.0,,,0,
+2026-H-NC-02,2026,H,NC,2,0,party,R,uncontested,1,0,1,0,0,,Gene Douglass,M,,0.0,,,0,
 2026-H-NC-03,2026,H,NC,3,0,party,D,contested,2,1,1,0,0,,Raymond Smith Jr.,M,56.7,0.0,43.3,56.7,1,Wikipedia
 2026-H-NC-03,2026,H,NC,3,0,party,R,uncontested,1,0,1,0,1,M,Greg Murphy,M,,0.0,,,0,
 2026-H-NC-04,2026,H,NC,4,0,party,D,contested,3,3,0,0,1,F,Valerie Foushee,F,49.2,1.0,49.2,,0,Wikipedia
