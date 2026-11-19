@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T23:31:10Z",
+ "generated": "2026-11-19T23:23:30Z",
  "years": [
   1990,
   1992,
@@ -1699,7 +1699,7 @@
    "year": 2026,
    "chamber": "H",
    "races": 435,
-   "decided": 382,
+   "decided": 383,
    "women_won": 126,
    "D": {
     "primaries": 372,
@@ -1730,7 +1730,7 @@
     "candidates": 973,
     "nominees": 418,
     "women_nominees": 72,
-    "seats": 142,
+    "seats": 143,
     "women_seats": 18
    }
   },
