@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T23:23:57Z",
+ "generated": "2026-11-23T23:32:19Z",
  "years": [
   1990,
   1992,
@@ -286,7 +286,7 @@
    "year": 2026,
    "chamber": "S",
    "source": "Wikipedia",
-   "rows": 349,
+   "rows": 348,
    "races": 36
   }
  ],
@@ -1775,7 +1775,7 @@
   }
  ],
  "counts": {
-  "candidates": 43757,
+  "candidates": 43756,
   "primaries": 16965,
   "races": 8928
  },
