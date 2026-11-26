@@ -16181,7 +16181,7 @@ race_id,year,chamber,state,district,special,system,party,contest,n_cand,n_women,
 2026-H-CO-01,2026,H,CO,1,0,party,D,contested,3,3,0,0,1,F,Melat Kiros,F,53.2,1.0,53.2,,0,Wikipedia
 2026-H-CO-01,2026,H,CO,1,0,party,R,uncontested,1,1,0,0,0,,Christy Peterson,F,100.0,1.0,100.0,,0,Wikipedia
 2026-H-CO-02,2026,H,CO,2,0,party,D,uncontested,1,0,1,0,1,M,Joe Neguse,M,100.0,0.0,,100.0,0,Wikipedia
-2026-H-CO-02,2026,H,CO,2,0,party,R,contested,2,2,0,0,0,,Kelley Dennison,F,57.9,1.0,57.9,,0,Wikipedia
+2026-H-CO-02,2026,H,CO,2,0,party,R,contested,3,2,1,0,0,,Kelley Dennison,F,57.9,1.0,57.9,,1,Wikipedia
 2026-H-CO-03,2026,H,CO,3,0,party,D,contested,2,0,2,0,0,,Dwayne Romero,M,54.8,0.0,,54.8,0,Wikipedia
 2026-H-CO-03,2026,H,CO,3,0,party,R,contested,2,0,2,0,1,M,Jeff Hurd,M,66.4,0.0,,66.4,0,Wikipedia
 2026-H-CO-04,2026,H,CO,4,0,party,D,uncontested,1,1,0,0,0,,Eileen Laubacher,F,100.0,1.0,100.0,,0,Wikipedia
